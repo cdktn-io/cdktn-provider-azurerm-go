@@ -292,17 +292,6 @@ func (s *jsiiProxy_StorageAccount) validatePutNetworkRulesParameters(value *Stor
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccount) validatePutQueuePropertiesParameters(value *StorageAccountQueueProperties) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
-	}
-
-	return nil
-}
-
 func (s *jsiiProxy_StorageAccount) validatePutRoutingParameters(value *StorageAccountRouting) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -326,17 +315,6 @@ func (s *jsiiProxy_StorageAccount) validatePutSasPolicyParameters(value *Storage
 }
 
 func (s *jsiiProxy_StorageAccount) validatePutSharePropertiesParameters(value *StorageAccountShareProperties) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
-	}
-
-	return nil
-}
-
-func (s *jsiiProxy_StorageAccount) validatePutStaticWebsiteParameters(value *StorageAccountStaticWebsite) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

@@ -93,22 +93,22 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validateInterpolation
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutRequestHeaderActionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutModifyRequestHeaderParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleActionsRequestHeaderAction:
-		value := value.(*[]*CdnFrontdoorRuleActionsRequestHeaderAction)
+	case *[]*CdnFrontdoorRuleActionsModifyRequestHeader:
+		value := value.(*[]*CdnFrontdoorRuleActionsModifyRequestHeader)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleActionsRequestHeaderAction:
-		value_ := value.([]*CdnFrontdoorRuleActionsRequestHeaderAction)
+	case []*CdnFrontdoorRuleActionsModifyRequestHeader:
+		value_ := value.([]*CdnFrontdoorRuleActionsModifyRequestHeader)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -117,29 +117,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutRequestHea
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleActionsRequestHeaderAction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleActionsModifyRequestHeader; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutResponseHeaderActionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutModifyResponseHeaderParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleActionsResponseHeaderAction:
-		value := value.(*[]*CdnFrontdoorRuleActionsResponseHeaderAction)
+	case *[]*CdnFrontdoorRuleActionsModifyResponseHeader:
+		value := value.(*[]*CdnFrontdoorRuleActionsModifyResponseHeader)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleActionsResponseHeaderAction:
-		value_ := value.([]*CdnFrontdoorRuleActionsResponseHeaderAction)
+	case []*CdnFrontdoorRuleActionsModifyResponseHeader:
+		value_ := value.([]*CdnFrontdoorRuleActionsModifyResponseHeader)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -148,14 +148,14 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutResponseHe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleActionsResponseHeaderAction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleActionsModifyResponseHeader; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutRouteConfigurationOverrideActionParameters(value *CdnFrontdoorRuleActionsRouteConfigurationOverrideAction) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutRouteConfigurationOverrideParameters(value *CdnFrontdoorRuleActionsRouteConfigurationOverride) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -166,7 +166,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutRouteConfi
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRedirectActionParameters(value *CdnFrontdoorRuleActionsUrlRedirectAction) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRedirectParameters(value *CdnFrontdoorRuleActionsUrlRedirect) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -177,7 +177,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRedirec
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRewriteActionParameters(value *CdnFrontdoorRuleActionsUrlRewriteAction) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRewriteParameters(value *CdnFrontdoorRuleActionsUrlRewrite) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

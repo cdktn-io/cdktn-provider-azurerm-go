@@ -5,14 +5,14 @@ package windowsvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/windowsvirtualmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/windowsvirtualmachine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine}.
 type WindowsVirtualMachine interface {
 	cdktn.TerraformResource
 	AdditionalCapabilities() WindowsVirtualMachineAdditionalCapabilitiesOutputReference
@@ -76,9 +76,6 @@ type WindowsVirtualMachine interface {
 	EdgeZone() *string
 	SetEdgeZone(val *string)
 	EdgeZoneInput() *string
-	EnableAutomaticUpdates() interface{}
-	SetEnableAutomaticUpdates(val interface{})
-	EnableAutomaticUpdatesInput() interface{}
 	EncryptionAtHostEnabled() interface{}
 	SetEncryptionAtHostEnabled(val interface{})
 	EncryptionAtHostEnabledInput() interface{}
@@ -210,9 +207,7 @@ type WindowsVirtualMachine interface {
 	VirtualMachineScaleSetId() *string
 	SetVirtualMachineScaleSetId(val *string)
 	VirtualMachineScaleSetIdInput() *string
-	VmAgentPlatformUpdatesEnabled() interface{}
-	SetVmAgentPlatformUpdatesEnabled(val interface{})
-	VmAgentPlatformUpdatesEnabledInput() interface{}
+	VmAgentPlatformUpdatesEnabled() cdktn.IResolvable
 	VtpmEnabled() interface{}
 	SetVtpmEnabled(val interface{})
 	VtpmEnabledInput() interface{}
@@ -342,7 +337,6 @@ type WindowsVirtualMachine interface {
 	ResetDedicatedHostId()
 	ResetDiskControllerType()
 	ResetEdgeZone()
-	ResetEnableAutomaticUpdates()
 	ResetEncryptionAtHostEnabled()
 	ResetEvictionPolicy()
 	ResetExtensionsTimeBudget()
@@ -375,7 +369,6 @@ type WindowsVirtualMachine interface {
 	ResetTimezone()
 	ResetUserData()
 	ResetVirtualMachineScaleSetId()
-	ResetVmAgentPlatformUpdatesEnabled()
 	ResetVtpmEnabled()
 	ResetWinrmListener()
 	ResetZone()
@@ -771,26 +764,6 @@ func (j *jsiiProxy_WindowsVirtualMachine) EdgeZoneInput() *string {
 	_jsii_.Get(
 		j,
 		"edgeZoneInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachine) EnableAutomaticUpdates() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAutomaticUpdates",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachine) EnableAutomaticUpdatesInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAutomaticUpdatesInput",
 		&returns,
 	)
 	return returns
@@ -1656,21 +1629,11 @@ func (j *jsiiProxy_WindowsVirtualMachine) VirtualMachineScaleSetIdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine) VmAgentPlatformUpdatesEnabled() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_WindowsVirtualMachine) VmAgentPlatformUpdatesEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"vmAgentPlatformUpdatesEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachine) VmAgentPlatformUpdatesEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"vmAgentPlatformUpdatesEnabledInput",
 		&returns,
 	)
 	return returns
@@ -1737,7 +1700,7 @@ func (j *jsiiProxy_WindowsVirtualMachine) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine} Resource.
 func NewWindowsVirtualMachine(scope constructs.Construct, id *string, config *WindowsVirtualMachineConfig) WindowsVirtualMachine {
 	_init_.Initialize()
 
@@ -1755,7 +1718,7 @@ func NewWindowsVirtualMachine(scope constructs.Construct, id *string, config *Wi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine} Resource.
 func NewWindowsVirtualMachine_Override(w WindowsVirtualMachine, scope constructs.Construct, id *string, config *WindowsVirtualMachineConfig) {
 	_init_.Initialize()
 
@@ -1935,17 +1898,6 @@ func (j *jsiiProxy_WindowsVirtualMachine)SetEdgeZone(val *string) {
 	_jsii_.Set(
 		j,
 		"edgeZone",
-		val,
-	)
-}
-
-func (j *jsiiProxy_WindowsVirtualMachine)SetEnableAutomaticUpdates(val interface{}) {
-	if err := j.validateSetEnableAutomaticUpdatesParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableAutomaticUpdates",
 		val,
 	)
 }
@@ -2270,17 +2222,6 @@ func (j *jsiiProxy_WindowsVirtualMachine)SetVirtualMachineScaleSetId(val *string
 	_jsii_.Set(
 		j,
 		"virtualMachineScaleSetId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_WindowsVirtualMachine)SetVmAgentPlatformUpdatesEnabled(val interface{}) {
-	if err := j.validateSetVmAgentPlatformUpdatesEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"vmAgentPlatformUpdatesEnabled",
 		val,
 	)
 }
@@ -2958,14 +2899,6 @@ func (w *jsiiProxy_WindowsVirtualMachine) ResetEdgeZone() {
 	)
 }
 
-func (w *jsiiProxy_WindowsVirtualMachine) ResetEnableAutomaticUpdates() {
-	_jsii_.InvokeVoid(
-		w,
-		"resetEnableAutomaticUpdates",
-		nil, // no parameters
-	)
-}
-
 func (w *jsiiProxy_WindowsVirtualMachine) ResetEncryptionAtHostEnabled() {
 	_jsii_.InvokeVoid(
 		w,
@@ -3202,14 +3135,6 @@ func (w *jsiiProxy_WindowsVirtualMachine) ResetVirtualMachineScaleSetId() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetVirtualMachineScaleSetId",
-		nil, // no parameters
-	)
-}
-
-func (w *jsiiProxy_WindowsVirtualMachine) ResetVmAgentPlatformUpdatesEnabled() {
-	_jsii_.InvokeVoid(
-		w,
-		"resetVmAgentPlatformUpdatesEnabled",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package automationcredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/automationcredential/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/automationcredential/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_credential azurerm_automation_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_credential azurerm_automation_credential}.
 type AutomationCredential interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_AutomationCredential) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_credential azurerm_automation_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_credential azurerm_automation_credential} Resource.
 func NewAutomationCredential(scope constructs.Construct, id *string, config *AutomationCredentialConfig) AutomationCredential {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewAutomationCredential(scope constructs.Construct, id *string, config *Aut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_credential azurerm_automation_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_credential azurerm_automation_credential} Resource.
 func NewAutomationCredential_Override(a AutomationCredential, scope constructs.Construct, id *string, config *AutomationCredentialConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package automationcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/automationcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/automationcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_certificate azurerm_automation_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_certificate azurerm_automation_certificate}.
 type AutomationCertificate interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_AutomationCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_certificate azurerm_automation_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_certificate azurerm_automation_certificate} Resource.
 func NewAutomationCertificate(scope constructs.Construct, id *string, config *AutomationCertificateConfig) AutomationCertificate {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewAutomationCertificate(scope constructs.Construct, id *string, config *Au
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_certificate azurerm_automation_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_certificate azurerm_automation_certificate} Resource.
 func NewAutomationCertificate_Override(a AutomationCertificate, scope constructs.Construct, id *string, config *AutomationCertificateConfig) {
 	_init_.Initialize()
 

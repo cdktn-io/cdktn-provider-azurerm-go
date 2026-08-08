@@ -5,14 +5,14 @@ package networkwatcherflowlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/networkwatcherflowlog/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/networkwatcherflowlog/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log}.
 type NetworkWatcherFlowLog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -55,9 +55,6 @@ type NetworkWatcherFlowLog interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
-	NetworkSecurityGroupId() *string
-	SetNetworkSecurityGroupId(val *string)
-	NetworkSecurityGroupIdInput() *string
 	NetworkWatcherName() *string
 	SetNetworkWatcherName(val *string)
 	NetworkWatcherNameInput() *string
@@ -197,12 +194,10 @@ type NetworkWatcherFlowLog interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetLocation()
-	ResetNetworkSecurityGroupId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetTags()
-	ResetTargetResourceId()
 	ResetTimeouts()
 	ResetTrafficAnalytics()
 	ResetVersion()
@@ -398,26 +393,6 @@ func (j *jsiiProxy_NetworkWatcherFlowLog) NameInput() *string {
 	_jsii_.Get(
 		j,
 		"nameInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkWatcherFlowLog) NetworkSecurityGroupId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"networkSecurityGroupId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkWatcherFlowLog) NetworkSecurityGroupIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"networkSecurityGroupIdInput",
 		&returns,
 	)
 	return returns
@@ -674,7 +649,7 @@ func (j *jsiiProxy_NetworkWatcherFlowLog) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
 func NewNetworkWatcherFlowLog(scope constructs.Construct, id *string, config *NetworkWatcherFlowLogConfig) NetworkWatcherFlowLog {
 	_init_.Initialize()
 
@@ -692,7 +667,7 @@ func NewNetworkWatcherFlowLog(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
 func NewNetworkWatcherFlowLog_Override(n NetworkWatcherFlowLog, scope constructs.Construct, id *string, config *NetworkWatcherFlowLogConfig) {
 	_init_.Initialize()
 
@@ -792,17 +767,6 @@ func (j *jsiiProxy_NetworkWatcherFlowLog)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NetworkWatcherFlowLog)SetNetworkSecurityGroupId(val *string) {
-	if err := j.validateSetNetworkSecurityGroupIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"networkSecurityGroupId",
 		val,
 	)
 }
@@ -1321,14 +1285,6 @@ func (n *jsiiProxy_NetworkWatcherFlowLog) ResetLocation() {
 	)
 }
 
-func (n *jsiiProxy_NetworkWatcherFlowLog) ResetNetworkSecurityGroupId() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetNetworkSecurityGroupId",
-		nil, // no parameters
-	)
-}
-
 func (n *jsiiProxy_NetworkWatcherFlowLog) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1341,14 +1297,6 @@ func (n *jsiiProxy_NetworkWatcherFlowLog) ResetTags() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetTags",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkWatcherFlowLog) ResetTargetResourceId() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetTargetResourceId",
 		nil, // no parameters
 	)
 }

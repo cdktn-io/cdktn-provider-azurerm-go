@@ -5,14 +5,14 @@ package securitycenterautomation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/securitycenterautomation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/securitycenterautomation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_automation azurerm_security_center_automation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_automation azurerm_security_center_automation}.
 type SecurityCenterAutomation interface {
 	cdktn.TerraformResource
 	Action() SecurityCenterAutomationActionList
@@ -602,7 +602,7 @@ func (j *jsiiProxy_SecurityCenterAutomation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_automation azurerm_security_center_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_automation azurerm_security_center_automation} Resource.
 func NewSecurityCenterAutomation(scope constructs.Construct, id *string, config *SecurityCenterAutomationConfig) SecurityCenterAutomation {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewSecurityCenterAutomation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_automation azurerm_security_center_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_automation azurerm_security_center_automation} Resource.
 func NewSecurityCenterAutomation_Override(s SecurityCenterAutomation, scope constructs.Construct, id *string, config *SecurityCenterAutomationConfig) {
 	_init_.Initialize()
 

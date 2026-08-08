@@ -5,14 +5,14 @@ package publicip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/publicip/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/publicip/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip azurerm_public_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/public_ip azurerm_public_ip}.
 type PublicIp interface {
 	cdktn.TerraformResource
 	AllocationMethod() *string
@@ -842,7 +842,7 @@ func (j *jsiiProxy_PublicIp) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip azurerm_public_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/public_ip azurerm_public_ip} Resource.
 func NewPublicIp(scope constructs.Construct, id *string, config *PublicIpConfig) PublicIp {
 	_init_.Initialize()
 
@@ -860,7 +860,7 @@ func NewPublicIp(scope constructs.Construct, id *string, config *PublicIpConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip azurerm_public_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/public_ip azurerm_public_ip} Resource.
 func NewPublicIp_Override(p PublicIp, scope constructs.Construct, id *string, config *PublicIpConfig) {
 	_init_.Initialize()
 

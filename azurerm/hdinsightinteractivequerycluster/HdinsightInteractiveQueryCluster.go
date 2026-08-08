@@ -5,14 +5,14 @@ package hdinsightinteractivequerycluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/hdinsightinteractivequerycluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/hdinsightinteractivequerycluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster}.
 type HdinsightInteractiveQueryCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -241,7 +241,6 @@ type HdinsightInteractiveQueryCluster interface {
 	ResetStorageAccountGen2()
 	ResetTags()
 	ResetTimeouts()
-	ResetTlsMinVersion()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -910,7 +909,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryCluster) TlsMinVersionInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster} Resource.
 func NewHdinsightInteractiveQueryCluster(scope constructs.Construct, id *string, config *HdinsightInteractiveQueryClusterConfig) HdinsightInteractiveQueryCluster {
 	_init_.Initialize()
 
@@ -928,7 +927,7 @@ func NewHdinsightInteractiveQueryCluster(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster} Resource.
 func NewHdinsightInteractiveQueryCluster_Override(h HdinsightInteractiveQueryCluster, scope constructs.Construct, id *string, config *HdinsightInteractiveQueryClusterConfig) {
 	_init_.Initialize()
 
@@ -1756,14 +1755,6 @@ func (h *jsiiProxy_HdinsightInteractiveQueryCluster) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetTimeouts",
-		nil, // no parameters
-	)
-}
-
-func (h *jsiiProxy_HdinsightInteractiveQueryCluster) ResetTlsMinVersion() {
-	_jsii_.InvokeVoid(
-		h,
-		"resetTlsMinVersion",
 		nil, // no parameters
 	)
 }

@@ -47,79 +47,79 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateInterpolat
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutClientPortConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutClientPortParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutCookiesConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutDeviceTypeParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHostNameConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHostNameParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHttpVersionConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHttpVersionParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutIsDeviceConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutPostArgumentParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutPostArgsConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutQueryStringParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutQueryStringConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRemoteAddressParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRemoteAddressConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestBodyParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestBodyConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestCookiesParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestHeaderConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestFileExtensionParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestMethodConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestFilenameParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestSchemeConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestHeaderParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestUriConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestMethodParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutServerPortConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestPathParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSocketAddressConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestSchemeParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSslProtocolConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestUrlParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFileExtensionConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutServerPortParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFilenameConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSocketAddressParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlPathConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSslProtocolParameters(value interface{}) error {
 	return nil
 }
 

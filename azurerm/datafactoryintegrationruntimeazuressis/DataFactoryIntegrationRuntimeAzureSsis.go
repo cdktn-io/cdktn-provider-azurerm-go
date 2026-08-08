@@ -5,14 +5,14 @@ package datafactoryintegrationruntimeazuressis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactoryintegrationruntimeazuressis/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactoryintegrationruntimeazuressis/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_integration_runtime_azure_ssis azurerm_data_factory_integration_runtime_azure_ssis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_integration_runtime_azure_ssis azurerm_data_factory_integration_runtime_azure_ssis}.
 type DataFactoryIntegrationRuntimeAzureSsis interface {
 	cdktn.TerraformResource
 	CatalogInfo() DataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputReference
@@ -844,7 +844,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsis) VnetIntegrationInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_integration_runtime_azure_ssis azurerm_data_factory_integration_runtime_azure_ssis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_integration_runtime_azure_ssis azurerm_data_factory_integration_runtime_azure_ssis} Resource.
 func NewDataFactoryIntegrationRuntimeAzureSsis(scope constructs.Construct, id *string, config *DataFactoryIntegrationRuntimeAzureSsisConfig) DataFactoryIntegrationRuntimeAzureSsis {
 	_init_.Initialize()
 
@@ -862,7 +862,7 @@ func NewDataFactoryIntegrationRuntimeAzureSsis(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_integration_runtime_azure_ssis azurerm_data_factory_integration_runtime_azure_ssis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_integration_runtime_azure_ssis azurerm_data_factory_integration_runtime_azure_ssis} Resource.
 func NewDataFactoryIntegrationRuntimeAzureSsis_Override(d DataFactoryIntegrationRuntimeAzureSsis, scope constructs.Construct, id *string, config *DataFactoryIntegrationRuntimeAzureSsisConfig) {
 	_init_.Initialize()
 

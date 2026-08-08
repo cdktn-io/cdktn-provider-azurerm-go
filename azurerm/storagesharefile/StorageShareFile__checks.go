@@ -490,7 +490,7 @@ func (j *jsiiProxy_StorageShareFile) validateSetSourceParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_StorageShareFile) validateSetStorageShareIdParameters(val *string) error {
+func (j *jsiiProxy_StorageShareFile) validateSetSourceContentParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

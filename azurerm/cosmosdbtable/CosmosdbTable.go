@@ -5,14 +5,14 @@ package cosmosdbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cosmosdbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cosmosdbtable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_table azurerm_cosmosdb_table}.
 type CosmosdbTable interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_CosmosdbTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_table azurerm_cosmosdb_table} Resource.
 func NewCosmosdbTable(scope constructs.Construct, id *string, config *CosmosdbTableConfig) CosmosdbTable {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewCosmosdbTable(scope constructs.Construct, id *string, config *CosmosdbTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_table azurerm_cosmosdb_table} Resource.
 func NewCosmosdbTable_Override(c CosmosdbTable, scope constructs.Construct, id *string, config *CosmosdbTableConfig) {
 	_init_.Initialize()
 

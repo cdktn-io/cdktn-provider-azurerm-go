@@ -5,14 +5,14 @@ package managedapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/managedapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/managedapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_application azurerm_managed_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application azurerm_managed_application}.
 type ManagedApplication interface {
 	cdktn.TerraformResource
 	ApplicationDefinitionId() *string
@@ -614,7 +614,7 @@ func (j *jsiiProxy_ManagedApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_application azurerm_managed_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application azurerm_managed_application} Resource.
 func NewManagedApplication(scope constructs.Construct, id *string, config *ManagedApplicationConfig) ManagedApplication {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewManagedApplication(scope constructs.Construct, id *string, config *Manag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_application azurerm_managed_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application azurerm_managed_application} Resource.
 func NewManagedApplication_Override(m ManagedApplication, scope constructs.Construct, id *string, config *ManagedApplicationConfig) {
 	_init_.Initialize()
 

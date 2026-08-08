@@ -5,14 +5,14 @@ package dataprotectionbackuppolicypostgresqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataprotectionbackuppolicypostgresqlflexibleserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataprotectionbackuppolicypostgresqlflexibleserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server}.
 type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 	cdktn.TerraformResource
 	BackupRepeatingTimeIntervals() *[]*string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) VaultIdIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server} Resource.
 func NewDataProtectionBackupPolicyPostgresqlFlexibleServer(scope constructs.Construct, id *string, config *DataProtectionBackupPolicyPostgresqlFlexibleServerConfig) DataProtectionBackupPolicyPostgresqlFlexibleServer {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewDataProtectionBackupPolicyPostgresqlFlexibleServer(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server} Resource.
 func NewDataProtectionBackupPolicyPostgresqlFlexibleServer_Override(d DataProtectionBackupPolicyPostgresqlFlexibleServer, scope constructs.Construct, id *string, config *DataProtectionBackupPolicyPostgresqlFlexibleServerConfig) {
 	_init_.Initialize()
 

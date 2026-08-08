@@ -5,14 +5,14 @@ package recoveryservicesvaultresourceguardassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/recoveryservicesvaultresourceguardassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/recoveryservicesvaultresourceguardassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/recovery_services_vault_resource_guard_association azurerm_recovery_services_vault_resource_guard_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/recovery_services_vault_resource_guard_association azurerm_recovery_services_vault_resource_guard_association}.
 type RecoveryServicesVaultResourceGuardAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_RecoveryServicesVaultResourceGuardAssociation) VaultIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/recovery_services_vault_resource_guard_association azurerm_recovery_services_vault_resource_guard_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/recovery_services_vault_resource_guard_association azurerm_recovery_services_vault_resource_guard_association} Resource.
 func NewRecoveryServicesVaultResourceGuardAssociation(scope constructs.Construct, id *string, config *RecoveryServicesVaultResourceGuardAssociationConfig) RecoveryServicesVaultResourceGuardAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewRecoveryServicesVaultResourceGuardAssociation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/recovery_services_vault_resource_guard_association azurerm_recovery_services_vault_resource_guard_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/recovery_services_vault_resource_guard_association azurerm_recovery_services_vault_resource_guard_association} Resource.
 func NewRecoveryServicesVaultResourceGuardAssociation_Override(r RecoveryServicesVaultResourceGuardAssociation, scope constructs.Construct, id *string, config *RecoveryServicesVaultResourceGuardAssociationConfig) {
 	_init_.Initialize()
 

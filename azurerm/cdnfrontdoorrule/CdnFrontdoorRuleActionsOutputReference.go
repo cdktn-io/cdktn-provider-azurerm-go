@@ -5,9 +5,9 @@ package cdnfrontdoorrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cdnfrontdoorrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cdnfrontdoorrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,12 +32,12 @@ type CdnFrontdoorRuleActionsOutputReference interface {
 	Fqn() *string
 	InternalValue() *CdnFrontdoorRuleActions
 	SetInternalValue(val *CdnFrontdoorRuleActions)
-	RequestHeaderAction() CdnFrontdoorRuleActionsRequestHeaderActionList
-	RequestHeaderActionInput() interface{}
-	ResponseHeaderAction() CdnFrontdoorRuleActionsResponseHeaderActionList
-	ResponseHeaderActionInput() interface{}
-	RouteConfigurationOverrideAction() CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference
-	RouteConfigurationOverrideActionInput() *CdnFrontdoorRuleActionsRouteConfigurationOverrideAction
+	ModifyRequestHeader() CdnFrontdoorRuleActionsModifyRequestHeaderList
+	ModifyRequestHeaderInput() interface{}
+	ModifyResponseHeader() CdnFrontdoorRuleActionsModifyResponseHeaderList
+	ModifyResponseHeaderInput() interface{}
+	RouteConfigurationOverride() CdnFrontdoorRuleActionsRouteConfigurationOverrideOutputReference
+	RouteConfigurationOverrideInput() *CdnFrontdoorRuleActionsRouteConfigurationOverride
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -46,10 +46,10 @@ type CdnFrontdoorRuleActionsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	UrlRedirectAction() CdnFrontdoorRuleActionsUrlRedirectActionOutputReference
-	UrlRedirectActionInput() *CdnFrontdoorRuleActionsUrlRedirectAction
-	UrlRewriteAction() CdnFrontdoorRuleActionsUrlRewriteActionOutputReference
-	UrlRewriteActionInput() *CdnFrontdoorRuleActionsUrlRewriteAction
+	UrlRedirect() CdnFrontdoorRuleActionsUrlRedirectOutputReference
+	UrlRedirectInput() *CdnFrontdoorRuleActionsUrlRedirect
+	UrlRewrite() CdnFrontdoorRuleActionsUrlRewriteOutputReference
+	UrlRewriteInput() *CdnFrontdoorRuleActionsUrlRewrite
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -74,16 +74,16 @@ type CdnFrontdoorRuleActionsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutRequestHeaderAction(value interface{})
-	PutResponseHeaderAction(value interface{})
-	PutRouteConfigurationOverrideAction(value *CdnFrontdoorRuleActionsRouteConfigurationOverrideAction)
-	PutUrlRedirectAction(value *CdnFrontdoorRuleActionsUrlRedirectAction)
-	PutUrlRewriteAction(value *CdnFrontdoorRuleActionsUrlRewriteAction)
-	ResetRequestHeaderAction()
-	ResetResponseHeaderAction()
-	ResetRouteConfigurationOverrideAction()
-	ResetUrlRedirectAction()
-	ResetUrlRewriteAction()
+	PutModifyRequestHeader(value interface{})
+	PutModifyResponseHeader(value interface{})
+	PutRouteConfigurationOverride(value *CdnFrontdoorRuleActionsRouteConfigurationOverride)
+	PutUrlRedirect(value *CdnFrontdoorRuleActionsUrlRedirect)
+	PutUrlRewrite(value *CdnFrontdoorRuleActionsUrlRewrite)
+	ResetModifyRequestHeader()
+	ResetModifyResponseHeader()
+	ResetRouteConfigurationOverride()
+	ResetUrlRedirect()
+	ResetUrlRewrite()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -149,61 +149,61 @@ func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) InternalValue() *CdnF
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) RequestHeaderAction() CdnFrontdoorRuleActionsRequestHeaderActionList {
-	var returns CdnFrontdoorRuleActionsRequestHeaderActionList
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ModifyRequestHeader() CdnFrontdoorRuleActionsModifyRequestHeaderList {
+	var returns CdnFrontdoorRuleActionsModifyRequestHeaderList
 	_jsii_.Get(
 		j,
-		"requestHeaderAction",
+		"modifyRequestHeader",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) RequestHeaderActionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ModifyRequestHeaderInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"requestHeaderActionInput",
+		"modifyRequestHeaderInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResponseHeaderAction() CdnFrontdoorRuleActionsResponseHeaderActionList {
-	var returns CdnFrontdoorRuleActionsResponseHeaderActionList
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ModifyResponseHeader() CdnFrontdoorRuleActionsModifyResponseHeaderList {
+	var returns CdnFrontdoorRuleActionsModifyResponseHeaderList
 	_jsii_.Get(
 		j,
-		"responseHeaderAction",
+		"modifyResponseHeader",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResponseHeaderActionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ModifyResponseHeaderInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"responseHeaderActionInput",
+		"modifyResponseHeaderInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) RouteConfigurationOverrideAction() CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference {
-	var returns CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) RouteConfigurationOverride() CdnFrontdoorRuleActionsRouteConfigurationOverrideOutputReference {
+	var returns CdnFrontdoorRuleActionsRouteConfigurationOverrideOutputReference
 	_jsii_.Get(
 		j,
-		"routeConfigurationOverrideAction",
+		"routeConfigurationOverride",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) RouteConfigurationOverrideActionInput() *CdnFrontdoorRuleActionsRouteConfigurationOverrideAction {
-	var returns *CdnFrontdoorRuleActionsRouteConfigurationOverrideAction
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) RouteConfigurationOverrideInput() *CdnFrontdoorRuleActionsRouteConfigurationOverride {
+	var returns *CdnFrontdoorRuleActionsRouteConfigurationOverride
 	_jsii_.Get(
 		j,
-		"routeConfigurationOverrideActionInput",
+		"routeConfigurationOverrideInput",
 		&returns,
 	)
 	return returns
@@ -229,41 +229,41 @@ func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) TerraformResource() c
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) UrlRedirectAction() CdnFrontdoorRuleActionsUrlRedirectActionOutputReference {
-	var returns CdnFrontdoorRuleActionsUrlRedirectActionOutputReference
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) UrlRedirect() CdnFrontdoorRuleActionsUrlRedirectOutputReference {
+	var returns CdnFrontdoorRuleActionsUrlRedirectOutputReference
 	_jsii_.Get(
 		j,
-		"urlRedirectAction",
+		"urlRedirect",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) UrlRedirectActionInput() *CdnFrontdoorRuleActionsUrlRedirectAction {
-	var returns *CdnFrontdoorRuleActionsUrlRedirectAction
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) UrlRedirectInput() *CdnFrontdoorRuleActionsUrlRedirect {
+	var returns *CdnFrontdoorRuleActionsUrlRedirect
 	_jsii_.Get(
 		j,
-		"urlRedirectActionInput",
+		"urlRedirectInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) UrlRewriteAction() CdnFrontdoorRuleActionsUrlRewriteActionOutputReference {
-	var returns CdnFrontdoorRuleActionsUrlRewriteActionOutputReference
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) UrlRewrite() CdnFrontdoorRuleActionsUrlRewriteOutputReference {
+	var returns CdnFrontdoorRuleActionsUrlRewriteOutputReference
 	_jsii_.Get(
 		j,
-		"urlRewriteAction",
+		"urlRewrite",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) UrlRewriteActionInput() *CdnFrontdoorRuleActionsUrlRewriteAction {
-	var returns *CdnFrontdoorRuleActionsUrlRewriteAction
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) UrlRewriteInput() *CdnFrontdoorRuleActionsUrlRewrite {
+	var returns *CdnFrontdoorRuleActionsUrlRewrite
 	_jsii_.Get(
 		j,
-		"urlRewriteActionInput",
+		"urlRewriteInput",
 		&returns,
 	)
 	return returns
@@ -538,97 +538,97 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) InterpolationForAttri
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutRequestHeaderAction(value interface{}) {
-	if err := c.validatePutRequestHeaderActionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutModifyRequestHeader(value interface{}) {
+	if err := c.validatePutModifyRequestHeaderParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putRequestHeaderAction",
+		"putModifyRequestHeader",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutResponseHeaderAction(value interface{}) {
-	if err := c.validatePutResponseHeaderActionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutModifyResponseHeader(value interface{}) {
+	if err := c.validatePutModifyResponseHeaderParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putResponseHeaderAction",
+		"putModifyResponseHeader",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutRouteConfigurationOverrideAction(value *CdnFrontdoorRuleActionsRouteConfigurationOverrideAction) {
-	if err := c.validatePutRouteConfigurationOverrideActionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutRouteConfigurationOverride(value *CdnFrontdoorRuleActionsRouteConfigurationOverride) {
+	if err := c.validatePutRouteConfigurationOverrideParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putRouteConfigurationOverrideAction",
+		"putRouteConfigurationOverride",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutUrlRedirectAction(value *CdnFrontdoorRuleActionsUrlRedirectAction) {
-	if err := c.validatePutUrlRedirectActionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutUrlRedirect(value *CdnFrontdoorRuleActionsUrlRedirect) {
+	if err := c.validatePutUrlRedirectParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putUrlRedirectAction",
+		"putUrlRedirect",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutUrlRewriteAction(value *CdnFrontdoorRuleActionsUrlRewriteAction) {
-	if err := c.validatePutUrlRewriteActionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) PutUrlRewrite(value *CdnFrontdoorRuleActionsUrlRewrite) {
+	if err := c.validatePutUrlRewriteParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putUrlRewriteAction",
+		"putUrlRewrite",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetRequestHeaderAction() {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetModifyRequestHeader() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetRequestHeaderAction",
+		"resetModifyRequestHeader",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetResponseHeaderAction() {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetModifyResponseHeader() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetResponseHeaderAction",
+		"resetModifyResponseHeader",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetRouteConfigurationOverrideAction() {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetRouteConfigurationOverride() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetRouteConfigurationOverrideAction",
+		"resetRouteConfigurationOverride",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetUrlRedirectAction() {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetUrlRedirect() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetUrlRedirectAction",
+		"resetUrlRedirect",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetUrlRewriteAction() {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) ResetUrlRewrite() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetUrlRewriteAction",
+		"resetUrlRewrite",
 		nil, // no parameters
 	)
 }

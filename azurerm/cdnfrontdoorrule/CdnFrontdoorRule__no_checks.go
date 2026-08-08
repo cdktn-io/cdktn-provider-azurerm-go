@@ -111,7 +111,7 @@ func validateCdnFrontdoorRule_IsTerraformResourceParameters(x interface{}) error
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorRule) validateSetBehaviorOnMatchParameters(val *string) error {
+func (j *jsiiProxy_CdnFrontdoorRule) validateSetBehaviourOnMatchParameters(val *string) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package dataazurermmssqlmanageddatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermmssqlmanageddatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermmssqlmanageddatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -30,7 +30,6 @@ type DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyOutputReference inter
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	ImmutableBackupsEnabled() cdktn.IResolvable
 	InternalValue() *DataAzurermMssqlManagedDatabaseLongTermRetentionPolicy
 	SetInternalValue(val *DataAzurermMssqlManagedDatabaseLongTermRetentionPolicy)
 	MonthlyRetention() *string
@@ -119,16 +118,6 @@ func (j *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyOutputR
 	_jsii_.Get(
 		j,
 		"fqn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyOutputReference) ImmutableBackupsEnabled() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"immutableBackupsEnabled",
 		&returns,
 	)
 	return returns

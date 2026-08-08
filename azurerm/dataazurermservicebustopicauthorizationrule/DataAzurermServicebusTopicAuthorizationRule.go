@@ -5,14 +5,14 @@ package dataazurermservicebustopicauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermservicebustopicauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermservicebustopicauthorizationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule}.
 type DataAzurermServicebusTopicAuthorizationRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -553,7 +553,7 @@ func (j *jsiiProxy_DataAzurermServicebusTopicAuthorizationRule) TopicNameInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule} Data Source.
 func NewDataAzurermServicebusTopicAuthorizationRule(scope constructs.Construct, id *string, config *DataAzurermServicebusTopicAuthorizationRuleConfig) DataAzurermServicebusTopicAuthorizationRule {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewDataAzurermServicebusTopicAuthorizationRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule} Data Source.
 func NewDataAzurermServicebusTopicAuthorizationRule_Override(d DataAzurermServicebusTopicAuthorizationRule, scope constructs.Construct, id *string, config *DataAzurermServicebusTopicAuthorizationRuleConfig) {
 	_init_.Initialize()
 

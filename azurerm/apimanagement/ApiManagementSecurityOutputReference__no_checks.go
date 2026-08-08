@@ -71,30 +71,6 @@ func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetComplexObjec
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetEnableBackendSsl30Parameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetEnableBackendTls10Parameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetEnableBackendTls11Parameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetEnableFrontendSsl30Parameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetEnableFrontendTls10Parameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetEnableFrontendTls11Parameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetFrontendSsl30EnabledParameters(val interface{}) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package databasemigrationproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/databasemigrationproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/databasemigrationproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/database_migration_project azurerm_database_migration_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/database_migration_project azurerm_database_migration_project}.
 type DatabaseMigrationProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_DatabaseMigrationProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/database_migration_project azurerm_database_migration_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/database_migration_project azurerm_database_migration_project} Resource.
 func NewDatabaseMigrationProject(scope constructs.Construct, id *string, config *DatabaseMigrationProjectConfig) DatabaseMigrationProject {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewDatabaseMigrationProject(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/database_migration_project azurerm_database_migration_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/database_migration_project azurerm_database_migration_project} Resource.
 func NewDatabaseMigrationProject_Override(d DatabaseMigrationProject, scope constructs.Construct, id *string, config *DatabaseMigrationProjectConfig) {
 	_init_.Initialize()
 

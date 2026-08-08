@@ -5,14 +5,14 @@ package dataazurermservicebusqueueauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermservicebusqueueauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermservicebusqueueauthorizationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule}.
 type DataAzurermServicebusQueueAuthorizationRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -529,7 +529,7 @@ func (j *jsiiProxy_DataAzurermServicebusQueueAuthorizationRule) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule} Data Source.
 func NewDataAzurermServicebusQueueAuthorizationRule(scope constructs.Construct, id *string, config *DataAzurermServicebusQueueAuthorizationRuleConfig) DataAzurermServicebusQueueAuthorizationRule {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewDataAzurermServicebusQueueAuthorizationRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule} Data Source.
 func NewDataAzurermServicebusQueueAuthorizationRule_Override(d DataAzurermServicebusQueueAuthorizationRule, scope constructs.Construct, id *string, config *DataAzurermServicebusQueueAuthorizationRuleConfig) {
 	_init_.Initialize()
 

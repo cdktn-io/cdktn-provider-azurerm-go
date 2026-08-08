@@ -5,14 +5,14 @@ package systemcentervirtualmachinemanagervirtualmachineinstanceguestagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/systemcentervirtualmachinemanagervirtualmachineinstanceguestagent/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/systemcentervirtualmachinemanagervirtualmachineinstanceguestagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_instance_guest_agent azurerm_system_center_virtual_machine_manager_virtual_machine_instance_guest_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_machine_instance_guest_agent azurerm_system_center_virtual_machine_manager_virtual_machine_instance_guest_agent}.
 type SystemCenterVirtualMachineManagerVirtualMachineInstanceGuestAgent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceGuestA
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_instance_guest_agent azurerm_system_center_virtual_machine_manager_virtual_machine_instance_guest_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_machine_instance_guest_agent azurerm_system_center_virtual_machine_manager_virtual_machine_instance_guest_agent} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualMachineInstanceGuestAgent(scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualMachineInstanceGuestAgentConfig) SystemCenterVirtualMachineManagerVirtualMachineInstanceGuestAgent {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewSystemCenterVirtualMachineManagerVirtualMachineInstanceGuestAgent(scope 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_instance_guest_agent azurerm_system_center_virtual_machine_manager_virtual_machine_instance_guest_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_machine_instance_guest_agent azurerm_system_center_virtual_machine_manager_virtual_machine_instance_guest_agent} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualMachineInstanceGuestAgent_Override(s SystemCenterVirtualMachineManagerVirtualMachineInstanceGuestAgent, scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualMachineInstanceGuestAgentConfig) {
 	_init_.Initialize()
 

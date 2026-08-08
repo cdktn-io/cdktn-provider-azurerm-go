@@ -95,10 +95,6 @@ func (n *jsiiProxy_NginxDeployment) validatePutIdentityParameters(value *NginxDe
 	return nil
 }
 
-func (n *jsiiProxy_NginxDeployment) validatePutLoggingStorageAccountParameters(value interface{}) error {
-	return nil
-}
-
 func (n *jsiiProxy_NginxDeployment) validatePutNetworkInterfaceParameters(value interface{}) error {
 	return nil
 }
@@ -147,10 +143,6 @@ func (j *jsiiProxy_NginxDeployment) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
-func (j *jsiiProxy_NginxDeployment) validateSetDiagnoseSupportEnabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_NginxDeployment) validateSetEmailParameters(val *string) error {
 	return nil
 }
@@ -164,10 +156,6 @@ func (j *jsiiProxy_NginxDeployment) validateSetLifecycleParameters(val *cdktn.Te
 }
 
 func (j *jsiiProxy_NginxDeployment) validateSetLocationParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_NginxDeployment) validateSetManagedResourceGroupParameters(val *string) error {
 	return nil
 }
 

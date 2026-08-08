@@ -459,41 +459,17 @@ func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetImmediateDataPurgeOn30DaysE
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetIngestionEnabledParameters(val interface{}) error {
+func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetIngestionAccessTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-	switch val.(type) {
-	case *bool:
-		// ok
-	case bool:
-		// ok
-	case cdktn.IResolvable:
-		// ok
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
-		}
 	}
 
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetQueryEnabledParameters(val interface{}) error {
+func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetQueryAccessTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-	switch val.(type) {
-	case *bool:
-		// ok
-	case bool:
-		// ok
-	case cdktn.IResolvable:
-		// ok
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
-		}
 	}
 
 	return nil
@@ -502,26 +478,6 @@ func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetQueryEnabledParamet
 func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetLocalAuthenticationDisabledParameters(val interface{}) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-	switch val.(type) {
-	case *bool:
-		// ok
-	case bool:
-		// ok
-	case cdktn.IResolvable:
-		// ok
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
-		}
 	}
 
 	return nil

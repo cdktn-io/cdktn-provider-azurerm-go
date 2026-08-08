@@ -119,15 +119,7 @@ func (j *jsiiProxy_ApplicationInsights) validateSetDailyDataCapInGbParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationInsights) validateSetDailyDataCapNotificationsDisabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_ApplicationInsights) validateSetDailyDataCapNotificationsEnabledParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_ApplicationInsights) validateSetDisableIpMaskingParameters(val interface{}) error {
 	return nil
 }
 
@@ -152,10 +144,6 @@ func (j *jsiiProxy_ApplicationInsights) validateSetIpMaskingEnabledParameters(va
 }
 
 func (j *jsiiProxy_ApplicationInsights) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
-	return nil
-}
-
-func (j *jsiiProxy_ApplicationInsights) validateSetLocalAuthenticationDisabledParameters(val interface{}) error {
 	return nil
 }
 

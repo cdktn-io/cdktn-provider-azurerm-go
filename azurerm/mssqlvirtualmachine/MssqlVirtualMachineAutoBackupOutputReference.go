@@ -5,9 +5,9 @@ package mssqlvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mssqlvirtualmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mssqlvirtualmachine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,9 +28,6 @@ type MssqlVirtualMachineAutoBackupOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	EncryptionEnabled() interface{}
-	SetEncryptionEnabled(val interface{})
-	EncryptionEnabledInput() interface{}
 	EncryptionPassword() *string
 	SetEncryptionPassword(val *string)
 	EncryptionPasswordInput() *string
@@ -85,7 +82,6 @@ type MssqlVirtualMachineAutoBackupOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutManualSchedule(value *MssqlVirtualMachineAutoBackupManualSchedule)
-	ResetEncryptionEnabled()
 	ResetEncryptionPassword()
 	ResetManualSchedule()
 	ResetSystemDatabasesBackupEnabled()
@@ -129,26 +125,6 @@ func (j *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference) CreationStack()
 	_jsii_.Get(
 		j,
 		"creationStack",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference) EncryptionEnabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"encryptionEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference) EncryptionEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"encryptionEnabledInput",
 		&returns,
 	)
 	return returns
@@ -360,17 +336,6 @@ func (j *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference)SetComplexObject
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
-		val,
-	)
-}
-
-func (j *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference)SetEncryptionEnabled(val interface{}) {
-	if err := j.validateSetEncryptionEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"encryptionEnabled",
 		val,
 	)
 }
@@ -657,14 +622,6 @@ func (m *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference) PutManualSchedu
 		m,
 		"putManualSchedule",
 		[]interface{}{value},
-	)
-}
-
-func (m *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference) ResetEncryptionEnabled() {
-	_jsii_.InvokeVoid(
-		m,
-		"resetEncryptionEnabled",
-		nil, // no parameters
 	)
 }
 

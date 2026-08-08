@@ -5,14 +5,14 @@ package iothubdpscertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/iothubdpscertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/iothubdpscertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate}.
 type IothubDpsCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_IothubDpsCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate} Resource.
 func NewIothubDpsCertificate(scope constructs.Construct, id *string, config *IothubDpsCertificateConfig) IothubDpsCertificate {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewIothubDpsCertificate(scope constructs.Construct, id *string, config *Iot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate} Resource.
 func NewIothubDpsCertificate_Override(i IothubDpsCertificate, scope constructs.Construct, id *string, config *IothubDpsCertificateConfig) {
 	_init_.Initialize()
 

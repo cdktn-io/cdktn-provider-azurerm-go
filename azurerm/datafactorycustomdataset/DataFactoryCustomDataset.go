@@ -5,14 +5,14 @@ package datafactorycustomdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactorycustomdataset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactorycustomdataset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset}.
 type DataFactoryCustomDataset interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -651,7 +651,7 @@ func (j *jsiiProxy_DataFactoryCustomDataset) TypePropertiesJsonInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset} Resource.
 func NewDataFactoryCustomDataset(scope constructs.Construct, id *string, config *DataFactoryCustomDatasetConfig) DataFactoryCustomDataset {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewDataFactoryCustomDataset(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset} Resource.
 func NewDataFactoryCustomDataset_Override(d DataFactoryCustomDataset, scope constructs.Construct, id *string, config *DataFactoryCustomDatasetConfig) {
 	_init_.Initialize()
 

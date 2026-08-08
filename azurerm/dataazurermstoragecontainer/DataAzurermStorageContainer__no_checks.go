@@ -103,10 +103,6 @@ func (j *jsiiProxy_DataAzurermStorageContainer) validateSetStorageAccountIdParam
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) validateSetStorageAccountNameParameters(val *string) error {
-	return nil
-}
-
 func validateNewDataAzurermStorageContainerParameters(scope constructs.Construct, id *string, config *DataAzurermStorageContainerConfig) error {
 	return nil
 }

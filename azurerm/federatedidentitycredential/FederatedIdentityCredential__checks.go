@@ -404,14 +404,6 @@ func (j *jsiiProxy_FederatedIdentityCredential) validateSetNameParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_FederatedIdentityCredential) validateSetParentIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_FederatedIdentityCredential) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {
@@ -453,14 +445,6 @@ func (j *jsiiProxy_FederatedIdentityCredential) validateSetProvisionersParameter
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_FederatedIdentityCredential) validateSetResourceGroupNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

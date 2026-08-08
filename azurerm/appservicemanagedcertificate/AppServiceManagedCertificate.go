@@ -5,14 +5,14 @@ package appservicemanagedcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/appservicemanagedcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/appservicemanagedcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_managed_certificate azurerm_app_service_managed_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_managed_certificate azurerm_app_service_managed_certificate}.
 type AppServiceManagedCertificate interface {
 	cdktn.TerraformResource
 	CanonicalName() *string
@@ -527,7 +527,7 @@ func (j *jsiiProxy_AppServiceManagedCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_managed_certificate azurerm_app_service_managed_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_managed_certificate azurerm_app_service_managed_certificate} Resource.
 func NewAppServiceManagedCertificate(scope constructs.Construct, id *string, config *AppServiceManagedCertificateConfig) AppServiceManagedCertificate {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewAppServiceManagedCertificate(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_managed_certificate azurerm_app_service_managed_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_managed_certificate azurerm_app_service_managed_certificate} Resource.
 func NewAppServiceManagedCertificate_Override(a AppServiceManagedCertificate, scope constructs.Construct, id *string, config *AppServiceManagedCertificateConfig) {
 	_init_.Initialize()
 

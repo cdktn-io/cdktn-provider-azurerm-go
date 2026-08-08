@@ -203,10 +203,6 @@ func (j *jsiiProxy_ContainerRegistry) validateSetTagsParameters(val *map[string]
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistry) validateSetTrustPolicyEnabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_ContainerRegistry) validateSetZoneRedundancyEnabledParameters(val interface{}) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package dataazurermprivatelinkservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermprivatelinkservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermprivatelinkservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_link_service azurerm_private_link_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/private_link_service azurerm_private_link_service}.
 type DataAzurermPrivateLinkService interface {
 	cdktn.TerraformDataSource
 	Alias() *string
@@ -29,7 +29,6 @@ type DataAzurermPrivateLinkService interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnableProxyProtocol() cdktn.IResolvable
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -200,16 +199,6 @@ func (j *jsiiProxy_DataAzurermPrivateLinkService) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermPrivateLinkService) EnableProxyProtocol() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enableProxyProtocol",
 		&returns,
 	)
 	return returns
@@ -456,7 +445,7 @@ func (j *jsiiProxy_DataAzurermPrivateLinkService) VisibilitySubscriptionIds() *[
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_link_service azurerm_private_link_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/private_link_service azurerm_private_link_service} Data Source.
 func NewDataAzurermPrivateLinkService(scope constructs.Construct, id *string, config *DataAzurermPrivateLinkServiceConfig) DataAzurermPrivateLinkService {
 	_init_.Initialize()
 
@@ -474,7 +463,7 @@ func NewDataAzurermPrivateLinkService(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_link_service azurerm_private_link_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/private_link_service azurerm_private_link_service} Data Source.
 func NewDataAzurermPrivateLinkService_Override(d DataAzurermPrivateLinkService, scope constructs.Construct, id *string, config *DataAzurermPrivateLinkServiceConfig) {
 	_init_.Initialize()
 

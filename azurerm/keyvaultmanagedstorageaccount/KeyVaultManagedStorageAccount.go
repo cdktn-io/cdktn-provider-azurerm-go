@@ -5,14 +5,14 @@ package keyvaultmanagedstorageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/keyvaultmanagedstorageaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/keyvaultmanagedstorageaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account}.
 type KeyVaultManagedStorageAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
 func NewKeyVaultManagedStorageAccount(scope constructs.Construct, id *string, config *KeyVaultManagedStorageAccountConfig) KeyVaultManagedStorageAccount {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewKeyVaultManagedStorageAccount(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
 func NewKeyVaultManagedStorageAccount_Override(k KeyVaultManagedStorageAccount, scope constructs.Construct, id *string, config *KeyVaultManagedStorageAccountConfig) {
 	_init_.Initialize()
 

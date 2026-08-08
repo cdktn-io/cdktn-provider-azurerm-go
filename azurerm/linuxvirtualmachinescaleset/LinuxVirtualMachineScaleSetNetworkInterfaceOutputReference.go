@@ -5,14 +5,17 @@ package linuxvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/linuxvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/linuxvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference interface {
 	cdktn.ComplexObject
+	AcceleratedNetworkingEnabled() interface{}
+	SetAcceleratedNetworkingEnabled(val interface{})
+	AcceleratedNetworkingEnabledInput() interface{}
 	AuxiliaryMode() *string
 	SetAuxiliaryMode(val *string)
 	AuxiliaryModeInput() *string
@@ -37,18 +40,15 @@ type LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference interface {
 	DnsServers() *[]*string
 	SetDnsServers(val *[]*string)
 	DnsServersInput() *[]*string
-	EnableAcceleratedNetworking() interface{}
-	SetEnableAcceleratedNetworking(val interface{})
-	EnableAcceleratedNetworkingInput() interface{}
-	EnableIpForwarding() interface{}
-	SetEnableIpForwarding(val interface{})
-	EnableIpForwardingInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	IpConfiguration() LinuxVirtualMachineScaleSetNetworkInterfaceIpConfigurationList
 	IpConfigurationInput() interface{}
+	IpForwardingEnabled() interface{}
+	SetIpForwardingEnabled(val interface{})
+	IpForwardingEnabledInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -91,11 +91,11 @@ type LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIpConfiguration(value interface{})
+	ResetAcceleratedNetworkingEnabled()
 	ResetAuxiliaryMode()
 	ResetAuxiliarySku()
 	ResetDnsServers()
-	ResetEnableAcceleratedNetworking()
-	ResetEnableIpForwarding()
+	ResetIpForwardingEnabled()
 	ResetNetworkSecurityGroupId()
 	ResetPrimary()
 	// Produce the Token's value at resolution time.
@@ -111,6 +111,26 @@ type LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference interface {
 // The jsii proxy struct for LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference
 type jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) AcceleratedNetworkingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"acceleratedNetworkingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) AcceleratedNetworkingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"acceleratedNetworkingEnabledInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) AuxiliaryMode() *string {
@@ -203,46 +223,6 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) D
 	return returns
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableAcceleratedNetworking() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAcceleratedNetworking",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableAcceleratedNetworkingInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAcceleratedNetworkingInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableIpForwarding() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableIpForwarding",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableIpForwardingInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableIpForwardingInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -278,6 +258,26 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) I
 	_jsii_.Get(
 		j,
 		"ipConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) IpForwardingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ipForwardingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) IpForwardingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ipForwardingEnabledInput",
 		&returns,
 	)
 	return returns
@@ -391,6 +391,17 @@ func NewLinuxVirtualMachineScaleSetNetworkInterfaceOutputReference_Override(l Li
 	)
 }
 
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference)SetAcceleratedNetworkingEnabled(val interface{}) {
+	if err := j.validateSetAcceleratedNetworkingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"acceleratedNetworkingEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference)SetAuxiliaryMode(val *string) {
 	if err := j.validateSetAuxiliaryModeParameters(val); err != nil {
 		panic(err)
@@ -446,28 +457,6 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference)SetEnableAcceleratedNetworking(val interface{}) {
-	if err := j.validateSetEnableAcceleratedNetworkingParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableAcceleratedNetworking",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference)SetEnableIpForwarding(val interface{}) {
-	if err := j.validateSetEnableIpForwardingParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableIpForwarding",
-		val,
-	)
-}
-
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -475,6 +464,17 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference)Se
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference)SetIpForwardingEnabled(val interface{}) {
+	if err := j.validateSetIpForwardingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipForwardingEnabled",
 		val,
 	)
 }
@@ -731,6 +731,14 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) P
 	)
 }
 
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetAcceleratedNetworkingEnabled() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetAcceleratedNetworkingEnabled",
+		nil, // no parameters
+	)
+}
+
 func (l *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetAuxiliaryMode() {
 	_jsii_.InvokeVoid(
 		l,
@@ -755,18 +763,10 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) R
 	)
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetEnableAcceleratedNetworking() {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetIpForwardingEnabled() {
 	_jsii_.InvokeVoid(
 		l,
-		"resetEnableAcceleratedNetworking",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetEnableIpForwarding() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetEnableIpForwarding",
+		"resetIpForwardingEnabled",
 		nil, // no parameters
 	)
 }

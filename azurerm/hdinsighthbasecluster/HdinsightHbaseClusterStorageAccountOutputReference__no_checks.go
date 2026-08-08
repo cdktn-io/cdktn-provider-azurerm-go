@@ -67,15 +67,15 @@ func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountOutputReference) validateSetStorageAccountIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountOutputReference) validateSetStorageAccountKeyParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountOutputReference) validateSetStorageContainerIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountOutputReference) validateSetStorageResourceIdParameters(val *string) error {
+func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountOutputReference) validateSetStorageContainerUrlParameters(val *string) error {
 	return nil
 }
 

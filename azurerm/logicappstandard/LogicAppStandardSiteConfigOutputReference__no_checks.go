@@ -119,10 +119,6 @@ func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetPreWarm
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetPublicNetworkAccessEnabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetRuntimeScaleMonitoringEnabledParameters(val interface{}) error {
 	return nil
 }

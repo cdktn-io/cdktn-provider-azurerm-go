@@ -210,6 +210,14 @@ func (j *jsiiProxy_HdinsightSparkClusterStorageAccountOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_HdinsightSparkClusterStorageAccountOutputReference) validateSetStorageAccountIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_HdinsightSparkClusterStorageAccountOutputReference) validateSetStorageAccountKeyParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -218,15 +226,7 @@ func (j *jsiiProxy_HdinsightSparkClusterStorageAccountOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightSparkClusterStorageAccountOutputReference) validateSetStorageContainerIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_HdinsightSparkClusterStorageAccountOutputReference) validateSetStorageResourceIdParameters(val *string) error {
+func (j *jsiiProxy_HdinsightSparkClusterStorageAccountOutputReference) validateSetStorageContainerUrlParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

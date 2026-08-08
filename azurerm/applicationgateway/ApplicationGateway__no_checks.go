@@ -79,10 +79,6 @@ func (a *jsiiProxy_ApplicationGateway) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGateway) validatePutAuthenticationCertificateParameters(value interface{}) error {
-	return nil
-}
-
 func (a *jsiiProxy_ApplicationGateway) validatePutAutoscaleConfigurationParameters(value *ApplicationGatewayAutoscaleConfiguration) error {
 	return nil
 }
@@ -216,10 +212,6 @@ func (j *jsiiProxy_ApplicationGateway) validateSetConnectionParameters(val inter
 }
 
 func (j *jsiiProxy_ApplicationGateway) validateSetCountParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_ApplicationGateway) validateSetEnableHttp2Parameters(val interface{}) error {
 	return nil
 }
 

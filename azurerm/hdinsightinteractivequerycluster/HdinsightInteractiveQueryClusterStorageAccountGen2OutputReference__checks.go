@@ -202,15 +202,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountGen2OutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountGen2OutputReference) validateSetManagedIdentityResourceIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountGen2OutputReference) validateSetStorageResourceIdParameters(val *string) error {
+func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountGen2OutputReference) validateSetStorageAccountIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -227,6 +219,14 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountGen2OutputRefer
 }
 
 func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountGen2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountGen2OutputReference) validateSetUserAssignedIdentityIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

@@ -201,14 +201,6 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetIntern
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetMinimumVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

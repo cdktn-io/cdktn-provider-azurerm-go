@@ -257,37 +257,6 @@ func (k *jsiiProxy_KustoCluster) validatePutLanguageExtensionParameters(value in
 	return nil
 }
 
-func (k *jsiiProxy_KustoCluster) validatePutLanguageExtensionsParameters(value interface{}) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	switch value.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*KustoClusterLanguageExtensions:
-		value := value.(*[]*KustoClusterLanguageExtensions)
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	case []*KustoClusterLanguageExtensions:
-		value_ := value.([]*KustoClusterLanguageExtensions)
-		value := &value_
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*KustoClusterLanguageExtensions; received %#v (a %T)", value, value)
-		}
-	}
-
-	return nil
-}
-
 func (k *jsiiProxy_KustoCluster) validatePutOptimizedAutoScaleParameters(value *KustoClusterOptimizedAutoScale) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -311,17 +280,6 @@ func (k *jsiiProxy_KustoCluster) validatePutSkuParameters(value *KustoClusterSku
 }
 
 func (k *jsiiProxy_KustoCluster) validatePutTimeoutsParameters(value *KustoClusterTimeouts) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
-	}
-
-	return nil
-}
-
-func (k *jsiiProxy_KustoCluster) validatePutVirtualNetworkConfigurationParameters(value *KustoClusterVirtualNetworkConfiguration) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

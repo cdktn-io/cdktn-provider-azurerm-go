@@ -5,14 +5,14 @@ package privatelinkservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/privatelinkservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/privatelinkservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_link_service azurerm_private_link_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_link_service azurerm_private_link_service}.
 type PrivateLinkService interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -38,9 +38,6 @@ type PrivateLinkService interface {
 	DestinationIpAddress() *string
 	SetDestinationIpAddress(val *string)
 	DestinationIpAddressInput() *string
-	EnableProxyProtocol() interface{}
-	SetEnableProxyProtocol(val interface{})
-	EnableProxyProtocolInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -198,7 +195,6 @@ type PrivateLinkService interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAutoApprovalSubscriptionIds()
 	ResetDestinationIpAddress()
-	ResetEnableProxyProtocol()
 	ResetFqdns()
 	ResetId()
 	ResetLoadBalancerFrontendIpConfigurationIds()
@@ -331,26 +327,6 @@ func (j *jsiiProxy_PrivateLinkService) DestinationIpAddressInput() *string {
 	_jsii_.Get(
 		j,
 		"destinationIpAddressInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_PrivateLinkService) EnableProxyProtocol() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableProxyProtocol",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_PrivateLinkService) EnableProxyProtocolInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableProxyProtocolInput",
 		&returns,
 	)
 	return returns
@@ -687,7 +663,7 @@ func (j *jsiiProxy_PrivateLinkService) VisibilitySubscriptionIdsInput() *[]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_link_service azurerm_private_link_service} Resource.
 func NewPrivateLinkService(scope constructs.Construct, id *string, config *PrivateLinkServiceConfig) PrivateLinkService {
 	_init_.Initialize()
 
@@ -705,7 +681,7 @@ func NewPrivateLinkService(scope constructs.Construct, id *string, config *Priva
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_link_service azurerm_private_link_service} Resource.
 func NewPrivateLinkService_Override(p PrivateLinkService, scope constructs.Construct, id *string, config *PrivateLinkServiceConfig) {
 	_init_.Initialize()
 
@@ -764,17 +740,6 @@ func (j *jsiiProxy_PrivateLinkService)SetDestinationIpAddress(val *string) {
 	_jsii_.Set(
 		j,
 		"destinationIpAddress",
-		val,
-	)
-}
-
-func (j *jsiiProxy_PrivateLinkService)SetEnableProxyProtocol(val interface{}) {
-	if err := j.validateSetEnableProxyProtocolParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableProxyProtocol",
 		val,
 	)
 }
@@ -1330,14 +1295,6 @@ func (p *jsiiProxy_PrivateLinkService) ResetDestinationIpAddress() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetDestinationIpAddress",
-		nil, // no parameters
-	)
-}
-
-func (p *jsiiProxy_PrivateLinkService) ResetEnableProxyProtocol() {
-	_jsii_.InvokeVoid(
-		p,
-		"resetEnableProxyProtocol",
 		nil, // no parameters
 	)
 }

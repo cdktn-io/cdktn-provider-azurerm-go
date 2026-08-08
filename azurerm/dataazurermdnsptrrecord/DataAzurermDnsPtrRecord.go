@@ -5,14 +5,14 @@ package dataazurermdnsptrrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermdnsptrrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermdnsptrrecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record}.
 type DataAzurermDnsPtrRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAzurermDnsPtrRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
 func NewDataAzurermDnsPtrRecord(scope constructs.Construct, id *string, config *DataAzurermDnsPtrRecordConfig) DataAzurermDnsPtrRecord {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataAzurermDnsPtrRecord(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
 func NewDataAzurermDnsPtrRecord_Override(d DataAzurermDnsPtrRecord, scope constructs.Construct, id *string, config *DataAzurermDnsPtrRecordConfig) {
 	_init_.Initialize()
 

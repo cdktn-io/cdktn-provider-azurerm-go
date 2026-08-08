@@ -5,14 +5,14 @@ package applicationinsights
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/applicationinsights/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationinsights/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights azurerm_application_insights}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights azurerm_application_insights}.
 type ApplicationInsights interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -35,9 +35,6 @@ type ApplicationInsights interface {
 	DailyDataCapInGb() *float64
 	SetDailyDataCapInGb(val *float64)
 	DailyDataCapInGbInput() *float64
-	DailyDataCapNotificationsDisabled() interface{}
-	SetDailyDataCapNotificationsDisabled(val interface{})
-	DailyDataCapNotificationsDisabledInput() interface{}
 	DailyDataCapNotificationsEnabled() interface{}
 	SetDailyDataCapNotificationsEnabled(val interface{})
 	DailyDataCapNotificationsEnabledInput() interface{}
@@ -45,9 +42,6 @@ type ApplicationInsights interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	DisableIpMasking() interface{}
-	SetDisableIpMasking(val interface{})
-	DisableIpMaskingInput() interface{}
 	ForceCustomerStorageForProfiler() interface{}
 	SetForceCustomerStorageForProfiler(val interface{})
 	ForceCustomerStorageForProfilerInput() interface{}
@@ -76,9 +70,6 @@ type ApplicationInsights interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	LocalAuthenticationDisabled() interface{}
-	SetLocalAuthenticationDisabled(val interface{})
-	LocalAuthenticationDisabledInput() interface{}
 	LocalAuthenticationEnabled() interface{}
 	SetLocalAuthenticationEnabled(val interface{})
 	LocalAuthenticationEnabledInput() interface{}
@@ -217,15 +208,12 @@ type ApplicationInsights interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDailyDataCapInGb()
-	ResetDailyDataCapNotificationsDisabled()
 	ResetDailyDataCapNotificationsEnabled()
-	ResetDisableIpMasking()
 	ResetForceCustomerStorageForProfiler()
 	ResetId()
 	ResetInternetIngestionEnabled()
 	ResetInternetQueryEnabled()
 	ResetIpMaskingEnabled()
-	ResetLocalAuthenticationDisabled()
 	ResetLocalAuthenticationEnabled()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -362,26 +350,6 @@ func (j *jsiiProxy_ApplicationInsights) DailyDataCapInGbInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsights) DailyDataCapNotificationsDisabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"dailyDataCapNotificationsDisabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationInsights) DailyDataCapNotificationsDisabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"dailyDataCapNotificationsDisabledInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_ApplicationInsights) DailyDataCapNotificationsEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -407,26 +375,6 @@ func (j *jsiiProxy_ApplicationInsights) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationInsights) DisableIpMasking() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"disableIpMasking",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationInsights) DisableIpMaskingInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"disableIpMaskingInput",
 		&returns,
 	)
 	return returns
@@ -577,26 +525,6 @@ func (j *jsiiProxy_ApplicationInsights) Lifecycle() *cdktn.TerraformResourceLife
 	_jsii_.Get(
 		j,
 		"lifecycle",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationInsights) LocalAuthenticationDisabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"localAuthenticationDisabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationInsights) LocalAuthenticationDisabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"localAuthenticationDisabledInput",
 		&returns,
 	)
 	return returns
@@ -853,7 +781,7 @@ func (j *jsiiProxy_ApplicationInsights) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights azurerm_application_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights azurerm_application_insights} Resource.
 func NewApplicationInsights(scope constructs.Construct, id *string, config *ApplicationInsightsConfig) ApplicationInsights {
 	_init_.Initialize()
 
@@ -871,7 +799,7 @@ func NewApplicationInsights(scope constructs.Construct, id *string, config *Appl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights azurerm_application_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights azurerm_application_insights} Resource.
 func NewApplicationInsights_Override(a ApplicationInsights, scope constructs.Construct, id *string, config *ApplicationInsightsConfig) {
 	_init_.Initialize()
 
@@ -926,17 +854,6 @@ func (j *jsiiProxy_ApplicationInsights)SetDailyDataCapInGb(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationInsights)SetDailyDataCapNotificationsDisabled(val interface{}) {
-	if err := j.validateSetDailyDataCapNotificationsDisabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"dailyDataCapNotificationsDisabled",
-		val,
-	)
-}
-
 func (j *jsiiProxy_ApplicationInsights)SetDailyDataCapNotificationsEnabled(val interface{}) {
 	if err := j.validateSetDailyDataCapNotificationsEnabledParameters(val); err != nil {
 		panic(err)
@@ -952,17 +869,6 @@ func (j *jsiiProxy_ApplicationInsights)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ApplicationInsights)SetDisableIpMasking(val interface{}) {
-	if err := j.validateSetDisableIpMaskingParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"disableIpMasking",
 		val,
 	)
 }
@@ -1037,17 +943,6 @@ func (j *jsiiProxy_ApplicationInsights)SetLifecycle(val *cdktn.TerraformResource
 	_jsii_.Set(
 		j,
 		"lifecycle",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ApplicationInsights)SetLocalAuthenticationDisabled(val interface{}) {
-	if err := j.validateSetLocalAuthenticationDisabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"localAuthenticationDisabled",
 		val,
 	)
 }
@@ -1558,26 +1453,10 @@ func (a *jsiiProxy_ApplicationInsights) ResetDailyDataCapInGb() {
 	)
 }
 
-func (a *jsiiProxy_ApplicationInsights) ResetDailyDataCapNotificationsDisabled() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetDailyDataCapNotificationsDisabled",
-		nil, // no parameters
-	)
-}
-
 func (a *jsiiProxy_ApplicationInsights) ResetDailyDataCapNotificationsEnabled() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetDailyDataCapNotificationsEnabled",
-		nil, // no parameters
-	)
-}
-
-func (a *jsiiProxy_ApplicationInsights) ResetDisableIpMasking() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetDisableIpMasking",
 		nil, // no parameters
 	)
 }
@@ -1618,14 +1497,6 @@ func (a *jsiiProxy_ApplicationInsights) ResetIpMaskingEnabled() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetIpMaskingEnabled",
-		nil, // no parameters
-	)
-}
-
-func (a *jsiiProxy_ApplicationInsights) ResetLocalAuthenticationDisabled() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetLocalAuthenticationDisabled",
 		nil, // no parameters
 	)
 }

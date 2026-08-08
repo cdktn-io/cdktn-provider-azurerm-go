@@ -5,14 +5,14 @@ package botchanneldirectlinespeech
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/botchanneldirectlinespeech/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/botchanneldirectlinespeech/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech}.
 type BotChannelDirectLineSpeech interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -581,7 +581,7 @@ func (j *jsiiProxy_BotChannelDirectLineSpeech) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech} Resource.
 func NewBotChannelDirectLineSpeech(scope constructs.Construct, id *string, config *BotChannelDirectLineSpeechConfig) BotChannelDirectLineSpeech {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewBotChannelDirectLineSpeech(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech} Resource.
 func NewBotChannelDirectLineSpeech_Override(b BotChannelDirectLineSpeech, scope constructs.Construct, id *string, config *BotChannelDirectLineSpeechConfig) {
 	_init_.Initialize()
 

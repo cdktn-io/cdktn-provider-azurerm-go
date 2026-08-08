@@ -5,9 +5,9 @@ package apimanagementcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/apimanagementcustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagementcustomdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -50,9 +50,6 @@ type ApiManagementCustomDomainGatewayOutputReference interface {
 	KeyVaultCertificateId() *string
 	SetKeyVaultCertificateId(val *string)
 	KeyVaultCertificateIdInput() *string
-	KeyVaultId() *string
-	SetKeyVaultId(val *string)
-	KeyVaultIdInput() *string
 	NegotiateClientCertificate() interface{}
 	SetNegotiateClientCertificate(val interface{})
 	NegotiateClientCertificateInput() interface{}
@@ -97,7 +94,6 @@ type ApiManagementCustomDomainGatewayOutputReference interface {
 	ResetCertificatePassword()
 	ResetDefaultSslBinding()
 	ResetKeyVaultCertificateId()
-	ResetKeyVaultId()
 	ResetNegotiateClientCertificate()
 	ResetSslKeyvaultIdentityClientId()
 	// Produce the Token's value at resolution time.
@@ -295,26 +291,6 @@ func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) KeyVaultCert
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) KeyVaultId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVaultId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) KeyVaultIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVaultIdInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) NegotiateClientCertificate() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -507,17 +483,6 @@ func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference)SetKeyVaultCe
 	_jsii_.Set(
 		j,
 		"keyVaultCertificateId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference)SetKeyVaultId(val *string) {
-	if err := j.validateSetKeyVaultIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"keyVaultId",
 		val,
 	)
 }
@@ -780,14 +745,6 @@ func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) ResetKeyVaul
 	_jsii_.InvokeVoid(
 		a,
 		"resetKeyVaultCertificateId",
-		nil, // no parameters
-	)
-}
-
-func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) ResetKeyVaultId() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetKeyVaultId",
 		nil, // no parameters
 	)
 }

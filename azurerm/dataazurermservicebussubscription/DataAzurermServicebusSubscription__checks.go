@@ -254,31 +254,7 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetNameParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetNamespaceNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetResourceGroupNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetTopicIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetTopicNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

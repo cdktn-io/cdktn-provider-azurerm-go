@@ -5,14 +5,14 @@ package devcenterdevboxdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/devcenterdevboxdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/devcenterdevboxdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_dev_box_definition azurerm_dev_center_dev_box_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_center_dev_box_definition azurerm_dev_center_dev_box_definition}.
 type DevCenterDevBoxDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -555,7 +555,7 @@ func (j *jsiiProxy_DevCenterDevBoxDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_dev_box_definition azurerm_dev_center_dev_box_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_center_dev_box_definition azurerm_dev_center_dev_box_definition} Resource.
 func NewDevCenterDevBoxDefinition(scope constructs.Construct, id *string, config *DevCenterDevBoxDefinitionConfig) DevCenterDevBoxDefinition {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewDevCenterDevBoxDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_dev_box_definition azurerm_dev_center_dev_box_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_center_dev_box_definition azurerm_dev_center_dev_box_definition} Resource.
 func NewDevCenterDevBoxDefinition_Override(d DevCenterDevBoxDefinition, scope constructs.Construct, id *string, config *DevCenterDevBoxDefinitionConfig) {
 	_init_.Initialize()
 

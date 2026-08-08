@@ -5,14 +5,14 @@ package lboutboundrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/lboutboundrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/lboutboundrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb_outbound_rule azurerm_lb_outbound_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_outbound_rule azurerm_lb_outbound_rule}.
 type LbOutboundRule interface {
 	cdktn.TerraformResource
 	AllocatedOutboundPorts() *float64
@@ -37,9 +37,6 @@ type LbOutboundRule interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnableTcpReset() interface{}
-	SetEnableTcpReset(val interface{})
-	EnableTcpResetInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -187,7 +184,6 @@ type LbOutboundRule interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAllocatedOutboundPorts()
-	ResetEnableTcpReset()
 	ResetFrontendIpConfiguration()
 	ResetId()
 	ResetIdleTimeoutInMinutes()
@@ -308,26 +304,6 @@ func (j *jsiiProxy_LbOutboundRule) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LbOutboundRule) EnableTcpReset() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableTcpReset",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LbOutboundRule) EnableTcpResetInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableTcpResetInput",
 		&returns,
 	)
 	return returns
@@ -604,7 +580,7 @@ func (j *jsiiProxy_LbOutboundRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb_outbound_rule azurerm_lb_outbound_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_outbound_rule azurerm_lb_outbound_rule} Resource.
 func NewLbOutboundRule(scope constructs.Construct, id *string, config *LbOutboundRuleConfig) LbOutboundRule {
 	_init_.Initialize()
 
@@ -622,7 +598,7 @@ func NewLbOutboundRule(scope constructs.Construct, id *string, config *LbOutboun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb_outbound_rule azurerm_lb_outbound_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_outbound_rule azurerm_lb_outbound_rule} Resource.
 func NewLbOutboundRule_Override(l LbOutboundRule, scope constructs.Construct, id *string, config *LbOutboundRuleConfig) {
 	_init_.Initialize()
 
@@ -681,17 +657,6 @@ func (j *jsiiProxy_LbOutboundRule)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LbOutboundRule)SetEnableTcpReset(val interface{}) {
-	if err := j.validateSetEnableTcpResetParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableTcpReset",
 		val,
 	)
 }
@@ -1206,14 +1171,6 @@ func (l *jsiiProxy_LbOutboundRule) ResetAllocatedOutboundPorts() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetAllocatedOutboundPorts",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LbOutboundRule) ResetEnableTcpReset() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetEnableTcpReset",
 		nil, // no parameters
 	)
 }

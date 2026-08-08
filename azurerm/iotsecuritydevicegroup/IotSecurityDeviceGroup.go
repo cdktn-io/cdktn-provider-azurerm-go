@@ -5,14 +5,14 @@ package iotsecuritydevicegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/iotsecuritydevicegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/iotsecuritydevicegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iot_security_device_group azurerm_iot_security_device_group}.
 type IotSecurityDeviceGroup interface {
 	cdktn.TerraformResource
 	AllowRule() IotSecurityDeviceGroupAllowRuleOutputReference
@@ -486,7 +486,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iot_security_device_group azurerm_iot_security_device_group} Resource.
 func NewIotSecurityDeviceGroup(scope constructs.Construct, id *string, config *IotSecurityDeviceGroupConfig) IotSecurityDeviceGroup {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewIotSecurityDeviceGroup(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iot_security_device_group azurerm_iot_security_device_group} Resource.
 func NewIotSecurityDeviceGroup_Override(i IotSecurityDeviceGroup, scope constructs.Construct, id *string, config *IotSecurityDeviceGroupConfig) {
 	_init_.Initialize()
 

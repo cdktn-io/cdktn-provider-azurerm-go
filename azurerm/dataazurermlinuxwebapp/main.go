@@ -1914,7 +1914,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "phpVersion", GoGetter: "PhpVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "pythonVersion", GoGetter: "PythonVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "rubyVersion", GoGetter: "RubyVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},

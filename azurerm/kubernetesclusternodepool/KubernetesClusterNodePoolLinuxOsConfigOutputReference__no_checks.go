@@ -87,10 +87,6 @@ func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) validateSetTransparentHugePageEnabledParameters(val *string) error {
-	return nil
-}
-
 func validateNewKubernetesClusterNodePoolLinuxOsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package storagesharefile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storagesharefile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storagesharefile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_share_file azurerm_storage_share_file}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share_file azurerm_storage_share_file}.
 type StorageShareFile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -82,10 +82,10 @@ type StorageShareFile interface {
 	RawOverrides() interface{}
 	Source() *string
 	SetSource(val *string)
+	SourceContent() *string
+	SetSourceContent(val *string)
+	SourceContentInput() *string
 	SourceInput() *string
-	StorageShareId() *string
-	SetStorageShareId(val *string)
-	StorageShareIdInput() *string
 	StorageShareUrl() *string
 	SetStorageShareUrl(val *string)
 	StorageShareUrlInput() *string
@@ -201,8 +201,7 @@ type StorageShareFile interface {
 	ResetOverrideLogicalId()
 	ResetPath()
 	ResetSource()
-	ResetStorageShareId()
-	ResetStorageShareUrl()
+	ResetSourceContent()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -541,31 +540,31 @@ func (j *jsiiProxy_StorageShareFile) Source() *string {
 	return returns
 }
 
+func (j *jsiiProxy_StorageShareFile) SourceContent() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceContent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageShareFile) SourceContentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceContentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageShareFile) SourceInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"sourceInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageShareFile) StorageShareId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageShareId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageShareFile) StorageShareIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageShareIdInput",
 		&returns,
 	)
 	return returns
@@ -642,7 +641,7 @@ func (j *jsiiProxy_StorageShareFile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
 func NewStorageShareFile(scope constructs.Construct, id *string, config *StorageShareFileConfig) StorageShareFile {
 	_init_.Initialize()
 
@@ -660,7 +659,7 @@ func NewStorageShareFile(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
 func NewStorageShareFile_Override(s StorageShareFile, scope constructs.Construct, id *string, config *StorageShareFileConfig) {
 	_init_.Initialize()
 
@@ -838,13 +837,13 @@ func (j *jsiiProxy_StorageShareFile)SetSource(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageShareFile)SetStorageShareId(val *string) {
-	if err := j.validateSetStorageShareIdParameters(val); err != nil {
+func (j *jsiiProxy_StorageShareFile)SetSourceContent(val *string) {
+	if err := j.validateSetSourceContentParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"storageShareId",
+		"sourceContent",
 		val,
 	)
 }
@@ -1323,18 +1322,10 @@ func (s *jsiiProxy_StorageShareFile) ResetSource() {
 	)
 }
 
-func (s *jsiiProxy_StorageShareFile) ResetStorageShareId() {
+func (s *jsiiProxy_StorageShareFile) ResetSourceContent() {
 	_jsii_.InvokeVoid(
 		s,
-		"resetStorageShareId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageShareFile) ResetStorageShareUrl() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetStorageShareUrl",
+		"resetSourceContent",
 		nil, // no parameters
 	)
 }

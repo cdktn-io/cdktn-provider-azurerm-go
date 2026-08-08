@@ -5,14 +5,14 @@ package appservicepubliccertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/appservicepubliccertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/appservicepubliccertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate azurerm_app_service_public_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_public_certificate azurerm_app_service_public_certificate}.
 type AppServicePublicCertificate interface {
 	cdktn.TerraformResource
 	AppServiceName() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_AppServicePublicCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate azurerm_app_service_public_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_public_certificate azurerm_app_service_public_certificate} Resource.
 func NewAppServicePublicCertificate(scope constructs.Construct, id *string, config *AppServicePublicCertificateConfig) AppServicePublicCertificate {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewAppServicePublicCertificate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate azurerm_app_service_public_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_public_certificate azurerm_app_service_public_certificate} Resource.
 func NewAppServicePublicCertificate_Override(a AppServicePublicCertificate, scope constructs.Construct, id *string, config *AppServicePublicCertificateConfig) {
 	_init_.Initialize()
 

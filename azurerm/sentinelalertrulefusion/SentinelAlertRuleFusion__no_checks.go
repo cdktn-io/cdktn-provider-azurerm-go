@@ -135,10 +135,6 @@ func (j *jsiiProxy_SentinelAlertRuleFusion) validateSetLogAnalyticsWorkspaceIdPa
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleFusion) validateSetNameParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_SentinelAlertRuleFusion) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

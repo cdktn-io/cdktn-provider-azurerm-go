@@ -5,14 +5,14 @@ package containerregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/containerregistry/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/containerregistry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry azurerm_container_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry azurerm_container_registry}.
 type ContainerRegistry interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -126,9 +126,6 @@ type ContainerRegistry interface {
 	TerraformResourceType() *string
 	Timeouts() ContainerRegistryTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	TrustPolicyEnabled() interface{}
-	SetTrustPolicyEnabled(val interface{})
-	TrustPolicyEnabledInput() interface{}
 	ZoneRedundancyEnabled() interface{}
 	SetZoneRedundancyEnabled(val interface{})
 	ZoneRedundancyEnabledInput() interface{}
@@ -250,7 +247,6 @@ type ContainerRegistry interface {
 	ResetRoleAssignmentMode()
 	ResetTags()
 	ResetTimeouts()
-	ResetTrustPolicyEnabled()
 	ResetZoneRedundancyEnabled()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -919,26 +915,6 @@ func (j *jsiiProxy_ContainerRegistry) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerRegistry) TrustPolicyEnabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"trustPolicyEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ContainerRegistry) TrustPolicyEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"trustPolicyEnabledInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_ContainerRegistry) ZoneRedundancyEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -960,7 +936,7 @@ func (j *jsiiProxy_ContainerRegistry) ZoneRedundancyEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry azurerm_container_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry azurerm_container_registry} Resource.
 func NewContainerRegistry(scope constructs.Construct, id *string, config *ContainerRegistryConfig) ContainerRegistry {
 	_init_.Initialize()
 
@@ -978,7 +954,7 @@ func NewContainerRegistry(scope constructs.Construct, id *string, config *Contai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry azurerm_container_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry azurerm_container_registry} Resource.
 func NewContainerRegistry_Override(c ContainerRegistry, scope constructs.Construct, id *string, config *ContainerRegistryConfig) {
 	_init_.Initialize()
 
@@ -1240,17 +1216,6 @@ func (j *jsiiProxy_ContainerRegistry)SetTags(val *map[string]*string) {
 	_jsii_.Set(
 		j,
 		"tags",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ContainerRegistry)SetTrustPolicyEnabled(val interface{}) {
-	if err := j.validateSetTrustPolicyEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"trustPolicyEnabled",
 		val,
 	)
 }
@@ -1849,14 +1814,6 @@ func (c *jsiiProxy_ContainerRegistry) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTimeouts",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_ContainerRegistry) ResetTrustPolicyEnabled() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetTrustPolicyEnabled",
 		nil, // no parameters
 	)
 }

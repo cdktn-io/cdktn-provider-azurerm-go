@@ -5,14 +5,14 @@ package springcloudaccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/springcloudaccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/springcloudaccelerator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator}.
 type SpringCloudAccelerator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_SpringCloudAccelerator) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
 func NewSpringCloudAccelerator(scope constructs.Construct, id *string, config *SpringCloudAcceleratorConfig) SpringCloudAccelerator {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewSpringCloudAccelerator(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
 func NewSpringCloudAccelerator_Override(s SpringCloudAccelerator, scope constructs.Construct, id *string, config *SpringCloudAcceleratorConfig) {
 	_init_.Initialize()
 

@@ -522,7 +522,7 @@ func (j *jsiiProxy_EventgridEventSubscription) validateSetEventDeliverySchemaPar
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) validateSetEventhubEndpointIdParameters(val *string) error {
+func (j *jsiiProxy_EventgridEventSubscription) validateSetEventhubIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -538,7 +538,7 @@ func (j *jsiiProxy_EventgridEventSubscription) validateSetExpirationTimeUtcParam
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) validateSetHybridConnectionEndpointIdParameters(val *string) error {
+func (j *jsiiProxy_EventgridEventSubscription) validateSetHybridConnectionIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -640,7 +640,7 @@ func (j *jsiiProxy_EventgridEventSubscription) validateSetScopeParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) validateSetServiceBusQueueEndpointIdParameters(val *string) error {
+func (j *jsiiProxy_EventgridEventSubscription) validateSetServiceBusQueueIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -648,7 +648,7 @@ func (j *jsiiProxy_EventgridEventSubscription) validateSetServiceBusQueueEndpoin
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) validateSetServiceBusTopicEndpointIdParameters(val *string) error {
+func (j *jsiiProxy_EventgridEventSubscription) validateSetServiceBusTopicIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

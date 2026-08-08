@@ -5,14 +5,14 @@ package mysqlflexibleserverfirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mysqlflexibleserverfirewallrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mysqlflexibleserverfirewallrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule}.
 type MysqlFlexibleServerFirewallRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_MysqlFlexibleServerFirewallRule) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule} Resource.
 func NewMysqlFlexibleServerFirewallRule(scope constructs.Construct, id *string, config *MysqlFlexibleServerFirewallRuleConfig) MysqlFlexibleServerFirewallRule {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewMysqlFlexibleServerFirewallRule(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule} Resource.
 func NewMysqlFlexibleServerFirewallRule_Override(m MysqlFlexibleServerFirewallRule, scope constructs.Construct, id *string, config *MysqlFlexibleServerFirewallRuleConfig) {
 	_init_.Initialize()
 

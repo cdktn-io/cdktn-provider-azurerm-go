@@ -5,14 +5,14 @@ package storagetableentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storagetableentity/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storagetableentity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_table_entity azurerm_storage_table_entity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_table_entity azurerm_storage_table_entity}.
 type StorageTableEntity interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_StorageTableEntity) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_table_entity azurerm_storage_table_entity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_table_entity azurerm_storage_table_entity} Resource.
 func NewStorageTableEntity(scope constructs.Construct, id *string, config *StorageTableEntityConfig) StorageTableEntity {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewStorageTableEntity(scope constructs.Construct, id *string, config *Stora
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_table_entity azurerm_storage_table_entity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_table_entity azurerm_storage_table_entity} Resource.
 func NewStorageTableEntity_Override(s StorageTableEntity, scope constructs.Construct, id *string, config *StorageTableEntityConfig) {
 	_init_.Initialize()
 

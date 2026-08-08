@@ -90,7 +90,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetIconUrl", GoMethod: "ResetIconUrl"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMicrosoftAppTenantId", GoMethod: "ResetMicrosoftAppTenantId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetMicrosoftAppType", GoMethod: "ResetMicrosoftAppType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMicrosoftAppUserAssignedIdentityId", GoMethod: "ResetMicrosoftAppUserAssignedIdentityId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPublicNetworkAccessEnabled", GoMethod: "ResetPublicNetworkAccessEnabled"},

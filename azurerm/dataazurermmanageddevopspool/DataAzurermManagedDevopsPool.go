@@ -5,14 +5,14 @@ package dataazurermmanageddevopspool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermmanageddevopspool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermmanageddevopspool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool}.
 type DataAzurermManagedDevopsPool interface {
 	cdktn.TerraformDataSource
 	AzureDevopsOrganization() DataAzurermManagedDevopsPoolAzureDevopsOrganizationList
@@ -467,7 +467,7 @@ func (j *jsiiProxy_DataAzurermManagedDevopsPool) WorkFolder() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool} Data Source.
 func NewDataAzurermManagedDevopsPool(scope constructs.Construct, id *string, config *DataAzurermManagedDevopsPoolConfig) DataAzurermManagedDevopsPool {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewDataAzurermManagedDevopsPool(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool} Data Source.
 func NewDataAzurermManagedDevopsPool_Override(d DataAzurermManagedDevopsPool, scope constructs.Construct, id *string, config *DataAzurermManagedDevopsPoolConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package securitycenterautomation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/securitycenterautomation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/securitycenterautomation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -78,7 +78,6 @@ type SecurityCenterAutomationActionOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetConnectionString()
 	ResetTriggerUrl()
-	ResetType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -569,14 +568,6 @@ func (s *jsiiProxy_SecurityCenterAutomationActionOutputReference) ResetTriggerUr
 	_jsii_.InvokeVoid(
 		s,
 		"resetTriggerUrl",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SecurityCenterAutomationActionOutputReference) ResetType() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetType",
 		nil, // no parameters
 	)
 }

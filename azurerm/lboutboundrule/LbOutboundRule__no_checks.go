@@ -123,10 +123,6 @@ func (j *jsiiProxy_LbOutboundRule) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
-func (j *jsiiProxy_LbOutboundRule) validateSetEnableTcpResetParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_LbOutboundRule) validateSetIdParameters(val *string) error {
 	return nil
 }

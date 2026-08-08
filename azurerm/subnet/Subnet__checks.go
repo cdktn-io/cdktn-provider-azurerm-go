@@ -257,6 +257,37 @@ func (s *jsiiProxy_Subnet) validatePutIpAddressPoolParameters(value *SubnetIpAdd
 	return nil
 }
 
+func (s *jsiiProxy_Subnet) validatePutServiceEndpointParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*SubnetServiceEndpoint:
+		value := value.(*[]*SubnetServiceEndpoint)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*SubnetServiceEndpoint:
+		value_ := value.([]*SubnetServiceEndpoint)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SubnetServiceEndpoint; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_Subnet) validatePutTimeoutsParameters(value *SubnetTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -458,6 +489,22 @@ func (j *jsiiProxy_Subnet) validateSetNameParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_Subnet) validateSetNetworkSecurityGroupIdWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_Subnet) validateSetNetworkSecurityGroupIdWoVersionParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_Subnet) validateSetPrivateEndpointNetworkPoliciesParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -540,7 +587,7 @@ func (j *jsiiProxy_Subnet) validateSetResourceGroupNameParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_Subnet) validateSetServiceEndpointPolicyIdsParameters(val *[]*string) error {
+func (j *jsiiProxy_Subnet) validateSetRouteTableIdWoParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -548,7 +595,15 @@ func (j *jsiiProxy_Subnet) validateSetServiceEndpointPolicyIdsParameters(val *[]
 	return nil
 }
 
-func (j *jsiiProxy_Subnet) validateSetServiceEndpointsParameters(val *[]*string) error {
+func (j *jsiiProxy_Subnet) validateSetRouteTableIdWoVersionParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_Subnet) validateSetServiceEndpointPolicyIdsParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

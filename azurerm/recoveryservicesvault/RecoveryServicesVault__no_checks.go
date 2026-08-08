@@ -167,10 +167,6 @@ func (j *jsiiProxy_RecoveryServicesVault) validateSetSkuParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_RecoveryServicesVault) validateSetSoftDeleteEnabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_RecoveryServicesVault) validateSetStorageModeTypeParameters(val *string) error {
 	return nil
 }

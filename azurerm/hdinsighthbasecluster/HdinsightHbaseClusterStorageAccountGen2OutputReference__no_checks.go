@@ -71,11 +71,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountGen2OutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountGen2OutputReference) validateSetManagedIdentityResourceIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountGen2OutputReference) validateSetStorageResourceIdParameters(val *string) error {
+func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountGen2OutputReference) validateSetStorageAccountIdParameters(val *string) error {
 	return nil
 }
 
@@ -84,6 +80,10 @@ func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountGen2OutputReference) valid
 }
 
 func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountGen2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_HdinsightHbaseClusterStorageAccountGen2OutputReference) validateSetUserAssignedIdentityIdParameters(val *string) error {
 	return nil
 }
 

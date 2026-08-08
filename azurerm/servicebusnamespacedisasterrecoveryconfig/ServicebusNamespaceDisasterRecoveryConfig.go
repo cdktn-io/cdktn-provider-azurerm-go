@@ -5,14 +5,14 @@ package servicebusnamespacedisasterrecoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/servicebusnamespacedisasterrecoveryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/servicebusnamespacedisasterrecoveryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config}.
 type ServicebusNamespaceDisasterRecoveryConfig interface {
 	cdktn.TerraformResource
 	AliasAuthorizationRuleId() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_ServicebusNamespaceDisasterRecoveryConfig) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Resource.
 func NewServicebusNamespaceDisasterRecoveryConfig(scope constructs.Construct, id *string, config *ServicebusNamespaceDisasterRecoveryConfigConfig) ServicebusNamespaceDisasterRecoveryConfig {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewServicebusNamespaceDisasterRecoveryConfig(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Resource.
 func NewServicebusNamespaceDisasterRecoveryConfig_Override(s ServicebusNamespaceDisasterRecoveryConfig, scope constructs.Construct, id *string, config *ServicebusNamespaceDisasterRecoveryConfigConfig) {
 	_init_.Initialize()
 

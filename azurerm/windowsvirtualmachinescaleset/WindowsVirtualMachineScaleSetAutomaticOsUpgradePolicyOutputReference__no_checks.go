@@ -51,19 +51,19 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputRe
 	return nil
 }
 
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetAutomaticOsUpgradeEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetAutomaticRollbackEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
 
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
-	return nil
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetDisableAutomaticRollbackParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetEnableAutomaticOsUpgradeParameters(val interface{}) error {
 	return nil
 }
 

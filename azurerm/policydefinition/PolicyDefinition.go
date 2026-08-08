@@ -5,14 +5,14 @@ package policydefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/policydefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/policydefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/policy_definition azurerm_policy_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_definition azurerm_policy_definition}.
 type PolicyDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -615,7 +615,7 @@ func (j *jsiiProxy_PolicyDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/policy_definition azurerm_policy_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_definition azurerm_policy_definition} Resource.
 func NewPolicyDefinition(scope constructs.Construct, id *string, config *PolicyDefinitionConfig) PolicyDefinition {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewPolicyDefinition(scope constructs.Construct, id *string, config *PolicyD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/policy_definition azurerm_policy_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_definition azurerm_policy_definition} Resource.
 func NewPolicyDefinition_Override(p PolicyDefinition, scope constructs.Construct, id *string, config *PolicyDefinitionConfig) {
 	_init_.Initialize()
 

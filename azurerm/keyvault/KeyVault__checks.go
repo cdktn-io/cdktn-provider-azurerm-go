@@ -246,37 +246,6 @@ func (k *jsiiProxy_KeyVault) validatePutAccessPolicyParameters(value interface{}
 	return nil
 }
 
-func (k *jsiiProxy_KeyVault) validatePutContactParameters(value interface{}) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	switch value.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*KeyVaultContact:
-		value := value.(*[]*KeyVaultContact)
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	case []*KeyVaultContact:
-		value_ := value.([]*KeyVaultContact)
-		value := &value_
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*KeyVaultContact; received %#v (a %T)", value, value)
-		}
-	}
-
-	return nil
-}
-
 func (k *jsiiProxy_KeyVault) validatePutNetworkAclsParameters(value *KeyVaultNetworkAcls) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -478,26 +447,6 @@ func (j *jsiiProxy_KeyVault) validateSetEnabledForDiskEncryptionParameters(val i
 }
 
 func (j *jsiiProxy_KeyVault) validateSetEnabledForTemplateDeploymentParameters(val interface{}) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-	switch val.(type) {
-	case *bool:
-		// ok
-	case bool:
-		// ok
-	case cdktn.IResolvable:
-		// ok
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_KeyVault) validateSetEnableRbacAuthorizationParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

@@ -47,10 +47,6 @@ func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validatePutAuthenticationCertificateParameters(value interface{}) error {
-	return nil
-}
-
 func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validatePutConnectionDrainingParameters(value *ApplicationGatewayBackendHttpSettingsConnectionDraining) error {
 	return nil
 }

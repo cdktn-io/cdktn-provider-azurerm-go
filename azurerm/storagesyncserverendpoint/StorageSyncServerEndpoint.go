@@ -5,14 +5,14 @@ package storagesyncserverendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storagesyncserverendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storagesyncserverendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint}.
 type StorageSyncServerEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -604,7 +604,7 @@ func (j *jsiiProxy_StorageSyncServerEndpoint) VolumeFreeSpacePercentInput() *flo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
 func NewStorageSyncServerEndpoint(scope constructs.Construct, id *string, config *StorageSyncServerEndpointConfig) StorageSyncServerEndpoint {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewStorageSyncServerEndpoint(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
 func NewStorageSyncServerEndpoint_Override(s StorageSyncServerEndpoint, scope constructs.Construct, id *string, config *StorageSyncServerEndpointConfig) {
 	_init_.Initialize()
 

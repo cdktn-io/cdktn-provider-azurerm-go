@@ -5,14 +5,14 @@ package iotsecuritysolution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/iotsecuritysolution/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/iotsecuritysolution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iot_security_solution azurerm_iot_security_solution}.
 type IotSecuritySolution interface {
 	cdktn.TerraformResource
 	AdditionalWorkspace() IotSecuritySolutionAdditionalWorkspaceList
@@ -93,8 +93,8 @@ type IotSecuritySolution interface {
 	QuerySubscriptionIdsInput() *[]*string
 	// Experimental.
 	RawOverrides() interface{}
-	RecommendationsEnabled() IotSecuritySolutionRecommendationsEnabledOutputReference
-	RecommendationsEnabledInput() *IotSecuritySolutionRecommendationsEnabled
+	Recommendations() IotSecuritySolutionRecommendationsOutputReference
+	RecommendationsInput() *IotSecuritySolutionRecommendations
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
@@ -189,7 +189,7 @@ type IotSecuritySolution interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAdditionalWorkspace(value interface{})
-	PutRecommendationsEnabled(value *IotSecuritySolutionRecommendationsEnabled)
+	PutRecommendations(value *IotSecuritySolutionRecommendations)
 	PutTimeouts(value *IotSecuritySolutionTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -216,7 +216,7 @@ type IotSecuritySolution interface {
 	ResetOverrideLogicalId()
 	ResetQueryForResources()
 	ResetQuerySubscriptionIds()
-	ResetRecommendationsEnabled()
+	ResetRecommendations()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -636,21 +636,21 @@ func (j *jsiiProxy_IotSecuritySolution) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_IotSecuritySolution) RecommendationsEnabled() IotSecuritySolutionRecommendationsEnabledOutputReference {
-	var returns IotSecuritySolutionRecommendationsEnabledOutputReference
+func (j *jsiiProxy_IotSecuritySolution) Recommendations() IotSecuritySolutionRecommendationsOutputReference {
+	var returns IotSecuritySolutionRecommendationsOutputReference
 	_jsii_.Get(
 		j,
-		"recommendationsEnabled",
+		"recommendations",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_IotSecuritySolution) RecommendationsEnabledInput() *IotSecuritySolutionRecommendationsEnabled {
-	var returns *IotSecuritySolutionRecommendationsEnabled
+func (j *jsiiProxy_IotSecuritySolution) RecommendationsInput() *IotSecuritySolutionRecommendations {
+	var returns *IotSecuritySolutionRecommendations
 	_jsii_.Get(
 		j,
-		"recommendationsEnabledInput",
+		"recommendationsInput",
 		&returns,
 	)
 	return returns
@@ -747,7 +747,7 @@ func (j *jsiiProxy_IotSecuritySolution) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
 func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotSecuritySolutionConfig) IotSecuritySolution {
 	_init_.Initialize()
 
@@ -765,7 +765,7 @@ func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
 func NewIotSecuritySolution_Override(i IotSecuritySolution, scope constructs.Construct, id *string, config *IotSecuritySolutionConfig) {
 	_init_.Initialize()
 
@@ -1378,13 +1378,13 @@ func (i *jsiiProxy_IotSecuritySolution) PutAdditionalWorkspace(value interface{}
 	)
 }
 
-func (i *jsiiProxy_IotSecuritySolution) PutRecommendationsEnabled(value *IotSecuritySolutionRecommendationsEnabled) {
-	if err := i.validatePutRecommendationsEnabledParameters(value); err != nil {
+func (i *jsiiProxy_IotSecuritySolution) PutRecommendations(value *IotSecuritySolutionRecommendations) {
+	if err := i.validatePutRecommendationsParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		i,
-		"putRecommendationsEnabled",
+		"putRecommendations",
 		[]interface{}{value},
 	)
 }
@@ -1491,10 +1491,10 @@ func (i *jsiiProxy_IotSecuritySolution) ResetQuerySubscriptionIds() {
 	)
 }
 
-func (i *jsiiProxy_IotSecuritySolution) ResetRecommendationsEnabled() {
+func (i *jsiiProxy_IotSecuritySolution) ResetRecommendations() {
 	_jsii_.InvokeVoid(
 		i,
-		"resetRecommendationsEnabled",
+		"resetRecommendations",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package kubernetesfleetupdaterun
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/kubernetesfleetupdaterun/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/kubernetesfleetupdaterun/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run}.
 type KubernetesFleetUpdateRun interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateRun) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
 func NewKubernetesFleetUpdateRun(scope constructs.Construct, id *string, config *KubernetesFleetUpdateRunConfig) KubernetesFleetUpdateRun {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewKubernetesFleetUpdateRun(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
 func NewKubernetesFleetUpdateRun_Override(k KubernetesFleetUpdateRun, scope constructs.Construct, id *string, config *KubernetesFleetUpdateRunConfig) {
 	_init_.Initialize()
 

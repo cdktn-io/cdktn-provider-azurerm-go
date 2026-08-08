@@ -203,19 +203,11 @@ func (j *jsiiProxy_CosmosdbAccount) validateSetLifecycleParameters(val *cdktn.Te
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbAccount) validateSetLocalAuthenticationDisabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_CosmosdbAccount) validateSetLocalAuthenticationEnabledParameters(val interface{}) error {
 	return nil
 }
 
 func (j *jsiiProxy_CosmosdbAccount) validateSetLocationParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_CosmosdbAccount) validateSetManagedHsmKeyIdParameters(val *string) error {
 	return nil
 }
 

@@ -5,16 +5,19 @@ package mssqldatabaseextendedauditingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mssqldatabaseextendedauditingpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mssqldatabaseextendedauditingpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy}.
 type MssqlDatabaseExtendedAuditingPolicy interface {
 	cdktn.TerraformResource
+	BlobStorageEndpoint() *string
+	SetBlobStorageEndpoint(val *string)
+	BlobStorageEndpointInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -76,9 +79,6 @@ type MssqlDatabaseExtendedAuditingPolicy interface {
 	StorageAccountAccessKeyIsSecondary() interface{}
 	SetStorageAccountAccessKeyIsSecondary(val interface{})
 	StorageAccountAccessKeyIsSecondaryInput() interface{}
-	StorageEndpoint() *string
-	SetStorageEndpoint(val *string)
-	StorageEndpointInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -180,6 +180,7 @@ type MssqlDatabaseExtendedAuditingPolicy interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetBlobStorageEndpoint()
 	ResetEnabled()
 	ResetId()
 	ResetLogMonitoringEnabled()
@@ -189,7 +190,6 @@ type MssqlDatabaseExtendedAuditingPolicy interface {
 	ResetRetentionInDays()
 	ResetStorageAccountAccessKey()
 	ResetStorageAccountAccessKeyIsSecondary()
-	ResetStorageEndpoint()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -216,6 +216,26 @@ type MssqlDatabaseExtendedAuditingPolicy interface {
 // The jsii proxy struct for MssqlDatabaseExtendedAuditingPolicy
 type jsiiProxy_MssqlDatabaseExtendedAuditingPolicy struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) BlobStorageEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"blobStorageEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) BlobStorageEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"blobStorageEndpointInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) CdktfStack() cdktn.TerraformStack {
@@ -488,26 +508,6 @@ func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) StorageAccountAccessKeyI
 	return returns
 }
 
-func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) StorageEndpoint() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageEndpoint",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) StorageEndpointInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageEndpointInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -559,7 +559,7 @@ func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.
 func NewMssqlDatabaseExtendedAuditingPolicy(scope constructs.Construct, id *string, config *MssqlDatabaseExtendedAuditingPolicyConfig) MssqlDatabaseExtendedAuditingPolicy {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewMssqlDatabaseExtendedAuditingPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.
 func NewMssqlDatabaseExtendedAuditingPolicy_Override(m MssqlDatabaseExtendedAuditingPolicy, scope constructs.Construct, id *string, config *MssqlDatabaseExtendedAuditingPolicyConfig) {
 	_init_.Initialize()
 
@@ -585,6 +585,17 @@ func NewMssqlDatabaseExtendedAuditingPolicy_Override(m MssqlDatabaseExtendedAudi
 		"@cdktn/provider-azurerm.mssqlDatabaseExtendedAuditingPolicy.MssqlDatabaseExtendedAuditingPolicy",
 		[]interface{}{scope, id, config},
 		m,
+	)
+}
+
+func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy)SetBlobStorageEndpoint(val *string) {
+	if err := j.validateSetBlobStorageEndpointParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"blobStorageEndpoint",
+		val,
 	)
 }
 
@@ -729,17 +740,6 @@ func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy)SetStorageAccountAccessKe
 	_jsii_.Set(
 		j,
 		"storageAccountAccessKeyIsSecondary",
-		val,
-	)
-}
-
-func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy)SetStorageEndpoint(val *string) {
-	if err := j.validateSetStorageEndpointParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"storageEndpoint",
 		val,
 	)
 }
@@ -1135,6 +1135,14 @@ func (m *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) RegisterProviderFeatureU
 	)
 }
 
+func (m *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) ResetBlobStorageEndpoint() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetBlobStorageEndpoint",
+		nil, // no parameters
+	)
+}
+
 func (m *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) ResetEnabled() {
 	_jsii_.InvokeVoid(
 		m,
@@ -1187,14 +1195,6 @@ func (m *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) ResetStorageAccountAcces
 	_jsii_.InvokeVoid(
 		m,
 		"resetStorageAccountAccessKeyIsSecondary",
-		nil, // no parameters
-	)
-}
-
-func (m *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) ResetStorageEndpoint() {
-	_jsii_.InvokeVoid(
-		m,
-		"resetStorageEndpoint",
 		nil, // no parameters
 	)
 }

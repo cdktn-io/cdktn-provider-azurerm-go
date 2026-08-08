@@ -372,7 +372,7 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) validateSetDisabledAlertsPara
 	return nil
 }
 
-func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) validateSetEmailAccountAdminsParameters(val interface{}) error {
+func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) validateSetEmailAccountAdminsEnabledParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

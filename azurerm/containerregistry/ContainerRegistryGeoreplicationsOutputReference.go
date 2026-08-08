@@ -5,9 +5,9 @@ package containerregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/containerregistry/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/containerregistry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -30,14 +30,14 @@ type ContainerRegistryGeoreplicationsOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	GlobalEndpointRoutingEnabled() interface{}
+	SetGlobalEndpointRoutingEnabled(val interface{})
+	GlobalEndpointRoutingEnabledInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
-	RegionalEndpointEnabled() interface{}
-	SetRegionalEndpointEnabled(val interface{})
-	RegionalEndpointEnabledInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -76,7 +76,6 @@ type ContainerRegistryGeoreplicationsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetRegionalEndpointEnabled()
 	ResetTags()
 	ResetZoneRedundancyEnabled()
 	// Produce the Token's value at resolution time.
@@ -134,6 +133,26 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) Fqn() *strin
 	return returns
 }
 
+func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) GlobalEndpointRoutingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"globalEndpointRoutingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) GlobalEndpointRoutingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"globalEndpointRoutingEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -159,26 +178,6 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) LocationInpu
 	_jsii_.Get(
 		j,
 		"locationInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) RegionalEndpointEnabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"regionalEndpointEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) RegionalEndpointEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"regionalEndpointEnabledInput",
 		&returns,
 	)
 	return returns
@@ -294,6 +293,17 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference)SetComplexObj
 	)
 }
 
+func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference)SetGlobalEndpointRoutingEnabled(val interface{}) {
+	if err := j.validateSetGlobalEndpointRoutingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"globalEndpointRoutingEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -312,17 +322,6 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference)SetLocation(v
 	_jsii_.Set(
 		j,
 		"location",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference)SetRegionalEndpointEnabled(val interface{}) {
-	if err := j.validateSetRegionalEndpointEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"regionalEndpointEnabled",
 		val,
 	)
 }
@@ -555,14 +554,6 @@ func (c *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) Interpolatio
 	)
 
 	return returns
-}
-
-func (c *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) ResetRegionalEndpointEnabled() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetRegionalEndpointEnabled",
-		nil, // no parameters
-	)
 }
 
 func (c *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) ResetTags() {

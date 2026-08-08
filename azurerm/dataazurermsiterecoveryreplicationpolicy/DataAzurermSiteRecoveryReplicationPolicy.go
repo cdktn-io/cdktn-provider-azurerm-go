@@ -5,14 +5,14 @@ package dataazurermsiterecoveryreplicationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermsiterecoveryreplicationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermsiterecoveryreplicationpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/site_recovery_replication_policy azurerm_site_recovery_replication_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/site_recovery_replication_policy azurerm_site_recovery_replication_policy}.
 type DataAzurermSiteRecoveryReplicationPolicy interface {
 	cdktn.TerraformDataSource
 	ApplicationConsistentSnapshotFrequencyInMinutes() *float64
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermSiteRecoveryReplicationPolicy) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Data Source.
 func NewDataAzurermSiteRecoveryReplicationPolicy(scope constructs.Construct, id *string, config *DataAzurermSiteRecoveryReplicationPolicyConfig) DataAzurermSiteRecoveryReplicationPolicy {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAzurermSiteRecoveryReplicationPolicy(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Data Source.
 func NewDataAzurermSiteRecoveryReplicationPolicy_Override(d DataAzurermSiteRecoveryReplicationPolicy, scope constructs.Construct, id *string, config *DataAzurermSiteRecoveryReplicationPolicyConfig) {
 	_init_.Initialize()
 

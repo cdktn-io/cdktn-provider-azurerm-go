@@ -16,6 +16,7 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationKey", GoGetter: "AuthorizationKey"},
+			_jsii_.MemberProperty{JsiiProperty: "bgpEnabled", GoGetter: "BgpEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connectionProtocol", GoGetter: "ConnectionProtocol"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -23,7 +24,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "dpdTimeoutSeconds", GoGetter: "DpdTimeoutSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "egressBytesTransferred", GoGetter: "EgressBytesTransferred"},
-			_jsii_.MemberProperty{JsiiProperty: "enableBgp", GoGetter: "EnableBgp"},
 			_jsii_.MemberProperty{JsiiProperty: "expressRouteCircuitId", GoGetter: "ExpressRouteCircuitId"},
 			_jsii_.MemberProperty{JsiiProperty: "expressRouteGatewayBypass", GoGetter: "ExpressRouteGatewayBypass"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},

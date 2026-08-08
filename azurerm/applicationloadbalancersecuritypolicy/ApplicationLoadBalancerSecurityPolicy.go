@@ -5,14 +5,14 @@ package applicationloadbalancersecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/applicationloadbalancersecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationloadbalancersecuritypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy}.
 type ApplicationLoadBalancerSecurityPolicy interface {
 	cdktn.TerraformResource
 	ApplicationLoadBalancerId() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_ApplicationLoadBalancerSecurityPolicy) WebApplicationFirewall
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
 func NewApplicationLoadBalancerSecurityPolicy(scope constructs.Construct, id *string, config *ApplicationLoadBalancerSecurityPolicyConfig) ApplicationLoadBalancerSecurityPolicy {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewApplicationLoadBalancerSecurityPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
 func NewApplicationLoadBalancerSecurityPolicy_Override(a ApplicationLoadBalancerSecurityPolicy, scope constructs.Construct, id *string, config *ApplicationLoadBalancerSecurityPolicyConfig) {
 	_init_.Initialize()
 

@@ -464,7 +464,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "linuxFxVersion", GoGetter: "LinuxFxVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "minTlsVersion", GoGetter: "MinTlsVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "preWarmedInstanceCount", GoGetter: "PreWarmedInstanceCount"},
-			_jsii_.MemberProperty{JsiiProperty: "publicNetworkAccessEnabled", GoGetter: "PublicNetworkAccessEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "runtimeScaleMonitoringEnabled", GoGetter: "RuntimeScaleMonitoringEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "scmIpRestriction", GoGetter: "ScmIpRestriction"},

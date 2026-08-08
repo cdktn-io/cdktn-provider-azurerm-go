@@ -51,19 +51,19 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputRefe
 	return nil
 }
 
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetAutomaticOsUpgradeEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetAutomaticRollbackEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
 
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
-	return nil
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetDisableAutomaticRollbackParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetEnableAutomaticOsUpgradeParameters(val interface{}) error {
 	return nil
 }
 

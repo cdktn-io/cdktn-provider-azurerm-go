@@ -5,14 +5,14 @@ package dataazurermeventgridsystemtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermeventgridsystemtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermeventgridsystemtopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
 type DataAzurermEventgridSystemTopic interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -44,7 +44,6 @@ type DataAzurermEventgridSystemTopic interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
-	MetricArmResourceId() *string
 	MetricResourceId() *string
 	Name() *string
 	SetName(val *string)
@@ -60,7 +59,6 @@ type DataAzurermEventgridSystemTopic interface {
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
-	SourceArmResourceId() *string
 	SourceResourceId() *string
 	Tags() cdktn.StringMap
 	// Experimental.
@@ -264,16 +262,6 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopic) Location() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermEventgridSystemTopic) MetricArmResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"metricArmResourceId",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAzurermEventgridSystemTopic) MetricResourceId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -349,16 +337,6 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopic) ResourceGroupNameInput() *st
 	_jsii_.Get(
 		j,
 		"resourceGroupNameInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermEventgridSystemTopic) SourceArmResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"sourceArmResourceId",
 		&returns,
 	)
 	return returns
@@ -445,7 +423,7 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopic) TopicType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
 func NewDataAzurermEventgridSystemTopic(scope constructs.Construct, id *string, config *DataAzurermEventgridSystemTopicConfig) DataAzurermEventgridSystemTopic {
 	_init_.Initialize()
 
@@ -463,7 +441,7 @@ func NewDataAzurermEventgridSystemTopic(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
 func NewDataAzurermEventgridSystemTopic_Override(d DataAzurermEventgridSystemTopic, scope constructs.Construct, id *string, config *DataAzurermEventgridSystemTopicConfig) {
 	_init_.Initialize()
 

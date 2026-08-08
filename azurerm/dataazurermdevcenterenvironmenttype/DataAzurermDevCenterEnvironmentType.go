@@ -5,14 +5,14 @@ package dataazurermdevcenterenvironmenttype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermdevcenterenvironmenttype/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermdevcenterenvironmenttype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_center_environment_type azurerm_dev_center_environment_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_center_environment_type azurerm_dev_center_environment_type}.
 type DataAzurermDevCenterEnvironmentType interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_center_environment_type azurerm_dev_center_environment_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_center_environment_type azurerm_dev_center_environment_type} Data Source.
 func NewDataAzurermDevCenterEnvironmentType(scope constructs.Construct, id *string, config *DataAzurermDevCenterEnvironmentTypeConfig) DataAzurermDevCenterEnvironmentType {
 	_init_.Initialize()
 
@@ -386,7 +386,7 @@ func NewDataAzurermDevCenterEnvironmentType(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_center_environment_type azurerm_dev_center_environment_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_center_environment_type azurerm_dev_center_environment_type} Data Source.
 func NewDataAzurermDevCenterEnvironmentType_Override(d DataAzurermDevCenterEnvironmentType, scope constructs.Construct, id *string, config *DataAzurermDevCenterEnvironmentTypeConfig) {
 	_init_.Initialize()
 

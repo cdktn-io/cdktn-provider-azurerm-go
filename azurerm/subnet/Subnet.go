@@ -5,14 +5,14 @@ package subnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/subnet/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/subnet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subnet azurerm_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subnet azurerm_subnet}.
 type Subnet interface {
 	cdktn.TerraformResource
 	AddressPrefixes() *[]*string
@@ -59,6 +59,15 @@ type Subnet interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NetworkSecurityGroupId() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	NetworkSecurityGroupIdWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetNetworkSecurityGroupIdWo(val *string)
+	NetworkSecurityGroupIdWoInput() *string
+	NetworkSecurityGroupIdWoVersion() *float64
+	SetNetworkSecurityGroupIdWoVersion(val *float64)
+	NetworkSecurityGroupIdWoVersionInput() *float64
 	// The tree node.
 	Node() constructs.Node
 	PrivateEndpointNetworkPolicies() *string
@@ -80,12 +89,20 @@ type Subnet interface {
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
+	RouteTableId() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	RouteTableIdWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetRouteTableIdWo(val *string)
+	RouteTableIdWoInput() *string
+	RouteTableIdWoVersion() *float64
+	SetRouteTableIdWoVersion(val *float64)
+	RouteTableIdWoVersionInput() *float64
+	ServiceEndpoint() SubnetServiceEndpointList
+	ServiceEndpointInput() interface{}
 	ServiceEndpointPolicyIds() *[]*string
 	SetServiceEndpointPolicyIds(val *[]*string)
 	ServiceEndpointPolicyIdsInput() *[]*string
-	ServiceEndpoints() *[]*string
-	SetServiceEndpoints(val *[]*string)
-	ServiceEndpointsInput() *[]*string
 	SharingScope() *string
 	SetSharingScope(val *string)
 	SharingScopeInput() *string
@@ -181,6 +198,7 @@ type Subnet interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDelegation(value interface{})
 	PutIpAddressPool(value *SubnetIpAddressPool)
+	PutServiceEndpoint(value interface{})
 	PutTimeouts(value *SubnetTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -200,13 +218,17 @@ type Subnet interface {
 	ResetDelegation()
 	ResetId()
 	ResetIpAddressPool()
+	ResetNetworkSecurityGroupIdWo()
+	ResetNetworkSecurityGroupIdWoVersion()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPrivateEndpointNetworkPolicies()
 	ResetPrivateLinkServiceNetworkPoliciesEnabled()
+	ResetRouteTableIdWo()
+	ResetRouteTableIdWoVersion()
+	ResetServiceEndpoint()
 	ResetServiceEndpointPolicyIds()
-	ResetServiceEndpoints()
 	ResetSharingScope()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -446,6 +468,56 @@ func (j *jsiiProxy_Subnet) NameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Subnet) NetworkSecurityGroupId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkSecurityGroupId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) NetworkSecurityGroupIdWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkSecurityGroupIdWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) NetworkSecurityGroupIdWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkSecurityGroupIdWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) NetworkSecurityGroupIdWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"networkSecurityGroupIdWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) NetworkSecurityGroupIdWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"networkSecurityGroupIdWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Subnet) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -546,6 +618,76 @@ func (j *jsiiProxy_Subnet) ResourceGroupNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Subnet) RouteTableId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routeTableId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) RouteTableIdWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routeTableIdWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) RouteTableIdWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routeTableIdWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) RouteTableIdWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"routeTableIdWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) RouteTableIdWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"routeTableIdWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) ServiceEndpoint() SubnetServiceEndpointList {
+	var returns SubnetServiceEndpointList
+	_jsii_.Get(
+		j,
+		"serviceEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) ServiceEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"serviceEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Subnet) ServiceEndpointPolicyIds() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -561,26 +703,6 @@ func (j *jsiiProxy_Subnet) ServiceEndpointPolicyIdsInput() *[]*string {
 	_jsii_.Get(
 		j,
 		"serviceEndpointPolicyIdsInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Subnet) ServiceEndpoints() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"serviceEndpoints",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Subnet) ServiceEndpointsInput() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"serviceEndpointsInput",
 		&returns,
 	)
 	return returns
@@ -677,7 +799,7 @@ func (j *jsiiProxy_Subnet) VirtualNetworkNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subnet azurerm_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subnet azurerm_subnet} Resource.
 func NewSubnet(scope constructs.Construct, id *string, config *SubnetConfig) Subnet {
 	_init_.Initialize()
 
@@ -695,7 +817,7 @@ func NewSubnet(scope constructs.Construct, id *string, config *SubnetConfig) Sub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subnet azurerm_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subnet azurerm_subnet} Resource.
 func NewSubnet_Override(s Subnet, scope constructs.Construct, id *string, config *SubnetConfig) {
 	_init_.Initialize()
 
@@ -799,6 +921,28 @@ func (j *jsiiProxy_Subnet)SetName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_Subnet)SetNetworkSecurityGroupIdWo(val *string) {
+	if err := j.validateSetNetworkSecurityGroupIdWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkSecurityGroupIdWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Subnet)SetNetworkSecurityGroupIdWoVersion(val *float64) {
+	if err := j.validateSetNetworkSecurityGroupIdWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkSecurityGroupIdWoVersion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_Subnet)SetPrivateEndpointNetworkPolicies(val *string) {
 	if err := j.validateSetPrivateEndpointNetworkPoliciesParameters(val); err != nil {
 		panic(err)
@@ -851,6 +995,28 @@ func (j *jsiiProxy_Subnet)SetResourceGroupName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_Subnet)SetRouteTableIdWo(val *string) {
+	if err := j.validateSetRouteTableIdWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routeTableIdWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Subnet)SetRouteTableIdWoVersion(val *float64) {
+	if err := j.validateSetRouteTableIdWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routeTableIdWoVersion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_Subnet)SetServiceEndpointPolicyIds(val *[]*string) {
 	if err := j.validateSetServiceEndpointPolicyIdsParameters(val); err != nil {
 		panic(err)
@@ -858,17 +1024,6 @@ func (j *jsiiProxy_Subnet)SetServiceEndpointPolicyIds(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"serviceEndpointPolicyIds",
-		val,
-	)
-}
-
-func (j *jsiiProxy_Subnet)SetServiceEndpoints(val *[]*string) {
-	if err := j.validateSetServiceEndpointsParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"serviceEndpoints",
 		val,
 	)
 }
@@ -1286,6 +1441,17 @@ func (s *jsiiProxy_Subnet) PutIpAddressPool(value *SubnetIpAddressPool) {
 	)
 }
 
+func (s *jsiiProxy_Subnet) PutServiceEndpoint(value interface{}) {
+	if err := s.validatePutServiceEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putServiceEndpoint",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_Subnet) PutTimeouts(value *SubnetTimeouts) {
 	if err := s.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1348,6 +1514,22 @@ func (s *jsiiProxy_Subnet) ResetIpAddressPool() {
 	)
 }
 
+func (s *jsiiProxy_Subnet) ResetNetworkSecurityGroupIdWo() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetNetworkSecurityGroupIdWo",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_Subnet) ResetNetworkSecurityGroupIdWoVersion() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetNetworkSecurityGroupIdWoVersion",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_Subnet) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		s,
@@ -1372,18 +1554,34 @@ func (s *jsiiProxy_Subnet) ResetPrivateLinkServiceNetworkPoliciesEnabled() {
 	)
 }
 
-func (s *jsiiProxy_Subnet) ResetServiceEndpointPolicyIds() {
+func (s *jsiiProxy_Subnet) ResetRouteTableIdWo() {
 	_jsii_.InvokeVoid(
 		s,
-		"resetServiceEndpointPolicyIds",
+		"resetRouteTableIdWo",
 		nil, // no parameters
 	)
 }
 
-func (s *jsiiProxy_Subnet) ResetServiceEndpoints() {
+func (s *jsiiProxy_Subnet) ResetRouteTableIdWoVersion() {
 	_jsii_.InvokeVoid(
 		s,
-		"resetServiceEndpoints",
+		"resetRouteTableIdWoVersion",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_Subnet) ResetServiceEndpoint() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetServiceEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_Subnet) ResetServiceEndpointPolicyIds() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetServiceEndpointPolicyIds",
 		nil, // no parameters
 	)
 }

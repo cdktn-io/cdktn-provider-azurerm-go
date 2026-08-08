@@ -139,10 +139,6 @@ func (j *jsiiProxy_DatadogMonitorSsoConfiguration) validateSetSingleSignOnParame
 	return nil
 }
 
-func (j *jsiiProxy_DatadogMonitorSsoConfiguration) validateSetSingleSignOnEnabledParameters(val *string) error {
-	return nil
-}
-
 func validateNewDatadogMonitorSsoConfigurationParameters(scope constructs.Construct, id *string, config *DatadogMonitorSsoConfigurationConfig) error {
 	return nil
 }

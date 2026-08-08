@@ -211,10 +211,6 @@ func (j *jsiiProxy_WindowsVirtualMachine) validateSetEdgeZoneParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine) validateSetEnableAutomaticUpdatesParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_WindowsVirtualMachine) validateSetEncryptionAtHostEnabledParameters(val interface{}) error {
 	return nil
 }
@@ -324,10 +320,6 @@ func (j *jsiiProxy_WindowsVirtualMachine) validateSetUserDataParameters(val *str
 }
 
 func (j *jsiiProxy_WindowsVirtualMachine) validateSetVirtualMachineScaleSetIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_WindowsVirtualMachine) validateSetVmAgentPlatformUpdatesEnabledParameters(val interface{}) error {
 	return nil
 }
 

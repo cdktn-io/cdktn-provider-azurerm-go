@@ -5,14 +5,14 @@ package privatednszonevirtualnetworklink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/privatednszonevirtualnetworklink/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/privatednszonevirtualnetworklink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_zone_virtual_network_link azurerm_private_dns_zone_virtual_network_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_zone_virtual_network_link azurerm_private_dns_zone_virtual_network_link}.
 type PrivateDnsZoneVirtualNetworkLink interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -51,9 +51,9 @@ type PrivateDnsZoneVirtualNetworkLink interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
-	PrivateDnsZoneName() *string
-	SetPrivateDnsZoneName(val *string)
-	PrivateDnsZoneNameInput() *string
+	PrivateDnsZoneId() *string
+	SetPrivateDnsZoneId(val *string)
+	PrivateDnsZoneIdInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -70,9 +70,6 @@ type PrivateDnsZoneVirtualNetworkLink interface {
 	ResolutionPolicy() *string
 	SetResolutionPolicy(val *string)
 	ResolutionPolicyInput() *string
-	ResourceGroupName() *string
-	SetResourceGroupName(val *string)
-	ResourceGroupNameInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -355,21 +352,21 @@ func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) PrivateDnsZoneName() *string {
+func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) PrivateDnsZoneId() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"privateDnsZoneName",
+		"privateDnsZoneId",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) PrivateDnsZoneNameInput() *string {
+func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) PrivateDnsZoneIdInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"privateDnsZoneNameInput",
+		"privateDnsZoneIdInput",
 		&returns,
 	)
 	return returns
@@ -440,26 +437,6 @@ func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) ResolutionPolicyInput() *st
 	_jsii_.Get(
 		j,
 		"resolutionPolicyInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) ResourceGroupName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) ResourceGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -556,7 +533,7 @@ func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) VirtualNetworkIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_zone_virtual_network_link azurerm_private_dns_zone_virtual_network_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_zone_virtual_network_link azurerm_private_dns_zone_virtual_network_link} Resource.
 func NewPrivateDnsZoneVirtualNetworkLink(scope constructs.Construct, id *string, config *PrivateDnsZoneVirtualNetworkLinkConfig) PrivateDnsZoneVirtualNetworkLink {
 	_init_.Initialize()
 
@@ -574,7 +551,7 @@ func NewPrivateDnsZoneVirtualNetworkLink(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_zone_virtual_network_link azurerm_private_dns_zone_virtual_network_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_zone_virtual_network_link azurerm_private_dns_zone_virtual_network_link} Resource.
 func NewPrivateDnsZoneVirtualNetworkLink_Override(p PrivateDnsZoneVirtualNetworkLink, scope constructs.Construct, id *string, config *PrivateDnsZoneVirtualNetworkLinkConfig) {
 	_init_.Initialize()
 
@@ -656,13 +633,13 @@ func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink)SetPrivateDnsZoneName(val *string) {
-	if err := j.validateSetPrivateDnsZoneNameParameters(val); err != nil {
+func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink)SetPrivateDnsZoneId(val *string) {
+	if err := j.validateSetPrivateDnsZoneIdParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"privateDnsZoneName",
+		"privateDnsZoneId",
 		val,
 	)
 }
@@ -704,17 +681,6 @@ func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink)SetResolutionPolicy(val *str
 	_jsii_.Set(
 		j,
 		"resolutionPolicy",
-		val,
-	)
-}
-
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink)SetResourceGroupName(val *string) {
-	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceGroupName",
 		val,
 	)
 }

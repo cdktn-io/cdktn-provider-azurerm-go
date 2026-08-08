@@ -167,10 +167,6 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetMsiWorksp
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetMsiWorkSpaceResourceIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetNameParameters(val *string) error {
 	return nil
 }

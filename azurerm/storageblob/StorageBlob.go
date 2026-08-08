@@ -5,14 +5,14 @@ package storageblob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storageblob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageblob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob azurerm_storage_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_blob azurerm_storage_blob}.
 type StorageBlob interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -94,15 +94,9 @@ type StorageBlob interface {
 	SourceUri() *string
 	SetSourceUri(val *string)
 	SourceUriInput() *string
-	StorageAccountName() *string
-	SetStorageAccountName(val *string)
-	StorageAccountNameInput() *string
 	StorageContainerId() *string
 	SetStorageContainerId(val *string)
 	StorageContainerIdInput() *string
-	StorageContainerName() *string
-	SetStorageContainerName(val *string)
-	StorageContainerNameInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -223,9 +217,6 @@ type StorageBlob interface {
 	ResetSource()
 	ResetSourceContent()
 	ResetSourceUri()
-	ResetStorageAccountName()
-	ResetStorageContainerId()
-	ResetStorageContainerName()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -644,26 +635,6 @@ func (j *jsiiProxy_StorageBlob) SourceUriInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageBlob) StorageAccountName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageAccountName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageBlob) StorageAccountNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageAccountNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_StorageBlob) StorageContainerId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -679,26 +650,6 @@ func (j *jsiiProxy_StorageBlob) StorageContainerIdInput() *string {
 	_jsii_.Get(
 		j,
 		"storageContainerIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageBlob) StorageContainerName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageContainerName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageBlob) StorageContainerNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageContainerNameInput",
 		&returns,
 	)
 	return returns
@@ -785,7 +736,7 @@ func (j *jsiiProxy_StorageBlob) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_blob azurerm_storage_blob} Resource.
 func NewStorageBlob(scope constructs.Construct, id *string, config *StorageBlobConfig) StorageBlob {
 	_init_.Initialize()
 
@@ -803,7 +754,7 @@ func NewStorageBlob(scope constructs.Construct, id *string, config *StorageBlobC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_blob azurerm_storage_blob} Resource.
 func NewStorageBlob_Override(s StorageBlob, scope constructs.Construct, id *string, config *StorageBlobConfig) {
 	_init_.Initialize()
 
@@ -1025,17 +976,6 @@ func (j *jsiiProxy_StorageBlob)SetSourceUri(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageBlob)SetStorageAccountName(val *string) {
-	if err := j.validateSetStorageAccountNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"storageAccountName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_StorageBlob)SetStorageContainerId(val *string) {
 	if err := j.validateSetStorageContainerIdParameters(val); err != nil {
 		panic(err)
@@ -1043,17 +983,6 @@ func (j *jsiiProxy_StorageBlob)SetStorageContainerId(val *string) {
 	_jsii_.Set(
 		j,
 		"storageContainerId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_StorageBlob)SetStorageContainerName(val *string) {
-	if err := j.validateSetStorageContainerNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"storageContainerName",
 		val,
 	)
 }
@@ -1560,30 +1489,6 @@ func (s *jsiiProxy_StorageBlob) ResetSourceUri() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetSourceUri",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageBlob) ResetStorageAccountName() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetStorageAccountName",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageBlob) ResetStorageContainerId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetStorageContainerId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageBlob) ResetStorageContainerName() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetStorageContainerName",
 		nil, // no parameters
 	)
 }

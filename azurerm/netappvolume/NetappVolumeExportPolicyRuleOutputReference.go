@@ -5,9 +5,9 @@ package netappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/netappvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/netappvolume/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -56,9 +56,6 @@ type NetappVolumeExportPolicyRuleOutputReference interface {
 	Protocol() *[]*string
 	SetProtocol(val *[]*string)
 	ProtocolInput() *[]*string
-	ProtocolsEnabled() *[]*string
-	SetProtocolsEnabled(val *[]*string)
-	ProtocolsEnabledInput() *[]*string
 	RootAccessEnabled() interface{}
 	SetRootAccessEnabled(val interface{})
 	RootAccessEnabledInput() interface{}
@@ -110,7 +107,6 @@ type NetappVolumeExportPolicyRuleOutputReference interface {
 	ResetKerberos5ReadOnlyEnabled()
 	ResetKerberos5ReadWriteEnabled()
 	ResetProtocol()
-	ResetProtocolsEnabled()
 	ResetRootAccessEnabled()
 	ResetUnixReadOnly()
 	ResetUnixReadWrite()
@@ -334,26 +330,6 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference) ProtocolInput() 
 	_jsii_.Get(
 		j,
 		"protocolInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference) ProtocolsEnabled() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"protocolsEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference) ProtocolsEnabledInput() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"protocolsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -604,17 +580,6 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference)SetProtocol(val *
 	_jsii_.Set(
 		j,
 		"protocol",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference)SetProtocolsEnabled(val *[]*string) {
-	if err := j.validateSetProtocolsEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"protocolsEnabled",
 		val,
 	)
 }
@@ -923,14 +888,6 @@ func (n *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference) ResetProtocol() 
 	_jsii_.InvokeVoid(
 		n,
 		"resetProtocol",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference) ResetProtocolsEnabled() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProtocolsEnabled",
 		nil, // no parameters
 	)
 }

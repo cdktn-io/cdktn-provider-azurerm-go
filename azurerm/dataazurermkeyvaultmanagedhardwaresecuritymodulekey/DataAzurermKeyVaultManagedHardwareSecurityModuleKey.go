@@ -5,14 +5,14 @@ package dataazurermkeyvaultmanagedhardwaresecuritymodulekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermkeyvaultmanagedhardwaresecuritymodulekey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermkeyvaultmanagedhardwaresecuritymodulekey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key}.
 type DataAzurermKeyVaultManagedHardwareSecurityModuleKey interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModuleKey) Versione
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key} Data Source.
 func NewDataAzurermKeyVaultManagedHardwareSecurityModuleKey(scope constructs.Construct, id *string, config *DataAzurermKeyVaultManagedHardwareSecurityModuleKeyConfig) DataAzurermKeyVaultManagedHardwareSecurityModuleKey {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataAzurermKeyVaultManagedHardwareSecurityModuleKey(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key} Data Source.
 func NewDataAzurermKeyVaultManagedHardwareSecurityModuleKey_Override(d DataAzurermKeyVaultManagedHardwareSecurityModuleKey, scope constructs.Construct, id *string, config *DataAzurermKeyVaultManagedHardwareSecurityModuleKeyConfig) {
 	_init_.Initialize()
 

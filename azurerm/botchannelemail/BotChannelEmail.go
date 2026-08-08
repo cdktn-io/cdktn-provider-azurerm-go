@@ -5,14 +5,14 @@ package botchannelemail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/botchannelemail/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/botchannelemail/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channel_email azurerm_bot_channel_email}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channel_email azurerm_bot_channel_email}.
 type BotChannelEmail interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_BotChannelEmail) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channel_email azurerm_bot_channel_email} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channel_email azurerm_bot_channel_email} Resource.
 func NewBotChannelEmail(scope constructs.Construct, id *string, config *BotChannelEmailConfig) BotChannelEmail {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewBotChannelEmail(scope constructs.Construct, id *string, config *BotChann
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channel_email azurerm_bot_channel_email} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channel_email azurerm_bot_channel_email} Resource.
 func NewBotChannelEmail_Override(b BotChannelEmail, scope constructs.Construct, id *string, config *BotChannelEmailConfig) {
 	_init_.Initialize()
 

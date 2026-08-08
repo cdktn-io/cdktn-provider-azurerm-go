@@ -41,8 +41,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "disableCorrelationRequestIdInput", GoGetter: "DisableCorrelationRequestIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "disableTerraformPartnerId", GoGetter: "DisableTerraformPartnerId"},
 			_jsii_.MemberProperty{JsiiProperty: "disableTerraformPartnerIdInput", GoGetter: "DisableTerraformPartnerIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "enhancedValidation", GoGetter: "EnhancedValidation"},
-			_jsii_.MemberProperty{JsiiProperty: "enhancedValidationInput", GoGetter: "EnhancedValidationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "environment", GoGetter: "Environment"},
 			_jsii_.MemberProperty{JsiiProperty: "environmentInput", GoGetter: "EnvironmentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "features", GoGetter: "Features"},
@@ -83,7 +81,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetClientSecretFilePath", GoMethod: "ResetClientSecretFilePath"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisableCorrelationRequestId", GoMethod: "ResetDisableCorrelationRequestId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisableTerraformPartnerId", GoMethod: "ResetDisableTerraformPartnerId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEnhancedValidation", GoMethod: "ResetEnhancedValidation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnvironment", GoMethod: "ResetEnvironment"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFeatures", GoMethod: "ResetFeatures"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMetadataHost", GoMethod: "ResetMetadataHost"},
@@ -97,7 +94,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetPartnerId", GoMethod: "ResetPartnerId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetResourceProviderRegistrations", GoMethod: "ResetResourceProviderRegistrations"},
 			_jsii_.MemberMethod{JsiiMethod: "resetResourceProvidersToRegister", GoMethod: "ResetResourceProvidersToRegister"},
-			_jsii_.MemberMethod{JsiiMethod: "resetSkipProviderRegistration", GoMethod: "ResetSkipProviderRegistration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStorageUseAzuread", GoMethod: "ResetStorageUseAzuread"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSubscriptionId", GoMethod: "ResetSubscriptionId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTenantId", GoMethod: "ResetTenantId"},
@@ -109,8 +105,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "resourceProviderRegistrationsInput", GoGetter: "ResourceProviderRegistrationsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceProvidersToRegister", GoGetter: "ResourceProvidersToRegister"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceProvidersToRegisterInput", GoGetter: "ResourceProvidersToRegisterInput"},
-			_jsii_.MemberProperty{JsiiProperty: "skipProviderRegistration", GoGetter: "SkipProviderRegistration"},
-			_jsii_.MemberProperty{JsiiProperty: "skipProviderRegistrationInput", GoGetter: "SkipProviderRegistrationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "storageUseAzuread", GoGetter: "StorageUseAzuread"},
 			_jsii_.MemberProperty{JsiiProperty: "storageUseAzureadInput", GoGetter: "StorageUseAzureadInput"},
 			_jsii_.MemberProperty{JsiiProperty: "subscriptionId", GoGetter: "SubscriptionId"},
@@ -145,10 +139,6 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.provider.AzurermProviderConfig",
 		reflect.TypeOf((*AzurermProviderConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.provider.AzurermProviderEnhancedValidation",
-		reflect.TypeOf((*AzurermProviderEnhancedValidation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.provider.AzurermProviderFeatures",

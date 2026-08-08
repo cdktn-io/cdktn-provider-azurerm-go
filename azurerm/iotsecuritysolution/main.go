@@ -68,15 +68,15 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putAdditionalWorkspace", GoMethod: "PutAdditionalWorkspace"},
-			_jsii_.MemberMethod{JsiiMethod: "putRecommendationsEnabled", GoMethod: "PutRecommendationsEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "putRecommendations", GoMethod: "PutRecommendations"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "queryForResources", GoGetter: "QueryForResources"},
 			_jsii_.MemberProperty{JsiiProperty: "queryForResourcesInput", GoGetter: "QueryForResourcesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "querySubscriptionIds", GoGetter: "QuerySubscriptionIds"},
 			_jsii_.MemberProperty{JsiiProperty: "querySubscriptionIdsInput", GoGetter: "QuerySubscriptionIdsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "recommendationsEnabled", GoGetter: "RecommendationsEnabled"},
-			_jsii_.MemberProperty{JsiiProperty: "recommendationsEnabledInput", GoGetter: "RecommendationsEnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "recommendations", GoGetter: "Recommendations"},
+			_jsii_.MemberProperty{JsiiProperty: "recommendationsInput", GoGetter: "RecommendationsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAdditionalWorkspace", GoMethod: "ResetAdditionalWorkspace"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisabledDataSources", GoMethod: "ResetDisabledDataSources"},
@@ -88,7 +88,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetQueryForResources", GoMethod: "ResetQueryForResources"},
 			_jsii_.MemberMethod{JsiiMethod: "resetQuerySubscriptionIds", GoMethod: "ResetQuerySubscriptionIds"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRecommendationsEnabled", GoMethod: "ResetRecommendationsEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecommendations", GoMethod: "ResetRecommendations"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
@@ -181,12 +181,12 @@ func init() {
 		reflect.TypeOf((*IotSecuritySolutionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabled",
-		reflect.TypeOf((*IotSecuritySolutionRecommendationsEnabled)(nil)).Elem(),
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendations",
+		reflect.TypeOf((*IotSecuritySolutionRecommendations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference",
-		reflect.TypeOf((*IotSecuritySolutionRecommendationsEnabledOutputReference)(nil)).Elem(),
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsOutputReference",
+		reflect.TypeOf((*IotSecuritySolutionRecommendationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acrAuthentication", GoGetter: "AcrAuthentication"},
 			_jsii_.MemberProperty{JsiiProperty: "acrAuthenticationInput", GoGetter: "AcrAuthenticationInput"},
@@ -259,7 +259,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vulnerableTlsCipherSuiteInput", GoGetter: "VulnerableTlsCipherSuiteInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference{}
+			j := jsiiProxy_IotSecuritySolutionRecommendationsOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

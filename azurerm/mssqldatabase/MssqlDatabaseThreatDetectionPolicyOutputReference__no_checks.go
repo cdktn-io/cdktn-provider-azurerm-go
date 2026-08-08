@@ -63,7 +63,7 @@ func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateSetEmailAccountAdminsParameters(val *string) error {
+func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateSetEmailAccountAdminsEnabledParameters(val interface{}) error {
 	return nil
 }
 

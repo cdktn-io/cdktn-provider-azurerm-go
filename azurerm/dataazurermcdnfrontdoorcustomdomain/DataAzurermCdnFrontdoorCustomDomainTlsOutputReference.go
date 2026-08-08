@@ -5,9 +5,9 @@ package dataazurermcdnfrontdoorcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermcdnfrontdoorcustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermcdnfrontdoorcustomdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,7 +35,6 @@ type DataAzurermCdnFrontdoorCustomDomainTlsOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAzurermCdnFrontdoorCustomDomainTls
 	SetInternalValue(val *DataAzurermCdnFrontdoorCustomDomainTls)
-	MinimumTlsVersion() *string
 	MinimumVersion() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -159,16 +158,6 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsOutputReference) Intern
 	_jsii_.Get(
 		j,
 		"internalValue",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsOutputReference) MinimumTlsVersion() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"minimumTlsVersion",
 		&returns,
 	)
 	return returns

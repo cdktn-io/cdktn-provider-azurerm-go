@@ -5,14 +5,14 @@ package hdinsightkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/hdinsightkafkacluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/hdinsightkafkacluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster}.
 type HdinsightKafkaCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -246,7 +246,6 @@ type HdinsightKafkaCluster interface {
 	ResetStorageAccountGen2()
 	ResetTags()
 	ResetTimeouts()
-	ResetTlsMinVersion()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -945,7 +944,7 @@ func (j *jsiiProxy_HdinsightKafkaCluster) TlsMinVersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster} Resource.
 func NewHdinsightKafkaCluster(scope constructs.Construct, id *string, config *HdinsightKafkaClusterConfig) HdinsightKafkaCluster {
 	_init_.Initialize()
 
@@ -963,7 +962,7 @@ func NewHdinsightKafkaCluster(scope constructs.Construct, id *string, config *Hd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster} Resource.
 func NewHdinsightKafkaCluster_Override(h HdinsightKafkaCluster, scope constructs.Construct, id *string, config *HdinsightKafkaClusterConfig) {
 	_init_.Initialize()
 
@@ -1810,14 +1809,6 @@ func (h *jsiiProxy_HdinsightKafkaCluster) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetTimeouts",
-		nil, // no parameters
-	)
-}
-
-func (h *jsiiProxy_HdinsightKafkaCluster) ResetTlsMinVersion() {
-	_jsii_.InvokeVoid(
-		h,
-		"resetTlsMinVersion",
 		nil, // no parameters
 	)
 }

@@ -119,31 +119,11 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyNameParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVaultIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVaultKeyIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVaultUriParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVersionParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
-	return nil
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetManagedHsmKeyIdParameters(val *string) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package monitoraaddiagnosticsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/monitoraaddiagnosticsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/monitoraaddiagnosticsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,8 +35,6 @@ type MonitorAadDiagnosticSettingEnabledLogOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
-	RetentionPolicy() MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference
-	RetentionPolicyInput() *MonitorAadDiagnosticSettingEnabledLogRetentionPolicy
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -69,8 +67,6 @@ type MonitorAadDiagnosticSettingEnabledLogOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutRetentionPolicy(value *MonitorAadDiagnosticSettingEnabledLogRetentionPolicy)
-	ResetRetentionPolicy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -151,26 +147,6 @@ func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) Interna
 	_jsii_.Get(
 		j,
 		"internalValue",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) RetentionPolicy() MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference {
-	var returns MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference
-	_jsii_.Get(
-		j,
-		"retentionPolicy",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) RetentionPolicyInput() *MonitorAadDiagnosticSettingEnabledLogRetentionPolicy {
-	var returns *MonitorAadDiagnosticSettingEnabledLogRetentionPolicy
-	_jsii_.Get(
-		j,
-		"retentionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -474,25 +450,6 @@ func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) Interpo
 	)
 
 	return returns
-}
-
-func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) PutRetentionPolicy(value *MonitorAadDiagnosticSettingEnabledLogRetentionPolicy) {
-	if err := m.validatePutRetentionPolicyParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		m,
-		"putRetentionPolicy",
-		[]interface{}{value},
-	)
-}
-
-func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) ResetRetentionPolicy() {
-	_jsii_.InvokeVoid(
-		m,
-		"resetRetentionPolicy",
-		nil, // no parameters
-	)
 }
 
 func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

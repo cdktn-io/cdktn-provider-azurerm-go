@@ -5,14 +5,14 @@ package dataazurermblueprintpublishedversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermblueprintpublishedversion/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermblueprintpublishedversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version}.
 type DataAzurermBlueprintPublishedVersion interface {
 	cdktn.TerraformDataSource
 	BlueprintName() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataAzurermBlueprintPublishedVersion) VersionInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version} Data Source.
 func NewDataAzurermBlueprintPublishedVersion(scope constructs.Construct, id *string, config *DataAzurermBlueprintPublishedVersionConfig) DataAzurermBlueprintPublishedVersion {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewDataAzurermBlueprintPublishedVersion(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version} Data Source.
 func NewDataAzurermBlueprintPublishedVersion_Override(d DataAzurermBlueprintPublishedVersion, scope constructs.Construct, id *string, config *DataAzurermBlueprintPublishedVersionConfig) {
 	_init_.Initialize()
 

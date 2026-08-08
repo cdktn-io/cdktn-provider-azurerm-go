@@ -5,14 +5,14 @@ package windowsvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/windowsvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/windowsvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set}.
 type WindowsVirtualMachineScaleSet interface {
 	cdktn.TerraformResource
 	AdditionalCapabilities() WindowsVirtualMachineScaleSetAdditionalCapabilitiesOutputReference
@@ -29,6 +29,9 @@ type WindowsVirtualMachineScaleSet interface {
 	AutomaticInstanceRepairInput() *WindowsVirtualMachineScaleSetAutomaticInstanceRepair
 	AutomaticOsUpgradePolicy() WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference
 	AutomaticOsUpgradePolicyInput() *WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicy
+	AutomaticUpdatesEnabled() interface{}
+	SetAutomaticUpdatesEnabled(val interface{})
+	AutomaticUpdatesEnabledInput() interface{}
 	BootDiagnostics() WindowsVirtualMachineScaleSetBootDiagnosticsOutputReference
 	BootDiagnosticsInput() *WindowsVirtualMachineScaleSetBootDiagnostics
 	CapacityReservationGroupId() *string
@@ -64,9 +67,6 @@ type WindowsVirtualMachineScaleSet interface {
 	EdgeZone() *string
 	SetEdgeZone(val *string)
 	EdgeZoneInput() *string
-	EnableAutomaticUpdates() interface{}
-	SetEnableAutomaticUpdates(val interface{})
-	EnableAutomaticUpdatesInput() interface{}
 	EncryptionAtHostEnabled() interface{}
 	SetEncryptionAtHostEnabled(val interface{})
 	EncryptionAtHostEnabledInput() interface{}
@@ -335,6 +335,7 @@ type WindowsVirtualMachineScaleSet interface {
 	ResetAdditionalUnattendContent()
 	ResetAutomaticInstanceRepair()
 	ResetAutomaticOsUpgradePolicy()
+	ResetAutomaticUpdatesEnabled()
 	ResetBootDiagnostics()
 	ResetCapacityReservationGroupId()
 	ResetComputerNamePrefix()
@@ -342,7 +343,6 @@ type WindowsVirtualMachineScaleSet interface {
 	ResetDataDisk()
 	ResetDoNotRunExtensionsOnOverprovisionedMachines()
 	ResetEdgeZone()
-	ResetEnableAutomaticUpdates()
 	ResetEncryptionAtHostEnabled()
 	ResetEvictionPolicy()
 	ResetExtension()
@@ -526,6 +526,26 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) AutomaticOsUpgradePolicyInput(
 	_jsii_.Get(
 		j,
 		"automaticOsUpgradePolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet) AutomaticUpdatesEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticUpdatesEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet) AutomaticUpdatesEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticUpdatesEnabledInput",
 		&returns,
 	)
 	return returns
@@ -716,26 +736,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) EdgeZoneInput() *string {
 	_jsii_.Get(
 		j,
 		"edgeZoneInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSet) EnableAutomaticUpdates() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAutomaticUpdates",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSet) EnableAutomaticUpdatesInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAutomaticUpdatesInput",
 		&returns,
 	)
 	return returns
@@ -1762,7 +1762,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
 func NewWindowsVirtualMachineScaleSet(scope constructs.Construct, id *string, config *WindowsVirtualMachineScaleSetConfig) WindowsVirtualMachineScaleSet {
 	_init_.Initialize()
 
@@ -1780,7 +1780,7 @@ func NewWindowsVirtualMachineScaleSet(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
 func NewWindowsVirtualMachineScaleSet_Override(w WindowsVirtualMachineScaleSet, scope constructs.Construct, id *string, config *WindowsVirtualMachineScaleSetConfig) {
 	_init_.Initialize()
 
@@ -1809,6 +1809,17 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet)SetAdminUsername(val *string) {
 	_jsii_.Set(
 		j,
 		"adminUsername",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet)SetAutomaticUpdatesEnabled(val interface{}) {
+	if err := j.validateSetAutomaticUpdatesEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"automaticUpdatesEnabled",
 		val,
 	)
 }
@@ -1894,17 +1905,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet)SetEdgeZone(val *string) {
 	_jsii_.Set(
 		j,
 		"edgeZone",
-		val,
-	)
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSet)SetEnableAutomaticUpdates(val interface{}) {
-	if err := j.validateSetEnableAutomaticUpdatesParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableAutomaticUpdates",
 		val,
 	)
 }
@@ -2920,6 +2920,14 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSet) ResetAutomaticOsUpgradePolicy(
 	)
 }
 
+func (w *jsiiProxy_WindowsVirtualMachineScaleSet) ResetAutomaticUpdatesEnabled() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetAutomaticUpdatesEnabled",
+		nil, // no parameters
+	)
+}
+
 func (w *jsiiProxy_WindowsVirtualMachineScaleSet) ResetBootDiagnostics() {
 	_jsii_.InvokeVoid(
 		w,
@@ -2972,14 +2980,6 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSet) ResetEdgeZone() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetEdgeZone",
-		nil, // no parameters
-	)
-}
-
-func (w *jsiiProxy_WindowsVirtualMachineScaleSet) ResetEnableAutomaticUpdates() {
-	_jsii_.InvokeVoid(
-		w,
-		"resetEnableAutomaticUpdates",
 		nil, // no parameters
 	)
 }

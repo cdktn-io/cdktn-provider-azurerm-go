@@ -171,15 +171,7 @@ func (j *jsiiProxy_StorageBlob) validateSetSourceUriParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_StorageBlob) validateSetStorageAccountNameParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_StorageBlob) validateSetStorageContainerIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_StorageBlob) validateSetStorageContainerNameParameters(val *string) error {
 	return nil
 }
 

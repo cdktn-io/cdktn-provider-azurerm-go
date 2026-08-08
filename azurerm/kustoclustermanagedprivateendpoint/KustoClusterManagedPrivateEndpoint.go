@@ -5,14 +5,14 @@ package kustoclustermanagedprivateendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/kustoclustermanagedprivateendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/kustoclustermanagedprivateendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster_managed_private_endpoint azurerm_kusto_cluster_managed_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_cluster_managed_private_endpoint azurerm_kusto_cluster_managed_private_endpoint}.
 type KustoClusterManagedPrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -555,7 +555,7 @@ func (j *jsiiProxy_KustoClusterManagedPrivateEndpoint) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster_managed_private_endpoint azurerm_kusto_cluster_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_cluster_managed_private_endpoint azurerm_kusto_cluster_managed_private_endpoint} Resource.
 func NewKustoClusterManagedPrivateEndpoint(scope constructs.Construct, id *string, config *KustoClusterManagedPrivateEndpointConfig) KustoClusterManagedPrivateEndpoint {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewKustoClusterManagedPrivateEndpoint(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster_managed_private_endpoint azurerm_kusto_cluster_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_cluster_managed_private_endpoint azurerm_kusto_cluster_managed_private_endpoint} Resource.
 func NewKustoClusterManagedPrivateEndpoint_Override(k KustoClusterManagedPrivateEndpoint, scope constructs.Construct, id *string, config *KustoClusterManagedPrivateEndpointConfig) {
 	_init_.Initialize()
 

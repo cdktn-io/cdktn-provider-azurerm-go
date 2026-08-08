@@ -144,6 +144,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSeverityThreshold", GoMethod: "ResetSeverityThreshold"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "severityThreshold", GoGetter: "SeverityThreshold"},
 			_jsii_.MemberProperty{JsiiProperty: "severityThresholdInput", GoGetter: "SeverityThresholdInput"},

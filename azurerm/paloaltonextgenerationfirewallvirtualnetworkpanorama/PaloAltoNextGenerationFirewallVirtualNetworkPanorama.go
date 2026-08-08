@@ -5,14 +5,14 @@ package paloaltonextgenerationfirewallvirtualnetworkpanorama
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/paloaltonextgenerationfirewallvirtualnetworkpanorama/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/paloaltonextgenerationfirewallvirtualnetworkpanorama/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama}.
 type PaloAltoNextGenerationFirewallVirtualNetworkPanorama interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -638,7 +638,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkPanorama) Timeout
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama} Resource.
 func NewPaloAltoNextGenerationFirewallVirtualNetworkPanorama(scope constructs.Construct, id *string, config *PaloAltoNextGenerationFirewallVirtualNetworkPanoramaConfig) PaloAltoNextGenerationFirewallVirtualNetworkPanorama {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewPaloAltoNextGenerationFirewallVirtualNetworkPanorama(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama} Resource.
 func NewPaloAltoNextGenerationFirewallVirtualNetworkPanorama_Override(p PaloAltoNextGenerationFirewallVirtualNetworkPanorama, scope constructs.Construct, id *string, config *PaloAltoNextGenerationFirewallVirtualNetworkPanoramaConfig) {
 	_init_.Initialize()
 

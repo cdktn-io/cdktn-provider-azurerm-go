@@ -5,9 +5,9 @@ package orchestratedvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/orchestratedvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/orchestratedvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -45,9 +45,6 @@ type OrchestratedVirtualMachineScaleSetSkuProfileOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualMachineSize() OrchestratedVirtualMachineScaleSetSkuProfileVirtualMachineSizeList
 	VirtualMachineSizeInput() interface{}
-	VmSizes() *[]*string
-	SetVmSizes(val *[]*string)
-	VmSizesInput() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -73,8 +70,6 @@ type OrchestratedVirtualMachineScaleSetSkuProfileOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutVirtualMachineSize(value interface{})
-	ResetVirtualMachineSize()
-	ResetVmSizes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -200,26 +195,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) VmSizes() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"vmSizes",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) VmSizesInput() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"vmSizesInput",
-		&returns,
-	)
-	return returns
-}
-
 
 func NewOrchestratedVirtualMachineScaleSetSkuProfileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OrchestratedVirtualMachineScaleSetSkuProfileOutputReference {
 	_init_.Initialize()
@@ -310,17 +285,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference)S
 	_jsii_.Set(
 		j,
 		"terraformResource",
-		val,
-	)
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference)SetVmSizes(val *[]*string) {
-	if err := j.validateSetVmSizesParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"vmSizes",
 		val,
 	)
 }
@@ -519,22 +483,6 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 		o,
 		"putVirtualMachineSize",
 		[]interface{}{value},
-	)
-}
-
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) ResetVirtualMachineSize() {
-	_jsii_.InvokeVoid(
-		o,
-		"resetVirtualMachineSize",
-		nil, // no parameters
-	)
-}
-
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) ResetVmSizes() {
-	_jsii_.InvokeVoid(
-		o,
-		"resetVmSizes",
-		nil, // no parameters
 	)
 }
 

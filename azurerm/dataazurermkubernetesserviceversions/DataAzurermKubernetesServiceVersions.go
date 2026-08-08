@@ -5,14 +5,14 @@ package dataazurermkubernetesserviceversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermkubernetesserviceversions/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermkubernetesserviceversions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions}.
 type DataAzurermKubernetesServiceVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) Versions() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions} Data Source.
 func NewDataAzurermKubernetesServiceVersions(scope constructs.Construct, id *string, config *DataAzurermKubernetesServiceVersionsConfig) DataAzurermKubernetesServiceVersions {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewDataAzurermKubernetesServiceVersions(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions} Data Source.
 func NewDataAzurermKubernetesServiceVersions_Override(d DataAzurermKubernetesServiceVersions, scope constructs.Construct, id *string, config *DataAzurermKubernetesServiceVersionsConfig) {
 	_init_.Initialize()
 

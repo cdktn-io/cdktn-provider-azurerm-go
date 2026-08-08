@@ -5,9 +5,9 @@ package automationaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/automationaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/automationaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,9 +32,6 @@ type AutomationAccountEncryptionOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
-	KeySource() *string
-	SetKeySource(val *string)
-	KeySourceInput() *string
 	KeyVaultKeyId() *string
 	SetKeyVaultKeyId(val *string)
 	KeyVaultKeyIdInput() *string
@@ -73,7 +70,6 @@ type AutomationAccountEncryptionOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetKeySource()
 	ResetUserAssignedIdentityId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -135,26 +131,6 @@ func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) InternalValue() i
 	_jsii_.Get(
 		j,
 		"internalValue",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) KeySource() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keySource",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) KeySourceInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keySourceInput",
 		&returns,
 	)
 	return returns
@@ -277,17 +253,6 @@ func (j *jsiiProxy_AutomationAccountEncryptionOutputReference)SetInternalValue(v
 	_jsii_.Set(
 		j,
 		"internalValue",
-		val,
-	)
-}
-
-func (j *jsiiProxy_AutomationAccountEncryptionOutputReference)SetKeySource(val *string) {
-	if err := j.validateSetKeySourceParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"keySource",
 		val,
 	)
 }
@@ -520,14 +485,6 @@ func (a *jsiiProxy_AutomationAccountEncryptionOutputReference) InterpolationForA
 	)
 
 	return returns
-}
-
-func (a *jsiiProxy_AutomationAccountEncryptionOutputReference) ResetKeySource() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetKeySource",
-		nil, // no parameters
-	)
 }
 
 func (a *jsiiProxy_AutomationAccountEncryptionOutputReference) ResetUserAssignedIdentityId() {

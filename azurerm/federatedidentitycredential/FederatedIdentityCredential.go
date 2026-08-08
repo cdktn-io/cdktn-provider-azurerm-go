@@ -5,14 +5,14 @@ package federatedidentitycredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/federatedidentitycredential/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/federatedidentitycredential/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/federated_identity_credential azurerm_federated_identity_credential}.
 type FederatedIdentityCredential interface {
 	cdktn.TerraformResource
 	Audience() *[]*string
@@ -57,9 +57,6 @@ type FederatedIdentityCredential interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
-	ParentId() *string
-	SetParentId(val *string)
-	ParentIdInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -70,9 +67,6 @@ type FederatedIdentityCredential interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	ResourceGroupName() *string
-	SetResourceGroupName(val *string)
-	ResourceGroupNameInput() *string
 	Subject() *string
 	SetSubject(val *string)
 	SubjectInput() *string
@@ -184,10 +178,7 @@ type FederatedIdentityCredential interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetParentId()
-	ResetResourceGroupName()
 	ResetTimeouts()
-	ResetUserAssignedIdentityId()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -395,26 +386,6 @@ func (j *jsiiProxy_FederatedIdentityCredential) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_FederatedIdentityCredential) ParentId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"parentId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_FederatedIdentityCredential) ParentIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"parentIdInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_FederatedIdentityCredential) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -440,26 +411,6 @@ func (j *jsiiProxy_FederatedIdentityCredential) RawOverrides() interface{} {
 	_jsii_.Get(
 		j,
 		"rawOverrides",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_FederatedIdentityCredential) ResourceGroupName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_FederatedIdentityCredential) ResourceGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -556,7 +507,7 @@ func (j *jsiiProxy_FederatedIdentityCredential) UserAssignedIdentityIdInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
 func NewFederatedIdentityCredential(scope constructs.Construct, id *string, config *FederatedIdentityCredentialConfig) FederatedIdentityCredential {
 	_init_.Initialize()
 
@@ -574,7 +525,7 @@ func NewFederatedIdentityCredential(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
 func NewFederatedIdentityCredential_Override(f FederatedIdentityCredential, scope constructs.Construct, id *string, config *FederatedIdentityCredentialConfig) {
 	_init_.Initialize()
 
@@ -678,17 +629,6 @@ func (j *jsiiProxy_FederatedIdentityCredential)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FederatedIdentityCredential)SetParentId(val *string) {
-	if err := j.validateSetParentIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"parentId",
-		val,
-	)
-}
-
 func (j *jsiiProxy_FederatedIdentityCredential)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
@@ -704,17 +644,6 @@ func (j *jsiiProxy_FederatedIdentityCredential)SetProvisioners(val *[]interface{
 	_jsii_.Set(
 		j,
 		"provisioners",
-		val,
-	)
-}
-
-func (j *jsiiProxy_FederatedIdentityCredential)SetResourceGroupName(val *string) {
-	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceGroupName",
 		val,
 	)
 }
@@ -1148,34 +1077,10 @@ func (f *jsiiProxy_FederatedIdentityCredential) ResetOverrideLogicalId() {
 	)
 }
 
-func (f *jsiiProxy_FederatedIdentityCredential) ResetParentId() {
-	_jsii_.InvokeVoid(
-		f,
-		"resetParentId",
-		nil, // no parameters
-	)
-}
-
-func (f *jsiiProxy_FederatedIdentityCredential) ResetResourceGroupName() {
-	_jsii_.InvokeVoid(
-		f,
-		"resetResourceGroupName",
-		nil, // no parameters
-	)
-}
-
 func (f *jsiiProxy_FederatedIdentityCredential) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetTimeouts",
-		nil, // no parameters
-	)
-}
-
-func (f *jsiiProxy_FederatedIdentityCredential) ResetUserAssignedIdentityId() {
-	_jsii_.InvokeVoid(
-		f,
-		"resetUserAssignedIdentityId",
 		nil, // no parameters
 	)
 }

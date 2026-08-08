@@ -5,14 +5,14 @@ package containerappjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/containerappjob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/containerappjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job azurerm_container_app_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app_job azurerm_container_app_job}.
 type ContainerAppJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -768,7 +768,7 @@ func (j *jsiiProxy_ContainerAppJob) WorkloadProfileNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job azurerm_container_app_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app_job azurerm_container_app_job} Resource.
 func NewContainerAppJob(scope constructs.Construct, id *string, config *ContainerAppJobConfig) ContainerAppJob {
 	_init_.Initialize()
 
@@ -786,7 +786,7 @@ func NewContainerAppJob(scope constructs.Construct, id *string, config *Containe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job azurerm_container_app_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app_job azurerm_container_app_job} Resource.
 func NewContainerAppJob_Override(c ContainerAppJob, scope constructs.Construct, id *string, config *ContainerAppJobConfig) {
 	_init_.Initialize()
 

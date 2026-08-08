@@ -107,14 +107,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) validateSetUltraSsdDiskIopsReadWriteParameters(val *float64) error {
-	return nil
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) validateSetUltraSsdDiskMbpsReadWriteParameters(val *float64) error {
-	return nil
-}
-
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) validateSetWriteAcceleratorEnabledParameters(val interface{}) error {
 	return nil
 }

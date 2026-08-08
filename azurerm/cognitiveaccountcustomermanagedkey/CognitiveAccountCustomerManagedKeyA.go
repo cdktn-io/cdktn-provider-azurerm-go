@@ -5,14 +5,14 @@ package cognitiveaccountcustomermanagedkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cognitiveaccountcustomermanagedkey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cognitiveaccountcustomermanagedkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_customer_managed_key azurerm_cognitive_account_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_customer_managed_key azurerm_cognitive_account_customer_managed_key}.
 type CognitiveAccountCustomerManagedKeyA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_CognitiveAccountCustomerManagedKeyA) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_customer_managed_key azurerm_cognitive_account_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_customer_managed_key azurerm_cognitive_account_customer_managed_key} Resource.
 func NewCognitiveAccountCustomerManagedKeyA(scope constructs.Construct, id *string, config *CognitiveAccountCustomerManagedKeyAConfig) CognitiveAccountCustomerManagedKeyA {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewCognitiveAccountCustomerManagedKeyA(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_customer_managed_key azurerm_cognitive_account_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_customer_managed_key azurerm_cognitive_account_customer_managed_key} Resource.
 func NewCognitiveAccountCustomerManagedKeyA_Override(c CognitiveAccountCustomerManagedKeyA, scope constructs.Construct, id *string, config *CognitiveAccountCustomerManagedKeyAConfig) {
 	_init_.Initialize()
 

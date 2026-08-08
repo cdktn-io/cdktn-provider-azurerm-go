@@ -5,14 +5,14 @@ package datafactorylinkedserviceazureblobstorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactorylinkedserviceazureblobstorage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactorylinkedserviceazureblobstorage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_azure_blob_storage azurerm_data_factory_linked_service_azure_blob_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_azure_blob_storage azurerm_data_factory_linked_service_azure_blob_storage}.
 type DataFactoryLinkedServiceAzureBlobStorage interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -63,8 +63,6 @@ type DataFactoryLinkedServiceAzureBlobStorage interface {
 	IntegrationRuntimeName() *string
 	SetIntegrationRuntimeName(val *string)
 	IntegrationRuntimeNameInput() *string
-	KeyVaultSasToken() DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasTokenOutputReference
-	KeyVaultSasTokenInput() *DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasToken
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -199,7 +197,6 @@ type DataFactoryLinkedServiceAzureBlobStorage interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutKeyVaultSasToken(value *DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasToken)
 	PutSasTokenLinkedKeyVaultKey(value *DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKey)
 	PutServicePrincipalLinkedKeyVaultKey(value *DataFactoryLinkedServiceAzureBlobStorageServicePrincipalLinkedKeyVaultKey)
 	PutTimeouts(value *DataFactoryLinkedServiceAzureBlobStorageTimeouts)
@@ -223,7 +220,6 @@ type DataFactoryLinkedServiceAzureBlobStorage interface {
 	ResetDescription()
 	ResetId()
 	ResetIntegrationRuntimeName()
-	ResetKeyVaultSasToken()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -500,26 +496,6 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) IntegrationRuntimeN
 	_jsii_.Get(
 		j,
 		"integrationRuntimeNameInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) KeyVaultSasToken() DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasTokenOutputReference {
-	var returns DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasTokenOutputReference
-	_jsii_.Get(
-		j,
-		"keyVaultSasToken",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) KeyVaultSasTokenInput() *DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasToken {
-	var returns *DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasToken
-	_jsii_.Get(
-		j,
-		"keyVaultSasTokenInput",
 		&returns,
 	)
 	return returns
@@ -846,7 +822,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) UseManagedIdentityI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_azure_blob_storage azurerm_data_factory_linked_service_azure_blob_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_azure_blob_storage azurerm_data_factory_linked_service_azure_blob_storage} Resource.
 func NewDataFactoryLinkedServiceAzureBlobStorage(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureBlobStorageConfig) DataFactoryLinkedServiceAzureBlobStorage {
 	_init_.Initialize()
 
@@ -864,7 +840,7 @@ func NewDataFactoryLinkedServiceAzureBlobStorage(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_azure_blob_storage azurerm_data_factory_linked_service_azure_blob_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_azure_blob_storage azurerm_data_factory_linked_service_azure_blob_storage} Resource.
 func NewDataFactoryLinkedServiceAzureBlobStorage_Override(d DataFactoryLinkedServiceAzureBlobStorage, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureBlobStorageConfig) {
 	_init_.Initialize()
 
@@ -1499,17 +1475,6 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) OverrideLogicalId(n
 	)
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) PutKeyVaultSasToken(value *DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasToken) {
-	if err := d.validatePutKeyVaultSasTokenParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		d,
-		"putKeyVaultSasToken",
-		[]interface{}{value},
-	)
-}
-
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) PutSasTokenLinkedKeyVaultKey(value *DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKey) {
 	if err := d.validatePutSasTokenLinkedKeyVaultKeyParameters(value); err != nil {
 		panic(err)
@@ -1606,14 +1571,6 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) ResetIntegrationRun
 	_jsii_.InvokeVoid(
 		d,
 		"resetIntegrationRuntimeName",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) ResetKeyVaultSasToken() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetKeyVaultSasToken",
 		nil, // no parameters
 	)
 }

@@ -55,6 +55,10 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetAcceleratedNetworkingEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetAuxiliaryModeParameters(val *string) error {
 	return nil
 }
@@ -75,15 +79,11 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetEnableAcceleratedNetworkingParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetEnableIpForwardingParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetIpForwardingEnabledParameters(val interface{}) error {
 	return nil
 }
 

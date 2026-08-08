@@ -5,14 +5,14 @@ package datadogmonitorssoconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datadogmonitorssoconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datadogmonitorssoconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_sso_configuration azurerm_datadog_monitor_sso_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/datadog_monitor_sso_configuration azurerm_datadog_monitor_sso_configuration}.
 type DatadogMonitorSsoConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -70,9 +70,6 @@ type DatadogMonitorSsoConfiguration interface {
 	RawOverrides() interface{}
 	SingleSignOn() *string
 	SetSingleSignOn(val *string)
-	SingleSignOnEnabled() *string
-	SetSingleSignOnEnabled(val *string)
-	SingleSignOnEnabledInput() *string
 	SingleSignOnInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -180,8 +177,6 @@ type DatadogMonitorSsoConfiguration interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetSingleSignOn()
-	ResetSingleSignOnEnabled()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -440,26 +435,6 @@ func (j *jsiiProxy_DatadogMonitorSsoConfiguration) SingleSignOn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DatadogMonitorSsoConfiguration) SingleSignOnEnabled() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"singleSignOnEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DatadogMonitorSsoConfiguration) SingleSignOnEnabledInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"singleSignOnEnabledInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DatadogMonitorSsoConfiguration) SingleSignOnInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -521,7 +496,7 @@ func (j *jsiiProxy_DatadogMonitorSsoConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_sso_configuration azurerm_datadog_monitor_sso_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/datadog_monitor_sso_configuration azurerm_datadog_monitor_sso_configuration} Resource.
 func NewDatadogMonitorSsoConfiguration(scope constructs.Construct, id *string, config *DatadogMonitorSsoConfigurationConfig) DatadogMonitorSsoConfiguration {
 	_init_.Initialize()
 
@@ -539,7 +514,7 @@ func NewDatadogMonitorSsoConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_sso_configuration azurerm_datadog_monitor_sso_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/datadog_monitor_sso_configuration azurerm_datadog_monitor_sso_configuration} Resource.
 func NewDatadogMonitorSsoConfiguration_Override(d DatadogMonitorSsoConfiguration, scope constructs.Construct, id *string, config *DatadogMonitorSsoConfigurationConfig) {
 	_init_.Initialize()
 
@@ -669,17 +644,6 @@ func (j *jsiiProxy_DatadogMonitorSsoConfiguration)SetSingleSignOn(val *string) {
 	_jsii_.Set(
 		j,
 		"singleSignOn",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DatadogMonitorSsoConfiguration)SetSingleSignOnEnabled(val *string) {
-	if err := j.validateSetSingleSignOnEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"singleSignOnEnabled",
 		val,
 	)
 }
@@ -1095,22 +1059,6 @@ func (d *jsiiProxy_DatadogMonitorSsoConfiguration) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DatadogMonitorSsoConfiguration) ResetSingleSignOn() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetSingleSignOn",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DatadogMonitorSsoConfiguration) ResetSingleSignOnEnabled() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetSingleSignOnEnabled",
 		nil, // no parameters
 	)
 }

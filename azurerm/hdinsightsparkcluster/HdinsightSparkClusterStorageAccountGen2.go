@@ -5,13 +5,13 @@ package hdinsightsparkcluster
 
 
 type HdinsightSparkClusterStorageAccountGen2 struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_spark_cluster#filesystem_id HdinsightSparkCluster#filesystem_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#filesystem_id HdinsightSparkCluster#filesystem_id}.
 	FilesystemId *string `field:"required" json:"filesystemId" yaml:"filesystemId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_spark_cluster#is_default HdinsightSparkCluster#is_default}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#is_default HdinsightSparkCluster#is_default}.
 	IsDefault interface{} `field:"required" json:"isDefault" yaml:"isDefault"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_spark_cluster#managed_identity_resource_id HdinsightSparkCluster#managed_identity_resource_id}.
-	ManagedIdentityResourceId *string `field:"required" json:"managedIdentityResourceId" yaml:"managedIdentityResourceId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_spark_cluster#storage_resource_id HdinsightSparkCluster#storage_resource_id}.
-	StorageResourceId *string `field:"required" json:"storageResourceId" yaml:"storageResourceId"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#storage_account_id HdinsightSparkCluster#storage_account_id}.
+	StorageAccountId *string `field:"required" json:"storageAccountId" yaml:"storageAccountId"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#user_assigned_identity_id HdinsightSparkCluster#user_assigned_identity_id}.
+	UserAssignedIdentityId *string `field:"required" json:"userAssignedIdentityId" yaml:"userAssignedIdentityId"`
 }
 

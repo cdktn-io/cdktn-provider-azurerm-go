@@ -5,14 +5,14 @@ package dataazurermnginxdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermnginxdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermnginxdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nginx_deployment azurerm_nginx_deployment}.
 type DataAzurermNginxDeployment interface {
 	cdktn.TerraformDataSource
 	AutomaticUpgradeChannel() *string
@@ -31,7 +31,6 @@ type DataAzurermNginxDeployment interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	DiagnoseSupportEnabled() cdktn.IResolvable
 	Email() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -53,8 +52,6 @@ type DataAzurermNginxDeployment interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
-	LoggingStorageAccount() DataAzurermNginxDeploymentLoggingStorageAccountList
-	ManagedResourceGroup() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -234,16 +231,6 @@ func (j *jsiiProxy_DataAzurermNginxDeployment) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNginxDeployment) DiagnoseSupportEnabled() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"diagnoseSupportEnabled",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAzurermNginxDeployment) Email() *string {
 	var returns *string
 	_jsii_.Get(
@@ -359,26 +346,6 @@ func (j *jsiiProxy_DataAzurermNginxDeployment) Location() *string {
 	_jsii_.Get(
 		j,
 		"location",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermNginxDeployment) LoggingStorageAccount() DataAzurermNginxDeploymentLoggingStorageAccountList {
-	var returns DataAzurermNginxDeploymentLoggingStorageAccountList
-	_jsii_.Get(
-		j,
-		"loggingStorageAccount",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermNginxDeployment) ManagedResourceGroup() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedResourceGroup",
 		&returns,
 	)
 	return returns
@@ -555,7 +522,7 @@ func (j *jsiiProxy_DataAzurermNginxDeployment) WebApplicationFirewall() DataAzur
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
 func NewDataAzurermNginxDeployment(scope constructs.Construct, id *string, config *DataAzurermNginxDeploymentConfig) DataAzurermNginxDeployment {
 	_init_.Initialize()
 
@@ -573,7 +540,7 @@ func NewDataAzurermNginxDeployment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
 func NewDataAzurermNginxDeployment_Override(d DataAzurermNginxDeployment, scope constructs.Construct, id *string, config *DataAzurermNginxDeploymentConfig) {
 	_init_.Initialize()
 

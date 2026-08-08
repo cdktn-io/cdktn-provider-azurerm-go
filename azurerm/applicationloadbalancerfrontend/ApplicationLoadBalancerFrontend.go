@@ -5,14 +5,14 @@ package applicationloadbalancerfrontend
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/applicationloadbalancerfrontend/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationloadbalancerfrontend/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_load_balancer_frontend azurerm_application_load_balancer_frontend}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_frontend azurerm_application_load_balancer_frontend}.
 type ApplicationLoadBalancerFrontend interface {
 	cdktn.TerraformResource
 	ApplicationLoadBalancerId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ApplicationLoadBalancerFrontend) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_load_balancer_frontend azurerm_application_load_balancer_frontend} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_frontend azurerm_application_load_balancer_frontend} Resource.
 func NewApplicationLoadBalancerFrontend(scope constructs.Construct, id *string, config *ApplicationLoadBalancerFrontendConfig) ApplicationLoadBalancerFrontend {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewApplicationLoadBalancerFrontend(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_load_balancer_frontend azurerm_application_load_balancer_frontend} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_frontend azurerm_application_load_balancer_frontend} Resource.
 func NewApplicationLoadBalancerFrontend_Override(a ApplicationLoadBalancerFrontend, scope constructs.Construct, id *string, config *ApplicationLoadBalancerFrontendConfig) {
 	_init_.Initialize()
 

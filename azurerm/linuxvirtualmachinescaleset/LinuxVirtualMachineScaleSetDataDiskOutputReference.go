@@ -5,9 +5,9 @@ package linuxvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/linuxvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/linuxvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -67,12 +67,6 @@ type LinuxVirtualMachineScaleSetDataDiskOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	UltraSsdDiskIopsReadWrite() *float64
-	SetUltraSsdDiskIopsReadWrite(val *float64)
-	UltraSsdDiskIopsReadWriteInput() *float64
-	UltraSsdDiskMbpsReadWrite() *float64
-	SetUltraSsdDiskMbpsReadWrite(val *float64)
-	UltraSsdDiskMbpsReadWriteInput() *float64
 	WriteAcceleratorEnabled() interface{}
 	SetWriteAcceleratorEnabled(val interface{})
 	WriteAcceleratorEnabledInput() interface{}
@@ -105,8 +99,6 @@ type LinuxVirtualMachineScaleSetDataDiskOutputReference interface {
 	ResetDiskIopsReadWrite()
 	ResetDiskMbpsReadWrite()
 	ResetName()
-	ResetUltraSsdDiskIopsReadWrite()
-	ResetUltraSsdDiskMbpsReadWrite()
 	ResetWriteAcceleratorEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -373,46 +365,6 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskIopsReadWrite() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskIopsReadWrite",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskIopsReadWriteInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskIopsReadWriteInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskMbpsReadWrite() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskMbpsReadWrite",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskMbpsReadWriteInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskMbpsReadWriteInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) WriteAcceleratorEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -611,28 +563,6 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference)SetTerrafo
 	_jsii_.Set(
 		j,
 		"terraformResource",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference)SetUltraSsdDiskIopsReadWrite(val *float64) {
-	if err := j.validateSetUltraSsdDiskIopsReadWriteParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"ultraSsdDiskIopsReadWrite",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference)SetUltraSsdDiskMbpsReadWrite(val *float64) {
-	if err := j.validateSetUltraSsdDiskMbpsReadWriteParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"ultraSsdDiskMbpsReadWrite",
 		val,
 	)
 }
@@ -870,22 +800,6 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) ResetName
 	_jsii_.InvokeVoid(
 		l,
 		"resetName",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) ResetUltraSsdDiskIopsReadWrite() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetUltraSsdDiskIopsReadWrite",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) ResetUltraSsdDiskMbpsReadWrite() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetUltraSsdDiskMbpsReadWrite",
 		nil, // no parameters
 	)
 }

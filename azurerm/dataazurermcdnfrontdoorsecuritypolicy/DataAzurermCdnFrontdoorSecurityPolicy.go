@@ -5,14 +5,14 @@ package dataazurermcdnfrontdoorsecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermcdnfrontdoorsecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermcdnfrontdoorsecuritypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cdn_frontdoor_security_policy azurerm_cdn_frontdoor_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cdn_frontdoor_security_policy azurerm_cdn_frontdoor_security_policy}.
 type DataAzurermCdnFrontdoorSecurityPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorSecurityPolicy) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cdn_frontdoor_security_policy azurerm_cdn_frontdoor_security_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cdn_frontdoor_security_policy azurerm_cdn_frontdoor_security_policy} Data Source.
 func NewDataAzurermCdnFrontdoorSecurityPolicy(scope constructs.Construct, id *string, config *DataAzurermCdnFrontdoorSecurityPolicyConfig) DataAzurermCdnFrontdoorSecurityPolicy {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAzurermCdnFrontdoorSecurityPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cdn_frontdoor_security_policy azurerm_cdn_frontdoor_security_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cdn_frontdoor_security_policy azurerm_cdn_frontdoor_security_policy} Data Source.
 func NewDataAzurermCdnFrontdoorSecurityPolicy_Override(d DataAzurermCdnFrontdoorSecurityPolicy, scope constructs.Construct, id *string, config *DataAzurermCdnFrontdoorSecurityPolicyConfig) {
 	_init_.Initialize()
 

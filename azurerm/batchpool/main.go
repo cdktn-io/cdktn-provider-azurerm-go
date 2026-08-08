@@ -21,8 +21,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "autoScale", GoGetter: "AutoScale"},
 			_jsii_.MemberProperty{JsiiProperty: "autoScaleInput", GoGetter: "AutoScaleInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
-			_jsii_.MemberProperty{JsiiProperty: "certificateInput", GoGetter: "CertificateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "containerConfiguration", GoGetter: "ContainerConfiguration"},
@@ -88,7 +86,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putAutoScale", GoMethod: "PutAutoScale"},
-			_jsii_.MemberMethod{JsiiMethod: "putCertificate", GoMethod: "PutCertificate"},
 			_jsii_.MemberMethod{JsiiMethod: "putContainerConfiguration", GoMethod: "PutContainerConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putDataDisks", GoMethod: "PutDataDisks"},
 			_jsii_.MemberMethod{JsiiMethod: "putDiskEncryption", GoMethod: "PutDiskEncryption"},
@@ -108,7 +105,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoScale", GoMethod: "ResetAutoScale"},
-			_jsii_.MemberMethod{JsiiMethod: "resetCertificate", GoMethod: "ResetCertificate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContainerConfiguration", GoMethod: "ResetContainerConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDataDisks", GoMethod: "ResetDataDisks"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDiskEncryption", GoMethod: "ResetDiskEncryption"},
@@ -210,74 +206,6 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BatchPoolAutoScaleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.batchPool.BatchPoolCertificate",
-		reflect.TypeOf((*BatchPoolCertificate)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.batchPool.BatchPoolCertificateList",
-		reflect.TypeOf((*BatchPoolCertificateList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_BatchPoolCertificateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.batchPool.BatchPoolCertificateOutputReference",
-		reflect.TypeOf((*BatchPoolCertificateOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resetStoreName", GoMethod: "ResetStoreName"},
-			_jsii_.MemberMethod{JsiiMethod: "resetVisibility", GoMethod: "ResetVisibility"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "storeLocation", GoGetter: "StoreLocation"},
-			_jsii_.MemberProperty{JsiiProperty: "storeLocationInput", GoGetter: "StoreLocationInput"},
-			_jsii_.MemberProperty{JsiiProperty: "storeName", GoGetter: "StoreName"},
-			_jsii_.MemberProperty{JsiiProperty: "storeNameInput", GoGetter: "StoreNameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "visibility", GoGetter: "Visibility"},
-			_jsii_.MemberProperty{JsiiProperty: "visibilityInput", GoGetter: "VisibilityInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_BatchPoolCertificateOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

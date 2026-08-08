@@ -5,9 +5,9 @@ package orchestratedvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/orchestratedvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/orchestratedvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -21,6 +21,9 @@ type OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputRefere
 	AdminUsername() *string
 	SetAdminUsername(val *string)
 	AdminUsernameInput() *string
+	AutomaticUpdatesEnabled() interface{}
+	SetAutomaticUpdatesEnabled(val interface{})
+	AutomaticUpdatesEnabledInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,9 +42,6 @@ type OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputRefere
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	EnableAutomaticUpdates() interface{}
-	SetEnableAutomaticUpdates(val interface{})
-	EnableAutomaticUpdatesInput() interface{}
 	// Experimental.
 	Fqn() *string
 	HotpatchingEnabled() interface{}
@@ -101,8 +101,8 @@ type OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputRefere
 	PutSecret(value interface{})
 	PutWinrmListener(value interface{})
 	ResetAdditionalUnattendContent()
+	ResetAutomaticUpdatesEnabled()
 	ResetComputerNamePrefix()
-	ResetEnableAutomaticUpdates()
 	ResetHotpatchingEnabled()
 	ResetPatchAssessmentMode()
 	ResetPatchMode()
@@ -185,6 +185,26 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	return returns
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) AutomaticUpdatesEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticUpdatesEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) AutomaticUpdatesEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticUpdatesEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -230,26 +250,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	_jsii_.Get(
 		j,
 		"creationStack",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) EnableAutomaticUpdates() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAutomaticUpdates",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) EnableAutomaticUpdatesInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAutomaticUpdatesInput",
 		&returns,
 	)
 	return returns
@@ -485,6 +485,17 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	)
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference)SetAutomaticUpdatesEnabled(val interface{}) {
+	if err := j.validateSetAutomaticUpdatesEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"automaticUpdatesEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -514,17 +525,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	_jsii_.Set(
 		j,
 		"computerNamePrefix",
-		val,
-	)
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference)SetEnableAutomaticUpdates(val interface{}) {
-	if err := j.validateSetEnableAutomaticUpdatesParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableAutomaticUpdates",
 		val,
 	)
 }
@@ -844,18 +844,18 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	)
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) ResetComputerNamePrefix() {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) ResetAutomaticUpdatesEnabled() {
 	_jsii_.InvokeVoid(
 		o,
-		"resetComputerNamePrefix",
+		"resetAutomaticUpdatesEnabled",
 		nil, // no parameters
 	)
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) ResetEnableAutomaticUpdates() {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) ResetComputerNamePrefix() {
 	_jsii_.InvokeVoid(
 		o,
-		"resetEnableAutomaticUpdates",
+		"resetComputerNamePrefix",
 		nil, // no parameters
 	)
 }

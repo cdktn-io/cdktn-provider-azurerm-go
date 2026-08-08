@@ -5,14 +5,14 @@ package machinelearningworkspacenetworkoutboundruleprivateendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/machinelearningworkspacenetworkoutboundruleprivateendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/machinelearningworkspacenetworkoutboundruleprivateendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint}.
 type MachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint) W
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint} Resource.
 func NewMachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint(scope constructs.Construct, id *string, config *MachineLearningWorkspaceNetworkOutboundRulePrivateEndpointConfig) MachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewMachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint} Resource.
 func NewMachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint_Override(m MachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint, scope constructs.Construct, id *string, config *MachineLearningWorkspaceNetworkOutboundRulePrivateEndpointConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataazurermstackhcicluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermstackhcicluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermstackhcicluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/stack_hci_cluster azurerm_stack_hci_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/stack_hci_cluster azurerm_stack_hci_cluster}.
 type DataAzurermStackHciCluster interface {
 	cdktn.TerraformDataSource
 	AutomanageConfigurationId() *string
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAzurermStackHciCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/stack_hci_cluster azurerm_stack_hci_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/stack_hci_cluster azurerm_stack_hci_cluster} Data Source.
 func NewDataAzurermStackHciCluster(scope constructs.Construct, id *string, config *DataAzurermStackHciClusterConfig) DataAzurermStackHciCluster {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataAzurermStackHciCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/stack_hci_cluster azurerm_stack_hci_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/stack_hci_cluster azurerm_stack_hci_cluster} Data Source.
 func NewDataAzurermStackHciCluster_Override(d DataAzurermStackHciCluster, scope constructs.Construct, id *string, config *DataAzurermStackHciClusterConfig) {
 	_init_.Initialize()
 

@@ -123,7 +123,7 @@ func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetNameParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetPrivateDnsZoneNameParameters(val *string) error {
+func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetPrivateDnsZoneIdParameters(val *string) error {
 	return nil
 }
 
@@ -136,10 +136,6 @@ func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetRegistrationEnab
 }
 
 func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetResolutionPolicyParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetResourceGroupNameParameters(val *string) error {
 	return nil
 }
 

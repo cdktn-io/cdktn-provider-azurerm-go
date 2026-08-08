@@ -5,14 +5,14 @@ package cognitiveaccountraipolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cognitiveaccountraipolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cognitiveaccountraipolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy}.
 type CognitiveAccountRaiPolicy interface {
 	cdktn.TerraformResource
 	BasePolicyName() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_CognitiveAccountRaiPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy} Resource.
 func NewCognitiveAccountRaiPolicy(scope constructs.Construct, id *string, config *CognitiveAccountRaiPolicyConfig) CognitiveAccountRaiPolicy {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewCognitiveAccountRaiPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy} Resource.
 func NewCognitiveAccountRaiPolicy_Override(c CognitiveAccountRaiPolicy, scope constructs.Construct, id *string, config *CognitiveAccountRaiPolicyConfig) {
 	_init_.Initialize()
 

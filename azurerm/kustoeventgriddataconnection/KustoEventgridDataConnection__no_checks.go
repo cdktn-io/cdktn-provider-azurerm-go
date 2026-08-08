@@ -135,10 +135,6 @@ func (j *jsiiProxy_KustoEventgridDataConnection) validateSetEventgridEventSubscr
 	return nil
 }
 
-func (j *jsiiProxy_KustoEventgridDataConnection) validateSetEventgridResourceIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_KustoEventgridDataConnection) validateSetEventhubConsumerGroupNameParameters(val *string) error {
 	return nil
 }
@@ -160,10 +156,6 @@ func (j *jsiiProxy_KustoEventgridDataConnection) validateSetLocationParameters(v
 }
 
 func (j *jsiiProxy_KustoEventgridDataConnection) validateSetManagedIdentityIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_KustoEventgridDataConnection) validateSetManagedIdentityResourceIdParameters(val *string) error {
 	return nil
 }
 

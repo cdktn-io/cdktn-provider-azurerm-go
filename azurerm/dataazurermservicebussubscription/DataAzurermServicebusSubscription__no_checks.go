@@ -95,19 +95,7 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetNameParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetNamespaceNameParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetResourceGroupNameParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetTopicIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription) validateSetTopicNameParameters(val *string) error {
 	return nil
 }
 

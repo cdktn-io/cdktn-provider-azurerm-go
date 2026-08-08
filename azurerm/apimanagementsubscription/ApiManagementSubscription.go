@@ -5,14 +5,14 @@ package apimanagementsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/apimanagementsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagementsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_subscription azurerm_api_management_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_subscription azurerm_api_management_subscription}.
 type ApiManagementSubscription interface {
 	cdktn.TerraformResource
 	AllowTracing() interface{}
@@ -653,7 +653,7 @@ func (j *jsiiProxy_ApiManagementSubscription) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_subscription azurerm_api_management_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_subscription azurerm_api_management_subscription} Resource.
 func NewApiManagementSubscription(scope constructs.Construct, id *string, config *ApiManagementSubscriptionConfig) ApiManagementSubscription {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewApiManagementSubscription(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_subscription azurerm_api_management_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_subscription azurerm_api_management_subscription} Resource.
 func NewApiManagementSubscription_Override(a ApiManagementSubscription, scope constructs.Construct, id *string, config *ApiManagementSubscriptionConfig) {
 	_init_.Initialize()
 

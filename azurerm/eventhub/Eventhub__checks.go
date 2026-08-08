@@ -426,14 +426,6 @@ func (j *jsiiProxy_Eventhub) validateSetNamespaceIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_Eventhub) validateSetNamespaceNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_Eventhub) validateSetPartitionCountParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -483,14 +475,6 @@ func (j *jsiiProxy_Eventhub) validateSetProvisionersParameters(val *[]interface{
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_Eventhub) validateSetResourceGroupNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

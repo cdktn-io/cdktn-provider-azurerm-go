@@ -131,15 +131,7 @@ func (j *jsiiProxy_FederatedIdentityCredential) validateSetNameParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_FederatedIdentityCredential) validateSetParentIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_FederatedIdentityCredential) validateSetProvisionersParameters(val *[]interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_FederatedIdentityCredential) validateSetResourceGroupNameParameters(val *string) error {
 	return nil
 }
 

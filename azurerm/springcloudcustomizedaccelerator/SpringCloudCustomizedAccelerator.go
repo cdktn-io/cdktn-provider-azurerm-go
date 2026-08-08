@@ -5,14 +5,14 @@ package springcloudcustomizedaccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/springcloudcustomizedaccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/springcloudcustomizedaccelerator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_customized_accelerator azurerm_spring_cloud_customized_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_customized_accelerator azurerm_spring_cloud_customized_accelerator}.
 type SpringCloudCustomizedAccelerator interface {
 	cdktn.TerraformResource
 	AcceleratorTags() *[]*string
@@ -581,7 +581,7 @@ func (j *jsiiProxy_SpringCloudCustomizedAccelerator) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_customized_accelerator azurerm_spring_cloud_customized_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_customized_accelerator azurerm_spring_cloud_customized_accelerator} Resource.
 func NewSpringCloudCustomizedAccelerator(scope constructs.Construct, id *string, config *SpringCloudCustomizedAcceleratorConfig) SpringCloudCustomizedAccelerator {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewSpringCloudCustomizedAccelerator(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_customized_accelerator azurerm_spring_cloud_customized_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_customized_accelerator azurerm_spring_cloud_customized_accelerator} Resource.
 func NewSpringCloudCustomizedAccelerator_Override(s SpringCloudCustomizedAccelerator, scope constructs.Construct, id *string, config *SpringCloudCustomizedAcceleratorConfig) {
 	_init_.Initialize()
 

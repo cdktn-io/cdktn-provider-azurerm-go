@@ -190,6 +190,22 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 	return nil
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskIopsReadWriteParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskMbpsReadWriteParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskSizeGbParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -247,22 +263,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetUltraSsdDiskIopsReadWriteParameters(val *float64) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetUltraSsdDiskMbpsReadWriteParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

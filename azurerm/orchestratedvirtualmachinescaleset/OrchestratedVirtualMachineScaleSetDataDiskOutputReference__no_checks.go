@@ -71,6 +71,14 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 	return nil
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskIopsReadWriteParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskMbpsReadWriteParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskSizeGbParameters(val *float64) error {
 	return nil
 }
@@ -92,14 +100,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
-	return nil
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetUltraSsdDiskIopsReadWriteParameters(val *float64) error {
-	return nil
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetUltraSsdDiskMbpsReadWriteParameters(val *float64) error {
 	return nil
 }
 

@@ -123,14 +123,6 @@ func (j *jsiiProxy_LbRule) validateSetDisableOutboundSnatParameters(val interfac
 	return nil
 }
 
-func (j *jsiiProxy_LbRule) validateSetEnableFloatingIpParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_LbRule) validateSetEnableTcpResetParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_LbRule) validateSetFloatingIpEnabledParameters(val interface{}) error {
 	return nil
 }

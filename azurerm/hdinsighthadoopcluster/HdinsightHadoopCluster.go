@@ -5,14 +5,14 @@ package hdinsighthadoopcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/hdinsighthadoopcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/hdinsighthadoopcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster}.
 type HdinsightHadoopCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -237,7 +237,6 @@ type HdinsightHadoopCluster interface {
 	ResetStorageAccountGen2()
 	ResetTags()
 	ResetTimeouts()
-	ResetTlsMinVersion()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -886,7 +885,7 @@ func (j *jsiiProxy_HdinsightHadoopCluster) TlsMinVersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster} Resource.
 func NewHdinsightHadoopCluster(scope constructs.Construct, id *string, config *HdinsightHadoopClusterConfig) HdinsightHadoopCluster {
 	_init_.Initialize()
 
@@ -904,7 +903,7 @@ func NewHdinsightHadoopCluster(scope constructs.Construct, id *string, config *H
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster} Resource.
 func NewHdinsightHadoopCluster_Override(h HdinsightHadoopCluster, scope constructs.Construct, id *string, config *HdinsightHadoopClusterConfig) {
 	_init_.Initialize()
 
@@ -1713,14 +1712,6 @@ func (h *jsiiProxy_HdinsightHadoopCluster) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetTimeouts",
-		nil, // no parameters
-	)
-}
-
-func (h *jsiiProxy_HdinsightHadoopCluster) ResetTlsMinVersion() {
-	_jsii_.InvokeVoid(
-		h,
-		"resetTlsMinVersion",
 		nil, // no parameters
 	)
 }

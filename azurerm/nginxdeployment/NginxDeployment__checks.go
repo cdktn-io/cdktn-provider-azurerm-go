@@ -299,37 +299,6 @@ func (n *jsiiProxy_NginxDeployment) validatePutIdentityParameters(value *NginxDe
 	return nil
 }
 
-func (n *jsiiProxy_NginxDeployment) validatePutLoggingStorageAccountParameters(value interface{}) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	switch value.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*NginxDeploymentLoggingStorageAccount:
-		value := value.(*[]*NginxDeploymentLoggingStorageAccount)
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	case []*NginxDeploymentLoggingStorageAccount:
-		value_ := value.([]*NginxDeploymentLoggingStorageAccount)
-		value := &value_
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NginxDeploymentLoggingStorageAccount; received %#v (a %T)", value, value)
-		}
-	}
-
-	return nil
-}
-
 func (n *jsiiProxy_NginxDeployment) validatePutNetworkInterfaceParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -537,26 +506,6 @@ func (j *jsiiProxy_NginxDeployment) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
-func (j *jsiiProxy_NginxDeployment) validateSetDiagnoseSupportEnabledParameters(val interface{}) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-	switch val.(type) {
-	case *bool:
-		// ok
-	case bool:
-		// ok
-	case cdktn.IResolvable:
-		// ok
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_NginxDeployment) validateSetEmailParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -582,14 +531,6 @@ func (j *jsiiProxy_NginxDeployment) validateSetLifecycleParameters(val *cdktn.Te
 }
 
 func (j *jsiiProxy_NginxDeployment) validateSetLocationParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NginxDeployment) validateSetManagedResourceGroupParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

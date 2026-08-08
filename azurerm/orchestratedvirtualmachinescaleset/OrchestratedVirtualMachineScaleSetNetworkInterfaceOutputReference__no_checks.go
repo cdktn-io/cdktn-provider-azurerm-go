@@ -55,6 +55,10 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetAcceleratedNetworkingEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetAuxiliaryModeParameters(val *string) error {
 	return nil
 }
@@ -75,15 +79,11 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetEnableAcceleratedNetworkingParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetEnableIpForwardingParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetIpForwardingEnabledParameters(val interface{}) error {
 	return nil
 }
 

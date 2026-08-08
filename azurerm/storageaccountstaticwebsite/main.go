@@ -11,8 +11,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccountStaticWebsite.StorageAccountStaticWebsiteA",
-		reflect.TypeOf((*StorageAccountStaticWebsiteA)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountStaticWebsite.StorageAccountStaticWebsite",
+		reflect.TypeOf((*StorageAccountStaticWebsite)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,14 +75,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_StorageAccountStaticWebsiteA{}
+			j := jsiiProxy_StorageAccountStaticWebsite{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccountStaticWebsite.StorageAccountStaticWebsiteAConfig",
-		reflect.TypeOf((*StorageAccountStaticWebsiteAConfig)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountStaticWebsite.StorageAccountStaticWebsiteConfig",
+		reflect.TypeOf((*StorageAccountStaticWebsiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.storageAccountStaticWebsite.StorageAccountStaticWebsiteTimeouts",

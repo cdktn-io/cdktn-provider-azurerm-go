@@ -5,9 +5,9 @@ package dataazurermlinuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermlinuxwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermlinuxwebapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,7 +44,6 @@ type DataAzurermLinuxWebAppSiteConfigApplicationStackOutputReference interface {
 	NodeVersion() *string
 	PhpVersion() *string
 	PythonVersion() *string
-	RubyVersion() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -257,16 +256,6 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppSiteConfigApplicationStackOutputReferen
 	_jsii_.Get(
 		j,
 		"pythonVersion",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermLinuxWebAppSiteConfigApplicationStackOutputReference) RubyVersion() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"rubyVersion",
 		&returns,
 	)
 	return returns

@@ -155,10 +155,6 @@ func (j *jsiiProxy_VirtualNetworkGateway) validateSetEdgeZoneParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGateway) validateSetEnableBgpParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_VirtualNetworkGateway) validateSetGenerationParameters(val *string) error {
 	return nil
 }

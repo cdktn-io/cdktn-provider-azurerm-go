@@ -143,7 +143,7 @@ func (j *jsiiProxy_DataFactoryPipeline) validateSetLifecycleParameters(val *cdkt
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryPipeline) validateSetMoniterMetricsAfterDurationParameters(val *string) error {
+func (j *jsiiProxy_DataFactoryPipeline) validateSetMonitorMetricsAfterDurationParameters(val *string) error {
 	return nil
 }
 

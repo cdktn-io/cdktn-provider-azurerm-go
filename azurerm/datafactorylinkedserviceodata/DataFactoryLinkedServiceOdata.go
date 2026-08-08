@@ -5,14 +5,14 @@ package datafactorylinkedserviceodata
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactorylinkedserviceodata/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactorylinkedserviceodata/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_odata azurerm_data_factory_linked_service_odata}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_odata azurerm_data_factory_linked_service_odata}.
 type DataFactoryLinkedServiceOdata interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceOdata) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_odata azurerm_data_factory_linked_service_odata} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_odata azurerm_data_factory_linked_service_odata} Resource.
 func NewDataFactoryLinkedServiceOdata(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceOdataConfig) DataFactoryLinkedServiceOdata {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewDataFactoryLinkedServiceOdata(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_odata azurerm_data_factory_linked_service_odata} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_odata azurerm_data_factory_linked_service_odata} Resource.
 func NewDataFactoryLinkedServiceOdata_Override(d DataFactoryLinkedServiceOdata, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceOdataConfig) {
 	_init_.Initialize()
 

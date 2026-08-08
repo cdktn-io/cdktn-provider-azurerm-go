@@ -5,14 +5,15 @@ package dataazurermvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference interface {
 	cdktn.ComplexObject
+	AcceleratedNetworkingEnabled() cdktn.IResolvable
 	AuxiliaryMode() *string
 	AuxiliarySku() *string
 	// the index of the complex object in a list.
@@ -31,13 +32,12 @@ type DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference interface 
 	// Experimental.
 	CreationStack() *[]*string
 	DnsServers() *[]*string
-	EnableAcceleratedNetworking() cdktn.IResolvable
-	EnableIpForwarding() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAzurermVirtualMachineScaleSetNetworkInterface
 	SetInternalValue(val *DataAzurermVirtualMachineScaleSetNetworkInterface)
 	IpConfiguration() DataAzurermVirtualMachineScaleSetNetworkInterfaceIpConfigurationList
+	IpForwardingEnabled() cdktn.IResolvable
 	Name() *string
 	NetworkSecurityGroupId() *string
 	Primary() cdktn.IResolvable
@@ -86,6 +86,16 @@ type DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference interface 
 // The jsii proxy struct for DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference
 type jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) AcceleratedNetworkingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"acceleratedNetworkingEnabled",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) AuxiliaryMode() *string {
@@ -148,26 +158,6 @@ func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableAcceleratedNetworking() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enableAcceleratedNetworking",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableIpForwarding() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enableIpForwarding",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -193,6 +183,16 @@ func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	_jsii_.Get(
 		j,
 		"ipConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) IpForwardingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"ipForwardingEnabled",
 		&returns,
 	)
 	return returns

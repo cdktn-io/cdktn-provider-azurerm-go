@@ -5,14 +5,14 @@ package dataazurermnetworksecurityperimeterprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermnetworksecurityperimeterprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermnetworksecurityperimeterprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/network_security_perimeter_profile azurerm_network_security_perimeter_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/network_security_perimeter_profile azurerm_network_security_perimeter_profile}.
 type DataAzurermNetworkSecurityPerimeterProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAzurermNetworkSecurityPerimeterProfile) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/network_security_perimeter_profile azurerm_network_security_perimeter_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/network_security_perimeter_profile azurerm_network_security_perimeter_profile} Data Source.
 func NewDataAzurermNetworkSecurityPerimeterProfile(scope constructs.Construct, id *string, config *DataAzurermNetworkSecurityPerimeterProfileConfig) DataAzurermNetworkSecurityPerimeterProfile {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewDataAzurermNetworkSecurityPerimeterProfile(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/network_security_perimeter_profile azurerm_network_security_perimeter_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/network_security_perimeter_profile azurerm_network_security_perimeter_profile} Data Source.
 func NewDataAzurermNetworkSecurityPerimeterProfile_Override(d DataAzurermNetworkSecurityPerimeterProfile, scope constructs.Construct, id *string, config *DataAzurermNetworkSecurityPerimeterProfileConfig) {
 	_init_.Initialize()
 

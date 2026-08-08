@@ -5,14 +5,14 @@ package datafactorylinkedserviceazuredatabricks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactorylinkedserviceazuredatabricks/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactorylinkedserviceazuredatabricks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks}.
 type DataFactoryLinkedServiceAzureDatabricks interface {
 	cdktn.TerraformResource
 	AccessToken() *string
@@ -77,9 +77,6 @@ type DataFactoryLinkedServiceAzureDatabricks interface {
 	MsiWorkspaceId() *string
 	SetMsiWorkspaceId(val *string)
 	MsiWorkspaceIdInput() *string
-	MsiWorkSpaceResourceId() *string
-	SetMsiWorkSpaceResourceId(val *string)
-	MsiWorkSpaceResourceIdInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -214,7 +211,6 @@ type DataFactoryLinkedServiceAzureDatabricks interface {
 	ResetIntegrationRuntimeName()
 	ResetKeyVaultPassword()
 	ResetMsiWorkspaceId()
-	ResetMsiWorkSpaceResourceId()
 	ResetNewClusterConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -578,26 +574,6 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) MsiWorkspaceIdInput(
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) MsiWorkSpaceResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"msiWorkSpaceResourceId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) MsiWorkSpaceResourceIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"msiWorkSpaceResourceIdInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -749,7 +725,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
 func NewDataFactoryLinkedServiceAzureDatabricks(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureDatabricksConfig) DataFactoryLinkedServiceAzureDatabricks {
 	_init_.Initialize()
 
@@ -767,7 +743,7 @@ func NewDataFactoryLinkedServiceAzureDatabricks(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
 func NewDataFactoryLinkedServiceAzureDatabricks_Override(d DataFactoryLinkedServiceAzureDatabricks, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureDatabricksConfig) {
 	_init_.Initialize()
 
@@ -933,17 +909,6 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks)SetMsiWorkspaceId(val
 	_jsii_.Set(
 		j,
 		"msiWorkspaceId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks)SetMsiWorkSpaceResourceId(val *string) {
-	if err := j.validateSetMsiWorkSpaceResourceIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"msiWorkSpaceResourceId",
 		val,
 	)
 }
@@ -1489,14 +1454,6 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) ResetMsiWorkspaceId(
 	_jsii_.InvokeVoid(
 		d,
 		"resetMsiWorkspaceId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) ResetMsiWorkSpaceResourceId() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetMsiWorkSpaceResourceId",
 		nil, // no parameters
 	)
 }

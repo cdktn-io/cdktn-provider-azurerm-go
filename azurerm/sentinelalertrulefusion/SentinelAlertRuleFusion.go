@@ -5,14 +5,14 @@ package sentinelalertrulefusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/sentinelalertrulefusion/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/sentinelalertrulefusion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_alert_rule_fusion azurerm_sentinel_alert_rule_fusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_alert_rule_fusion azurerm_sentinel_alert_rule_fusion}.
 type SentinelAlertRuleFusion interface {
 	cdktn.TerraformResource
 	AlertRuleTemplateGuid() *string
@@ -55,9 +55,6 @@ type SentinelAlertRuleFusion interface {
 	LogAnalyticsWorkspaceId() *string
 	SetLogAnalyticsWorkspaceId(val *string)
 	LogAnalyticsWorkspaceIdInput() *string
-	Name() *string
-	SetName(val *string)
-	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -176,7 +173,6 @@ type SentinelAlertRuleFusion interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetEnabled()
 	ResetId()
-	ResetName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -379,26 +375,6 @@ func (j *jsiiProxy_SentinelAlertRuleFusion) LogAnalyticsWorkspaceIdInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_SentinelAlertRuleFusion) Name() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"name",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SentinelAlertRuleFusion) NameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"nameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_SentinelAlertRuleFusion) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -510,7 +486,7 @@ func (j *jsiiProxy_SentinelAlertRuleFusion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_alert_rule_fusion azurerm_sentinel_alert_rule_fusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_alert_rule_fusion azurerm_sentinel_alert_rule_fusion} Resource.
 func NewSentinelAlertRuleFusion(scope constructs.Construct, id *string, config *SentinelAlertRuleFusionConfig) SentinelAlertRuleFusion {
 	_init_.Initialize()
 
@@ -528,7 +504,7 @@ func NewSentinelAlertRuleFusion(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_alert_rule_fusion azurerm_sentinel_alert_rule_fusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_alert_rule_fusion azurerm_sentinel_alert_rule_fusion} Resource.
 func NewSentinelAlertRuleFusion_Override(s SentinelAlertRuleFusion, scope constructs.Construct, id *string, config *SentinelAlertRuleFusionConfig) {
 	_init_.Initialize()
 
@@ -628,17 +604,6 @@ func (j *jsiiProxy_SentinelAlertRuleFusion)SetLogAnalyticsWorkspaceId(val *strin
 	_jsii_.Set(
 		j,
 		"logAnalyticsWorkspaceId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_SentinelAlertRuleFusion)SetName(val *string) {
-	if err := j.validateSetNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"name",
 		val,
 	)
 }
@@ -1076,14 +1041,6 @@ func (s *jsiiProxy_SentinelAlertRuleFusion) ResetId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SentinelAlertRuleFusion) ResetName() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetName",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package dataazurermlogicappstandard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermlogicappstandard/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermlogicappstandard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,7 +46,6 @@ type DataAzurermLogicAppStandardSiteConfigOutputReference interface {
 	LinuxFxVersion() *string
 	MinTlsVersion() *string
 	PreWarmedInstanceCount() *float64
-	PublicNetworkAccessEnabled() cdktn.IResolvable
 	RuntimeScaleMonitoringEnabled() cdktn.IResolvable
 	ScmIpRestriction() DataAzurermLogicAppStandardSiteConfigScmIpRestrictionList
 	ScmIpRestrictionDefaultAction() *string
@@ -288,16 +287,6 @@ func (j *jsiiProxy_DataAzurermLogicAppStandardSiteConfigOutputReference) PreWarm
 	_jsii_.Get(
 		j,
 		"preWarmedInstanceCount",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermLogicAppStandardSiteConfigOutputReference) PublicNetworkAccessEnabled() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"publicNetworkAccessEnabled",
 		&returns,
 	)
 	return returns

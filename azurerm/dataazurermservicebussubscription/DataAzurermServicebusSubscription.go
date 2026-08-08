@@ -5,14 +5,14 @@ package dataazurermservicebussubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermservicebussubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermservicebussubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription}.
 type DataAzurermServicebusSubscription interface {
 	cdktn.TerraformDataSource
 	AutoDeleteOnIdle() *string
@@ -32,7 +32,6 @@ type DataAzurermServicebusSubscription interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnableBatchedOperations() cdktn.IResolvable
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -55,9 +54,6 @@ type DataAzurermServicebusSubscription interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
-	NamespaceName() *string
-	SetNamespaceName(val *string)
-	NamespaceNameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -67,9 +63,6 @@ type DataAzurermServicebusSubscription interface {
 	// Experimental.
 	RawOverrides() interface{}
 	RequiresSession() cdktn.IResolvable
-	ResourceGroupName() *string
-	SetResourceGroupName(val *string)
-	ResourceGroupNameInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -81,9 +74,6 @@ type DataAzurermServicebusSubscription interface {
 	TopicId() *string
 	SetTopicId(val *string)
 	TopicIdInput() *string
-	TopicName() *string
-	SetTopicName(val *string)
-	TopicNameInput() *string
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
@@ -124,14 +114,10 @@ type DataAzurermServicebusSubscription interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
-	ResetNamespaceName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetResourceGroupName()
 	ResetTimeouts()
-	ResetTopicId()
-	ResetTopicName()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Adds this resource to the terraform JSON output.
@@ -245,16 +231,6 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription) EnableBatchedOperations() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enableBatchedOperations",
 		&returns,
 	)
 	return returns
@@ -380,26 +356,6 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription) NameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusSubscription) NamespaceName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription) NamespaceNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAzurermServicebusSubscription) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -435,26 +391,6 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription) RequiresSession() cdktn.IR
 	_jsii_.Get(
 		j,
 		"requiresSession",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription) ResourceGroupName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription) ResourceGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -530,28 +466,8 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription) TopicIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusSubscription) TopicName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"topicName",
-		&returns,
-	)
-	return returns
-}
 
-func (j *jsiiProxy_DataAzurermServicebusSubscription) TopicNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"topicNameInput",
-		&returns,
-	)
-	return returns
-}
-
-
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription} Data Source.
 func NewDataAzurermServicebusSubscription(scope constructs.Construct, id *string, config *DataAzurermServicebusSubscriptionConfig) DataAzurermServicebusSubscription {
 	_init_.Initialize()
 
@@ -569,7 +485,7 @@ func NewDataAzurermServicebusSubscription(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription} Data Source.
 func NewDataAzurermServicebusSubscription_Override(d DataAzurermServicebusSubscription, scope constructs.Construct, id *string, config *DataAzurermServicebusSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -640,32 +556,10 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermServicebusSubscription)SetNamespaceName(val *string) {
-	if err := j.validateSetNamespaceNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"namespaceName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_DataAzurermServicebusSubscription)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription)SetResourceGroupName(val *string) {
-	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceGroupName",
 		val,
 	)
 }
@@ -677,17 +571,6 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription)SetTopicId(val *string) {
 	_jsii_.Set(
 		j,
 		"topicId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataAzurermServicebusSubscription)SetTopicName(val *string) {
-	if err := j.validateSetTopicNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"topicName",
 		val,
 	)
 }
@@ -1007,14 +890,6 @@ func (d *jsiiProxy_DataAzurermServicebusSubscription) ResetId() {
 	)
 }
 
-func (d *jsiiProxy_DataAzurermServicebusSubscription) ResetNamespaceName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetNamespaceName",
-		nil, // no parameters
-	)
-}
-
 func (d *jsiiProxy_DataAzurermServicebusSubscription) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
@@ -1023,34 +898,10 @@ func (d *jsiiProxy_DataAzurermServicebusSubscription) ResetOverrideLogicalId() {
 	)
 }
 
-func (d *jsiiProxy_DataAzurermServicebusSubscription) ResetResourceGroupName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetResourceGroupName",
-		nil, // no parameters
-	)
-}
-
 func (d *jsiiProxy_DataAzurermServicebusSubscription) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetTimeouts",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermServicebusSubscription) ResetTopicId() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetTopicId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermServicebusSubscription) ResetTopicName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetTopicName",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/applicationgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -55,9 +55,6 @@ type ApplicationGatewaySslProfileOutputReference interface {
 	VerifyClientCertificateRevocation() *string
 	SetVerifyClientCertificateRevocation(val *string)
 	VerifyClientCertificateRevocationInput() *string
-	VerifyClientCertIssuerDn() interface{}
-	SetVerifyClientCertIssuerDn(val interface{})
-	VerifyClientCertIssuerDnInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -87,7 +84,6 @@ type ApplicationGatewaySslProfileOutputReference interface {
 	ResetTrustedClientCertificateNames()
 	ResetVerifyClientCertificateIssuerDn()
 	ResetVerifyClientCertificateRevocation()
-	ResetVerifyClientCertIssuerDn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -283,26 +279,6 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) VerifyClientCert
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) VerifyClientCertIssuerDn() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"verifyClientCertIssuerDn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) VerifyClientCertIssuerDnInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"verifyClientCertIssuerDnInput",
-		&returns,
-	)
-	return returns
-}
-
 
 func NewApplicationGatewaySslProfileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApplicationGatewaySslProfileOutputReference {
 	_init_.Initialize()
@@ -426,17 +402,6 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference)SetVerifyClientCe
 	_jsii_.Set(
 		j,
 		"verifyClientCertificateRevocation",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference)SetVerifyClientCertIssuerDn(val interface{}) {
-	if err := j.validateSetVerifyClientCertIssuerDnParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"verifyClientCertIssuerDn",
 		val,
 	)
 }
@@ -666,14 +631,6 @@ func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) ResetVerifyClien
 	_jsii_.InvokeVoid(
 		a,
 		"resetVerifyClientCertificateRevocation",
-		nil, // no parameters
-	)
-}
-
-func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) ResetVerifyClientCertIssuerDn() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetVerifyClientCertIssuerDn",
 		nil, // no parameters
 	)
 }

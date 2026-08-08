@@ -380,39 +380,7 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVaultIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVaultKeyIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVaultUriParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -423,14 +391,6 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVersionParam
 func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetManagedHsmKeyIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

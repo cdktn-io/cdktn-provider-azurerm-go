@@ -5,14 +5,14 @@ package storageaccountcustomermanagedkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storageaccountcustomermanagedkey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageaccountcustomermanagedkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key}.
 type StorageAccountCustomerManagedKeyA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -45,28 +45,13 @@ type StorageAccountCustomerManagedKeyA interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	KeyName() *string
-	SetKeyName(val *string)
-	KeyNameInput() *string
-	KeyVaultId() *string
-	SetKeyVaultId(val *string)
-	KeyVaultIdInput() *string
 	KeyVaultKeyId() *string
 	SetKeyVaultKeyId(val *string)
 	KeyVaultKeyIdInput() *string
-	KeyVaultUri() *string
-	SetKeyVaultUri(val *string)
-	KeyVaultUriInput() *string
-	KeyVersion() *string
-	SetKeyVersion(val *string)
-	KeyVersionInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	ManagedHsmKeyId() *string
-	SetManagedHsmKeyId(val *string)
-	ManagedHsmKeyIdInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -188,12 +173,6 @@ type StorageAccountCustomerManagedKeyA interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetFederatedIdentityClientId()
 	ResetId()
-	ResetKeyName()
-	ResetKeyVaultId()
-	ResetKeyVaultKeyId()
-	ResetKeyVaultUri()
-	ResetKeyVersion()
-	ResetManagedHsmKeyId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -346,46 +325,6 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyNameInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVaultId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVaultIdInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultKeyId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -406,71 +345,11 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultKeyIdInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultUri() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVaultUri",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultUriInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVaultUriInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVersion() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVersion",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVersionInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVersionInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) ManagedHsmKeyId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedHsmKeyId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) ManagedHsmKeyIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedHsmKeyIdInput",
 		&returns,
 	)
 	return returns
@@ -607,7 +486,7 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) UserAssignedIdentityIdInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key} Resource.
 func NewStorageAccountCustomerManagedKeyA(scope constructs.Construct, id *string, config *StorageAccountCustomerManagedKeyAConfig) StorageAccountCustomerManagedKeyA {
 	_init_.Initialize()
 
@@ -625,7 +504,7 @@ func NewStorageAccountCustomerManagedKeyA(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key} Resource.
 func NewStorageAccountCustomerManagedKeyA_Override(s StorageAccountCustomerManagedKeyA, scope constructs.Construct, id *string, config *StorageAccountCustomerManagedKeyAConfig) {
 	_init_.Initialize()
 
@@ -696,28 +575,6 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetKeyName(val *string) {
-	if err := j.validateSetKeyNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"keyName",
-		val,
-	)
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetKeyVaultId(val *string) {
-	if err := j.validateSetKeyVaultIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"keyVaultId",
-		val,
-	)
-}
-
 func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetKeyVaultKeyId(val *string) {
 	if err := j.validateSetKeyVaultKeyIdParameters(val); err != nil {
 		panic(err)
@@ -729,28 +586,6 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetKeyVaultKeyId(val *strin
 	)
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetKeyVaultUri(val *string) {
-	if err := j.validateSetKeyVaultUriParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"keyVaultUri",
-		val,
-	)
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetKeyVersion(val *string) {
-	if err := j.validateSetKeyVersionParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"keyVersion",
-		val,
-	)
-}
-
 func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
@@ -758,17 +593,6 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetLifecycle(val *cdktn.Ter
 	_jsii_.Set(
 		j,
 		"lifecycle",
-		val,
-	)
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetManagedHsmKeyId(val *string) {
-	if err := j.validateSetManagedHsmKeyIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"managedHsmKeyId",
 		val,
 	)
 }
@@ -1217,54 +1041,6 @@ func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetKeyName() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetKeyName",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetKeyVaultId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetKeyVaultId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetKeyVaultKeyId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetKeyVaultKeyId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetKeyVaultUri() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetKeyVaultUri",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetKeyVersion() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetKeyVersion",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetManagedHsmKeyId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetManagedHsmKeyId",
 		nil, // no parameters
 	)
 }

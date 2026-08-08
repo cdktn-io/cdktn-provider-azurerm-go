@@ -5,14 +5,14 @@ package apimanagementcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/apimanagementcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagementcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_certificate azurerm_api_management_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_certificate azurerm_api_management_certificate}.
 type ApiManagementCertificateA interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_ApiManagementCertificateA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
 func NewApiManagementCertificateA(scope constructs.Construct, id *string, config *ApiManagementCertificateAConfig) ApiManagementCertificateA {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewApiManagementCertificateA(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
 func NewApiManagementCertificateA_Override(a ApiManagementCertificateA, scope constructs.Construct, id *string, config *ApiManagementCertificateAConfig) {
 	_init_.Initialize()
 

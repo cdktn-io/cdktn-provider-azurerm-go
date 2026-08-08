@@ -119,10 +119,6 @@ func (j *jsiiProxy_ExpressRouteConnection) validateSetCountParameters(val interf
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRouteConnection) validateSetEnableInternetSecurityParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_ExpressRouteConnection) validateSetExpressRouteCircuitPeeringIdParameters(val *string) error {
 	return nil
 }
@@ -148,10 +144,6 @@ func (j *jsiiProxy_ExpressRouteConnection) validateSetLifecycleParameters(val *c
 }
 
 func (j *jsiiProxy_ExpressRouteConnection) validateSetNameParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_ExpressRouteConnection) validateSetPrivateLinkFastPathEnabledParameters(val interface{}) error {
 	return nil
 }
 

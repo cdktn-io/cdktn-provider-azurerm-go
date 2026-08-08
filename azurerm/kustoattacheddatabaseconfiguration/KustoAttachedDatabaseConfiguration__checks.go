@@ -301,14 +301,6 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetClusterNamePar
 	return nil
 }
 
-func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetClusterResourceIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetConnectionParameters(val interface{}) error {
 	switch val.(type) {
 	case *cdktn.SSHProvisionerConnection:

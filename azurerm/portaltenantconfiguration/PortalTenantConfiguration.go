@@ -5,14 +5,14 @@ package portaltenantconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/portaltenantconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/portaltenantconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration}.
 type PortalTenantConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_PortalTenantConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
 func NewPortalTenantConfiguration(scope constructs.Construct, id *string, config *PortalTenantConfigurationConfig) PortalTenantConfiguration {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewPortalTenantConfiguration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
 func NewPortalTenantConfiguration_Override(p PortalTenantConfiguration, scope constructs.Construct, id *string, config *PortalTenantConfigurationConfig) {
 	_init_.Initialize()
 

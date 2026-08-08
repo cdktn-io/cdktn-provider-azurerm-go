@@ -5,14 +5,14 @@ package dataazurermactivedirectorydomainservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermactivedirectorydomainservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermactivedirectorydomainservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service}.
 type DataAzurermActiveDirectoryDomainService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -535,7 +535,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service} Data Source.
 func NewDataAzurermActiveDirectoryDomainService(scope constructs.Construct, id *string, config *DataAzurermActiveDirectoryDomainServiceConfig) DataAzurermActiveDirectoryDomainService {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewDataAzurermActiveDirectoryDomainService(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service} Data Source.
 func NewDataAzurermActiveDirectoryDomainService_Override(d DataAzurermActiveDirectoryDomainService, scope constructs.Construct, id *string, config *DataAzurermActiveDirectoryDomainServiceConfig) {
 	_init_.Initialize()
 

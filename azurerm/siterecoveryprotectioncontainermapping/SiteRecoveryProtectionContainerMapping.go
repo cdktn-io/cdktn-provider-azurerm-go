@@ -5,14 +5,14 @@ package siterecoveryprotectioncontainermapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/siterecoveryprotectioncontainermapping/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/siterecoveryprotectioncontainermapping/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping}.
 type SiteRecoveryProtectionContainerMapping interface {
 	cdktn.TerraformResource
 	AutomaticUpdate() SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference
@@ -577,7 +577,7 @@ func (j *jsiiProxy_SiteRecoveryProtectionContainerMapping) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping} Resource.
 func NewSiteRecoveryProtectionContainerMapping(scope constructs.Construct, id *string, config *SiteRecoveryProtectionContainerMappingConfig) SiteRecoveryProtectionContainerMapping {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewSiteRecoveryProtectionContainerMapping(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping} Resource.
 func NewSiteRecoveryProtectionContainerMapping_Override(s SiteRecoveryProtectionContainerMapping, scope constructs.Construct, id *string, config *SiteRecoveryProtectionContainerMappingConfig) {
 	_init_.Initialize()
 

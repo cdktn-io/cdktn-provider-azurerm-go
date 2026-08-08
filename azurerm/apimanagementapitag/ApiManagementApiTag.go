@@ -5,14 +5,14 @@ package apimanagementapitag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/apimanagementapitag/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagementapitag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_api_tag azurerm_api_management_api_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_tag azurerm_api_management_api_tag}.
 type ApiManagementApiTag interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_ApiManagementApiTag) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_api_tag azurerm_api_management_api_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_tag azurerm_api_management_api_tag} Resource.
 func NewApiManagementApiTag(scope constructs.Construct, id *string, config *ApiManagementApiTagConfig) ApiManagementApiTag {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewApiManagementApiTag(scope constructs.Construct, id *string, config *ApiM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_api_tag azurerm_api_management_api_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_tag azurerm_api_management_api_tag} Resource.
 func NewApiManagementApiTag_Override(a ApiManagementApiTag, scope constructs.Construct, id *string, config *ApiManagementApiTagConfig) {
 	_init_.Initialize()
 

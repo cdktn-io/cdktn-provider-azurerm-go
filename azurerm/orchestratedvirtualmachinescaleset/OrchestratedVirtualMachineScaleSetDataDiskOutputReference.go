@@ -5,9 +5,9 @@ package orchestratedvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/orchestratedvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/orchestratedvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -37,6 +37,12 @@ type OrchestratedVirtualMachineScaleSetDataDiskOutputReference interface {
 	DiskEncryptionSetId() *string
 	SetDiskEncryptionSetId(val *string)
 	DiskEncryptionSetIdInput() *string
+	DiskIopsReadWrite() *float64
+	SetDiskIopsReadWrite(val *float64)
+	DiskIopsReadWriteInput() *float64
+	DiskMbpsReadWrite() *float64
+	SetDiskMbpsReadWrite(val *float64)
+	DiskMbpsReadWriteInput() *float64
 	DiskSizeGb() *float64
 	SetDiskSizeGb(val *float64)
 	DiskSizeGbInput() *float64
@@ -58,12 +64,6 @@ type OrchestratedVirtualMachineScaleSetDataDiskOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	UltraSsdDiskIopsReadWrite() *float64
-	SetUltraSsdDiskIopsReadWrite(val *float64)
-	UltraSsdDiskIopsReadWriteInput() *float64
-	UltraSsdDiskMbpsReadWrite() *float64
-	SetUltraSsdDiskMbpsReadWrite(val *float64)
-	UltraSsdDiskMbpsReadWriteInput() *float64
 	WriteAcceleratorEnabled() interface{}
 	SetWriteAcceleratorEnabled(val interface{})
 	WriteAcceleratorEnabledInput() interface{}
@@ -93,10 +93,10 @@ type OrchestratedVirtualMachineScaleSetDataDiskOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreateOption()
 	ResetDiskEncryptionSetId()
+	ResetDiskIopsReadWrite()
+	ResetDiskMbpsReadWrite()
 	ResetDiskSizeGb()
 	ResetLun()
-	ResetUltraSsdDiskIopsReadWrite()
-	ResetUltraSsdDiskMbpsReadWrite()
 	ResetWriteAcceleratorEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -203,6 +203,46 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) Di
 	return returns
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) DiskIopsReadWrite() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskIopsReadWrite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) DiskIopsReadWriteInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskIopsReadWriteInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) DiskMbpsReadWrite() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskMbpsReadWrite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) DiskMbpsReadWriteInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskMbpsReadWriteInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) DiskSizeGb() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -298,46 +338,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) Te
 	_jsii_.Get(
 		j,
 		"terraformResource",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskIopsReadWrite() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskIopsReadWrite",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskIopsReadWriteInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskIopsReadWriteInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskMbpsReadWrite() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskMbpsReadWrite",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskMbpsReadWriteInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskMbpsReadWriteInput",
 		&returns,
 	)
 	return returns
@@ -446,6 +446,28 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference)Set
 	)
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference)SetDiskIopsReadWrite(val *float64) {
+	if err := j.validateSetDiskIopsReadWriteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"diskIopsReadWrite",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference)SetDiskMbpsReadWrite(val *float64) {
+	if err := j.validateSetDiskMbpsReadWriteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"diskMbpsReadWrite",
+		val,
+	)
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference)SetDiskSizeGb(val *float64) {
 	if err := j.validateSetDiskSizeGbParameters(val); err != nil {
 		panic(err)
@@ -508,28 +530,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference)Set
 	_jsii_.Set(
 		j,
 		"terraformResource",
-		val,
-	)
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference)SetUltraSsdDiskIopsReadWrite(val *float64) {
-	if err := j.validateSetUltraSsdDiskIopsReadWriteParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"ultraSsdDiskIopsReadWrite",
-		val,
-	)
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference)SetUltraSsdDiskMbpsReadWrite(val *float64) {
-	if err := j.validateSetUltraSsdDiskMbpsReadWriteParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"ultraSsdDiskMbpsReadWrite",
 		val,
 	)
 }
@@ -747,6 +747,22 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) Re
 	)
 }
 
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) ResetDiskIopsReadWrite() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDiskIopsReadWrite",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) ResetDiskMbpsReadWrite() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDiskMbpsReadWrite",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) ResetDiskSizeGb() {
 	_jsii_.InvokeVoid(
 		o,
@@ -759,22 +775,6 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) Re
 	_jsii_.InvokeVoid(
 		o,
 		"resetLun",
-		nil, // no parameters
-	)
-}
-
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) ResetUltraSsdDiskIopsReadWrite() {
-	_jsii_.InvokeVoid(
-		o,
-		"resetUltraSsdDiskIopsReadWrite",
-		nil, // no parameters
-	)
-}
-
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) ResetUltraSsdDiskMbpsReadWrite() {
-	_jsii_.InvokeVoid(
-		o,
-		"resetUltraSsdDiskMbpsReadWrite",
 		nil, // no parameters
 	)
 }

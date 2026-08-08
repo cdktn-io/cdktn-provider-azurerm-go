@@ -5,14 +5,14 @@ package signalrservicenetworkacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/signalrservicenetworkacl/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/signalrservicenetworkacl/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl}.
 type SignalrServiceNetworkAcl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAcl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
 func NewSignalrServiceNetworkAcl(scope constructs.Construct, id *string, config *SignalrServiceNetworkAclConfig) SignalrServiceNetworkAcl {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewSignalrServiceNetworkAcl(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
 func NewSignalrServiceNetworkAcl_Override(s SignalrServiceNetworkAcl, scope constructs.Construct, id *string, config *SignalrServiceNetworkAclConfig) {
 	_init_.Initialize()
 

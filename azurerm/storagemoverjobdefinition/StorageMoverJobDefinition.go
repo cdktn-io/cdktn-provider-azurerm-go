@@ -5,14 +5,14 @@ package storagemoverjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storagemoverjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storagemoverjobdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition}.
 type StorageMoverJobDefinition interface {
 	cdktn.TerraformResource
 	AgentName() *string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_StorageMoverJobDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
 func NewStorageMoverJobDefinition(scope constructs.Construct, id *string, config *StorageMoverJobDefinitionConfig) StorageMoverJobDefinition {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewStorageMoverJobDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
 func NewStorageMoverJobDefinition_Override(s StorageMoverJobDefinition, scope constructs.Construct, id *string, config *StorageMoverJobDefinitionConfig) {
 	_init_.Initialize()
 

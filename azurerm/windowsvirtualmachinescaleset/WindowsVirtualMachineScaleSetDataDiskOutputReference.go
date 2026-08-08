@@ -5,9 +5,9 @@ package windowsvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/windowsvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/windowsvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -67,12 +67,6 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	UltraSsdDiskIopsReadWrite() *float64
-	SetUltraSsdDiskIopsReadWrite(val *float64)
-	UltraSsdDiskIopsReadWriteInput() *float64
-	UltraSsdDiskMbpsReadWrite() *float64
-	SetUltraSsdDiskMbpsReadWrite(val *float64)
-	UltraSsdDiskMbpsReadWriteInput() *float64
 	WriteAcceleratorEnabled() interface{}
 	SetWriteAcceleratorEnabled(val interface{})
 	WriteAcceleratorEnabledInput() interface{}
@@ -105,8 +99,6 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 	ResetDiskIopsReadWrite()
 	ResetDiskMbpsReadWrite()
 	ResetName()
-	ResetUltraSsdDiskIopsReadWrite()
-	ResetUltraSsdDiskMbpsReadWrite()
 	ResetWriteAcceleratorEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -373,46 +365,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskIopsReadWrite() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskIopsReadWrite",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskIopsReadWriteInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskIopsReadWriteInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskMbpsReadWrite() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskMbpsReadWrite",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) UltraSsdDiskMbpsReadWriteInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"ultraSsdDiskMbpsReadWriteInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) WriteAcceleratorEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -611,28 +563,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetTerra
 	_jsii_.Set(
 		j,
 		"terraformResource",
-		val,
-	)
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetUltraSsdDiskIopsReadWrite(val *float64) {
-	if err := j.validateSetUltraSsdDiskIopsReadWriteParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"ultraSsdDiskIopsReadWrite",
-		val,
-	)
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetUltraSsdDiskMbpsReadWrite(val *float64) {
-	if err := j.validateSetUltraSsdDiskMbpsReadWriteParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"ultraSsdDiskMbpsReadWrite",
 		val,
 	)
 }
@@ -870,22 +800,6 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) ResetNa
 	_jsii_.InvokeVoid(
 		w,
 		"resetName",
-		nil, // no parameters
-	)
-}
-
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) ResetUltraSsdDiskIopsReadWrite() {
-	_jsii_.InvokeVoid(
-		w,
-		"resetUltraSsdDiskIopsReadWrite",
-		nil, // no parameters
-	)
-}
-
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) ResetUltraSsdDiskMbpsReadWrite() {
-	_jsii_.InvokeVoid(
-		w,
-		"resetUltraSsdDiskMbpsReadWrite",
 		nil, // no parameters
 	)
 }

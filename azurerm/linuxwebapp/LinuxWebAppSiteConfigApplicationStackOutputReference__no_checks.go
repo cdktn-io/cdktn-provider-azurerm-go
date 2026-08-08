@@ -111,10 +111,6 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) validateSetRubyVersionParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

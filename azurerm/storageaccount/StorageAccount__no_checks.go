@@ -107,10 +107,6 @@ func (s *jsiiProxy_StorageAccount) validatePutNetworkRulesParameters(value *Stor
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccount) validatePutQueuePropertiesParameters(value *StorageAccountQueueProperties) error {
-	return nil
-}
-
 func (s *jsiiProxy_StorageAccount) validatePutRoutingParameters(value *StorageAccountRouting) error {
 	return nil
 }
@@ -120,10 +116,6 @@ func (s *jsiiProxy_StorageAccount) validatePutSasPolicyParameters(value *Storage
 }
 
 func (s *jsiiProxy_StorageAccount) validatePutSharePropertiesParameters(value *StorageAccountShareProperties) error {
-	return nil
-}
-
-func (s *jsiiProxy_StorageAccount) validatePutStaticWebsiteParameters(value *StorageAccountStaticWebsite) error {
 	return nil
 }
 

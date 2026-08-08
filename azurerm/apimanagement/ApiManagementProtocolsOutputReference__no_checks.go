@@ -59,10 +59,6 @@ func (j *jsiiProxy_ApiManagementProtocolsOutputReference) validateSetComplexObje
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementProtocolsOutputReference) validateSetEnableHttp2Parameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_ApiManagementProtocolsOutputReference) validateSetHttp2EnabledParameters(val interface{}) error {
 	return nil
 }

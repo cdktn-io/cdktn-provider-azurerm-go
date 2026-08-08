@@ -5,14 +5,14 @@ package loganalyticsworkspacetablecustomlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/loganalyticsworkspacetablecustomlog/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/loganalyticsworkspacetablecustomlog/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log}.
 type LogAnalyticsWorkspaceTableCustomLog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -603,7 +603,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLog) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log} Resource.
 func NewLogAnalyticsWorkspaceTableCustomLog(scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableCustomLogConfig) LogAnalyticsWorkspaceTableCustomLog {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewLogAnalyticsWorkspaceTableCustomLog(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log} Resource.
 func NewLogAnalyticsWorkspaceTableCustomLog_Override(l LogAnalyticsWorkspaceTableCustomLog, scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableCustomLogConfig) {
 	_init_.Initialize()
 

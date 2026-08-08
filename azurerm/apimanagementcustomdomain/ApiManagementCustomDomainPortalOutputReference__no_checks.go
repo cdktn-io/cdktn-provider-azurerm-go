@@ -79,10 +79,6 @@ func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetKe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetKeyVaultIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetNegotiateClientCertificateParameters(val interface{}) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package streamanalyticsstreaminputeventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/streamanalyticsstreaminputeventhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/streamanalyticsstreaminputeventhub/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_stream_input_eventhub azurerm_stream_analytics_stream_input_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_stream_input_eventhub azurerm_stream_analytics_stream_input_eventhub}.
 type StreamAnalyticsStreamInputEventhub interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -650,7 +650,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhub) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_stream_input_eventhub azurerm_stream_analytics_stream_input_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_stream_input_eventhub azurerm_stream_analytics_stream_input_eventhub} Resource.
 func NewStreamAnalyticsStreamInputEventhub(scope constructs.Construct, id *string, config *StreamAnalyticsStreamInputEventhubConfig) StreamAnalyticsStreamInputEventhub {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewStreamAnalyticsStreamInputEventhub(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_stream_input_eventhub azurerm_stream_analytics_stream_input_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_stream_input_eventhub azurerm_stream_analytics_stream_input_eventhub} Resource.
 func NewStreamAnalyticsStreamInputEventhub_Override(s StreamAnalyticsStreamInputEventhub, scope constructs.Construct, id *string, config *StreamAnalyticsStreamInputEventhubConfig) {
 	_init_.Initialize()
 

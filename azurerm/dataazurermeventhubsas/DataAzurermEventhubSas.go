@@ -5,14 +5,14 @@ package dataazurermeventhubsas
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermeventhubsas/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermeventhubsas/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventhub_sas azurerm_eventhub_sas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub_sas azurerm_eventhub_sas}.
 type DataAzurermEventhubSas interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAzurermEventhubSas) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventhub_sas azurerm_eventhub_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub_sas azurerm_eventhub_sas} Data Source.
 func NewDataAzurermEventhubSas(scope constructs.Construct, id *string, config *DataAzurermEventhubSasConfig) DataAzurermEventhubSas {
 	_init_.Initialize()
 
@@ -386,7 +386,7 @@ func NewDataAzurermEventhubSas(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventhub_sas azurerm_eventhub_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub_sas azurerm_eventhub_sas} Data Source.
 func NewDataAzurermEventhubSas_Override(d DataAzurermEventhubSas, scope constructs.Construct, id *string, config *DataAzurermEventhubSasConfig) {
 	_init_.Initialize()
 

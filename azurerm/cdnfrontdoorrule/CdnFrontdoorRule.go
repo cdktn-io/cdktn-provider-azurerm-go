@@ -5,21 +5,21 @@ package cdnfrontdoorrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cdnfrontdoorrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cdnfrontdoorrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule}.
 type CdnFrontdoorRule interface {
 	cdktn.TerraformResource
 	Actions() CdnFrontdoorRuleActionsOutputReference
 	ActionsInput() *CdnFrontdoorRuleActions
-	BehaviorOnMatch() *string
-	SetBehaviorOnMatch(val *string)
-	BehaviorOnMatchInput() *string
+	BehaviourOnMatch() *string
+	SetBehaviourOnMatch(val *string)
+	BehaviourOnMatchInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	CdnFrontdoorRuleSetId() *string
@@ -178,7 +178,7 @@ type CdnFrontdoorRule interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetBehaviorOnMatch()
+	ResetBehaviourOnMatch()
 	ResetConditions()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -232,21 +232,21 @@ func (j *jsiiProxy_CdnFrontdoorRule) ActionsInput() *CdnFrontdoorRuleActions {
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRule) BehaviorOnMatch() *string {
+func (j *jsiiProxy_CdnFrontdoorRule) BehaviourOnMatch() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"behaviorOnMatch",
+		"behaviourOnMatch",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRule) BehaviorOnMatchInput() *string {
+func (j *jsiiProxy_CdnFrontdoorRule) BehaviourOnMatchInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"behaviorOnMatchInput",
+		"behaviourOnMatchInput",
 		&returns,
 	)
 	return returns
@@ -543,7 +543,7 @@ func (j *jsiiProxy_CdnFrontdoorRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
 func NewCdnFrontdoorRule(scope constructs.Construct, id *string, config *CdnFrontdoorRuleConfig) CdnFrontdoorRule {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewCdnFrontdoorRule(scope constructs.Construct, id *string, config *CdnFron
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
 func NewCdnFrontdoorRule_Override(c CdnFrontdoorRule, scope constructs.Construct, id *string, config *CdnFrontdoorRuleConfig) {
 	_init_.Initialize()
 
@@ -572,13 +572,13 @@ func NewCdnFrontdoorRule_Override(c CdnFrontdoorRule, scope constructs.Construct
 	)
 }
 
-func (j *jsiiProxy_CdnFrontdoorRule)SetBehaviorOnMatch(val *string) {
-	if err := j.validateSetBehaviorOnMatchParameters(val); err != nil {
+func (j *jsiiProxy_CdnFrontdoorRule)SetBehaviourOnMatch(val *string) {
+	if err := j.validateSetBehaviourOnMatchParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"behaviorOnMatch",
+		"behaviourOnMatch",
 		val,
 	)
 }
@@ -1108,10 +1108,10 @@ func (c *jsiiProxy_CdnFrontdoorRule) RegisterProviderFeatureUsage(feature cdktn.
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRule) ResetBehaviorOnMatch() {
+func (c *jsiiProxy_CdnFrontdoorRule) ResetBehaviourOnMatch() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetBehaviorOnMatch",
+		"resetBehaviourOnMatch",
 		nil, // no parameters
 	)
 }

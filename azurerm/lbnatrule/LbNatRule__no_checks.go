@@ -119,14 +119,6 @@ func (j *jsiiProxy_LbNatRule) validateSetCountParameters(val interface{}) error 
 	return nil
 }
 
-func (j *jsiiProxy_LbNatRule) validateSetEnableFloatingIpParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_LbNatRule) validateSetEnableTcpResetParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_LbNatRule) validateSetFloatingIpEnabledParameters(val interface{}) error {
 	return nil
 }

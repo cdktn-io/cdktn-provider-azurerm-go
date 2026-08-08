@@ -5,14 +5,14 @@ package dataazurermservicebusnamespacedisasterrecoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermservicebusnamespacedisasterrecoveryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermservicebusnamespacedisasterrecoveryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config}.
 type DataAzurermServicebusNamespaceDisasterRecoveryConfig interface {
 	cdktn.TerraformDataSource
 	AliasAuthorizationRuleId() *string
@@ -53,9 +53,6 @@ type DataAzurermServicebusNamespaceDisasterRecoveryConfig interface {
 	NamespaceId() *string
 	SetNamespaceId(val *string)
 	NamespaceIdInput() *string
-	NamespaceName() *string
-	SetNamespaceName(val *string)
-	NamespaceNameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	PartnerNamespaceId() *string
@@ -66,9 +63,6 @@ type DataAzurermServicebusNamespaceDisasterRecoveryConfig interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	ResourceGroupName() *string
-	SetResourceGroupName(val *string)
-	ResourceGroupNameInput() *string
 	SecondaryConnectionStringAlias() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -119,12 +113,9 @@ type DataAzurermServicebusNamespaceDisasterRecoveryConfig interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAliasAuthorizationRuleId()
 	ResetId()
-	ResetNamespaceId()
-	ResetNamespaceName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetResourceGroupName()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -334,26 +325,6 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) Namespa
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) NamespaceName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) NamespaceNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -399,26 +370,6 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) RawOver
 	_jsii_.Get(
 		j,
 		"rawOverrides",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) ResourceGroupName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) ResourceGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -485,7 +436,7 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) Timeout
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Data Source.
 func NewDataAzurermServicebusNamespaceDisasterRecoveryConfig(scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceDisasterRecoveryConfigConfig) DataAzurermServicebusNamespaceDisasterRecoveryConfig {
 	_init_.Initialize()
 
@@ -503,7 +454,7 @@ func NewDataAzurermServicebusNamespaceDisasterRecoveryConfig(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Data Source.
 func NewDataAzurermServicebusNamespaceDisasterRecoveryConfig_Override(d DataAzurermServicebusNamespaceDisasterRecoveryConfig, scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceDisasterRecoveryConfigConfig) {
 	_init_.Initialize()
 
@@ -596,32 +547,10 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig)SetNames
 	)
 }
 
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig)SetNamespaceName(val *string) {
-	if err := j.validateSetNamespaceNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"namespaceName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig)SetResourceGroupName(val *string) {
-	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceGroupName",
 		val,
 	)
 }
@@ -949,34 +878,10 @@ func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) ResetId
 	)
 }
 
-func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) ResetNamespaceId() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetNamespaceId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) ResetNamespaceName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetNamespaceName",
-		nil, // no parameters
-	)
-}
-
 func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) ResetResourceGroupName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetResourceGroupName",
 		nil, // no parameters
 	)
 }

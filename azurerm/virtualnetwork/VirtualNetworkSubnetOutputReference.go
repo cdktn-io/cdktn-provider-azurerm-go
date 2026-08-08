@@ -5,9 +5,9 @@ package virtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/virtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -58,12 +58,11 @@ type VirtualNetworkSubnetOutputReference interface {
 	SecurityGroup() *string
 	SetSecurityGroup(val *string)
 	SecurityGroupInput() *string
+	ServiceEndpoint() VirtualNetworkSubnetServiceEndpointList
+	ServiceEndpointInput() interface{}
 	ServiceEndpointPolicyIds() *[]*string
 	SetServiceEndpointPolicyIds(val *[]*string)
 	ServiceEndpointPolicyIdsInput() *[]*string
-	ServiceEndpoints() *[]*string
-	SetServiceEndpoints(val *[]*string)
-	ServiceEndpointsInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -97,6 +96,7 @@ type VirtualNetworkSubnetOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDelegation(value interface{})
+	PutServiceEndpoint(value interface{})
 	ResetAddressPrefixes()
 	ResetDefaultOutboundAccessEnabled()
 	ResetDelegation()
@@ -106,8 +106,8 @@ type VirtualNetworkSubnetOutputReference interface {
 	ResetPrivateLinkServiceNetworkPoliciesEnabled()
 	ResetRouteTableId()
 	ResetSecurityGroup()
+	ResetServiceEndpoint()
 	ResetServiceEndpointPolicyIds()
-	ResetServiceEndpoints()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -353,6 +353,26 @@ func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) SecurityGroupInput() *st
 	return returns
 }
 
+func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) ServiceEndpoint() VirtualNetworkSubnetServiceEndpointList {
+	var returns VirtualNetworkSubnetServiceEndpointList
+	_jsii_.Get(
+		j,
+		"serviceEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) ServiceEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"serviceEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) ServiceEndpointPolicyIds() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -368,26 +388,6 @@ func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) ServiceEndpointPolicyIds
 	_jsii_.Get(
 		j,
 		"serviceEndpointPolicyIdsInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) ServiceEndpoints() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"serviceEndpoints",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) ServiceEndpointsInput() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"serviceEndpointsInput",
 		&returns,
 	)
 	return returns
@@ -569,17 +569,6 @@ func (j *jsiiProxy_VirtualNetworkSubnetOutputReference)SetServiceEndpointPolicyI
 	_jsii_.Set(
 		j,
 		"serviceEndpointPolicyIds",
-		val,
-	)
-}
-
-func (j *jsiiProxy_VirtualNetworkSubnetOutputReference)SetServiceEndpoints(val *[]*string) {
-	if err := j.validateSetServiceEndpointsParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"serviceEndpoints",
 		val,
 	)
 }
@@ -803,6 +792,17 @@ func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) PutDelegation(value inte
 	)
 }
 
+func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) PutServiceEndpoint(value interface{}) {
+	if err := v.validatePutServiceEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putServiceEndpoint",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) ResetAddressPrefixes() {
 	_jsii_.InvokeVoid(
 		v,
@@ -875,18 +875,18 @@ func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) ResetSecurityGroup() {
 	)
 }
 
-func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) ResetServiceEndpointPolicyIds() {
+func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) ResetServiceEndpoint() {
 	_jsii_.InvokeVoid(
 		v,
-		"resetServiceEndpointPolicyIds",
+		"resetServiceEndpoint",
 		nil, // no parameters
 	)
 }
 
-func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) ResetServiceEndpoints() {
+func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) ResetServiceEndpointPolicyIds() {
 	_jsii_.InvokeVoid(
 		v,
-		"resetServiceEndpoints",
+		"resetServiceEndpointPolicyIds",
 		nil, // no parameters
 	)
 }

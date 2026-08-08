@@ -5,14 +5,14 @@ package mysqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mysqlflexibleserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mysqlflexibleserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server}.
 type MysqlFlexibleServer interface {
 	cdktn.TerraformResource
 	AdministratorLogin() *string
@@ -105,7 +105,6 @@ type MysqlFlexibleServer interface {
 	SetProvisioners(val *[]interface{})
 	PublicNetworkAccess() *string
 	SetPublicNetworkAccess(val *string)
-	PublicNetworkAccessEnabled() cdktn.IResolvable
 	PublicNetworkAccessInput() *string
 	// Experimental.
 	RawOverrides() interface{}
@@ -773,16 +772,6 @@ func (j *jsiiProxy_MysqlFlexibleServer) PublicNetworkAccess() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer) PublicNetworkAccessEnabled() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"publicNetworkAccessEnabled",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_MysqlFlexibleServer) PublicNetworkAccessInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1024,7 +1013,7 @@ func (j *jsiiProxy_MysqlFlexibleServer) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server} Resource.
 func NewMysqlFlexibleServer(scope constructs.Construct, id *string, config *MysqlFlexibleServerConfig) MysqlFlexibleServer {
 	_init_.Initialize()
 
@@ -1042,7 +1031,7 @@ func NewMysqlFlexibleServer(scope constructs.Construct, id *string, config *Mysq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server} Resource.
 func NewMysqlFlexibleServer_Override(m MysqlFlexibleServer, scope constructs.Construct, id *string, config *MysqlFlexibleServerConfig) {
 	_init_.Initialize()
 

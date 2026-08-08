@@ -5,14 +5,14 @@ package sshpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/sshpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/sshpublickey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ssh_public_key azurerm_ssh_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/ssh_public_key azurerm_ssh_public_key}.
 type SshPublicKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_SshPublicKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ssh_public_key azurerm_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/ssh_public_key azurerm_ssh_public_key} Resource.
 func NewSshPublicKey(scope constructs.Construct, id *string, config *SshPublicKeyConfig) SshPublicKey {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewSshPublicKey(scope constructs.Construct, id *string, config *SshPublicKe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ssh_public_key azurerm_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/ssh_public_key azurerm_ssh_public_key} Resource.
 func NewSshPublicKey_Override(s SshPublicKey, scope constructs.Construct, id *string, config *SshPublicKeyConfig) {
 	_init_.Initialize()
 

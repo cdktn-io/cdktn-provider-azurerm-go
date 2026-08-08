@@ -5,9 +5,9 @@ package cdnfrontdoorsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cdnfrontdoorsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cdnfrontdoorsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,7 @@ type CdnFrontdoorSecretSecretCustomerCertificateOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ExpirationDate() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -108,6 +109,16 @@ func (j *jsiiProxy_CdnFrontdoorSecretSecretCustomerCertificateOutputReference) C
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorSecretSecretCustomerCertificateOutputReference) ExpirationDate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"expirationDate",
 		&returns,
 	)
 	return returns

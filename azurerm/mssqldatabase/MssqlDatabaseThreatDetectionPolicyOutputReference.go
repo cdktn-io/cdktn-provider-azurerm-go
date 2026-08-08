@@ -5,9 +5,9 @@ package mssqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mssqldatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mssqldatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,9 +31,9 @@ type MssqlDatabaseThreatDetectionPolicyOutputReference interface {
 	DisabledAlerts() *[]*string
 	SetDisabledAlerts(val *[]*string)
 	DisabledAlertsInput() *[]*string
-	EmailAccountAdmins() *string
-	SetEmailAccountAdmins(val *string)
-	EmailAccountAdminsInput() *string
+	EmailAccountAdminsEnabled() interface{}
+	SetEmailAccountAdminsEnabled(val interface{})
+	EmailAccountAdminsEnabledInput() interface{}
 	EmailAddresses() *[]*string
 	SetEmailAddresses(val *[]*string)
 	EmailAddressesInput() *[]*string
@@ -86,7 +86,7 @@ type MssqlDatabaseThreatDetectionPolicyOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDisabledAlerts()
-	ResetEmailAccountAdmins()
+	ResetEmailAccountAdminsEnabled()
 	ResetEmailAddresses()
 	ResetRetentionDays()
 	ResetState()
@@ -157,21 +157,21 @@ func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) DisabledAl
 	return returns
 }
 
-func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) EmailAccountAdmins() *string {
-	var returns *string
+func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) EmailAccountAdminsEnabled() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
-		"emailAccountAdmins",
+		"emailAccountAdminsEnabled",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) EmailAccountAdminsInput() *string {
-	var returns *string
+func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) EmailAccountAdminsEnabledInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
-		"emailAccountAdminsInput",
+		"emailAccountAdminsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -378,13 +378,13 @@ func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference)SetDisabled
 	)
 }
 
-func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference)SetEmailAccountAdmins(val *string) {
-	if err := j.validateSetEmailAccountAdminsParameters(val); err != nil {
+func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference)SetEmailAccountAdminsEnabled(val interface{}) {
+	if err := j.validateSetEmailAccountAdminsEnabledParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"emailAccountAdmins",
+		"emailAccountAdminsEnabled",
 		val,
 	)
 }
@@ -671,10 +671,10 @@ func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) ResetDisab
 	)
 }
 
-func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) ResetEmailAccountAdmins() {
+func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) ResetEmailAccountAdminsEnabled() {
 	_jsii_.InvokeVoid(
 		m,
-		"resetEmailAccountAdmins",
+		"resetEmailAccountAdminsEnabled",
 		nil, // no parameters
 	)
 }

@@ -296,7 +296,7 @@ func validateCdnFrontdoorRule_IsTerraformResourceParameters(x interface{}) error
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorRule) validateSetBehaviorOnMatchParameters(val *string) error {
+func (j *jsiiProxy_CdnFrontdoorRule) validateSetBehaviourOnMatchParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package dataazurermdevtestlab
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermdevtestlab/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermdevtestlab/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_test_lab azurerm_dev_test_lab}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_test_lab azurerm_dev_test_lab}.
 type DataAzurermDevTestLab interface {
 	cdktn.TerraformDataSource
 	ArtifactsStorageAccountId() *string
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAzurermDevTestLab) UniqueIdentifier() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_test_lab azurerm_dev_test_lab} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_test_lab azurerm_dev_test_lab} Data Source.
 func NewDataAzurermDevTestLab(scope constructs.Construct, id *string, config *DataAzurermDevTestLabConfig) DataAzurermDevTestLab {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataAzurermDevTestLab(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_test_lab azurerm_dev_test_lab} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_test_lab azurerm_dev_test_lab} Data Source.
 func NewDataAzurermDevTestLab_Override(d DataAzurermDevTestLab, scope constructs.Construct, id *string, config *DataAzurermDevTestLabConfig) {
 	_init_.Initialize()
 

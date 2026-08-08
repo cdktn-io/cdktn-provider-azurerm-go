@@ -47,23 +47,23 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validateInterpolation
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutRequestHeaderActionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutModifyRequestHeaderParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutResponseHeaderActionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutModifyResponseHeaderParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutRouteConfigurationOverrideActionParameters(value *CdnFrontdoorRuleActionsRouteConfigurationOverrideAction) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutRouteConfigurationOverrideParameters(value *CdnFrontdoorRuleActionsRouteConfigurationOverride) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRedirectActionParameters(value *CdnFrontdoorRuleActionsUrlRedirectAction) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRedirectParameters(value *CdnFrontdoorRuleActionsUrlRedirect) error {
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRewriteActionParameters(value *CdnFrontdoorRuleActionsUrlRewriteAction) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRewriteParameters(value *CdnFrontdoorRuleActionsUrlRewrite) error {
 	return nil
 }
 

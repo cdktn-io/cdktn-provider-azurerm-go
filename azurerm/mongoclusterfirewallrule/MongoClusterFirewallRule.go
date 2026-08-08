@@ -5,14 +5,14 @@ package mongoclusterfirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mongoclusterfirewallrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mongoclusterfirewallrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster_firewall_rule azurerm_mongo_cluster_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_firewall_rule azurerm_mongo_cluster_firewall_rule}.
 type MongoClusterFirewallRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_MongoClusterFirewallRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster_firewall_rule azurerm_mongo_cluster_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_firewall_rule azurerm_mongo_cluster_firewall_rule} Resource.
 func NewMongoClusterFirewallRule(scope constructs.Construct, id *string, config *MongoClusterFirewallRuleConfig) MongoClusterFirewallRule {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewMongoClusterFirewallRule(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster_firewall_rule azurerm_mongo_cluster_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_firewall_rule azurerm_mongo_cluster_firewall_rule} Resource.
 func NewMongoClusterFirewallRule_Override(m MongoClusterFirewallRule, scope constructs.Construct, id *string, config *MongoClusterFirewallRuleConfig) {
 	_init_.Initialize()
 

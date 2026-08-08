@@ -5,14 +5,14 @@ package dataazurermcognitiveaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermcognitiveaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermcognitiveaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cognitive_account azurerm_cognitive_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cognitive_account azurerm_cognitive_account}.
 type DataAzurermCognitiveAccount interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -645,7 +645,7 @@ func (j *jsiiProxy_DataAzurermCognitiveAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cognitive_account azurerm_cognitive_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cognitive_account azurerm_cognitive_account} Data Source.
 func NewDataAzurermCognitiveAccount(scope constructs.Construct, id *string, config *DataAzurermCognitiveAccountConfig) DataAzurermCognitiveAccount {
 	_init_.Initialize()
 
@@ -663,7 +663,7 @@ func NewDataAzurermCognitiveAccount(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cognitive_account azurerm_cognitive_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cognitive_account azurerm_cognitive_account} Data Source.
 func NewDataAzurermCognitiveAccount_Override(d DataAzurermCognitiveAccount, scope constructs.Construct, id *string, config *DataAzurermCognitiveAccountConfig) {
 	_init_.Initialize()
 

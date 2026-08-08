@@ -51,6 +51,10 @@ func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) validatePutDelegationPar
 	return nil
 }
 
+func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) validatePutServiceEndpointParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualNetworkSubnetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -100,10 +104,6 @@ func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) validateSetSecurityGroup
 }
 
 func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) validateSetServiceEndpointPolicyIdsParameters(val *[]*string) error {
-	return nil
-}
-
-func (j *jsiiProxy_VirtualNetworkSubnetOutputReference) validateSetServiceEndpointsParameters(val *[]*string) error {
 	return nil
 }
 

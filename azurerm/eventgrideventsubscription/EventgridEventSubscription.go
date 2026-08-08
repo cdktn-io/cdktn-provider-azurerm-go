@@ -5,14 +5,14 @@ package eventgrideventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/eventgrideventsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/eventgrideventsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription}.
 type EventgridEventSubscription interface {
 	cdktn.TerraformResource
 	AdvancedFilter() EventgridEventSubscriptionAdvancedFilterOutputReference
@@ -47,9 +47,9 @@ type EventgridEventSubscription interface {
 	EventDeliverySchema() *string
 	SetEventDeliverySchema(val *string)
 	EventDeliverySchemaInput() *string
-	EventhubEndpointId() *string
-	SetEventhubEndpointId(val *string)
-	EventhubEndpointIdInput() *string
+	EventhubId() *string
+	SetEventhubId(val *string)
+	EventhubIdInput() *string
 	ExpirationTimeUtc() *string
 	SetExpirationTimeUtc(val *string)
 	ExpirationTimeUtcInput() *string
@@ -61,9 +61,9 @@ type EventgridEventSubscription interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	HybridConnectionEndpointId() *string
-	SetHybridConnectionEndpointId(val *string)
-	HybridConnectionEndpointIdInput() *string
+	HybridConnectionId() *string
+	SetHybridConnectionId(val *string)
+	HybridConnectionIdInput() *string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -97,12 +97,12 @@ type EventgridEventSubscription interface {
 	Scope() *string
 	SetScope(val *string)
 	ScopeInput() *string
-	ServiceBusQueueEndpointId() *string
-	SetServiceBusQueueEndpointId(val *string)
-	ServiceBusQueueEndpointIdInput() *string
-	ServiceBusTopicEndpointId() *string
-	SetServiceBusTopicEndpointId(val *string)
-	ServiceBusTopicEndpointIdInput() *string
+	ServiceBusQueueId() *string
+	SetServiceBusQueueId(val *string)
+	ServiceBusQueueIdInput() *string
+	ServiceBusTopicId() *string
+	SetServiceBusTopicId(val *string)
+	ServiceBusTopicIdInput() *string
 	StorageBlobDeadLetterDestination() EventgridEventSubscriptionStorageBlobDeadLetterDestinationOutputReference
 	StorageBlobDeadLetterDestinationInput() *EventgridEventSubscriptionStorageBlobDeadLetterDestination
 	StorageQueueEndpoint() EventgridEventSubscriptionStorageQueueEndpointOutputReference
@@ -229,9 +229,9 @@ type EventgridEventSubscription interface {
 	ResetDeliveryIdentity()
 	ResetDeliveryProperty()
 	ResetEventDeliverySchema()
-	ResetEventhubEndpointId()
+	ResetEventhubId()
 	ResetExpirationTimeUtc()
-	ResetHybridConnectionEndpointId()
+	ResetHybridConnectionId()
 	ResetId()
 	ResetIncludedEventTypes()
 	ResetLabels()
@@ -239,8 +239,8 @@ type EventgridEventSubscription interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRetryPolicy()
-	ResetServiceBusQueueEndpointId()
-	ResetServiceBusTopicEndpointId()
+	ResetServiceBusQueueId()
+	ResetServiceBusTopicId()
 	ResetStorageBlobDeadLetterDestination()
 	ResetStorageQueueEndpoint()
 	ResetSubjectFilter()
@@ -463,21 +463,21 @@ func (j *jsiiProxy_EventgridEventSubscription) EventDeliverySchemaInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) EventhubEndpointId() *string {
+func (j *jsiiProxy_EventgridEventSubscription) EventhubId() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"eventhubEndpointId",
+		"eventhubId",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) EventhubEndpointIdInput() *string {
+func (j *jsiiProxy_EventgridEventSubscription) EventhubIdInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"eventhubEndpointIdInput",
+		"eventhubIdInput",
 		&returns,
 	)
 	return returns
@@ -533,21 +533,21 @@ func (j *jsiiProxy_EventgridEventSubscription) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) HybridConnectionEndpointId() *string {
+func (j *jsiiProxy_EventgridEventSubscription) HybridConnectionId() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"hybridConnectionEndpointId",
+		"hybridConnectionId",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) HybridConnectionEndpointIdInput() *string {
+func (j *jsiiProxy_EventgridEventSubscription) HybridConnectionIdInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"hybridConnectionEndpointIdInput",
+		"hybridConnectionIdInput",
 		&returns,
 	)
 	return returns
@@ -723,41 +723,41 @@ func (j *jsiiProxy_EventgridEventSubscription) ScopeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) ServiceBusQueueEndpointId() *string {
+func (j *jsiiProxy_EventgridEventSubscription) ServiceBusQueueId() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"serviceBusQueueEndpointId",
+		"serviceBusQueueId",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) ServiceBusQueueEndpointIdInput() *string {
+func (j *jsiiProxy_EventgridEventSubscription) ServiceBusQueueIdInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"serviceBusQueueEndpointIdInput",
+		"serviceBusQueueIdInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) ServiceBusTopicEndpointId() *string {
+func (j *jsiiProxy_EventgridEventSubscription) ServiceBusTopicId() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"serviceBusTopicEndpointId",
+		"serviceBusTopicId",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) ServiceBusTopicEndpointIdInput() *string {
+func (j *jsiiProxy_EventgridEventSubscription) ServiceBusTopicIdInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"serviceBusTopicEndpointIdInput",
+		"serviceBusTopicIdInput",
 		&returns,
 	)
 	return returns
@@ -894,7 +894,7 @@ func (j *jsiiProxy_EventgridEventSubscription) WebhookEndpointInput() *Eventgrid
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
 func NewEventgridEventSubscription(scope constructs.Construct, id *string, config *EventgridEventSubscriptionConfig) EventgridEventSubscription {
 	_init_.Initialize()
 
@@ -912,7 +912,7 @@ func NewEventgridEventSubscription(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
 func NewEventgridEventSubscription_Override(e EventgridEventSubscription, scope constructs.Construct, id *string, config *EventgridEventSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -975,13 +975,13 @@ func (j *jsiiProxy_EventgridEventSubscription)SetEventDeliverySchema(val *string
 	)
 }
 
-func (j *jsiiProxy_EventgridEventSubscription)SetEventhubEndpointId(val *string) {
-	if err := j.validateSetEventhubEndpointIdParameters(val); err != nil {
+func (j *jsiiProxy_EventgridEventSubscription)SetEventhubId(val *string) {
+	if err := j.validateSetEventhubIdParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"eventhubEndpointId",
+		"eventhubId",
 		val,
 	)
 }
@@ -1005,13 +1005,13 @@ func (j *jsiiProxy_EventgridEventSubscription)SetForEach(val cdktn.ITerraformIte
 	)
 }
 
-func (j *jsiiProxy_EventgridEventSubscription)SetHybridConnectionEndpointId(val *string) {
-	if err := j.validateSetHybridConnectionEndpointIdParameters(val); err != nil {
+func (j *jsiiProxy_EventgridEventSubscription)SetHybridConnectionId(val *string) {
+	if err := j.validateSetHybridConnectionIdParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"hybridConnectionEndpointId",
+		"hybridConnectionId",
 		val,
 	)
 }
@@ -1101,24 +1101,24 @@ func (j *jsiiProxy_EventgridEventSubscription)SetScope(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EventgridEventSubscription)SetServiceBusQueueEndpointId(val *string) {
-	if err := j.validateSetServiceBusQueueEndpointIdParameters(val); err != nil {
+func (j *jsiiProxy_EventgridEventSubscription)SetServiceBusQueueId(val *string) {
+	if err := j.validateSetServiceBusQueueIdParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"serviceBusQueueEndpointId",
+		"serviceBusQueueId",
 		val,
 	)
 }
 
-func (j *jsiiProxy_EventgridEventSubscription)SetServiceBusTopicEndpointId(val *string) {
-	if err := j.validateSetServiceBusTopicEndpointIdParameters(val); err != nil {
+func (j *jsiiProxy_EventgridEventSubscription)SetServiceBusTopicId(val *string) {
+	if err := j.validateSetServiceBusTopicIdParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"serviceBusTopicEndpointId",
+		"serviceBusTopicId",
 		val,
 	)
 }
@@ -1680,10 +1680,10 @@ func (e *jsiiProxy_EventgridEventSubscription) ResetEventDeliverySchema() {
 	)
 }
 
-func (e *jsiiProxy_EventgridEventSubscription) ResetEventhubEndpointId() {
+func (e *jsiiProxy_EventgridEventSubscription) ResetEventhubId() {
 	_jsii_.InvokeVoid(
 		e,
-		"resetEventhubEndpointId",
+		"resetEventhubId",
 		nil, // no parameters
 	)
 }
@@ -1696,10 +1696,10 @@ func (e *jsiiProxy_EventgridEventSubscription) ResetExpirationTimeUtc() {
 	)
 }
 
-func (e *jsiiProxy_EventgridEventSubscription) ResetHybridConnectionEndpointId() {
+func (e *jsiiProxy_EventgridEventSubscription) ResetHybridConnectionId() {
 	_jsii_.InvokeVoid(
 		e,
-		"resetHybridConnectionEndpointId",
+		"resetHybridConnectionId",
 		nil, // no parameters
 	)
 }
@@ -1744,18 +1744,18 @@ func (e *jsiiProxy_EventgridEventSubscription) ResetRetryPolicy() {
 	)
 }
 
-func (e *jsiiProxy_EventgridEventSubscription) ResetServiceBusQueueEndpointId() {
+func (e *jsiiProxy_EventgridEventSubscription) ResetServiceBusQueueId() {
 	_jsii_.InvokeVoid(
 		e,
-		"resetServiceBusQueueEndpointId",
+		"resetServiceBusQueueId",
 		nil, // no parameters
 	)
 }
 
-func (e *jsiiProxy_EventgridEventSubscription) ResetServiceBusTopicEndpointId() {
+func (e *jsiiProxy_EventgridEventSubscription) ResetServiceBusTopicId() {
 	_jsii_.InvokeVoid(
 		e,
-		"resetServiceBusTopicEndpointId",
+		"resetServiceBusTopicId",
 		nil, // no parameters
 	)
 }

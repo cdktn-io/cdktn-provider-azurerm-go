@@ -5,14 +5,14 @@ package synapseworkspacekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/synapseworkspacekey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/synapseworkspacekey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_workspace_key azurerm_synapse_workspace_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_workspace_key azurerm_synapse_workspace_key}.
 type SynapseWorkspaceKey interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SynapseWorkspaceKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_workspace_key azurerm_synapse_workspace_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_workspace_key azurerm_synapse_workspace_key} Resource.
 func NewSynapseWorkspaceKey(scope constructs.Construct, id *string, config *SynapseWorkspaceKeyConfig) SynapseWorkspaceKey {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewSynapseWorkspaceKey(scope constructs.Construct, id *string, config *Syna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_workspace_key azurerm_synapse_workspace_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_workspace_key azurerm_synapse_workspace_key} Resource.
 func NewSynapseWorkspaceKey_Override(s SynapseWorkspaceKey, scope constructs.Construct, id *string, config *SynapseWorkspaceKeyConfig) {
 	_init_.Initialize()
 

@@ -101,6 +101,46 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputRe
 	return nil
 }
 
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetAutomaticOsUpgradeEnabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetAutomaticRollbackEnabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:
@@ -161,46 +201,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputRe
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetDisableAutomaticRollbackParameters(val interface{}) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-	switch val.(type) {
-	case *bool:
-		// ok
-	case bool:
-		// ok
-	case cdktn.IResolvable:
-		// ok
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) validateSetEnableAutomaticOsUpgradeParameters(val interface{}) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-	switch val.(type) {
-	case *bool:
-		// ok
-	case bool:
-		// ok
-	case cdktn.IResolvable:
-		// ok
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
-		}
 	}
 
 	return nil

@@ -5,17 +5,16 @@ package dataazurermapplicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermapplicationgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermapplicationgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/application_gateway azurerm_application_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/application_gateway azurerm_application_gateway}.
 type DataAzurermApplicationGateway interface {
 	cdktn.TerraformDataSource
-	AuthenticationCertificate() DataAzurermApplicationGatewayAuthenticationCertificateList
 	AutoscaleConfiguration() DataAzurermApplicationGatewayAutoscaleConfigurationList
 	Backend() DataAzurermApplicationGatewayBackendList
 	BackendAddressPool() DataAzurermApplicationGatewayBackendAddressPoolList
@@ -169,16 +168,6 @@ type DataAzurermApplicationGateway interface {
 // The jsii proxy struct for DataAzurermApplicationGateway
 type jsiiProxy_DataAzurermApplicationGateway struct {
 	internal.Type__cdktnTerraformDataSource
-}
-
-func (j *jsiiProxy_DataAzurermApplicationGateway) AuthenticationCertificate() DataAzurermApplicationGatewayAuthenticationCertificateList {
-	var returns DataAzurermApplicationGatewayAuthenticationCertificateList
-	_jsii_.Get(
-		j,
-		"authenticationCertificate",
-		&returns,
-	)
-	return returns
 }
 
 func (j *jsiiProxy_DataAzurermApplicationGateway) AutoscaleConfiguration() DataAzurermApplicationGatewayAutoscaleConfigurationList {
@@ -742,7 +731,7 @@ func (j *jsiiProxy_DataAzurermApplicationGateway) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
 func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, config *DataAzurermApplicationGatewayConfig) DataAzurermApplicationGateway {
 	_init_.Initialize()
 
@@ -760,7 +749,7 @@ func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
 func NewDataAzurermApplicationGateway_Override(d DataAzurermApplicationGateway, scope constructs.Construct, id *string, config *DataAzurermApplicationGatewayConfig) {
 	_init_.Initialize()
 

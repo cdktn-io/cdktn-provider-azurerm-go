@@ -159,7 +159,7 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetEventDelive
 	return nil
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetEventhubEndpointIdParameters(val *string) error {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetEventhubIdParameters(val *string) error {
 	return nil
 }
 
@@ -167,7 +167,7 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetExpirationT
 	return nil
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetHybridConnectionEndpointIdParameters(val *string) error {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetHybridConnectionIdParameters(val *string) error {
 	return nil
 }
 
@@ -199,11 +199,11 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetResourceGro
 	return nil
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetServiceBusQueueEndpointIdParameters(val *string) error {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetServiceBusQueueIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetServiceBusTopicEndpointIdParameters(val *string) error {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) validateSetServiceBusTopicIdParameters(val *string) error {
 	return nil
 }
 

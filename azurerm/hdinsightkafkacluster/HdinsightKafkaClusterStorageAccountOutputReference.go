@@ -5,9 +5,9 @@ package hdinsightkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/hdinsightkafkacluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/hdinsightkafkacluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,15 +35,15 @@ type HdinsightKafkaClusterStorageAccountOutputReference interface {
 	IsDefault() interface{}
 	SetIsDefault(val interface{})
 	IsDefaultInput() interface{}
+	StorageAccountId() *string
+	SetStorageAccountId(val *string)
+	StorageAccountIdInput() *string
 	StorageAccountKey() *string
 	SetStorageAccountKey(val *string)
 	StorageAccountKeyInput() *string
-	StorageContainerId() *string
-	SetStorageContainerId(val *string)
-	StorageContainerIdInput() *string
-	StorageResourceId() *string
-	SetStorageResourceId(val *string)
-	StorageResourceIdInput() *string
+	StorageContainerUrl() *string
+	SetStorageContainerUrl(val *string)
+	StorageContainerUrlInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -76,7 +76,7 @@ type HdinsightKafkaClusterStorageAccountOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetStorageResourceId()
+	ResetStorageAccountId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -162,6 +162,26 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) IsDefault
 	return returns
 }
 
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageAccountId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageAccountIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageAccountKey() *string {
 	var returns *string
 	_jsii_.Get(
@@ -182,41 +202,21 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageAc
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageContainerId() *string {
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageContainerUrl() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"storageContainerId",
+		"storageContainerUrl",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageContainerIdInput() *string {
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageContainerUrlInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"storageContainerIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageResourceId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) StorageResourceIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageResourceIdInput",
+		"storageContainerUrlInput",
 		&returns,
 	)
 	return returns
@@ -314,6 +314,17 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetIsDefau
 	)
 }
 
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetStorageAccountId(val *string) {
+	if err := j.validateSetStorageAccountIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageAccountId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetStorageAccountKey(val *string) {
 	if err := j.validateSetStorageAccountKeyParameters(val); err != nil {
 		panic(err)
@@ -325,24 +336,13 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetStorage
 	)
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetStorageContainerId(val *string) {
-	if err := j.validateSetStorageContainerIdParameters(val); err != nil {
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetStorageContainerUrl(val *string) {
+	if err := j.validateSetStorageContainerUrlParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"storageContainerId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetStorageResourceId(val *string) {
-	if err := j.validateSetStorageResourceIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"storageResourceId",
+		"storageContainerUrl",
 		val,
 	)
 }
@@ -555,10 +555,10 @@ func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) Interpola
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) ResetStorageResourceId() {
+func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) ResetStorageAccountId() {
 	_jsii_.InvokeVoid(
 		h,
-		"resetStorageResourceId",
+		"resetStorageAccountId",
 		nil, // no parameters
 	)
 }

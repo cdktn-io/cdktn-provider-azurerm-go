@@ -23,7 +23,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "enabledForDeployment", GoGetter: "EnabledForDeployment"},
 			_jsii_.MemberProperty{JsiiProperty: "enabledForDiskEncryption", GoGetter: "EnabledForDiskEncryption"},
 			_jsii_.MemberProperty{JsiiProperty: "enabledForTemplateDeployment", GoGetter: "EnabledForTemplateDeployment"},
-			_jsii_.MemberProperty{JsiiProperty: "enableRbacAuthorization", GoGetter: "EnableRbacAuthorization"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},

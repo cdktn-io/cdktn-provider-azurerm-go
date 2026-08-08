@@ -5,14 +5,14 @@ package systemcentervirtualmachinemanagervirtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/systemcentervirtualmachinemanagervirtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/systemcentervirtualmachinemanagervirtualnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network}.
 type SystemCenterVirtualMachineManagerVirtualNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualNetwork) TimeoutsInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualNetwork(scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualNetworkConfig) SystemCenterVirtualMachineManagerVirtualNetwork {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewSystemCenterVirtualMachineManagerVirtualNetwork(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualNetwork_Override(s SystemCenterVirtualMachineManagerVirtualNetwork, scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualNetworkConfig) {
 	_init_.Initialize()
 

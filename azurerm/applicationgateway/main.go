@@ -16,8 +16,6 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "authenticationCertificate", GoGetter: "AuthenticationCertificate"},
-			_jsii_.MemberProperty{JsiiProperty: "authenticationCertificateInput", GoGetter: "AuthenticationCertificateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "autoscaleConfiguration", GoGetter: "AutoscaleConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "autoscaleConfigurationInput", GoGetter: "AutoscaleConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "backend", GoGetter: "Backend"},
@@ -33,8 +31,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "customErrorConfiguration", GoGetter: "CustomErrorConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "customErrorConfigurationInput", GoGetter: "CustomErrorConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "enableHttp2", GoGetter: "EnableHttp2"},
-			_jsii_.MemberProperty{JsiiProperty: "enableHttp2Input", GoGetter: "EnableHttp2Input"},
 			_jsii_.MemberProperty{JsiiProperty: "fipsEnabled", GoGetter: "FipsEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "fipsEnabledInput", GoGetter: "FipsEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "firewallPolicyId", GoGetter: "FirewallPolicyId"},
@@ -92,7 +88,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "probeInput", GoGetter: "ProbeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
-			_jsii_.MemberMethod{JsiiMethod: "putAuthenticationCertificate", GoMethod: "PutAuthenticationCertificate"},
 			_jsii_.MemberMethod{JsiiMethod: "putAutoscaleConfiguration", GoMethod: "PutAutoscaleConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putBackend", GoMethod: "PutBackend"},
 			_jsii_.MemberMethod{JsiiMethod: "putBackendAddressPool", GoMethod: "PutBackendAddressPool"},
@@ -126,12 +121,10 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "requestRoutingRule", GoGetter: "RequestRoutingRule"},
 			_jsii_.MemberProperty{JsiiProperty: "requestRoutingRuleInput", GoGetter: "RequestRoutingRuleInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetAuthenticationCertificate", GoMethod: "ResetAuthenticationCertificate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoscaleConfiguration", GoMethod: "ResetAutoscaleConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBackend", GoMethod: "ResetBackend"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBackendHttpSettings", GoMethod: "ResetBackendHttpSettings"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomErrorConfiguration", GoMethod: "ResetCustomErrorConfiguration"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEnableHttp2", GoMethod: "ResetEnableHttp2"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFipsEnabled", GoMethod: "ResetFipsEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFirewallPolicyId", GoMethod: "ResetFirewallPolicyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetForceFirewallPolicyAssociation", GoMethod: "ResetForceFirewallPolicyAssociation"},
@@ -200,69 +193,6 @@ func init() {
 		func() interface{} {
 			j := jsiiProxy_ApplicationGateway{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificate",
-		reflect.TypeOf((*ApplicationGatewayAuthenticationCertificate)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificateList",
-		reflect.TypeOf((*ApplicationGatewayAuthenticationCertificateList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_ApplicationGatewayAuthenticationCertificateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificateOutputReference",
-		reflect.TypeOf((*ApplicationGatewayAuthenticationCertificateOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "data", GoGetter: "Data"},
-			_jsii_.MemberProperty{JsiiProperty: "dataInput", GoGetter: "DataInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_ApplicationGatewayAuthenticationCertificateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -383,67 +313,6 @@ func init() {
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificate",
-		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsAuthenticationCertificate)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList",
-		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference",
-		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDraining",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsConnectionDraining)(nil)).Elem(),
 	)
@@ -511,8 +380,6 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "affinityCookieName", GoGetter: "AffinityCookieName"},
 			_jsii_.MemberProperty{JsiiProperty: "affinityCookieNameInput", GoGetter: "AffinityCookieNameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "authenticationCertificate", GoGetter: "AuthenticationCertificate"},
-			_jsii_.MemberProperty{JsiiProperty: "authenticationCertificateInput", GoGetter: "AuthenticationCertificateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "certificateChainValidationEnabled", GoGetter: "CertificateChainValidationEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "certificateChainValidationEnabledInput", GoGetter: "CertificateChainValidationEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -554,12 +421,10 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "probeNameInput", GoGetter: "ProbeNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "protocol", GoGetter: "Protocol"},
 			_jsii_.MemberProperty{JsiiProperty: "protocolInput", GoGetter: "ProtocolInput"},
-			_jsii_.MemberMethod{JsiiMethod: "putAuthenticationCertificate", GoMethod: "PutAuthenticationCertificate"},
 			_jsii_.MemberMethod{JsiiMethod: "putConnectionDraining", GoMethod: "PutConnectionDraining"},
 			_jsii_.MemberProperty{JsiiProperty: "requestTimeout", GoGetter: "RequestTimeout"},
 			_jsii_.MemberProperty{JsiiProperty: "requestTimeoutInput", GoGetter: "RequestTimeoutInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAffinityCookieName", GoMethod: "ResetAffinityCookieName"},
-			_jsii_.MemberMethod{JsiiMethod: "resetAuthenticationCertificate", GoMethod: "ResetAuthenticationCertificate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCertificateChainValidationEnabled", GoMethod: "ResetCertificateChainValidationEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConnectionDraining", GoMethod: "ResetConnectionDraining"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDedicatedBackendConnectionEnabled", GoMethod: "ResetDedicatedBackendConnectionEnabled"},
@@ -2418,7 +2283,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTrustedClientCertificateNames", GoMethod: "ResetTrustedClientCertificateNames"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVerifyClientCertificateIssuerDn", GoMethod: "ResetVerifyClientCertificateIssuerDn"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVerifyClientCertificateRevocation", GoMethod: "ResetVerifyClientCertificateRevocation"},
-			_jsii_.MemberMethod{JsiiMethod: "resetVerifyClientCertIssuerDn", GoMethod: "ResetVerifyClientCertIssuerDn"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "sslPolicy", GoGetter: "SslPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "sslPolicyInput", GoGetter: "SslPolicyInput"},
@@ -2431,8 +2295,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verifyClientCertificateIssuerDnInput", GoGetter: "VerifyClientCertificateIssuerDnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "verifyClientCertificateRevocation", GoGetter: "VerifyClientCertificateRevocation"},
 			_jsii_.MemberProperty{JsiiProperty: "verifyClientCertificateRevocationInput", GoGetter: "VerifyClientCertificateRevocationInput"},
-			_jsii_.MemberProperty{JsiiProperty: "verifyClientCertIssuerDn", GoGetter: "VerifyClientCertIssuerDn"},
-			_jsii_.MemberProperty{JsiiProperty: "verifyClientCertIssuerDnInput", GoGetter: "VerifyClientCertIssuerDnInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationGatewaySslProfileOutputReference{}

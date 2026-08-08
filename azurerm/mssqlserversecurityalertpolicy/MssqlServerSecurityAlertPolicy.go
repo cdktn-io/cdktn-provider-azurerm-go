@@ -5,14 +5,14 @@ package mssqlserversecurityalertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mssqlserversecurityalertpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mssqlserversecurityalertpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy}.
 type MssqlServerSecurityAlertPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -34,9 +34,9 @@ type MssqlServerSecurityAlertPolicy interface {
 	DisabledAlerts() *[]*string
 	SetDisabledAlerts(val *[]*string)
 	DisabledAlertsInput() *[]*string
-	EmailAccountAdmins() interface{}
-	SetEmailAccountAdmins(val interface{})
-	EmailAccountAdminsInput() interface{}
+	EmailAccountAdminsEnabled() interface{}
+	SetEmailAccountAdminsEnabled(val interface{})
+	EmailAccountAdminsEnabledInput() interface{}
 	EmailAddresses() *[]*string
 	SetEmailAddresses(val *[]*string)
 	EmailAddressesInput() *[]*string
@@ -187,7 +187,7 @@ type MssqlServerSecurityAlertPolicy interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDisabledAlerts()
-	ResetEmailAccountAdmins()
+	ResetEmailAccountAdminsEnabled()
 	ResetEmailAddresses()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -294,21 +294,21 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) DisabledAlertsInput() *[]*str
 	return returns
 }
 
-func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) EmailAccountAdmins() interface{} {
+func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) EmailAccountAdminsEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"emailAccountAdmins",
+		"emailAccountAdminsEnabled",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) EmailAccountAdminsInput() interface{} {
+func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) EmailAccountAdminsEnabledInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"emailAccountAdminsInput",
+		"emailAccountAdminsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -605,7 +605,7 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
 func NewMssqlServerSecurityAlertPolicy(scope constructs.Construct, id *string, config *MssqlServerSecurityAlertPolicyConfig) MssqlServerSecurityAlertPolicy {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewMssqlServerSecurityAlertPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
 func NewMssqlServerSecurityAlertPolicy_Override(m MssqlServerSecurityAlertPolicy, scope constructs.Construct, id *string, config *MssqlServerSecurityAlertPolicyConfig) {
 	_init_.Initialize()
 
@@ -675,13 +675,13 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicy)SetDisabledAlerts(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_MssqlServerSecurityAlertPolicy)SetEmailAccountAdmins(val interface{}) {
-	if err := j.validateSetEmailAccountAdminsParameters(val); err != nil {
+func (j *jsiiProxy_MssqlServerSecurityAlertPolicy)SetEmailAccountAdminsEnabled(val interface{}) {
+	if err := j.validateSetEmailAccountAdminsEnabledParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"emailAccountAdmins",
+		"emailAccountAdminsEnabled",
 		val,
 	)
 }
@@ -1211,10 +1211,10 @@ func (m *jsiiProxy_MssqlServerSecurityAlertPolicy) ResetDisabledAlerts() {
 	)
 }
 
-func (m *jsiiProxy_MssqlServerSecurityAlertPolicy) ResetEmailAccountAdmins() {
+func (m *jsiiProxy_MssqlServerSecurityAlertPolicy) ResetEmailAccountAdminsEnabled() {
 	_jsii_.InvokeVoid(
 		m,
-		"resetEmailAccountAdmins",
+		"resetEmailAccountAdminsEnabled",
 		nil, // no parameters
 	)
 }

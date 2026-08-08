@@ -87,10 +87,6 @@ func (k *jsiiProxy_KustoCluster) validatePutLanguageExtensionParameters(value in
 	return nil
 }
 
-func (k *jsiiProxy_KustoCluster) validatePutLanguageExtensionsParameters(value interface{}) error {
-	return nil
-}
-
 func (k *jsiiProxy_KustoCluster) validatePutOptimizedAutoScaleParameters(value *KustoClusterOptimizedAutoScale) error {
 	return nil
 }
@@ -100,10 +96,6 @@ func (k *jsiiProxy_KustoCluster) validatePutSkuParameters(value *KustoClusterSku
 }
 
 func (k *jsiiProxy_KustoCluster) validatePutTimeoutsParameters(value *KustoClusterTimeouts) error {
-	return nil
-}
-
-func (k *jsiiProxy_KustoCluster) validatePutVirtualNetworkConfigurationParameters(value *KustoClusterVirtualNetworkConfiguration) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package networkconnectionmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/networkconnectionmonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/networkconnectionmonitor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_connection_monitor azurerm_network_connection_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor azurerm_network_connection_monitor}.
 type NetworkConnectionMonitor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -602,7 +602,7 @@ func (j *jsiiProxy_NetworkConnectionMonitor) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_connection_monitor azurerm_network_connection_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor azurerm_network_connection_monitor} Resource.
 func NewNetworkConnectionMonitor(scope constructs.Construct, id *string, config *NetworkConnectionMonitorConfig) NetworkConnectionMonitor {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewNetworkConnectionMonitor(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_connection_monitor azurerm_network_connection_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor azurerm_network_connection_monitor} Resource.
 func NewNetworkConnectionMonitor_Override(n NetworkConnectionMonitor, scope constructs.Construct, id *string, config *NetworkConnectionMonitorConfig) {
 	_init_.Initialize()
 

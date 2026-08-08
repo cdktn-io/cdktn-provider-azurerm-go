@@ -5,14 +5,14 @@ package staticwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/staticwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/staticwebapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_web_app azurerm_static_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/static_web_app azurerm_static_web_app}.
 type StaticWebApp interface {
 	cdktn.TerraformResource
 	ApiKey() *string
@@ -771,7 +771,7 @@ func (j *jsiiProxy_StaticWebApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_web_app azurerm_static_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/static_web_app azurerm_static_web_app} Resource.
 func NewStaticWebApp(scope constructs.Construct, id *string, config *StaticWebAppConfig) StaticWebApp {
 	_init_.Initialize()
 
@@ -789,7 +789,7 @@ func NewStaticWebApp(scope constructs.Construct, id *string, config *StaticWebAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_web_app azurerm_static_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/static_web_app azurerm_static_web_app} Resource.
 func NewStaticWebApp_Override(s StaticWebApp, scope constructs.Construct, id *string, config *StaticWebAppConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package containerregistrytask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/containerregistrytask/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/containerregistrytask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task azurerm_container_registry_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task azurerm_container_registry_task}.
 type ContainerRegistryTask interface {
 	cdktn.TerraformResource
 	AgentPoolName() *string
@@ -822,7 +822,7 @@ func (j *jsiiProxy_ContainerRegistryTask) TimerTriggerInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task azurerm_container_registry_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task azurerm_container_registry_task} Resource.
 func NewContainerRegistryTask(scope constructs.Construct, id *string, config *ContainerRegistryTaskConfig) ContainerRegistryTask {
 	_init_.Initialize()
 
@@ -840,7 +840,7 @@ func NewContainerRegistryTask(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task azurerm_container_registry_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task azurerm_container_registry_task} Resource.
 func NewContainerRegistryTask_Override(c ContainerRegistryTask, scope constructs.Construct, id *string, config *ContainerRegistryTaskConfig) {
 	_init_.Initialize()
 

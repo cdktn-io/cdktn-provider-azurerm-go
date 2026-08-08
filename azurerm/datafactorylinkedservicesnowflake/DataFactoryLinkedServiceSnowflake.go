@@ -5,14 +5,14 @@ package datafactorylinkedservicesnowflake
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactorylinkedservicesnowflake/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactorylinkedservicesnowflake/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_snowflake azurerm_data_factory_linked_service_snowflake}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_snowflake azurerm_data_factory_linked_service_snowflake}.
 type DataFactoryLinkedServiceSnowflake interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSnowflake) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_snowflake azurerm_data_factory_linked_service_snowflake} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_snowflake azurerm_data_factory_linked_service_snowflake} Resource.
 func NewDataFactoryLinkedServiceSnowflake(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceSnowflakeConfig) DataFactoryLinkedServiceSnowflake {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewDataFactoryLinkedServiceSnowflake(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_linked_service_snowflake azurerm_data_factory_linked_service_snowflake} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_snowflake azurerm_data_factory_linked_service_snowflake} Resource.
 func NewDataFactoryLinkedServiceSnowflake_Override(d DataFactoryLinkedServiceSnowflake, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceSnowflakeConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package cdnfrontdoorcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cdnfrontdoorcustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cdnfrontdoorcustomdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,9 +40,6 @@ type CdnFrontdoorCustomDomainTlsOutputReference interface {
 	Fqn() *string
 	InternalValue() *CdnFrontdoorCustomDomainTls
 	SetInternalValue(val *CdnFrontdoorCustomDomainTls)
-	MinimumTlsVersion() *string
-	SetMinimumTlsVersion(val *string)
-	MinimumTlsVersionInput() *string
 	MinimumVersion() *string
 	SetMinimumVersion(val *string)
 	MinimumVersionInput() *string
@@ -82,7 +79,6 @@ type CdnFrontdoorCustomDomainTlsOutputReference interface {
 	ResetCdnFrontdoorSecretId()
 	ResetCertificateType()
 	ResetCipherSuite()
-	ResetMinimumTlsVersion()
 	ResetMinimumVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -209,26 +205,6 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) InternalValue() *
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) MinimumTlsVersion() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"minimumTlsVersion",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) MinimumTlsVersionInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"minimumTlsVersionInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) MinimumVersion() *string {
 	var returns *string
 	_jsii_.Get(
@@ -348,17 +324,6 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference)SetInternalValue(v
 	_jsii_.Set(
 		j,
 		"internalValue",
-		val,
-	)
-}
-
-func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference)SetMinimumTlsVersion(val *string) {
-	if err := j.validateSetMinimumTlsVersionParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"minimumTlsVersion",
 		val,
 	)
 }
@@ -613,14 +578,6 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) ResetCipherSuite(
 	_jsii_.InvokeVoid(
 		c,
 		"resetCipherSuite",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) ResetMinimumTlsVersion() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetMinimumTlsVersion",
 		nil, // no parameters
 	)
 }

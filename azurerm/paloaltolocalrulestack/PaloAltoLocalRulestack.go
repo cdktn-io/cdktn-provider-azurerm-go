@@ -5,14 +5,14 @@ package paloaltolocalrulestack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/paloaltolocalrulestack/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/paloaltolocalrulestack/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_local_rulestack azurerm_palo_alto_local_rulestack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_local_rulestack azurerm_palo_alto_local_rulestack}.
 type PaloAltoLocalRulestack interface {
 	cdktn.TerraformResource
 	AntiSpywareProfile() *string
@@ -629,7 +629,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestack) VulnerabilityProfileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_local_rulestack azurerm_palo_alto_local_rulestack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_local_rulestack azurerm_palo_alto_local_rulestack} Resource.
 func NewPaloAltoLocalRulestack(scope constructs.Construct, id *string, config *PaloAltoLocalRulestackConfig) PaloAltoLocalRulestack {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewPaloAltoLocalRulestack(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_local_rulestack azurerm_palo_alto_local_rulestack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_local_rulestack azurerm_palo_alto_local_rulestack} Resource.
 func NewPaloAltoLocalRulestack_Override(p PaloAltoLocalRulestack, scope constructs.Construct, id *string, config *PaloAltoLocalRulestackConfig) {
 	_init_.Initialize()
 

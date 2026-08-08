@@ -5,14 +5,14 @@ package nginxdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/nginxdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/nginxdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment azurerm_nginx_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment azurerm_nginx_deployment}.
 type NginxDeployment interface {
 	cdktn.TerraformResource
 	AutomaticUpgradeChannel() *string
@@ -40,9 +40,6 @@ type NginxDeployment interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	DiagnoseSupportEnabled() interface{}
-	SetDiagnoseSupportEnabled(val interface{})
-	DiagnoseSupportEnabledInput() interface{}
 	Email() *string
 	SetEmail(val *string)
 	EmailInput() *string
@@ -71,11 +68,6 @@ type NginxDeployment interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
-	LoggingStorageAccount() NginxDeploymentLoggingStorageAccountList
-	LoggingStorageAccountInput() interface{}
-	ManagedResourceGroup() *string
-	SetManagedResourceGroup(val *string)
-	ManagedResourceGroupInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -196,7 +188,6 @@ type NginxDeployment interface {
 	PutFrontendPrivate(value interface{})
 	PutFrontendPublic(value *NginxDeploymentFrontendPublic)
 	PutIdentity(value *NginxDeploymentIdentity)
-	PutLoggingStorageAccount(value interface{})
 	PutNetworkInterface(value interface{})
 	PutTimeouts(value *NginxDeploymentTimeouts)
 	PutWebApplicationFirewall(value *NginxDeploymentWebApplicationFirewall)
@@ -216,14 +207,11 @@ type NginxDeployment interface {
 	ResetAutomaticUpgradeChannel()
 	ResetAutoScaleProfile()
 	ResetCapacity()
-	ResetDiagnoseSupportEnabled()
 	ResetEmail()
 	ResetFrontendPrivate()
 	ResetFrontendPublic()
 	ResetId()
 	ResetIdentity()
-	ResetLoggingStorageAccount()
-	ResetManagedResourceGroup()
 	ResetNetworkInterface()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -373,26 +361,6 @@ func (j *jsiiProxy_NginxDeployment) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NginxDeployment) DiagnoseSupportEnabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"diagnoseSupportEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NginxDeployment) DiagnoseSupportEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"diagnoseSupportEnabledInput",
 		&returns,
 	)
 	return returns
@@ -563,46 +531,6 @@ func (j *jsiiProxy_NginxDeployment) LocationInput() *string {
 	_jsii_.Get(
 		j,
 		"locationInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NginxDeployment) LoggingStorageAccount() NginxDeploymentLoggingStorageAccountList {
-	var returns NginxDeploymentLoggingStorageAccountList
-	_jsii_.Get(
-		j,
-		"loggingStorageAccount",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NginxDeployment) LoggingStorageAccountInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"loggingStorageAccountInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NginxDeployment) ManagedResourceGroup() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedResourceGroup",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NginxDeployment) ManagedResourceGroupInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedResourceGroupInput",
 		&returns,
 	)
 	return returns
@@ -829,7 +757,7 @@ func (j *jsiiProxy_NginxDeployment) WebApplicationFirewallInput() *NginxDeployme
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
 func NewNginxDeployment(scope constructs.Construct, id *string, config *NginxDeploymentConfig) NginxDeployment {
 	_init_.Initialize()
 
@@ -847,7 +775,7 @@ func NewNginxDeployment(scope constructs.Construct, id *string, config *NginxDep
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
 func NewNginxDeployment_Override(n NginxDeployment, scope constructs.Construct, id *string, config *NginxDeploymentConfig) {
 	_init_.Initialize()
 
@@ -910,17 +838,6 @@ func (j *jsiiProxy_NginxDeployment)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_NginxDeployment)SetDiagnoseSupportEnabled(val interface{}) {
-	if err := j.validateSetDiagnoseSupportEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"diagnoseSupportEnabled",
-		val,
-	)
-}
-
 func (j *jsiiProxy_NginxDeployment)SetEmail(val *string) {
 	if err := j.validateSetEmailParameters(val); err != nil {
 		panic(err)
@@ -969,17 +886,6 @@ func (j *jsiiProxy_NginxDeployment)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NginxDeployment)SetManagedResourceGroup(val *string) {
-	if err := j.validateSetManagedResourceGroupParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"managedResourceGroup",
 		val,
 	)
 }
@@ -1460,17 +1366,6 @@ func (n *jsiiProxy_NginxDeployment) PutIdentity(value *NginxDeploymentIdentity) 
 	)
 }
 
-func (n *jsiiProxy_NginxDeployment) PutLoggingStorageAccount(value interface{}) {
-	if err := n.validatePutLoggingStorageAccountParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putLoggingStorageAccount",
-		[]interface{}{value},
-	)
-}
-
 func (n *jsiiProxy_NginxDeployment) PutNetworkInterface(value interface{}) {
 	if err := n.validatePutNetworkInterfaceParameters(value); err != nil {
 		panic(err)
@@ -1539,14 +1434,6 @@ func (n *jsiiProxy_NginxDeployment) ResetCapacity() {
 	)
 }
 
-func (n *jsiiProxy_NginxDeployment) ResetDiagnoseSupportEnabled() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetDiagnoseSupportEnabled",
-		nil, // no parameters
-	)
-}
-
 func (n *jsiiProxy_NginxDeployment) ResetEmail() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1583,22 +1470,6 @@ func (n *jsiiProxy_NginxDeployment) ResetIdentity() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetIdentity",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NginxDeployment) ResetLoggingStorageAccount() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetLoggingStorageAccount",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NginxDeployment) ResetManagedResourceGroup() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetManagedResourceGroup",
 		nil, // no parameters
 	)
 }

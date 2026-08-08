@@ -5,14 +5,20 @@ package windowsvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/windowsvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/windowsvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference interface {
 	cdktn.ComplexObject
+	AutomaticOsUpgradeEnabled() interface{}
+	SetAutomaticOsUpgradeEnabled(val interface{})
+	AutomaticOsUpgradeEnabledInput() interface{}
+	AutomaticRollbackEnabled() interface{}
+	SetAutomaticRollbackEnabled(val interface{})
+	AutomaticRollbackEnabledInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,12 +34,6 @@ type WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference interf
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	DisableAutomaticRollback() interface{}
-	SetDisableAutomaticRollback(val interface{})
-	DisableAutomaticRollbackInput() interface{}
-	EnableAutomaticOsUpgrade() interface{}
-	SetEnableAutomaticOsUpgrade(val interface{})
-	EnableAutomaticOsUpgradeInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicy
@@ -85,6 +85,46 @@ type jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputRefere
 	internal.Type__cdktnComplexObject
 }
 
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) AutomaticOsUpgradeEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticOsUpgradeEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) AutomaticOsUpgradeEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticOsUpgradeEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) AutomaticRollbackEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticRollbackEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) AutomaticRollbackEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticRollbackEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -110,46 +150,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputRe
 	_jsii_.Get(
 		j,
 		"creationStack",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) DisableAutomaticRollback() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"disableAutomaticRollback",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) DisableAutomaticRollbackInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"disableAutomaticRollbackInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) EnableAutomaticOsUpgrade() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAutomaticOsUpgrade",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference) EnableAutomaticOsUpgradeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAutomaticOsUpgradeInput",
 		&returns,
 	)
 	return returns
@@ -223,6 +223,28 @@ func NewWindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference_Ove
 	)
 }
 
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference)SetAutomaticOsUpgradeEnabled(val interface{}) {
+	if err := j.validateSetAutomaticOsUpgradeEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"automaticOsUpgradeEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference)SetAutomaticRollbackEnabled(val interface{}) {
+	if err := j.validateSetAutomaticRollbackEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"automaticRollbackEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -241,28 +263,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputRe
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
-		val,
-	)
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference)SetDisableAutomaticRollback(val interface{}) {
-	if err := j.validateSetDisableAutomaticRollbackParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"disableAutomaticRollback",
-		val,
-	)
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicyOutputReference)SetEnableAutomaticOsUpgrade(val interface{}) {
-	if err := j.validateSetEnableAutomaticOsUpgradeParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableAutomaticOsUpgrade",
 		val,
 	)
 }

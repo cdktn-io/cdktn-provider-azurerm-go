@@ -93,22 +93,22 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateInterpolat
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutClientPortConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutClientPortParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsClientPortCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsClientPortCondition)
+	case *[]*CdnFrontdoorRuleConditionsClientPort:
+		value := value.(*[]*CdnFrontdoorRuleConditionsClientPort)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsClientPortCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsClientPortCondition)
+	case []*CdnFrontdoorRuleConditionsClientPort:
+		value_ := value.([]*CdnFrontdoorRuleConditionsClientPort)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -117,29 +117,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutClientP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsClientPortCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsClientPort; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutCookiesConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutDeviceTypeParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsCookiesCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsCookiesCondition)
+	case *[]*CdnFrontdoorRuleConditionsDeviceType:
+		value := value.(*[]*CdnFrontdoorRuleConditionsDeviceType)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsCookiesCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsCookiesCondition)
+	case []*CdnFrontdoorRuleConditionsDeviceType:
+		value_ := value.([]*CdnFrontdoorRuleConditionsDeviceType)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -148,29 +148,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutCookies
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsCookiesCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsDeviceType; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHostNameConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHostNameParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsHostNameCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsHostNameCondition)
+	case *[]*CdnFrontdoorRuleConditionsHostName:
+		value := value.(*[]*CdnFrontdoorRuleConditionsHostName)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsHostNameCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsHostNameCondition)
+	case []*CdnFrontdoorRuleConditionsHostName:
+		value_ := value.([]*CdnFrontdoorRuleConditionsHostName)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -179,29 +179,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHostNam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsHostNameCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsHostName; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHttpVersionConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHttpVersionParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsHttpVersionCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsHttpVersionCondition)
+	case *[]*CdnFrontdoorRuleConditionsHttpVersion:
+		value := value.(*[]*CdnFrontdoorRuleConditionsHttpVersion)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsHttpVersionCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsHttpVersionCondition)
+	case []*CdnFrontdoorRuleConditionsHttpVersion:
+		value_ := value.([]*CdnFrontdoorRuleConditionsHttpVersion)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -210,29 +210,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHttpVer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsHttpVersionCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsHttpVersion; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutIsDeviceConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutPostArgumentParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsIsDeviceCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsIsDeviceCondition)
+	case *[]*CdnFrontdoorRuleConditionsPostArgument:
+		value := value.(*[]*CdnFrontdoorRuleConditionsPostArgument)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsIsDeviceCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsIsDeviceCondition)
+	case []*CdnFrontdoorRuleConditionsPostArgument:
+		value_ := value.([]*CdnFrontdoorRuleConditionsPostArgument)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -241,29 +241,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutIsDevic
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsIsDeviceCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsPostArgument; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutPostArgsConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutQueryStringParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsPostArgsCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsPostArgsCondition)
+	case *[]*CdnFrontdoorRuleConditionsQueryString:
+		value := value.(*[]*CdnFrontdoorRuleConditionsQueryString)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsPostArgsCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsPostArgsCondition)
+	case []*CdnFrontdoorRuleConditionsQueryString:
+		value_ := value.([]*CdnFrontdoorRuleConditionsQueryString)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -272,29 +272,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutPostArg
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsPostArgsCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsQueryString; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutQueryStringConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRemoteAddressParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsQueryStringCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsQueryStringCondition)
+	case *[]*CdnFrontdoorRuleConditionsRemoteAddress:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRemoteAddress)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsQueryStringCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsQueryStringCondition)
+	case []*CdnFrontdoorRuleConditionsRemoteAddress:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRemoteAddress)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -303,29 +303,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutQuerySt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsQueryStringCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRemoteAddress; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRemoteAddressConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestBodyParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsRemoteAddressCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsRemoteAddressCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestBody:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestBody)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsRemoteAddressCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsRemoteAddressCondition)
+	case []*CdnFrontdoorRuleConditionsRequestBody:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestBody)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -334,29 +334,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRemoteA
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRemoteAddressCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestBody; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestBodyConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestCookiesParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsRequestBodyCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsRequestBodyCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestCookies:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestCookies)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsRequestBodyCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsRequestBodyCondition)
+	case []*CdnFrontdoorRuleConditionsRequestCookies:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestCookies)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -365,29 +365,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestBodyCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestCookies; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestHeaderConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestFileExtensionParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsRequestHeaderCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsRequestHeaderCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestFileExtension:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestFileExtension)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsRequestHeaderCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsRequestHeaderCondition)
+	case []*CdnFrontdoorRuleConditionsRequestFileExtension:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestFileExtension)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -396,29 +396,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestHeaderCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestFileExtension; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestMethodConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestFilenameParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsRequestMethodCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsRequestMethodCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestFilename:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestFilename)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsRequestMethodCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsRequestMethodCondition)
+	case []*CdnFrontdoorRuleConditionsRequestFilename:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestFilename)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -427,29 +427,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestMethodCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestFilename; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestSchemeConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestHeaderParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsRequestSchemeCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsRequestSchemeCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestHeader:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestHeader)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsRequestSchemeCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsRequestSchemeCondition)
+	case []*CdnFrontdoorRuleConditionsRequestHeader:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestHeader)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -458,29 +458,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestSchemeCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestHeader; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestUriConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestMethodParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsRequestUriCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsRequestUriCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestMethod:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestMethod)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsRequestUriCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsRequestUriCondition)
+	case []*CdnFrontdoorRuleConditionsRequestMethod:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestMethod)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -489,29 +489,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestUriCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestMethod; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutServerPortConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestPathParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsServerPortCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsServerPortCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestPath:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestPath)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsServerPortCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsServerPortCondition)
+	case []*CdnFrontdoorRuleConditionsRequestPath:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestPath)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -520,29 +520,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutServerP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsServerPortCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestPath; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSocketAddressConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestSchemeParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsSocketAddressCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsSocketAddressCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestScheme:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestScheme)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsSocketAddressCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsSocketAddressCondition)
+	case []*CdnFrontdoorRuleConditionsRequestScheme:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestScheme)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -551,29 +551,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSocketA
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsSocketAddressCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestScheme; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSslProtocolConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequestUrlParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsSslProtocolCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsSslProtocolCondition)
+	case *[]*CdnFrontdoorRuleConditionsRequestUrl:
+		value := value.(*[]*CdnFrontdoorRuleConditionsRequestUrl)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsSslProtocolCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsSslProtocolCondition)
+	case []*CdnFrontdoorRuleConditionsRequestUrl:
+		value_ := value.([]*CdnFrontdoorRuleConditionsRequestUrl)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -582,29 +582,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSslProt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsSslProtocolCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestUrl; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFileExtensionConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutServerPortParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsUrlFileExtensionCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsUrlFileExtensionCondition)
+	case *[]*CdnFrontdoorRuleConditionsServerPort:
+		value := value.(*[]*CdnFrontdoorRuleConditionsServerPort)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsUrlFileExtensionCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsUrlFileExtensionCondition)
+	case []*CdnFrontdoorRuleConditionsServerPort:
+		value_ := value.([]*CdnFrontdoorRuleConditionsServerPort)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -613,29 +613,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFile
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlFileExtensionCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsServerPort; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFilenameConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSocketAddressParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsUrlFilenameCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsUrlFilenameCondition)
+	case *[]*CdnFrontdoorRuleConditionsSocketAddress:
+		value := value.(*[]*CdnFrontdoorRuleConditionsSocketAddress)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsUrlFilenameCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsUrlFilenameCondition)
+	case []*CdnFrontdoorRuleConditionsSocketAddress:
+		value_ := value.([]*CdnFrontdoorRuleConditionsSocketAddress)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -644,29 +644,29 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFile
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlFilenameCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsSocketAddress; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlPathConditionParameters(value interface{}) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSslProtocolParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*CdnFrontdoorRuleConditionsUrlPathCondition:
-		value := value.(*[]*CdnFrontdoorRuleConditionsUrlPathCondition)
+	case *[]*CdnFrontdoorRuleConditionsSslProtocol:
+		value := value.(*[]*CdnFrontdoorRuleConditionsSslProtocol)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*CdnFrontdoorRuleConditionsUrlPathCondition:
-		value_ := value.([]*CdnFrontdoorRuleConditionsUrlPathCondition)
+	case []*CdnFrontdoorRuleConditionsSslProtocol:
+		value_ := value.([]*CdnFrontdoorRuleConditionsSslProtocol)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -675,7 +675,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlPath
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlPathCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsSslProtocol; received %#v (a %T)", value, value)
 		}
 	}
 

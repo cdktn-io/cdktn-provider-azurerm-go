@@ -5,14 +5,14 @@ package kustocluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/kustocluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/kustocluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster azurerm_kusto_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_cluster azurerm_kusto_cluster}.
 type KustoCluster interface {
 	cdktn.TerraformResource
 	AllowedFqdns() *[]*string
@@ -62,8 +62,6 @@ type KustoCluster interface {
 	IdInput() *string
 	LanguageExtension() KustoClusterLanguageExtensionList
 	LanguageExtensionInput() interface{}
-	LanguageExtensions() KustoClusterLanguageExtensionsList
-	LanguageExtensionsInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -123,8 +121,6 @@ type KustoCluster interface {
 	SetTrustedExternalTenants(val *[]*string)
 	TrustedExternalTenantsInput() *[]*string
 	Uri() *string
-	VirtualNetworkConfiguration() KustoClusterVirtualNetworkConfigurationOutputReference
-	VirtualNetworkConfigurationInput() *KustoClusterVirtualNetworkConfiguration
 	Zones() *[]*string
 	SetZones(val *[]*string)
 	ZonesInput() *[]*string
@@ -209,11 +205,9 @@ type KustoCluster interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutIdentity(value *KustoClusterIdentity)
 	PutLanguageExtension(value interface{})
-	PutLanguageExtensions(value interface{})
 	PutOptimizedAutoScale(value *KustoClusterOptimizedAutoScale)
 	PutSku(value *KustoClusterSku)
 	PutTimeouts(value *KustoClusterTimeouts)
-	PutVirtualNetworkConfiguration(value *KustoClusterVirtualNetworkConfiguration)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -235,7 +229,6 @@ type KustoCluster interface {
 	ResetId()
 	ResetIdentity()
 	ResetLanguageExtension()
-	ResetLanguageExtensions()
 	ResetOptimizedAutoScale()
 	ResetOutboundNetworkAccessRestricted()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -248,7 +241,6 @@ type KustoCluster interface {
 	ResetTags()
 	ResetTimeouts()
 	ResetTrustedExternalTenants()
-	ResetVirtualNetworkConfiguration()
 	ResetZones()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -522,26 +514,6 @@ func (j *jsiiProxy_KustoCluster) LanguageExtensionInput() interface{} {
 	_jsii_.Get(
 		j,
 		"languageExtensionInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KustoCluster) LanguageExtensions() KustoClusterLanguageExtensionsList {
-	var returns KustoClusterLanguageExtensionsList
-	_jsii_.Get(
-		j,
-		"languageExtensions",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KustoCluster) LanguageExtensionsInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"languageExtensionsInput",
 		&returns,
 	)
 	return returns
@@ -897,26 +869,6 @@ func (j *jsiiProxy_KustoCluster) Uri() *string {
 	return returns
 }
 
-func (j *jsiiProxy_KustoCluster) VirtualNetworkConfiguration() KustoClusterVirtualNetworkConfigurationOutputReference {
-	var returns KustoClusterVirtualNetworkConfigurationOutputReference
-	_jsii_.Get(
-		j,
-		"virtualNetworkConfiguration",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KustoCluster) VirtualNetworkConfigurationInput() *KustoClusterVirtualNetworkConfiguration {
-	var returns *KustoClusterVirtualNetworkConfiguration
-	_jsii_.Get(
-		j,
-		"virtualNetworkConfigurationInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_KustoCluster) Zones() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -938,7 +890,7 @@ func (j *jsiiProxy_KustoCluster) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
 func NewKustoCluster(scope constructs.Construct, id *string, config *KustoClusterConfig) KustoCluster {
 	_init_.Initialize()
 
@@ -956,7 +908,7 @@ func NewKustoCluster(scope constructs.Construct, id *string, config *KustoCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
 func NewKustoCluster_Override(k KustoCluster, scope constructs.Construct, id *string, config *KustoClusterConfig) {
 	_init_.Initialize()
 
@@ -1613,17 +1565,6 @@ func (k *jsiiProxy_KustoCluster) PutLanguageExtension(value interface{}) {
 	)
 }
 
-func (k *jsiiProxy_KustoCluster) PutLanguageExtensions(value interface{}) {
-	if err := k.validatePutLanguageExtensionsParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		k,
-		"putLanguageExtensions",
-		[]interface{}{value},
-	)
-}
-
 func (k *jsiiProxy_KustoCluster) PutOptimizedAutoScale(value *KustoClusterOptimizedAutoScale) {
 	if err := k.validatePutOptimizedAutoScaleParameters(value); err != nil {
 		panic(err)
@@ -1653,17 +1594,6 @@ func (k *jsiiProxy_KustoCluster) PutTimeouts(value *KustoClusterTimeouts) {
 	_jsii_.InvokeVoid(
 		k,
 		"putTimeouts",
-		[]interface{}{value},
-	)
-}
-
-func (k *jsiiProxy_KustoCluster) PutVirtualNetworkConfiguration(value *KustoClusterVirtualNetworkConfiguration) {
-	if err := k.validatePutVirtualNetworkConfigurationParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		k,
-		"putVirtualNetworkConfiguration",
 		[]interface{}{value},
 	)
 }
@@ -1739,14 +1669,6 @@ func (k *jsiiProxy_KustoCluster) ResetLanguageExtension() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetLanguageExtension",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_KustoCluster) ResetLanguageExtensions() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetLanguageExtensions",
 		nil, // no parameters
 	)
 }
@@ -1827,14 +1749,6 @@ func (k *jsiiProxy_KustoCluster) ResetTrustedExternalTenants() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetTrustedExternalTenants",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_KustoCluster) ResetVirtualNetworkConfiguration() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetVirtualNetworkConfiguration",
 		nil, // no parameters
 	)
 }

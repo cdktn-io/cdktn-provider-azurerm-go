@@ -210,6 +210,14 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) validateSetStorageAccountIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) validateSetStorageAccountKeyParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -218,15 +226,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) validateSetStorageContainerIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) validateSetStorageResourceIdParameters(val *string) error {
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) validateSetStorageContainerUrlParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

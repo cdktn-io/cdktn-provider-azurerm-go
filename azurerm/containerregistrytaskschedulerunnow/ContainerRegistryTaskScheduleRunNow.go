@@ -5,14 +5,14 @@ package containerregistrytaskschedulerunnow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/containerregistrytaskschedulerunnow/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/containerregistrytaskschedulerunnow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now}.
 type ContainerRegistryTaskScheduleRunNow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_ContainerRegistryTaskScheduleRunNow) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now} Resource.
 func NewContainerRegistryTaskScheduleRunNow(scope constructs.Construct, id *string, config *ContainerRegistryTaskScheduleRunNowConfig) ContainerRegistryTaskScheduleRunNow {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewContainerRegistryTaskScheduleRunNow(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now} Resource.
 func NewContainerRegistryTaskScheduleRunNow_Override(c ContainerRegistryTaskScheduleRunNow, scope constructs.Construct, id *string, config *ContainerRegistryTaskScheduleRunNowConfig) {
 	_init_.Initialize()
 

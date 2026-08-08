@@ -5,9 +5,9 @@ package hdinsighthadoopcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/hdinsighthadoopcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/hdinsighthadoopcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,15 +35,15 @@ type HdinsightHadoopClusterStorageAccountOutputReference interface {
 	IsDefault() interface{}
 	SetIsDefault(val interface{})
 	IsDefaultInput() interface{}
+	StorageAccountId() *string
+	SetStorageAccountId(val *string)
+	StorageAccountIdInput() *string
 	StorageAccountKey() *string
 	SetStorageAccountKey(val *string)
 	StorageAccountKeyInput() *string
-	StorageContainerId() *string
-	SetStorageContainerId(val *string)
-	StorageContainerIdInput() *string
-	StorageResourceId() *string
-	SetStorageResourceId(val *string)
-	StorageResourceIdInput() *string
+	StorageContainerUrl() *string
+	SetStorageContainerUrl(val *string)
+	StorageContainerUrlInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -76,7 +76,7 @@ type HdinsightHadoopClusterStorageAccountOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetStorageResourceId()
+	ResetStorageAccountId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -162,6 +162,26 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) IsDefaul
 	return returns
 }
 
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageAccountId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageAccountIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageAccountKey() *string {
 	var returns *string
 	_jsii_.Get(
@@ -182,41 +202,21 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageA
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageContainerId() *string {
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageContainerUrl() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"storageContainerId",
+		"storageContainerUrl",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageContainerIdInput() *string {
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageContainerUrlInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"storageContainerIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageResourceId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) StorageResourceIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageResourceIdInput",
+		"storageContainerUrlInput",
 		&returns,
 	)
 	return returns
@@ -314,6 +314,17 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference)SetIsDefa
 	)
 }
 
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference)SetStorageAccountId(val *string) {
+	if err := j.validateSetStorageAccountIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageAccountId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference)SetStorageAccountKey(val *string) {
 	if err := j.validateSetStorageAccountKeyParameters(val); err != nil {
 		panic(err)
@@ -325,24 +336,13 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference)SetStorag
 	)
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference)SetStorageContainerId(val *string) {
-	if err := j.validateSetStorageContainerIdParameters(val); err != nil {
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference)SetStorageContainerUrl(val *string) {
+	if err := j.validateSetStorageContainerUrlParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"storageContainerId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference)SetStorageResourceId(val *string) {
-	if err := j.validateSetStorageResourceIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"storageResourceId",
+		"storageContainerUrl",
 		val,
 	)
 }
@@ -555,10 +555,10 @@ func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) Interpol
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) ResetStorageResourceId() {
+func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountOutputReference) ResetStorageAccountId() {
 	_jsii_.InvokeVoid(
 		h,
-		"resetStorageResourceId",
+		"resetStorageAccountId",
 		nil, // no parameters
 	)
 }

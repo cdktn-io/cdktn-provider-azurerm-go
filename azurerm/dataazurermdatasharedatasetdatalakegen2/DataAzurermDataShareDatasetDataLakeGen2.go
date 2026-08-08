@@ -5,14 +5,14 @@ package dataazurermdatasharedatasetdatalakegen2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermdatasharedatasetdatalakegen2/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermdatasharedatasetdatalakegen2/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_share_dataset_data_lake_gen2 azurerm_data_share_dataset_data_lake_gen2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_share_dataset_data_lake_gen2 azurerm_data_share_dataset_data_lake_gen2}.
 type DataAzurermDataShareDatasetDataLakeGen2 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAzurermDataShareDatasetDataLakeGen2) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_share_dataset_data_lake_gen2 azurerm_data_share_dataset_data_lake_gen2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_share_dataset_data_lake_gen2 azurerm_data_share_dataset_data_lake_gen2} Data Source.
 func NewDataAzurermDataShareDatasetDataLakeGen2(scope constructs.Construct, id *string, config *DataAzurermDataShareDatasetDataLakeGen2Config) DataAzurermDataShareDatasetDataLakeGen2 {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDataAzurermDataShareDatasetDataLakeGen2(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_share_dataset_data_lake_gen2 azurerm_data_share_dataset_data_lake_gen2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_share_dataset_data_lake_gen2 azurerm_data_share_dataset_data_lake_gen2} Data Source.
 func NewDataAzurermDataShareDatasetDataLakeGen2_Override(d DataAzurermDataShareDatasetDataLakeGen2, scope constructs.Construct, id *string, config *DataAzurermDataShareDatasetDataLakeGen2Config) {
 	_init_.Initialize()
 

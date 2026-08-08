@@ -5,14 +5,14 @@ package iothubendpointeventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/iothubendpointeventhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/iothubendpointeventhub/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub}.
 type IothubEndpointEventhub interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_IothubEndpointEventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
 func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *IothubEndpointEventhubConfig) IothubEndpointEventhub {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
 func NewIothubEndpointEventhub_Override(i IothubEndpointEventhub, scope constructs.Construct, id *string, config *IothubEndpointEventhubConfig) {
 	_init_.Initialize()
 

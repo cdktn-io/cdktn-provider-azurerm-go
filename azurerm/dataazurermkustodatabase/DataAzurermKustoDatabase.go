@@ -5,14 +5,14 @@ package dataazurermkustodatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermkustodatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermkustodatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/kusto_database azurerm_kusto_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kusto_database azurerm_kusto_database}.
 type DataAzurermKustoDatabase interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAzurermKustoDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/kusto_database azurerm_kusto_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kusto_database azurerm_kusto_database} Data Source.
 func NewDataAzurermKustoDatabase(scope constructs.Construct, id *string, config *DataAzurermKustoDatabaseConfig) DataAzurermKustoDatabase {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataAzurermKustoDatabase(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/kusto_database azurerm_kusto_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kusto_database azurerm_kusto_database} Data Source.
 func NewDataAzurermKustoDatabase_Override(d DataAzurermKustoDatabase, scope constructs.Construct, id *string, config *DataAzurermKustoDatabaseConfig) {
 	_init_.Initialize()
 

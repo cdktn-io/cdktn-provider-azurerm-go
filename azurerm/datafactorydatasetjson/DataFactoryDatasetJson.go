@@ -5,14 +5,14 @@ package datafactorydatasetjson
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactorydatasetjson/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactorydatasetjson/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_dataset_json azurerm_data_factory_dataset_json}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_json azurerm_data_factory_dataset_json}.
 type DataFactoryDatasetJson interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -677,7 +677,7 @@ func (j *jsiiProxy_DataFactoryDatasetJson) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_dataset_json azurerm_data_factory_dataset_json} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_json azurerm_data_factory_dataset_json} Resource.
 func NewDataFactoryDatasetJson(scope constructs.Construct, id *string, config *DataFactoryDatasetJsonConfig) DataFactoryDatasetJson {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewDataFactoryDatasetJson(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_dataset_json azurerm_data_factory_dataset_json} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_json azurerm_data_factory_dataset_json} Resource.
 func NewDataFactoryDatasetJson_Override(d DataFactoryDatasetJson, scope constructs.Construct, id *string, config *DataFactoryDatasetJsonConfig) {
 	_init_.Initialize()
 

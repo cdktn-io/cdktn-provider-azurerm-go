@@ -5,14 +5,14 @@ package dataazurermpolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermpolicyassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermpolicyassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment azurerm_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/policy_assignment azurerm_policy_assignment}.
 type DataAzurermPolicyAssignment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -467,7 +467,7 @@ func (j *jsiiProxy_DataAzurermPolicyAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
 func NewDataAzurermPolicyAssignment(scope constructs.Construct, id *string, config *DataAzurermPolicyAssignmentConfig) DataAzurermPolicyAssignment {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewDataAzurermPolicyAssignment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
 func NewDataAzurermPolicyAssignment_Override(d DataAzurermPolicyAssignment, scope constructs.Construct, id *string, config *DataAzurermPolicyAssignmentConfig) {
 	_init_.Initialize()
 

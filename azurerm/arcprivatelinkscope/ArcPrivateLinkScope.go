@@ -5,14 +5,14 @@ package arcprivatelinkscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/arcprivatelinkscope/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/arcprivatelinkscope/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope}.
 type ArcPrivateLinkScope interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_ArcPrivateLinkScope) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope} Resource.
 func NewArcPrivateLinkScope(scope constructs.Construct, id *string, config *ArcPrivateLinkScopeConfig) ArcPrivateLinkScope {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewArcPrivateLinkScope(scope constructs.Construct, id *string, config *ArcP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope} Resource.
 func NewArcPrivateLinkScope_Override(a ArcPrivateLinkScope, scope constructs.Construct, id *string, config *ArcPrivateLinkScopeConfig) {
 	_init_.Initialize()
 

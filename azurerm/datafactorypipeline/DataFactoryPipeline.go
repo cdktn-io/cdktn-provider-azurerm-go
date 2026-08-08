@@ -5,14 +5,14 @@ package datafactorypipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactorypipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactorypipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline}.
 type DataFactoryPipeline interface {
 	cdktn.TerraformResource
 	ActivitiesJson() *string
@@ -64,9 +64,9 @@ type DataFactoryPipeline interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	MoniterMetricsAfterDuration() *string
-	SetMoniterMetricsAfterDuration(val *string)
-	MoniterMetricsAfterDurationInput() *string
+	MonitorMetricsAfterDuration() *string
+	SetMonitorMetricsAfterDuration(val *string)
+	MonitorMetricsAfterDurationInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -195,7 +195,7 @@ type DataFactoryPipeline interface {
 	ResetDescription()
 	ResetFolder()
 	ResetId()
-	ResetMoniterMetricsAfterDuration()
+	ResetMonitorMetricsAfterDuration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -459,21 +459,21 @@ func (j *jsiiProxy_DataFactoryPipeline) Lifecycle() *cdktn.TerraformResourceLife
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryPipeline) MoniterMetricsAfterDuration() *string {
+func (j *jsiiProxy_DataFactoryPipeline) MonitorMetricsAfterDuration() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"moniterMetricsAfterDuration",
+		"monitorMetricsAfterDuration",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryPipeline) MoniterMetricsAfterDurationInput() *string {
+func (j *jsiiProxy_DataFactoryPipeline) MonitorMetricsAfterDurationInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"moniterMetricsAfterDurationInput",
+		"monitorMetricsAfterDurationInput",
 		&returns,
 	)
 	return returns
@@ -630,7 +630,7 @@ func (j *jsiiProxy_DataFactoryPipeline) VariablesInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline} Resource.
 func NewDataFactoryPipeline(scope constructs.Construct, id *string, config *DataFactoryPipelineConfig) DataFactoryPipeline {
 	_init_.Initialize()
 
@@ -648,7 +648,7 @@ func NewDataFactoryPipeline(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline} Resource.
 func NewDataFactoryPipeline_Override(d DataFactoryPipeline, scope constructs.Construct, id *string, config *DataFactoryPipelineConfig) {
 	_init_.Initialize()
 
@@ -785,13 +785,13 @@ func (j *jsiiProxy_DataFactoryPipeline)SetLifecycle(val *cdktn.TerraformResource
 	)
 }
 
-func (j *jsiiProxy_DataFactoryPipeline)SetMoniterMetricsAfterDuration(val *string) {
-	if err := j.validateSetMoniterMetricsAfterDurationParameters(val); err != nil {
+func (j *jsiiProxy_DataFactoryPipeline)SetMonitorMetricsAfterDuration(val *string) {
+	if err := j.validateSetMonitorMetricsAfterDurationParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"moniterMetricsAfterDuration",
+		"monitorMetricsAfterDuration",
 		val,
 	)
 }
@@ -1287,10 +1287,10 @@ func (d *jsiiProxy_DataFactoryPipeline) ResetId() {
 	)
 }
 
-func (d *jsiiProxy_DataFactoryPipeline) ResetMoniterMetricsAfterDuration() {
+func (d *jsiiProxy_DataFactoryPipeline) ResetMonitorMetricsAfterDuration() {
 	_jsii_.InvokeVoid(
 		d,
-		"resetMoniterMetricsAfterDuration",
+		"resetMonitorMetricsAfterDuration",
 		nil, // no parameters
 	)
 }

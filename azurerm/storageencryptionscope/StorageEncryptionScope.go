@@ -5,14 +5,14 @@ package storageencryptionscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storageencryptionscope/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageencryptionscope/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope}.
 type StorageEncryptionScope interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_StorageEncryptionScope) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
 func NewStorageEncryptionScope(scope constructs.Construct, id *string, config *StorageEncryptionScopeConfig) StorageEncryptionScope {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewStorageEncryptionScope(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
 func NewStorageEncryptionScope_Override(s StorageEncryptionScope, scope constructs.Construct, id *string, config *StorageEncryptionScopeConfig) {
 	_init_.Initialize()
 

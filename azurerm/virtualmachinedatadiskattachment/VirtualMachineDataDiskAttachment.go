@@ -5,14 +5,14 @@ package virtualmachinedatadiskattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/virtualmachinedatadiskattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualmachinedatadiskattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_data_disk_attachment azurerm_virtual_machine_data_disk_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_data_disk_attachment azurerm_virtual_machine_data_disk_attachment}.
 type VirtualMachineDataDiskAttachment interface {
 	cdktn.TerraformResource
 	Caching() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment) WriteAcceleratorEnabledInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_data_disk_attachment azurerm_virtual_machine_data_disk_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_data_disk_attachment azurerm_virtual_machine_data_disk_attachment} Resource.
 func NewVirtualMachineDataDiskAttachment(scope constructs.Construct, id *string, config *VirtualMachineDataDiskAttachmentConfig) VirtualMachineDataDiskAttachment {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewVirtualMachineDataDiskAttachment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_data_disk_attachment azurerm_virtual_machine_data_disk_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_data_disk_attachment azurerm_virtual_machine_data_disk_attachment} Resource.
 func NewVirtualMachineDataDiskAttachment_Override(v VirtualMachineDataDiskAttachment, scope constructs.Construct, id *string, config *VirtualMachineDataDiskAttachmentConfig) {
 	_init_.Initialize()
 

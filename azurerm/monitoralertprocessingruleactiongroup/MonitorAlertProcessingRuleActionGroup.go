@@ -5,14 +5,14 @@ package monitoralertprocessingruleactiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/monitoralertprocessingruleactiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/monitoralertprocessingruleactiongroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_alert_processing_rule_action_group azurerm_monitor_alert_processing_rule_action_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_alert_processing_rule_action_group azurerm_monitor_alert_processing_rule_action_group}.
 type MonitorAlertProcessingRuleActionGroup interface {
 	cdktn.TerraformResource
 	AddActionGroupIds() *[]*string
@@ -604,7 +604,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroup) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_alert_processing_rule_action_group azurerm_monitor_alert_processing_rule_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_alert_processing_rule_action_group azurerm_monitor_alert_processing_rule_action_group} Resource.
 func NewMonitorAlertProcessingRuleActionGroup(scope constructs.Construct, id *string, config *MonitorAlertProcessingRuleActionGroupConfig) MonitorAlertProcessingRuleActionGroup {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewMonitorAlertProcessingRuleActionGroup(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_alert_processing_rule_action_group azurerm_monitor_alert_processing_rule_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_alert_processing_rule_action_group azurerm_monitor_alert_processing_rule_action_group} Resource.
 func NewMonitorAlertProcessingRuleActionGroup_Override(m MonitorAlertProcessingRuleActionGroup, scope constructs.Construct, id *string, config *MonitorAlertProcessingRuleActionGroupConfig) {
 	_init_.Initialize()
 

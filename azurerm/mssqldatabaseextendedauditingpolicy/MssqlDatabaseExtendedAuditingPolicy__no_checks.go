@@ -103,6 +103,10 @@ func validateMssqlDatabaseExtendedAuditingPolicy_IsTerraformResourceParameters(x
 	return nil
 }
 
+func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) validateSetBlobStorageEndpointParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -144,10 +148,6 @@ func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) validateSetStorageAccoun
 }
 
 func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) validateSetStorageAccountAccessKeyIsSecondaryParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) validateSetStorageEndpointParameters(val *string) error {
 	return nil
 }
 

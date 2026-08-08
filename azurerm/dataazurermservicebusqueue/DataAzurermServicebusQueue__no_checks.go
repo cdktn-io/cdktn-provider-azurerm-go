@@ -99,14 +99,6 @@ func (j *jsiiProxy_DataAzurermServicebusQueue) validateSetNamespaceIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermServicebusQueue) validateSetNamespaceNameParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_DataAzurermServicebusQueue) validateSetResourceGroupNameParameters(val *string) error {
-	return nil
-}
-
 func validateNewDataAzurermServicebusQueueParameters(scope constructs.Construct, id *string, config *DataAzurermServicebusQueueConfig) error {
 	return nil
 }

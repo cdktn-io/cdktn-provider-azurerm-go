@@ -5,14 +5,14 @@ package dashboardgrafana
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dashboardgrafana/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dashboardgrafana/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dashboard_grafana azurerm_dashboard_grafana}.
 type DashboardGrafana interface {
 	cdktn.TerraformResource
 	ApiKeyEnabled() interface{}
@@ -781,7 +781,7 @@ func (j *jsiiProxy_DashboardGrafana) ZoneRedundancyEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
 func NewDashboardGrafana(scope constructs.Construct, id *string, config *DashboardGrafanaConfig) DashboardGrafana {
 	_init_.Initialize()
 
@@ -799,7 +799,7 @@ func NewDashboardGrafana(scope constructs.Construct, id *string, config *Dashboa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
 func NewDashboardGrafana_Override(d DashboardGrafana, scope constructs.Construct, id *string, config *DashboardGrafanaConfig) {
 	_init_.Initialize()
 

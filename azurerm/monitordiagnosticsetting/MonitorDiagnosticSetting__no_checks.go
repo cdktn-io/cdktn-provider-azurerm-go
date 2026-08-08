@@ -87,10 +87,6 @@ func (m *jsiiProxy_MonitorDiagnosticSetting) validatePutEnabledMetricParameters(
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDiagnosticSetting) validatePutMetricParameters(value interface{}) error {
-	return nil
-}
-
 func (m *jsiiProxy_MonitorDiagnosticSetting) validatePutTimeoutsParameters(value *MonitorDiagnosticSettingTimeouts) error {
 	return nil
 }

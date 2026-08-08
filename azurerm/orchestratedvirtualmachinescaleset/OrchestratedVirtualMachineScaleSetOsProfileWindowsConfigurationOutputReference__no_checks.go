@@ -71,6 +71,10 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	return nil
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) validateSetAutomaticUpdatesEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
@@ -80,10 +84,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) validateSetComputerNamePrefixParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationOutputReference) validateSetEnableAutomaticUpdatesParameters(val interface{}) error {
 	return nil
 }
 

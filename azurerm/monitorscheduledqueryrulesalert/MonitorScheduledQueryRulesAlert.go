@@ -5,14 +5,14 @@ package monitorscheduledqueryrulesalert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/monitorscheduledqueryrulesalert/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/monitorscheduledqueryrulesalert/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert}.
 type MonitorScheduledQueryRulesAlert interface {
 	cdktn.TerraformResource
 	Action() MonitorScheduledQueryRulesAlertActionOutputReference
@@ -791,7 +791,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlert) TriggerInput() *MonitorSched
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert} Resource.
 func NewMonitorScheduledQueryRulesAlert(scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesAlertConfig) MonitorScheduledQueryRulesAlert {
 	_init_.Initialize()
 
@@ -809,7 +809,7 @@ func NewMonitorScheduledQueryRulesAlert(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert} Resource.
 func NewMonitorScheduledQueryRulesAlert_Override(m MonitorScheduledQueryRulesAlert, scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesAlertConfig) {
 	_init_.Initialize()
 

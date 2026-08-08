@@ -5,14 +5,14 @@ package healthcareworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/healthcareworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/healthcareworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_workspace azurerm_healthcare_workspace}.
 type HealthcareWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_HealthcareWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_workspace azurerm_healthcare_workspace} Resource.
 func NewHealthcareWorkspace(scope constructs.Construct, id *string, config *HealthcareWorkspaceConfig) HealthcareWorkspace {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewHealthcareWorkspace(scope constructs.Construct, id *string, config *Heal
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_workspace azurerm_healthcare_workspace} Resource.
 func NewHealthcareWorkspace_Override(h HealthcareWorkspace, scope constructs.Construct, id *string, config *HealthcareWorkspaceConfig) {
 	_init_.Initialize()
 

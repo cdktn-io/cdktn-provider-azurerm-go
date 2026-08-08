@@ -5,9 +5,9 @@ package cognitiveaccountraipolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cognitiveaccountraipolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cognitiveaccountraipolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -79,6 +79,7 @@ type CognitiveAccountRaiPolicyContentFilterOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetSeverityThreshold()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -586,6 +587,14 @@ func (c *jsiiProxy_CognitiveAccountRaiPolicyContentFilterOutputReference) Interp
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_CognitiveAccountRaiPolicyContentFilterOutputReference) ResetSeverityThreshold() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSeverityThreshold",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_CognitiveAccountRaiPolicyContentFilterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

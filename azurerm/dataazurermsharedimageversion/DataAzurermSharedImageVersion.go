@@ -5,14 +5,14 @@ package dataazurermsharedimageversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermsharedimageversion/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermsharedimageversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/shared_image_version azurerm_shared_image_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/shared_image_version azurerm_shared_image_version}.
 type DataAzurermSharedImageVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DataAzurermSharedImageVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/shared_image_version azurerm_shared_image_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/shared_image_version azurerm_shared_image_version} Data Source.
 func NewDataAzurermSharedImageVersion(scope constructs.Construct, id *string, config *DataAzurermSharedImageVersionConfig) DataAzurermSharedImageVersion {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewDataAzurermSharedImageVersion(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/shared_image_version azurerm_shared_image_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/shared_image_version azurerm_shared_image_version} Data Source.
 func NewDataAzurermSharedImageVersion_Override(d DataAzurermSharedImageVersion, scope constructs.Construct, id *string, config *DataAzurermSharedImageVersionConfig) {
 	_init_.Initialize()
 

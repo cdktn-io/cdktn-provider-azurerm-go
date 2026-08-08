@@ -139,10 +139,6 @@ func (j *jsiiProxy_NetworkWatcherFlowLog) validateSetNameParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_NetworkWatcherFlowLog) validateSetNetworkSecurityGroupIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_NetworkWatcherFlowLog) validateSetNetworkWatcherNameParameters(val *string) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package backuppolicyfileshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/backuppolicyfileshare/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/backuppolicyfileshare/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share}.
 type BackupPolicyFileShare interface {
 	cdktn.TerraformResource
 	Backup() BackupPolicyFileShareBackupOutputReference
@@ -651,7 +651,7 @@ func (j *jsiiProxy_BackupPolicyFileShare) TimezoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share} Resource.
 func NewBackupPolicyFileShare(scope constructs.Construct, id *string, config *BackupPolicyFileShareConfig) BackupPolicyFileShare {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewBackupPolicyFileShare(scope constructs.Construct, id *string, config *Ba
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share} Resource.
 func NewBackupPolicyFileShare_Override(b BackupPolicyFileShare, scope constructs.Construct, id *string, config *BackupPolicyFileShareConfig) {
 	_init_.Initialize()
 

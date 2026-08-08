@@ -5,14 +5,14 @@ package dataazurermnetworkmanageripampool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermnetworkmanageripampool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermnetworkmanageripampool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool}.
 type DataAzurermNetworkManagerIpamPool interface {
 	cdktn.TerraformDataSource
 	AddressPrefixes() *[]*string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAzurermNetworkManagerIpamPool) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Data Source.
 func NewDataAzurermNetworkManagerIpamPool(scope constructs.Construct, id *string, config *DataAzurermNetworkManagerIpamPoolConfig) DataAzurermNetworkManagerIpamPool {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewDataAzurermNetworkManagerIpamPool(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Data Source.
 func NewDataAzurermNetworkManagerIpamPool_Override(d DataAzurermNetworkManagerIpamPool, scope constructs.Construct, id *string, config *DataAzurermNetworkManagerIpamPoolConfig) {
 	_init_.Initialize()
 

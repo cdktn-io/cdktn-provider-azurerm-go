@@ -5,14 +5,14 @@ package apimanagementbackend
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/apimanagementbackend/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagementbackend/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend azurerm_api_management_backend}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_backend azurerm_api_management_backend}.
 type ApiManagementBackend interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -699,7 +699,7 @@ func (j *jsiiProxy_ApiManagementBackend) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend azurerm_api_management_backend} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_backend azurerm_api_management_backend} Resource.
 func NewApiManagementBackend(scope constructs.Construct, id *string, config *ApiManagementBackendConfig) ApiManagementBackend {
 	_init_.Initialize()
 
@@ -717,7 +717,7 @@ func NewApiManagementBackend(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend azurerm_api_management_backend} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_backend azurerm_api_management_backend} Resource.
 func NewApiManagementBackend_Override(a ApiManagementBackend, scope constructs.Construct, id *string, config *ApiManagementBackendConfig) {
 	_init_.Initialize()
 

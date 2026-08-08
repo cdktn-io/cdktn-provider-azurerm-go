@@ -5,14 +5,14 @@ package springclouddynatraceapplicationperformancemonitoring
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/springclouddynatraceapplicationperformancemonitoring/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/springclouddynatraceapplicationperformancemonitoring/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_dynatrace_application_performance_monitoring azurerm_spring_cloud_dynatrace_application_performance_monitoring}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_dynatrace_application_performance_monitoring azurerm_spring_cloud_dynatrace_application_performance_monitoring}.
 type SpringCloudDynatraceApplicationPerformanceMonitoring interface {
 	cdktn.TerraformResource
 	ApiToken() *string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_SpringCloudDynatraceApplicationPerformanceMonitoring) Timeout
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_dynatrace_application_performance_monitoring azurerm_spring_cloud_dynatrace_application_performance_monitoring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_dynatrace_application_performance_monitoring azurerm_spring_cloud_dynatrace_application_performance_monitoring} Resource.
 func NewSpringCloudDynatraceApplicationPerformanceMonitoring(scope constructs.Construct, id *string, config *SpringCloudDynatraceApplicationPerformanceMonitoringConfig) SpringCloudDynatraceApplicationPerformanceMonitoring {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewSpringCloudDynatraceApplicationPerformanceMonitoring(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_dynatrace_application_performance_monitoring azurerm_spring_cloud_dynatrace_application_performance_monitoring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_dynatrace_application_performance_monitoring azurerm_spring_cloud_dynatrace_application_performance_monitoring} Resource.
 func NewSpringCloudDynatraceApplicationPerformanceMonitoring_Override(s SpringCloudDynatraceApplicationPerformanceMonitoring, scope constructs.Construct, id *string, config *SpringCloudDynatraceApplicationPerformanceMonitoringConfig) {
 	_init_.Initialize()
 

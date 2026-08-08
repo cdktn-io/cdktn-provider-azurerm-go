@@ -5,14 +5,14 @@ package kustoeventgriddataconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/kustoeventgriddataconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/kustoeventgriddataconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection}.
 type KustoEventgridDataConnection interface {
 	cdktn.TerraformResource
 	BlobStorageEventType() *string
@@ -49,9 +49,6 @@ type KustoEventgridDataConnection interface {
 	EventgridEventSubscriptionId() *string
 	SetEventgridEventSubscriptionId(val *string)
 	EventgridEventSubscriptionIdInput() *string
-	EventgridResourceId() *string
-	SetEventgridResourceId(val *string)
-	EventgridResourceIdInput() *string
 	EventhubConsumerGroupName() *string
 	SetEventhubConsumerGroupName(val *string)
 	EventhubConsumerGroupNameInput() *string
@@ -79,9 +76,6 @@ type KustoEventgridDataConnection interface {
 	ManagedIdentityId() *string
 	SetManagedIdentityId(val *string)
 	ManagedIdentityIdInput() *string
-	ManagedIdentityResourceId() *string
-	SetManagedIdentityResourceId(val *string)
-	ManagedIdentityResourceIdInput() *string
 	MappingRuleName() *string
 	SetMappingRuleName(val *string)
 	MappingRuleNameInput() *string
@@ -217,10 +211,8 @@ type KustoEventgridDataConnection interface {
 	ResetDatabaseRoutingType()
 	ResetDataFormat()
 	ResetEventgridEventSubscriptionId()
-	ResetEventgridResourceId()
 	ResetId()
 	ResetManagedIdentityId()
-	ResetManagedIdentityResourceId()
 	ResetMappingRuleName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -425,26 +417,6 @@ func (j *jsiiProxy_KustoEventgridDataConnection) EventgridEventSubscriptionIdInp
 	return returns
 }
 
-func (j *jsiiProxy_KustoEventgridDataConnection) EventgridResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"eventgridResourceId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KustoEventgridDataConnection) EventgridResourceIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"eventgridResourceIdInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_KustoEventgridDataConnection) EventhubConsumerGroupName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -580,26 +552,6 @@ func (j *jsiiProxy_KustoEventgridDataConnection) ManagedIdentityIdInput() *strin
 	_jsii_.Get(
 		j,
 		"managedIdentityIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KustoEventgridDataConnection) ManagedIdentityResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedIdentityResourceId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KustoEventgridDataConnection) ManagedIdentityResourceIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedIdentityResourceIdInput",
 		&returns,
 	)
 	return returns
@@ -816,7 +768,7 @@ func (j *jsiiProxy_KustoEventgridDataConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection} Resource.
 func NewKustoEventgridDataConnection(scope constructs.Construct, id *string, config *KustoEventgridDataConnectionConfig) KustoEventgridDataConnection {
 	_init_.Initialize()
 
@@ -834,7 +786,7 @@ func NewKustoEventgridDataConnection(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection} Resource.
 func NewKustoEventgridDataConnection_Override(k KustoEventgridDataConnection, scope constructs.Construct, id *string, config *KustoEventgridDataConnectionConfig) {
 	_init_.Initialize()
 
@@ -941,17 +893,6 @@ func (j *jsiiProxy_KustoEventgridDataConnection)SetEventgridEventSubscriptionId(
 	)
 }
 
-func (j *jsiiProxy_KustoEventgridDataConnection)SetEventgridResourceId(val *string) {
-	if err := j.validateSetEventgridResourceIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"eventgridResourceId",
-		val,
-	)
-}
-
 func (j *jsiiProxy_KustoEventgridDataConnection)SetEventhubConsumerGroupName(val *string) {
 	if err := j.validateSetEventhubConsumerGroupNameParameters(val); err != nil {
 		panic(err)
@@ -1022,17 +963,6 @@ func (j *jsiiProxy_KustoEventgridDataConnection)SetManagedIdentityId(val *string
 	_jsii_.Set(
 		j,
 		"managedIdentityId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_KustoEventgridDataConnection)SetManagedIdentityResourceId(val *string) {
-	if err := j.validateSetManagedIdentityResourceIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"managedIdentityResourceId",
 		val,
 	)
 }
@@ -1545,14 +1475,6 @@ func (k *jsiiProxy_KustoEventgridDataConnection) ResetEventgridEventSubscription
 	)
 }
 
-func (k *jsiiProxy_KustoEventgridDataConnection) ResetEventgridResourceId() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetEventgridResourceId",
-		nil, // no parameters
-	)
-}
-
 func (k *jsiiProxy_KustoEventgridDataConnection) ResetId() {
 	_jsii_.InvokeVoid(
 		k,
@@ -1565,14 +1487,6 @@ func (k *jsiiProxy_KustoEventgridDataConnection) ResetManagedIdentityId() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetManagedIdentityId",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_KustoEventgridDataConnection) ResetManagedIdentityResourceId() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetManagedIdentityResourceId",
 		nil, // no parameters
 	)
 }

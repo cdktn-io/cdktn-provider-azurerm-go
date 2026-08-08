@@ -5,14 +5,14 @@ package dataazurermdevcentercatalog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermdevcentercatalog/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermdevcentercatalog/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_center_catalog azurerm_dev_center_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_center_catalog azurerm_dev_center_catalog}.
 type DataAzurermDevCenterCatalog interface {
 	cdktn.TerraformDataSource
 	CatalogAdogit() DataAzurermDevCenterCatalogCatalogAdogitList
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAzurermDevCenterCatalog) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_center_catalog azurerm_dev_center_catalog} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_center_catalog azurerm_dev_center_catalog} Data Source.
 func NewDataAzurermDevCenterCatalog(scope constructs.Construct, id *string, config *DataAzurermDevCenterCatalogConfig) DataAzurermDevCenterCatalog {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataAzurermDevCenterCatalog(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_center_catalog azurerm_dev_center_catalog} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dev_center_catalog azurerm_dev_center_catalog} Data Source.
 func NewDataAzurermDevCenterCatalog_Override(d DataAzurermDevCenterCatalog, scope constructs.Construct, id *string, config *DataAzurermDevCenterCatalogConfig) {
 	_init_.Initialize()
 

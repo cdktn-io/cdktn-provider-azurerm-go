@@ -5,14 +5,14 @@ package virtualnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/virtualnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualnetworkgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway}.
 type VirtualNetworkGateway interface {
 	cdktn.TerraformResource
 	ActiveActive() interface{}
@@ -53,9 +53,6 @@ type VirtualNetworkGateway interface {
 	EdgeZone() *string
 	SetEdgeZone(val *string)
 	EdgeZoneInput() *string
-	EnableBgp() interface{}
-	SetEnableBgp(val interface{})
-	EnableBgpInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -245,7 +242,6 @@ type VirtualNetworkGateway interface {
 	ResetDefaultLocalNetworkGatewayId()
 	ResetDnsForwardingEnabled()
 	ResetEdgeZone()
-	ResetEnableBgp()
 	ResetGeneration()
 	ResetId()
 	ResetIpSecReplayProtectionEnabled()
@@ -494,26 +490,6 @@ func (j *jsiiProxy_VirtualNetworkGateway) EdgeZoneInput() *string {
 	_jsii_.Get(
 		j,
 		"edgeZoneInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_VirtualNetworkGateway) EnableBgp() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableBgp",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_VirtualNetworkGateway) EnableBgpInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableBgpInput",
 		&returns,
 	)
 	return returns
@@ -1010,7 +986,7 @@ func (j *jsiiProxy_VirtualNetworkGateway) VpnTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
 func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *VirtualNetworkGatewayConfig) VirtualNetworkGateway {
 	_init_.Initialize()
 
@@ -1028,7 +1004,7 @@ func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *Vi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
 func NewVirtualNetworkGateway_Override(v VirtualNetworkGateway, scope constructs.Construct, id *string, config *VirtualNetworkGatewayConfig) {
 	_init_.Initialize()
 
@@ -1131,17 +1107,6 @@ func (j *jsiiProxy_VirtualNetworkGateway)SetEdgeZone(val *string) {
 	_jsii_.Set(
 		j,
 		"edgeZone",
-		val,
-	)
-}
-
-func (j *jsiiProxy_VirtualNetworkGateway)SetEnableBgp(val interface{}) {
-	if err := j.validateSetEnableBgpParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableBgp",
 		val,
 	)
 }
@@ -1855,14 +1820,6 @@ func (v *jsiiProxy_VirtualNetworkGateway) ResetEdgeZone() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetEdgeZone",
-		nil, // no parameters
-	)
-}
-
-func (v *jsiiProxy_VirtualNetworkGateway) ResetEnableBgp() {
-	_jsii_.InvokeVoid(
-		v,
-		"resetEnableBgp",
 		nil, // no parameters
 	)
 }

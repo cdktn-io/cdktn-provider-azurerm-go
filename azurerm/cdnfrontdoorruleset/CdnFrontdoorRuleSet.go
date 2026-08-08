@@ -5,14 +5,14 @@ package cdnfrontdoorruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cdnfrontdoorruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cdnfrontdoorruleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule_set azurerm_cdn_frontdoor_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule_set azurerm_cdn_frontdoor_rule_set}.
 type CdnFrontdoorRuleSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_CdnFrontdoorRuleSet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule_set azurerm_cdn_frontdoor_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule_set azurerm_cdn_frontdoor_rule_set} Resource.
 func NewCdnFrontdoorRuleSet(scope constructs.Construct, id *string, config *CdnFrontdoorRuleSetConfig) CdnFrontdoorRuleSet {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewCdnFrontdoorRuleSet(scope constructs.Construct, id *string, config *CdnF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule_set azurerm_cdn_frontdoor_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule_set azurerm_cdn_frontdoor_rule_set} Resource.
 func NewCdnFrontdoorRuleSet_Override(c CdnFrontdoorRuleSet, scope constructs.Construct, id *string, config *CdnFrontdoorRuleSetConfig) {
 	_init_.Initialize()
 

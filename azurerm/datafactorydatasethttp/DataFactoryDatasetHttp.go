@@ -5,14 +5,14 @@ package datafactorydatasethttp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/datafactorydatasethttp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/datafactorydatasethttp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http}.
 type DataFactoryDatasetHttp interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -677,7 +677,7 @@ func (j *jsiiProxy_DataFactoryDatasetHttp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http} Resource.
 func NewDataFactoryDatasetHttp(scope constructs.Construct, id *string, config *DataFactoryDatasetHttpConfig) DataFactoryDatasetHttp {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewDataFactoryDatasetHttp(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http} Resource.
 func NewDataFactoryDatasetHttp_Override(d DataFactoryDatasetHttp, scope constructs.Construct, id *string, config *DataFactoryDatasetHttpConfig) {
 	_init_.Initialize()
 

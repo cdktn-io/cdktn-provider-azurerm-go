@@ -5,16 +5,16 @@ package cdnfrontdoorrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cdnfrontdoorrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cdnfrontdoorrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CdnFrontdoorRuleConditionsOutputReference interface {
 	cdktn.ComplexObject
-	ClientPortCondition() CdnFrontdoorRuleConditionsClientPortConditionList
-	ClientPortConditionInput() interface{}
+	ClientPort() CdnFrontdoorRuleConditionsClientPortList
+	ClientPortInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -25,45 +25,51 @@ type CdnFrontdoorRuleConditionsOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
-	CookiesCondition() CdnFrontdoorRuleConditionsCookiesConditionList
-	CookiesConditionInput() interface{}
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeviceType() CdnFrontdoorRuleConditionsDeviceTypeList
+	DeviceTypeInput() interface{}
 	// Experimental.
 	Fqn() *string
-	HostNameCondition() CdnFrontdoorRuleConditionsHostNameConditionList
-	HostNameConditionInput() interface{}
-	HttpVersionCondition() CdnFrontdoorRuleConditionsHttpVersionConditionList
-	HttpVersionConditionInput() interface{}
+	HostName() CdnFrontdoorRuleConditionsHostNameList
+	HostNameInput() interface{}
+	HttpVersion() CdnFrontdoorRuleConditionsHttpVersionList
+	HttpVersionInput() interface{}
 	InternalValue() *CdnFrontdoorRuleConditions
 	SetInternalValue(val *CdnFrontdoorRuleConditions)
-	IsDeviceCondition() CdnFrontdoorRuleConditionsIsDeviceConditionList
-	IsDeviceConditionInput() interface{}
-	PostArgsCondition() CdnFrontdoorRuleConditionsPostArgsConditionList
-	PostArgsConditionInput() interface{}
-	QueryStringCondition() CdnFrontdoorRuleConditionsQueryStringConditionList
-	QueryStringConditionInput() interface{}
-	RemoteAddressCondition() CdnFrontdoorRuleConditionsRemoteAddressConditionList
-	RemoteAddressConditionInput() interface{}
-	RequestBodyCondition() CdnFrontdoorRuleConditionsRequestBodyConditionList
-	RequestBodyConditionInput() interface{}
-	RequestHeaderCondition() CdnFrontdoorRuleConditionsRequestHeaderConditionList
-	RequestHeaderConditionInput() interface{}
-	RequestMethodCondition() CdnFrontdoorRuleConditionsRequestMethodConditionList
-	RequestMethodConditionInput() interface{}
-	RequestSchemeCondition() CdnFrontdoorRuleConditionsRequestSchemeConditionList
-	RequestSchemeConditionInput() interface{}
-	RequestUriCondition() CdnFrontdoorRuleConditionsRequestUriConditionList
-	RequestUriConditionInput() interface{}
-	ServerPortCondition() CdnFrontdoorRuleConditionsServerPortConditionList
-	ServerPortConditionInput() interface{}
-	SocketAddressCondition() CdnFrontdoorRuleConditionsSocketAddressConditionList
-	SocketAddressConditionInput() interface{}
-	SslProtocolCondition() CdnFrontdoorRuleConditionsSslProtocolConditionList
-	SslProtocolConditionInput() interface{}
+	PostArgument() CdnFrontdoorRuleConditionsPostArgumentList
+	PostArgumentInput() interface{}
+	QueryString() CdnFrontdoorRuleConditionsQueryStringList
+	QueryStringInput() interface{}
+	RemoteAddress() CdnFrontdoorRuleConditionsRemoteAddressList
+	RemoteAddressInput() interface{}
+	RequestBody() CdnFrontdoorRuleConditionsRequestBodyList
+	RequestBodyInput() interface{}
+	RequestCookies() CdnFrontdoorRuleConditionsRequestCookiesList
+	RequestCookiesInput() interface{}
+	RequestFileExtension() CdnFrontdoorRuleConditionsRequestFileExtensionList
+	RequestFileExtensionInput() interface{}
+	RequestFilename() CdnFrontdoorRuleConditionsRequestFilenameList
+	RequestFilenameInput() interface{}
+	RequestHeader() CdnFrontdoorRuleConditionsRequestHeaderList
+	RequestHeaderInput() interface{}
+	RequestMethod() CdnFrontdoorRuleConditionsRequestMethodList
+	RequestMethodInput() interface{}
+	RequestPath() CdnFrontdoorRuleConditionsRequestPathList
+	RequestPathInput() interface{}
+	RequestScheme() CdnFrontdoorRuleConditionsRequestSchemeList
+	RequestSchemeInput() interface{}
+	RequestUrl() CdnFrontdoorRuleConditionsRequestUrlList
+	RequestUrlInput() interface{}
+	ServerPort() CdnFrontdoorRuleConditionsServerPortList
+	ServerPortInput() interface{}
+	SocketAddress() CdnFrontdoorRuleConditionsSocketAddressList
+	SocketAddressInput() interface{}
+	SslProtocol() CdnFrontdoorRuleConditionsSslProtocolList
+	SslProtocolInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,12 +78,6 @@ type CdnFrontdoorRuleConditionsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	UrlFileExtensionCondition() CdnFrontdoorRuleConditionsUrlFileExtensionConditionList
-	UrlFileExtensionConditionInput() interface{}
-	UrlFilenameCondition() CdnFrontdoorRuleConditionsUrlFilenameConditionList
-	UrlFilenameConditionInput() interface{}
-	UrlPathCondition() CdnFrontdoorRuleConditionsUrlPathConditionList
-	UrlPathConditionInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -102,44 +102,44 @@ type CdnFrontdoorRuleConditionsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutClientPortCondition(value interface{})
-	PutCookiesCondition(value interface{})
-	PutHostNameCondition(value interface{})
-	PutHttpVersionCondition(value interface{})
-	PutIsDeviceCondition(value interface{})
-	PutPostArgsCondition(value interface{})
-	PutQueryStringCondition(value interface{})
-	PutRemoteAddressCondition(value interface{})
-	PutRequestBodyCondition(value interface{})
-	PutRequestHeaderCondition(value interface{})
-	PutRequestMethodCondition(value interface{})
-	PutRequestSchemeCondition(value interface{})
-	PutRequestUriCondition(value interface{})
-	PutServerPortCondition(value interface{})
-	PutSocketAddressCondition(value interface{})
-	PutSslProtocolCondition(value interface{})
-	PutUrlFileExtensionCondition(value interface{})
-	PutUrlFilenameCondition(value interface{})
-	PutUrlPathCondition(value interface{})
-	ResetClientPortCondition()
-	ResetCookiesCondition()
-	ResetHostNameCondition()
-	ResetHttpVersionCondition()
-	ResetIsDeviceCondition()
-	ResetPostArgsCondition()
-	ResetQueryStringCondition()
-	ResetRemoteAddressCondition()
-	ResetRequestBodyCondition()
-	ResetRequestHeaderCondition()
-	ResetRequestMethodCondition()
-	ResetRequestSchemeCondition()
-	ResetRequestUriCondition()
-	ResetServerPortCondition()
-	ResetSocketAddressCondition()
-	ResetSslProtocolCondition()
-	ResetUrlFileExtensionCondition()
-	ResetUrlFilenameCondition()
-	ResetUrlPathCondition()
+	PutClientPort(value interface{})
+	PutDeviceType(value interface{})
+	PutHostName(value interface{})
+	PutHttpVersion(value interface{})
+	PutPostArgument(value interface{})
+	PutQueryString(value interface{})
+	PutRemoteAddress(value interface{})
+	PutRequestBody(value interface{})
+	PutRequestCookies(value interface{})
+	PutRequestFileExtension(value interface{})
+	PutRequestFilename(value interface{})
+	PutRequestHeader(value interface{})
+	PutRequestMethod(value interface{})
+	PutRequestPath(value interface{})
+	PutRequestScheme(value interface{})
+	PutRequestUrl(value interface{})
+	PutServerPort(value interface{})
+	PutSocketAddress(value interface{})
+	PutSslProtocol(value interface{})
+	ResetClientPort()
+	ResetDeviceType()
+	ResetHostName()
+	ResetHttpVersion()
+	ResetPostArgument()
+	ResetQueryString()
+	ResetRemoteAddress()
+	ResetRequestBody()
+	ResetRequestCookies()
+	ResetRequestFileExtension()
+	ResetRequestFilename()
+	ResetRequestHeader()
+	ResetRequestMethod()
+	ResetRequestPath()
+	ResetRequestScheme()
+	ResetRequestUrl()
+	ResetServerPort()
+	ResetSocketAddress()
+	ResetSslProtocol()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -155,21 +155,21 @@ type jsiiProxy_CdnFrontdoorRuleConditionsOutputReference struct {
 	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ClientPortCondition() CdnFrontdoorRuleConditionsClientPortConditionList {
-	var returns CdnFrontdoorRuleConditionsClientPortConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ClientPort() CdnFrontdoorRuleConditionsClientPortList {
+	var returns CdnFrontdoorRuleConditionsClientPortList
 	_jsii_.Get(
 		j,
-		"clientPortCondition",
+		"clientPort",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ClientPortConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ClientPortInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"clientPortConditionInput",
+		"clientPortInput",
 		&returns,
 	)
 	return returns
@@ -195,31 +195,31 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ComplexObjectIsFro
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) CookiesCondition() CdnFrontdoorRuleConditionsCookiesConditionList {
-	var returns CdnFrontdoorRuleConditionsCookiesConditionList
-	_jsii_.Get(
-		j,
-		"cookiesCondition",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) CookiesConditionInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"cookiesConditionInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) DeviceType() CdnFrontdoorRuleConditionsDeviceTypeList {
+	var returns CdnFrontdoorRuleConditionsDeviceTypeList
+	_jsii_.Get(
+		j,
+		"deviceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) DeviceTypeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deviceTypeInput",
 		&returns,
 	)
 	return returns
@@ -235,41 +235,41 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) Fqn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) HostNameCondition() CdnFrontdoorRuleConditionsHostNameConditionList {
-	var returns CdnFrontdoorRuleConditionsHostNameConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) HostName() CdnFrontdoorRuleConditionsHostNameList {
+	var returns CdnFrontdoorRuleConditionsHostNameList
 	_jsii_.Get(
 		j,
-		"hostNameCondition",
+		"hostName",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) HostNameConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) HostNameInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"hostNameConditionInput",
+		"hostNameInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) HttpVersionCondition() CdnFrontdoorRuleConditionsHttpVersionConditionList {
-	var returns CdnFrontdoorRuleConditionsHttpVersionConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) HttpVersion() CdnFrontdoorRuleConditionsHttpVersionList {
+	var returns CdnFrontdoorRuleConditionsHttpVersionList
 	_jsii_.Get(
 		j,
-		"httpVersionCondition",
+		"httpVersion",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) HttpVersionConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) HttpVersionInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"httpVersionConditionInput",
+		"httpVersionInput",
 		&returns,
 	)
 	return returns
@@ -285,241 +285,301 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) InternalValue() *C
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) IsDeviceCondition() CdnFrontdoorRuleConditionsIsDeviceConditionList {
-	var returns CdnFrontdoorRuleConditionsIsDeviceConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PostArgument() CdnFrontdoorRuleConditionsPostArgumentList {
+	var returns CdnFrontdoorRuleConditionsPostArgumentList
 	_jsii_.Get(
 		j,
-		"isDeviceCondition",
+		"postArgument",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) IsDeviceConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PostArgumentInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"isDeviceConditionInput",
+		"postArgumentInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PostArgsCondition() CdnFrontdoorRuleConditionsPostArgsConditionList {
-	var returns CdnFrontdoorRuleConditionsPostArgsConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) QueryString() CdnFrontdoorRuleConditionsQueryStringList {
+	var returns CdnFrontdoorRuleConditionsQueryStringList
 	_jsii_.Get(
 		j,
-		"postArgsCondition",
+		"queryString",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PostArgsConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) QueryStringInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"postArgsConditionInput",
+		"queryStringInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) QueryStringCondition() CdnFrontdoorRuleConditionsQueryStringConditionList {
-	var returns CdnFrontdoorRuleConditionsQueryStringConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RemoteAddress() CdnFrontdoorRuleConditionsRemoteAddressList {
+	var returns CdnFrontdoorRuleConditionsRemoteAddressList
 	_jsii_.Get(
 		j,
-		"queryStringCondition",
+		"remoteAddress",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) QueryStringConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RemoteAddressInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"queryStringConditionInput",
+		"remoteAddressInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RemoteAddressCondition() CdnFrontdoorRuleConditionsRemoteAddressConditionList {
-	var returns CdnFrontdoorRuleConditionsRemoteAddressConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestBody() CdnFrontdoorRuleConditionsRequestBodyList {
+	var returns CdnFrontdoorRuleConditionsRequestBodyList
 	_jsii_.Get(
 		j,
-		"remoteAddressCondition",
+		"requestBody",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RemoteAddressConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestBodyInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"remoteAddressConditionInput",
+		"requestBodyInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestBodyCondition() CdnFrontdoorRuleConditionsRequestBodyConditionList {
-	var returns CdnFrontdoorRuleConditionsRequestBodyConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestCookies() CdnFrontdoorRuleConditionsRequestCookiesList {
+	var returns CdnFrontdoorRuleConditionsRequestCookiesList
 	_jsii_.Get(
 		j,
-		"requestBodyCondition",
+		"requestCookies",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestBodyConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestCookiesInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"requestBodyConditionInput",
+		"requestCookiesInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestHeaderCondition() CdnFrontdoorRuleConditionsRequestHeaderConditionList {
-	var returns CdnFrontdoorRuleConditionsRequestHeaderConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestFileExtension() CdnFrontdoorRuleConditionsRequestFileExtensionList {
+	var returns CdnFrontdoorRuleConditionsRequestFileExtensionList
 	_jsii_.Get(
 		j,
-		"requestHeaderCondition",
+		"requestFileExtension",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestHeaderConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestFileExtensionInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"requestHeaderConditionInput",
+		"requestFileExtensionInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestMethodCondition() CdnFrontdoorRuleConditionsRequestMethodConditionList {
-	var returns CdnFrontdoorRuleConditionsRequestMethodConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestFilename() CdnFrontdoorRuleConditionsRequestFilenameList {
+	var returns CdnFrontdoorRuleConditionsRequestFilenameList
 	_jsii_.Get(
 		j,
-		"requestMethodCondition",
+		"requestFilename",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestMethodConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestFilenameInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"requestMethodConditionInput",
+		"requestFilenameInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestSchemeCondition() CdnFrontdoorRuleConditionsRequestSchemeConditionList {
-	var returns CdnFrontdoorRuleConditionsRequestSchemeConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestHeader() CdnFrontdoorRuleConditionsRequestHeaderList {
+	var returns CdnFrontdoorRuleConditionsRequestHeaderList
 	_jsii_.Get(
 		j,
-		"requestSchemeCondition",
+		"requestHeader",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestSchemeConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestHeaderInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"requestSchemeConditionInput",
+		"requestHeaderInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestUriCondition() CdnFrontdoorRuleConditionsRequestUriConditionList {
-	var returns CdnFrontdoorRuleConditionsRequestUriConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestMethod() CdnFrontdoorRuleConditionsRequestMethodList {
+	var returns CdnFrontdoorRuleConditionsRequestMethodList
 	_jsii_.Get(
 		j,
-		"requestUriCondition",
+		"requestMethod",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestUriConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestMethodInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"requestUriConditionInput",
+		"requestMethodInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ServerPortCondition() CdnFrontdoorRuleConditionsServerPortConditionList {
-	var returns CdnFrontdoorRuleConditionsServerPortConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestPath() CdnFrontdoorRuleConditionsRequestPathList {
+	var returns CdnFrontdoorRuleConditionsRequestPathList
 	_jsii_.Get(
 		j,
-		"serverPortCondition",
+		"requestPath",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ServerPortConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestPathInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"serverPortConditionInput",
+		"requestPathInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) SocketAddressCondition() CdnFrontdoorRuleConditionsSocketAddressConditionList {
-	var returns CdnFrontdoorRuleConditionsSocketAddressConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestScheme() CdnFrontdoorRuleConditionsRequestSchemeList {
+	var returns CdnFrontdoorRuleConditionsRequestSchemeList
 	_jsii_.Get(
 		j,
-		"socketAddressCondition",
+		"requestScheme",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) SocketAddressConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestSchemeInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"socketAddressConditionInput",
+		"requestSchemeInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) SslProtocolCondition() CdnFrontdoorRuleConditionsSslProtocolConditionList {
-	var returns CdnFrontdoorRuleConditionsSslProtocolConditionList
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestUrl() CdnFrontdoorRuleConditionsRequestUrlList {
+	var returns CdnFrontdoorRuleConditionsRequestUrlList
 	_jsii_.Get(
 		j,
-		"sslProtocolCondition",
+		"requestUrl",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) SslProtocolConditionInput() interface{} {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) RequestUrlInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
-		"sslProtocolConditionInput",
+		"requestUrlInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ServerPort() CdnFrontdoorRuleConditionsServerPortList {
+	var returns CdnFrontdoorRuleConditionsServerPortList
+	_jsii_.Get(
+		j,
+		"serverPort",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ServerPortInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"serverPortInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) SocketAddress() CdnFrontdoorRuleConditionsSocketAddressList {
+	var returns CdnFrontdoorRuleConditionsSocketAddressList
+	_jsii_.Get(
+		j,
+		"socketAddress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) SocketAddressInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"socketAddressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) SslProtocol() CdnFrontdoorRuleConditionsSslProtocolList {
+	var returns CdnFrontdoorRuleConditionsSslProtocolList
+	_jsii_.Get(
+		j,
+		"sslProtocol",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) SslProtocolInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sslProtocolInput",
 		&returns,
 	)
 	return returns
@@ -540,66 +600,6 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) TerraformResource(
 	_jsii_.Get(
 		j,
 		"terraformResource",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) UrlFileExtensionCondition() CdnFrontdoorRuleConditionsUrlFileExtensionConditionList {
-	var returns CdnFrontdoorRuleConditionsUrlFileExtensionConditionList
-	_jsii_.Get(
-		j,
-		"urlFileExtensionCondition",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) UrlFileExtensionConditionInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"urlFileExtensionConditionInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) UrlFilenameCondition() CdnFrontdoorRuleConditionsUrlFilenameConditionList {
-	var returns CdnFrontdoorRuleConditionsUrlFilenameConditionList
-	_jsii_.Get(
-		j,
-		"urlFilenameCondition",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) UrlFilenameConditionInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"urlFilenameConditionInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) UrlPathCondition() CdnFrontdoorRuleConditionsUrlPathConditionList {
-	var returns CdnFrontdoorRuleConditionsUrlPathConditionList
-	_jsii_.Get(
-		j,
-		"urlPathCondition",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) UrlPathConditionInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"urlPathConditionInput",
 		&returns,
 	)
 	return returns
@@ -874,363 +874,363 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) InterpolationForAt
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutClientPortCondition(value interface{}) {
-	if err := c.validatePutClientPortConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutClientPort(value interface{}) {
+	if err := c.validatePutClientPortParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putClientPortCondition",
+		"putClientPort",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutCookiesCondition(value interface{}) {
-	if err := c.validatePutCookiesConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutDeviceType(value interface{}) {
+	if err := c.validatePutDeviceTypeParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putCookiesCondition",
+		"putDeviceType",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutHostNameCondition(value interface{}) {
-	if err := c.validatePutHostNameConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutHostName(value interface{}) {
+	if err := c.validatePutHostNameParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putHostNameCondition",
+		"putHostName",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutHttpVersionCondition(value interface{}) {
-	if err := c.validatePutHttpVersionConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutHttpVersion(value interface{}) {
+	if err := c.validatePutHttpVersionParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putHttpVersionCondition",
+		"putHttpVersion",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutIsDeviceCondition(value interface{}) {
-	if err := c.validatePutIsDeviceConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutPostArgument(value interface{}) {
+	if err := c.validatePutPostArgumentParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putIsDeviceCondition",
+		"putPostArgument",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutPostArgsCondition(value interface{}) {
-	if err := c.validatePutPostArgsConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutQueryString(value interface{}) {
+	if err := c.validatePutQueryStringParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putPostArgsCondition",
+		"putQueryString",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutQueryStringCondition(value interface{}) {
-	if err := c.validatePutQueryStringConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRemoteAddress(value interface{}) {
+	if err := c.validatePutRemoteAddressParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putQueryStringCondition",
+		"putRemoteAddress",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRemoteAddressCondition(value interface{}) {
-	if err := c.validatePutRemoteAddressConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestBody(value interface{}) {
+	if err := c.validatePutRequestBodyParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putRemoteAddressCondition",
+		"putRequestBody",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestBodyCondition(value interface{}) {
-	if err := c.validatePutRequestBodyConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestCookies(value interface{}) {
+	if err := c.validatePutRequestCookiesParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putRequestBodyCondition",
+		"putRequestCookies",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestHeaderCondition(value interface{}) {
-	if err := c.validatePutRequestHeaderConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestFileExtension(value interface{}) {
+	if err := c.validatePutRequestFileExtensionParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putRequestHeaderCondition",
+		"putRequestFileExtension",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestMethodCondition(value interface{}) {
-	if err := c.validatePutRequestMethodConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestFilename(value interface{}) {
+	if err := c.validatePutRequestFilenameParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putRequestMethodCondition",
+		"putRequestFilename",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestSchemeCondition(value interface{}) {
-	if err := c.validatePutRequestSchemeConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestHeader(value interface{}) {
+	if err := c.validatePutRequestHeaderParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putRequestSchemeCondition",
+		"putRequestHeader",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestUriCondition(value interface{}) {
-	if err := c.validatePutRequestUriConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestMethod(value interface{}) {
+	if err := c.validatePutRequestMethodParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putRequestUriCondition",
+		"putRequestMethod",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutServerPortCondition(value interface{}) {
-	if err := c.validatePutServerPortConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestPath(value interface{}) {
+	if err := c.validatePutRequestPathParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putServerPortCondition",
+		"putRequestPath",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutSocketAddressCondition(value interface{}) {
-	if err := c.validatePutSocketAddressConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestScheme(value interface{}) {
+	if err := c.validatePutRequestSchemeParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putSocketAddressCondition",
+		"putRequestScheme",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutSslProtocolCondition(value interface{}) {
-	if err := c.validatePutSslProtocolConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutRequestUrl(value interface{}) {
+	if err := c.validatePutRequestUrlParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putSslProtocolCondition",
+		"putRequestUrl",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutUrlFileExtensionCondition(value interface{}) {
-	if err := c.validatePutUrlFileExtensionConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutServerPort(value interface{}) {
+	if err := c.validatePutServerPortParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putUrlFileExtensionCondition",
+		"putServerPort",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutUrlFilenameCondition(value interface{}) {
-	if err := c.validatePutUrlFilenameConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutSocketAddress(value interface{}) {
+	if err := c.validatePutSocketAddressParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putUrlFilenameCondition",
+		"putSocketAddress",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutUrlPathCondition(value interface{}) {
-	if err := c.validatePutUrlPathConditionParameters(value); err != nil {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) PutSslProtocol(value interface{}) {
+	if err := c.validatePutSslProtocolParameters(value); err != nil {
 		panic(err)
 	}
 	_jsii_.InvokeVoid(
 		c,
-		"putUrlPathCondition",
+		"putSslProtocol",
 		[]interface{}{value},
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetClientPortCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetClientPort() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetClientPortCondition",
+		"resetClientPort",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetCookiesCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetDeviceType() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetCookiesCondition",
+		"resetDeviceType",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetHostNameCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetHostName() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetHostNameCondition",
+		"resetHostName",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetHttpVersionCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetHttpVersion() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetHttpVersionCondition",
+		"resetHttpVersion",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetIsDeviceCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetPostArgument() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetIsDeviceCondition",
+		"resetPostArgument",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetPostArgsCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetQueryString() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetPostArgsCondition",
+		"resetQueryString",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetQueryStringCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRemoteAddress() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetQueryStringCondition",
+		"resetRemoteAddress",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRemoteAddressCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestBody() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetRemoteAddressCondition",
+		"resetRequestBody",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestBodyCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestCookies() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetRequestBodyCondition",
+		"resetRequestCookies",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestHeaderCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestFileExtension() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetRequestHeaderCondition",
+		"resetRequestFileExtension",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestMethodCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestFilename() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetRequestMethodCondition",
+		"resetRequestFilename",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestSchemeCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestHeader() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetRequestSchemeCondition",
+		"resetRequestHeader",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestUriCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestMethod() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetRequestUriCondition",
+		"resetRequestMethod",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetServerPortCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestPath() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetServerPortCondition",
+		"resetRequestPath",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetSocketAddressCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestScheme() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetSocketAddressCondition",
+		"resetRequestScheme",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetSslProtocolCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetRequestUrl() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetSslProtocolCondition",
+		"resetRequestUrl",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetUrlFileExtensionCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetServerPort() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetUrlFileExtensionCondition",
+		"resetServerPort",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetUrlFilenameCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetSocketAddress() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetUrlFilenameCondition",
+		"resetSocketAddress",
 		nil, // no parameters
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetUrlPathCondition() {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) ResetSslProtocol() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetUrlPathCondition",
+		"resetSslProtocol",
 		nil, // no parameters
 	)
 }

@@ -67,10 +67,6 @@ func (j *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference) validateSetEnabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference) validateSetInternalValueParameters(val *SiteRecoveryProtectionContainerMappingAutomaticUpdate) error {
 	return nil
 }

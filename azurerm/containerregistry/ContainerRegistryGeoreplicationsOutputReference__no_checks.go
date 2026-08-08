@@ -59,15 +59,15 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetGlobalEndpointRoutingEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
 func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetLocationParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetRegionalEndpointEnabledParameters(val interface{}) error {
 	return nil
 }
 

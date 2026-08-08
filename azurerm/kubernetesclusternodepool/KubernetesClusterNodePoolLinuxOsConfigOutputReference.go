@@ -5,9 +5,9 @@ package kubernetesclusternodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/kubernetesclusternodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/kubernetesclusternodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -50,9 +50,6 @@ type KubernetesClusterNodePoolLinuxOsConfigOutputReference interface {
 	TransparentHugePageDefrag() *string
 	SetTransparentHugePageDefrag(val *string)
 	TransparentHugePageDefragInput() *string
-	TransparentHugePageEnabled() *string
-	SetTransparentHugePageEnabled(val *string)
-	TransparentHugePageEnabledInput() *string
 	TransparentHugePageInput() *string
 	// Experimental.
 	ComputeFqn() *string
@@ -83,7 +80,6 @@ type KubernetesClusterNodePoolLinuxOsConfigOutputReference interface {
 	ResetSysctlConfig()
 	ResetTransparentHugePage()
 	ResetTransparentHugePageDefrag()
-	ResetTransparentHugePageEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -239,26 +235,6 @@ func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) Transp
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) TransparentHugePageEnabled() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"transparentHugePageEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) TransparentHugePageEnabledInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"transparentHugePageEnabledInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) TransparentHugePageInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -381,17 +357,6 @@ func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference)SetTran
 	_jsii_.Set(
 		j,
 		"transparentHugePageDefrag",
-		val,
-	)
-}
-
-func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference)SetTransparentHugePageEnabled(val *string) {
-	if err := j.validateSetTransparentHugePageEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"transparentHugePageEnabled",
 		val,
 	)
 }
@@ -621,14 +586,6 @@ func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) ResetT
 	_jsii_.InvokeVoid(
 		k,
 		"resetTransparentHugePageDefrag",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) ResetTransparentHugePageEnabled() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetTransparentHugePageEnabled",
 		nil, // no parameters
 	)
 }

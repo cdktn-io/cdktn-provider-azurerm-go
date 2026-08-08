@@ -5,9 +5,9 @@ package apimanagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/apimanagement/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,9 +28,6 @@ type ApiManagementProtocolsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	EnableHttp2() interface{}
-	SetEnableHttp2(val interface{})
-	EnableHttp2Input() interface{}
 	// Experimental.
 	Fqn() *string
 	Http2Enabled() interface{}
@@ -70,7 +67,6 @@ type ApiManagementProtocolsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetEnableHttp2()
 	ResetHttp2Enabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -112,26 +108,6 @@ func (j *jsiiProxy_ApiManagementProtocolsOutputReference) CreationStack() *[]*st
 	_jsii_.Get(
 		j,
 		"creationStack",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApiManagementProtocolsOutputReference) EnableHttp2() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableHttp2",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApiManagementProtocolsOutputReference) EnableHttp2Input() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableHttp2Input",
 		&returns,
 	)
 	return returns
@@ -243,17 +219,6 @@ func (j *jsiiProxy_ApiManagementProtocolsOutputReference)SetComplexObjectIsFromS
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ApiManagementProtocolsOutputReference)SetEnableHttp2(val interface{}) {
-	if err := j.validateSetEnableHttp2Parameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableHttp2",
 		val,
 	)
 }
@@ -486,14 +451,6 @@ func (a *jsiiProxy_ApiManagementProtocolsOutputReference) InterpolationForAttrib
 	)
 
 	return returns
-}
-
-func (a *jsiiProxy_ApiManagementProtocolsOutputReference) ResetEnableHttp2() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetEnableHttp2",
-		nil, // no parameters
-	)
 }
 
 func (a *jsiiProxy_ApiManagementProtocolsOutputReference) ResetHttp2Enabled() {

@@ -5,25 +5,25 @@ package cdnfrontdoorrule
 
 
 type CdnFrontdoorRuleActions struct {
-	// request_header_action block.
+	// modify_request_header block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_header_action CdnFrontdoorRule#request_header_action}
-	RequestHeaderAction interface{} `field:"optional" json:"requestHeaderAction" yaml:"requestHeaderAction"`
-	// response_header_action block.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule#modify_request_header CdnFrontdoorRule#modify_request_header}
+	ModifyRequestHeader interface{} `field:"optional" json:"modifyRequestHeader" yaml:"modifyRequestHeader"`
+	// modify_response_header block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#response_header_action CdnFrontdoorRule#response_header_action}
-	ResponseHeaderAction interface{} `field:"optional" json:"responseHeaderAction" yaml:"responseHeaderAction"`
-	// route_configuration_override_action block.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule#modify_response_header CdnFrontdoorRule#modify_response_header}
+	ModifyResponseHeader interface{} `field:"optional" json:"modifyResponseHeader" yaml:"modifyResponseHeader"`
+	// route_configuration_override block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#route_configuration_override_action CdnFrontdoorRule#route_configuration_override_action}
-	RouteConfigurationOverrideAction *CdnFrontdoorRuleActionsRouteConfigurationOverrideAction `field:"optional" json:"routeConfigurationOverrideAction" yaml:"routeConfigurationOverrideAction"`
-	// url_redirect_action block.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule#route_configuration_override CdnFrontdoorRule#route_configuration_override}
+	RouteConfigurationOverride *CdnFrontdoorRuleActionsRouteConfigurationOverride `field:"optional" json:"routeConfigurationOverride" yaml:"routeConfigurationOverride"`
+	// url_redirect block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_redirect_action CdnFrontdoorRule#url_redirect_action}
-	UrlRedirectAction *CdnFrontdoorRuleActionsUrlRedirectAction `field:"optional" json:"urlRedirectAction" yaml:"urlRedirectAction"`
-	// url_rewrite_action block.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule#url_redirect CdnFrontdoorRule#url_redirect}
+	UrlRedirect *CdnFrontdoorRuleActionsUrlRedirect `field:"optional" json:"urlRedirect" yaml:"urlRedirect"`
+	// url_rewrite block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_rewrite_action CdnFrontdoorRule#url_rewrite_action}
-	UrlRewriteAction *CdnFrontdoorRuleActionsUrlRewriteAction `field:"optional" json:"urlRewriteAction" yaml:"urlRewriteAction"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule#url_rewrite CdnFrontdoorRule#url_rewrite}
+	UrlRewrite *CdnFrontdoorRuleActionsUrlRewrite `field:"optional" json:"urlRewrite" yaml:"urlRewrite"`
 }
 

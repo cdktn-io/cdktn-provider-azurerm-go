@@ -22,8 +22,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "disableOutboundSnat", GoGetter: "DisableOutboundSnat"},
-			_jsii_.MemberProperty{JsiiProperty: "enableFloatingIp", GoGetter: "EnableFloatingIp"},
-			_jsii_.MemberProperty{JsiiProperty: "enableTcpReset", GoGetter: "EnableTcpReset"},
 			_jsii_.MemberProperty{JsiiProperty: "floatingIpEnabled", GoGetter: "FloatingIpEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},

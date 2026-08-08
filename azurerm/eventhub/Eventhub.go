@@ -5,14 +5,14 @@ package eventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/eventhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/eventhub/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventhub azurerm_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub azurerm_eventhub}.
 type Eventhub interface {
 	cdktn.TerraformResource
 	CaptureDescription() EventhubCaptureDescriptionOutputReference
@@ -57,9 +57,6 @@ type Eventhub interface {
 	NamespaceId() *string
 	SetNamespaceId(val *string)
 	NamespaceIdInput() *string
-	NamespaceName() *string
-	SetNamespaceName(val *string)
-	NamespaceNameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	PartitionCount() *float64
@@ -76,9 +73,6 @@ type Eventhub interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	ResourceGroupName() *string
-	SetResourceGroupName(val *string)
-	ResourceGroupNameInput() *string
 	RetentionDescription() EventhubRetentionDescriptionOutputReference
 	RetentionDescriptionInput() *EventhubRetentionDescription
 	Status() *string
@@ -190,12 +184,9 @@ type Eventhub interface {
 	ResetCaptureDescription()
 	ResetId()
 	ResetMessageRetention()
-	ResetNamespaceId()
-	ResetNamespaceName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetResourceGroupName()
 	ResetRetentionDescription()
 	ResetStatus()
 	ResetTimeouts()
@@ -416,26 +407,6 @@ func (j *jsiiProxy_Eventhub) NamespaceIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Eventhub) NamespaceName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Eventhub) NamespaceNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_Eventhub) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -501,26 +472,6 @@ func (j *jsiiProxy_Eventhub) RawOverrides() interface{} {
 	_jsii_.Get(
 		j,
 		"rawOverrides",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Eventhub) ResourceGroupName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Eventhub) ResourceGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -617,7 +568,7 @@ func (j *jsiiProxy_Eventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventhub azurerm_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub azurerm_eventhub} Resource.
 func NewEventhub(scope constructs.Construct, id *string, config *EventhubConfig) Eventhub {
 	_init_.Initialize()
 
@@ -635,7 +586,7 @@ func NewEventhub(scope constructs.Construct, id *string, config *EventhubConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventhub azurerm_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub azurerm_eventhub} Resource.
 func NewEventhub_Override(e Eventhub, scope constructs.Construct, id *string, config *EventhubConfig) {
 	_init_.Initialize()
 
@@ -739,17 +690,6 @@ func (j *jsiiProxy_Eventhub)SetNamespaceId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Eventhub)SetNamespaceName(val *string) {
-	if err := j.validateSetNamespaceNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"namespaceName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_Eventhub)SetPartitionCount(val *float64) {
 	if err := j.validateSetPartitionCountParameters(val); err != nil {
 		panic(err)
@@ -776,17 +716,6 @@ func (j *jsiiProxy_Eventhub)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
-		val,
-	)
-}
-
-func (j *jsiiProxy_Eventhub)SetResourceGroupName(val *string) {
-	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceGroupName",
 		val,
 	)
 }
@@ -1239,34 +1168,10 @@ func (e *jsiiProxy_Eventhub) ResetMessageRetention() {
 	)
 }
 
-func (e *jsiiProxy_Eventhub) ResetNamespaceId() {
-	_jsii_.InvokeVoid(
-		e,
-		"resetNamespaceId",
-		nil, // no parameters
-	)
-}
-
-func (e *jsiiProxy_Eventhub) ResetNamespaceName() {
-	_jsii_.InvokeVoid(
-		e,
-		"resetNamespaceName",
-		nil, // no parameters
-	)
-}
-
 func (e *jsiiProxy_Eventhub) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (e *jsiiProxy_Eventhub) ResetResourceGroupName() {
-	_jsii_.InvokeVoid(
-		e,
-		"resetResourceGroupName",
 		nil, // no parameters
 	)
 }

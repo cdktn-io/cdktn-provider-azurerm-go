@@ -5,14 +5,14 @@ package systemcentervirtualmachinemanagervirtualmachinetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/systemcentervirtualmachinemanagervirtualmachinetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/systemcentervirtualmachinemanagervirtualmachinetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template}.
 type SystemCenterVirtualMachineManagerVirtualMachineTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate) Time
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualMachineTemplate(scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualMachineTemplateConfig) SystemCenterVirtualMachineManagerVirtualMachineTemplate {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewSystemCenterVirtualMachineManagerVirtualMachineTemplate(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualMachineTemplate_Override(s SystemCenterVirtualMachineManagerVirtualMachineTemplate, scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualMachineTemplateConfig) {
 	_init_.Initialize()
 

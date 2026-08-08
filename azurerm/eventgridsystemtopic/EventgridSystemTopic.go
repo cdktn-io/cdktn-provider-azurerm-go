@@ -5,14 +5,14 @@ package eventgridsystemtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/eventgridsystemtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/eventgridsystemtopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
 type EventgridSystemTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -51,7 +51,6 @@ type EventgridSystemTopic interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
-	MetricArmResourceId() *string
 	MetricResourceId() *string
 	Name() *string
 	SetName(val *string)
@@ -71,9 +70,6 @@ type EventgridSystemTopic interface {
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
-	SourceArmResourceId() *string
-	SetSourceArmResourceId(val *string)
-	SourceArmResourceIdInput() *string
 	SourceResourceId() *string
 	SetSourceResourceId(val *string)
 	SourceResourceIdInput() *string
@@ -190,8 +186,6 @@ type EventgridSystemTopic interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetSourceArmResourceId()
-	ResetSourceResourceId()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -371,16 +365,6 @@ func (j *jsiiProxy_EventgridSystemTopic) LocationInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EventgridSystemTopic) MetricArmResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"metricArmResourceId",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_EventgridSystemTopic) MetricResourceId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -466,26 +450,6 @@ func (j *jsiiProxy_EventgridSystemTopic) ResourceGroupNameInput() *string {
 	_jsii_.Get(
 		j,
 		"resourceGroupNameInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_EventgridSystemTopic) SourceArmResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"sourceArmResourceId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_EventgridSystemTopic) SourceArmResourceIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"sourceArmResourceIdInput",
 		&returns,
 	)
 	return returns
@@ -602,7 +566,7 @@ func (j *jsiiProxy_EventgridSystemTopic) TopicTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic} Resource.
 func NewEventgridSystemTopic(scope constructs.Construct, id *string, config *EventgridSystemTopicConfig) EventgridSystemTopic {
 	_init_.Initialize()
 
@@ -620,7 +584,7 @@ func NewEventgridSystemTopic(scope constructs.Construct, id *string, config *Eve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic} Resource.
 func NewEventgridSystemTopic_Override(e EventgridSystemTopic, scope constructs.Construct, id *string, config *EventgridSystemTopicConfig) {
 	_init_.Initialize()
 
@@ -739,17 +703,6 @@ func (j *jsiiProxy_EventgridSystemTopic)SetResourceGroupName(val *string) {
 	_jsii_.Set(
 		j,
 		"resourceGroupName",
-		val,
-	)
-}
-
-func (j *jsiiProxy_EventgridSystemTopic)SetSourceArmResourceId(val *string) {
-	if err := j.validateSetSourceArmResourceIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"sourceArmResourceId",
 		val,
 	)
 }
@@ -1209,22 +1162,6 @@ func (e *jsiiProxy_EventgridSystemTopic) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (e *jsiiProxy_EventgridSystemTopic) ResetSourceArmResourceId() {
-	_jsii_.InvokeVoid(
-		e,
-		"resetSourceArmResourceId",
-		nil, // no parameters
-	)
-}
-
-func (e *jsiiProxy_EventgridSystemTopic) ResetSourceResourceId() {
-	_jsii_.InvokeVoid(
-		e,
-		"resetSourceResourceId",
 		nil, // no parameters
 	)
 }

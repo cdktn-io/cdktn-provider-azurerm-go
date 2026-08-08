@@ -47,6 +47,10 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) vali
 	return nil
 }
 
+func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validatePutIpConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -59,39 +63,11 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetFailoverTestPublicIpAddressIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetFailoverTestStaticIpParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetFailoverTestSubnetNameParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetRecoveryLoadBalancerBackendAddressPoolIdsParameters(val *[]*string) error {
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetRecoveryPublicIpAddressIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetSourceNetworkInterfaceIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetTargetStaticIpParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetTargetSubnetNameParameters(val *string) error {
 	return nil
 }
 

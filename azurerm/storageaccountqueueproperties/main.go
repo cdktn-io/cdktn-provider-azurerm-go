@@ -11,8 +11,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
-		reflect.TypeOf((*StorageAccountQueuePropertiesA)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueueProperties",
+		reflect.TypeOf((*StorageAccountQueueProperties)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -85,22 +85,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesA{}
+			j := jsiiProxy_StorageAccountQueueProperties{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesAConfig",
-		reflect.TypeOf((*StorageAccountQueuePropertiesAConfig)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesConfig",
+		reflect.TypeOf((*StorageAccountQueuePropertiesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesCorsRuleA",
-		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleA)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesCorsRule",
+		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesCorsRuleAList",
-		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleAList)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesCorsRuleList",
+		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -115,14 +115,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesCorsRuleAList{}
+			j := jsiiProxy_StorageAccountQueuePropertiesCorsRuleList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesCorsRuleAOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleAOutputReference)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesCorsRuleOutputReference",
+		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeadersInput", GoGetter: "AllowedHeadersInput"},
@@ -157,18 +157,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesCorsRuleAOutputReference{}
+			j := jsiiProxy_StorageAccountQueuePropertiesCorsRuleOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesHourMetricsA",
-		reflect.TypeOf((*StorageAccountQueuePropertiesHourMetricsA)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesHourMetrics",
+		reflect.TypeOf((*StorageAccountQueuePropertiesHourMetrics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesHourMetricsAOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesHourMetricsAOutputReference)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesHourMetricsOutputReference",
+		reflect.TypeOf((*StorageAccountQueuePropertiesHourMetricsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -201,18 +201,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesHourMetricsAOutputReference{}
+			j := jsiiProxy_StorageAccountQueuePropertiesHourMetricsOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesLoggingA",
-		reflect.TypeOf((*StorageAccountQueuePropertiesLoggingA)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesLogging",
+		reflect.TypeOf((*StorageAccountQueuePropertiesLogging)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesLoggingAOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesLoggingAOutputReference)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesLoggingOutputReference",
+		reflect.TypeOf((*StorageAccountQueuePropertiesLoggingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -248,18 +248,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writeInput", GoGetter: "WriteInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesLoggingAOutputReference{}
+			j := jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesMinuteMetricsA",
-		reflect.TypeOf((*StorageAccountQueuePropertiesMinuteMetricsA)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesMinuteMetrics",
+		reflect.TypeOf((*StorageAccountQueuePropertiesMinuteMetrics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesMinuteMetricsAOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesMinuteMetricsAOutputReference)(nil)).Elem(),
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesMinuteMetricsOutputReference",
+		reflect.TypeOf((*StorageAccountQueuePropertiesMinuteMetricsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -292,7 +292,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsAOutputReference{}
+			j := jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

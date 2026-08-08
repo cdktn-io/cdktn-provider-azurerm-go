@@ -5,14 +5,14 @@ package communicationservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/communicationservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/communicationservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/communication_service azurerm_communication_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/communication_service azurerm_communication_service}.
 type CommunicationService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -176,7 +176,6 @@ type CommunicationService interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetDataLocation()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -541,7 +540,7 @@ func (j *jsiiProxy_CommunicationService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/communication_service azurerm_communication_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/communication_service azurerm_communication_service} Resource.
 func NewCommunicationService(scope constructs.Construct, id *string, config *CommunicationServiceConfig) CommunicationService {
 	_init_.Initialize()
 
@@ -559,7 +558,7 @@ func NewCommunicationService(scope constructs.Construct, id *string, config *Com
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/communication_service azurerm_communication_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/communication_service azurerm_communication_service} Resource.
 func NewCommunicationService_Override(c CommunicationService, scope constructs.Construct, id *string, config *CommunicationServiceConfig) {
 	_init_.Initialize()
 
@@ -1081,14 +1080,6 @@ func (c *jsiiProxy_CommunicationService) RegisterProviderFeatureUsage(feature cd
 		c,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
-	)
-}
-
-func (c *jsiiProxy_CommunicationService) ResetDataLocation() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetDataLocation",
-		nil, // no parameters
 	)
 }
 

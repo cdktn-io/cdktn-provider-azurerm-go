@@ -5,14 +5,14 @@ package applicationinsightsanalyticsitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/applicationinsightsanalyticsitem/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationinsightsanalyticsitem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights_analytics_item azurerm_application_insights_analytics_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_analytics_item azurerm_application_insights_analytics_item}.
 type ApplicationInsightsAnalyticsItem interface {
 	cdktn.TerraformResource
 	ApplicationInsightsId() *string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_ApplicationInsightsAnalyticsItem) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights_analytics_item azurerm_application_insights_analytics_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_analytics_item azurerm_application_insights_analytics_item} Resource.
 func NewApplicationInsightsAnalyticsItem(scope constructs.Construct, id *string, config *ApplicationInsightsAnalyticsItemConfig) ApplicationInsightsAnalyticsItem {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewApplicationInsightsAnalyticsItem(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights_analytics_item azurerm_application_insights_analytics_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_analytics_item azurerm_application_insights_analytics_item} Resource.
 func NewApplicationInsightsAnalyticsItem_Override(a ApplicationInsightsAnalyticsItem, scope constructs.Construct, id *string, config *ApplicationInsightsAnalyticsItemConfig) {
 	_init_.Initialize()
 

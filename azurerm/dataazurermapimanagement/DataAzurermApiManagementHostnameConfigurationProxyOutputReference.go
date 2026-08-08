@@ -5,9 +5,9 @@ package dataazurermapimanagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermapimanagement/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermapimanagement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,7 +35,6 @@ type DataAzurermApiManagementHostnameConfigurationProxyOutputReference interface
 	InternalValue() *DataAzurermApiManagementHostnameConfigurationProxy
 	SetInternalValue(val *DataAzurermApiManagementHostnameConfigurationProxy)
 	KeyVaultCertificateId() *string
-	KeyVaultId() *string
 	NegotiateClientCertificate() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
@@ -159,16 +158,6 @@ func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	_jsii_.Get(
 		j,
 		"keyVaultCertificateId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) KeyVaultId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyVaultId",
 		&returns,
 	)
 	return returns

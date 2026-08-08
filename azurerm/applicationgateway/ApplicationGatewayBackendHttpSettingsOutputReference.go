@@ -5,9 +5,9 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/applicationgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -16,8 +16,6 @@ type ApplicationGatewayBackendHttpSettingsOutputReference interface {
 	AffinityCookieName() *string
 	SetAffinityCookieName(val *string)
 	AffinityCookieNameInput() *string
-	AuthenticationCertificate() ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList
-	AuthenticationCertificateInput() interface{}
 	CertificateChainValidationEnabled() interface{}
 	SetCertificateChainValidationEnabled(val interface{})
 	CertificateChainValidationEnabledInput() interface{}
@@ -115,10 +113,8 @@ type ApplicationGatewayBackendHttpSettingsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutAuthenticationCertificate(value interface{})
 	PutConnectionDraining(value *ApplicationGatewayBackendHttpSettingsConnectionDraining)
 	ResetAffinityCookieName()
-	ResetAuthenticationCertificate()
 	ResetCertificateChainValidationEnabled()
 	ResetConnectionDraining()
 	ResetDedicatedBackendConnectionEnabled()
@@ -160,26 +156,6 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) Affinit
 	_jsii_.Get(
 		j,
 		"affinityCookieNameInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) AuthenticationCertificate() ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList {
-	var returns ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList
-	_jsii_.Get(
-		j,
-		"authenticationCertificate",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) AuthenticationCertificateInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"authenticationCertificateInput",
 		&returns,
 	)
 	return returns
@@ -1009,17 +985,6 @@ func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) Interpo
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) PutAuthenticationCertificate(value interface{}) {
-	if err := a.validatePutAuthenticationCertificateParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		a,
-		"putAuthenticationCertificate",
-		[]interface{}{value},
-	)
-}
-
 func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) PutConnectionDraining(value *ApplicationGatewayBackendHttpSettingsConnectionDraining) {
 	if err := a.validatePutConnectionDrainingParameters(value); err != nil {
 		panic(err)
@@ -1035,14 +1000,6 @@ func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) ResetAf
 	_jsii_.InvokeVoid(
 		a,
 		"resetAffinityCookieName",
-		nil, // no parameters
-	)
-}
-
-func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) ResetAuthenticationCertificate() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetAuthenticationCertificate",
 		nil, // no parameters
 	)
 }

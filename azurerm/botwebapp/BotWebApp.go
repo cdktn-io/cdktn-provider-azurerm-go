@@ -5,14 +5,14 @@ package botwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/botwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/botwebapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_web_app azurerm_bot_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_web_app azurerm_bot_web_app}.
 type BotWebApp interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -216,7 +216,6 @@ type BotWebApp interface {
 	ResetLuisAppIds()
 	ResetLuisKey()
 	ResetMicrosoftAppTenantId()
-	ResetMicrosoftAppType()
 	ResetMicrosoftAppUserAssignedIdentityId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -771,7 +770,7 @@ func (j *jsiiProxy_BotWebApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
 func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfig) BotWebApp {
 	_init_.Initialize()
 
@@ -789,7 +788,7 @@ func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
 func NewBotWebApp_Override(b BotWebApp, scope constructs.Construct, id *string, config *BotWebAppConfig) {
 	_init_.Initialize()
 
@@ -1514,14 +1513,6 @@ func (b *jsiiProxy_BotWebApp) ResetMicrosoftAppTenantId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetMicrosoftAppTenantId",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BotWebApp) ResetMicrosoftAppType() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetMicrosoftAppType",
 		nil, // no parameters
 	)
 }

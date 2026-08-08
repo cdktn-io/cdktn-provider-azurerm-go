@@ -5,14 +5,14 @@ package policysetdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/policysetdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/policysetdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/policy_set_definition azurerm_policy_set_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition azurerm_policy_set_definition}.
 type PolicySetDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -52,9 +52,6 @@ type PolicySetDefinition interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	ManagementGroupId() *string
-	SetManagementGroupId(val *string)
-	ManagementGroupIdInput() *string
 	Metadata() *string
 	SetMetadata(val *string)
 	MetadataInput() *string
@@ -188,7 +185,6 @@ type PolicySetDefinition interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDescription()
 	ResetId()
-	ResetManagementGroupId()
 	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -368,26 +364,6 @@ func (j *jsiiProxy_PolicySetDefinition) Lifecycle() *cdktn.TerraformResourceLife
 	_jsii_.Get(
 		j,
 		"lifecycle",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_PolicySetDefinition) ManagementGroupId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managementGroupId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_PolicySetDefinition) ManagementGroupIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managementGroupIdInput",
 		&returns,
 	)
 	return returns
@@ -604,7 +580,7 @@ func (j *jsiiProxy_PolicySetDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/policy_set_definition azurerm_policy_set_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition azurerm_policy_set_definition} Resource.
 func NewPolicySetDefinition(scope constructs.Construct, id *string, config *PolicySetDefinitionConfig) PolicySetDefinition {
 	_init_.Initialize()
 
@@ -622,7 +598,7 @@ func NewPolicySetDefinition(scope constructs.Construct, id *string, config *Poli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/policy_set_definition azurerm_policy_set_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition azurerm_policy_set_definition} Resource.
 func NewPolicySetDefinition_Override(p PolicySetDefinition, scope constructs.Construct, id *string, config *PolicySetDefinitionConfig) {
 	_init_.Initialize()
 
@@ -711,17 +687,6 @@ func (j *jsiiProxy_PolicySetDefinition)SetLifecycle(val *cdktn.TerraformResource
 	_jsii_.Set(
 		j,
 		"lifecycle",
-		val,
-	)
-}
-
-func (j *jsiiProxy_PolicySetDefinition)SetManagementGroupId(val *string) {
-	if err := j.validateSetManagementGroupIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"managementGroupId",
 		val,
 	)
 }
@@ -1214,14 +1179,6 @@ func (p *jsiiProxy_PolicySetDefinition) ResetId() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetId",
-		nil, // no parameters
-	)
-}
-
-func (p *jsiiProxy_PolicySetDefinition) ResetManagementGroupId() {
-	_jsii_.InvokeVoid(
-		p,
-		"resetManagementGroupId",
 		nil, // no parameters
 	)
 }

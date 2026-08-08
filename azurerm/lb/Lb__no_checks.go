@@ -139,10 +139,6 @@ func (j *jsiiProxy_Lb) validateSetProvisionersParameters(val *[]interface{}) err
 	return nil
 }
 
-func (j *jsiiProxy_Lb) validateSetPublicIpAddressIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_Lb) validateSetResourceGroupNameParameters(val *string) error {
 	return nil
 }
@@ -152,10 +148,6 @@ func (j *jsiiProxy_Lb) validateSetSkuParameters(val *string) error {
 }
 
 func (j *jsiiProxy_Lb) validateSetSkuTierParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_Lb) validateSetSubnetIdParameters(val *string) error {
 	return nil
 }
 

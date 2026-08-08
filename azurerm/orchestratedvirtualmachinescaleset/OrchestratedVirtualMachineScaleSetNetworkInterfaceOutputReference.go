@@ -5,14 +5,17 @@ package orchestratedvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/orchestratedvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/orchestratedvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference interface {
 	cdktn.ComplexObject
+	AcceleratedNetworkingEnabled() interface{}
+	SetAcceleratedNetworkingEnabled(val interface{})
+	AcceleratedNetworkingEnabledInput() interface{}
 	AuxiliaryMode() *string
 	SetAuxiliaryMode(val *string)
 	AuxiliaryModeInput() *string
@@ -37,18 +40,15 @@ type OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference interface
 	DnsServers() *[]*string
 	SetDnsServers(val *[]*string)
 	DnsServersInput() *[]*string
-	EnableAcceleratedNetworking() interface{}
-	SetEnableAcceleratedNetworking(val interface{})
-	EnableAcceleratedNetworkingInput() interface{}
-	EnableIpForwarding() interface{}
-	SetEnableIpForwarding(val interface{})
-	EnableIpForwardingInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	IpConfiguration() OrchestratedVirtualMachineScaleSetNetworkInterfaceIpConfigurationList
 	IpConfigurationInput() interface{}
+	IpForwardingEnabled() interface{}
+	SetIpForwardingEnabled(val interface{})
+	IpForwardingEnabledInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -94,11 +94,11 @@ type OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference interface
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIpConfiguration(value interface{})
+	ResetAcceleratedNetworkingEnabled()
 	ResetAuxiliaryMode()
 	ResetAuxiliarySku()
 	ResetDnsServers()
-	ResetEnableAcceleratedNetworking()
-	ResetEnableIpForwarding()
+	ResetIpForwardingEnabled()
 	ResetNetworkSecurityGroupId()
 	ResetPrimary()
 	ResetTags()
@@ -115,6 +115,26 @@ type OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference interface
 // The jsii proxy struct for OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference
 type jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) AcceleratedNetworkingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"acceleratedNetworkingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) AcceleratedNetworkingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"acceleratedNetworkingEnabledInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) AuxiliaryMode() *string {
@@ -207,46 +227,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableAcceleratedNetworking() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAcceleratedNetworking",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableAcceleratedNetworkingInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableAcceleratedNetworkingInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableIpForwarding() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableIpForwarding",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableIpForwardingInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableIpForwardingInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -282,6 +262,26 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	_jsii_.Get(
 		j,
 		"ipConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) IpForwardingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ipForwardingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) IpForwardingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ipForwardingEnabledInput",
 		&returns,
 	)
 	return returns
@@ -415,6 +415,17 @@ func NewOrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference_Overri
 	)
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference)SetAcceleratedNetworkingEnabled(val interface{}) {
+	if err := j.validateSetAcceleratedNetworkingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"acceleratedNetworkingEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference)SetAuxiliaryMode(val *string) {
 	if err := j.validateSetAuxiliaryModeParameters(val); err != nil {
 		panic(err)
@@ -470,28 +481,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	)
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference)SetEnableAcceleratedNetworking(val interface{}) {
-	if err := j.validateSetEnableAcceleratedNetworkingParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableAcceleratedNetworking",
-		val,
-	)
-}
-
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference)SetEnableIpForwarding(val interface{}) {
-	if err := j.validateSetEnableIpForwardingParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableIpForwarding",
-		val,
-	)
-}
-
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -499,6 +488,17 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference)SetIpForwardingEnabled(val interface{}) {
+	if err := j.validateSetIpForwardingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipForwardingEnabled",
 		val,
 	)
 }
@@ -766,6 +766,14 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	)
 }
 
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetAcceleratedNetworkingEnabled() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetAcceleratedNetworkingEnabled",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetAuxiliaryMode() {
 	_jsii_.InvokeVoid(
 		o,
@@ -790,18 +798,10 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	)
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetEnableAcceleratedNetworking() {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetIpForwardingEnabled() {
 	_jsii_.InvokeVoid(
 		o,
-		"resetEnableAcceleratedNetworking",
-		nil, // no parameters
-	)
-}
-
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetEnableIpForwarding() {
-	_jsii_.InvokeVoid(
-		o,
-		"resetEnableIpForwarding",
+		"resetIpForwardingEnabled",
 		nil, // no parameters
 	)
 }

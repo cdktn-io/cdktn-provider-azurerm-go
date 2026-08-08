@@ -522,23 +522,7 @@ func (j *jsiiProxy_StorageBlob) validateSetSourceUriParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_StorageBlob) validateSetStorageAccountNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_StorageBlob) validateSetStorageContainerIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_StorageBlob) validateSetStorageContainerNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

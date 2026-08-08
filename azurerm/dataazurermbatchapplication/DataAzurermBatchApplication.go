@@ -5,14 +5,14 @@ package dataazurermbatchapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermbatchapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermbatchapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/batch_application azurerm_batch_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/batch_application azurerm_batch_application}.
 type DataAzurermBatchApplication interface {
 	cdktn.TerraformDataSource
 	AccountName() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAzurermBatchApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/batch_application azurerm_batch_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/batch_application azurerm_batch_application} Data Source.
 func NewDataAzurermBatchApplication(scope constructs.Construct, id *string, config *DataAzurermBatchApplicationConfig) DataAzurermBatchApplication {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDataAzurermBatchApplication(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/batch_application azurerm_batch_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/batch_application azurerm_batch_application} Data Source.
 func NewDataAzurermBatchApplication_Override(d DataAzurermBatchApplication, scope constructs.Construct, id *string, config *DataAzurermBatchApplicationConfig) {
 	_init_.Initialize()
 

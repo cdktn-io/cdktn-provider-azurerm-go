@@ -139,10 +139,6 @@ func (j *jsiiProxy_LogAnalyticsLinkedStorageAccount) validateSetWorkspaceIdParam
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsLinkedStorageAccount) validateSetWorkspaceResourceIdParameters(val *string) error {
-	return nil
-}
-
 func validateNewLogAnalyticsLinkedStorageAccountParameters(scope constructs.Construct, id *string, config *LogAnalyticsLinkedStorageAccountConfig) error {
 	return nil
 }

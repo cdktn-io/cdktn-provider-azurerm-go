@@ -5,14 +5,14 @@ package loganalyticsworkspacetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/loganalyticsworkspacetable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/loganalyticsworkspacetable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table}.
 type LogAnalyticsWorkspaceTable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table} Resource.
 func NewLogAnalyticsWorkspaceTable(scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableConfig) LogAnalyticsWorkspaceTable {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewLogAnalyticsWorkspaceTable(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table} Resource.
 func NewLogAnalyticsWorkspaceTable_Override(l LogAnalyticsWorkspaceTable, scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableConfig) {
 	_init_.Initialize()
 

@@ -93,6 +93,37 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) vali
 	return nil
 }
 
+func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validatePutIpConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*SiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration:
+		value := value.(*[]*SiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*SiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration:
+		value_ := value.([]*SiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
@@ -166,30 +197,6 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetFailoverTestPublicIpAddressIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetFailoverTestStaticIpParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetFailoverTestSubnetNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
 	case cdktn.IResolvable:
@@ -214,39 +221,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetRecoveryLoadBalancerBackendAddressPoolIdsParameters(val *[]*string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetRecoveryPublicIpAddressIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetSourceNetworkInterfaceIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetTargetStaticIpParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) validateSetTargetSubnetNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

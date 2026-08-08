@@ -5,14 +5,14 @@ package storageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storageaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account azurerm_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account azurerm_storage_account}.
 type StorageAccount interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -172,8 +172,6 @@ type StorageAccount interface {
 	QueueEncryptionKeyType() *string
 	SetQueueEncryptionKeyType(val *string)
 	QueueEncryptionKeyTypeInput() *string
-	QueueProperties() StorageAccountQueuePropertiesOutputReference
-	QueuePropertiesInput() *StorageAccountQueueProperties
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -227,8 +225,6 @@ type StorageAccount interface {
 	SharedAccessKeyEnabledInput() interface{}
 	ShareProperties() StorageAccountSharePropertiesOutputReference
 	SharePropertiesInput() *StorageAccountShareProperties
-	StaticWebsite() StorageAccountStaticWebsiteOutputReference
-	StaticWebsiteInput() *StorageAccountStaticWebsite
 	TableEncryptionKeyType() *string
 	SetTableEncryptionKeyType(val *string)
 	TableEncryptionKeyTypeInput() *string
@@ -329,11 +325,9 @@ type StorageAccount interface {
 	PutIdentity(value *StorageAccountIdentity)
 	PutImmutabilityPolicy(value *StorageAccountImmutabilityPolicy)
 	PutNetworkRules(value *StorageAccountNetworkRules)
-	PutQueueProperties(value *StorageAccountQueueProperties)
 	PutRouting(value *StorageAccountRouting)
 	PutSasPolicy(value *StorageAccountSasPolicy)
 	PutShareProperties(value *StorageAccountShareProperties)
-	PutStaticWebsite(value *StorageAccountStaticWebsite)
 	PutTimeouts(value *StorageAccountTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -377,13 +371,11 @@ type StorageAccount interface {
 	ResetProvisionedBillingModelVersion()
 	ResetPublicNetworkAccessEnabled()
 	ResetQueueEncryptionKeyType()
-	ResetQueueProperties()
 	ResetRouting()
 	ResetSasPolicy()
 	ResetSftpEnabled()
 	ResetSharedAccessKeyEnabled()
 	ResetShareProperties()
-	ResetStaticWebsite()
 	ResetTableEncryptionKeyType()
 	ResetTags()
 	ResetTimeouts()
@@ -1494,26 +1486,6 @@ func (j *jsiiProxy_StorageAccount) QueueEncryptionKeyTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageAccount) QueueProperties() StorageAccountQueuePropertiesOutputReference {
-	var returns StorageAccountQueuePropertiesOutputReference
-	_jsii_.Get(
-		j,
-		"queueProperties",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccount) QueuePropertiesInput() *StorageAccountQueueProperties {
-	var returns *StorageAccountQueueProperties
-	_jsii_.Get(
-		j,
-		"queuePropertiesInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_StorageAccount) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -2004,26 +1976,6 @@ func (j *jsiiProxy_StorageAccount) SharePropertiesInput() *StorageAccountSharePr
 	return returns
 }
 
-func (j *jsiiProxy_StorageAccount) StaticWebsite() StorageAccountStaticWebsiteOutputReference {
-	var returns StorageAccountStaticWebsiteOutputReference
-	_jsii_.Get(
-		j,
-		"staticWebsite",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccount) StaticWebsiteInput() *StorageAccountStaticWebsite {
-	var returns *StorageAccountStaticWebsite
-	_jsii_.Get(
-		j,
-		"staticWebsiteInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_StorageAccount) TableEncryptionKeyType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2115,7 +2067,7 @@ func (j *jsiiProxy_StorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAccountConfig) StorageAccount {
 	_init_.Initialize()
 
@@ -2133,7 +2085,7 @@ func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount_Override(s StorageAccount, scope constructs.Construct, id *string, config *StorageAccountConfig) {
 	_init_.Initialize()
 
@@ -2966,17 +2918,6 @@ func (s *jsiiProxy_StorageAccount) PutNetworkRules(value *StorageAccountNetworkR
 	)
 }
 
-func (s *jsiiProxy_StorageAccount) PutQueueProperties(value *StorageAccountQueueProperties) {
-	if err := s.validatePutQueuePropertiesParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		s,
-		"putQueueProperties",
-		[]interface{}{value},
-	)
-}
-
 func (s *jsiiProxy_StorageAccount) PutRouting(value *StorageAccountRouting) {
 	if err := s.validatePutRoutingParameters(value); err != nil {
 		panic(err)
@@ -3006,17 +2947,6 @@ func (s *jsiiProxy_StorageAccount) PutShareProperties(value *StorageAccountShare
 	_jsii_.InvokeVoid(
 		s,
 		"putShareProperties",
-		[]interface{}{value},
-	)
-}
-
-func (s *jsiiProxy_StorageAccount) PutStaticWebsite(value *StorageAccountStaticWebsite) {
-	if err := s.validatePutStaticWebsiteParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		s,
-		"putStaticWebsite",
 		[]interface{}{value},
 	)
 }
@@ -3259,14 +3189,6 @@ func (s *jsiiProxy_StorageAccount) ResetQueueEncryptionKeyType() {
 	)
 }
 
-func (s *jsiiProxy_StorageAccount) ResetQueueProperties() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetQueueProperties",
-		nil, // no parameters
-	)
-}
-
 func (s *jsiiProxy_StorageAccount) ResetRouting() {
 	_jsii_.InvokeVoid(
 		s,
@@ -3303,14 +3225,6 @@ func (s *jsiiProxy_StorageAccount) ResetShareProperties() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetShareProperties",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageAccount) ResetStaticWebsite() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetStaticWebsite",
 		nil, // no parameters
 	)
 }

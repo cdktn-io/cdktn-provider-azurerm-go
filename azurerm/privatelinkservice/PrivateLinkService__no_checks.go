@@ -123,10 +123,6 @@ func (j *jsiiProxy_PrivateLinkService) validateSetDestinationIpAddressParameters
 	return nil
 }
 
-func (j *jsiiProxy_PrivateLinkService) validateSetEnableProxyProtocolParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_PrivateLinkService) validateSetFqdnsParameters(val *[]*string) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package apimanagementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/apimanagementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagementgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_group azurerm_api_management_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_group azurerm_api_management_group}.
 type ApiManagementGroup interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_ApiManagementGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_group azurerm_api_management_group} Resource.
 func NewApiManagementGroup(scope constructs.Construct, id *string, config *ApiManagementGroupConfig) ApiManagementGroup {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewApiManagementGroup(scope constructs.Construct, id *string, config *ApiMa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_group azurerm_api_management_group} Resource.
 func NewApiManagementGroup_Override(a ApiManagementGroup, scope constructs.Construct, id *string, config *ApiManagementGroupConfig) {
 	_init_.Initialize()
 

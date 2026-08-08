@@ -63,10 +63,6 @@ func (j *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference) validateSetComp
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference) validateSetEncryptionEnabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_MssqlVirtualMachineAutoBackupOutputReference) validateSetEncryptionPasswordParameters(val *string) error {
 	return nil
 }

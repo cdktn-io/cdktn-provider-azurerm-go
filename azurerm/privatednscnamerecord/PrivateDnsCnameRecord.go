@@ -5,14 +5,14 @@ package privatednscnamerecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/privatednscnamerecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/privatednscnamerecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_cname_record azurerm_private_dns_cname_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_cname_record azurerm_private_dns_cname_record}.
 type PrivateDnsCnameRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -52,6 +52,9 @@ type PrivateDnsCnameRecord interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PrivateDnsZoneId() *string
+	SetPrivateDnsZoneId(val *string)
+	PrivateDnsZoneIdInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -65,9 +68,6 @@ type PrivateDnsCnameRecord interface {
 	Record() *string
 	SetRecord(val *string)
 	RecordInput() *string
-	ResourceGroupName() *string
-	SetResourceGroupName(val *string)
-	ResourceGroupNameInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -82,9 +82,6 @@ type PrivateDnsCnameRecord interface {
 	Ttl() *float64
 	SetTtl(val *float64)
 	TtlInput() *float64
-	ZoneName() *string
-	SetZoneName(val *string)
-	ZoneNameInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -361,6 +358,26 @@ func (j *jsiiProxy_PrivateDnsCnameRecord) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_PrivateDnsCnameRecord) PrivateDnsZoneId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateDnsZoneId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivateDnsCnameRecord) PrivateDnsZoneIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateDnsZoneIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PrivateDnsCnameRecord) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -406,26 +423,6 @@ func (j *jsiiProxy_PrivateDnsCnameRecord) RecordInput() *string {
 	_jsii_.Get(
 		j,
 		"recordInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_PrivateDnsCnameRecord) ResourceGroupName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_PrivateDnsCnameRecord) ResourceGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -521,28 +518,8 @@ func (j *jsiiProxy_PrivateDnsCnameRecord) TtlInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateDnsCnameRecord) ZoneName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"zoneName",
-		&returns,
-	)
-	return returns
-}
 
-func (j *jsiiProxy_PrivateDnsCnameRecord) ZoneNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"zoneNameInput",
-		&returns,
-	)
-	return returns
-}
-
-
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_cname_record azurerm_private_dns_cname_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_cname_record azurerm_private_dns_cname_record} Resource.
 func NewPrivateDnsCnameRecord(scope constructs.Construct, id *string, config *PrivateDnsCnameRecordConfig) PrivateDnsCnameRecord {
 	_init_.Initialize()
 
@@ -560,7 +537,7 @@ func NewPrivateDnsCnameRecord(scope constructs.Construct, id *string, config *Pr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_cname_record azurerm_private_dns_cname_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_cname_record azurerm_private_dns_cname_record} Resource.
 func NewPrivateDnsCnameRecord_Override(p PrivateDnsCnameRecord, scope constructs.Construct, id *string, config *PrivateDnsCnameRecordConfig) {
 	_init_.Initialize()
 
@@ -642,6 +619,17 @@ func (j *jsiiProxy_PrivateDnsCnameRecord)SetName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_PrivateDnsCnameRecord)SetPrivateDnsZoneId(val *string) {
+	if err := j.validateSetPrivateDnsZoneIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateDnsZoneId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_PrivateDnsCnameRecord)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
@@ -672,17 +660,6 @@ func (j *jsiiProxy_PrivateDnsCnameRecord)SetRecord(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PrivateDnsCnameRecord)SetResourceGroupName(val *string) {
-	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceGroupName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_PrivateDnsCnameRecord)SetTags(val *map[string]*string) {
 	if err := j.validateSetTagsParameters(val); err != nil {
 		panic(err)
@@ -701,17 +678,6 @@ func (j *jsiiProxy_PrivateDnsCnameRecord)SetTtl(val *float64) {
 	_jsii_.Set(
 		j,
 		"ttl",
-		val,
-	)
-}
-
-func (j *jsiiProxy_PrivateDnsCnameRecord)SetZoneName(val *string) {
-	if err := j.validateSetZoneNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"zoneName",
 		val,
 	)
 }

@@ -5,14 +5,14 @@ package dataazurermkeyvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermkeyvault/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermkeyvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault azurerm_key_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault azurerm_key_vault}.
 type DataAzurermKeyVault interface {
 	cdktn.TerraformDataSource
 	AccessPolicy() DataAzurermKeyVaultAccessPolicyList
@@ -31,7 +31,6 @@ type DataAzurermKeyVault interface {
 	EnabledForDeployment() cdktn.IResolvable
 	EnabledForDiskEncryption() cdktn.IResolvable
 	EnabledForTemplateDeployment() cdktn.IResolvable
-	EnableRbacAuthorization() cdktn.IResolvable
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -225,16 +224,6 @@ func (j *jsiiProxy_DataAzurermKeyVault) EnabledForTemplateDeployment() cdktn.IRe
 	_jsii_.Get(
 		j,
 		"enabledForTemplateDeployment",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermKeyVault) EnableRbacAuthorization() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enableRbacAuthorization",
 		&returns,
 	)
 	return returns
@@ -511,7 +500,7 @@ func (j *jsiiProxy_DataAzurermKeyVault) VaultUri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault azurerm_key_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault azurerm_key_vault} Data Source.
 func NewDataAzurermKeyVault(scope constructs.Construct, id *string, config *DataAzurermKeyVaultConfig) DataAzurermKeyVault {
 	_init_.Initialize()
 
@@ -529,7 +518,7 @@ func NewDataAzurermKeyVault(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault azurerm_key_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault azurerm_key_vault} Data Source.
 func NewDataAzurermKeyVault_Override(d DataAzurermKeyVault, scope constructs.Construct, id *string, config *DataAzurermKeyVaultConfig) {
 	_init_.Initialize()
 

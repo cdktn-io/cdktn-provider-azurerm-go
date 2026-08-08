@@ -473,14 +473,6 @@ func (j *jsiiProxy_StorageTable) validateSetStorageAccountIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_StorageTable) validateSetStorageAccountNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func validateNewStorageTableParameters(scope constructs.Construct, id *string, config *StorageTableConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

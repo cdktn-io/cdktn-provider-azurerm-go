@@ -5,14 +5,14 @@ package kustoattacheddatabaseconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/kustoattacheddatabaseconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/kustoattacheddatabaseconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration}.
 type KustoAttachedDatabaseConfiguration interface {
 	cdktn.TerraformResource
 	AttachedDatabaseNames() *[]*string
@@ -24,9 +24,6 @@ type KustoAttachedDatabaseConfiguration interface {
 	ClusterName() *string
 	SetClusterName(val *string)
 	ClusterNameInput() *string
-	ClusterResourceId() *string
-	SetClusterResourceId(val *string)
-	ClusterResourceIdInput() *string
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -193,8 +190,6 @@ type KustoAttachedDatabaseConfiguration interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetClusterId()
-	ResetClusterResourceId()
 	ResetDatabaseNameOverride()
 	ResetDatabaseNamePrefix()
 	ResetDefaultPrincipalModificationKind()
@@ -286,26 +281,6 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) ClusterNameInput() *strin
 	_jsii_.Get(
 		j,
 		"clusterNameInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) ClusterResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"clusterResourceId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) ClusterResourceIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"clusterResourceIdInput",
 		&returns,
 	)
 	return returns
@@ -662,7 +637,7 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
 func NewKustoAttachedDatabaseConfiguration(scope constructs.Construct, id *string, config *KustoAttachedDatabaseConfigurationConfig) KustoAttachedDatabaseConfiguration {
 	_init_.Initialize()
 
@@ -680,7 +655,7 @@ func NewKustoAttachedDatabaseConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
 func NewKustoAttachedDatabaseConfiguration_Override(k KustoAttachedDatabaseConfiguration, scope constructs.Construct, id *string, config *KustoAttachedDatabaseConfigurationConfig) {
 	_init_.Initialize()
 
@@ -709,17 +684,6 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration)SetClusterName(val *string
 	_jsii_.Set(
 		j,
 		"clusterName",
-		val,
-	)
-}
-
-func (j *jsiiProxy_KustoAttachedDatabaseConfiguration)SetClusterResourceId(val *string) {
-	if err := j.validateSetClusterResourceIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"clusterResourceId",
 		val,
 	)
 }
@@ -1279,22 +1243,6 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) RegisterProviderFeatureUs
 		k,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
-	)
-}
-
-func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) ResetClusterId() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetClusterId",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) ResetClusterResourceId() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetClusterResourceId",
-		nil, // no parameters
 	)
 }
 

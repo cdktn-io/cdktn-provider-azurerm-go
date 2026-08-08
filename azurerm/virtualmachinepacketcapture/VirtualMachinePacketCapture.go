@@ -5,14 +5,14 @@ package virtualmachinepacketcapture
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/virtualmachinepacketcapture/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualmachinepacketcapture/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_packet_capture azurerm_virtual_machine_packet_capture}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_packet_capture azurerm_virtual_machine_packet_capture}.
 type VirtualMachinePacketCapture interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_VirtualMachinePacketCapture) VirtualMachineIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_packet_capture azurerm_virtual_machine_packet_capture} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_packet_capture azurerm_virtual_machine_packet_capture} Resource.
 func NewVirtualMachinePacketCapture(scope constructs.Construct, id *string, config *VirtualMachinePacketCaptureConfig) VirtualMachinePacketCapture {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewVirtualMachinePacketCapture(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_packet_capture azurerm_virtual_machine_packet_capture} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_packet_capture azurerm_virtual_machine_packet_capture} Resource.
 func NewVirtualMachinePacketCapture_Override(v VirtualMachinePacketCapture, scope constructs.Construct, id *string, config *VirtualMachinePacketCaptureConfig) {
 	_init_.Initialize()
 

@@ -99,15 +99,7 @@ func (j *jsiiProxy_DataAzurermStorageBlob) validateSetNameParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageBlob) validateSetStorageAccountNameParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_DataAzurermStorageBlob) validateSetStorageContainerIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_DataAzurermStorageBlob) validateSetStorageContainerNameParameters(val *string) error {
 	return nil
 }
 

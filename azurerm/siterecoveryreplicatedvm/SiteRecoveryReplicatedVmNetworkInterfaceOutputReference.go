@@ -5,9 +5,9 @@ package siterecoveryreplicatedvm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/siterecoveryreplicatedvm/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/siterecoveryreplicatedvm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,34 +28,15 @@ type SiteRecoveryReplicatedVmNetworkInterfaceOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	FailoverTestPublicIpAddressId() *string
-	SetFailoverTestPublicIpAddressId(val *string)
-	FailoverTestPublicIpAddressIdInput() *string
-	FailoverTestStaticIp() *string
-	SetFailoverTestStaticIp(val *string)
-	FailoverTestStaticIpInput() *string
-	FailoverTestSubnetName() *string
-	SetFailoverTestSubnetName(val *string)
-	FailoverTestSubnetNameInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
-	RecoveryLoadBalancerBackendAddressPoolIds() *[]*string
-	SetRecoveryLoadBalancerBackendAddressPoolIds(val *[]*string)
-	RecoveryLoadBalancerBackendAddressPoolIdsInput() *[]*string
-	RecoveryPublicIpAddressId() *string
-	SetRecoveryPublicIpAddressId(val *string)
-	RecoveryPublicIpAddressIdInput() *string
+	IpConfiguration() SiteRecoveryReplicatedVmNetworkInterfaceIpConfigurationList
+	IpConfigurationInput() interface{}
 	SourceNetworkInterfaceId() *string
 	SetSourceNetworkInterfaceId(val *string)
 	SourceNetworkInterfaceIdInput() *string
-	TargetStaticIp() *string
-	SetTargetStaticIp(val *string)
-	TargetStaticIpInput() *string
-	TargetSubnetName() *string
-	SetTargetSubnetName(val *string)
-	TargetSubnetNameInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -88,14 +69,9 @@ type SiteRecoveryReplicatedVmNetworkInterfaceOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetFailoverTestPublicIpAddressId()
-	ResetFailoverTestStaticIp()
-	ResetFailoverTestSubnetName()
-	ResetRecoveryLoadBalancerBackendAddressPoolIds()
-	ResetRecoveryPublicIpAddressId()
+	PutIpConfiguration(value interface{})
+	ResetIpConfiguration()
 	ResetSourceNetworkInterfaceId()
-	ResetTargetStaticIp()
-	ResetTargetSubnetName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -141,66 +117,6 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) Crea
 	return returns
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) FailoverTestPublicIpAddressId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"failoverTestPublicIpAddressId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) FailoverTestPublicIpAddressIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"failoverTestPublicIpAddressIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) FailoverTestStaticIp() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"failoverTestStaticIp",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) FailoverTestStaticIpInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"failoverTestStaticIpInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) FailoverTestSubnetName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"failoverTestSubnetName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) FailoverTestSubnetNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"failoverTestSubnetNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -221,41 +137,21 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) Inte
 	return returns
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) RecoveryLoadBalancerBackendAddressPoolIds() *[]*string {
-	var returns *[]*string
+func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) IpConfiguration() SiteRecoveryReplicatedVmNetworkInterfaceIpConfigurationList {
+	var returns SiteRecoveryReplicatedVmNetworkInterfaceIpConfigurationList
 	_jsii_.Get(
 		j,
-		"recoveryLoadBalancerBackendAddressPoolIds",
+		"ipConfiguration",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) RecoveryLoadBalancerBackendAddressPoolIdsInput() *[]*string {
-	var returns *[]*string
+func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) IpConfigurationInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
-		"recoveryLoadBalancerBackendAddressPoolIdsInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) RecoveryPublicIpAddressId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"recoveryPublicIpAddressId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) RecoveryPublicIpAddressIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"recoveryPublicIpAddressIdInput",
+		"ipConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -276,46 +172,6 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) Sour
 	_jsii_.Get(
 		j,
 		"sourceNetworkInterfaceIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) TargetStaticIp() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"targetStaticIp",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) TargetStaticIpInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"targetStaticIpInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) TargetSubnetName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"targetSubnetName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) TargetSubnetNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"targetSubnetNameInput",
 		&returns,
 	)
 	return returns
@@ -391,39 +247,6 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetCo
 	)
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetFailoverTestPublicIpAddressId(val *string) {
-	if err := j.validateSetFailoverTestPublicIpAddressIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"failoverTestPublicIpAddressId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetFailoverTestStaticIp(val *string) {
-	if err := j.validateSetFailoverTestStaticIpParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"failoverTestStaticIp",
-		val,
-	)
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetFailoverTestSubnetName(val *string) {
-	if err := j.validateSetFailoverTestSubnetNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"failoverTestSubnetName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -435,28 +258,6 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetIn
 	)
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetRecoveryLoadBalancerBackendAddressPoolIds(val *[]*string) {
-	if err := j.validateSetRecoveryLoadBalancerBackendAddressPoolIdsParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"recoveryLoadBalancerBackendAddressPoolIds",
-		val,
-	)
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetRecoveryPublicIpAddressId(val *string) {
-	if err := j.validateSetRecoveryPublicIpAddressIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"recoveryPublicIpAddressId",
-		val,
-	)
-}
-
 func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetSourceNetworkInterfaceId(val *string) {
 	if err := j.validateSetSourceNetworkInterfaceIdParameters(val); err != nil {
 		panic(err)
@@ -464,28 +265,6 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetSo
 	_jsii_.Set(
 		j,
 		"sourceNetworkInterfaceId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetTargetStaticIp(val *string) {
-	if err := j.validateSetTargetStaticIpParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"targetStaticIp",
-		val,
-	)
-}
-
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference)SetTargetSubnetName(val *string) {
-	if err := j.validateSetTargetSubnetNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"targetSubnetName",
 		val,
 	)
 }
@@ -698,42 +477,21 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) ResetFailoverTestPublicIpAddressId() {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) PutIpConfiguration(value interface{}) {
+	if err := s.validatePutIpConfigurationParameters(value); err != nil {
+		panic(err)
+	}
 	_jsii_.InvokeVoid(
 		s,
-		"resetFailoverTestPublicIpAddressId",
-		nil, // no parameters
+		"putIpConfiguration",
+		[]interface{}{value},
 	)
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) ResetFailoverTestStaticIp() {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) ResetIpConfiguration() {
 	_jsii_.InvokeVoid(
 		s,
-		"resetFailoverTestStaticIp",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) ResetFailoverTestSubnetName() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetFailoverTestSubnetName",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) ResetRecoveryLoadBalancerBackendAddressPoolIds() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetRecoveryLoadBalancerBackendAddressPoolIds",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) ResetRecoveryPublicIpAddressId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetRecoveryPublicIpAddressId",
+		"resetIpConfiguration",
 		nil, // no parameters
 	)
 }
@@ -742,22 +500,6 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) Rese
 	_jsii_.InvokeVoid(
 		s,
 		"resetSourceNetworkInterfaceId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) ResetTargetStaticIp() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetTargetStaticIp",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceOutputReference) ResetTargetSubnetName() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetTargetSubnetName",
 		nil, // no parameters
 	)
 }

@@ -71,11 +71,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountGen2OutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountGen2OutputReference) validateSetManagedIdentityResourceIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountGen2OutputReference) validateSetStorageResourceIdParameters(val *string) error {
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountGen2OutputReference) validateSetStorageAccountIdParameters(val *string) error {
 	return nil
 }
 
@@ -84,6 +80,10 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountGen2OutputReference) valid
 }
 
 func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountGen2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountGen2OutputReference) validateSetUserAssignedIdentityIdParameters(val *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package monitordiagnosticsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/monitordiagnosticsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/monitordiagnosticsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting}.
 type MonitorDiagnosticSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -62,8 +62,6 @@ type MonitorDiagnosticSetting interface {
 	LogAnalyticsWorkspaceId() *string
 	SetLogAnalyticsWorkspaceId(val *string)
 	LogAnalyticsWorkspaceIdInput() *string
-	Metric() MonitorDiagnosticSettingMetricList
-	MetricInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -177,7 +175,6 @@ type MonitorDiagnosticSetting interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEnabledLog(value interface{})
 	PutEnabledMetric(value interface{})
-	PutMetric(value interface{})
 	PutTimeouts(value *MonitorDiagnosticSettingTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -199,7 +196,6 @@ type MonitorDiagnosticSetting interface {
 	ResetId()
 	ResetLogAnalyticsDestinationType()
 	ResetLogAnalyticsWorkspaceId()
-	ResetMetric()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -463,26 +459,6 @@ func (j *jsiiProxy_MonitorDiagnosticSetting) LogAnalyticsWorkspaceIdInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_MonitorDiagnosticSetting) Metric() MonitorDiagnosticSettingMetricList {
-	var returns MonitorDiagnosticSettingMetricList
-	_jsii_.Get(
-		j,
-		"metric",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_MonitorDiagnosticSetting) MetricInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"metricInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_MonitorDiagnosticSetting) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -654,7 +630,7 @@ func (j *jsiiProxy_MonitorDiagnosticSetting) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
 func NewMonitorDiagnosticSetting(scope constructs.Construct, id *string, config *MonitorDiagnosticSettingConfig) MonitorDiagnosticSetting {
 	_init_.Initialize()
 
@@ -672,7 +648,7 @@ func NewMonitorDiagnosticSetting(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
 func NewMonitorDiagnosticSetting_Override(m MonitorDiagnosticSetting, scope constructs.Construct, id *string, config *MonitorDiagnosticSettingConfig) {
 	_init_.Initialize()
 
@@ -1241,17 +1217,6 @@ func (m *jsiiProxy_MonitorDiagnosticSetting) PutEnabledMetric(value interface{})
 	)
 }
 
-func (m *jsiiProxy_MonitorDiagnosticSetting) PutMetric(value interface{}) {
-	if err := m.validatePutMetricParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		m,
-		"putMetric",
-		[]interface{}{value},
-	)
-}
-
 func (m *jsiiProxy_MonitorDiagnosticSetting) PutTimeouts(value *MonitorDiagnosticSettingTimeouts) {
 	if err := m.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1326,14 +1291,6 @@ func (m *jsiiProxy_MonitorDiagnosticSetting) ResetLogAnalyticsWorkspaceId() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetLogAnalyticsWorkspaceId",
-		nil, // no parameters
-	)
-}
-
-func (m *jsiiProxy_MonitorDiagnosticSetting) ResetMetric() {
-	_jsii_.InvokeVoid(
-		m,
-		"resetMetric",
 		nil, // no parameters
 	)
 }

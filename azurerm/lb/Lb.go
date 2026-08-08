@@ -5,14 +5,14 @@ package lb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/lb/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/lb/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb azurerm_lb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb azurerm_lb}.
 type Lb interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -69,9 +69,6 @@ type Lb interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
-	PublicIpAddressId() *string
-	SetPublicIpAddressId(val *string)
-	PublicIpAddressIdInput() *string
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -83,9 +80,6 @@ type Lb interface {
 	SkuTier() *string
 	SetSkuTier(val *string)
 	SkuTierInput() *string
-	SubnetId() *string
-	SetSubnetId(val *string)
-	SubnetIdInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -197,10 +191,8 @@ type Lb interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetPublicIpAddressId()
 	ResetSku()
 	ResetSkuTier()
-	ResetSubnetId()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -470,26 +462,6 @@ func (j *jsiiProxy_Lb) Provisioners() *[]interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Lb) PublicIpAddressId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"publicIpAddressId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Lb) PublicIpAddressIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"publicIpAddressIdInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_Lb) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -555,26 +527,6 @@ func (j *jsiiProxy_Lb) SkuTierInput() *string {
 	_jsii_.Get(
 		j,
 		"skuTierInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Lb) SubnetId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"subnetId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Lb) SubnetIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"subnetIdInput",
 		&returns,
 	)
 	return returns
@@ -651,7 +603,7 @@ func (j *jsiiProxy_Lb) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb azurerm_lb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb azurerm_lb} Resource.
 func NewLb(scope constructs.Construct, id *string, config *LbConfig) Lb {
 	_init_.Initialize()
 
@@ -669,7 +621,7 @@ func NewLb(scope constructs.Construct, id *string, config *LbConfig) Lb {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb azurerm_lb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb azurerm_lb} Resource.
 func NewLb_Override(l Lb, scope constructs.Construct, id *string, config *LbConfig) {
 	_init_.Initialize()
 
@@ -792,17 +744,6 @@ func (j *jsiiProxy_Lb)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-func (j *jsiiProxy_Lb)SetPublicIpAddressId(val *string) {
-	if err := j.validateSetPublicIpAddressIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"publicIpAddressId",
-		val,
-	)
-}
-
 func (j *jsiiProxy_Lb)SetResourceGroupName(val *string) {
 	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
 		panic(err)
@@ -832,17 +773,6 @@ func (j *jsiiProxy_Lb)SetSkuTier(val *string) {
 	_jsii_.Set(
 		j,
 		"skuTier",
-		val,
-	)
-}
-
-func (j *jsiiProxy_Lb)SetSubnetId(val *string) {
-	if err := j.validateSetSubnetIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"subnetId",
 		val,
 	)
 }
@@ -1292,14 +1222,6 @@ func (l *jsiiProxy_Lb) ResetOverrideLogicalId() {
 	)
 }
 
-func (l *jsiiProxy_Lb) ResetPublicIpAddressId() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetPublicIpAddressId",
-		nil, // no parameters
-	)
-}
-
 func (l *jsiiProxy_Lb) ResetSku() {
 	_jsii_.InvokeVoid(
 		l,
@@ -1312,14 +1234,6 @@ func (l *jsiiProxy_Lb) ResetSkuTier() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetSkuTier",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_Lb) ResetSubnetId() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetSubnetId",
 		nil, // no parameters
 	)
 }

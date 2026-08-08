@@ -5,14 +5,14 @@ package keyvaultmanagedstorageaccountsastokendefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/keyvaultmanagedstorageaccountsastokendefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/keyvaultmanagedstorageaccountsastokendefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_managed_storage_account_sas_token_definition azurerm_key_vault_managed_storage_account_sas_token_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_managed_storage_account_sas_token_definition azurerm_key_vault_managed_storage_account_sas_token_definition}.
 type KeyVaultManagedStorageAccountSasTokenDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinition) ValidityPeri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_managed_storage_account_sas_token_definition azurerm_key_vault_managed_storage_account_sas_token_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_managed_storage_account_sas_token_definition azurerm_key_vault_managed_storage_account_sas_token_definition} Resource.
 func NewKeyVaultManagedStorageAccountSasTokenDefinition(scope constructs.Construct, id *string, config *KeyVaultManagedStorageAccountSasTokenDefinitionConfig) KeyVaultManagedStorageAccountSasTokenDefinition {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewKeyVaultManagedStorageAccountSasTokenDefinition(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_managed_storage_account_sas_token_definition azurerm_key_vault_managed_storage_account_sas_token_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_managed_storage_account_sas_token_definition azurerm_key_vault_managed_storage_account_sas_token_definition} Resource.
 func NewKeyVaultManagedStorageAccountSasTokenDefinition_Override(k KeyVaultManagedStorageAccountSasTokenDefinition, scope constructs.Construct, id *string, config *KeyVaultManagedStorageAccountSasTokenDefinitionConfig) {
 	_init_.Initialize()
 

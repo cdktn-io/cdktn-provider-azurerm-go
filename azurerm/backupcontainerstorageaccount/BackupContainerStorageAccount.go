@@ -5,14 +5,14 @@ package backupcontainerstorageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/backupcontainerstorageaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/backupcontainerstorageaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/backup_container_storage_account azurerm_backup_container_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/backup_container_storage_account azurerm_backup_container_storage_account}.
 type BackupContainerStorageAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_BackupContainerStorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/backup_container_storage_account azurerm_backup_container_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/backup_container_storage_account azurerm_backup_container_storage_account} Resource.
 func NewBackupContainerStorageAccount(scope constructs.Construct, id *string, config *BackupContainerStorageAccountConfig) BackupContainerStorageAccount {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewBackupContainerStorageAccount(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/backup_container_storage_account azurerm_backup_container_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/backup_container_storage_account azurerm_backup_container_storage_account} Resource.
 func NewBackupContainerStorageAccount_Override(b BackupContainerStorageAccount, scope constructs.Construct, id *string, config *BackupContainerStorageAccountConfig) {
 	_init_.Initialize()
 

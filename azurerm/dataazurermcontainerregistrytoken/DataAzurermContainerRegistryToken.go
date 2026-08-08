@@ -5,14 +5,14 @@ package dataazurermcontainerregistrytoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermcontainerregistrytoken/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermcontainerregistrytoken/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/container_registry_token azurerm_container_registry_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/container_registry_token azurerm_container_registry_token}.
 type DataAzurermContainerRegistryToken interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermContainerRegistryToken) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/container_registry_token azurerm_container_registry_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/container_registry_token azurerm_container_registry_token} Data Source.
 func NewDataAzurermContainerRegistryToken(scope constructs.Construct, id *string, config *DataAzurermContainerRegistryTokenConfig) DataAzurermContainerRegistryToken {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAzurermContainerRegistryToken(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/container_registry_token azurerm_container_registry_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/container_registry_token azurerm_container_registry_token} Data Source.
 func NewDataAzurermContainerRegistryToken_Override(d DataAzurermContainerRegistryToken, scope constructs.Construct, id *string, config *DataAzurermContainerRegistryTokenConfig) {
 	_init_.Initialize()
 

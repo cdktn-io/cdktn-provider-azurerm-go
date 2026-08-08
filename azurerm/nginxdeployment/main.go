@@ -28,8 +28,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "dataplaneApiEndpoint", GoGetter: "DataplaneApiEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "diagnoseSupportEnabled", GoGetter: "DiagnoseSupportEnabled"},
-			_jsii_.MemberProperty{JsiiProperty: "diagnoseSupportEnabledInput", GoGetter: "DiagnoseSupportEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "email", GoGetter: "Email"},
 			_jsii_.MemberProperty{JsiiProperty: "emailInput", GoGetter: "EmailInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
@@ -59,10 +57,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "location", GoGetter: "Location"},
 			_jsii_.MemberProperty{JsiiProperty: "locationInput", GoGetter: "LocationInput"},
-			_jsii_.MemberProperty{JsiiProperty: "loggingStorageAccount", GoGetter: "LoggingStorageAccount"},
-			_jsii_.MemberProperty{JsiiProperty: "loggingStorageAccountInput", GoGetter: "LoggingStorageAccountInput"},
-			_jsii_.MemberProperty{JsiiProperty: "managedResourceGroup", GoGetter: "ManagedResourceGroup"},
-			_jsii_.MemberProperty{JsiiProperty: "managedResourceGroupInput", GoGetter: "ManagedResourceGroupInput"},
 			_jsii_.MemberMethod{JsiiMethod: "markWriteOnlyAttribute", GoMethod: "MarkWriteOnlyAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
@@ -80,7 +74,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putFrontendPrivate", GoMethod: "PutFrontendPrivate"},
 			_jsii_.MemberMethod{JsiiMethod: "putFrontendPublic", GoMethod: "PutFrontendPublic"},
 			_jsii_.MemberMethod{JsiiMethod: "putIdentity", GoMethod: "PutIdentity"},
-			_jsii_.MemberMethod{JsiiMethod: "putLoggingStorageAccount", GoMethod: "PutLoggingStorageAccount"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkInterface", GoMethod: "PutNetworkInterface"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "putWebApplicationFirewall", GoMethod: "PutWebApplicationFirewall"},
@@ -89,14 +82,11 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetAutomaticUpgradeChannel", GoMethod: "ResetAutomaticUpgradeChannel"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoScaleProfile", GoMethod: "ResetAutoScaleProfile"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCapacity", GoMethod: "ResetCapacity"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDiagnoseSupportEnabled", GoMethod: "ResetDiagnoseSupportEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEmail", GoMethod: "ResetEmail"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFrontendPrivate", GoMethod: "ResetFrontendPrivate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFrontendPublic", GoMethod: "ResetFrontendPublic"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIdentity", GoMethod: "ResetIdentity"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLoggingStorageAccount", GoMethod: "ResetLoggingStorageAccount"},
-			_jsii_.MemberMethod{JsiiMethod: "resetManagedResourceGroup", GoMethod: "ResetManagedResourceGroup"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkInterface", GoMethod: "ResetNetworkInterface"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
@@ -339,70 +329,6 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NginxDeploymentIdentityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccount",
-		reflect.TypeOf((*NginxDeploymentLoggingStorageAccount)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccountList",
-		reflect.TypeOf((*NginxDeploymentLoggingStorageAccountList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_NginxDeploymentLoggingStorageAccountList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccountOutputReference",
-		reflect.TypeOf((*NginxDeploymentLoggingStorageAccountOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "containerName", GoGetter: "ContainerName"},
-			_jsii_.MemberProperty{JsiiProperty: "containerNameInput", GoGetter: "ContainerNameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetContainerName", GoMethod: "ResetContainerName"},
-			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_NginxDeploymentLoggingStorageAccountOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

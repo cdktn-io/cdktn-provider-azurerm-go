@@ -5,17 +5,18 @@ package dataazurermvirtualnetworkgatewayconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermvirtualnetworkgatewayconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermvirtualnetworkgatewayconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection}.
 type DataAzurermVirtualNetworkGatewayConnection interface {
 	cdktn.TerraformDataSource
 	AuthorizationKey() *string
+	BgpEnabled() cdktn.IResolvable
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	ConnectionProtocol() *string
@@ -31,7 +32,6 @@ type DataAzurermVirtualNetworkGatewayConnection interface {
 	SetDependsOn(val *[]*string)
 	DpdTimeoutSeconds() *float64
 	EgressBytesTransferred() *float64
-	EnableBgp() cdktn.IResolvable
 	ExpressRouteCircuitId() *string
 	ExpressRouteGatewayBypass() cdktn.IResolvable
 	// Experimental.
@@ -168,6 +168,16 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) AuthorizationKey(
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) BgpEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"bgpEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
@@ -233,16 +243,6 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) EgressBytesTransf
 	_jsii_.Get(
 		j,
 		"egressBytesTransferred",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) EnableBgp() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enableBgp",
 		&returns,
 	)
 	return returns
@@ -599,7 +599,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) VirtualNetworkGat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Data Source.
 func NewDataAzurermVirtualNetworkGatewayConnection(scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkGatewayConnectionConfig) DataAzurermVirtualNetworkGatewayConnection {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewDataAzurermVirtualNetworkGatewayConnection(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Data Source.
 func NewDataAzurermVirtualNetworkGatewayConnection_Override(d DataAzurermVirtualNetworkGatewayConnection, scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkGatewayConnectionConfig) {
 	_init_.Initialize()
 

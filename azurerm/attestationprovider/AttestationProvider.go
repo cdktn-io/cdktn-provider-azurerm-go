@@ -5,14 +5,14 @@ package attestationprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/attestationprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/attestationprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/attestation_provider azurerm_attestation_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/attestation_provider azurerm_attestation_provider}.
 type AttestationProvider interface {
 	cdktn.TerraformResource
 	AttestationUri() *string
@@ -627,7 +627,7 @@ func (j *jsiiProxy_AttestationProvider) TrustModel() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/attestation_provider azurerm_attestation_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/attestation_provider azurerm_attestation_provider} Resource.
 func NewAttestationProvider(scope constructs.Construct, id *string, config *AttestationProviderConfig) AttestationProvider {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewAttestationProvider(scope constructs.Construct, id *string, config *Atte
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/attestation_provider azurerm_attestation_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/attestation_provider azurerm_attestation_provider} Resource.
 func NewAttestationProvider_Override(a AttestationProvider, scope constructs.Construct, id *string, config *AttestationProviderConfig) {
 	_init_.Initialize()
 

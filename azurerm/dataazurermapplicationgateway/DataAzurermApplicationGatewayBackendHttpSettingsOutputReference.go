@@ -5,16 +5,15 @@ package dataazurermapplicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermapplicationgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermapplicationgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermApplicationGatewayBackendHttpSettingsOutputReference interface {
 	cdktn.ComplexObject
 	AffinityCookieName() *string
-	AuthenticationCertificate() DataAzurermApplicationGatewayBackendHttpSettingsAuthenticationCertificateList
 	CertificateChainValidationEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
@@ -103,16 +102,6 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsOutputReferen
 	_jsii_.Get(
 		j,
 		"affinityCookieName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsOutputReference) AuthenticationCertificate() DataAzurermApplicationGatewayBackendHttpSettingsAuthenticationCertificateList {
-	var returns DataAzurermApplicationGatewayBackendHttpSettingsAuthenticationCertificateList
-	_jsii_.Get(
-		j,
-		"authenticationCertificate",
 		&returns,
 	)
 	return returns

@@ -262,22 +262,6 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) validateSetNamespaceIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) validateSetNamespaceNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_DataAzurermServicebusTopic) validateSetResourceGroupNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func validateNewDataAzurermServicebusTopicParameters(scope constructs.Construct, id *string, config *DataAzurermServicebusTopicConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

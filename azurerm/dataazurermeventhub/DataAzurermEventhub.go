@@ -5,14 +5,14 @@ package dataazurermeventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermeventhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermeventhub/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventhub azurerm_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub azurerm_eventhub}.
 type DataAzurermEventhub interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermEventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventhub azurerm_eventhub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub azurerm_eventhub} Data Source.
 func NewDataAzurermEventhub(scope constructs.Construct, id *string, config *DataAzurermEventhubConfig) DataAzurermEventhub {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAzurermEventhub(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventhub azurerm_eventhub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub azurerm_eventhub} Data Source.
 func NewDataAzurermEventhub_Override(d DataAzurermEventhub, scope constructs.Construct, id *string, config *DataAzurermEventhubConfig) {
 	_init_.Initialize()
 

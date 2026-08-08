@@ -5,14 +5,14 @@ package dataazurermcosmosdbmongodatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermcosmosdbmongodatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermcosmosdbmongodatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database}.
 type DataAzurermCosmosdbMongoDatabase interface {
 	cdktn.TerraformDataSource
 	AccountName() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbMongoDatabase) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database} Data Source.
 func NewDataAzurermCosmosdbMongoDatabase(scope constructs.Construct, id *string, config *DataAzurermCosmosdbMongoDatabaseConfig) DataAzurermCosmosdbMongoDatabase {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewDataAzurermCosmosdbMongoDatabase(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database} Data Source.
 func NewDataAzurermCosmosdbMongoDatabase_Override(d DataAzurermCosmosdbMongoDatabase, scope constructs.Construct, id *string, config *DataAzurermCosmosdbMongoDatabaseConfig) {
 	_init_.Initialize()
 

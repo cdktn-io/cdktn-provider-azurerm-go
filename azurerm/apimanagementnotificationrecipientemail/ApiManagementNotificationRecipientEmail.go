@@ -5,14 +5,14 @@ package apimanagementnotificationrecipientemail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/apimanagementnotificationrecipientemail/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagementnotificationrecipientemail/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_notification_recipient_email azurerm_api_management_notification_recipient_email}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_notification_recipient_email azurerm_api_management_notification_recipient_email}.
 type ApiManagementNotificationRecipientEmail interface {
 	cdktn.TerraformResource
 	ApiManagementId() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ApiManagementNotificationRecipientEmail) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_notification_recipient_email azurerm_api_management_notification_recipient_email} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_notification_recipient_email azurerm_api_management_notification_recipient_email} Resource.
 func NewApiManagementNotificationRecipientEmail(scope constructs.Construct, id *string, config *ApiManagementNotificationRecipientEmailConfig) ApiManagementNotificationRecipientEmail {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewApiManagementNotificationRecipientEmail(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_notification_recipient_email azurerm_api_management_notification_recipient_email} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_notification_recipient_email azurerm_api_management_notification_recipient_email} Resource.
 func NewApiManagementNotificationRecipientEmail_Override(a ApiManagementNotificationRecipientEmail, scope constructs.Construct, id *string, config *ApiManagementNotificationRecipientEmailConfig) {
 	_init_.Initialize()
 

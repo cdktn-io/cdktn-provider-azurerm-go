@@ -5,14 +5,14 @@ package dataazurermdatashareaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermdatashareaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermdatashareaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_share_account azurerm_data_share_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_share_account azurerm_data_share_account}.
 type DataAzurermDataShareAccount interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAzurermDataShareAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_share_account azurerm_data_share_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_share_account azurerm_data_share_account} Data Source.
 func NewDataAzurermDataShareAccount(scope constructs.Construct, id *string, config *DataAzurermDataShareAccountConfig) DataAzurermDataShareAccount {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataAzurermDataShareAccount(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_share_account azurerm_data_share_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_share_account azurerm_data_share_account} Data Source.
 func NewDataAzurermDataShareAccount_Override(d DataAzurermDataShareAccount, scope constructs.Construct, id *string, config *DataAzurermDataShareAccountConfig) {
 	_init_.Initialize()
 

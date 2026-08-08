@@ -5,9 +5,9 @@ package siterecoveryprotectioncontainermapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/siterecoveryprotectioncontainermapping/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/siterecoveryprotectioncontainermapping/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,9 +34,6 @@ type SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference interf
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Enabled() interface{}
-	SetEnabled(val interface{})
-	EnabledInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *SiteRecoveryProtectionContainerMappingAutomaticUpdate
@@ -74,8 +71,6 @@ type SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference interf
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuthenticationType()
-	ResetAutomationAccountId()
-	ResetEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -156,26 +151,6 @@ func (j *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputRe
 	_jsii_.Get(
 		j,
 		"creationStack",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference) Enabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference) EnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enabledInput",
 		&returns,
 	)
 	return returns
@@ -289,17 +264,6 @@ func (j *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputRe
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
-		val,
-	)
-}
-
-func (j *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference)SetEnabled(val interface{}) {
-	if err := j.validateSetEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enabled",
 		val,
 	)
 }
@@ -527,22 +491,6 @@ func (s *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputRe
 	_jsii_.InvokeVoid(
 		s,
 		"resetAuthenticationType",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference) ResetAutomationAccountId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetAutomationAccountId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference) ResetEnabled() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetEnabled",
 		nil, // no parameters
 	)
 }

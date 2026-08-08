@@ -5,14 +5,14 @@ package dataazurermdnsarecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermdnsarecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermdnsarecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dns_a_record azurerm_dns_a_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_a_record azurerm_dns_a_record}.
 type DataAzurermDnsARecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAzurermDnsARecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dns_a_record azurerm_dns_a_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_a_record azurerm_dns_a_record} Data Source.
 func NewDataAzurermDnsARecord(scope constructs.Construct, id *string, config *DataAzurermDnsARecordConfig) DataAzurermDnsARecord {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewDataAzurermDnsARecord(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dns_a_record azurerm_dns_a_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_a_record azurerm_dns_a_record} Data Source.
 func NewDataAzurermDnsARecord_Override(d DataAzurermDnsARecord, scope constructs.Construct, id *string, config *DataAzurermDnsARecordConfig) {
 	_init_.Initialize()
 

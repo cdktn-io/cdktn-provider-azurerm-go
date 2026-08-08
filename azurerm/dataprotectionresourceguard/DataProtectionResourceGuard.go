@@ -5,14 +5,14 @@ package dataprotectionresourceguard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataprotectionresourceguard/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataprotectionresourceguard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_resource_guard azurerm_data_protection_resource_guard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_resource_guard azurerm_data_protection_resource_guard}.
 type DataProtectionResourceGuard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_DataProtectionResourceGuard) VaultCriticalOperationExclusionL
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_resource_guard azurerm_data_protection_resource_guard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_resource_guard azurerm_data_protection_resource_guard} Resource.
 func NewDataProtectionResourceGuard(scope constructs.Construct, id *string, config *DataProtectionResourceGuardConfig) DataProtectionResourceGuard {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewDataProtectionResourceGuard(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_resource_guard azurerm_data_protection_resource_guard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_resource_guard azurerm_data_protection_resource_guard} Resource.
 func NewDataProtectionResourceGuard_Override(d DataProtectionResourceGuard, scope constructs.Construct, id *string, config *DataProtectionResourceGuardConfig) {
 	_init_.Initialize()
 

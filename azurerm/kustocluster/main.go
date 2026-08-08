@@ -53,8 +53,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "languageExtension", GoGetter: "LanguageExtension"},
 			_jsii_.MemberProperty{JsiiProperty: "languageExtensionInput", GoGetter: "LanguageExtensionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "languageExtensions", GoGetter: "LanguageExtensions"},
-			_jsii_.MemberProperty{JsiiProperty: "languageExtensionsInput", GoGetter: "LanguageExtensionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "location", GoGetter: "Location"},
 			_jsii_.MemberProperty{JsiiProperty: "locationInput", GoGetter: "LocationInput"},
@@ -80,11 +78,9 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "purgeEnabledInput", GoGetter: "PurgeEnabledInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putIdentity", GoMethod: "PutIdentity"},
 			_jsii_.MemberMethod{JsiiMethod: "putLanguageExtension", GoMethod: "PutLanguageExtension"},
-			_jsii_.MemberMethod{JsiiMethod: "putLanguageExtensions", GoMethod: "PutLanguageExtensions"},
 			_jsii_.MemberMethod{JsiiMethod: "putOptimizedAutoScale", GoMethod: "PutOptimizedAutoScale"},
 			_jsii_.MemberMethod{JsiiMethod: "putSku", GoMethod: "PutSku"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
-			_jsii_.MemberMethod{JsiiMethod: "putVirtualNetworkConfiguration", GoMethod: "PutVirtualNetworkConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowedFqdns", GoMethod: "ResetAllowedFqdns"},
@@ -95,7 +91,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIdentity", GoMethod: "ResetIdentity"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLanguageExtension", GoMethod: "ResetLanguageExtension"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLanguageExtensions", GoMethod: "ResetLanguageExtensions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOptimizedAutoScale", GoMethod: "ResetOptimizedAutoScale"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOutboundNetworkAccessRestricted", GoMethod: "ResetOutboundNetworkAccessRestricted"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
@@ -106,7 +101,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTrustedExternalTenants", GoMethod: "ResetTrustedExternalTenants"},
-			_jsii_.MemberMethod{JsiiMethod: "resetVirtualNetworkConfiguration", GoMethod: "ResetVirtualNetworkConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetZones", GoMethod: "ResetZones"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupNameInput", GoGetter: "ResourceGroupNameInput"},
@@ -130,8 +124,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedExternalTenants", GoGetter: "TrustedExternalTenants"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedExternalTenantsInput", GoGetter: "TrustedExternalTenantsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "uri", GoGetter: "Uri"},
-			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkConfiguration", GoGetter: "VirtualNetworkConfiguration"},
-			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkConfigurationInput", GoGetter: "VirtualNetworkConfigurationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},
 			_jsii_.MemberProperty{JsiiProperty: "zonesInput", GoGetter: "ZonesInput"},
@@ -247,68 +239,6 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KustoClusterLanguageExtensionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtensions",
-		reflect.TypeOf((*KustoClusterLanguageExtensions)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionsList",
-		reflect.TypeOf((*KustoClusterLanguageExtensionsList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_KustoClusterLanguageExtensionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionsOutputReference",
-		reflect.TypeOf((*KustoClusterLanguageExtensionsOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "image", GoGetter: "Image"},
-			_jsii_.MemberProperty{JsiiProperty: "imageInput", GoGetter: "ImageInput"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_KustoClusterLanguageExtensionsOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -438,48 +368,6 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KustoClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.kustoCluster.KustoClusterVirtualNetworkConfiguration",
-		reflect.TypeOf((*KustoClusterVirtualNetworkConfiguration)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.kustoCluster.KustoClusterVirtualNetworkConfigurationOutputReference",
-		reflect.TypeOf((*KustoClusterVirtualNetworkConfigurationOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "dataManagementPublicIpId", GoGetter: "DataManagementPublicIpId"},
-			_jsii_.MemberProperty{JsiiProperty: "dataManagementPublicIpIdInput", GoGetter: "DataManagementPublicIpIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "enginePublicIpId", GoGetter: "EnginePublicIpId"},
-			_jsii_.MemberProperty{JsiiProperty: "enginePublicIpIdInput", GoGetter: "EnginePublicIpIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "subnetId", GoGetter: "SubnetId"},
-			_jsii_.MemberProperty{JsiiProperty: "subnetIdInput", GoGetter: "SubnetIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_KustoClusterVirtualNetworkConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

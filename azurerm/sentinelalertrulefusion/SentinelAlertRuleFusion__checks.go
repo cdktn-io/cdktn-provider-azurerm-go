@@ -447,14 +447,6 @@ func (j *jsiiProxy_SentinelAlertRuleFusion) validateSetLogAnalyticsWorkspaceIdPa
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleFusion) validateSetNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_SentinelAlertRuleFusion) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {

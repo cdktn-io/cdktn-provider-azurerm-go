@@ -5,14 +5,14 @@ package applicationinsightsworkbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/applicationinsightsworkbook/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationinsightsworkbook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook azurerm_application_insights_workbook}.
 type ApplicationInsightsWorkbook interface {
 	cdktn.TerraformResource
 	Category() *string
@@ -651,7 +651,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook azurerm_application_insights_workbook} Resource.
 func NewApplicationInsightsWorkbook(scope constructs.Construct, id *string, config *ApplicationInsightsWorkbookConfig) ApplicationInsightsWorkbook {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewApplicationInsightsWorkbook(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook azurerm_application_insights_workbook} Resource.
 func NewApplicationInsightsWorkbook_Override(a ApplicationInsightsWorkbook, scope constructs.Construct, id *string, config *ApplicationInsightsWorkbookConfig) {
 	_init_.Initialize()
 

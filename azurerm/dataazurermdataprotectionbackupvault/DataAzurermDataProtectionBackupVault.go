@@ -5,14 +5,14 @@ package dataazurermdataprotectionbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermdataprotectionbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermdataprotectionbackupvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault}.
 type DataAzurermDataProtectionBackupVault interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVault) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault} Data Source.
 func NewDataAzurermDataProtectionBackupVault(scope constructs.Construct, id *string, config *DataAzurermDataProtectionBackupVaultConfig) DataAzurermDataProtectionBackupVault {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDataAzurermDataProtectionBackupVault(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault} Data Source.
 func NewDataAzurermDataProtectionBackupVault_Override(d DataAzurermDataProtectionBackupVault, scope constructs.Construct, id *string, config *DataAzurermDataProtectionBackupVaultConfig) {
 	_init_.Initialize()
 

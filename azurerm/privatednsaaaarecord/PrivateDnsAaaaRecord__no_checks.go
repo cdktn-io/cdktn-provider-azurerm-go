@@ -123,6 +123,10 @@ func (j *jsiiProxy_PrivateDnsAaaaRecord) validateSetNameParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_PrivateDnsAaaaRecord) validateSetPrivateDnsZoneIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PrivateDnsAaaaRecord) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }
@@ -131,19 +135,11 @@ func (j *jsiiProxy_PrivateDnsAaaaRecord) validateSetRecordsParameters(val *[]*st
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsAaaaRecord) validateSetResourceGroupNameParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_PrivateDnsAaaaRecord) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }
 
 func (j *jsiiProxy_PrivateDnsAaaaRecord) validateSetTtlParameters(val *float64) error {
-	return nil
-}
-
-func (j *jsiiProxy_PrivateDnsAaaaRecord) validateSetZoneNameParameters(val *string) error {
 	return nil
 }
 

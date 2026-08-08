@@ -5,14 +5,14 @@ package dataazurermtemplatespecversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermtemplatespecversion/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermtemplatespecversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/template_spec_version azurerm_template_spec_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/template_spec_version azurerm_template_spec_version}.
 type DataAzurermTemplateSpecVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermTemplateSpecVersion) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/template_spec_version azurerm_template_spec_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/template_spec_version azurerm_template_spec_version} Data Source.
 func NewDataAzurermTemplateSpecVersion(scope constructs.Construct, id *string, config *DataAzurermTemplateSpecVersionConfig) DataAzurermTemplateSpecVersion {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAzurermTemplateSpecVersion(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/template_spec_version azurerm_template_spec_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/template_spec_version azurerm_template_spec_version} Data Source.
 func NewDataAzurermTemplateSpecVersion_Override(d DataAzurermTemplateSpecVersion, scope constructs.Construct, id *string, config *DataAzurermTemplateSpecVersionConfig) {
 	_init_.Initialize()
 

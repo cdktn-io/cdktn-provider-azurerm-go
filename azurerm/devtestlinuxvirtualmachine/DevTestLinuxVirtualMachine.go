@@ -5,14 +5,14 @@ package devtestlinuxvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/devtestlinuxvirtualmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/devtestlinuxvirtualmachine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine}.
 type DevTestLinuxVirtualMachine interface {
 	cdktn.TerraformResource
 	AllowClaim() interface{}
@@ -812,7 +812,7 @@ func (j *jsiiProxy_DevTestLinuxVirtualMachine) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
 func NewDevTestLinuxVirtualMachine(scope constructs.Construct, id *string, config *DevTestLinuxVirtualMachineConfig) DevTestLinuxVirtualMachine {
 	_init_.Initialize()
 
@@ -830,7 +830,7 @@ func NewDevTestLinuxVirtualMachine(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
 func NewDevTestLinuxVirtualMachine_Override(d DevTestLinuxVirtualMachine, scope constructs.Construct, id *string, config *DevTestLinuxVirtualMachineConfig) {
 	_init_.Initialize()
 

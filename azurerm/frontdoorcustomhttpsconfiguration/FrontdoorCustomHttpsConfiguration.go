@@ -5,14 +5,14 @@ package frontdoorcustomhttpsconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/frontdoorcustomhttpsconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/frontdoorcustomhttpsconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_custom_https_configuration azurerm_frontdoor_custom_https_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_custom_https_configuration azurerm_frontdoor_custom_https_configuration}.
 type FrontdoorCustomHttpsConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_FrontdoorCustomHttpsConfiguration) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_custom_https_configuration azurerm_frontdoor_custom_https_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_custom_https_configuration azurerm_frontdoor_custom_https_configuration} Resource.
 func NewFrontdoorCustomHttpsConfiguration(scope constructs.Construct, id *string, config *FrontdoorCustomHttpsConfigurationConfig) FrontdoorCustomHttpsConfiguration {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewFrontdoorCustomHttpsConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_custom_https_configuration azurerm_frontdoor_custom_https_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_custom_https_configuration azurerm_frontdoor_custom_https_configuration} Resource.
 func NewFrontdoorCustomHttpsConfiguration_Override(f FrontdoorCustomHttpsConfiguration, scope constructs.Construct, id *string, config *FrontdoorCustomHttpsConfigurationConfig) {
 	_init_.Initialize()
 

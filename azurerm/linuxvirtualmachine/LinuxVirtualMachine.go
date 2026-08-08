@@ -5,14 +5,14 @@ package linuxvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/linuxvirtualmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/linuxvirtualmachine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine}.
 type LinuxVirtualMachine interface {
 	cdktn.TerraformResource
 	AdditionalCapabilities() LinuxVirtualMachineAdditionalCapabilitiesOutputReference
@@ -201,9 +201,7 @@ type LinuxVirtualMachine interface {
 	VirtualMachineScaleSetId() *string
 	SetVirtualMachineScaleSetId(val *string)
 	VirtualMachineScaleSetIdInput() *string
-	VmAgentPlatformUpdatesEnabled() interface{}
-	SetVmAgentPlatformUpdatesEnabled(val interface{})
-	VmAgentPlatformUpdatesEnabledInput() interface{}
+	VmAgentPlatformUpdatesEnabled() cdktn.IResolvable
 	VtpmEnabled() interface{}
 	SetVtpmEnabled(val interface{})
 	VtpmEnabledInput() interface{}
@@ -360,7 +358,6 @@ type LinuxVirtualMachine interface {
 	ResetTimeouts()
 	ResetUserData()
 	ResetVirtualMachineScaleSetId()
-	ResetVmAgentPlatformUpdatesEnabled()
 	ResetVtpmEnabled()
 	ResetZone()
 	SynthesizeAttributes() *map[string]interface{}
@@ -1580,21 +1577,11 @@ func (j *jsiiProxy_LinuxVirtualMachine) VirtualMachineScaleSetIdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_LinuxVirtualMachine) VmAgentPlatformUpdatesEnabled() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_LinuxVirtualMachine) VmAgentPlatformUpdatesEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"vmAgentPlatformUpdatesEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LinuxVirtualMachine) VmAgentPlatformUpdatesEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"vmAgentPlatformUpdatesEnabledInput",
 		&returns,
 	)
 	return returns
@@ -1641,7 +1628,7 @@ func (j *jsiiProxy_LinuxVirtualMachine) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine} Resource.
 func NewLinuxVirtualMachine(scope constructs.Construct, id *string, config *LinuxVirtualMachineConfig) LinuxVirtualMachine {
 	_init_.Initialize()
 
@@ -1659,7 +1646,7 @@ func NewLinuxVirtualMachine(scope constructs.Construct, id *string, config *Linu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine} Resource.
 func NewLinuxVirtualMachine_Override(l LinuxVirtualMachine, scope constructs.Construct, id *string, config *LinuxVirtualMachineConfig) {
 	_init_.Initialize()
 
@@ -2141,17 +2128,6 @@ func (j *jsiiProxy_LinuxVirtualMachine)SetVirtualMachineScaleSetId(val *string) 
 	_jsii_.Set(
 		j,
 		"virtualMachineScaleSetId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LinuxVirtualMachine)SetVmAgentPlatformUpdatesEnabled(val interface{}) {
-	if err := j.validateSetVmAgentPlatformUpdatesEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"vmAgentPlatformUpdatesEnabled",
 		val,
 	)
 }
@@ -3038,14 +3014,6 @@ func (l *jsiiProxy_LinuxVirtualMachine) ResetVirtualMachineScaleSetId() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetVirtualMachineScaleSetId",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LinuxVirtualMachine) ResetVmAgentPlatformUpdatesEnabled() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetVmAgentPlatformUpdatesEnabled",
 		nil, // no parameters
 	)
 }

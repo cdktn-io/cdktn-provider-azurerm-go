@@ -5,14 +5,14 @@ package systemcentervirtualmachinemanagerserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/systemcentervirtualmachinemanagerserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/systemcentervirtualmachinemanagerserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_server azurerm_system_center_virtual_machine_manager_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_server azurerm_system_center_virtual_machine_manager_server}.
 type SystemCenterVirtualMachineManagerServer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -601,7 +601,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerServer) UsernameInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_server azurerm_system_center_virtual_machine_manager_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_server azurerm_system_center_virtual_machine_manager_server} Resource.
 func NewSystemCenterVirtualMachineManagerServer(scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerServerConfig) SystemCenterVirtualMachineManagerServer {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewSystemCenterVirtualMachineManagerServer(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_server azurerm_system_center_virtual_machine_manager_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/system_center_virtual_machine_manager_server azurerm_system_center_virtual_machine_manager_server} Resource.
 func NewSystemCenterVirtualMachineManagerServer_Override(s SystemCenterVirtualMachineManagerServer, scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerServerConfig) {
 	_init_.Initialize()
 

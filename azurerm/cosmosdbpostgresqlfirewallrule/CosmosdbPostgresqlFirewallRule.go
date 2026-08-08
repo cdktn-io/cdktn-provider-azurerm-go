@@ -5,14 +5,14 @@ package cosmosdbpostgresqlfirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cosmosdbpostgresqlfirewallrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cosmosdbpostgresqlfirewallrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_postgresql_firewall_rule azurerm_cosmosdb_postgresql_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_postgresql_firewall_rule azurerm_cosmosdb_postgresql_firewall_rule}.
 type CosmosdbPostgresqlFirewallRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlFirewallRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_postgresql_firewall_rule azurerm_cosmosdb_postgresql_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_postgresql_firewall_rule azurerm_cosmosdb_postgresql_firewall_rule} Resource.
 func NewCosmosdbPostgresqlFirewallRule(scope constructs.Construct, id *string, config *CosmosdbPostgresqlFirewallRuleConfig) CosmosdbPostgresqlFirewallRule {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewCosmosdbPostgresqlFirewallRule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_postgresql_firewall_rule azurerm_cosmosdb_postgresql_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_postgresql_firewall_rule azurerm_cosmosdb_postgresql_firewall_rule} Resource.
 func NewCosmosdbPostgresqlFirewallRule_Override(c CosmosdbPostgresqlFirewallRule, scope constructs.Construct, id *string, config *CosmosdbPostgresqlFirewallRuleConfig) {
 	_init_.Initialize()
 

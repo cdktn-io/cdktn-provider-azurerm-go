@@ -5,14 +5,14 @@ package healthcaremedtechservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/healthcaremedtechservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/healthcaremedtechservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/healthcare_medtech_service azurerm_healthcare_medtech_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_medtech_service azurerm_healthcare_medtech_service}.
 type HealthcareMedtechService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -601,7 +601,7 @@ func (j *jsiiProxy_HealthcareMedtechService) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/healthcare_medtech_service azurerm_healthcare_medtech_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_medtech_service azurerm_healthcare_medtech_service} Resource.
 func NewHealthcareMedtechService(scope constructs.Construct, id *string, config *HealthcareMedtechServiceConfig) HealthcareMedtechService {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewHealthcareMedtechService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/healthcare_medtech_service azurerm_healthcare_medtech_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_medtech_service azurerm_healthcare_medtech_service} Resource.
 func NewHealthcareMedtechService_Override(h HealthcareMedtechService, scope constructs.Construct, id *string, config *HealthcareMedtechServiceConfig) {
 	_init_.Initialize()
 

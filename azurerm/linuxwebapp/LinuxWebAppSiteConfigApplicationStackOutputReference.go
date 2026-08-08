@@ -5,9 +5,9 @@ package linuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/linuxwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/linuxwebapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -68,9 +68,6 @@ type LinuxWebAppSiteConfigApplicationStackOutputReference interface {
 	PythonVersion() *string
 	SetPythonVersion(val *string)
 	PythonVersionInput() *string
-	RubyVersion() *string
-	SetRubyVersion(val *string)
-	RubyVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -115,7 +112,6 @@ type LinuxWebAppSiteConfigApplicationStackOutputReference interface {
 	ResetNodeVersion()
 	ResetPhpVersion()
 	ResetPythonVersion()
-	ResetRubyVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -421,26 +417,6 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) PythonV
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) RubyVersion() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"rubyVersion",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) RubyVersionInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"rubyVersionInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -650,17 +626,6 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference)SetPytho
 	_jsii_.Set(
 		j,
 		"pythonVersion",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference)SetRubyVersion(val *string) {
-	if err := j.validateSetRubyVersionParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"rubyVersion",
 		val,
 	)
 }
@@ -965,14 +930,6 @@ func (l *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) ResetPy
 	_jsii_.InvokeVoid(
 		l,
 		"resetPythonVersion",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LinuxWebAppSiteConfigApplicationStackOutputReference) ResetRubyVersion() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetRubyVersion",
 		nil, // no parameters
 	)
 }

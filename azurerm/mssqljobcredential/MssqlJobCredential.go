@@ -5,14 +5,14 @@ package mssqljobcredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mssqljobcredential/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mssqljobcredential/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_job_credential azurerm_mssql_job_credential}.
 type MssqlJobCredential interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -535,7 +535,7 @@ func (j *jsiiProxy_MssqlJobCredential) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_job_credential azurerm_mssql_job_credential} Resource.
 func NewMssqlJobCredential(scope constructs.Construct, id *string, config *MssqlJobCredentialConfig) MssqlJobCredential {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewMssqlJobCredential(scope constructs.Construct, id *string, config *Mssql
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_job_credential azurerm_mssql_job_credential} Resource.
 func NewMssqlJobCredential_Override(m MssqlJobCredential, scope constructs.Construct, id *string, config *MssqlJobCredentialConfig) {
 	_init_.Initialize()
 

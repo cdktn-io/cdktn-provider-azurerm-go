@@ -5,14 +5,14 @@ package streamanalyticsoutputservicebusqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/streamanalyticsoutputservicebusqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/streamanalyticsoutputservicebusqueue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_output_servicebus_queue azurerm_stream_analytics_output_servicebus_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_output_servicebus_queue azurerm_stream_analytics_output_servicebus_queue}.
 type StreamAnalyticsOutputServicebusQueue interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -650,7 +650,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_output_servicebus_queue azurerm_stream_analytics_output_servicebus_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_output_servicebus_queue azurerm_stream_analytics_output_servicebus_queue} Resource.
 func NewStreamAnalyticsOutputServicebusQueue(scope constructs.Construct, id *string, config *StreamAnalyticsOutputServicebusQueueConfig) StreamAnalyticsOutputServicebusQueue {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewStreamAnalyticsOutputServicebusQueue(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_output_servicebus_queue azurerm_stream_analytics_output_servicebus_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_output_servicebus_queue azurerm_stream_analytics_output_servicebus_queue} Resource.
 func NewStreamAnalyticsOutputServicebusQueue_Override(s StreamAnalyticsOutputServicebusQueue, scope constructs.Construct, id *string, config *StreamAnalyticsOutputServicebusQueueConfig) {
 	_init_.Initialize()
 

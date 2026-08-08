@@ -147,10 +147,6 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnection) validateSetEgressNatRuleIdsP
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayConnection) validateSetEnableBgpParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_VirtualNetworkGatewayConnection) validateSetExpressRouteCircuitIdParameters(val *string) error {
 	return nil
 }

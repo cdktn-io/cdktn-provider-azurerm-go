@@ -388,6 +388,14 @@ func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetNameParameters(val *string)
 	return nil
 }
 
+func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetPrivateDnsZoneIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {
@@ -442,14 +450,6 @@ func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetRecordParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetResourceGroupNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetTagsParameters(val *map[string]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -459,14 +459,6 @@ func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetTagsParameters(val *map[str
 }
 
 func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetTtlParameters(val *float64) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_PrivateDnsCnameRecord) validateSetZoneNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

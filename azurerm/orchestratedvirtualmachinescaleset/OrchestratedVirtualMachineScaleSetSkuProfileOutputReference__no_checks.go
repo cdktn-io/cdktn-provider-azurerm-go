@@ -79,10 +79,6 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) validateSetVmSizesParameters(val *[]*string) error {
-	return nil
-}
-
 func validateNewOrchestratedVirtualMachineScaleSetSkuProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

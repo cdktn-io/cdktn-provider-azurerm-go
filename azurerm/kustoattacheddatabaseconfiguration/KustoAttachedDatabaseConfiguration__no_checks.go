@@ -115,10 +115,6 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetClusterNamePar
 	return nil
 }
 
-func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetClusterResourceIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

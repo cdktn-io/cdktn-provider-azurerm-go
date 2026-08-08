@@ -5,14 +5,14 @@ package mssqlfailovergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mssqlfailovergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mssqlfailovergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_failover_group azurerm_mssql_failover_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_failover_group azurerm_mssql_failover_group}.
 type MssqlFailoverGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_MssqlFailoverGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_failover_group azurerm_mssql_failover_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_failover_group azurerm_mssql_failover_group} Resource.
 func NewMssqlFailoverGroup(scope constructs.Construct, id *string, config *MssqlFailoverGroupConfig) MssqlFailoverGroup {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewMssqlFailoverGroup(scope constructs.Construct, id *string, config *Mssql
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_failover_group azurerm_mssql_failover_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_failover_group azurerm_mssql_failover_group} Resource.
 func NewMssqlFailoverGroup_Override(m MssqlFailoverGroup, scope constructs.Construct, id *string, config *MssqlFailoverGroupConfig) {
 	_init_.Initialize()
 

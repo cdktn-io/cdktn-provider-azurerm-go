@@ -55,8 +55,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
-			_jsii_.MemberMethod{JsiiMethod: "resetWorkspaceId", GoMethod: "ResetWorkspaceId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetWorkspaceResourceId", GoMethod: "ResetWorkspaceResourceId"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupNameInput", GoGetter: "ResourceGroupNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "storageAccountIds", GoGetter: "StorageAccountIds"},
@@ -75,8 +73,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceId", GoGetter: "WorkspaceId"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "workspaceResourceId", GoGetter: "WorkspaceResourceId"},
-			_jsii_.MemberProperty{JsiiProperty: "workspaceResourceIdInput", GoGetter: "WorkspaceResourceIdInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_LogAnalyticsLinkedStorageAccount{}

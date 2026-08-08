@@ -5,14 +5,14 @@ package workloadssapthreetiervirtualinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/workloadssapthreetiervirtualinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/workloadssapthreetiervirtualinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/workloads_sap_three_tier_virtual_instance azurerm_workloads_sap_three_tier_virtual_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/workloads_sap_three_tier_virtual_instance azurerm_workloads_sap_three_tier_virtual_instance}.
 type WorkloadsSapThreeTierVirtualInstance interface {
 	cdktn.TerraformResource
 	AppLocation() *string
@@ -672,7 +672,7 @@ func (j *jsiiProxy_WorkloadsSapThreeTierVirtualInstance) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/workloads_sap_three_tier_virtual_instance azurerm_workloads_sap_three_tier_virtual_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/workloads_sap_three_tier_virtual_instance azurerm_workloads_sap_three_tier_virtual_instance} Resource.
 func NewWorkloadsSapThreeTierVirtualInstance(scope constructs.Construct, id *string, config *WorkloadsSapThreeTierVirtualInstanceConfig) WorkloadsSapThreeTierVirtualInstance {
 	_init_.Initialize()
 
@@ -690,7 +690,7 @@ func NewWorkloadsSapThreeTierVirtualInstance(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/workloads_sap_three_tier_virtual_instance azurerm_workloads_sap_three_tier_virtual_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/workloads_sap_three_tier_virtual_instance azurerm_workloads_sap_three_tier_virtual_instance} Resource.
 func NewWorkloadsSapThreeTierVirtualInstance_Override(w WorkloadsSapThreeTierVirtualInstance, scope constructs.Construct, id *string, config *WorkloadsSapThreeTierVirtualInstanceConfig) {
 	_init_.Initialize()
 

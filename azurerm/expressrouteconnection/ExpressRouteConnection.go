@@ -5,14 +5,14 @@ package expressrouteconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/expressrouteconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/expressrouteconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_connection azurerm_express_route_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection azurerm_express_route_connection}.
 type ExpressRouteConnection interface {
 	cdktn.TerraformResource
 	AuthorizationKey() *string
@@ -34,9 +34,6 @@ type ExpressRouteConnection interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnableInternetSecurity() interface{}
-	SetEnableInternetSecurity(val interface{})
-	EnableInternetSecurityInput() interface{}
 	ExpressRouteCircuitPeeringId() *string
 	SetExpressRouteCircuitPeeringId(val *string)
 	ExpressRouteCircuitPeeringIdInput() *string
@@ -69,9 +66,6 @@ type ExpressRouteConnection interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
-	PrivateLinkFastPathEnabled() interface{}
-	SetPrivateLinkFastPathEnabled(val interface{})
-	PrivateLinkFastPathEnabledInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -190,14 +184,12 @@ type ExpressRouteConnection interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAuthorizationKey()
-	ResetEnableInternetSecurity()
 	ResetExpressRouteGatewayBypassEnabled()
 	ResetId()
 	ResetInternetSecurityEnabled()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetPrivateLinkFastPathEnabled()
 	ResetRouting()
 	ResetRoutingWeight()
 	ResetTimeouts()
@@ -293,26 +285,6 @@ func (j *jsiiProxy_ExpressRouteConnection) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ExpressRouteConnection) EnableInternetSecurity() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableInternetSecurity",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ExpressRouteConnection) EnableInternetSecurityInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableInternetSecurityInput",
 		&returns,
 	)
 	return returns
@@ -488,26 +460,6 @@ func (j *jsiiProxy_ExpressRouteConnection) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ExpressRouteConnection) PrivateLinkFastPathEnabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"privateLinkFastPathEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ExpressRouteConnection) PrivateLinkFastPathEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"privateLinkFastPathEnabledInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_ExpressRouteConnection) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -629,7 +581,7 @@ func (j *jsiiProxy_ExpressRouteConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
 func NewExpressRouteConnection(scope constructs.Construct, id *string, config *ExpressRouteConnectionConfig) ExpressRouteConnection {
 	_init_.Initialize()
 
@@ -647,7 +599,7 @@ func NewExpressRouteConnection(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
 func NewExpressRouteConnection_Override(e ExpressRouteConnection, scope constructs.Construct, id *string, config *ExpressRouteConnectionConfig) {
 	_init_.Initialize()
 
@@ -695,17 +647,6 @@ func (j *jsiiProxy_ExpressRouteConnection)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ExpressRouteConnection)SetEnableInternetSecurity(val interface{}) {
-	if err := j.validateSetEnableInternetSecurityParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableInternetSecurity",
 		val,
 	)
 }
@@ -791,17 +732,6 @@ func (j *jsiiProxy_ExpressRouteConnection)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ExpressRouteConnection)SetPrivateLinkFastPathEnabled(val interface{}) {
-	if err := j.validateSetPrivateLinkFastPathEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"privateLinkFastPathEnabled",
 		val,
 	)
 }
@@ -1246,14 +1176,6 @@ func (e *jsiiProxy_ExpressRouteConnection) ResetAuthorizationKey() {
 	)
 }
 
-func (e *jsiiProxy_ExpressRouteConnection) ResetEnableInternetSecurity() {
-	_jsii_.InvokeVoid(
-		e,
-		"resetEnableInternetSecurity",
-		nil, // no parameters
-	)
-}
-
 func (e *jsiiProxy_ExpressRouteConnection) ResetExpressRouteGatewayBypassEnabled() {
 	_jsii_.InvokeVoid(
 		e,
@@ -1282,14 +1204,6 @@ func (e *jsiiProxy_ExpressRouteConnection) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (e *jsiiProxy_ExpressRouteConnection) ResetPrivateLinkFastPathEnabled() {
-	_jsii_.InvokeVoid(
-		e,
-		"resetPrivateLinkFastPathEnabled",
 		nil, // no parameters
 	)
 }

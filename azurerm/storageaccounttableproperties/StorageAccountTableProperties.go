@@ -5,14 +5,14 @@ package storageaccounttableproperties
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storageaccounttableproperties/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageaccounttableproperties/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account_table_properties azurerm_storage_account_table_properties}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_table_properties azurerm_storage_account_table_properties}.
 type StorageAccountTableProperties interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -511,7 +511,7 @@ func (j *jsiiProxy_StorageAccountTableProperties) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account_table_properties azurerm_storage_account_table_properties} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_table_properties azurerm_storage_account_table_properties} Resource.
 func NewStorageAccountTableProperties(scope constructs.Construct, id *string, config *StorageAccountTablePropertiesConfig) StorageAccountTableProperties {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewStorageAccountTableProperties(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account_table_properties azurerm_storage_account_table_properties} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_table_properties azurerm_storage_account_table_properties} Resource.
 func NewStorageAccountTableProperties_Override(s StorageAccountTableProperties, scope constructs.Construct, id *string, config *StorageAccountTablePropertiesConfig) {
 	_init_.Initialize()
 

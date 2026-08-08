@@ -5,14 +5,14 @@ package sentineldataconnectorazuresecuritycenter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/sentineldataconnectorazuresecuritycenter/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/sentineldataconnectorazuresecuritycenter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_data_connector_azure_security_center azurerm_sentinel_data_connector_azure_security_center}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_data_connector_azure_security_center azurerm_sentinel_data_connector_azure_security_center}.
 type SentinelDataConnectorAzureSecurityCenter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_SentinelDataConnectorAzureSecurityCenter) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_data_connector_azure_security_center azurerm_sentinel_data_connector_azure_security_center} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_data_connector_azure_security_center azurerm_sentinel_data_connector_azure_security_center} Resource.
 func NewSentinelDataConnectorAzureSecurityCenter(scope constructs.Construct, id *string, config *SentinelDataConnectorAzureSecurityCenterConfig) SentinelDataConnectorAzureSecurityCenter {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewSentinelDataConnectorAzureSecurityCenter(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_data_connector_azure_security_center azurerm_sentinel_data_connector_azure_security_center} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_data_connector_azure_security_center azurerm_sentinel_data_connector_azure_security_center} Resource.
 func NewSentinelDataConnectorAzureSecurityCenter_Override(s SentinelDataConnectorAzureSecurityCenter, scope constructs.Construct, id *string, config *SentinelDataConnectorAzureSecurityCenterConfig) {
 	_init_.Initialize()
 

@@ -79,10 +79,6 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validateOverrideLog
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validatePutKeyVaultSasTokenParameters(value *DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasToken) error {
-	return nil
-}
-
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validatePutSasTokenLinkedKeyVaultKeyParameters(value *DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKey) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package keyvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/keyvault/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/keyvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault azurerm_key_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault azurerm_key_vault}.
 type KeyVault interface {
 	cdktn.TerraformResource
 	AccessPolicy() KeyVaultAccessPolicyList
@@ -25,8 +25,6 @@ type KeyVault interface {
 	SetConnection(val interface{})
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
-	Contact() KeyVaultContactList
-	ContactInput() interface{}
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -44,9 +42,6 @@ type KeyVault interface {
 	EnabledForTemplateDeployment() interface{}
 	SetEnabledForTemplateDeployment(val interface{})
 	EnabledForTemplateDeploymentInput() interface{}
-	EnableRbacAuthorization() interface{}
-	SetEnableRbacAuthorization(val interface{})
-	EnableRbacAuthorizationInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -195,7 +190,6 @@ type KeyVault interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAccessPolicy(value interface{})
-	PutContact(value interface{})
 	PutNetworkAcls(value *KeyVaultNetworkAcls)
 	PutTimeouts(value *KeyVaultTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -212,11 +206,9 @@ type KeyVault interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccessPolicy()
-	ResetContact()
 	ResetEnabledForDeployment()
 	ResetEnabledForDiskEncryption()
 	ResetEnabledForTemplateDeployment()
-	ResetEnableRbacAuthorization()
 	ResetId()
 	ResetNetworkAcls()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -224,7 +216,6 @@ type KeyVault interface {
 	ResetOverrideLogicalId()
 	ResetPublicNetworkAccessEnabled()
 	ResetPurgeProtectionEnabled()
-	ResetRbacAuthorizationEnabled()
 	ResetSoftDeleteRetentionDays()
 	ResetTags()
 	ResetTimeouts()
@@ -305,26 +296,6 @@ func (j *jsiiProxy_KeyVault) ConstructNodeMetadata() *map[string]interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_KeyVault) Contact() KeyVaultContactList {
-	var returns KeyVaultContactList
-	_jsii_.Get(
-		j,
-		"contact",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KeyVault) ContactInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"contactInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_KeyVault) Count() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -400,26 +371,6 @@ func (j *jsiiProxy_KeyVault) EnabledForTemplateDeploymentInput() interface{} {
 	_jsii_.Get(
 		j,
 		"enabledForTemplateDeploymentInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KeyVault) EnableRbacAuthorization() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableRbacAuthorization",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KeyVault) EnableRbacAuthorizationInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableRbacAuthorizationInput",
 		&returns,
 	)
 	return returns
@@ -806,7 +757,7 @@ func (j *jsiiProxy_KeyVault) VaultUri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault azurerm_key_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault azurerm_key_vault} Resource.
 func NewKeyVault(scope constructs.Construct, id *string, config *KeyVaultConfig) KeyVault {
 	_init_.Initialize()
 
@@ -824,7 +775,7 @@ func NewKeyVault(scope constructs.Construct, id *string, config *KeyVaultConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault azurerm_key_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault azurerm_key_vault} Resource.
 func NewKeyVault_Override(k KeyVault, scope constructs.Construct, id *string, config *KeyVaultConfig) {
 	_init_.Initialize()
 
@@ -894,17 +845,6 @@ func (j *jsiiProxy_KeyVault)SetEnabledForTemplateDeployment(val interface{}) {
 	_jsii_.Set(
 		j,
 		"enabledForTemplateDeployment",
-		val,
-	)
-}
-
-func (j *jsiiProxy_KeyVault)SetEnableRbacAuthorization(val interface{}) {
-	if err := j.validateSetEnableRbacAuthorizationParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableRbacAuthorization",
 		val,
 	)
 }
@@ -1448,17 +1388,6 @@ func (k *jsiiProxy_KeyVault) PutAccessPolicy(value interface{}) {
 	)
 }
 
-func (k *jsiiProxy_KeyVault) PutContact(value interface{}) {
-	if err := k.validatePutContactParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		k,
-		"putContact",
-		[]interface{}{value},
-	)
-}
-
 func (k *jsiiProxy_KeyVault) PutNetworkAcls(value *KeyVaultNetworkAcls) {
 	if err := k.validatePutNetworkAclsParameters(value); err != nil {
 		panic(err)
@@ -1500,14 +1429,6 @@ func (k *jsiiProxy_KeyVault) ResetAccessPolicy() {
 	)
 }
 
-func (k *jsiiProxy_KeyVault) ResetContact() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetContact",
-		nil, // no parameters
-	)
-}
-
 func (k *jsiiProxy_KeyVault) ResetEnabledForDeployment() {
 	_jsii_.InvokeVoid(
 		k,
@@ -1528,14 +1449,6 @@ func (k *jsiiProxy_KeyVault) ResetEnabledForTemplateDeployment() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetEnabledForTemplateDeployment",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_KeyVault) ResetEnableRbacAuthorization() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetEnableRbacAuthorization",
 		nil, // no parameters
 	)
 }
@@ -1576,14 +1489,6 @@ func (k *jsiiProxy_KeyVault) ResetPurgeProtectionEnabled() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetPurgeProtectionEnabled",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_KeyVault) ResetRbacAuthorizationEnabled() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetRbacAuthorizationEnabled",
 		nil, // no parameters
 	)
 }

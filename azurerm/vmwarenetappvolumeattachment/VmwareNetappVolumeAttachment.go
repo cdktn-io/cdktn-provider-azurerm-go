@@ -5,14 +5,14 @@ package vmwarenetappvolumeattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/vmwarenetappvolumeattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/vmwarenetappvolumeattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment}.
 type VmwareNetappVolumeAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_VmwareNetappVolumeAttachment) VmwareClusterIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment} Resource.
 func NewVmwareNetappVolumeAttachment(scope constructs.Construct, id *string, config *VmwareNetappVolumeAttachmentConfig) VmwareNetappVolumeAttachment {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewVmwareNetappVolumeAttachment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment} Resource.
 func NewVmwareNetappVolumeAttachment_Override(v VmwareNetappVolumeAttachment, scope constructs.Construct, id *string, config *VmwareNetappVolumeAttachmentConfig) {
 	_init_.Initialize()
 

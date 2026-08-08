@@ -5,18 +5,16 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/applicationgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway azurerm_application_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway azurerm_application_gateway}.
 type ApplicationGateway interface {
 	cdktn.TerraformResource
-	AuthenticationCertificate() ApplicationGatewayAuthenticationCertificateList
-	AuthenticationCertificateInput() interface{}
 	AutoscaleConfiguration() ApplicationGatewayAutoscaleConfigurationOutputReference
 	AutoscaleConfigurationInput() *ApplicationGatewayAutoscaleConfiguration
 	Backend() ApplicationGatewayBackendList
@@ -43,9 +41,6 @@ type ApplicationGateway interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnableHttp2() interface{}
-	SetEnableHttp2(val interface{})
-	EnableHttp2Input() interface{}
 	FipsEnabled() interface{}
 	SetFipsEnabled(val interface{})
 	FipsEnabledInput() interface{}
@@ -230,7 +225,6 @@ type ApplicationGateway interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutAuthenticationCertificate(value interface{})
 	PutAutoscaleConfiguration(value *ApplicationGatewayAutoscaleConfiguration)
 	PutBackend(value interface{})
 	PutBackendAddressPool(value interface{})
@@ -271,12 +265,10 @@ type ApplicationGateway interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetAuthenticationCertificate()
 	ResetAutoscaleConfiguration()
 	ResetBackend()
 	ResetBackendHttpSettings()
 	ResetCustomErrorConfiguration()
-	ResetEnableHttp2()
 	ResetFipsEnabled()
 	ResetFirewallPolicyId()
 	ResetForceFirewallPolicyAssociation()
@@ -330,26 +322,6 @@ type ApplicationGateway interface {
 // The jsii proxy struct for ApplicationGateway
 type jsiiProxy_ApplicationGateway struct {
 	internal.Type__cdktnTerraformResource
-}
-
-func (j *jsiiProxy_ApplicationGateway) AuthenticationCertificate() ApplicationGatewayAuthenticationCertificateList {
-	var returns ApplicationGatewayAuthenticationCertificateList
-	_jsii_.Get(
-		j,
-		"authenticationCertificate",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationGateway) AuthenticationCertificateInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"authenticationCertificateInput",
-		&returns,
-	)
-	return returns
 }
 
 func (j *jsiiProxy_ApplicationGateway) AutoscaleConfiguration() ApplicationGatewayAutoscaleConfigurationOutputReference {
@@ -497,26 +469,6 @@ func (j *jsiiProxy_ApplicationGateway) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationGateway) EnableHttp2() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableHttp2",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ApplicationGateway) EnableHttp2Input() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableHttp2Input",
 		&returns,
 	)
 	return returns
@@ -1283,7 +1235,7 @@ func (j *jsiiProxy_ApplicationGateway) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway azurerm_application_gateway} Resource.
 func NewApplicationGateway(scope constructs.Construct, id *string, config *ApplicationGatewayConfig) ApplicationGateway {
 	_init_.Initialize()
 
@@ -1301,7 +1253,7 @@ func NewApplicationGateway(scope constructs.Construct, id *string, config *Appli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway azurerm_application_gateway} Resource.
 func NewApplicationGateway_Override(a ApplicationGateway, scope constructs.Construct, id *string, config *ApplicationGatewayConfig) {
 	_init_.Initialize()
 
@@ -1338,17 +1290,6 @@ func (j *jsiiProxy_ApplicationGateway)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ApplicationGateway)SetEnableHttp2(val interface{}) {
-	if err := j.validateSetEnableHttp2Parameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableHttp2",
 		val,
 	)
 }
@@ -1870,17 +1811,6 @@ func (a *jsiiProxy_ApplicationGateway) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
-func (a *jsiiProxy_ApplicationGateway) PutAuthenticationCertificate(value interface{}) {
-	if err := a.validatePutAuthenticationCertificateParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		a,
-		"putAuthenticationCertificate",
-		[]interface{}{value},
-	)
-}
-
 func (a *jsiiProxy_ApplicationGateway) PutAutoscaleConfiguration(value *ApplicationGatewayAutoscaleConfiguration) {
 	if err := a.validatePutAutoscaleConfigurationParameters(value); err != nil {
 		panic(err)
@@ -2189,14 +2119,6 @@ func (a *jsiiProxy_ApplicationGateway) RegisterProviderFeatureUsage(feature cdkt
 	)
 }
 
-func (a *jsiiProxy_ApplicationGateway) ResetAuthenticationCertificate() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetAuthenticationCertificate",
-		nil, // no parameters
-	)
-}
-
 func (a *jsiiProxy_ApplicationGateway) ResetAutoscaleConfiguration() {
 	_jsii_.InvokeVoid(
 		a,
@@ -2225,14 +2147,6 @@ func (a *jsiiProxy_ApplicationGateway) ResetCustomErrorConfiguration() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetCustomErrorConfiguration",
-		nil, // no parameters
-	)
-}
-
-func (a *jsiiProxy_ApplicationGateway) ResetEnableHttp2() {
-	_jsii_.InvokeVoid(
-		a,
-		"resetEnableHttp2",
 		nil, // no parameters
 	)
 }

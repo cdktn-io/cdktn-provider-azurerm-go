@@ -70,7 +70,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "location", GoGetter: "Location"},
 			_jsii_.MemberProperty{JsiiProperty: "locationInput", GoGetter: "LocationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "markWriteOnlyAttribute", GoMethod: "MarkWriteOnlyAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "mountIpAddresses", GoGetter: "MountIpAddresses"},
+			_jsii_.MemberProperty{JsiiProperty: "mountTarget", GoGetter: "MountTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
@@ -442,8 +442,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "kerberos5ReadWriteEnabledInput", GoGetter: "Kerberos5ReadWriteEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "protocol", GoGetter: "Protocol"},
 			_jsii_.MemberProperty{JsiiProperty: "protocolInput", GoGetter: "ProtocolInput"},
-			_jsii_.MemberProperty{JsiiProperty: "protocolsEnabled", GoGetter: "ProtocolsEnabled"},
-			_jsii_.MemberProperty{JsiiProperty: "protocolsEnabledInput", GoGetter: "ProtocolsEnabledInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKerberos5IReadOnlyEnabled", GoMethod: "ResetKerberos5IReadOnlyEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKerberos5IReadWriteEnabled", GoMethod: "ResetKerberos5IReadWriteEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKerberos5PReadOnlyEnabled", GoMethod: "ResetKerberos5PReadOnlyEnabled"},
@@ -451,7 +449,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetKerberos5ReadOnlyEnabled", GoMethod: "ResetKerberos5ReadOnlyEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKerberos5ReadWriteEnabled", GoMethod: "ResetKerberos5ReadWriteEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProtocol", GoMethod: "ResetProtocol"},
-			_jsii_.MemberMethod{JsiiMethod: "resetProtocolsEnabled", GoMethod: "ResetProtocolsEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRootAccessEnabled", GoMethod: "ResetRootAccessEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUnixReadOnly", GoMethod: "ResetUnixReadOnly"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUnixReadWrite", GoMethod: "ResetUnixReadWrite"},
@@ -470,6 +467,65 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeExportPolicyRuleOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeMountTarget",
+		reflect.TypeOf((*NetappVolumeMountTarget)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeMountTargetList",
+		reflect.TypeOf((*NetappVolumeMountTargetList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_NetappVolumeMountTargetList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeMountTargetOutputReference",
+		reflect.TypeOf((*NetappVolumeMountTargetOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ipAddress", GoGetter: "IpAddress"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "smbServerFqdn", GoGetter: "SmbServerFqdn"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_NetappVolumeMountTargetOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

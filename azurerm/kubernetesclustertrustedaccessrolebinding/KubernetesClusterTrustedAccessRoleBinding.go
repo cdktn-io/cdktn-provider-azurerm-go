@@ -5,14 +5,14 @@ package kubernetesclustertrustedaccessrolebinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/kubernetesclustertrustedaccessrolebinding/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/kubernetesclustertrustedaccessrolebinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster_trusted_access_role_binding azurerm_kubernetes_cluster_trusted_access_role_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster_trusted_access_role_binding azurerm_kubernetes_cluster_trusted_access_role_binding}.
 type KubernetesClusterTrustedAccessRoleBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_KubernetesClusterTrustedAccessRoleBinding) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster_trusted_access_role_binding azurerm_kubernetes_cluster_trusted_access_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster_trusted_access_role_binding azurerm_kubernetes_cluster_trusted_access_role_binding} Resource.
 func NewKubernetesClusterTrustedAccessRoleBinding(scope constructs.Construct, id *string, config *KubernetesClusterTrustedAccessRoleBindingConfig) KubernetesClusterTrustedAccessRoleBinding {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewKubernetesClusterTrustedAccessRoleBinding(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster_trusted_access_role_binding azurerm_kubernetes_cluster_trusted_access_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster_trusted_access_role_binding azurerm_kubernetes_cluster_trusted_access_role_binding} Resource.
 func NewKubernetesClusterTrustedAccessRoleBinding_Override(k KubernetesClusterTrustedAccessRoleBinding, scope constructs.Construct, id *string, config *KubernetesClusterTrustedAccessRoleBindingConfig) {
 	_init_.Initialize()
 

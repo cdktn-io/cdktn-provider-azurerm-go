@@ -53,6 +53,11 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "networkSecurityGroupId", GoGetter: "NetworkSecurityGroupId"},
+			_jsii_.MemberProperty{JsiiProperty: "networkSecurityGroupIdWo", GoGetter: "NetworkSecurityGroupIdWo"},
+			_jsii_.MemberProperty{JsiiProperty: "networkSecurityGroupIdWoInput", GoGetter: "NetworkSecurityGroupIdWoInput"},
+			_jsii_.MemberProperty{JsiiProperty: "networkSecurityGroupIdWoVersion", GoGetter: "NetworkSecurityGroupIdWoVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "networkSecurityGroupIdWoVersionInput", GoGetter: "NetworkSecurityGroupIdWoVersionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "privateEndpointNetworkPolicies", GoGetter: "PrivateEndpointNetworkPolicies"},
@@ -63,6 +68,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putDelegation", GoMethod: "PutDelegation"},
 			_jsii_.MemberMethod{JsiiMethod: "putIpAddressPool", GoMethod: "PutIpAddressPool"},
+			_jsii_.MemberMethod{JsiiMethod: "putServiceEndpoint", GoMethod: "PutServiceEndpoint"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
@@ -71,19 +77,28 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDelegation", GoMethod: "ResetDelegation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIpAddressPool", GoMethod: "ResetIpAddressPool"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNetworkSecurityGroupIdWo", GoMethod: "ResetNetworkSecurityGroupIdWo"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNetworkSecurityGroupIdWoVersion", GoMethod: "ResetNetworkSecurityGroupIdWoVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPrivateEndpointNetworkPolicies", GoMethod: "ResetPrivateEndpointNetworkPolicies"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPrivateLinkServiceNetworkPoliciesEnabled", GoMethod: "ResetPrivateLinkServiceNetworkPoliciesEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRouteTableIdWo", GoMethod: "ResetRouteTableIdWo"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRouteTableIdWoVersion", GoMethod: "ResetRouteTableIdWoVersion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetServiceEndpoint", GoMethod: "ResetServiceEndpoint"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServiceEndpointPolicyIds", GoMethod: "ResetServiceEndpointPolicyIds"},
-			_jsii_.MemberMethod{JsiiMethod: "resetServiceEndpoints", GoMethod: "ResetServiceEndpoints"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSharingScope", GoMethod: "ResetSharingScope"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupNameInput", GoGetter: "ResourceGroupNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "routeTableId", GoGetter: "RouteTableId"},
+			_jsii_.MemberProperty{JsiiProperty: "routeTableIdWo", GoGetter: "RouteTableIdWo"},
+			_jsii_.MemberProperty{JsiiProperty: "routeTableIdWoInput", GoGetter: "RouteTableIdWoInput"},
+			_jsii_.MemberProperty{JsiiProperty: "routeTableIdWoVersion", GoGetter: "RouteTableIdWoVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "routeTableIdWoVersionInput", GoGetter: "RouteTableIdWoVersionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceEndpoint", GoGetter: "ServiceEndpoint"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceEndpointInput", GoGetter: "ServiceEndpointInput"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceEndpointPolicyIds", GoGetter: "ServiceEndpointPolicyIds"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceEndpointPolicyIdsInput", GoGetter: "ServiceEndpointPolicyIdsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "serviceEndpoints", GoGetter: "ServiceEndpoints"},
-			_jsii_.MemberProperty{JsiiProperty: "serviceEndpointsInput", GoGetter: "ServiceEndpointsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "sharingScope", GoGetter: "SharingScope"},
 			_jsii_.MemberProperty{JsiiProperty: "sharingScopeInput", GoGetter: "SharingScopeInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
@@ -252,6 +267,69 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SubnetIpAddressPoolOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.subnet.SubnetServiceEndpoint",
+		reflect.TypeOf((*SubnetServiceEndpoint)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.subnet.SubnetServiceEndpointList",
+		reflect.TypeOf((*SubnetServiceEndpointList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SubnetServiceEndpointList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.subnet.SubnetServiceEndpointOutputReference",
+		reflect.TypeOf((*SubnetServiceEndpointOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "networkIdentifier", GoGetter: "NetworkIdentifier"},
+			_jsii_.MemberProperty{JsiiProperty: "networkIdentifierInput", GoGetter: "NetworkIdentifierInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNetworkIdentifier", GoMethod: "ResetNetworkIdentifier"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "service", GoGetter: "Service"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceInput", GoGetter: "ServiceInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SubnetServiceEndpointOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

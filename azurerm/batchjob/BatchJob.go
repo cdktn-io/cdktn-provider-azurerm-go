@@ -5,14 +5,14 @@ package batchjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/batchjob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/batchjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_job azurerm_batch_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_job azurerm_batch_job}.
 type BatchJob interface {
 	cdktn.TerraformResource
 	BatchPoolId() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_BatchJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_job azurerm_batch_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_job azurerm_batch_job} Resource.
 func NewBatchJob(scope constructs.Construct, id *string, config *BatchJobConfig) BatchJob {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewBatchJob(scope constructs.Construct, id *string, config *BatchJobConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_job azurerm_batch_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_job azurerm_batch_job} Resource.
 func NewBatchJob_Override(b BatchJob, scope constructs.Construct, id *string, config *BatchJobConfig) {
 	_init_.Initialize()
 

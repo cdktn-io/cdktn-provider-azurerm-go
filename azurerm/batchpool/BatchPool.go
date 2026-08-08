@@ -5,14 +5,14 @@ package batchpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/batchpool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/batchpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool azurerm_batch_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_pool azurerm_batch_pool}.
 type BatchPool interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -22,8 +22,6 @@ type BatchPool interface {
 	AutoScaleInput() *BatchPoolAutoScale
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
-	Certificate() BatchPoolCertificateList
-	CertificateInput() interface{}
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -219,7 +217,6 @@ type BatchPool interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoScale(value *BatchPoolAutoScale)
-	PutCertificate(value interface{})
 	PutContainerConfiguration(value *BatchPoolContainerConfiguration)
 	PutDataDisks(value interface{})
 	PutDiskEncryption(value interface{})
@@ -250,7 +247,6 @@ type BatchPool interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAutoScale()
-	ResetCertificate()
 	ResetContainerConfiguration()
 	ResetDataDisks()
 	ResetDiskEncryption()
@@ -350,26 +346,6 @@ func (j *jsiiProxy_BatchPool) CdktfStack() cdktn.TerraformStack {
 	_jsii_.Get(
 		j,
 		"cdktfStack",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_BatchPool) Certificate() BatchPoolCertificateList {
-	var returns BatchPoolCertificateList
-	_jsii_.Get(
-		j,
-		"certificate",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_BatchPool) CertificateInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"certificateInput",
 		&returns,
 	)
 	return returns
@@ -1106,7 +1082,7 @@ func (j *jsiiProxy_BatchPool) WindowsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool azurerm_batch_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_pool azurerm_batch_pool} Resource.
 func NewBatchPool(scope constructs.Construct, id *string, config *BatchPoolConfig) BatchPool {
 	_init_.Initialize()
 
@@ -1124,7 +1100,7 @@ func NewBatchPool(scope constructs.Construct, id *string, config *BatchPoolConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool azurerm_batch_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_pool azurerm_batch_pool} Resource.
 func NewBatchPool_Override(b BatchPool, scope constructs.Construct, id *string, config *BatchPoolConfig) {
 	_init_.Initialize()
 
@@ -1737,17 +1713,6 @@ func (b *jsiiProxy_BatchPool) PutAutoScale(value *BatchPoolAutoScale) {
 	)
 }
 
-func (b *jsiiProxy_BatchPool) PutCertificate(value interface{}) {
-	if err := b.validatePutCertificateParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		b,
-		"putCertificate",
-		[]interface{}{value},
-	)
-}
-
 func (b *jsiiProxy_BatchPool) PutContainerConfiguration(value *BatchPoolContainerConfiguration) {
 	if err := b.validatePutContainerConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1939,14 +1904,6 @@ func (b *jsiiProxy_BatchPool) ResetAutoScale() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetAutoScale",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BatchPool) ResetCertificate() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetCertificate",
 		nil, // no parameters
 	)
 }

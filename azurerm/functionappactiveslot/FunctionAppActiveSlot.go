@@ -5,14 +5,14 @@ package functionappactiveslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/functionappactiveslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/functionappactiveslot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_active_slot azurerm_function_app_active_slot}.
 type FunctionAppActiveSlot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_FunctionAppActiveSlot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
 func NewFunctionAppActiveSlot(scope constructs.Construct, id *string, config *FunctionAppActiveSlotConfig) FunctionAppActiveSlot {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewFunctionAppActiveSlot(scope constructs.Construct, id *string, config *Fu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
 func NewFunctionAppActiveSlot_Override(f FunctionAppActiveSlot, scope constructs.Construct, id *string, config *FunctionAppActiveSlotConfig) {
 	_init_.Initialize()
 

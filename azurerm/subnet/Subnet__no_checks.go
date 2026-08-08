@@ -87,6 +87,10 @@ func (s *jsiiProxy_Subnet) validatePutIpAddressPoolParameters(value *SubnetIpAdd
 	return nil
 }
 
+func (s *jsiiProxy_Subnet) validatePutServiceEndpointParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Subnet) validatePutTimeoutsParameters(value *SubnetTimeouts) error {
 	return nil
 }
@@ -139,6 +143,14 @@ func (j *jsiiProxy_Subnet) validateSetNameParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_Subnet) validateSetNetworkSecurityGroupIdWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Subnet) validateSetNetworkSecurityGroupIdWoVersionParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_Subnet) validateSetPrivateEndpointNetworkPoliciesParameters(val *string) error {
 	return nil
 }
@@ -155,11 +167,15 @@ func (j *jsiiProxy_Subnet) validateSetResourceGroupNameParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_Subnet) validateSetServiceEndpointPolicyIdsParameters(val *[]*string) error {
+func (j *jsiiProxy_Subnet) validateSetRouteTableIdWoParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_Subnet) validateSetServiceEndpointsParameters(val *[]*string) error {
+func (j *jsiiProxy_Subnet) validateSetRouteTableIdWoVersionParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_Subnet) validateSetServiceEndpointPolicyIdsParameters(val *[]*string) error {
 	return nil
 }
 

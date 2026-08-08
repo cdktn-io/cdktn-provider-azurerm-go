@@ -5,14 +5,14 @@ package dataazurermloganalyticsworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermloganalyticsworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermloganalyticsworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace}.
 type DataAzurermLogAnalyticsWorkspace interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -39,6 +39,8 @@ type DataAzurermLogAnalyticsWorkspace interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	InternetIngestionAccessType() *string
+	InternetQueryAccessType() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -239,6 +241,26 @@ func (j *jsiiProxy_DataAzurermLogAnalyticsWorkspace) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermLogAnalyticsWorkspace) InternetIngestionAccessType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"internetIngestionAccessType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermLogAnalyticsWorkspace) InternetQueryAccessType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"internetQueryAccessType",
 		&returns,
 	)
 	return returns
@@ -445,7 +467,7 @@ func (j *jsiiProxy_DataAzurermLogAnalyticsWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace} Data Source.
 func NewDataAzurermLogAnalyticsWorkspace(scope constructs.Construct, id *string, config *DataAzurermLogAnalyticsWorkspaceConfig) DataAzurermLogAnalyticsWorkspace {
 	_init_.Initialize()
 
@@ -463,7 +485,7 @@ func NewDataAzurermLogAnalyticsWorkspace(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace} Data Source.
 func NewDataAzurermLogAnalyticsWorkspace_Override(d DataAzurermLogAnalyticsWorkspace, scope constructs.Construct, id *string, config *DataAzurermLogAnalyticsWorkspaceConfig) {
 	_init_.Initialize()
 

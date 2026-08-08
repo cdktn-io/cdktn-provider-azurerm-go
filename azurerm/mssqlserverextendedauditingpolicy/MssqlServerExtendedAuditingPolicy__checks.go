@@ -282,6 +282,14 @@ func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetAuditActionsAnd
 	return nil
 }
 
+func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetBlobStorageEndpointParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetConnectionParameters(val interface{}) error {
 	switch val.(type) {
 	case *cdktn.SSHProvisionerConnection:
@@ -527,14 +535,6 @@ func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetStorageAccountA
 }
 
 func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetStorageAccountSubscriptionIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetStorageEndpointParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

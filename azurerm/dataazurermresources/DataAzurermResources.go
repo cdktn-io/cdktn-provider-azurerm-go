@@ -5,14 +5,14 @@ package dataazurermresources
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermresources/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermresources/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/resources azurerm_resources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/resources azurerm_resources}.
 type DataAzurermResources interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAzurermResources) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/resources azurerm_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/resources azurerm_resources} Data Source.
 func NewDataAzurermResources(scope constructs.Construct, id *string, config *DataAzurermResourcesConfig) DataAzurermResources {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAzurermResources(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/resources azurerm_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/resources azurerm_resources} Data Source.
 func NewDataAzurermResources_Override(d DataAzurermResources, scope constructs.Construct, id *string, config *DataAzurermResourcesConfig) {
 	_init_.Initialize()
 

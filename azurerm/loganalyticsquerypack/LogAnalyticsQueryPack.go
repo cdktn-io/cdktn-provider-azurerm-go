@@ -5,14 +5,14 @@ package loganalyticsquerypack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/loganalyticsquerypack/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/loganalyticsquerypack/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_query_pack azurerm_log_analytics_query_pack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_query_pack azurerm_log_analytics_query_pack}.
 type LogAnalyticsQueryPack interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_LogAnalyticsQueryPack) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_query_pack azurerm_log_analytics_query_pack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_query_pack azurerm_log_analytics_query_pack} Resource.
 func NewLogAnalyticsQueryPack(scope constructs.Construct, id *string, config *LogAnalyticsQueryPackConfig) LogAnalyticsQueryPack {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewLogAnalyticsQueryPack(scope constructs.Construct, id *string, config *Lo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_query_pack azurerm_log_analytics_query_pack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_query_pack azurerm_log_analytics_query_pack} Resource.
 func NewLogAnalyticsQueryPack_Override(l LogAnalyticsQueryPack, scope constructs.Construct, id *string, config *LogAnalyticsQueryPackConfig) {
 	_init_.Initialize()
 

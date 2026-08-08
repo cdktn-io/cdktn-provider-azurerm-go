@@ -5,14 +5,14 @@ package virtualnetworkgatewayconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/virtualnetworkgatewayconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualnetworkgatewayconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection}.
 type VirtualNetworkGatewayConnection interface {
 	cdktn.TerraformResource
 	AuthorizationKey() *string
@@ -51,9 +51,6 @@ type VirtualNetworkGatewayConnection interface {
 	EgressNatRuleIds() *[]*string
 	SetEgressNatRuleIds(val *[]*string)
 	EgressNatRuleIdsInput() *[]*string
-	EnableBgp() interface{}
-	SetEnableBgp(val interface{})
-	EnableBgpInput() interface{}
 	ExpressRouteCircuitId() *string
 	SetExpressRouteCircuitId(val *string)
 	ExpressRouteCircuitIdInput() *string
@@ -244,7 +241,6 @@ type VirtualNetworkGatewayConnection interface {
 	ResetCustomBgpAddresses()
 	ResetDpdTimeoutSeconds()
 	ResetEgressNatRuleIds()
-	ResetEnableBgp()
 	ResetExpressRouteCircuitId()
 	ResetExpressRouteGatewayBypass()
 	ResetId()
@@ -475,26 +471,6 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnection) EgressNatRuleIdsInput() *[]*
 	_jsii_.Get(
 		j,
 		"egressNatRuleIdsInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_VirtualNetworkGatewayConnection) EnableBgp() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableBgp",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_VirtualNetworkGatewayConnection) EnableBgpInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableBgpInput",
 		&returns,
 	)
 	return returns
@@ -1011,7 +987,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnection) VirtualNetworkGatewayIdInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Resource.
 func NewVirtualNetworkGatewayConnection(scope constructs.Construct, id *string, config *VirtualNetworkGatewayConnectionConfig) VirtualNetworkGatewayConnection {
 	_init_.Initialize()
 
@@ -1029,7 +1005,7 @@ func NewVirtualNetworkGatewayConnection(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Resource.
 func NewVirtualNetworkGatewayConnection_Override(v VirtualNetworkGatewayConnection, scope constructs.Construct, id *string, config *VirtualNetworkGatewayConnectionConfig) {
 	_init_.Initialize()
 
@@ -1132,17 +1108,6 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnection)SetEgressNatRuleIds(val *[]*s
 	_jsii_.Set(
 		j,
 		"egressNatRuleIds",
-		val,
-	)
-}
-
-func (j *jsiiProxy_VirtualNetworkGatewayConnection)SetEnableBgp(val interface{}) {
-	if err := j.validateSetEnableBgpParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableBgp",
 		val,
 	)
 }
@@ -1848,14 +1813,6 @@ func (v *jsiiProxy_VirtualNetworkGatewayConnection) ResetEgressNatRuleIds() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetEgressNatRuleIds",
-		nil, // no parameters
-	)
-}
-
-func (v *jsiiProxy_VirtualNetworkGatewayConnection) ResetEnableBgp() {
-	_jsii_.InvokeVoid(
-		v,
-		"resetEnableBgp",
 		nil, // no parameters
 	)
 }

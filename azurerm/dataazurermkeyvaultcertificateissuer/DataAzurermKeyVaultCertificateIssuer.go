@@ -5,14 +5,14 @@ package dataazurermkeyvaultcertificateissuer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermkeyvaultcertificateissuer/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermkeyvaultcertificateissuer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer}.
 type DataAzurermKeyVaultCertificateIssuer interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultCertificateIssuer) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Data Source.
 func NewDataAzurermKeyVaultCertificateIssuer(scope constructs.Construct, id *string, config *DataAzurermKeyVaultCertificateIssuerConfig) DataAzurermKeyVaultCertificateIssuer {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDataAzurermKeyVaultCertificateIssuer(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Data Source.
 func NewDataAzurermKeyVaultCertificateIssuer_Override(d DataAzurermKeyVaultCertificateIssuer, scope constructs.Construct, id *string, config *DataAzurermKeyVaultCertificateIssuerConfig) {
 	_init_.Initialize()
 

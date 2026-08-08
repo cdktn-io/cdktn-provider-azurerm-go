@@ -75,10 +75,6 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetIntern
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetMinimumVersionParameters(val *string) error {
 	return nil
 }

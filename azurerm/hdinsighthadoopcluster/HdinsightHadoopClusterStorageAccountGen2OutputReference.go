@@ -5,9 +5,9 @@ package hdinsighthadoopcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/hdinsighthadoopcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/hdinsighthadoopcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,12 +38,9 @@ type HdinsightHadoopClusterStorageAccountGen2OutputReference interface {
 	IsDefault() interface{}
 	SetIsDefault(val interface{})
 	IsDefaultInput() interface{}
-	ManagedIdentityResourceId() *string
-	SetManagedIdentityResourceId(val *string)
-	ManagedIdentityResourceIdInput() *string
-	StorageResourceId() *string
-	SetStorageResourceId(val *string)
-	StorageResourceIdInput() *string
+	StorageAccountId() *string
+	SetStorageAccountId(val *string)
+	StorageAccountIdInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -52,6 +49,9 @@ type HdinsightHadoopClusterStorageAccountGen2OutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UserAssignedIdentityId() *string
+	SetUserAssignedIdentityId(val *string)
+	UserAssignedIdentityIdInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -181,41 +181,21 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) IsDe
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) ManagedIdentityResourceId() *string {
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) StorageAccountId() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"managedIdentityResourceId",
+		"storageAccountId",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) ManagedIdentityResourceIdInput() *string {
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) StorageAccountIdInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"managedIdentityResourceIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) StorageResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageResourceId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) StorageResourceIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageResourceIdInput",
+		"storageAccountIdInput",
 		&returns,
 	)
 	return returns
@@ -236,6 +216,26 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) Terr
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) UserAssignedIdentityId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"userAssignedIdentityId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) UserAssignedIdentityIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"userAssignedIdentityIdInput",
 		&returns,
 	)
 	return returns
@@ -324,24 +324,13 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference)SetIs
 	)
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference)SetManagedIdentityResourceId(val *string) {
-	if err := j.validateSetManagedIdentityResourceIdParameters(val); err != nil {
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference)SetStorageAccountId(val *string) {
+	if err := j.validateSetStorageAccountIdParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"managedIdentityResourceId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference)SetStorageResourceId(val *string) {
-	if err := j.validateSetStorageResourceIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"storageResourceId",
+		"storageAccountId",
 		val,
 	)
 }
@@ -364,6 +353,17 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference)SetTe
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference)SetUserAssignedIdentityId(val *string) {
+	if err := j.validateSetUserAssignedIdentityIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"userAssignedIdentityId",
 		val,
 	)
 }

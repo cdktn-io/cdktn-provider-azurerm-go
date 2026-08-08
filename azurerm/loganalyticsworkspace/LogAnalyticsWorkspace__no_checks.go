@@ -139,19 +139,15 @@ func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetImmediateDataPurgeOn30DaysE
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetIngestionEnabledParameters(val interface{}) error {
+func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetIngestionAccessTypeParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetQueryEnabledParameters(val interface{}) error {
+func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetQueryAccessTypeParameters(val *string) error {
 	return nil
 }
 
 func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
-	return nil
-}
-
-func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetLocalAuthenticationDisabledParameters(val interface{}) error {
 	return nil
 }
 

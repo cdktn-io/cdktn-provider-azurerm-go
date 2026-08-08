@@ -5,14 +5,14 @@ package dataazurermprivatednstxtrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermprivatednstxtrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermprivatednstxtrecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_dns_txt_record azurerm_private_dns_txt_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/private_dns_txt_record azurerm_private_dns_txt_record}.
 type DataAzurermPrivateDnsTxtRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsTxtRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_dns_txt_record azurerm_private_dns_txt_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/private_dns_txt_record azurerm_private_dns_txt_record} Data Source.
 func NewDataAzurermPrivateDnsTxtRecord(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsTxtRecordConfig) DataAzurermPrivateDnsTxtRecord {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataAzurermPrivateDnsTxtRecord(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_dns_txt_record azurerm_private_dns_txt_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/private_dns_txt_record azurerm_private_dns_txt_record} Data Source.
 func NewDataAzurermPrivateDnsTxtRecord_Override(d DataAzurermPrivateDnsTxtRecord, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsTxtRecordConfig) {
 	_init_.Initialize()
 

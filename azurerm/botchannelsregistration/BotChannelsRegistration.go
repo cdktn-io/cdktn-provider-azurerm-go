@@ -5,14 +5,14 @@ package botchannelsregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/botchannelsregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/botchannelsregistration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channels_registration azurerm_bot_channels_registration}.
 type BotChannelsRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -226,7 +226,6 @@ type BotChannelsRegistration interface {
 	ResetIconUrl()
 	ResetId()
 	ResetMicrosoftAppTenantId()
-	ResetMicrosoftAppType()
 	ResetMicrosoftAppUserAssignedIdentityId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -843,7 +842,7 @@ func (j *jsiiProxy_BotChannelsRegistration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channels_registration azurerm_bot_channels_registration} Resource.
 func NewBotChannelsRegistration(scope constructs.Construct, id *string, config *BotChannelsRegistrationConfig) BotChannelsRegistration {
 	_init_.Initialize()
 
@@ -861,7 +860,7 @@ func NewBotChannelsRegistration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channels_registration azurerm_bot_channels_registration} Resource.
 func NewBotChannelsRegistration_Override(b BotChannelsRegistration, scope constructs.Construct, id *string, config *BotChannelsRegistrationConfig) {
 	_init_.Initialize()
 
@@ -1627,14 +1626,6 @@ func (b *jsiiProxy_BotChannelsRegistration) ResetMicrosoftAppTenantId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetMicrosoftAppTenantId",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BotChannelsRegistration) ResetMicrosoftAppType() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetMicrosoftAppType",
 		nil, // no parameters
 	)
 }

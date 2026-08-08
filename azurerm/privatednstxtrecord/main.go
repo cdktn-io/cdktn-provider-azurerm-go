@@ -48,6 +48,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "privateDnsZoneId", GoGetter: "PrivateDnsZoneId"},
+			_jsii_.MemberProperty{JsiiProperty: "privateDnsZoneIdInput", GoGetter: "PrivateDnsZoneIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putRecord", GoMethod: "PutRecord"},
@@ -60,8 +62,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
-			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
-			_jsii_.MemberProperty{JsiiProperty: "resourceGroupNameInput", GoGetter: "ResourceGroupNameInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
@@ -78,8 +78,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ttl", GoGetter: "Ttl"},
 			_jsii_.MemberProperty{JsiiProperty: "ttlInput", GoGetter: "TtlInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-			_jsii_.MemberProperty{JsiiProperty: "zoneName", GoGetter: "ZoneName"},
-			_jsii_.MemberProperty{JsiiProperty: "zoneNameInput", GoGetter: "ZoneNameInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivateDnsTxtRecord{}

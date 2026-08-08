@@ -83,10 +83,6 @@ func (k *jsiiProxy_KeyVault) validatePutAccessPolicyParameters(value interface{}
 	return nil
 }
 
-func (k *jsiiProxy_KeyVault) validatePutContactParameters(value interface{}) error {
-	return nil
-}
-
 func (k *jsiiProxy_KeyVault) validatePutNetworkAclsParameters(value *KeyVaultNetworkAcls) error {
 	return nil
 }
@@ -132,10 +128,6 @@ func (j *jsiiProxy_KeyVault) validateSetEnabledForDiskEncryptionParameters(val i
 }
 
 func (j *jsiiProxy_KeyVault) validateSetEnabledForTemplateDeploymentParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_KeyVault) validateSetEnableRbacAuthorizationParameters(val interface{}) error {
 	return nil
 }
 

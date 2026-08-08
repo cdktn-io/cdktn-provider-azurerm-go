@@ -5,14 +5,14 @@ package recoveryservicesvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/recoveryservicesvault/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/recoveryservicesvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/recovery_services_vault azurerm_recovery_services_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/recovery_services_vault azurerm_recovery_services_vault}.
 type RecoveryServicesVault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -88,9 +88,6 @@ type RecoveryServicesVault interface {
 	Sku() *string
 	SetSku(val *string)
 	SkuInput() *string
-	SoftDeleteEnabled() interface{}
-	SetSoftDeleteEnabled(val interface{})
-	SoftDeleteEnabledInput() interface{}
 	StorageModeType() *string
 	SetStorageModeType(val *string)
 	StorageModeTypeInput() *string
@@ -212,7 +209,6 @@ type RecoveryServicesVault interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPublicNetworkAccessEnabled()
-	ResetSoftDeleteEnabled()
 	ResetStorageModeType()
 	ResetTags()
 	ResetTimeouts()
@@ -613,26 +609,6 @@ func (j *jsiiProxy_RecoveryServicesVault) SkuInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RecoveryServicesVault) SoftDeleteEnabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"softDeleteEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_RecoveryServicesVault) SoftDeleteEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"softDeleteEnabledInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_RecoveryServicesVault) StorageModeType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -724,7 +700,7 @@ func (j *jsiiProxy_RecoveryServicesVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/recovery_services_vault azurerm_recovery_services_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/recovery_services_vault azurerm_recovery_services_vault} Resource.
 func NewRecoveryServicesVault(scope constructs.Construct, id *string, config *RecoveryServicesVaultConfig) RecoveryServicesVault {
 	_init_.Initialize()
 
@@ -742,7 +718,7 @@ func NewRecoveryServicesVault(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/recovery_services_vault azurerm_recovery_services_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/recovery_services_vault azurerm_recovery_services_vault} Resource.
 func NewRecoveryServicesVault_Override(r RecoveryServicesVault, scope constructs.Construct, id *string, config *RecoveryServicesVaultConfig) {
 	_init_.Initialize()
 
@@ -916,17 +892,6 @@ func (j *jsiiProxy_RecoveryServicesVault)SetSku(val *string) {
 	_jsii_.Set(
 		j,
 		"sku",
-		val,
-	)
-}
-
-func (j *jsiiProxy_RecoveryServicesVault)SetSoftDeleteEnabled(val interface{}) {
-	if err := j.validateSetSoftDeleteEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"softDeleteEnabled",
 		val,
 	)
 }
@@ -1445,14 +1410,6 @@ func (r *jsiiProxy_RecoveryServicesVault) ResetPublicNetworkAccessEnabled() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetPublicNetworkAccessEnabled",
-		nil, // no parameters
-	)
-}
-
-func (r *jsiiProxy_RecoveryServicesVault) ResetSoftDeleteEnabled() {
-	_jsii_.InvokeVoid(
-		r,
-		"resetSoftDeleteEnabled",
 		nil, // no parameters
 	)
 }

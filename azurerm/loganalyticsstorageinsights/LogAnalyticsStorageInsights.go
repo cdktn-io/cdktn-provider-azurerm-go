@@ -5,14 +5,14 @@ package loganalyticsstorageinsights
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/loganalyticsstorageinsights/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/loganalyticsstorageinsights/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights}.
 type LogAnalyticsStorageInsights interface {
 	cdktn.TerraformResource
 	BlobContainerNames() *[]*string
@@ -555,7 +555,7 @@ func (j *jsiiProxy_LogAnalyticsStorageInsights) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
 func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, config *LogAnalyticsStorageInsightsConfig) LogAnalyticsStorageInsights {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
 func NewLogAnalyticsStorageInsights_Override(l LogAnalyticsStorageInsights, scope constructs.Construct, id *string, config *LogAnalyticsStorageInsightsConfig) {
 	_init_.Initialize()
 

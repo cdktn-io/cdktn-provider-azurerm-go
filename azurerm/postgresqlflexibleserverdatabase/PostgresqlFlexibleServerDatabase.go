@@ -5,14 +5,14 @@ package postgresqlflexibleserverdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/postgresqlflexibleserverdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/postgresqlflexibleserverdatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/postgresql_flexible_server_database azurerm_postgresql_flexible_server_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/postgresql_flexible_server_database azurerm_postgresql_flexible_server_database}.
 type PostgresqlFlexibleServerDatabase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerDatabase) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/postgresql_flexible_server_database azurerm_postgresql_flexible_server_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/postgresql_flexible_server_database azurerm_postgresql_flexible_server_database} Resource.
 func NewPostgresqlFlexibleServerDatabase(scope constructs.Construct, id *string, config *PostgresqlFlexibleServerDatabaseConfig) PostgresqlFlexibleServerDatabase {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewPostgresqlFlexibleServerDatabase(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/postgresql_flexible_server_database azurerm_postgresql_flexible_server_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/postgresql_flexible_server_database azurerm_postgresql_flexible_server_database} Resource.
 func NewPostgresqlFlexibleServerDatabase_Override(p PostgresqlFlexibleServerDatabase, scope constructs.Construct, id *string, config *PostgresqlFlexibleServerDatabaseConfig) {
 	_init_.Initialize()
 

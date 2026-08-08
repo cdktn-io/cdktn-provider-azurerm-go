@@ -5,14 +5,14 @@ package managementgrouppolicysetdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/managementgrouppolicysetdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/managementgrouppolicysetdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/management_group_policy_set_definition azurerm_management_group_policy_set_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_policy_set_definition azurerm_management_group_policy_set_definition}.
 type ManagementGroupPolicySetDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -603,7 +603,7 @@ func (j *jsiiProxy_ManagementGroupPolicySetDefinition) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/management_group_policy_set_definition azurerm_management_group_policy_set_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_policy_set_definition azurerm_management_group_policy_set_definition} Resource.
 func NewManagementGroupPolicySetDefinition(scope constructs.Construct, id *string, config *ManagementGroupPolicySetDefinitionConfig) ManagementGroupPolicySetDefinition {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewManagementGroupPolicySetDefinition(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/management_group_policy_set_definition azurerm_management_group_policy_set_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_policy_set_definition azurerm_management_group_policy_set_definition} Resource.
 func NewManagementGroupPolicySetDefinition_Override(m ManagementGroupPolicySetDefinition, scope constructs.Construct, id *string, config *ManagementGroupPolicySetDefinitionConfig) {
 	_init_.Initialize()
 

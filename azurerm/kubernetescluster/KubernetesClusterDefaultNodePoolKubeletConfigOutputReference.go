@@ -5,9 +5,9 @@ package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/kubernetescluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/kubernetescluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -29,9 +29,6 @@ type KubernetesClusterDefaultNodePoolKubeletConfigOutputReference interface {
 	ContainerLogMaxFiles() *float64
 	SetContainerLogMaxFiles(val *float64)
 	ContainerLogMaxFilesInput() *float64
-	ContainerLogMaxLine() *float64
-	SetContainerLogMaxLine(val *float64)
-	ContainerLogMaxLineInput() *float64
 	ContainerLogMaxSizeMb() *float64
 	SetContainerLogMaxSizeMb(val *float64)
 	ContainerLogMaxSizeMbInput() *float64
@@ -99,7 +96,6 @@ type KubernetesClusterDefaultNodePoolKubeletConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowedUnsafeSysctls()
 	ResetContainerLogMaxFiles()
-	ResetContainerLogMaxLine()
 	ResetContainerLogMaxSizeMb()
 	ResetCpuCfsQuotaEnabled()
 	ResetCpuCfsQuotaPeriod()
@@ -178,26 +174,6 @@ func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference)
 	_jsii_.Get(
 		j,
 		"containerLogMaxFilesInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference) ContainerLogMaxLine() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"containerLogMaxLine",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference) ContainerLogMaxLineInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"containerLogMaxLineInput",
 		&returns,
 	)
 	return returns
@@ -481,17 +457,6 @@ func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference)
 	_jsii_.Set(
 		j,
 		"containerLogMaxFiles",
-		val,
-	)
-}
-
-func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference)SetContainerLogMaxLine(val *float64) {
-	if err := j.validateSetContainerLogMaxLineParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"containerLogMaxLine",
 		val,
 	)
 }
@@ -815,14 +780,6 @@ func (k *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference)
 	_jsii_.InvokeVoid(
 		k,
 		"resetContainerLogMaxFiles",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference) ResetContainerLogMaxLine() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetContainerLogMaxLine",
 		nil, // no parameters
 	)
 }

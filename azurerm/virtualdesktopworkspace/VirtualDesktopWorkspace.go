@@ -5,14 +5,14 @@ package virtualdesktopworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/virtualdesktopworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualdesktopworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace}.
 type VirtualDesktopWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -557,7 +557,7 @@ func (j *jsiiProxy_VirtualDesktopWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace} Resource.
 func NewVirtualDesktopWorkspace(scope constructs.Construct, id *string, config *VirtualDesktopWorkspaceConfig) VirtualDesktopWorkspace {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewVirtualDesktopWorkspace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace} Resource.
 func NewVirtualDesktopWorkspace_Override(v VirtualDesktopWorkspace, scope constructs.Construct, id *string, config *VirtualDesktopWorkspaceConfig) {
 	_init_.Initialize()
 

@@ -412,14 +412,6 @@ func (j *jsiiProxy_KustoEventgridDataConnection) validateSetEventgridEventSubscr
 	return nil
 }
 
-func (j *jsiiProxy_KustoEventgridDataConnection) validateSetEventgridResourceIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_KustoEventgridDataConnection) validateSetEventhubConsumerGroupNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -461,14 +453,6 @@ func (j *jsiiProxy_KustoEventgridDataConnection) validateSetLocationParameters(v
 }
 
 func (j *jsiiProxy_KustoEventgridDataConnection) validateSetManagedIdentityIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_KustoEventgridDataConnection) validateSetManagedIdentityResourceIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

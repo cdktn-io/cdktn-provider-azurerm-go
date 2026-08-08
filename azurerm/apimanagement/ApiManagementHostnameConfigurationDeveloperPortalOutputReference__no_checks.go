@@ -79,10 +79,6 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputReference) validateSetKeyVaultIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputReference) validateSetNegotiateClientCertificateParameters(val interface{}) error {
 	return nil
 }

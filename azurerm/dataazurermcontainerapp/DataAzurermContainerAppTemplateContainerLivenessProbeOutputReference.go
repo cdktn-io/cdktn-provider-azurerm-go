@@ -5,9 +5,9 @@ package dataazurermcontainerapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermcontainerapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermcontainerapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -39,7 +39,6 @@ type DataAzurermContainerAppTemplateContainerLivenessProbeOutputReference interf
 	IntervalSeconds() *float64
 	Path() *string
 	Port() *float64
-	TerminationGracePeriodSeconds() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -204,16 +203,6 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateContainerLivenessProbeOutputRe
 	_jsii_.Get(
 		j,
 		"port",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermContainerAppTemplateContainerLivenessProbeOutputReference) TerminationGracePeriodSeconds() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"terminationGracePeriodSeconds",
 		&returns,
 	)
 	return returns

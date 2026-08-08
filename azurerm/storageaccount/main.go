@@ -146,16 +146,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putIdentity", GoMethod: "PutIdentity"},
 			_jsii_.MemberMethod{JsiiMethod: "putImmutabilityPolicy", GoMethod: "PutImmutabilityPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkRules", GoMethod: "PutNetworkRules"},
-			_jsii_.MemberMethod{JsiiMethod: "putQueueProperties", GoMethod: "PutQueueProperties"},
 			_jsii_.MemberMethod{JsiiMethod: "putRouting", GoMethod: "PutRouting"},
 			_jsii_.MemberMethod{JsiiMethod: "putSasPolicy", GoMethod: "PutSasPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putShareProperties", GoMethod: "PutShareProperties"},
-			_jsii_.MemberMethod{JsiiMethod: "putStaticWebsite", GoMethod: "PutStaticWebsite"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "queueEncryptionKeyType", GoGetter: "QueueEncryptionKeyType"},
 			_jsii_.MemberProperty{JsiiProperty: "queueEncryptionKeyTypeInput", GoGetter: "QueueEncryptionKeyTypeInput"},
-			_jsii_.MemberProperty{JsiiProperty: "queueProperties", GoGetter: "QueueProperties"},
-			_jsii_.MemberProperty{JsiiProperty: "queuePropertiesInput", GoGetter: "QueuePropertiesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAccessTier", GoMethod: "ResetAccessTier"},
@@ -185,13 +181,11 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedBillingModelVersion", GoMethod: "ResetProvisionedBillingModelVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPublicNetworkAccessEnabled", GoMethod: "ResetPublicNetworkAccessEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetQueueEncryptionKeyType", GoMethod: "ResetQueueEncryptionKeyType"},
-			_jsii_.MemberMethod{JsiiMethod: "resetQueueProperties", GoMethod: "ResetQueueProperties"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRouting", GoMethod: "ResetRouting"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSasPolicy", GoMethod: "ResetSasPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSftpEnabled", GoMethod: "ResetSftpEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSharedAccessKeyEnabled", GoMethod: "ResetSharedAccessKeyEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetShareProperties", GoMethod: "ResetShareProperties"},
-			_jsii_.MemberMethod{JsiiMethod: "resetStaticWebsite", GoMethod: "ResetStaticWebsite"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTableEncryptionKeyType", GoMethod: "ResetTableEncryptionKeyType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
@@ -243,8 +237,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "sharedAccessKeyEnabledInput", GoGetter: "SharedAccessKeyEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "shareProperties", GoGetter: "ShareProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "sharePropertiesInput", GoGetter: "SharePropertiesInput"},
-			_jsii_.MemberProperty{JsiiProperty: "staticWebsite", GoGetter: "StaticWebsite"},
-			_jsii_.MemberProperty{JsiiProperty: "staticWebsiteInput", GoGetter: "StaticWebsiteInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tableEncryptionKeyType", GoGetter: "TableEncryptionKeyType"},
@@ -691,10 +683,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "keyVaultKeyId", GoGetter: "KeyVaultKeyId"},
 			_jsii_.MemberProperty{JsiiProperty: "keyVaultKeyIdInput", GoGetter: "KeyVaultKeyIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "managedHsmKeyId", GoGetter: "ManagedHsmKeyId"},
-			_jsii_.MemberProperty{JsiiProperty: "managedHsmKeyIdInput", GoGetter: "ManagedHsmKeyIdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetKeyVaultKeyId", GoMethod: "ResetKeyVaultKeyId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetManagedHsmKeyId", GoMethod: "ResetManagedHsmKeyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
@@ -903,265 +891,6 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageAccountNetworkRulesPrivateLinkAccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueueProperties",
-		reflect.TypeOf((*StorageAccountQueueProperties)(nil)).Elem(),
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRule",
-		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRule)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRuleList",
-		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesCorsRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRuleOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},
-			_jsii_.MemberProperty{JsiiProperty: "allowedHeadersInput", GoGetter: "AllowedHeadersInput"},
-			_jsii_.MemberProperty{JsiiProperty: "allowedMethods", GoGetter: "AllowedMethods"},
-			_jsii_.MemberProperty{JsiiProperty: "allowedMethodsInput", GoGetter: "AllowedMethodsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
-			_jsii_.MemberProperty{JsiiProperty: "allowedOriginsInput", GoGetter: "AllowedOriginsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "exposedHeaders", GoGetter: "ExposedHeaders"},
-			_jsii_.MemberProperty{JsiiProperty: "exposedHeadersInput", GoGetter: "ExposedHeadersInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "maxAgeInSeconds", GoGetter: "MaxAgeInSeconds"},
-			_jsii_.MemberProperty{JsiiProperty: "maxAgeInSecondsInput", GoGetter: "MaxAgeInSecondsInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesCorsRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesHourMetrics",
-		reflect.TypeOf((*StorageAccountQueuePropertiesHourMetrics)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesHourMetricsOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesHourMetricsOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
-			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "includeApis", GoGetter: "IncludeApis"},
-			_jsii_.MemberProperty{JsiiProperty: "includeApisInput", GoGetter: "IncludeApisInput"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resetIncludeApis", GoMethod: "ResetIncludeApis"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRetentionPolicyDays", GoMethod: "ResetRetentionPolicyDays"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "retentionPolicyDays", GoGetter: "RetentionPolicyDays"},
-			_jsii_.MemberProperty{JsiiProperty: "retentionPolicyDaysInput", GoGetter: "RetentionPolicyDaysInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
-			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesHourMetricsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesLogging",
-		reflect.TypeOf((*StorageAccountQueuePropertiesLogging)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesLoggingOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesLoggingOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "delete", GoGetter: "Delete"},
-			_jsii_.MemberProperty{JsiiProperty: "deleteInput", GoGetter: "DeleteInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "read", GoGetter: "Read"},
-			_jsii_.MemberProperty{JsiiProperty: "readInput", GoGetter: "ReadInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRetentionPolicyDays", GoMethod: "ResetRetentionPolicyDays"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "retentionPolicyDays", GoGetter: "RetentionPolicyDays"},
-			_jsii_.MemberProperty{JsiiProperty: "retentionPolicyDaysInput", GoGetter: "RetentionPolicyDaysInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
-			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "write", GoGetter: "Write"},
-			_jsii_.MemberProperty{JsiiProperty: "writeInput", GoGetter: "WriteInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesMinuteMetrics",
-		reflect.TypeOf((*StorageAccountQueuePropertiesMinuteMetrics)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesMinuteMetricsOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesMinuteMetricsOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
-			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "includeApis", GoGetter: "IncludeApis"},
-			_jsii_.MemberProperty{JsiiProperty: "includeApisInput", GoGetter: "IncludeApisInput"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resetIncludeApis", GoMethod: "ResetIncludeApis"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRetentionPolicyDays", GoMethod: "ResetRetentionPolicyDays"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "retentionPolicyDays", GoGetter: "RetentionPolicyDays"},
-			_jsii_.MemberProperty{JsiiProperty: "retentionPolicyDaysInput", GoGetter: "RetentionPolicyDaysInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
-			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesOutputReference",
-		reflect.TypeOf((*StorageAccountQueuePropertiesOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "corsRule", GoGetter: "CorsRule"},
-			_jsii_.MemberProperty{JsiiProperty: "corsRuleInput", GoGetter: "CorsRuleInput"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "hourMetrics", GoGetter: "HourMetrics"},
-			_jsii_.MemberProperty{JsiiProperty: "hourMetricsInput", GoGetter: "HourMetricsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "logging", GoGetter: "Logging"},
-			_jsii_.MemberProperty{JsiiProperty: "loggingInput", GoGetter: "LoggingInput"},
-			_jsii_.MemberProperty{JsiiProperty: "minuteMetrics", GoGetter: "MinuteMetrics"},
-			_jsii_.MemberProperty{JsiiProperty: "minuteMetricsInput", GoGetter: "MinuteMetricsInput"},
-			_jsii_.MemberMethod{JsiiMethod: "putCorsRule", GoMethod: "PutCorsRule"},
-			_jsii_.MemberMethod{JsiiMethod: "putHourMetrics", GoMethod: "PutHourMetrics"},
-			_jsii_.MemberMethod{JsiiMethod: "putLogging", GoMethod: "PutLogging"},
-			_jsii_.MemberMethod{JsiiMethod: "putMinuteMetrics", GoMethod: "PutMinuteMetrics"},
-			_jsii_.MemberMethod{JsiiMethod: "resetCorsRule", GoMethod: "ResetCorsRule"},
-			_jsii_.MemberMethod{JsiiMethod: "resetHourMetrics", GoMethod: "ResetHourMetrics"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLogging", GoMethod: "ResetLogging"},
-			_jsii_.MemberMethod{JsiiMethod: "resetMinuteMetrics", GoMethod: "ResetMinuteMetrics"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_StorageAccountQueuePropertiesOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -1454,48 +1183,6 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageAccountSharePropertiesSmbOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountStaticWebsite",
-		reflect.TypeOf((*StorageAccountStaticWebsite)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.storageAccount.StorageAccountStaticWebsiteOutputReference",
-		reflect.TypeOf((*StorageAccountStaticWebsiteOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "error404Document", GoGetter: "Error404Document"},
-			_jsii_.MemberProperty{JsiiProperty: "error404DocumentInput", GoGetter: "Error404DocumentInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "indexDocument", GoGetter: "IndexDocument"},
-			_jsii_.MemberProperty{JsiiProperty: "indexDocumentInput", GoGetter: "IndexDocumentInput"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resetError404Document", GoMethod: "ResetError404Document"},
-			_jsii_.MemberMethod{JsiiMethod: "resetIndexDocument", GoMethod: "ResetIndexDocument"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_StorageAccountStaticWebsiteOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

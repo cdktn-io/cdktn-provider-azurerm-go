@@ -5,14 +5,14 @@ package dataazurermnetappvolumebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermnetappvolumebucket/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermnetappvolumebucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/netapp_volume_bucket azurerm_netapp_volume_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/netapp_volume_bucket azurerm_netapp_volume_bucket}.
 type DataAzurermNetappVolumeBucket interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeBucket) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/netapp_volume_bucket azurerm_netapp_volume_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/netapp_volume_bucket azurerm_netapp_volume_bucket} Data Source.
 func NewDataAzurermNetappVolumeBucket(scope constructs.Construct, id *string, config *DataAzurermNetappVolumeBucketConfig) DataAzurermNetappVolumeBucket {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataAzurermNetappVolumeBucket(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/netapp_volume_bucket azurerm_netapp_volume_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/netapp_volume_bucket azurerm_netapp_volume_bucket} Data Source.
 func NewDataAzurermNetappVolumeBucket_Override(d DataAzurermNetappVolumeBucket, scope constructs.Construct, id *string, config *DataAzurermNetappVolumeBucketConfig) {
 	_init_.Initialize()
 

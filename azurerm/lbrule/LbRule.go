@@ -5,14 +5,14 @@ package lbrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/lbrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/lbrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb_rule azurerm_lb_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_rule azurerm_lb_rule}.
 type LbRule interface {
 	cdktn.TerraformResource
 	BackendAddressPoolIds() *[]*string
@@ -40,12 +40,6 @@ type LbRule interface {
 	DisableOutboundSnat() interface{}
 	SetDisableOutboundSnat(val interface{})
 	DisableOutboundSnatInput() interface{}
-	EnableFloatingIp() interface{}
-	SetEnableFloatingIp(val interface{})
-	EnableFloatingIpInput() interface{}
-	EnableTcpReset() interface{}
-	SetEnableTcpReset(val interface{})
-	EnableTcpResetInput() interface{}
 	FloatingIpEnabled() interface{}
 	SetFloatingIpEnabled(val interface{})
 	FloatingIpEnabledInput() interface{}
@@ -207,8 +201,6 @@ type LbRule interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetBackendAddressPoolIds()
 	ResetDisableOutboundSnat()
-	ResetEnableFloatingIp()
-	ResetEnableTcpReset()
 	ResetFloatingIpEnabled()
 	ResetId()
 	ResetIdleTimeoutInMinutes()
@@ -351,46 +343,6 @@ func (j *jsiiProxy_LbRule) DisableOutboundSnatInput() interface{} {
 	_jsii_.Get(
 		j,
 		"disableOutboundSnatInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LbRule) EnableFloatingIp() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableFloatingIp",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LbRule) EnableFloatingIpInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableFloatingIpInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LbRule) EnableTcpReset() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableTcpReset",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LbRule) EnableTcpResetInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"enableTcpResetInput",
 		&returns,
 	)
 	return returns
@@ -757,7 +709,7 @@ func (j *jsiiProxy_LbRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb_rule azurerm_lb_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_rule azurerm_lb_rule} Resource.
 func NewLbRule(scope constructs.Construct, id *string, config *LbRuleConfig) LbRule {
 	_init_.Initialize()
 
@@ -775,7 +727,7 @@ func NewLbRule(scope constructs.Construct, id *string, config *LbRuleConfig) LbR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lb_rule azurerm_lb_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_rule azurerm_lb_rule} Resource.
 func NewLbRule_Override(l LbRule, scope constructs.Construct, id *string, config *LbRuleConfig) {
 	_init_.Initialize()
 
@@ -845,28 +797,6 @@ func (j *jsiiProxy_LbRule)SetDisableOutboundSnat(val interface{}) {
 	_jsii_.Set(
 		j,
 		"disableOutboundSnat",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LbRule)SetEnableFloatingIp(val interface{}) {
-	if err := j.validateSetEnableFloatingIpParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableFloatingIp",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LbRule)SetEnableTcpReset(val interface{}) {
-	if err := j.validateSetEnableTcpResetParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"enableTcpReset",
 		val,
 	)
 }
@@ -1433,22 +1363,6 @@ func (l *jsiiProxy_LbRule) ResetDisableOutboundSnat() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetDisableOutboundSnat",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LbRule) ResetEnableFloatingIp() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetEnableFloatingIp",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LbRule) ResetEnableTcpReset() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetEnableTcpReset",
 		nil, // no parameters
 	)
 }

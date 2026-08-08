@@ -5,14 +5,14 @@ package dataazurermstoragetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermstoragetable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermstoragetable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table azurerm_storage_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_table azurerm_storage_table}.
 type DataAzurermStorageTable interface {
 	cdktn.TerraformDataSource
 	Acl() DataAzurermStorageTableAclList
@@ -56,9 +56,6 @@ type DataAzurermStorageTable interface {
 	StorageAccountId() *string
 	SetStorageAccountId(val *string)
 	StorageAccountIdInput() *string
-	StorageAccountName() *string
-	SetStorageAccountName(val *string)
-	StorageAccountNameInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -109,8 +106,6 @@ type DataAzurermStorageTable interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetStorageAccountId()
-	ResetStorageAccountName()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -320,26 +315,6 @@ func (j *jsiiProxy_DataAzurermStorageTable) StorageAccountIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageTable) StorageAccountName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageAccountName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermStorageTable) StorageAccountNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageAccountNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAzurermStorageTable) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -391,7 +366,7 @@ func (j *jsiiProxy_DataAzurermStorageTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table azurerm_storage_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_table azurerm_storage_table} Data Source.
 func NewDataAzurermStorageTable(scope constructs.Construct, id *string, config *DataAzurermStorageTableConfig) DataAzurermStorageTable {
 	_init_.Initialize()
 
@@ -409,7 +384,7 @@ func NewDataAzurermStorageTable(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table azurerm_storage_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_table azurerm_storage_table} Data Source.
 func NewDataAzurermStorageTable_Override(d DataAzurermStorageTable, scope constructs.Construct, id *string, config *DataAzurermStorageTableConfig) {
 	_init_.Initialize()
 
@@ -484,17 +459,6 @@ func (j *jsiiProxy_DataAzurermStorageTable)SetStorageAccountId(val *string) {
 	_jsii_.Set(
 		j,
 		"storageAccountId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataAzurermStorageTable)SetStorageAccountName(val *string) {
-	if err := j.validateSetStorageAccountNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"storageAccountName",
 		val,
 	)
 }
@@ -810,22 +774,6 @@ func (d *jsiiProxy_DataAzurermStorageTable) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermStorageTable) ResetStorageAccountId() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetStorageAccountId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermStorageTable) ResetStorageAccountName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetStorageAccountName",
 		nil, // no parameters
 	)
 }

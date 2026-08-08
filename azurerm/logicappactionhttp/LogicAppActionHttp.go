@@ -5,14 +5,14 @@ package logicappactionhttp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/logicappactionhttp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/logicappactionhttp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_http azurerm_logic_app_action_http}.
 type LogicAppActionHttp interface {
 	cdktn.TerraformResource
 	Body() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_LogicAppActionHttp) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
 func NewLogicAppActionHttp(scope constructs.Construct, id *string, config *LogicAppActionHttpConfig) LogicAppActionHttp {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewLogicAppActionHttp(scope constructs.Construct, id *string, config *Logic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
 func NewLogicAppActionHttp_Override(l LogicAppActionHttp, scope constructs.Construct, id *string, config *LogicAppActionHttpConfig) {
 	_init_.Initialize()
 

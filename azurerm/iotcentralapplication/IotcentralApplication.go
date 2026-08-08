@@ -5,14 +5,14 @@ package iotcentralapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/iotcentralapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/iotcentralapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iotcentral_application azurerm_iotcentral_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iotcentral_application azurerm_iotcentral_application}.
 type IotcentralApplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -628,7 +628,7 @@ func (j *jsiiProxy_IotcentralApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iotcentral_application azurerm_iotcentral_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iotcentral_application azurerm_iotcentral_application} Resource.
 func NewIotcentralApplication(scope constructs.Construct, id *string, config *IotcentralApplicationConfig) IotcentralApplication {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewIotcentralApplication(scope constructs.Construct, id *string, config *Io
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iotcentral_application azurerm_iotcentral_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iotcentral_application azurerm_iotcentral_application} Resource.
 func NewIotcentralApplication_Override(i IotcentralApplication, scope constructs.Construct, id *string, config *IotcentralApplicationConfig) {
 	_init_.Initialize()
 

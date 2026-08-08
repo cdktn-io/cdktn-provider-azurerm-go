@@ -5,14 +5,14 @@ package resourcegroupcostmanagementexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/resourcegroupcostmanagementexport/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/resourcegroupcostmanagementexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export}.
 type ResourceGroupCostManagementExport interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -601,7 +601,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
 func NewResourceGroupCostManagementExport(scope constructs.Construct, id *string, config *ResourceGroupCostManagementExportConfig) ResourceGroupCostManagementExport {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewResourceGroupCostManagementExport(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
 func NewResourceGroupCostManagementExport_Override(r ResourceGroupCostManagementExport, scope constructs.Construct, id *string, config *ResourceGroupCostManagementExportConfig) {
 	_init_.Initialize()
 

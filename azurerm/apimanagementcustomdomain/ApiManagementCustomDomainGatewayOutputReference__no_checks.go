@@ -83,10 +83,6 @@ func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) validateSetK
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) validateSetKeyVaultIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) validateSetNegotiateClientCertificateParameters(val interface{}) error {
 	return nil
 }

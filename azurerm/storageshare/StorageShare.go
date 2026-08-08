@@ -5,14 +5,14 @@ package storageshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storageshare/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageshare/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_share azurerm_storage_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share azurerm_storage_share}.
 type StorageShare interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -76,13 +76,9 @@ type StorageShare interface {
 	// Experimental.
 	RawOverrides() interface{}
 	RbacScopeId() *string
-	ResourceManagerId() *string
 	StorageAccountId() *string
 	SetStorageAccountId(val *string)
 	StorageAccountIdInput() *string
-	StorageAccountName() *string
-	SetStorageAccountName(val *string)
-	StorageAccountNameInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -194,8 +190,6 @@ type StorageShare interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetStorageAccountId()
-	ResetStorageAccountName()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -504,16 +498,6 @@ func (j *jsiiProxy_StorageShare) RbacScopeId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageShare) ResourceManagerId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceManagerId",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_StorageShare) StorageAccountId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -529,26 +513,6 @@ func (j *jsiiProxy_StorageShare) StorageAccountIdInput() *string {
 	_jsii_.Get(
 		j,
 		"storageAccountIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageShare) StorageAccountName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageAccountName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageShare) StorageAccountNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"storageAccountNameInput",
 		&returns,
 	)
 	return returns
@@ -615,7 +579,7 @@ func (j *jsiiProxy_StorageShare) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_share azurerm_storage_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share azurerm_storage_share} Resource.
 func NewStorageShare(scope constructs.Construct, id *string, config *StorageShareConfig) StorageShare {
 	_init_.Initialize()
 
@@ -633,7 +597,7 @@ func NewStorageShare(scope constructs.Construct, id *string, config *StorageShar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_share azurerm_storage_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share azurerm_storage_share} Resource.
 func NewStorageShare_Override(s StorageShare, scope constructs.Construct, id *string, config *StorageShareConfig) {
 	_init_.Initialize()
 
@@ -785,17 +749,6 @@ func (j *jsiiProxy_StorageShare)SetStorageAccountId(val *string) {
 	_jsii_.Set(
 		j,
 		"storageAccountId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_StorageShare)SetStorageAccountName(val *string) {
-	if err := j.validateSetStorageAccountNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"storageAccountName",
 		val,
 	)
 }
@@ -1246,22 +1199,6 @@ func (s *jsiiProxy_StorageShare) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageShare) ResetStorageAccountId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetStorageAccountId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageShare) ResetStorageAccountName() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetStorageAccountName",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package automationjobschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/automationjobschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/automationjobschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule azurerm_automation_job_schedule}.
 type AutomationJobSchedule interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_AutomationJobSchedule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
 func NewAutomationJobSchedule(scope constructs.Construct, id *string, config *AutomationJobScheduleConfig) AutomationJobSchedule {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewAutomationJobSchedule(scope constructs.Construct, id *string, config *Au
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
 func NewAutomationJobSchedule_Override(a AutomationJobSchedule, scope constructs.Construct, id *string, config *AutomationJobScheduleConfig) {
 	_init_.Initialize()
 

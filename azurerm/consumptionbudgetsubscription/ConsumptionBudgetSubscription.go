@@ -5,14 +5,14 @@ package consumptionbudgetsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/consumptionbudgetsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/consumptionbudgetsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription}.
 type ConsumptionBudgetSubscription interface {
 	cdktn.TerraformResource
 	Amount() *float64
@@ -579,7 +579,7 @@ func (j *jsiiProxy_ConsumptionBudgetSubscription) TimePeriodInput() *Consumption
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription} Resource.
 func NewConsumptionBudgetSubscription(scope constructs.Construct, id *string, config *ConsumptionBudgetSubscriptionConfig) ConsumptionBudgetSubscription {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewConsumptionBudgetSubscription(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription} Resource.
 func NewConsumptionBudgetSubscription_Override(c ConsumptionBudgetSubscription, scope constructs.Construct, id *string, config *ConsumptionBudgetSubscriptionConfig) {
 	_init_.Initialize()
 

@@ -85,7 +85,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetLuisAppIds", GoMethod: "ResetLuisAppIds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLuisKey", GoMethod: "ResetLuisKey"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMicrosoftAppTenantId", GoMethod: "ResetMicrosoftAppTenantId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetMicrosoftAppType", GoMethod: "ResetMicrosoftAppType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMicrosoftAppUserAssignedIdentityId", GoMethod: "ResetMicrosoftAppUserAssignedIdentityId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},

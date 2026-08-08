@@ -5,14 +5,14 @@ package containerregistrywebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/containerregistrywebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/containerregistrywebhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_webhook azurerm_container_registry_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_webhook azurerm_container_registry_webhook}.
 type ContainerRegistryWebhook interface {
 	cdktn.TerraformResource
 	Actions() *[]*string
@@ -626,7 +626,7 @@ func (j *jsiiProxy_ContainerRegistryWebhook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_webhook azurerm_container_registry_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_webhook azurerm_container_registry_webhook} Resource.
 func NewContainerRegistryWebhook(scope constructs.Construct, id *string, config *ContainerRegistryWebhookConfig) ContainerRegistryWebhook {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewContainerRegistryWebhook(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_webhook azurerm_container_registry_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_webhook azurerm_container_registry_webhook} Resource.
 func NewContainerRegistryWebhook_Override(c ContainerRegistryWebhook, scope constructs.Construct, id *string, config *ContainerRegistryWebhookConfig) {
 	_init_.Initialize()
 

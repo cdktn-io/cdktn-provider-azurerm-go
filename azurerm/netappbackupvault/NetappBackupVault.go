@@ -5,14 +5,14 @@ package netappbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/netappbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/netappbackupvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault}.
 type NetappBackupVault interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_NetappBackupVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault} Resource.
 func NewNetappBackupVault(scope constructs.Construct, id *string, config *NetappBackupVaultConfig) NetappBackupVault {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewNetappBackupVault(scope constructs.Construct, id *string, config *Netapp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault} Resource.
 func NewNetappBackupVault_Override(n NetappBackupVault, scope constructs.Construct, id *string, config *NetappBackupVaultConfig) {
 	_init_.Initialize()
 

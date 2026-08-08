@@ -5,14 +5,14 @@ package dataprotectionbackupinstanceblobstorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataprotectionbackupinstanceblobstorage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataprotectionbackupinstanceblobstorage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_backup_instance_blob_storage azurerm_data_protection_backup_instance_blob_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_instance_blob_storage azurerm_data_protection_backup_instance_blob_storage}.
 type DataProtectionBackupInstanceBlobStorage interface {
 	cdktn.TerraformResource
 	BackupPolicyId() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceBlobStorage) VaultIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_backup_instance_blob_storage azurerm_data_protection_backup_instance_blob_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_instance_blob_storage azurerm_data_protection_backup_instance_blob_storage} Resource.
 func NewDataProtectionBackupInstanceBlobStorage(scope constructs.Construct, id *string, config *DataProtectionBackupInstanceBlobStorageConfig) DataProtectionBackupInstanceBlobStorage {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewDataProtectionBackupInstanceBlobStorage(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_protection_backup_instance_blob_storage azurerm_data_protection_backup_instance_blob_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_instance_blob_storage azurerm_data_protection_backup_instance_blob_storage} Resource.
 func NewDataProtectionBackupInstanceBlobStorage_Override(d DataProtectionBackupInstanceBlobStorage, scope constructs.Construct, id *string, config *DataProtectionBackupInstanceBlobStorageConfig) {
 	_init_.Initialize()
 

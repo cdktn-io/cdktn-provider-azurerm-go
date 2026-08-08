@@ -5,14 +5,14 @@ package loadtest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/loadtest/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/loadtest/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/load_test azurerm_load_test}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/load_test azurerm_load_test}.
 type LoadTest interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -568,7 +568,7 @@ func (j *jsiiProxy_LoadTest) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/load_test azurerm_load_test} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/load_test azurerm_load_test} Resource.
 func NewLoadTest(scope constructs.Construct, id *string, config *LoadTestConfig) LoadTest {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewLoadTest(scope constructs.Construct, id *string, config *LoadTestConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/load_test azurerm_load_test} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/load_test azurerm_load_test} Resource.
 func NewLoadTest_Override(l LoadTest, scope constructs.Construct, id *string, config *LoadTestConfig) {
 	_init_.Initialize()
 

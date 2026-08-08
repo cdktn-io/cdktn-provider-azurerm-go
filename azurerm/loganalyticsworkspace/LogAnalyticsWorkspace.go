@@ -5,14 +5,14 @@ package loganalyticsworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/loganalyticsworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/loganalyticsworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace azurerm_log_analytics_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace azurerm_log_analytics_workspace}.
 type LogAnalyticsWorkspace interface {
 	cdktn.TerraformResource
 	AllowResourceOnlyPermissions() interface{}
@@ -59,19 +59,16 @@ type LogAnalyticsWorkspace interface {
 	ImmediateDataPurgeOn30DaysEnabled() interface{}
 	SetImmediateDataPurgeOn30DaysEnabled(val interface{})
 	ImmediateDataPurgeOn30DaysEnabledInput() interface{}
-	InternetIngestionEnabled() interface{}
-	SetInternetIngestionEnabled(val interface{})
-	InternetIngestionEnabledInput() interface{}
-	InternetQueryEnabled() interface{}
-	SetInternetQueryEnabled(val interface{})
-	InternetQueryEnabledInput() interface{}
+	InternetIngestionAccessType() *string
+	SetInternetIngestionAccessType(val *string)
+	InternetIngestionAccessTypeInput() *string
+	InternetQueryAccessType() *string
+	SetInternetQueryAccessType(val *string)
+	InternetQueryAccessTypeInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	LocalAuthenticationDisabled() interface{}
-	SetLocalAuthenticationDisabled(val interface{})
-	LocalAuthenticationDisabledInput() interface{}
 	LocalAuthenticationEnabled() interface{}
 	SetLocalAuthenticationEnabled(val interface{})
 	LocalAuthenticationEnabledInput() interface{}
@@ -220,9 +217,8 @@ type LogAnalyticsWorkspace interface {
 	ResetId()
 	ResetIdentity()
 	ResetImmediateDataPurgeOn30DaysEnabled()
-	ResetInternetIngestionEnabled()
-	ResetInternetQueryEnabled()
-	ResetLocalAuthenticationDisabled()
+	ResetInternetIngestionAccessType()
+	ResetInternetQueryAccessType()
 	ResetLocalAuthenticationEnabled()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -479,41 +475,41 @@ func (j *jsiiProxy_LogAnalyticsWorkspace) ImmediateDataPurgeOn30DaysEnabledInput
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) InternetIngestionEnabled() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_LogAnalyticsWorkspace) InternetIngestionAccessType() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
-		"internetIngestionEnabled",
+		"internetIngestionAccessType",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) InternetIngestionEnabledInput() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_LogAnalyticsWorkspace) InternetIngestionAccessTypeInput() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
-		"internetIngestionEnabledInput",
+		"internetIngestionAccessTypeInput",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) InternetQueryEnabled() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_LogAnalyticsWorkspace) InternetQueryAccessType() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
-		"internetQueryEnabled",
+		"internetQueryAccessType",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) InternetQueryEnabledInput() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_LogAnalyticsWorkspace) InternetQueryAccessTypeInput() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
-		"internetQueryEnabledInput",
+		"internetQueryAccessTypeInput",
 		&returns,
 	)
 	return returns
@@ -524,26 +520,6 @@ func (j *jsiiProxy_LogAnalyticsWorkspace) Lifecycle() *cdktn.TerraformResourceLi
 	_jsii_.Get(
 		j,
 		"lifecycle",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LogAnalyticsWorkspace) LocalAuthenticationDisabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"localAuthenticationDisabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LogAnalyticsWorkspace) LocalAuthenticationDisabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"localAuthenticationDisabledInput",
 		&returns,
 	)
 	return returns
@@ -830,7 +806,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace azurerm_log_analytics_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace azurerm_log_analytics_workspace} Resource.
 func NewLogAnalyticsWorkspace(scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceConfig) LogAnalyticsWorkspace {
 	_init_.Initialize()
 
@@ -848,7 +824,7 @@ func NewLogAnalyticsWorkspace(scope constructs.Construct, id *string, config *Lo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_workspace azurerm_log_analytics_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_workspace azurerm_log_analytics_workspace} Resource.
 func NewLogAnalyticsWorkspace_Override(l LogAnalyticsWorkspace, scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceConfig) {
 	_init_.Initialize()
 
@@ -963,24 +939,24 @@ func (j *jsiiProxy_LogAnalyticsWorkspace)SetImmediateDataPurgeOn30DaysEnabled(va
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace)SetInternetIngestionEnabled(val interface{}) {
-	if err := j.validateSetInternetIngestionEnabledParameters(val); err != nil {
+func (j *jsiiProxy_LogAnalyticsWorkspace)SetInternetIngestionAccessType(val *string) {
+	if err := j.validateSetInternetIngestionAccessTypeParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"internetIngestionEnabled",
+		"internetIngestionAccessType",
 		val,
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace)SetInternetQueryEnabled(val interface{}) {
-	if err := j.validateSetInternetQueryEnabledParameters(val); err != nil {
+func (j *jsiiProxy_LogAnalyticsWorkspace)SetInternetQueryAccessType(val *string) {
+	if err := j.validateSetInternetQueryAccessTypeParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
-		"internetQueryEnabled",
+		"internetQueryAccessType",
 		val,
 	)
 }
@@ -992,17 +968,6 @@ func (j *jsiiProxy_LogAnalyticsWorkspace)SetLifecycle(val *cdktn.TerraformResour
 	_jsii_.Set(
 		j,
 		"lifecycle",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LogAnalyticsWorkspace)SetLocalAuthenticationDisabled(val interface{}) {
-	if err := j.validateSetLocalAuthenticationDisabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"localAuthenticationDisabled",
 		val,
 	)
 }
@@ -1572,26 +1537,18 @@ func (l *jsiiProxy_LogAnalyticsWorkspace) ResetImmediateDataPurgeOn30DaysEnabled
 	)
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspace) ResetInternetIngestionEnabled() {
+func (l *jsiiProxy_LogAnalyticsWorkspace) ResetInternetIngestionAccessType() {
 	_jsii_.InvokeVoid(
 		l,
-		"resetInternetIngestionEnabled",
+		"resetInternetIngestionAccessType",
 		nil, // no parameters
 	)
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspace) ResetInternetQueryEnabled() {
+func (l *jsiiProxy_LogAnalyticsWorkspace) ResetInternetQueryAccessType() {
 	_jsii_.InvokeVoid(
 		l,
-		"resetInternetQueryEnabled",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LogAnalyticsWorkspace) ResetLocalAuthenticationDisabled() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetLocalAuthenticationDisabled",
+		"resetInternetQueryAccessType",
 		nil, // no parameters
 	)
 }

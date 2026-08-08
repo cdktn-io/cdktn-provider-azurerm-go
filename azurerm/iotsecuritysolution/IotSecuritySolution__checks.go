@@ -246,7 +246,7 @@ func (i *jsiiProxy_IotSecuritySolution) validatePutAdditionalWorkspaceParameters
 	return nil
 }
 
-func (i *jsiiProxy_IotSecuritySolution) validatePutRecommendationsEnabledParameters(value *IotSecuritySolutionRecommendationsEnabled) error {
+func (i *jsiiProxy_IotSecuritySolution) validatePutRecommendationsParameters(value *IotSecuritySolutionRecommendations) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

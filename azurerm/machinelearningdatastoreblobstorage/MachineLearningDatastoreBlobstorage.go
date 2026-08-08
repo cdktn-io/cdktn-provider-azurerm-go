@@ -5,14 +5,14 @@ package machinelearningdatastoreblobstorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/machinelearningdatastoreblobstorage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/machinelearningdatastoreblobstorage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_datastore_blobstorage azurerm_machine_learning_datastore_blobstorage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_datastore_blobstorage azurerm_machine_learning_datastore_blobstorage}.
 type MachineLearningDatastoreBlobstorage interface {
 	cdktn.TerraformResource
 	AccountKey() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_MachineLearningDatastoreBlobstorage) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_datastore_blobstorage azurerm_machine_learning_datastore_blobstorage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_datastore_blobstorage azurerm_machine_learning_datastore_blobstorage} Resource.
 func NewMachineLearningDatastoreBlobstorage(scope constructs.Construct, id *string, config *MachineLearningDatastoreBlobstorageConfig) MachineLearningDatastoreBlobstorage {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewMachineLearningDatastoreBlobstorage(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_datastore_blobstorage azurerm_machine_learning_datastore_blobstorage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_datastore_blobstorage azurerm_machine_learning_datastore_blobstorage} Resource.
 func NewMachineLearningDatastoreBlobstorage_Override(m MachineLearningDatastoreBlobstorage, scope constructs.Construct, id *string, config *MachineLearningDatastoreBlobstorageConfig) {
 	_init_.Initialize()
 

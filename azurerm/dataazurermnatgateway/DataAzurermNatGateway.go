@@ -5,14 +5,14 @@ package dataazurermnatgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermnatgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermnatgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nat_gateway azurerm_nat_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nat_gateway azurerm_nat_gateway}.
 type DataAzurermNatGateway interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DataAzurermNatGateway) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nat_gateway azurerm_nat_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nat_gateway azurerm_nat_gateway} Data Source.
 func NewDataAzurermNatGateway(scope constructs.Construct, id *string, config *DataAzurermNatGatewayConfig) DataAzurermNatGateway {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewDataAzurermNatGateway(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nat_gateway azurerm_nat_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nat_gateway azurerm_nat_gateway} Data Source.
 func NewDataAzurermNatGateway_Override(d DataAzurermNatGateway, scope constructs.Construct, id *string, config *DataAzurermNatGatewayConfig) {
 	_init_.Initialize()
 

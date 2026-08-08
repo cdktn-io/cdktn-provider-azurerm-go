@@ -5,14 +5,14 @@ package dataazurermstoragetableentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermstoragetableentity/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermstoragetableentity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table_entity azurerm_storage_table_entity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_table_entity azurerm_storage_table_entity}.
 type DataAzurermStorageTableEntity interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAzurermStorageTableEntity) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table_entity azurerm_storage_table_entity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_table_entity azurerm_storage_table_entity} Data Source.
 func NewDataAzurermStorageTableEntity(scope constructs.Construct, id *string, config *DataAzurermStorageTableEntityConfig) DataAzurermStorageTableEntity {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewDataAzurermStorageTableEntity(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table_entity azurerm_storage_table_entity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_table_entity azurerm_storage_table_entity} Data Source.
 func NewDataAzurermStorageTableEntity_Override(d DataAzurermStorageTableEntity, scope constructs.Construct, id *string, config *DataAzurermStorageTableEntityConfig) {
 	_init_.Initialize()
 

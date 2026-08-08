@@ -5,14 +5,14 @@ package dataazurermservicebusnamespaceauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermservicebusnamespaceauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermservicebusnamespaceauthorizationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule}.
 type DataAzurermServicebusNamespaceAuthorizationRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -48,9 +48,6 @@ type DataAzurermServicebusNamespaceAuthorizationRule interface {
 	NamespaceId() *string
 	SetNamespaceId(val *string)
 	NamespaceIdInput() *string
-	NamespaceName() *string
-	SetNamespaceName(val *string)
-	NamespaceNameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	PrimaryConnectionString() *string
@@ -62,9 +59,6 @@ type DataAzurermServicebusNamespaceAuthorizationRule interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	ResourceGroupName() *string
-	SetResourceGroupName(val *string)
-	ResourceGroupNameInput() *string
 	SecondaryConnectionString() *string
 	SecondaryConnectionStringAlias() *string
 	SecondaryKey() *string
@@ -116,12 +110,9 @@ type DataAzurermServicebusNamespaceAuthorizationRule interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
-	ResetNamespaceId()
-	ResetNamespaceName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetResourceGroupName()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -291,26 +282,6 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) NamespaceIdI
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) NamespaceName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) NamespaceNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -366,26 +337,6 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) RawOverrides
 	_jsii_.Get(
 		j,
 		"rawOverrides",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) ResourceGroupName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) ResourceGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -472,7 +423,7 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) TimeoutsInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Data Source.
 func NewDataAzurermServicebusNamespaceAuthorizationRule(scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceAuthorizationRuleConfig) DataAzurermServicebusNamespaceAuthorizationRule {
 	_init_.Initialize()
 
@@ -490,7 +441,7 @@ func NewDataAzurermServicebusNamespaceAuthorizationRule(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Data Source.
 func NewDataAzurermServicebusNamespaceAuthorizationRule_Override(d DataAzurermServicebusNamespaceAuthorizationRule, scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceAuthorizationRuleConfig) {
 	_init_.Initialize()
 
@@ -572,32 +523,10 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule)SetNamespaceI
 	)
 }
 
-func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule)SetNamespaceName(val *string) {
-	if err := j.validateSetNamespaceNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"namespaceName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule)SetResourceGroupName(val *string) {
-	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceGroupName",
 		val,
 	)
 }
@@ -917,34 +846,10 @@ func (d *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) ResetId() {
 	)
 }
 
-func (d *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) ResetNamespaceId() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetNamespaceId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) ResetNamespaceName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetNamespaceName",
-		nil, // no parameters
-	)
-}
-
 func (d *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) ResetResourceGroupName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetResourceGroupName",
 		nil, // no parameters
 	)
 }

@@ -91,10 +91,6 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateSetVerif
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateSetVerifyClientCertIssuerDnParameters(val interface{}) error {
-	return nil
-}
-
 func validateNewApplicationGatewaySslProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }

@@ -139,10 +139,6 @@ func (j *jsiiProxy_EventgridSystemTopic) validateSetResourceGroupNameParameters(
 	return nil
 }
 
-func (j *jsiiProxy_EventgridSystemTopic) validateSetSourceArmResourceIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_EventgridSystemTopic) validateSetSourceResourceIdParameters(val *string) error {
 	return nil
 }

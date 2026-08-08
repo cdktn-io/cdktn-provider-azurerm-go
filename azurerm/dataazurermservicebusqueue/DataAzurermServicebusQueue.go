@@ -5,14 +5,14 @@ package dataazurermservicebusqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermservicebusqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermservicebusqueue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_queue azurerm_servicebus_queue}.
 type DataAzurermServicebusQueue interface {
 	cdktn.TerraformDataSource
 	AutoDeleteOnIdle() *string
@@ -32,9 +32,6 @@ type DataAzurermServicebusQueue interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DuplicateDetectionHistoryTimeWindow() *string
-	EnableBatchedOperations() cdktn.IResolvable
-	EnableExpress() cdktn.IResolvable
-	EnablePartitioning() cdktn.IResolvable
 	ExpressEnabled() cdktn.IResolvable
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -62,9 +59,6 @@ type DataAzurermServicebusQueue interface {
 	NamespaceId() *string
 	SetNamespaceId(val *string)
 	NamespaceIdInput() *string
-	NamespaceName() *string
-	SetNamespaceName(val *string)
-	NamespaceNameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	PartitioningEnabled() cdktn.IResolvable
@@ -76,9 +70,6 @@ type DataAzurermServicebusQueue interface {
 	RawOverrides() interface{}
 	RequiresDuplicateDetection() cdktn.IResolvable
 	RequiresSession() cdktn.IResolvable
-	ResourceGroupName() *string
-	SetResourceGroupName(val *string)
-	ResourceGroupNameInput() *string
 	Status() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -128,12 +119,9 @@ type DataAzurermServicebusQueue interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
-	ResetNamespaceId()
-	ResetNamespaceName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetResourceGroupName()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -248,36 +236,6 @@ func (j *jsiiProxy_DataAzurermServicebusQueue) DuplicateDetectionHistoryTimeWind
 	_jsii_.Get(
 		j,
 		"duplicateDetectionHistoryTimeWindow",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusQueue) EnableBatchedOperations() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enableBatchedOperations",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusQueue) EnableExpress() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enableExpress",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusQueue) EnablePartitioning() cdktn.IResolvable {
-	var returns cdktn.IResolvable
-	_jsii_.Get(
-		j,
-		"enablePartitioning",
 		&returns,
 	)
 	return returns
@@ -443,26 +401,6 @@ func (j *jsiiProxy_DataAzurermServicebusQueue) NamespaceIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusQueue) NamespaceName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusQueue) NamespaceNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"namespaceNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAzurermServicebusQueue) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -518,26 +456,6 @@ func (j *jsiiProxy_DataAzurermServicebusQueue) RequiresSession() cdktn.IResolvab
 	_jsii_.Get(
 		j,
 		"requiresSession",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusQueue) ResourceGroupName() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermServicebusQueue) ResourceGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceGroupNameInput",
 		&returns,
 	)
 	return returns
@@ -604,7 +522,7 @@ func (j *jsiiProxy_DataAzurermServicebusQueue) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_queue azurerm_servicebus_queue} Data Source.
 func NewDataAzurermServicebusQueue(scope constructs.Construct, id *string, config *DataAzurermServicebusQueueConfig) DataAzurermServicebusQueue {
 	_init_.Initialize()
 
@@ -622,7 +540,7 @@ func NewDataAzurermServicebusQueue(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/servicebus_queue azurerm_servicebus_queue} Data Source.
 func NewDataAzurermServicebusQueue_Override(d DataAzurermServicebusQueue, scope constructs.Construct, id *string, config *DataAzurermServicebusQueueConfig) {
 	_init_.Initialize()
 
@@ -704,32 +622,10 @@ func (j *jsiiProxy_DataAzurermServicebusQueue)SetNamespaceId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermServicebusQueue)SetNamespaceName(val *string) {
-	if err := j.validateSetNamespaceNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"namespaceName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_DataAzurermServicebusQueue)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataAzurermServicebusQueue)SetResourceGroupName(val *string) {
-	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceGroupName",
 		val,
 	)
 }
@@ -1049,34 +945,10 @@ func (d *jsiiProxy_DataAzurermServicebusQueue) ResetId() {
 	)
 }
 
-func (d *jsiiProxy_DataAzurermServicebusQueue) ResetNamespaceId() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetNamespaceId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermServicebusQueue) ResetNamespaceName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetNamespaceName",
-		nil, // no parameters
-	)
-}
-
 func (d *jsiiProxy_DataAzurermServicebusQueue) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataAzurermServicebusQueue) ResetResourceGroupName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetResourceGroupName",
 		nil, // no parameters
 	)
 }

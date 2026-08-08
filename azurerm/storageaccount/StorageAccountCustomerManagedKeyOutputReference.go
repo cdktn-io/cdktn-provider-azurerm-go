@@ -5,9 +5,9 @@ package storageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/storageaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,9 +35,6 @@ type StorageAccountCustomerManagedKeyOutputReference interface {
 	KeyVaultKeyId() *string
 	SetKeyVaultKeyId(val *string)
 	KeyVaultKeyIdInput() *string
-	ManagedHsmKeyId() *string
-	SetManagedHsmKeyId(val *string)
-	ManagedHsmKeyIdInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,8 +70,6 @@ type StorageAccountCustomerManagedKeyOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetKeyVaultKeyId()
-	ResetManagedHsmKeyId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -155,26 +150,6 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) KeyVaultKeyI
 	_jsii_.Get(
 		j,
 		"keyVaultKeyIdInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) ManagedHsmKeyId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedHsmKeyId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) ManagedHsmKeyIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"managedHsmKeyIdInput",
 		&returns,
 	)
 	return returns
@@ -288,17 +263,6 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference)SetKeyVaultKe
 	_jsii_.Set(
 		j,
 		"keyVaultKeyId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference)SetManagedHsmKeyId(val *string) {
-	if err := j.validateSetManagedHsmKeyIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"managedHsmKeyId",
 		val,
 	)
 }
@@ -520,22 +484,6 @@ func (s *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) Interpolatio
 	)
 
 	return returns
-}
-
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) ResetKeyVaultKeyId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetKeyVaultKeyId",
-		nil, // no parameters
-	)
-}
-
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) ResetManagedHsmKeyId() {
-	_jsii_.InvokeVoid(
-		s,
-		"resetManagedHsmKeyId",
-		nil, // no parameters
-	)
 }
 
 func (s *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

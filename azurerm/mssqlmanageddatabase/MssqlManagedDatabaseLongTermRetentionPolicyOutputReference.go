@@ -5,9 +5,9 @@ package mssqlmanageddatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/mssqlmanageddatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/mssqlmanageddatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -30,9 +30,6 @@ type MssqlManagedDatabaseLongTermRetentionPolicyOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	ImmutableBackupsEnabled() interface{}
-	SetImmutableBackupsEnabled(val interface{})
-	ImmutableBackupsEnabledInput() interface{}
 	InternalValue() *MssqlManagedDatabaseLongTermRetentionPolicy
 	SetInternalValue(val *MssqlManagedDatabaseLongTermRetentionPolicy)
 	MonthlyRetention() *string
@@ -79,7 +76,6 @@ type MssqlManagedDatabaseLongTermRetentionPolicyOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetImmutableBackupsEnabled()
 	ResetMonthlyRetention()
 	ResetWeeklyRetention()
 	ResetWeekOfYear()
@@ -134,26 +130,6 @@ func (j *jsiiProxy_MssqlManagedDatabaseLongTermRetentionPolicyOutputReference) F
 	_jsii_.Get(
 		j,
 		"fqn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_MssqlManagedDatabaseLongTermRetentionPolicyOutputReference) ImmutableBackupsEnabled() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"immutableBackupsEnabled",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_MssqlManagedDatabaseLongTermRetentionPolicyOutputReference) ImmutableBackupsEnabledInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"immutableBackupsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -315,17 +291,6 @@ func (j *jsiiProxy_MssqlManagedDatabaseLongTermRetentionPolicyOutputReference)Se
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
-		val,
-	)
-}
-
-func (j *jsiiProxy_MssqlManagedDatabaseLongTermRetentionPolicyOutputReference)SetImmutableBackupsEnabled(val interface{}) {
-	if err := j.validateSetImmutableBackupsEnabledParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"immutableBackupsEnabled",
 		val,
 	)
 }
@@ -591,14 +556,6 @@ func (m *jsiiProxy_MssqlManagedDatabaseLongTermRetentionPolicyOutputReference) I
 	)
 
 	return returns
-}
-
-func (m *jsiiProxy_MssqlManagedDatabaseLongTermRetentionPolicyOutputReference) ResetImmutableBackupsEnabled() {
-	_jsii_.InvokeVoid(
-		m,
-		"resetImmutableBackupsEnabled",
-		nil, // no parameters
-	)
 }
 
 func (m *jsiiProxy_MssqlManagedDatabaseLongTermRetentionPolicyOutputReference) ResetMonthlyRetention() {

@@ -311,10 +311,6 @@ func (j *jsiiProxy_LinuxVirtualMachine) validateSetVirtualMachineScaleSetIdParam
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachine) validateSetVmAgentPlatformUpdatesEnabledParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_LinuxVirtualMachine) validateSetVtpmEnabledParameters(val interface{}) error {
 	return nil
 }

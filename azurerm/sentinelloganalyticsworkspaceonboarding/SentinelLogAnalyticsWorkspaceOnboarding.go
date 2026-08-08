@@ -5,14 +5,14 @@ package sentinelloganalyticsworkspaceonboarding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/sentinelloganalyticsworkspaceonboarding/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/sentinelloganalyticsworkspaceonboarding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding}.
 type SentinelLogAnalyticsWorkspaceOnboarding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) WorkspaceIdInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding} Resource.
 func NewSentinelLogAnalyticsWorkspaceOnboarding(scope constructs.Construct, id *string, config *SentinelLogAnalyticsWorkspaceOnboardingConfig) SentinelLogAnalyticsWorkspaceOnboarding {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewSentinelLogAnalyticsWorkspaceOnboarding(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding} Resource.
 func NewSentinelLogAnalyticsWorkspaceOnboarding_Override(s SentinelLogAnalyticsWorkspaceOnboarding, scope constructs.Construct, id *string, config *SentinelLogAnalyticsWorkspaceOnboardingConfig) {
 	_init_.Initialize()
 

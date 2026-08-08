@@ -103,14 +103,6 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) validateSetNamespaceNameParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) validateSetResourceGroupNameParameters(val *string) error {
-	return nil
-}
-
 func validateNewDataAzurermServicebusNamespaceDisasterRecoveryConfigParameters(scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceDisasterRecoveryConfigConfig) error {
 	return nil
 }

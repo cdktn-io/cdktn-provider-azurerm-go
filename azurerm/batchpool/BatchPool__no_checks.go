@@ -83,10 +83,6 @@ func (b *jsiiProxy_BatchPool) validatePutAutoScaleParameters(value *BatchPoolAut
 	return nil
 }
 
-func (b *jsiiProxy_BatchPool) validatePutCertificateParameters(value interface{}) error {
-	return nil
-}
-
 func (b *jsiiProxy_BatchPool) validatePutContainerConfigurationParameters(value *BatchPoolContainerConfiguration) error {
 	return nil
 }

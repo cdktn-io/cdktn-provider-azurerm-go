@@ -1,4 +1,4 @@
-module github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17
+module github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18
 
 go 1.25
 

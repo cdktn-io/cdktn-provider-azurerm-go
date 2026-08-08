@@ -5,9 +5,9 @@ package dataazurermnginxconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermnginxconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermnginxconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -23,7 +23,6 @@ type DataAzurermNginxConfigurationProtectedFileOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
-	Content() *string
 	ContentHash() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
@@ -97,16 +96,6 @@ func (j *jsiiProxy_DataAzurermNginxConfigurationProtectedFileOutputReference) Co
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAzurermNginxConfigurationProtectedFileOutputReference) Content() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"content",
 		&returns,
 	)
 	return returns

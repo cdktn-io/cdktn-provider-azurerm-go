@@ -187,6 +187,10 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetAdminUsernameParame
 	return nil
 }
 
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetAutomaticUpdatesEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetCapacityReservationGroupIdParameters(val *string) error {
 	return nil
 }
@@ -212,10 +216,6 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetDoNotRunExtensionsO
 }
 
 func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetEdgeZoneParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetEnableAutomaticUpdatesParameters(val interface{}) error {
 	return nil
 }
 

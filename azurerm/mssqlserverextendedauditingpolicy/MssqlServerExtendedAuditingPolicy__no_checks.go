@@ -107,6 +107,10 @@ func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetAuditActionsAnd
 	return nil
 }
 
+func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetBlobStorageEndpointParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -156,10 +160,6 @@ func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetStorageAccountA
 }
 
 func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetStorageAccountSubscriptionIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_MssqlServerExtendedAuditingPolicy) validateSetStorageEndpointParameters(val *string) error {
 	return nil
 }
 

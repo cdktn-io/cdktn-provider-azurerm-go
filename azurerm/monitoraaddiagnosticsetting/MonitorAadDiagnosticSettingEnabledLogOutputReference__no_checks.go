@@ -47,10 +47,6 @@ func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) validat
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) validatePutRetentionPolicyParameters(value *MonitorAadDiagnosticSettingEnabledLogRetentionPolicy) error {
-	return nil
-}
-
 func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -222,14 +222,6 @@ func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetKe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetKeyVaultIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetNegotiateClientCertificateParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

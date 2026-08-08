@@ -5,14 +5,14 @@ package cdnfrontdoorprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/cdnfrontdoorprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/cdnfrontdoorprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile}.
 type CdnFrontdoorProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -568,7 +568,7 @@ func (j *jsiiProxy_CdnFrontdoorProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile} Resource.
 func NewCdnFrontdoorProfile(scope constructs.Construct, id *string, config *CdnFrontdoorProfileConfig) CdnFrontdoorProfile {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewCdnFrontdoorProfile(scope constructs.Construct, id *string, config *CdnF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile} Resource.
 func NewCdnFrontdoorProfile_Override(c CdnFrontdoorProfile, scope constructs.Construct, id *string, config *CdnFrontdoorProfileConfig) {
 	_init_.Initialize()
 

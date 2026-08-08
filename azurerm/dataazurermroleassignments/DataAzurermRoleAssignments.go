@@ -5,14 +5,14 @@ package dataazurermroleassignments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermroleassignments/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermroleassignments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/role_assignments azurerm_role_assignments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/role_assignments azurerm_role_assignments}.
 type DataAzurermRoleAssignments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -417,7 +417,7 @@ func (j *jsiiProxy_DataAzurermRoleAssignments) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/role_assignments azurerm_role_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/role_assignments azurerm_role_assignments} Data Source.
 func NewDataAzurermRoleAssignments(scope constructs.Construct, id *string, config *DataAzurermRoleAssignmentsConfig) DataAzurermRoleAssignments {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewDataAzurermRoleAssignments(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/role_assignments azurerm_role_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/role_assignments azurerm_role_assignments} Data Source.
 func NewDataAzurermRoleAssignments_Override(d DataAzurermRoleAssignments, scope constructs.Construct, id *string, config *DataAzurermRoleAssignmentsConfig) {
 	_init_.Initialize()
 

@@ -143,10 +143,6 @@ func (j *jsiiProxy_DiskEncryptionSet) validateSetLocationParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_DiskEncryptionSet) validateSetManagedHsmKeyIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_DiskEncryptionSet) validateSetNameParameters(val *string) error {
 	return nil
 }

@@ -127,10 +127,6 @@ func (j *jsiiProxy_BotChannelMsTeams) validateSetDeploymentEnvironmentParameters
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelMsTeams) validateSetEnableCallingParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_BotChannelMsTeams) validateSetIdParameters(val *string) error {
 	return nil
 }

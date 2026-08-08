@@ -135,10 +135,6 @@ func (j *jsiiProxy_StorageQueue) validateSetStorageAccountIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_StorageQueue) validateSetStorageAccountNameParameters(val *string) error {
-	return nil
-}
-
 func validateNewStorageQueueParameters(scope constructs.Construct, id *string, config *StorageQueueConfig) error {
 	return nil
 }

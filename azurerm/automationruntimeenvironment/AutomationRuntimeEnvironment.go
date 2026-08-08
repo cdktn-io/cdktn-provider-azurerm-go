@@ -5,14 +5,14 @@ package automationruntimeenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/automationruntimeenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/automationruntimeenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment}.
 type AutomationRuntimeEnvironment interface {
 	cdktn.TerraformResource
 	AutomationAccountId() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_AutomationRuntimeEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment} Resource.
 func NewAutomationRuntimeEnvironment(scope constructs.Construct, id *string, config *AutomationRuntimeEnvironmentConfig) AutomationRuntimeEnvironment {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewAutomationRuntimeEnvironment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment} Resource.
 func NewAutomationRuntimeEnvironment_Override(a AutomationRuntimeEnvironment, scope constructs.Construct, id *string, config *AutomationRuntimeEnvironmentConfig) {
 	_init_.Initialize()
 

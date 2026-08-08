@@ -11,8 +11,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.appServiceSourceControl.AppServiceSourceControlA",
-		reflect.TypeOf((*AppServiceSourceControlA)(nil)).Elem(),
+		"@cdktn/provider-azurerm.appServiceSourceControl.AppServiceSourceControl",
+		reflect.TypeOf((*AppServiceSourceControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -93,14 +93,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AppServiceSourceControlA{}
+			j := jsiiProxy_AppServiceSourceControl{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.appServiceSourceControl.AppServiceSourceControlAConfig",
-		reflect.TypeOf((*AppServiceSourceControlAConfig)(nil)).Elem(),
+		"@cdktn/provider-azurerm.appServiceSourceControl.AppServiceSourceControlConfig",
+		reflect.TypeOf((*AppServiceSourceControlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.appServiceSourceControl.AppServiceSourceControlGithubActionConfiguration",

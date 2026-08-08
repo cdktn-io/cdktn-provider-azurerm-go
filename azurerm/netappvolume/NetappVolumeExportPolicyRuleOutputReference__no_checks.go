@@ -95,10 +95,6 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference) validateSetProto
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference) validateSetProtocolsEnabledParameters(val *[]*string) error {
-	return nil
-}
-
 func (j *jsiiProxy_NetappVolumeExportPolicyRuleOutputReference) validateSetRootAccessEnabledParameters(val interface{}) error {
 	return nil
 }

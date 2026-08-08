@@ -21,8 +21,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "contact", GoGetter: "Contact"},
-			_jsii_.MemberProperty{JsiiProperty: "contactInput", GoGetter: "ContactInput"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "enabledForDeployment", GoGetter: "EnabledForDeployment"},
@@ -31,8 +29,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "enabledForDiskEncryptionInput", GoGetter: "EnabledForDiskEncryptionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "enabledForTemplateDeployment", GoGetter: "EnabledForTemplateDeployment"},
 			_jsii_.MemberProperty{JsiiProperty: "enabledForTemplateDeploymentInput", GoGetter: "EnabledForTemplateDeploymentInput"},
-			_jsii_.MemberProperty{JsiiProperty: "enableRbacAuthorization", GoGetter: "EnableRbacAuthorization"},
-			_jsii_.MemberProperty{JsiiProperty: "enableRbacAuthorizationInput", GoGetter: "EnableRbacAuthorizationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
@@ -70,7 +66,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "purgeProtectionEnabled", GoGetter: "PurgeProtectionEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "purgeProtectionEnabledInput", GoGetter: "PurgeProtectionEnabledInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putAccessPolicy", GoMethod: "PutAccessPolicy"},
-			_jsii_.MemberMethod{JsiiMethod: "putContact", GoMethod: "PutContact"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkAcls", GoMethod: "PutNetworkAcls"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -78,17 +73,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rbacAuthorizationEnabledInput", GoGetter: "RbacAuthorizationEnabledInput"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAccessPolicy", GoMethod: "ResetAccessPolicy"},
-			_jsii_.MemberMethod{JsiiMethod: "resetContact", GoMethod: "ResetContact"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnabledForDeployment", GoMethod: "ResetEnabledForDeployment"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnabledForDiskEncryption", GoMethod: "ResetEnabledForDiskEncryption"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnabledForTemplateDeployment", GoMethod: "ResetEnabledForTemplateDeployment"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEnableRbacAuthorization", GoMethod: "ResetEnableRbacAuthorization"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkAcls", GoMethod: "ResetNetworkAcls"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPublicNetworkAccessEnabled", GoMethod: "ResetPublicNetworkAccessEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPurgeProtectionEnabled", GoMethod: "ResetPurgeProtectionEnabled"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRbacAuthorizationEnabled", GoMethod: "ResetRbacAuthorizationEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSoftDeleteRetentionDays", GoMethod: "ResetSoftDeleteRetentionDays"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
@@ -204,72 +196,6 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.keyVault.KeyVaultConfig",
 		reflect.TypeOf((*KeyVaultConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-azurerm.keyVault.KeyVaultContact",
-		reflect.TypeOf((*KeyVaultContact)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.keyVault.KeyVaultContactList",
-		reflect.TypeOf((*KeyVaultContactList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_KeyVaultContactList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-azurerm.keyVault.KeyVaultContactOutputReference",
-		reflect.TypeOf((*KeyVaultContactOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "email", GoGetter: "Email"},
-			_jsii_.MemberProperty{JsiiProperty: "emailInput", GoGetter: "EmailInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "phone", GoGetter: "Phone"},
-			_jsii_.MemberProperty{JsiiProperty: "phoneInput", GoGetter: "PhoneInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPhone", GoMethod: "ResetPhone"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_KeyVaultContactOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.keyVault.KeyVaultNetworkAcls",

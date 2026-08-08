@@ -5,14 +5,14 @@ package virtualdesktopapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/virtualdesktopapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualdesktopapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application}.
 type VirtualDesktopApplication interface {
 	cdktn.TerraformResource
 	ApplicationGroupId() *string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_VirtualDesktopApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application} Resource.
 func NewVirtualDesktopApplication(scope constructs.Construct, id *string, config *VirtualDesktopApplicationConfig) VirtualDesktopApplication {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewVirtualDesktopApplication(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application} Resource.
 func NewVirtualDesktopApplication_Override(v VirtualDesktopApplication, scope constructs.Construct, id *string, config *VirtualDesktopApplicationConfig) {
 	_init_.Initialize()
 

@@ -63,10 +63,6 @@ func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) validateSetIntern
 	return nil
 }
 
-func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) validateSetKeySourceParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) validateSetKeyVaultKeyIdParameters(val *string) error {
 	return nil
 }

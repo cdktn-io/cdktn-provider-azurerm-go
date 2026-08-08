@@ -5,14 +5,14 @@ package dataazurermcosmosdbaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermcosmosdbaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermcosmosdbaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cosmosdb_account azurerm_cosmosdb_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cosmosdb_account azurerm_cosmosdb_account}.
 type DataAzurermCosmosdbAccount interface {
 	cdktn.TerraformDataSource
 	AutomaticFailoverEnabled() cdktn.IResolvable
@@ -44,7 +44,7 @@ type DataAzurermCosmosdbAccount interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	IpRangeFilter() *string
+	IpRangeFilter() *[]*string
 	IsVirtualNetworkFilterEnabled() cdktn.IResolvable
 	KeyVaultKeyId() *string
 	Kind() *string
@@ -315,8 +315,8 @@ func (j *jsiiProxy_DataAzurermCosmosdbAccount) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbAccount) IpRangeFilter() *string {
-	var returns *string
+func (j *jsiiProxy_DataAzurermCosmosdbAccount) IpRangeFilter() *[]*string {
+	var returns *[]*string
 	_jsii_.Get(
 		j,
 		"ipRangeFilter",
@@ -676,7 +676,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbAccount) WriteEndpoints() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cosmosdb_account azurerm_cosmosdb_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cosmosdb_account azurerm_cosmosdb_account} Data Source.
 func NewDataAzurermCosmosdbAccount(scope constructs.Construct, id *string, config *DataAzurermCosmosdbAccountConfig) DataAzurermCosmosdbAccount {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewDataAzurermCosmosdbAccount(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cosmosdb_account azurerm_cosmosdb_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cosmosdb_account azurerm_cosmosdb_account} Data Source.
 func NewDataAzurermCosmosdbAccount_Override(d DataAzurermCosmosdbAccount, scope constructs.Construct, id *string, config *DataAzurermCosmosdbAccountConfig) {
 	_init_.Initialize()
 

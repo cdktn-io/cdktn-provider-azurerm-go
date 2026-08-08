@@ -5,14 +5,14 @@ package loganalyticsquerypackquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/loganalyticsquerypackquery/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/loganalyticsquerypackquery/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query}.
 type LogAnalyticsQueryPackQuery interface {
 	cdktn.TerraformResource
 	AdditionalSettingsJson() *string
@@ -629,7 +629,7 @@ func (j *jsiiProxy_LogAnalyticsQueryPackQuery) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
 func NewLogAnalyticsQueryPackQuery(scope constructs.Construct, id *string, config *LogAnalyticsQueryPackQueryConfig) LogAnalyticsQueryPackQuery {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewLogAnalyticsQueryPackQuery(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
 func NewLogAnalyticsQueryPackQuery_Override(l LogAnalyticsQueryPackQuery, scope constructs.Construct, id *string, config *LogAnalyticsQueryPackQueryConfig) {
 	_init_.Initialize()
 
