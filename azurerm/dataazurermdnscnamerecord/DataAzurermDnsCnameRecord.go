@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_cname_record azurerm_dns_cname_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record}.
 type DataAzurermDnsCnameRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAzurermDnsCnameRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_cname_record azurerm_dns_cname_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record} Data Source.
 func NewDataAzurermDnsCnameRecord(scope constructs.Construct, id *string, config *DataAzurermDnsCnameRecordConfig) DataAzurermDnsCnameRecord {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewDataAzurermDnsCnameRecord(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_cname_record azurerm_dns_cname_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record} Data Source.
 func NewDataAzurermDnsCnameRecord_Override(d DataAzurermDnsCnameRecord, scope constructs.Construct, id *string, config *DataAzurermDnsCnameRecordConfig) {
 	_init_.Initialize()
 

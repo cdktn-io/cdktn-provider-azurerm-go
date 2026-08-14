@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_api azurerm_managed_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/managed_api azurerm_managed_api}.
 type DataAzurermManagedApi interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAzurermManagedApi) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_api azurerm_managed_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
 func NewDataAzurermManagedApi(scope constructs.Construct, id *string, config *DataAzurermManagedApiConfig) DataAzurermManagedApi {
 	_init_.Initialize()
 
@@ -386,7 +386,7 @@ func NewDataAzurermManagedApi(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_api azurerm_managed_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
 func NewDataAzurermManagedApi_Override(d DataAzurermManagedApi, scope constructs.Construct, id *string, config *DataAzurermManagedApiConfig) {
 	_init_.Initialize()
 

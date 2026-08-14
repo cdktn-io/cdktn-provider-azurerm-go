@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_cluster azurerm_machine_learning_compute_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/machine_learning_compute_cluster azurerm_machine_learning_compute_cluster}.
 type MachineLearningComputeCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -722,7 +722,7 @@ func (j *jsiiProxy_MachineLearningComputeCluster) VmSizeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_cluster azurerm_machine_learning_compute_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/machine_learning_compute_cluster azurerm_machine_learning_compute_cluster} Resource.
 func NewMachineLearningComputeCluster(scope constructs.Construct, id *string, config *MachineLearningComputeClusterConfig) MachineLearningComputeCluster {
 	_init_.Initialize()
 
@@ -740,7 +740,7 @@ func NewMachineLearningComputeCluster(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_cluster azurerm_machine_learning_compute_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/machine_learning_compute_cluster azurerm_machine_learning_compute_cluster} Resource.
 func NewMachineLearningComputeCluster_Override(m MachineLearningComputeCluster, scope constructs.Construct, id *string, config *MachineLearningComputeClusterConfig) {
 	_init_.Initialize()
 

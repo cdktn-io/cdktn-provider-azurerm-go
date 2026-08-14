@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias}.
 type MssqlServerDnsAlias interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_MssqlServerDnsAlias) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias} Resource.
 func NewMssqlServerDnsAlias(scope constructs.Construct, id *string, config *MssqlServerDnsAliasConfig) MssqlServerDnsAlias {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewMssqlServerDnsAlias(scope constructs.Construct, id *string, config *Mssq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias} Resource.
 func NewMssqlServerDnsAlias_Override(m MssqlServerDnsAlias, scope constructs.Construct, id *string, config *MssqlServerDnsAliasConfig) {
 	_init_.Initialize()
 

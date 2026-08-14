@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_file_upload azurerm_iothub_file_upload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload}.
 type IothubFileUploadA interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -629,7 +629,7 @@ func (j *jsiiProxy_IothubFileUploadA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
 func NewIothubFileUploadA(scope constructs.Construct, id *string, config *IothubFileUploadAConfig) IothubFileUploadA {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewIothubFileUploadA(scope constructs.Construct, id *string, config *Iothub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
 func NewIothubFileUploadA_Override(i IothubFileUploadA, scope constructs.Construct, id *string, config *IothubFileUploadAConfig) {
 	_init_.Initialize()
 

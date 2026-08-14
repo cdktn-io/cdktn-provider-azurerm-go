@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule azurerm_dev_test_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dev_test_schedule azurerm_dev_test_schedule}.
 type DevTestSchedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -673,7 +673,7 @@ func (j *jsiiProxy_DevTestSchedule) WeeklyRecurrenceInput() *DevTestScheduleWeek
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule azurerm_dev_test_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dev_test_schedule azurerm_dev_test_schedule} Resource.
 func NewDevTestSchedule(scope constructs.Construct, id *string, config *DevTestScheduleConfig) DevTestSchedule {
 	_init_.Initialize()
 
@@ -691,7 +691,7 @@ func NewDevTestSchedule(scope constructs.Construct, id *string, config *DevTestS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule azurerm_dev_test_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dev_test_schedule azurerm_dev_test_schedule} Resource.
 func NewDevTestSchedule_Override(d DevTestSchedule, scope constructs.Construct, id *string, config *DevTestScheduleConfig) {
 	_init_.Initialize()
 

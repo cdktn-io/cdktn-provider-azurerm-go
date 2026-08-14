@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/search_service azurerm_search_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/search_service azurerm_search_service}.
 type DataAzurermSearchService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -467,7 +467,7 @@ func (j *jsiiProxy_DataAzurermSearchService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/search_service azurerm_search_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/search_service azurerm_search_service} Data Source.
 func NewDataAzurermSearchService(scope constructs.Construct, id *string, config *DataAzurermSearchServiceConfig) DataAzurermSearchService {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewDataAzurermSearchService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/search_service azurerm_search_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/search_service azurerm_search_service} Data Source.
 func NewDataAzurermSearchService_Override(d DataAzurermSearchService, scope constructs.Construct, id *string, config *DataAzurermSearchServiceConfig) {
 	_init_.Initialize()
 

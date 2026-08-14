@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension}.
 type VirtualMachineExtension interface {
 	cdktn.TerraformResource
 	AutomaticUpgradeEnabled() interface{}
@@ -699,7 +699,7 @@ func (j *jsiiProxy_VirtualMachineExtension) VirtualMachineIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
 func NewVirtualMachineExtension(scope constructs.Construct, id *string, config *VirtualMachineExtensionConfig) VirtualMachineExtension {
 	_init_.Initialize()
 
@@ -717,7 +717,7 @@ func NewVirtualMachineExtension(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
 func NewVirtualMachineExtension_Override(v VirtualMachineExtension, scope constructs.Construct, id *string, config *VirtualMachineExtensionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/blueprint_definition azurerm_blueprint_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/blueprint_definition azurerm_blueprint_definition}.
 type DataAzurermBlueprintDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAzurermBlueprintDefinition) Versions() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/blueprint_definition azurerm_blueprint_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/blueprint_definition azurerm_blueprint_definition} Data Source.
 func NewDataAzurermBlueprintDefinition(scope constructs.Construct, id *string, config *DataAzurermBlueprintDefinitionConfig) DataAzurermBlueprintDefinition {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewDataAzurermBlueprintDefinition(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/blueprint_definition azurerm_blueprint_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/blueprint_definition azurerm_blueprint_definition} Data Source.
 func NewDataAzurermBlueprintDefinition_Override(d DataAzurermBlueprintDefinition, scope constructs.Construct, id *string, config *DataAzurermBlueprintDefinitionConfig) {
 	_init_.Initialize()
 

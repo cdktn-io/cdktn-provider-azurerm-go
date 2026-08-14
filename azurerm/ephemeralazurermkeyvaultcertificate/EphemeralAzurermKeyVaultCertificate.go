@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/ephemeral-resources/key_vault_certificate azurerm_key_vault_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/ephemeral-resources/key_vault_certificate azurerm_key_vault_certificate}.
 type EphemeralAzurermKeyVaultCertificate interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -398,7 +398,7 @@ func (j *jsiiProxy_EphemeralAzurermKeyVaultCertificate) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/ephemeral-resources/key_vault_certificate azurerm_key_vault_certificate} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/ephemeral-resources/key_vault_certificate azurerm_key_vault_certificate} Ephemeral Resource.
 func NewEphemeralAzurermKeyVaultCertificate(scope constructs.Construct, id *string, config *EphemeralAzurermKeyVaultCertificateConfig) EphemeralAzurermKeyVaultCertificate {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewEphemeralAzurermKeyVaultCertificate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/ephemeral-resources/key_vault_certificate azurerm_key_vault_certificate} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/ephemeral-resources/key_vault_certificate azurerm_key_vault_certificate} Ephemeral Resource.
 func NewEphemeralAzurermKeyVaultCertificate_Override(e EphemeralAzurermKeyVaultCertificate, scope constructs.Construct, id *string, config *EphemeralAzurermKeyVaultCertificateConfig) {
 	_init_.Initialize()
 

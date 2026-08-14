@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_secret azurerm_key_vault_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_secret azurerm_key_vault_secret}.
 type KeyVaultSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -652,7 +652,7 @@ func (j *jsiiProxy_KeyVaultSecret) VersionlessId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_secret azurerm_key_vault_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_secret azurerm_key_vault_secret} Resource.
 func NewKeyVaultSecret(scope constructs.Construct, id *string, config *KeyVaultSecretConfig) KeyVaultSecret {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewKeyVaultSecret(scope constructs.Construct, id *string, config *KeyVaultS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_secret azurerm_key_vault_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_secret azurerm_key_vault_secret} Resource.
 func NewKeyVaultSecret_Override(k KeyVaultSecret, scope constructs.Construct, id *string, config *KeyVaultSecretConfig) {
 	_init_.Initialize()
 

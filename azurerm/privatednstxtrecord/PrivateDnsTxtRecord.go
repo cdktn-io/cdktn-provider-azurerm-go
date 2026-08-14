@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record}.
 type PrivateDnsTxtRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_PrivateDnsTxtRecord) TtlInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
 func NewPrivateDnsTxtRecord(scope constructs.Construct, id *string, config *PrivateDnsTxtRecordConfig) PrivateDnsTxtRecord {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewPrivateDnsTxtRecord(scope constructs.Construct, id *string, config *Priv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
 func NewPrivateDnsTxtRecord_Override(p PrivateDnsTxtRecord, scope constructs.Construct, id *string, config *PrivateDnsTxtRecordConfig) {
 	_init_.Initialize()
 

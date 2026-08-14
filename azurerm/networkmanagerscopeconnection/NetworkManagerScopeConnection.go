@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_scope_connection azurerm_network_manager_scope_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_scope_connection azurerm_network_manager_scope_connection}.
 type NetworkManagerScopeConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_NetworkManagerScopeConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_scope_connection azurerm_network_manager_scope_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_scope_connection azurerm_network_manager_scope_connection} Resource.
 func NewNetworkManagerScopeConnection(scope constructs.Construct, id *string, config *NetworkManagerScopeConnectionConfig) NetworkManagerScopeConnection {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewNetworkManagerScopeConnection(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_scope_connection azurerm_network_manager_scope_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_scope_connection azurerm_network_manager_scope_connection} Resource.
 func NewNetworkManagerScopeConnection_Override(n NetworkManagerScopeConnection, scope constructs.Construct, id *string, config *NetworkManagerScopeConnectionConfig) {
 	_init_.Initialize()
 

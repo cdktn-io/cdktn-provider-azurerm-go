@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration}.
 type PortalTenantConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_PortalTenantConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
 func NewPortalTenantConfiguration(scope constructs.Construct, id *string, config *PortalTenantConfigurationConfig) PortalTenantConfiguration {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewPortalTenantConfiguration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
 func NewPortalTenantConfiguration_Override(p PortalTenantConfiguration, scope constructs.Construct, id *string, config *PortalTenantConfigurationConfig) {
 	_init_.Initialize()
 

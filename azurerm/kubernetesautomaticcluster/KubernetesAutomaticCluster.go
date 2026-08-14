@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_automatic_cluster azurerm_kubernetes_automatic_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_automatic_cluster azurerm_kubernetes_automatic_cluster}.
 type KubernetesAutomaticCluster interface {
 	cdktn.TerraformResource
 	ApiServerAccess() KubernetesAutomaticClusterApiServerAccessOutputReference
@@ -716,7 +716,7 @@ func (j *jsiiProxy_KubernetesAutomaticCluster) WebAppRoutingIngressInput() *Kube
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_automatic_cluster azurerm_kubernetes_automatic_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_automatic_cluster azurerm_kubernetes_automatic_cluster} Resource.
 func NewKubernetesAutomaticCluster(scope constructs.Construct, id *string, config *KubernetesAutomaticClusterConfig) KubernetesAutomaticCluster {
 	_init_.Initialize()
 
@@ -734,7 +734,7 @@ func NewKubernetesAutomaticCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_automatic_cluster azurerm_kubernetes_automatic_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_automatic_cluster azurerm_kubernetes_automatic_cluster} Resource.
 func NewKubernetesAutomaticCluster_Override(k KubernetesAutomaticCluster, scope constructs.Construct, id *string, config *KubernetesAutomaticClusterConfig) {
 	_init_.Initialize()
 

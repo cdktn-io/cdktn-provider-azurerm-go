@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity azurerm_cognitive_account_connection_account_managed_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity azurerm_cognitive_account_connection_account_managed_identity}.
 type CognitiveAccountConnectionAccountManagedIdentity interface {
 	cdktn.TerraformResource
 	Category() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_CognitiveAccountConnectionAccountManagedIdentity) TimeoutsInp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity azurerm_cognitive_account_connection_account_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity azurerm_cognitive_account_connection_account_managed_identity} Resource.
 func NewCognitiveAccountConnectionAccountManagedIdentity(scope constructs.Construct, id *string, config *CognitiveAccountConnectionAccountManagedIdentityConfig) CognitiveAccountConnectionAccountManagedIdentity {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewCognitiveAccountConnectionAccountManagedIdentity(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity azurerm_cognitive_account_connection_account_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity azurerm_cognitive_account_connection_account_managed_identity} Resource.
 func NewCognitiveAccountConnectionAccountManagedIdentity_Override(c CognitiveAccountConnectionAccountManagedIdentity, scope constructs.Construct, id *string, config *CognitiveAccountConnectionAccountManagedIdentityConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy}.
 type ApiManagementWorkspacePolicy interface {
 	cdktn.TerraformResource
 	ApiManagementWorkspaceId() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicy) XmlLinkInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
 func NewApiManagementWorkspacePolicy(scope constructs.Construct, id *string, config *ApiManagementWorkspacePolicyConfig) ApiManagementWorkspacePolicy {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewApiManagementWorkspacePolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
 func NewApiManagementWorkspacePolicy_Override(a ApiManagementWorkspacePolicy, scope constructs.Construct, id *string, config *ApiManagementWorkspacePolicyConfig) {
 	_init_.Initialize()
 

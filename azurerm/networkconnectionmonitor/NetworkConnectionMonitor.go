@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor azurerm_network_connection_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_connection_monitor azurerm_network_connection_monitor}.
 type NetworkConnectionMonitor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -602,7 +602,7 @@ func (j *jsiiProxy_NetworkConnectionMonitor) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor azurerm_network_connection_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_connection_monitor azurerm_network_connection_monitor} Resource.
 func NewNetworkConnectionMonitor(scope constructs.Construct, id *string, config *NetworkConnectionMonitorConfig) NetworkConnectionMonitor {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewNetworkConnectionMonitor(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor azurerm_network_connection_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_connection_monitor azurerm_network_connection_monitor} Resource.
 func NewNetworkConnectionMonitor_Override(n NetworkConnectionMonitor, scope constructs.Construct, id *string, config *NetworkConnectionMonitorConfig) {
 	_init_.Initialize()
 

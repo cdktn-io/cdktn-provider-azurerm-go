@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider}.
 type ApiManagementOpenidConnectProvider interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -577,7 +577,7 @@ func (j *jsiiProxy_ApiManagementOpenidConnectProvider) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
 func NewApiManagementOpenidConnectProvider(scope constructs.Construct, id *string, config *ApiManagementOpenidConnectProviderConfig) ApiManagementOpenidConnectProvider {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewApiManagementOpenidConnectProvider(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
 func NewApiManagementOpenidConnectProvider_Override(a ApiManagementOpenidConnectProvider, scope constructs.Construct, id *string, config *ApiManagementOpenidConnectProviderConfig) {
 	_init_.Initialize()
 

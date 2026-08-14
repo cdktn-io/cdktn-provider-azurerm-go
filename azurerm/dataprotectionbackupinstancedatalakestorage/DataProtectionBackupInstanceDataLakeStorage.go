@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage}.
 type DataProtectionBackupInstanceDataLakeStorage interface {
 	cdktn.TerraformResource
 	BackupPolicyDataLakeStorageId() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceDataLakeStorage) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage} Resource.
 func NewDataProtectionBackupInstanceDataLakeStorage(scope constructs.Construct, id *string, config *DataProtectionBackupInstanceDataLakeStorageConfig) DataProtectionBackupInstanceDataLakeStorage {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewDataProtectionBackupInstanceDataLakeStorage(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage} Resource.
 func NewDataProtectionBackupInstanceDataLakeStorage_Override(d DataProtectionBackupInstanceDataLakeStorage, scope constructs.Construct, id *string, config *DataProtectionBackupInstanceDataLakeStorageConfig) {
 	_init_.Initialize()
 

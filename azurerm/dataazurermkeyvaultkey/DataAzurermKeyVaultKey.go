@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_key azurerm_key_vault_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/key_vault_key azurerm_key_vault_key}.
 type DataAzurermKeyVaultKey interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultKey) Y() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_key azurerm_key_vault_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/key_vault_key azurerm_key_vault_key} Data Source.
 func NewDataAzurermKeyVaultKey(scope constructs.Construct, id *string, config *DataAzurermKeyVaultKeyConfig) DataAzurermKeyVaultKey {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewDataAzurermKeyVaultKey(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/key_vault_key azurerm_key_vault_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/key_vault_key azurerm_key_vault_key} Data Source.
 func NewDataAzurermKeyVaultKey_Override(d DataAzurermKeyVaultKey, scope constructs.Construct, id *string, config *DataAzurermKeyVaultKeyConfig) {
 	_init_.Initialize()
 

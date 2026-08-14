@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/public_ip_prefix azurerm_public_ip_prefix}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/public_ip_prefix azurerm_public_ip_prefix}.
 type PublicIpPrefix interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -640,7 +640,7 @@ func (j *jsiiProxy_PublicIpPrefix) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/public_ip_prefix azurerm_public_ip_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/public_ip_prefix azurerm_public_ip_prefix} Resource.
 func NewPublicIpPrefix(scope constructs.Construct, id *string, config *PublicIpPrefixConfig) PublicIpPrefix {
 	_init_.Initialize()
 
@@ -658,7 +658,7 @@ func NewPublicIpPrefix(scope constructs.Construct, id *string, config *PublicIpP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/public_ip_prefix azurerm_public_ip_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/public_ip_prefix azurerm_public_ip_prefix} Resource.
 func NewPublicIpPrefix_Override(p PublicIpPrefix, scope constructs.Construct, id *string, config *PublicIpPrefixConfig) {
 	_init_.Initialize()
 

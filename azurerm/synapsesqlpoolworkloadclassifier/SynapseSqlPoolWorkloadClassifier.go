@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool_workload_classifier azurerm_synapse_sql_pool_workload_classifier}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool_workload_classifier azurerm_synapse_sql_pool_workload_classifier}.
 type SynapseSqlPoolWorkloadClassifier interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -581,7 +581,7 @@ func (j *jsiiProxy_SynapseSqlPoolWorkloadClassifier) WorkloadGroupIdInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool_workload_classifier azurerm_synapse_sql_pool_workload_classifier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool_workload_classifier azurerm_synapse_sql_pool_workload_classifier} Resource.
 func NewSynapseSqlPoolWorkloadClassifier(scope constructs.Construct, id *string, config *SynapseSqlPoolWorkloadClassifierConfig) SynapseSqlPoolWorkloadClassifier {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewSynapseSqlPoolWorkloadClassifier(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool_workload_classifier azurerm_synapse_sql_pool_workload_classifier} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool_workload_classifier azurerm_synapse_sql_pool_workload_classifier} Resource.
 func NewSynapseSqlPoolWorkloadClassifier_Override(s SynapseSqlPoolWorkloadClassifier, scope constructs.Construct, id *string, config *SynapseSqlPoolWorkloadClassifierConfig) {
 	_init_.Initialize()
 

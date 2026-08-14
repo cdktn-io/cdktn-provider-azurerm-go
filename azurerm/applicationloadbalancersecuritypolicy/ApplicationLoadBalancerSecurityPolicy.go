@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy}.
 type ApplicationLoadBalancerSecurityPolicy interface {
 	cdktn.TerraformResource
 	ApplicationLoadBalancerId() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_ApplicationLoadBalancerSecurityPolicy) WebApplicationFirewall
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
 func NewApplicationLoadBalancerSecurityPolicy(scope constructs.Construct, id *string, config *ApplicationLoadBalancerSecurityPolicyConfig) ApplicationLoadBalancerSecurityPolicy {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewApplicationLoadBalancerSecurityPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
 func NewApplicationLoadBalancerSecurityPolicy_Override(a ApplicationLoadBalancerSecurityPolicy, scope constructs.Construct, id *string, config *ApplicationLoadBalancerSecurityPolicyConfig) {
 	_init_.Initialize()
 

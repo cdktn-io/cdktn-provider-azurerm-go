@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app_environment_dapr_component azurerm_container_app_environment_dapr_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app_environment_dapr_component azurerm_container_app_environment_dapr_component}.
 type ContainerAppEnvironmentDaprComponent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -604,7 +604,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentDaprComponent) VersionInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app_environment_dapr_component azurerm_container_app_environment_dapr_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app_environment_dapr_component azurerm_container_app_environment_dapr_component} Resource.
 func NewContainerAppEnvironmentDaprComponent(scope constructs.Construct, id *string, config *ContainerAppEnvironmentDaprComponentConfig) ContainerAppEnvironmentDaprComponent {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewContainerAppEnvironmentDaprComponent(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app_environment_dapr_component azurerm_container_app_environment_dapr_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app_environment_dapr_component azurerm_container_app_environment_dapr_component} Resource.
 func NewContainerAppEnvironmentDaprComponent_Override(c ContainerAppEnvironmentDaprComponent, scope constructs.Construct, id *string, config *ContainerAppEnvironmentDaprComponentConfig) {
 	_init_.Initialize()
 

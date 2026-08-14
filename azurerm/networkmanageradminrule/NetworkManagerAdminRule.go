@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_admin_rule azurerm_network_manager_admin_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_admin_rule azurerm_network_manager_admin_rule}.
 type NetworkManagerAdminRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -650,7 +650,7 @@ func (j *jsiiProxy_NetworkManagerAdminRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_admin_rule azurerm_network_manager_admin_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_admin_rule azurerm_network_manager_admin_rule} Resource.
 func NewNetworkManagerAdminRule(scope constructs.Construct, id *string, config *NetworkManagerAdminRuleConfig) NetworkManagerAdminRule {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewNetworkManagerAdminRule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_admin_rule azurerm_network_manager_admin_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_admin_rule azurerm_network_manager_admin_rule} Resource.
 func NewNetworkManagerAdminRule_Override(n NetworkManagerAdminRule, scope constructs.Construct, id *string, config *NetworkManagerAdminRuleConfig) {
 	_init_.Initialize()
 

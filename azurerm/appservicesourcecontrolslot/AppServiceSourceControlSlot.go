@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot}.
 type AppServiceSourceControlSlot interface {
 	cdktn.TerraformResource
 	Branch() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_AppServiceSourceControlSlot) UsesGithubAction() cdktn.IResolv
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot} Resource.
 func NewAppServiceSourceControlSlot(scope constructs.Construct, id *string, config *AppServiceSourceControlSlotConfig) AppServiceSourceControlSlot {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewAppServiceSourceControlSlot(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot} Resource.
 func NewAppServiceSourceControlSlot_Override(a AppServiceSourceControlSlot, scope constructs.Construct, id *string, config *AppServiceSourceControlSlotConfig) {
 	_init_.Initialize()
 

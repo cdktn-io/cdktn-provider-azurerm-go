@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster}.
 type StreamAnalyticsCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_StreamAnalyticsCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
 func NewStreamAnalyticsCluster(scope constructs.Construct, id *string, config *StreamAnalyticsClusterConfig) StreamAnalyticsCluster {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewStreamAnalyticsCluster(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
 func NewStreamAnalyticsCluster_Override(s StreamAnalyticsCluster, scope constructs.Construct, id *string, config *StreamAnalyticsClusterConfig) {
 	_init_.Initialize()
 

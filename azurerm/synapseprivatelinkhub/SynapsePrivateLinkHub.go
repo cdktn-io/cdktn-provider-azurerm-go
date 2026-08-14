@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub}.
 type SynapsePrivateLinkHub interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SynapsePrivateLinkHub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub} Resource.
 func NewSynapsePrivateLinkHub(scope constructs.Construct, id *string, config *SynapsePrivateLinkHubConfig) SynapsePrivateLinkHub {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewSynapsePrivateLinkHub(scope constructs.Construct, id *string, config *Sy
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub} Resource.
 func NewSynapsePrivateLinkHub_Override(s SynapsePrivateLinkHub, scope constructs.Construct, id *string, config *SynapsePrivateLinkHubConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/site_recovery_vmware_replication_policy_association azurerm_site_recovery_vmware_replication_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/site_recovery_vmware_replication_policy_association azurerm_site_recovery_vmware_replication_policy_association}.
 type SiteRecoveryVmwareReplicationPolicyAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_SiteRecoveryVmwareReplicationPolicyAssociation) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/site_recovery_vmware_replication_policy_association azurerm_site_recovery_vmware_replication_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/site_recovery_vmware_replication_policy_association azurerm_site_recovery_vmware_replication_policy_association} Resource.
 func NewSiteRecoveryVmwareReplicationPolicyAssociation(scope constructs.Construct, id *string, config *SiteRecoveryVmwareReplicationPolicyAssociationConfig) SiteRecoveryVmwareReplicationPolicyAssociation {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewSiteRecoveryVmwareReplicationPolicyAssociation(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/site_recovery_vmware_replication_policy_association azurerm_site_recovery_vmware_replication_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/site_recovery_vmware_replication_policy_association azurerm_site_recovery_vmware_replication_policy_association} Resource.
 func NewSiteRecoveryVmwareReplicationPolicyAssociation_Override(s SiteRecoveryVmwareReplicationPolicyAssociation, scope constructs.Construct, id *string, config *SiteRecoveryVmwareReplicationPolicyAssociationConfig) {
 	_init_.Initialize()
 

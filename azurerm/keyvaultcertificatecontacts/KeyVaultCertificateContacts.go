@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate_contacts azurerm_key_vault_certificate_contacts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate_contacts azurerm_key_vault_certificate_contacts}.
 type KeyVaultCertificateContacts interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_KeyVaultCertificateContacts) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate_contacts azurerm_key_vault_certificate_contacts} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate_contacts azurerm_key_vault_certificate_contacts} Resource.
 func NewKeyVaultCertificateContacts(scope constructs.Construct, id *string, config *KeyVaultCertificateContactsConfig) KeyVaultCertificateContacts {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewKeyVaultCertificateContacts(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate_contacts azurerm_key_vault_certificate_contacts} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate_contacts azurerm_key_vault_certificate_contacts} Resource.
 func NewKeyVaultCertificateContacts_Override(k KeyVaultCertificateContacts, scope constructs.Construct, id *string, config *KeyVaultCertificateContactsConfig) {
 	_init_.Initialize()
 

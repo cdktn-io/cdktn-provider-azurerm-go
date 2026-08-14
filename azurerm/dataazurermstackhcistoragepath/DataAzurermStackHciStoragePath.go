@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/stack_hci_storage_path azurerm_stack_hci_storage_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/stack_hci_storage_path azurerm_stack_hci_storage_path}.
 type DataAzurermStackHciStoragePath interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAzurermStackHciStoragePath) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/stack_hci_storage_path azurerm_stack_hci_storage_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/stack_hci_storage_path azurerm_stack_hci_storage_path} Data Source.
 func NewDataAzurermStackHciStoragePath(scope constructs.Construct, id *string, config *DataAzurermStackHciStoragePathConfig) DataAzurermStackHciStoragePath {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDataAzurermStackHciStoragePath(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/stack_hci_storage_path azurerm_stack_hci_storage_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/stack_hci_storage_path azurerm_stack_hci_storage_path} Data Source.
 func NewDataAzurermStackHciStoragePath_Override(d DataAzurermStackHciStoragePath, scope constructs.Construct, id *string, config *DataAzurermStackHciStoragePathConfig) {
 	_init_.Initialize()
 

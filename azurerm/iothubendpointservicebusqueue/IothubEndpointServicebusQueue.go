@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue}.
 type IothubEndpointServicebusQueue interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_IothubEndpointServicebusQueue) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue} Resource.
 func NewIothubEndpointServicebusQueue(scope constructs.Construct, id *string, config *IothubEndpointServicebusQueueConfig) IothubEndpointServicebusQueue {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewIothubEndpointServicebusQueue(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue} Resource.
 func NewIothubEndpointServicebusQueue_Override(i IothubEndpointServicebusQueue, scope constructs.Construct, id *string, config *IothubEndpointServicebusQueueConfig) {
 	_init_.Initialize()
 

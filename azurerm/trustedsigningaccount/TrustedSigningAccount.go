@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/trusted_signing_account azurerm_trusted_signing_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/trusted_signing_account azurerm_trusted_signing_account}.
 type TrustedSigningAccount interface {
 	cdktn.TerraformResource
 	AccountUri() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_TrustedSigningAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/trusted_signing_account azurerm_trusted_signing_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/trusted_signing_account azurerm_trusted_signing_account} Resource.
 func NewTrustedSigningAccount(scope constructs.Construct, id *string, config *TrustedSigningAccountConfig) TrustedSigningAccount {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewTrustedSigningAccount(scope constructs.Construct, id *string, config *Tr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/trusted_signing_account azurerm_trusted_signing_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/trusted_signing_account azurerm_trusted_signing_account} Resource.
 func NewTrustedSigningAccount_Override(t TrustedSigningAccount, scope constructs.Construct, id *string, config *TrustedSigningAccountConfig) {
 	_init_.Initialize()
 

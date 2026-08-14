@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/route_filter azurerm_route_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_filter azurerm_route_filter}.
 type RouteFilter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_RouteFilter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/route_filter azurerm_route_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_filter azurerm_route_filter} Resource.
 func NewRouteFilter(scope constructs.Construct, id *string, config *RouteFilterConfig) RouteFilter {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewRouteFilter(scope constructs.Construct, id *string, config *RouteFilterC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/route_filter azurerm_route_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_filter azurerm_route_filter} Resource.
 func NewRouteFilter_Override(r RouteFilter, scope constructs.Construct, id *string, config *RouteFilterConfig) {
 	_init_.Initialize()
 

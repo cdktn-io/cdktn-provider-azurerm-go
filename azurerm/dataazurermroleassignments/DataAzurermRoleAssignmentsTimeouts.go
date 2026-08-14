@@ -5,7 +5,7 @@ package dataazurermroleassignments
 
 
 type DataAzurermRoleAssignmentsTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/role_assignments#read DataAzurermRoleAssignments#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/role_assignments#read DataAzurermRoleAssignments#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_nat_pool azurerm_lb_nat_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool}.
 type LbNatPool interface {
 	cdktn.TerraformResource
 	BackendPort() *float64
@@ -659,7 +659,7 @@ func (j *jsiiProxy_LbNatPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_nat_pool azurerm_lb_nat_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool} Resource.
 func NewLbNatPool(scope constructs.Construct, id *string, config *LbNatPoolConfig) LbNatPool {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewLbNatPool(scope constructs.Construct, id *string, config *LbNatPoolConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_nat_pool azurerm_lb_nat_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool} Resource.
 func NewLbNatPool_Override(l LbNatPool, scope constructs.Construct, id *string, config *LbNatPoolConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_credential azurerm_automation_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_credential azurerm_automation_credential}.
 type AutomationCredential interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_AutomationCredential) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_credential azurerm_automation_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_credential azurerm_automation_credential} Resource.
 func NewAutomationCredential(scope constructs.Construct, id *string, config *AutomationCredentialConfig) AutomationCredential {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewAutomationCredential(scope constructs.Construct, id *string, config *Aut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_credential azurerm_automation_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_credential azurerm_automation_credential} Resource.
 func NewAutomationCredential_Override(a AutomationCredential, scope constructs.Construct, id *string, config *AutomationCredentialConfig) {
 	_init_.Initialize()
 

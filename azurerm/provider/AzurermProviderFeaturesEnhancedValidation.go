@@ -9,25 +9,25 @@ type AzurermProviderFeaturesEnhancedValidation struct {
 	//
 	// When enabled, invalid locations are caught at plan time; when disabled, they are caught at apply time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#locations AzurermProvider#locations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#locations AzurermProvider#locations}
 	Locations interface{} `field:"optional" json:"locations" yaml:"locations"`
 	// Should the AzureRM Provider call the Azure Preflight Validation API at plan time to check the request payload for each Preflight-supported resource is valid.
 	//
 	// Note: requires valid credentials and external Azure API access at plan-time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#preflight_enabled AzurermProvider#preflight_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#preflight_enabled AzurermProvider#preflight_enabled}
 	PreflightEnabled interface{} `field:"optional" json:"preflightEnabled" yaml:"preflightEnabled"`
 	// The Azure location to use as a fallback when Preflight Validation is enabled and a resource does not specify a location.
 	//
 	// This is typically used for resources that derive their location from a dependency that has not yet been created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#preflight_location_fallback AzurermProvider#preflight_location_fallback}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#preflight_location_fallback AzurermProvider#preflight_location_fallback}
 	PreflightLocationFallback *string `field:"optional" json:"preflightLocationFallback" yaml:"preflightLocationFallback"`
 	// Should the AzureRM Provider validate Resource Provider arguments against the list of supported Resource Providers?
 	//
 	// When enabled, invalid resource providers are caught at plan time; when disabled, they are caught at apply time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#resource_providers AzurermProvider#resource_providers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#resource_providers AzurermProvider#resource_providers}
 	ResourceProviders interface{} `field:"optional" json:"resourceProviders" yaml:"resourceProviders"`
 }
 

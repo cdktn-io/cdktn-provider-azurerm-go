@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup}.
 type DataAzurermOracleAutonomousDatabaseCloneFromBackup interface {
 	cdktn.TerraformDataSource
 	ActualUsedDataStorageSizeInTb() *float64
@@ -1028,7 +1028,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackup) VirtualNe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseCloneFromBackup(scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseCloneFromBackupConfig) DataAzurermOracleAutonomousDatabaseCloneFromBackup {
 	_init_.Initialize()
 
@@ -1046,7 +1046,7 @@ func NewDataAzurermOracleAutonomousDatabaseCloneFromBackup(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseCloneFromBackup_Override(d DataAzurermOracleAutonomousDatabaseCloneFromBackup, scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseCloneFromBackupConfig) {
 	_init_.Initialize()
 

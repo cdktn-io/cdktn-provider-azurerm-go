@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_workspace azurerm_security_center_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_workspace azurerm_security_center_workspace}.
 type SecurityCenterWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_SecurityCenterWorkspace) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_workspace azurerm_security_center_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_workspace azurerm_security_center_workspace} Resource.
 func NewSecurityCenterWorkspace(scope constructs.Construct, id *string, config *SecurityCenterWorkspaceConfig) SecurityCenterWorkspace {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewSecurityCenterWorkspace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_workspace azurerm_security_center_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_workspace azurerm_security_center_workspace} Resource.
 func NewSecurityCenterWorkspace_Override(s SecurityCenterWorkspace, scope constructs.Construct, id *string, config *SecurityCenterWorkspaceConfig) {
 	_init_.Initialize()
 

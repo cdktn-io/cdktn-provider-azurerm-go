@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/proximity_placement_group azurerm_proximity_placement_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/proximity_placement_group azurerm_proximity_placement_group}.
 type DataAzurermProximityPlacementGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAzurermProximityPlacementGroup) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/proximity_placement_group azurerm_proximity_placement_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/proximity_placement_group azurerm_proximity_placement_group} Data Source.
 func NewDataAzurermProximityPlacementGroup(scope constructs.Construct, id *string, config *DataAzurermProximityPlacementGroupConfig) DataAzurermProximityPlacementGroup {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataAzurermProximityPlacementGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/proximity_placement_group azurerm_proximity_placement_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/proximity_placement_group azurerm_proximity_placement_group} Data Source.
 func NewDataAzurermProximityPlacementGroup_Override(d DataAzurermProximityPlacementGroup, scope constructs.Construct, id *string, config *DataAzurermProximityPlacementGroupConfig) {
 	_init_.Initialize()
 
