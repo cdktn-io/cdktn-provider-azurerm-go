@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/ip_group azurerm_ip_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/ip_group azurerm_ip_group}.
 type IpGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_IpGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/ip_group azurerm_ip_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/ip_group azurerm_ip_group} Resource.
 func NewIpGroup(scope constructs.Construct, id *string, config *IpGroupConfig) IpGroup {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewIpGroup(scope constructs.Construct, id *string, config *IpGroupConfig) I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/ip_group azurerm_ip_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/ip_group azurerm_ip_group} Resource.
 func NewIpGroup_Override(i IpGroup, scope constructs.Construct, id *string, config *IpGroupConfig) {
 	_init_.Initialize()
 

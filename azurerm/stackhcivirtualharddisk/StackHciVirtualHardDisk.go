@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk}.
 type StackHciVirtualHardDisk interface {
 	cdktn.TerraformResource
 	BlockSizeInBytes() *float64
@@ -699,7 +699,7 @@ func (j *jsiiProxy_StackHciVirtualHardDisk) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
 func NewStackHciVirtualHardDisk(scope constructs.Construct, id *string, config *StackHciVirtualHardDiskConfig) StackHciVirtualHardDisk {
 	_init_.Initialize()
 
@@ -717,7 +717,7 @@ func NewStackHciVirtualHardDisk(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
 func NewStackHciVirtualHardDisk_Override(s StackHciVirtualHardDisk, scope constructs.Construct, id *string, config *StackHciVirtualHardDiskConfig) {
 	_init_.Initialize()
 

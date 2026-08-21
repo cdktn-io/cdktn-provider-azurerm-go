@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management azurerm_api_management}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management azurerm_api_management}.
 type ApiManagement interface {
 	cdktn.TerraformResource
 	AdditionalLocation() ApiManagementAdditionalLocationList
@@ -1098,7 +1098,7 @@ func (j *jsiiProxy_ApiManagement) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management azurerm_api_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management azurerm_api_management} Resource.
 func NewApiManagement(scope constructs.Construct, id *string, config *ApiManagementConfig) ApiManagement {
 	_init_.Initialize()
 
@@ -1116,7 +1116,7 @@ func NewApiManagement(scope constructs.Construct, id *string, config *ApiManagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management azurerm_api_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management azurerm_api_management} Resource.
 func NewApiManagement_Override(a ApiManagement, scope constructs.Construct, id *string, config *ApiManagementConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace}.
 type EventgridPartnerNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -615,7 +615,7 @@ func (j *jsiiProxy_EventgridPartnerNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace} Resource.
 func NewEventgridPartnerNamespace(scope constructs.Construct, id *string, config *EventgridPartnerNamespaceConfig) EventgridPartnerNamespace {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewEventgridPartnerNamespace(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace} Resource.
 func NewEventgridPartnerNamespace_Override(e EventgridPartnerNamespace, scope constructs.Construct, id *string, config *EventgridPartnerNamespaceConfig) {
 	_init_.Initialize()
 

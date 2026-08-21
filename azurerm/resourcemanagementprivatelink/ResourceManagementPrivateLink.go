@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_management_private_link azurerm_resource_management_private_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_management_private_link azurerm_resource_management_private_link}.
 type ResourceManagementPrivateLink interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ResourceManagementPrivateLink) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_management_private_link azurerm_resource_management_private_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_management_private_link azurerm_resource_management_private_link} Resource.
 func NewResourceManagementPrivateLink(scope constructs.Construct, id *string, config *ResourceManagementPrivateLinkConfig) ResourceManagementPrivateLink {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewResourceManagementPrivateLink(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_management_private_link azurerm_resource_management_private_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_management_private_link azurerm_resource_management_private_link} Resource.
 func NewResourceManagementPrivateLink_Override(r ResourceManagementPrivateLink, scope constructs.Construct, id *string, config *ResourceManagementPrivateLinkConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_workspace_table_microsoft azurerm_log_analytics_workspace_table_microsoft}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/log_analytics_workspace_table_microsoft azurerm_log_analytics_workspace_table_microsoft}.
 type LogAnalyticsWorkspaceTableMicrosoft interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -604,7 +604,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableMicrosoft) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_workspace_table_microsoft azurerm_log_analytics_workspace_table_microsoft} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/log_analytics_workspace_table_microsoft azurerm_log_analytics_workspace_table_microsoft} Resource.
 func NewLogAnalyticsWorkspaceTableMicrosoft(scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableMicrosoftConfig) LogAnalyticsWorkspaceTableMicrosoft {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewLogAnalyticsWorkspaceTableMicrosoft(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_workspace_table_microsoft azurerm_log_analytics_workspace_table_microsoft} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/log_analytics_workspace_table_microsoft azurerm_log_analytics_workspace_table_microsoft} Resource.
 func NewLogAnalyticsWorkspaceTableMicrosoft_Override(l LogAnalyticsWorkspaceTableMicrosoft, scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableMicrosoftConfig) {
 	_init_.Initialize()
 

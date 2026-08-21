@@ -5,11 +5,11 @@ package resourceproviderfeatureregistration
 
 
 type ResourceProviderFeatureRegistrationTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_provider_feature_registration#create ResourceProviderFeatureRegistration#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_provider_feature_registration#create ResourceProviderFeatureRegistration#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_provider_feature_registration#delete ResourceProviderFeatureRegistration#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_provider_feature_registration#delete ResourceProviderFeatureRegistration#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_provider_feature_registration#read ResourceProviderFeatureRegistration#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_provider_feature_registration#read ResourceProviderFeatureRegistration#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

@@ -5,7 +5,7 @@ package dataazurermcdnfrontdoorbatchruleset
 
 
 type DataAzurermCdnFrontdoorBatchRuleSetTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set#read DataAzurermCdnFrontdoorBatchRuleSet#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_batch_rule_set#read DataAzurermCdnFrontdoorBatchRuleSet#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

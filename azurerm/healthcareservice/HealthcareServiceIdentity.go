@@ -5,7 +5,7 @@ package healthcareservice
 
 
 type HealthcareServiceIdentity struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/healthcare_service#type HealthcareService#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/healthcare_service#type HealthcareService#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

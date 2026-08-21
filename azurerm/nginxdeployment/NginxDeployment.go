@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_deployment azurerm_nginx_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_deployment azurerm_nginx_deployment}.
 type NginxDeployment interface {
 	cdktn.TerraformResource
 	AutomaticUpgradeChannel() *string
@@ -757,7 +757,7 @@ func (j *jsiiProxy_NginxDeployment) WebApplicationFirewallInput() *NginxDeployme
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
 func NewNginxDeployment(scope constructs.Construct, id *string, config *NginxDeploymentConfig) NginxDeployment {
 	_init_.Initialize()
 
@@ -775,7 +775,7 @@ func NewNginxDeployment(scope constructs.Construct, id *string, config *NginxDep
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
 func NewNginxDeployment_Override(n NginxDeployment, scope constructs.Construct, id *string, config *NginxDeploymentConfig) {
 	_init_.Initialize()
 

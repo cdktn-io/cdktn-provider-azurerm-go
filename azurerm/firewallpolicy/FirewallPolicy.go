@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/firewall_policy azurerm_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy azurerm_firewall_policy}.
 type FirewallPolicy interface {
 	cdktn.TerraformResource
 	AutoLearnPrivateRangesEnabled() interface{}
@@ -830,7 +830,7 @@ func (j *jsiiProxy_FirewallPolicy) TlsCertificateInput() *FirewallPolicyTlsCerti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
 func NewFirewallPolicy(scope constructs.Construct, id *string, config *FirewallPolicyConfig) FirewallPolicy {
 	_init_.Initialize()
 
@@ -848,7 +848,7 @@ func NewFirewallPolicy(scope constructs.Construct, id *string, config *FirewallP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
 func NewFirewallPolicy_Override(f FirewallPolicy, scope constructs.Construct, id *string, config *FirewallPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app azurerm_windows_function_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_function_app azurerm_windows_function_app}.
 type WindowsFunctionApp interface {
 	cdktn.TerraformResource
 	AppSettings() *map[string]*string
@@ -1326,7 +1326,7 @@ func (j *jsiiProxy_WindowsFunctionApp) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
 func NewWindowsFunctionApp(scope constructs.Construct, id *string, config *WindowsFunctionAppConfig) WindowsFunctionApp {
 	_init_.Initialize()
 
@@ -1344,7 +1344,7 @@ func NewWindowsFunctionApp(scope constructs.Construct, id *string, config *Windo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
 func NewWindowsFunctionApp_Override(w WindowsFunctionApp, scope constructs.Construct, id *string, config *WindowsFunctionAppConfig) {
 	_init_.Initialize()
 

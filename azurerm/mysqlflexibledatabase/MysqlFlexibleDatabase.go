@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database}.
 type MysqlFlexibleDatabase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_MysqlFlexibleDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database} Resource.
 func NewMysqlFlexibleDatabase(scope constructs.Construct, id *string, config *MysqlFlexibleDatabaseConfig) MysqlFlexibleDatabase {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewMysqlFlexibleDatabase(scope constructs.Construct, id *string, config *My
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database} Resource.
 func NewMysqlFlexibleDatabase_Override(m MysqlFlexibleDatabase, scope constructs.Construct, id *string, config *MysqlFlexibleDatabaseConfig) {
 	_init_.Initialize()
 

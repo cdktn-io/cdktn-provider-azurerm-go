@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_postgresql_node_configuration azurerm_cosmosdb_postgresql_node_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_postgresql_node_configuration azurerm_cosmosdb_postgresql_node_configuration}.
 type CosmosdbPostgresqlNodeConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlNodeConfiguration) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_postgresql_node_configuration azurerm_cosmosdb_postgresql_node_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_postgresql_node_configuration azurerm_cosmosdb_postgresql_node_configuration} Resource.
 func NewCosmosdbPostgresqlNodeConfiguration(scope constructs.Construct, id *string, config *CosmosdbPostgresqlNodeConfigurationConfig) CosmosdbPostgresqlNodeConfiguration {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewCosmosdbPostgresqlNodeConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_postgresql_node_configuration azurerm_cosmosdb_postgresql_node_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_postgresql_node_configuration azurerm_cosmosdb_postgresql_node_configuration} Resource.
 func NewCosmosdbPostgresqlNodeConfiguration_Override(c CosmosdbPostgresqlNodeConfiguration, scope constructs.Construct, id *string, config *CosmosdbPostgresqlNodeConfigurationConfig) {
 	_init_.Initialize()
 

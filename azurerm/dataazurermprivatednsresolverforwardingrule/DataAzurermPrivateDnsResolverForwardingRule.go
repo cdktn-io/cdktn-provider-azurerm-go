@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule}.
 type DataAzurermPrivateDnsResolverForwardingRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRule) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule} Data Source.
 func NewDataAzurermPrivateDnsResolverForwardingRule(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverForwardingRuleConfig) DataAzurermPrivateDnsResolverForwardingRule {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDataAzurermPrivateDnsResolverForwardingRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule} Data Source.
 func NewDataAzurermPrivateDnsResolverForwardingRule_Override(d DataAzurermPrivateDnsResolverForwardingRule, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverForwardingRuleConfig) {
 	_init_.Initialize()
 

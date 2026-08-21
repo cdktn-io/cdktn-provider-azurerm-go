@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set azurerm_cdn_frontdoor_batch_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_batch_rule_set azurerm_cdn_frontdoor_batch_rule_set}.
 type DataAzurermCdnFrontdoorBatchRuleSet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorBatchRuleSet) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set azurerm_cdn_frontdoor_batch_rule_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_batch_rule_set azurerm_cdn_frontdoor_batch_rule_set} Data Source.
 func NewDataAzurermCdnFrontdoorBatchRuleSet(scope constructs.Construct, id *string, config *DataAzurermCdnFrontdoorBatchRuleSetConfig) DataAzurermCdnFrontdoorBatchRuleSet {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAzurermCdnFrontdoorBatchRuleSet(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set azurerm_cdn_frontdoor_batch_rule_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_batch_rule_set azurerm_cdn_frontdoor_batch_rule_set} Data Source.
 func NewDataAzurermCdnFrontdoorBatchRuleSet_Override(d DataAzurermCdnFrontdoorBatchRuleSet, scope constructs.Construct, id *string, config *DataAzurermCdnFrontdoorBatchRuleSetConfig) {
 	_init_.Initialize()
 

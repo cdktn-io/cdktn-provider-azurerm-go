@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule}.
 type DataAzurermNetappVolumeQuotaRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeQuotaRule) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Data Source.
 func NewDataAzurermNetappVolumeQuotaRule(scope constructs.Construct, id *string, config *DataAzurermNetappVolumeQuotaRuleConfig) DataAzurermNetappVolumeQuotaRule {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDataAzurermNetappVolumeQuotaRule(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Data Source.
 func NewDataAzurermNetappVolumeQuotaRule_Override(d DataAzurermNetappVolumeQuotaRule, scope constructs.Construct, id *string, config *DataAzurermNetappVolumeQuotaRuleConfig) {
 	_init_.Initialize()
 

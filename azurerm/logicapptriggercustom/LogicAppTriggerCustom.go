@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_trigger_custom azurerm_logic_app_trigger_custom}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_custom azurerm_logic_app_trigger_custom}.
 type LogicAppTriggerCustom interface {
 	cdktn.TerraformResource
 	Body() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_LogicAppTriggerCustom) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_trigger_custom azurerm_logic_app_trigger_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_custom azurerm_logic_app_trigger_custom} Resource.
 func NewLogicAppTriggerCustom(scope constructs.Construct, id *string, config *LogicAppTriggerCustomConfig) LogicAppTriggerCustom {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewLogicAppTriggerCustom(scope constructs.Construct, id *string, config *Lo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_trigger_custom azurerm_logic_app_trigger_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_custom azurerm_logic_app_trigger_custom} Resource.
 func NewLogicAppTriggerCustom_Override(l LogicAppTriggerCustom, scope constructs.Construct, id *string, config *LogicAppTriggerCustomConfig) {
 	_init_.Initialize()
 

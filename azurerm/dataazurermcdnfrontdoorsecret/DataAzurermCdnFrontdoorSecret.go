@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret}.
 type DataAzurermCdnFrontdoorSecret interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorSecret) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret} Data Source.
 func NewDataAzurermCdnFrontdoorSecret(scope constructs.Construct, id *string, config *DataAzurermCdnFrontdoorSecretConfig) DataAzurermCdnFrontdoorSecret {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAzurermCdnFrontdoorSecret(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret} Data Source.
 func NewDataAzurermCdnFrontdoorSecret_Override(d DataAzurermCdnFrontdoorSecret, scope constructs.Construct, id *string, config *DataAzurermCdnFrontdoorSecretConfig) {
 	_init_.Initialize()
 

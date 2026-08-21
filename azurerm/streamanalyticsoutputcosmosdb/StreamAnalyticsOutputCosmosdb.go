@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_output_cosmosdb azurerm_stream_analytics_output_cosmosdb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stream_analytics_output_cosmosdb azurerm_stream_analytics_output_cosmosdb}.
 type StreamAnalyticsOutputCosmosdb interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputCosmosdb) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_output_cosmosdb azurerm_stream_analytics_output_cosmosdb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stream_analytics_output_cosmosdb azurerm_stream_analytics_output_cosmosdb} Resource.
 func NewStreamAnalyticsOutputCosmosdb(scope constructs.Construct, id *string, config *StreamAnalyticsOutputCosmosdbConfig) StreamAnalyticsOutputCosmosdb {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewStreamAnalyticsOutputCosmosdb(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_output_cosmosdb azurerm_stream_analytics_output_cosmosdb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stream_analytics_output_cosmosdb azurerm_stream_analytics_output_cosmosdb} Resource.
 func NewStreamAnalyticsOutputCosmosdb_Override(s StreamAnalyticsOutputCosmosdb, scope constructs.Construct, id *string, config *StreamAnalyticsOutputCosmosdbConfig) {
 	_init_.Initialize()
 

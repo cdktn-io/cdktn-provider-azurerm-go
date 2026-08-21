@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/logic_app_workflow azurerm_logic_app_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/logic_app_workflow azurerm_logic_app_workflow}.
 type DataAzurermLogicAppWorkflow interface {
 	cdktn.TerraformDataSource
 	AccessEndpoint() *string
@@ -489,7 +489,7 @@ func (j *jsiiProxy_DataAzurermLogicAppWorkflow) WorkflowVersion() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/logic_app_workflow azurerm_logic_app_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/logic_app_workflow azurerm_logic_app_workflow} Data Source.
 func NewDataAzurermLogicAppWorkflow(scope constructs.Construct, id *string, config *DataAzurermLogicAppWorkflowConfig) DataAzurermLogicAppWorkflow {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewDataAzurermLogicAppWorkflow(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/logic_app_workflow azurerm_logic_app_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/logic_app_workflow azurerm_logic_app_workflow} Data Source.
 func NewDataAzurermLogicAppWorkflow_Override(d DataAzurermLogicAppWorkflow, scope constructs.Construct, id *string, config *DataAzurermLogicAppWorkflowConfig) {
 	_init_.Initialize()
 

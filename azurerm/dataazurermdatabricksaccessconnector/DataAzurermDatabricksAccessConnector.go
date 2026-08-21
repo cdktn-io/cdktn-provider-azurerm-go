@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/databricks_access_connector azurerm_databricks_access_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/databricks_access_connector azurerm_databricks_access_connector}.
 type DataAzurermDatabricksAccessConnector interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermDatabricksAccessConnector) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/databricks_access_connector azurerm_databricks_access_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/databricks_access_connector azurerm_databricks_access_connector} Data Source.
 func NewDataAzurermDatabricksAccessConnector(scope constructs.Construct, id *string, config *DataAzurermDatabricksAccessConnectorConfig) DataAzurermDatabricksAccessConnector {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewDataAzurermDatabricksAccessConnector(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/databricks_access_connector azurerm_databricks_access_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/databricks_access_connector azurerm_databricks_access_connector} Data Source.
 func NewDataAzurermDatabricksAccessConnector_Override(d DataAzurermDatabricksAccessConnector, scope constructs.Construct, id *string, config *DataAzurermDatabricksAccessConnectorConfig) {
 	_init_.Initialize()
 

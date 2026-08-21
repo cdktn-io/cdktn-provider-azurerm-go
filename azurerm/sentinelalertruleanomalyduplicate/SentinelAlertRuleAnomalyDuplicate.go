@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_alert_rule_anomaly_duplicate azurerm_sentinel_alert_rule_anomaly_duplicate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_alert_rule_anomaly_duplicate azurerm_sentinel_alert_rule_anomaly_duplicate}.
 type SentinelAlertRuleAnomalyDuplicate interface {
 	cdktn.TerraformResource
 	AnomalySettingsVersion() *float64
@@ -713,7 +713,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicate) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_alert_rule_anomaly_duplicate azurerm_sentinel_alert_rule_anomaly_duplicate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_alert_rule_anomaly_duplicate azurerm_sentinel_alert_rule_anomaly_duplicate} Resource.
 func NewSentinelAlertRuleAnomalyDuplicate(scope constructs.Construct, id *string, config *SentinelAlertRuleAnomalyDuplicateConfig) SentinelAlertRuleAnomalyDuplicate {
 	_init_.Initialize()
 
@@ -731,7 +731,7 @@ func NewSentinelAlertRuleAnomalyDuplicate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_alert_rule_anomaly_duplicate azurerm_sentinel_alert_rule_anomaly_duplicate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_alert_rule_anomaly_duplicate azurerm_sentinel_alert_rule_anomaly_duplicate} Resource.
 func NewSentinelAlertRuleAnomalyDuplicate_Override(s SentinelAlertRuleAnomalyDuplicate, scope constructs.Construct, id *string, config *SentinelAlertRuleAnomalyDuplicateConfig) {
 	_init_.Initialize()
 

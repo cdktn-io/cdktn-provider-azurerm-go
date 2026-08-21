@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_profile azurerm_cdn_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_profile azurerm_cdn_profile}.
 type DataAzurermCdnProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermCdnProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_profile azurerm_cdn_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_profile azurerm_cdn_profile} Data Source.
 func NewDataAzurermCdnProfile(scope constructs.Construct, id *string, config *DataAzurermCdnProfileConfig) DataAzurermCdnProfile {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewDataAzurermCdnProfile(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_profile azurerm_cdn_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_profile azurerm_cdn_profile} Data Source.
 func NewDataAzurermCdnProfile_Override(d DataAzurermCdnProfile, scope constructs.Construct, id *string, config *DataAzurermCdnProfileConfig) {
 	_init_.Initialize()
 

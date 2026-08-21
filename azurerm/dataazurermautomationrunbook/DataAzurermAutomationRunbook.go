@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/automation_runbook azurerm_automation_runbook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/automation_runbook azurerm_automation_runbook}.
 type DataAzurermAutomationRunbook interface {
 	cdktn.TerraformDataSource
 	AutomationAccountName() *string
@@ -468,7 +468,7 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/automation_runbook azurerm_automation_runbook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/automation_runbook azurerm_automation_runbook} Data Source.
 func NewDataAzurermAutomationRunbook(scope constructs.Construct, id *string, config *DataAzurermAutomationRunbookConfig) DataAzurermAutomationRunbook {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewDataAzurermAutomationRunbook(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/automation_runbook azurerm_automation_runbook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/automation_runbook azurerm_automation_runbook} Data Source.
 func NewDataAzurermAutomationRunbook_Override(d DataAzurermAutomationRunbook, scope constructs.Construct, id *string, config *DataAzurermAutomationRunbookConfig) {
 	_init_.Initialize()
 

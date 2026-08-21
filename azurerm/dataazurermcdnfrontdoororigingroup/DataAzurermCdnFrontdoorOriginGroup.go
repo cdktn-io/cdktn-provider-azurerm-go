@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_origin_group azurerm_cdn_frontdoor_origin_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_origin_group azurerm_cdn_frontdoor_origin_group}.
 type DataAzurermCdnFrontdoorOriginGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorOriginGroup) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_origin_group azurerm_cdn_frontdoor_origin_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_origin_group azurerm_cdn_frontdoor_origin_group} Data Source.
 func NewDataAzurermCdnFrontdoorOriginGroup(scope constructs.Construct, id *string, config *DataAzurermCdnFrontdoorOriginGroupConfig) DataAzurermCdnFrontdoorOriginGroup {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewDataAzurermCdnFrontdoorOriginGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_origin_group azurerm_cdn_frontdoor_origin_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cdn_frontdoor_origin_group azurerm_cdn_frontdoor_origin_group} Data Source.
 func NewDataAzurermCdnFrontdoorOriginGroup_Override(d DataAzurermCdnFrontdoorOriginGroup, scope constructs.Construct, id *string, config *DataAzurermCdnFrontdoorOriginGroupConfig) {
 	_init_.Initialize()
 

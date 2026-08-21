@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/ai_foundry azurerm_ai_foundry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/ai_foundry azurerm_ai_foundry}.
 type AiFoundry interface {
 	cdktn.TerraformResource
 	ApplicationInsightsId() *string
@@ -792,7 +792,7 @@ func (j *jsiiProxy_AiFoundry) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/ai_foundry azurerm_ai_foundry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/ai_foundry azurerm_ai_foundry} Resource.
 func NewAiFoundry(scope constructs.Construct, id *string, config *AiFoundryConfig) AiFoundry {
 	_init_.Initialize()
 
@@ -810,7 +810,7 @@ func NewAiFoundry(scope constructs.Construct, id *string, config *AiFoundryConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/ai_foundry azurerm_ai_foundry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/ai_foundry azurerm_ai_foundry} Resource.
 func NewAiFoundry_Override(a AiFoundry, scope constructs.Construct, id *string, config *AiFoundryConfig) {
 	_init_.Initialize()
 

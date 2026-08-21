@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql}.
 type DataFactoryDatasetMysql interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -629,7 +629,7 @@ func (j *jsiiProxy_DataFactoryDatasetMysql) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql} Resource.
 func NewDataFactoryDatasetMysql(scope constructs.Construct, id *string, config *DataFactoryDatasetMysqlConfig) DataFactoryDatasetMysql {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewDataFactoryDatasetMysql(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql} Resource.
 func NewDataFactoryDatasetMysql_Override(d DataFactoryDatasetMysql, scope constructs.Construct, id *string, config *DataFactoryDatasetMysqlConfig) {
 	_init_.Initialize()
 

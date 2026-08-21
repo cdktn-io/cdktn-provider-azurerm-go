@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule}.
 type ServicebusNamespaceAuthorizationRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -576,7 +576,7 @@ func (j *jsiiProxy_ServicebusNamespaceAuthorizationRule) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Resource.
 func NewServicebusNamespaceAuthorizationRule(scope constructs.Construct, id *string, config *ServicebusNamespaceAuthorizationRuleConfig) ServicebusNamespaceAuthorizationRule {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewServicebusNamespaceAuthorizationRule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Resource.
 func NewServicebusNamespaceAuthorizationRule_Override(s ServicebusNamespaceAuthorizationRule, scope constructs.Construct, id *string, config *ServicebusNamespaceAuthorizationRuleConfig) {
 	_init_.Initialize()
 

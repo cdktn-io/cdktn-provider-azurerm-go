@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/network_manager azurerm_network_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_manager azurerm_network_manager}.
 type DataAzurermNetworkManager interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAzurermNetworkManager) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/network_manager azurerm_network_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_manager azurerm_network_manager} Data Source.
 func NewDataAzurermNetworkManager(scope constructs.Construct, id *string, config *DataAzurermNetworkManagerConfig) DataAzurermNetworkManager {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewDataAzurermNetworkManager(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/network_manager azurerm_network_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_manager azurerm_network_manager} Data Source.
 func NewDataAzurermNetworkManager_Override(d DataAzurermNetworkManager, scope constructs.Construct, id *string, config *DataAzurermNetworkManagerConfig) {
 	_init_.Initialize()
 

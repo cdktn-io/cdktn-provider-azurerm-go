@@ -47,6 +47,10 @@ func (r *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) validate
 	return nil
 }
 
+func (r *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) validatePutLoadBalancerProfileParameters(value *RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

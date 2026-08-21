@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/billing_enrollment_account_scope azurerm_billing_enrollment_account_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/billing_enrollment_account_scope azurerm_billing_enrollment_account_scope}.
 type DataAzurermBillingEnrollmentAccountScope interface {
 	cdktn.TerraformDataSource
 	BillingAccountName() *string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAzurermBillingEnrollmentAccountScope) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/billing_enrollment_account_scope azurerm_billing_enrollment_account_scope} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/billing_enrollment_account_scope azurerm_billing_enrollment_account_scope} Data Source.
 func NewDataAzurermBillingEnrollmentAccountScope(scope constructs.Construct, id *string, config *DataAzurermBillingEnrollmentAccountScopeConfig) DataAzurermBillingEnrollmentAccountScope {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewDataAzurermBillingEnrollmentAccountScope(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/billing_enrollment_account_scope azurerm_billing_enrollment_account_scope} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/billing_enrollment_account_scope azurerm_billing_enrollment_account_scope} Data Source.
 func NewDataAzurermBillingEnrollmentAccountScope_Override(d DataAzurermBillingEnrollmentAccountScope, scope constructs.Construct, id *string, config *DataAzurermBillingEnrollmentAccountScopeConfig) {
 	_init_.Initialize()
 

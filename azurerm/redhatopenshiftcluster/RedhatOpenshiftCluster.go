@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster}.
 type RedhatOpenshiftCluster interface {
 	cdktn.TerraformResource
 	ApiServerProfile() RedhatOpenshiftClusterApiServerProfileOutputReference
@@ -46,6 +46,8 @@ type RedhatOpenshiftCluster interface {
 	FriendlyUniqueId() *string
 	Id() *string
 	SetId(val *string)
+	Identity() RedhatOpenshiftClusterIdentityOutputReference
+	IdentityInput() *RedhatOpenshiftClusterIdentity
 	IdInput() *string
 	IngressProfile() RedhatOpenshiftClusterIngressProfileOutputReference
 	IngressProfileInput() *RedhatOpenshiftClusterIngressProfile
@@ -65,6 +67,8 @@ type RedhatOpenshiftCluster interface {
 	NetworkProfileInput() *RedhatOpenshiftClusterNetworkProfile
 	// The tree node.
 	Node() constructs.Node
+	PlatformWorkloadIdentityProfile() RedhatOpenshiftClusterPlatformWorkloadIdentityProfileOutputReference
+	PlatformWorkloadIdentityProfileInput() *RedhatOpenshiftClusterPlatformWorkloadIdentityProfile
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -174,9 +178,11 @@ type RedhatOpenshiftCluster interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutApiServerProfile(value *RedhatOpenshiftClusterApiServerProfile)
 	PutClusterProfile(value *RedhatOpenshiftClusterClusterProfile)
+	PutIdentity(value *RedhatOpenshiftClusterIdentity)
 	PutIngressProfile(value *RedhatOpenshiftClusterIngressProfile)
 	PutMainProfile(value *RedhatOpenshiftClusterMainProfile)
 	PutNetworkProfile(value *RedhatOpenshiftClusterNetworkProfile)
+	PutPlatformWorkloadIdentityProfile(value *RedhatOpenshiftClusterPlatformWorkloadIdentityProfile)
 	PutServicePrincipal(value *RedhatOpenshiftClusterServicePrincipal)
 	PutTimeouts(value *RedhatOpenshiftClusterTimeouts)
 	PutWorkerProfile(value *RedhatOpenshiftClusterWorkerProfile)
@@ -194,9 +200,12 @@ type RedhatOpenshiftCluster interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
+	ResetIdentity()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPlatformWorkloadIdentityProfile()
+	ResetServicePrincipal()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -366,6 +375,26 @@ func (j *jsiiProxy_RedhatOpenshiftCluster) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_RedhatOpenshiftCluster) Identity() RedhatOpenshiftClusterIdentityOutputReference {
+	var returns RedhatOpenshiftClusterIdentityOutputReference
+	_jsii_.Get(
+		j,
+		"identity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RedhatOpenshiftCluster) IdentityInput() *RedhatOpenshiftClusterIdentity {
+	var returns *RedhatOpenshiftClusterIdentity
+	_jsii_.Get(
+		j,
+		"identityInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RedhatOpenshiftCluster) IdInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -491,6 +520,26 @@ func (j *jsiiProxy_RedhatOpenshiftCluster) Node() constructs.Node {
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RedhatOpenshiftCluster) PlatformWorkloadIdentityProfile() RedhatOpenshiftClusterPlatformWorkloadIdentityProfileOutputReference {
+	var returns RedhatOpenshiftClusterPlatformWorkloadIdentityProfileOutputReference
+	_jsii_.Get(
+		j,
+		"platformWorkloadIdentityProfile",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RedhatOpenshiftCluster) PlatformWorkloadIdentityProfileInput() *RedhatOpenshiftClusterPlatformWorkloadIdentityProfile {
+	var returns *RedhatOpenshiftClusterPlatformWorkloadIdentityProfile
+	_jsii_.Get(
+		j,
+		"platformWorkloadIdentityProfileInput",
 		&returns,
 	)
 	return returns
@@ -657,7 +706,7 @@ func (j *jsiiProxy_RedhatOpenshiftCluster) WorkerProfileInput() *RedhatOpenshift
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
 func NewRedhatOpenshiftCluster(scope constructs.Construct, id *string, config *RedhatOpenshiftClusterConfig) RedhatOpenshiftCluster {
 	_init_.Initialize()
 
@@ -675,7 +724,7 @@ func NewRedhatOpenshiftCluster(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
 func NewRedhatOpenshiftCluster_Override(r RedhatOpenshiftCluster, scope constructs.Construct, id *string, config *RedhatOpenshiftClusterConfig) {
 	_init_.Initialize()
 
@@ -1200,6 +1249,17 @@ func (r *jsiiProxy_RedhatOpenshiftCluster) PutClusterProfile(value *RedhatOpensh
 	)
 }
 
+func (r *jsiiProxy_RedhatOpenshiftCluster) PutIdentity(value *RedhatOpenshiftClusterIdentity) {
+	if err := r.validatePutIdentityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putIdentity",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_RedhatOpenshiftCluster) PutIngressProfile(value *RedhatOpenshiftClusterIngressProfile) {
 	if err := r.validatePutIngressProfileParameters(value); err != nil {
 		panic(err)
@@ -1229,6 +1289,17 @@ func (r *jsiiProxy_RedhatOpenshiftCluster) PutNetworkProfile(value *RedhatOpensh
 	_jsii_.InvokeVoid(
 		r,
 		"putNetworkProfile",
+		[]interface{}{value},
+	)
+}
+
+func (r *jsiiProxy_RedhatOpenshiftCluster) PutPlatformWorkloadIdentityProfile(value *RedhatOpenshiftClusterPlatformWorkloadIdentityProfile) {
+	if err := r.validatePutPlatformWorkloadIdentityProfileParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putPlatformWorkloadIdentityProfile",
 		[]interface{}{value},
 	)
 }
@@ -1285,10 +1356,34 @@ func (r *jsiiProxy_RedhatOpenshiftCluster) ResetId() {
 	)
 }
 
+func (r *jsiiProxy_RedhatOpenshiftCluster) ResetIdentity() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetIdentity",
+		nil, // no parameters
+	)
+}
+
 func (r *jsiiProxy_RedhatOpenshiftCluster) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RedhatOpenshiftCluster) ResetPlatformWorkloadIdentityProfile() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetPlatformWorkloadIdentityProfile",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RedhatOpenshiftCluster) ResetServicePrincipal() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetServicePrincipal",
 		nil, // no parameters
 	)
 }

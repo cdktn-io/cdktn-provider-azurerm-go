@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/netapp_backup_vault azurerm_netapp_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/netapp_backup_vault azurerm_netapp_backup_vault}.
 type DataAzurermNetappBackupVault interface {
 	cdktn.TerraformDataSource
 	AccountName() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermNetappBackupVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/netapp_backup_vault azurerm_netapp_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/netapp_backup_vault azurerm_netapp_backup_vault} Data Source.
 func NewDataAzurermNetappBackupVault(scope constructs.Construct, id *string, config *DataAzurermNetappBackupVaultConfig) DataAzurermNetappBackupVault {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAzurermNetappBackupVault(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/netapp_backup_vault azurerm_netapp_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/netapp_backup_vault azurerm_netapp_backup_vault} Data Source.
 func NewDataAzurermNetappBackupVault_Override(d DataAzurermNetappBackupVault, scope constructs.Construct, id *string, config *DataAzurermNetappBackupVaultConfig) {
 	_init_.Initialize()
 

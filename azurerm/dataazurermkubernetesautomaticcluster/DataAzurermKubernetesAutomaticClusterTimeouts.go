@@ -5,7 +5,7 @@ package dataazurermkubernetesautomaticcluster
 
 
 type DataAzurermKubernetesAutomaticClusterTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/kubernetes_automatic_cluster#read DataAzurermKubernetesAutomaticCluster#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/kubernetes_automatic_cluster#read DataAzurermKubernetesAutomaticCluster#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/application_insights azurerm_application_insights}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/application_insights azurerm_application_insights}.
 type DataAzurermApplicationInsights interface {
 	cdktn.TerraformDataSource
 	AppId() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_DataAzurermApplicationInsights) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/application_insights azurerm_application_insights} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/application_insights azurerm_application_insights} Data Source.
 func NewDataAzurermApplicationInsights(scope constructs.Construct, id *string, config *DataAzurermApplicationInsightsConfig) DataAzurermApplicationInsights {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewDataAzurermApplicationInsights(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/application_insights azurerm_application_insights} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/application_insights azurerm_application_insights} Data Source.
 func NewDataAzurermApplicationInsights_Override(d DataAzurermApplicationInsights, scope constructs.Construct, id *string, config *DataAzurermApplicationInsightsConfig) {
 	_init_.Initialize()
 

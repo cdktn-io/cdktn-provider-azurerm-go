@@ -87,6 +87,10 @@ func (r *jsiiProxy_RedhatOpenshiftCluster) validatePutClusterProfileParameters(v
 	return nil
 }
 
+func (r *jsiiProxy_RedhatOpenshiftCluster) validatePutIdentityParameters(value *RedhatOpenshiftClusterIdentity) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedhatOpenshiftCluster) validatePutIngressProfileParameters(value *RedhatOpenshiftClusterIngressProfile) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (r *jsiiProxy_RedhatOpenshiftCluster) validatePutMainProfileParameters(valu
 }
 
 func (r *jsiiProxy_RedhatOpenshiftCluster) validatePutNetworkProfileParameters(value *RedhatOpenshiftClusterNetworkProfile) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedhatOpenshiftCluster) validatePutPlatformWorkloadIdentityProfileParameters(value *RedhatOpenshiftClusterPlatformWorkloadIdentityProfile) error {
 	return nil
 }
 

@@ -49,6 +49,9 @@ type RoleAssignmentTimeoutsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Update() *string
+	SetUpdate(val *string)
+	UpdateInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -76,6 +79,7 @@ type RoleAssignmentTimeoutsOutputReference interface {
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
+	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -221,6 +225,26 @@ func (j *jsiiProxy_RoleAssignmentTimeoutsOutputReference) TerraformResource() cd
 	return returns
 }
 
+func (j *jsiiProxy_RoleAssignmentTimeoutsOutputReference) Update() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"update",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RoleAssignmentTimeoutsOutputReference) UpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewRoleAssignmentTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RoleAssignmentTimeoutsOutputReference {
 	_init_.Initialize()
@@ -333,6 +357,17 @@ func (j *jsiiProxy_RoleAssignmentTimeoutsOutputReference)SetTerraformResource(va
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RoleAssignmentTimeoutsOutputReference)SetUpdate(val *string) {
+	if err := j.validateSetUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"update",
 		val,
 	)
 }
@@ -543,6 +578,14 @@ func (r *jsiiProxy_RoleAssignmentTimeoutsOutputReference) ResetRead() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetRead",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RoleAssignmentTimeoutsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetUpdate",
 		nil, // no parameters
 	)
 }

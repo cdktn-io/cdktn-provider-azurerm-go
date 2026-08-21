@@ -7,7 +7,7 @@ package provider
 type AzurermProviderFeaturesServicebus struct {
 	// When enabled, the $Default rule is automatically deleted after creating a Service Bus subscription, preventing unfiltered message delivery.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#auto_delete_subscription_default_rule AzurermProvider#auto_delete_subscription_default_rule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#auto_delete_subscription_default_rule AzurermProvider#auto_delete_subscription_default_rule}
 	AutoDeleteSubscriptionDefaultRule interface{} `field:"optional" json:"autoDeleteSubscriptionDefaultRule" yaml:"autoDeleteSubscriptionDefaultRule"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor}.
 type OracleResourceAnchor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_OracleResourceAnchor) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor} Resource.
 func NewOracleResourceAnchor(scope constructs.Construct, id *string, config *OracleResourceAnchorConfig) OracleResourceAnchor {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewOracleResourceAnchor(scope constructs.Construct, id *string, config *Ora
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor} Resource.
 func NewOracleResourceAnchor_Override(o OracleResourceAnchor, scope constructs.Construct, id *string, config *OracleResourceAnchorConfig) {
 	_init_.Initialize()
 

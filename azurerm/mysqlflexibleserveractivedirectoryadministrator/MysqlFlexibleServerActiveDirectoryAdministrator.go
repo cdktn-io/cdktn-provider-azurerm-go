@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mysql_flexible_server_active_directory_administrator azurerm_mysql_flexible_server_active_directory_administrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mysql_flexible_server_active_directory_administrator azurerm_mysql_flexible_server_active_directory_administrator}.
 type MysqlFlexibleServerActiveDirectoryAdministrator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) TimeoutsInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mysql_flexible_server_active_directory_administrator azurerm_mysql_flexible_server_active_directory_administrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mysql_flexible_server_active_directory_administrator azurerm_mysql_flexible_server_active_directory_administrator} Resource.
 func NewMysqlFlexibleServerActiveDirectoryAdministrator(scope constructs.Construct, id *string, config *MysqlFlexibleServerActiveDirectoryAdministratorConfig) MysqlFlexibleServerActiveDirectoryAdministrator {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewMysqlFlexibleServerActiveDirectoryAdministrator(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mysql_flexible_server_active_directory_administrator azurerm_mysql_flexible_server_active_directory_administrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mysql_flexible_server_active_directory_administrator azurerm_mysql_flexible_server_active_directory_administrator} Resource.
 func NewMysqlFlexibleServerActiveDirectoryAdministrator_Override(m MysqlFlexibleServerActiveDirectoryAdministrator, scope constructs.Construct, id *string, config *MysqlFlexibleServerActiveDirectoryAdministratorConfig) {
 	_init_.Initialize()
 

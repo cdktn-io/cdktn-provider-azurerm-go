@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption}.
 type FunctionAppFlexConsumption interface {
 	cdktn.TerraformResource
 	AlwaysReady() FunctionAppFlexConsumptionAlwaysReadyList
@@ -1249,7 +1249,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumption) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption} Resource.
 func NewFunctionAppFlexConsumption(scope constructs.Construct, id *string, config *FunctionAppFlexConsumptionConfig) FunctionAppFlexConsumption {
 	_init_.Initialize()
 
@@ -1267,7 +1267,7 @@ func NewFunctionAppFlexConsumption(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption} Resource.
 func NewFunctionAppFlexConsumption_Override(f FunctionAppFlexConsumption, scope constructs.Construct, id *string, config *FunctionAppFlexConsumptionConfig) {
 	_init_.Initialize()
 

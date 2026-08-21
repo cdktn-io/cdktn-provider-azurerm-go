@@ -5,7 +5,7 @@ package dataazurermoracledbsystemshapes
 
 
 type DataAzurermOracleDbSystemShapesTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/oracle_db_system_shapes#read DataAzurermOracleDbSystemShapes#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/oracle_db_system_shapes#read DataAzurermOracleDbSystemShapes#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

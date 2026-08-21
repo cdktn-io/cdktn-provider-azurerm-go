@@ -32,6 +32,8 @@ type RedhatOpenshiftClusterNetworkProfileOutputReference interface {
 	Fqn() *string
 	InternalValue() *RedhatOpenshiftClusterNetworkProfile
 	SetInternalValue(val *RedhatOpenshiftClusterNetworkProfile)
+	LoadBalancerProfile() RedhatOpenshiftClusterNetworkProfileLoadBalancerProfileOutputReference
+	LoadBalancerProfileInput() *RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile
 	OutboundType() *string
 	SetOutboundType(val *string)
 	OutboundTypeInput() *string
@@ -76,6 +78,8 @@ type RedhatOpenshiftClusterNetworkProfileOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutLoadBalancerProfile(value *RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile)
+	ResetLoadBalancerProfile()
 	ResetOutboundType()
 	ResetPreconfiguredNetworkSecurityGroupEnabled()
 	// Produce the Token's value at resolution time.
@@ -138,6 +142,26 @@ func (j *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) Internal
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) LoadBalancerProfile() RedhatOpenshiftClusterNetworkProfileLoadBalancerProfileOutputReference {
+	var returns RedhatOpenshiftClusterNetworkProfileLoadBalancerProfileOutputReference
+	_jsii_.Get(
+		j,
+		"loadBalancerProfile",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) LoadBalancerProfileInput() *RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile {
+	var returns *RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile
+	_jsii_.Get(
+		j,
+		"loadBalancerProfileInput",
 		&returns,
 	)
 	return returns
@@ -554,6 +578,25 @@ func (r *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) Interpol
 	)
 
 	return returns
+}
+
+func (r *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) PutLoadBalancerProfile(value *RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile) {
+	if err := r.validatePutLoadBalancerProfileParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putLoadBalancerProfile",
+		[]interface{}{value},
+	)
+}
+
+func (r *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) ResetLoadBalancerProfile() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetLoadBalancerProfile",
+		nil, // no parameters
+	)
 }
 
 func (r *jsiiProxy_RedhatOpenshiftClusterNetworkProfileOutputReference) ResetOutboundType() {

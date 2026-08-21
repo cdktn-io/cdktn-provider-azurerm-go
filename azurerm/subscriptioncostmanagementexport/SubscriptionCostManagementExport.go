@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export}.
 type SubscriptionCostManagementExport interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -601,7 +601,7 @@ func (j *jsiiProxy_SubscriptionCostManagementExport) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export} Resource.
 func NewSubscriptionCostManagementExport(scope constructs.Construct, id *string, config *SubscriptionCostManagementExportConfig) SubscriptionCostManagementExport {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewSubscriptionCostManagementExport(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export} Resource.
 func NewSubscriptionCostManagementExport_Override(s SubscriptionCostManagementExport, scope constructs.Construct, id *string, config *SubscriptionCostManagementExportConfig) {
 	_init_.Initialize()
 

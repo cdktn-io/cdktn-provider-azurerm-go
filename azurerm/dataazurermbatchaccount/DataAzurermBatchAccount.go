@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/batch_account azurerm_batch_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/batch_account azurerm_batch_account}.
 type DataAzurermBatchAccount interface {
 	cdktn.TerraformDataSource
 	AccountEndpoint() *string
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAzurermBatchAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/batch_account azurerm_batch_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/batch_account azurerm_batch_account} Data Source.
 func NewDataAzurermBatchAccount(scope constructs.Construct, id *string, config *DataAzurermBatchAccountConfig) DataAzurermBatchAccount {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataAzurermBatchAccount(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/batch_account azurerm_batch_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/batch_account azurerm_batch_account} Data Source.
 func NewDataAzurermBatchAccount_Override(d DataAzurermBatchAccount, scope constructs.Construct, id *string, config *DataAzurermBatchAccountConfig) {
 	_init_.Initialize()
 

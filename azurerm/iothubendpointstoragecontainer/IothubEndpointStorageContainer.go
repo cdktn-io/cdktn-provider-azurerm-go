@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_endpoint_storage_container azurerm_iothub_endpoint_storage_container}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_endpoint_storage_container azurerm_iothub_endpoint_storage_container}.
 type IothubEndpointStorageContainer interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -700,7 +700,7 @@ func (j *jsiiProxy_IothubEndpointStorageContainer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_endpoint_storage_container azurerm_iothub_endpoint_storage_container} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_endpoint_storage_container azurerm_iothub_endpoint_storage_container} Resource.
 func NewIothubEndpointStorageContainer(scope constructs.Construct, id *string, config *IothubEndpointStorageContainerConfig) IothubEndpointStorageContainer {
 	_init_.Initialize()
 
@@ -718,7 +718,7 @@ func NewIothubEndpointStorageContainer(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_endpoint_storage_container azurerm_iothub_endpoint_storage_container} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_endpoint_storage_container azurerm_iothub_endpoint_storage_container} Resource.
 func NewIothubEndpointStorageContainer_Override(i IothubEndpointStorageContainer, scope constructs.Construct, id *string, config *IothubEndpointStorageContainerConfig) {
 	_init_.Initialize()
 

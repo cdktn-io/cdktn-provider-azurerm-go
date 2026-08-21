@@ -5,11 +5,11 @@ package cdnfrontdoorcustomdomain
 
 
 type CdnFrontdoorCustomDomainTlsCipherSuite struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_frontdoor_custom_domain#type CdnFrontdoorCustomDomain#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_custom_domain#type CdnFrontdoorCustomDomain#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// custom_ciphers block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_frontdoor_custom_domain#custom_ciphers CdnFrontdoorCustomDomain#custom_ciphers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_custom_domain#custom_ciphers CdnFrontdoorCustomDomain#custom_ciphers}
 	CustomCiphers *CdnFrontdoorCustomDomainTlsCipherSuiteCustomCiphers `field:"optional" json:"customCiphers" yaml:"customCiphers"`
 }
 

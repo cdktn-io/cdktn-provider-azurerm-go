@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/traffic_manager_profile azurerm_traffic_manager_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/traffic_manager_profile azurerm_traffic_manager_profile}.
 type DataAzurermTrafficManagerProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DataAzurermTrafficManagerProfile) TrafficViewEnabledInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/traffic_manager_profile azurerm_traffic_manager_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/traffic_manager_profile azurerm_traffic_manager_profile} Data Source.
 func NewDataAzurermTrafficManagerProfile(scope constructs.Construct, id *string, config *DataAzurermTrafficManagerProfileConfig) DataAzurermTrafficManagerProfile {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewDataAzurermTrafficManagerProfile(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/traffic_manager_profile azurerm_traffic_manager_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/traffic_manager_profile azurerm_traffic_manager_profile} Data Source.
 func NewDataAzurermTrafficManagerProfile_Override(d DataAzurermTrafficManagerProfile, scope constructs.Construct, id *string, config *DataAzurermTrafficManagerProfileConfig) {
 	_init_.Initialize()
 

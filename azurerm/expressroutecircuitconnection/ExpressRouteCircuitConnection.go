@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_circuit_connection azurerm_express_route_circuit_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/express_route_circuit_connection azurerm_express_route_circuit_connection}.
 type ExpressRouteCircuitConnection interface {
 	cdktn.TerraformResource
 	AddressPrefixIpv4() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ExpressRouteCircuitConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_circuit_connection azurerm_express_route_circuit_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/express_route_circuit_connection azurerm_express_route_circuit_connection} Resource.
 func NewExpressRouteCircuitConnection(scope constructs.Construct, id *string, config *ExpressRouteCircuitConnectionConfig) ExpressRouteCircuitConnection {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewExpressRouteCircuitConnection(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_circuit_connection azurerm_express_route_circuit_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/express_route_circuit_connection azurerm_express_route_circuit_connection} Resource.
 func NewExpressRouteCircuitConnection_Override(e ExpressRouteCircuitConnection, scope constructs.Construct, id *string, config *ExpressRouteCircuitConnectionConfig) {
 	_init_.Initialize()
 

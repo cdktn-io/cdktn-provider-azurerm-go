@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom}.
 type LogicAppActionCustom interface {
 	cdktn.TerraformResource
 	Body() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_LogicAppActionCustom) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom} Resource.
 func NewLogicAppActionCustom(scope constructs.Construct, id *string, config *LogicAppActionCustomConfig) LogicAppActionCustom {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewLogicAppActionCustom(scope constructs.Construct, id *string, config *Log
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom} Resource.
 func NewLogicAppActionCustom_Override(l LogicAppActionCustom, scope constructs.Construct, id *string, config *LogicAppActionCustomConfig) {
 	_init_.Initialize()
 

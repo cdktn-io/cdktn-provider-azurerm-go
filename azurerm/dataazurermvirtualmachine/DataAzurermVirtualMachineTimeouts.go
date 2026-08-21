@@ -5,7 +5,7 @@ package dataazurermvirtualmachine
 
 
 type DataAzurermVirtualMachineTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/virtual_machine#read DataAzurermVirtualMachine#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/virtual_machine#read DataAzurermVirtualMachine#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

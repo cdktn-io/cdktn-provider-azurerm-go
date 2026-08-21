@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment azurerm_role_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_assignment azurerm_role_assignment}.
 type RoleAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -654,7 +654,7 @@ func (j *jsiiProxy_RoleAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment azurerm_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_assignment azurerm_role_assignment} Resource.
 func NewRoleAssignment(scope constructs.Construct, id *string, config *RoleAssignmentConfig) RoleAssignment {
 	_init_.Initialize()
 
@@ -672,7 +672,7 @@ func NewRoleAssignment(scope constructs.Construct, id *string, config *RoleAssig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment azurerm_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_assignment azurerm_role_assignment} Resource.
 func NewRoleAssignment_Override(r RoleAssignment, scope constructs.Construct, id *string, config *RoleAssignmentConfig) {
 	_init_.Initialize()
 

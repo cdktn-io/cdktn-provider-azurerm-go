@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_cluster azurerm_cosmosdb_cassandra_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_cassandra_cluster azurerm_cosmosdb_cassandra_cluster}.
 type CosmosdbCassandraCluster interface {
 	cdktn.TerraformResource
 	AuthenticationMethod() *string
@@ -723,7 +723,7 @@ func (j *jsiiProxy_CosmosdbCassandraCluster) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_cluster azurerm_cosmosdb_cassandra_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_cassandra_cluster azurerm_cosmosdb_cassandra_cluster} Resource.
 func NewCosmosdbCassandraCluster(scope constructs.Construct, id *string, config *CosmosdbCassandraClusterConfig) CosmosdbCassandraCluster {
 	_init_.Initialize()
 
@@ -741,7 +741,7 @@ func NewCosmosdbCassandraCluster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_cluster azurerm_cosmosdb_cassandra_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_cassandra_cluster azurerm_cosmosdb_cassandra_cluster} Resource.
 func NewCosmosdbCassandraCluster_Override(c CosmosdbCassandraCluster, scope constructs.Construct, id *string, config *CosmosdbCassandraClusterConfig) {
 	_init_.Initialize()
 

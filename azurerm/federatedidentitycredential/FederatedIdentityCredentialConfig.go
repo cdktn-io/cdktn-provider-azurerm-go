@@ -22,24 +22,24 @@ type FederatedIdentityCredentialConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/federated_identity_credential#audience FederatedIdentityCredential#audience}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/federated_identity_credential#audience FederatedIdentityCredential#audience}.
 	Audience *[]*string `field:"required" json:"audience" yaml:"audience"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/federated_identity_credential#issuer FederatedIdentityCredential#issuer}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/federated_identity_credential#issuer FederatedIdentityCredential#issuer}.
 	Issuer *string `field:"required" json:"issuer" yaml:"issuer"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/federated_identity_credential#name FederatedIdentityCredential#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/federated_identity_credential#name FederatedIdentityCredential#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/federated_identity_credential#subject FederatedIdentityCredential#subject}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/federated_identity_credential#subject FederatedIdentityCredential#subject}.
 	Subject *string `field:"required" json:"subject" yaml:"subject"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/federated_identity_credential#user_assigned_identity_id FederatedIdentityCredential#user_assigned_identity_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/federated_identity_credential#user_assigned_identity_id FederatedIdentityCredential#user_assigned_identity_id}.
 	UserAssignedIdentityId *string `field:"required" json:"userAssignedIdentityId" yaml:"userAssignedIdentityId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/federated_identity_credential#id FederatedIdentityCredential#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/federated_identity_credential#id FederatedIdentityCredential#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/federated_identity_credential#timeouts FederatedIdentityCredential#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/federated_identity_credential#timeouts FederatedIdentityCredential#timeouts}
 	Timeouts *FederatedIdentityCredentialTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

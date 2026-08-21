@@ -83,6 +83,10 @@ func (j *jsiiProxy_RoleAssignmentTimeoutsOutputReference) validateSetTerraformRe
 	return nil
 }
 
+func (j *jsiiProxy_RoleAssignmentTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
 func validateNewRoleAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

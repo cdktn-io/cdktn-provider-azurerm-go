@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_hybrid_runbook_worker_group azurerm_automation_hybrid_runbook_worker_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_hybrid_runbook_worker_group azurerm_automation_hybrid_runbook_worker_group}.
 type AutomationHybridRunbookWorkerGroup interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_AutomationHybridRunbookWorkerGroup) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_hybrid_runbook_worker_group azurerm_automation_hybrid_runbook_worker_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_hybrid_runbook_worker_group azurerm_automation_hybrid_runbook_worker_group} Resource.
 func NewAutomationHybridRunbookWorkerGroup(scope constructs.Construct, id *string, config *AutomationHybridRunbookWorkerGroupConfig) AutomationHybridRunbookWorkerGroup {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewAutomationHybridRunbookWorkerGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_hybrid_runbook_worker_group azurerm_automation_hybrid_runbook_worker_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_hybrid_runbook_worker_group azurerm_automation_hybrid_runbook_worker_group} Resource.
 func NewAutomationHybridRunbookWorkerGroup_Override(a AutomationHybridRunbookWorkerGroup, scope constructs.Construct, id *string, config *AutomationHybridRunbookWorkerGroupConfig) {
 	_init_.Initialize()
 

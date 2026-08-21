@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database}.
 type DataShareDatasetKustoDatabase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_DataShareDatasetKustoDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database} Resource.
 func NewDataShareDatasetKustoDatabase(scope constructs.Construct, id *string, config *DataShareDatasetKustoDatabaseConfig) DataShareDatasetKustoDatabase {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewDataShareDatasetKustoDatabase(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database} Resource.
 func NewDataShareDatasetKustoDatabase_Override(d DataShareDatasetKustoDatabase, scope constructs.Construct, id *string, config *DataShareDatasetKustoDatabaseConfig) {
 	_init_.Initialize()
 

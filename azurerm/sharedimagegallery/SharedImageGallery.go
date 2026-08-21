@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery}.
 type SharedImageGallery interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_SharedImageGallery) UniqueName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery} Resource.
 func NewSharedImageGallery(scope constructs.Construct, id *string, config *SharedImageGalleryConfig) SharedImageGallery {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewSharedImageGallery(scope constructs.Construct, id *string, config *Share
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery} Resource.
 func NewSharedImageGallery_Override(s SharedImageGallery, scope constructs.Construct, id *string, config *SharedImageGalleryConfig) {
 	_init_.Initialize()
 

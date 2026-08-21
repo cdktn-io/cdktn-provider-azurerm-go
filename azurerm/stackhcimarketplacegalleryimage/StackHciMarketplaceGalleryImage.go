@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_marketplace_gallery_image azurerm_stack_hci_marketplace_gallery_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stack_hci_marketplace_gallery_image azurerm_stack_hci_marketplace_gallery_image}.
 type StackHciMarketplaceGalleryImage interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -624,7 +624,7 @@ func (j *jsiiProxy_StackHciMarketplaceGalleryImage) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_marketplace_gallery_image azurerm_stack_hci_marketplace_gallery_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stack_hci_marketplace_gallery_image azurerm_stack_hci_marketplace_gallery_image} Resource.
 func NewStackHciMarketplaceGalleryImage(scope constructs.Construct, id *string, config *StackHciMarketplaceGalleryImageConfig) StackHciMarketplaceGalleryImage {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewStackHciMarketplaceGalleryImage(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_marketplace_gallery_image azurerm_stack_hci_marketplace_gallery_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stack_hci_marketplace_gallery_image azurerm_stack_hci_marketplace_gallery_image} Resource.
 func NewStackHciMarketplaceGalleryImage_Override(s StackHciMarketplaceGalleryImage, scope constructs.Construct, id *string, config *StackHciMarketplaceGalleryImageConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_cache_rule azurerm_container_registry_cache_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule azurerm_container_registry_cache_rule}.
 type ContainerRegistryCacheRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_ContainerRegistryCacheRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_cache_rule azurerm_container_registry_cache_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule azurerm_container_registry_cache_rule} Resource.
 func NewContainerRegistryCacheRule(scope constructs.Construct, id *string, config *ContainerRegistryCacheRuleConfig) ContainerRegistryCacheRule {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewContainerRegistryCacheRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_cache_rule azurerm_container_registry_cache_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule azurerm_container_registry_cache_rule} Resource.
 func NewContainerRegistryCacheRule_Override(c ContainerRegistryCacheRule, scope constructs.Construct, id *string, config *ContainerRegistryCacheRuleConfig) {
 	_init_.Initialize()
 

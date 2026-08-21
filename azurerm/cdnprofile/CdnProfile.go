@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_profile azurerm_cdn_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_profile azurerm_cdn_profile}.
 type CdnProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_CdnProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_profile azurerm_cdn_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_profile azurerm_cdn_profile} Resource.
 func NewCdnProfile(scope constructs.Construct, id *string, config *CdnProfileConfig) CdnProfile {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewCdnProfile(scope constructs.Construct, id *string, config *CdnProfileCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_profile azurerm_cdn_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_profile azurerm_cdn_profile} Resource.
 func NewCdnProfile_Override(c CdnProfile, scope constructs.Construct, id *string, config *CdnProfileConfig) {
 	_init_.Initialize()
 
