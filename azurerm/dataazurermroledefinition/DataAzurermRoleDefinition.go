@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/role_definition azurerm_role_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/role_definition azurerm_role_definition}.
 type DataAzurermRoleDefinition interface {
 	cdktn.TerraformDataSource
 	AssignableScopes() *[]*string
@@ -59,6 +59,7 @@ type DataAzurermRoleDefinition interface {
 	RoleDefinitionId() *string
 	SetRoleDefinitionId(val *string)
 	RoleDefinitionIdInput() *string
+	RoleDefinitionResourceId() *string
 	Scope() *string
 	SetScope(val *string)
 	ScopeInput() *string
@@ -346,6 +347,16 @@ func (j *jsiiProxy_DataAzurermRoleDefinition) RoleDefinitionIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermRoleDefinition) RoleDefinitionResourceId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleDefinitionResourceId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermRoleDefinition) Scope() *string {
 	var returns *string
 	_jsii_.Get(
@@ -427,7 +438,7 @@ func (j *jsiiProxy_DataAzurermRoleDefinition) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/role_definition azurerm_role_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/role_definition azurerm_role_definition} Data Source.
 func NewDataAzurermRoleDefinition(scope constructs.Construct, id *string, config *DataAzurermRoleDefinitionConfig) DataAzurermRoleDefinition {
 	_init_.Initialize()
 
@@ -445,7 +456,7 @@ func NewDataAzurermRoleDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/role_definition azurerm_role_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/role_definition azurerm_role_definition} Data Source.
 func NewDataAzurermRoleDefinition_Override(d DataAzurermRoleDefinition, scope constructs.Construct, id *string, config *DataAzurermRoleDefinitionConfig) {
 	_init_.Initialize()
 

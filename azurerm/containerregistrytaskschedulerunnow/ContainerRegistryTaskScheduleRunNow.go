@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now}.
 type ContainerRegistryTaskScheduleRunNow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_ContainerRegistryTaskScheduleRunNow) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now} Resource.
 func NewContainerRegistryTaskScheduleRunNow(scope constructs.Construct, id *string, config *ContainerRegistryTaskScheduleRunNowConfig) ContainerRegistryTaskScheduleRunNow {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewContainerRegistryTaskScheduleRunNow(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task_schedule_run_now azurerm_container_registry_task_schedule_run_now} Resource.
 func NewContainerRegistryTaskScheduleRunNow_Override(c ContainerRegistryTaskScheduleRunNow, scope constructs.Construct, id *string, config *ContainerRegistryTaskScheduleRunNowConfig) {
 	_init_.Initialize()
 

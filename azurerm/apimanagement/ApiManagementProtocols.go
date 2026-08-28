@@ -5,7 +5,7 @@ package apimanagement
 
 
 type ApiManagementProtocols struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management#http2_enabled ApiManagement#http2_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management#http2_enabled ApiManagement#http2_enabled}.
 	Http2Enabled interface{} `field:"optional" json:"http2Enabled" yaml:"http2Enabled"`
 }
 

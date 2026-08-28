@@ -39,6 +39,9 @@ type KubernetesClusterOmsAgentOutputReference interface {
 	SetMsiAuthForMonitoringEnabled(val interface{})
 	MsiAuthForMonitoringEnabledInput() interface{}
 	OmsAgentIdentity() KubernetesClusterOmsAgentOmsAgentIdentityList
+	RetinaFlowLogsEnabled() interface{}
+	SetRetinaFlowLogsEnabled(val interface{})
+	RetinaFlowLogsEnabledInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type KubernetesClusterOmsAgentOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMsiAuthForMonitoringEnabled()
+	ResetRetinaFlowLogsEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -187,6 +191,26 @@ func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference) OmsAgentIdentity() 
 	return returns
 }
 
+func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference) RetinaFlowLogsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"retinaFlowLogsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference) RetinaFlowLogsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"retinaFlowLogsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -286,6 +310,17 @@ func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference)SetMsiAuthForMonitor
 	_jsii_.Set(
 		j,
 		"msiAuthForMonitoringEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference)SetRetinaFlowLogsEnabled(val interface{}) {
+	if err := j.validateSetRetinaFlowLogsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"retinaFlowLogsEnabled",
 		val,
 	)
 }
@@ -502,6 +537,14 @@ func (k *jsiiProxy_KubernetesClusterOmsAgentOutputReference) ResetMsiAuthForMoni
 	_jsii_.InvokeVoid(
 		k,
 		"resetMsiAuthForMonitoringEnabled",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KubernetesClusterOmsAgentOutputReference) ResetRetinaFlowLogsEnabled() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetRetinaFlowLogsEnabled",
 		nil, // no parameters
 	)
 }

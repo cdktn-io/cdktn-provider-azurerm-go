@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/synapse_firewall_rule azurerm_synapse_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_firewall_rule azurerm_synapse_firewall_rule}.
 type SynapseFirewallRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_SynapseFirewallRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/synapse_firewall_rule azurerm_synapse_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_firewall_rule azurerm_synapse_firewall_rule} Resource.
 func NewSynapseFirewallRule(scope constructs.Construct, id *string, config *SynapseFirewallRuleConfig) SynapseFirewallRule {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewSynapseFirewallRule(scope constructs.Construct, id *string, config *Syna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/synapse_firewall_rule azurerm_synapse_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_firewall_rule azurerm_synapse_firewall_rule} Resource.
 func NewSynapseFirewallRule_Override(s SynapseFirewallRule, scope constructs.Construct, id *string, config *SynapseFirewallRuleConfig) {
 	_init_.Initialize()
 

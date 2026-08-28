@@ -5,9 +5,9 @@ package windowsvirtualmachinescaleset
 
 
 type WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine_scale_set#automatic_os_upgrade_enabled WindowsVirtualMachineScaleSet#automatic_os_upgrade_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine_scale_set#automatic_os_upgrade_enabled WindowsVirtualMachineScaleSet#automatic_os_upgrade_enabled}.
 	AutomaticOsUpgradeEnabled interface{} `field:"required" json:"automaticOsUpgradeEnabled" yaml:"automaticOsUpgradeEnabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine_scale_set#automatic_rollback_enabled WindowsVirtualMachineScaleSet#automatic_rollback_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine_scale_set#automatic_rollback_enabled WindowsVirtualMachineScaleSet#automatic_rollback_enabled}.
 	AutomaticRollbackEnabled interface{} `field:"required" json:"automaticRollbackEnabled" yaml:"automaticRollbackEnabled"`
 }
 

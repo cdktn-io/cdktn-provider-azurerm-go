@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_cluster_customer_managed_key azurerm_kusto_cluster_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_cluster_customer_managed_key azurerm_kusto_cluster_customer_managed_key}.
 type KustoClusterCustomerManagedKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -535,7 +535,7 @@ func (j *jsiiProxy_KustoClusterCustomerManagedKey) UserIdentityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_cluster_customer_managed_key azurerm_kusto_cluster_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_cluster_customer_managed_key azurerm_kusto_cluster_customer_managed_key} Resource.
 func NewKustoClusterCustomerManagedKey(scope constructs.Construct, id *string, config *KustoClusterCustomerManagedKeyConfig) KustoClusterCustomerManagedKey {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewKustoClusterCustomerManagedKey(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_cluster_customer_managed_key azurerm_kusto_cluster_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_cluster_customer_managed_key azurerm_kusto_cluster_customer_managed_key} Resource.
 func NewKustoClusterCustomerManagedKey_Override(k KustoClusterCustomerManagedKey, scope constructs.Construct, id *string, config *KustoClusterCustomerManagedKeyConfig) {
 	_init_.Initialize()
 

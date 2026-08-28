@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table}.
 type CosmosdbCassandraTable interface {
 	cdktn.TerraformResource
 	AnalyticalStorageTtl() *float64
@@ -557,7 +557,7 @@ func (j *jsiiProxy_CosmosdbCassandraTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
 func NewCosmosdbCassandraTable(scope constructs.Construct, id *string, config *CosmosdbCassandraTableConfig) CosmosdbCassandraTable {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewCosmosdbCassandraTable(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
 func NewCosmosdbCassandraTable_Override(c CosmosdbCassandraTable, scope constructs.Construct, id *string, config *CosmosdbCassandraTableConfig) {
 	_init_.Initialize()
 

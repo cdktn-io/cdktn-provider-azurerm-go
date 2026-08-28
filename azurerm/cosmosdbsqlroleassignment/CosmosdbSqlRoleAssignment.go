@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment}.
 type CosmosdbSqlRoleAssignment interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_CosmosdbSqlRoleAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment} Resource.
 func NewCosmosdbSqlRoleAssignment(scope constructs.Construct, id *string, config *CosmosdbSqlRoleAssignmentConfig) CosmosdbSqlRoleAssignment {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewCosmosdbSqlRoleAssignment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment} Resource.
 func NewCosmosdbSqlRoleAssignment_Override(c CosmosdbSqlRoleAssignment, scope constructs.Construct, id *string, config *CosmosdbSqlRoleAssignmentConfig) {
 	_init_.Initialize()
 

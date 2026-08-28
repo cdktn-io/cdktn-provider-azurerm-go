@@ -1325,6 +1325,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "msiAuthForMonitoringEnabled", GoGetter: "MsiAuthForMonitoringEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "omsAgentIdentity", GoGetter: "OmsAgentIdentity"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "retinaFlowLogsEnabled", GoGetter: "RetinaFlowLogsEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},

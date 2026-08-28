@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/images azurerm_images}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/images azurerm_images}.
 type DataAzurermImages interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAzurermImages) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/images azurerm_images} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/images azurerm_images} Data Source.
 func NewDataAzurermImages(scope constructs.Construct, id *string, config *DataAzurermImagesConfig) DataAzurermImages {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataAzurermImages(scope constructs.Construct, id *string, config *DataAz
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/images azurerm_images} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/images azurerm_images} Data Source.
 func NewDataAzurermImages_Override(d DataAzurermImages, scope constructs.Construct, id *string, config *DataAzurermImagesConfig) {
 	_init_.Initialize()
 

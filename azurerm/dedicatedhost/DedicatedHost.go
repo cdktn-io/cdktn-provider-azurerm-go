@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/dedicated_host azurerm_dedicated_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dedicated_host azurerm_dedicated_host}.
 type DedicatedHost interface {
 	cdktn.TerraformResource
 	AutoReplaceOnFailure() interface{}
@@ -579,7 +579,7 @@ func (j *jsiiProxy_DedicatedHost) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/dedicated_host azurerm_dedicated_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dedicated_host azurerm_dedicated_host} Resource.
 func NewDedicatedHost(scope constructs.Construct, id *string, config *DedicatedHostConfig) DedicatedHost {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewDedicatedHost(scope constructs.Construct, id *string, config *DedicatedH
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/dedicated_host azurerm_dedicated_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dedicated_host azurerm_dedicated_host} Resource.
 func NewDedicatedHost_Override(d DedicatedHost, scope constructs.Construct, id *string, config *DedicatedHostConfig) {
 	_init_.Initialize()
 

@@ -5,19 +5,19 @@ package mssqldatabase
 
 
 type MssqlDatabaseThreatDetectionPolicy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#disabled_alerts MssqlDatabase#disabled_alerts}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#disabled_alerts MssqlDatabase#disabled_alerts}.
 	DisabledAlerts *[]*string `field:"optional" json:"disabledAlerts" yaml:"disabledAlerts"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#email_account_admins_enabled MssqlDatabase#email_account_admins_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#email_account_admins_enabled MssqlDatabase#email_account_admins_enabled}.
 	EmailAccountAdminsEnabled interface{} `field:"optional" json:"emailAccountAdminsEnabled" yaml:"emailAccountAdminsEnabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#email_addresses MssqlDatabase#email_addresses}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#email_addresses MssqlDatabase#email_addresses}.
 	EmailAddresses *[]*string `field:"optional" json:"emailAddresses" yaml:"emailAddresses"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#retention_days MssqlDatabase#retention_days}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#retention_days MssqlDatabase#retention_days}.
 	RetentionDays *float64 `field:"optional" json:"retentionDays" yaml:"retentionDays"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#state MssqlDatabase#state}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#state MssqlDatabase#state}.
 	State *string `field:"optional" json:"state" yaml:"state"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#storage_account_access_key MssqlDatabase#storage_account_access_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#storage_account_access_key MssqlDatabase#storage_account_access_key}.
 	StorageAccountAccessKey *string `field:"optional" json:"storageAccountAccessKey" yaml:"storageAccountAccessKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#storage_endpoint MssqlDatabase#storage_endpoint}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#storage_endpoint MssqlDatabase#storage_endpoint}.
 	StorageEndpoint *string `field:"optional" json:"storageEndpoint" yaml:"storageEndpoint"`
 }
 

@@ -35,6 +35,7 @@ type DataAzurermKubernetesClusterOmsAgentOutputReference interface {
 	LogAnalyticsWorkspaceId() *string
 	MsiAuthForMonitoringEnabled() cdktn.IResolvable
 	OmsAgentIdentity() DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList
+	RetinaFlowLogsEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -157,6 +158,16 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOutputReference) OmsAgent
 	_jsii_.Get(
 		j,
 		"omsAgentIdentity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOutputReference) RetinaFlowLogsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"retinaFlowLogsEnabled",
 		&returns,
 	)
 	return returns

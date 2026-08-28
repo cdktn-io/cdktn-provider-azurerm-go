@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_job_step azurerm_mssql_job_step}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_step azurerm_mssql_job_step}.
 type MssqlJobStep interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -675,7 +675,7 @@ func (j *jsiiProxy_MssqlJobStep) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_job_step azurerm_mssql_job_step} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_step azurerm_mssql_job_step} Resource.
 func NewMssqlJobStep(scope constructs.Construct, id *string, config *MssqlJobStepConfig) MssqlJobStep {
 	_init_.Initialize()
 
@@ -693,7 +693,7 @@ func NewMssqlJobStep(scope constructs.Construct, id *string, config *MssqlJobSte
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_job_step azurerm_mssql_job_step} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_step azurerm_mssql_job_step} Resource.
 func NewMssqlJobStep_Override(m MssqlJobStep, scope constructs.Construct, id *string, config *MssqlJobStepConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint}.
 type StorageSyncServerEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -604,7 +604,7 @@ func (j *jsiiProxy_StorageSyncServerEndpoint) VolumeFreeSpacePercentInput() *flo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
 func NewStorageSyncServerEndpoint(scope constructs.Construct, id *string, config *StorageSyncServerEndpointConfig) StorageSyncServerEndpoint {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewStorageSyncServerEndpoint(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
 func NewStorageSyncServerEndpoint_Override(s StorageSyncServerEndpoint, scope constructs.Construct, id *string, config *StorageSyncServerEndpointConfig) {
 	_init_.Initialize()
 

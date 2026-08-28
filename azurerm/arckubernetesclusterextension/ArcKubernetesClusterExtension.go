@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/arc_kubernetes_cluster_extension azurerm_arc_kubernetes_cluster_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/arc_kubernetes_cluster_extension azurerm_arc_kubernetes_cluster_extension}.
 type ArcKubernetesClusterExtension interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -639,7 +639,7 @@ func (j *jsiiProxy_ArcKubernetesClusterExtension) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/arc_kubernetes_cluster_extension azurerm_arc_kubernetes_cluster_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/arc_kubernetes_cluster_extension azurerm_arc_kubernetes_cluster_extension} Resource.
 func NewArcKubernetesClusterExtension(scope constructs.Construct, id *string, config *ArcKubernetesClusterExtensionConfig) ArcKubernetesClusterExtension {
 	_init_.Initialize()
 
@@ -657,7 +657,7 @@ func NewArcKubernetesClusterExtension(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/arc_kubernetes_cluster_extension azurerm_arc_kubernetes_cluster_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/arc_kubernetes_cluster_extension azurerm_arc_kubernetes_cluster_extension} Resource.
 func NewArcKubernetesClusterExtension_Override(a ArcKubernetesClusterExtension, scope constructs.Construct, id *string, config *ArcKubernetesClusterExtensionConfig) {
 	_init_.Initialize()
 

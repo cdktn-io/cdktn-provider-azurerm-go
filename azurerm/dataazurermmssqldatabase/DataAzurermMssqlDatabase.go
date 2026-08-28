@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/mssql_database azurerm_mssql_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/mssql_database azurerm_mssql_database}.
 type DataAzurermMssqlDatabase interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) ZoneRedundant() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/mssql_database azurerm_mssql_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/mssql_database azurerm_mssql_database} Data Source.
 func NewDataAzurermMssqlDatabase(scope constructs.Construct, id *string, config *DataAzurermMssqlDatabaseConfig) DataAzurermMssqlDatabase {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewDataAzurermMssqlDatabase(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/mssql_database azurerm_mssql_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/mssql_database azurerm_mssql_database} Data Source.
 func NewDataAzurermMssqlDatabase_Override(d DataAzurermMssqlDatabase, scope constructs.Construct, id *string, config *DataAzurermMssqlDatabaseConfig) {
 	_init_.Initialize()
 

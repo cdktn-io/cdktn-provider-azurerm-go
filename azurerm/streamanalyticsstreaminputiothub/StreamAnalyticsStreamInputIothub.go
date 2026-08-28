@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stream_analytics_stream_input_iothub azurerm_stream_analytics_stream_input_iothub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_stream_input_iothub azurerm_stream_analytics_stream_input_iothub}.
 type StreamAnalyticsStreamInputIothub interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -599,7 +599,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputIothub) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stream_analytics_stream_input_iothub azurerm_stream_analytics_stream_input_iothub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_stream_input_iothub azurerm_stream_analytics_stream_input_iothub} Resource.
 func NewStreamAnalyticsStreamInputIothub(scope constructs.Construct, id *string, config *StreamAnalyticsStreamInputIothubConfig) StreamAnalyticsStreamInputIothub {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewStreamAnalyticsStreamInputIothub(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stream_analytics_stream_input_iothub azurerm_stream_analytics_stream_input_iothub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_stream_input_iothub azurerm_stream_analytics_stream_input_iothub} Resource.
 func NewStreamAnalyticsStreamInputIothub_Override(s StreamAnalyticsStreamInputIothub, scope constructs.Construct, id *string, config *StreamAnalyticsStreamInputIothubConfig) {
 	_init_.Initialize()
 

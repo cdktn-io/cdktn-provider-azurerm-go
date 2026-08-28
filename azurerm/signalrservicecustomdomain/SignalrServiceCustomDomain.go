@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain}.
 type SignalrServiceCustomDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_SignalrServiceCustomDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain} Resource.
 func NewSignalrServiceCustomDomain(scope constructs.Construct, id *string, config *SignalrServiceCustomDomainConfig) SignalrServiceCustomDomain {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewSignalrServiceCustomDomain(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain} Resource.
 func NewSignalrServiceCustomDomain_Override(s SignalrServiceCustomDomain, scope constructs.Construct, id *string, config *SignalrServiceCustomDomainConfig) {
 	_init_.Initialize()
 

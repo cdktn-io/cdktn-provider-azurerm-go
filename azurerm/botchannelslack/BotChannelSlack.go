@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack}.
 type BotChannelSlack interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_BotChannelSlack) VerificationTokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack} Resource.
 func NewBotChannelSlack(scope constructs.Construct, id *string, config *BotChannelSlackConfig) BotChannelSlack {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewBotChannelSlack(scope constructs.Construct, id *string, config *BotChann
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack} Resource.
 func NewBotChannelSlack_Override(b BotChannelSlack, scope constructs.Construct, id *string, config *BotChannelSlackConfig) {
 	_init_.Initialize()
 

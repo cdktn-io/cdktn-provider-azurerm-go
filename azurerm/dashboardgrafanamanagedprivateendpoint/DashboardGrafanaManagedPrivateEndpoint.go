@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/dashboard_grafana_managed_private_endpoint azurerm_dashboard_grafana_managed_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dashboard_grafana_managed_private_endpoint azurerm_dashboard_grafana_managed_private_endpoint}.
 type DashboardGrafanaManagedPrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -604,7 +604,7 @@ func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpoint) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/dashboard_grafana_managed_private_endpoint azurerm_dashboard_grafana_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dashboard_grafana_managed_private_endpoint azurerm_dashboard_grafana_managed_private_endpoint} Resource.
 func NewDashboardGrafanaManagedPrivateEndpoint(scope constructs.Construct, id *string, config *DashboardGrafanaManagedPrivateEndpointConfig) DashboardGrafanaManagedPrivateEndpoint {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewDashboardGrafanaManagedPrivateEndpoint(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/dashboard_grafana_managed_private_endpoint azurerm_dashboard_grafana_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dashboard_grafana_managed_private_endpoint azurerm_dashboard_grafana_managed_private_endpoint} Resource.
 func NewDashboardGrafanaManagedPrivateEndpoint_Override(d DashboardGrafanaManagedPrivateEndpoint, scope constructs.Construct, id *string, config *DashboardGrafanaManagedPrivateEndpointConfig) {
 	_init_.Initialize()
 

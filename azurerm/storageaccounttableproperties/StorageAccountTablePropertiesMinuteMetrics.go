@@ -5,11 +5,11 @@ package storageaccounttableproperties
 
 
 type StorageAccountTablePropertiesMinuteMetrics struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account_table_properties#version StorageAccountTableProperties#version}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_table_properties#version StorageAccountTableProperties#version}.
 	Version *string `field:"required" json:"version" yaml:"version"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account_table_properties#include_apis StorageAccountTableProperties#include_apis}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_table_properties#include_apis StorageAccountTableProperties#include_apis}.
 	IncludeApis interface{} `field:"optional" json:"includeApis" yaml:"includeApis"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account_table_properties#retention_policy_days StorageAccountTableProperties#retention_policy_days}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_table_properties#retention_policy_days StorageAccountTableProperties#retention_policy_days}.
 	RetentionPolicyDays *float64 `field:"optional" json:"retentionPolicyDays" yaml:"retentionPolicyDays"`
 }
 

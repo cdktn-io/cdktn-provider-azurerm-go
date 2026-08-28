@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa}.
 type BotChannelAlexa interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_BotChannelAlexa) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa} Resource.
 func NewBotChannelAlexa(scope constructs.Construct, id *string, config *BotChannelAlexaConfig) BotChannelAlexa {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewBotChannelAlexa(scope constructs.Construct, id *string, config *BotChann
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa} Resource.
 func NewBotChannelAlexa_Override(b BotChannelAlexa, scope constructs.Construct, id *string, config *BotChannelAlexaConfig) {
 	_init_.Initialize()
 

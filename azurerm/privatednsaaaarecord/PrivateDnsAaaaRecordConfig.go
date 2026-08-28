@@ -22,24 +22,24 @@ type PrivateDnsAaaaRecordConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/private_dns_aaaa_record#name PrivateDnsAaaaRecord#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_aaaa_record#name PrivateDnsAaaaRecord#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/private_dns_aaaa_record#private_dns_zone_id PrivateDnsAaaaRecord#private_dns_zone_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_aaaa_record#private_dns_zone_id PrivateDnsAaaaRecord#private_dns_zone_id}.
 	PrivateDnsZoneId *string `field:"required" json:"privateDnsZoneId" yaml:"privateDnsZoneId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/private_dns_aaaa_record#records PrivateDnsAaaaRecord#records}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_aaaa_record#records PrivateDnsAaaaRecord#records}.
 	Records *[]*string `field:"required" json:"records" yaml:"records"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/private_dns_aaaa_record#ttl PrivateDnsAaaaRecord#ttl}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_aaaa_record#ttl PrivateDnsAaaaRecord#ttl}.
 	Ttl *float64 `field:"required" json:"ttl" yaml:"ttl"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/private_dns_aaaa_record#id PrivateDnsAaaaRecord#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_aaaa_record#id PrivateDnsAaaaRecord#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/private_dns_aaaa_record#tags PrivateDnsAaaaRecord#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_aaaa_record#tags PrivateDnsAaaaRecord#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/private_dns_aaaa_record#timeouts PrivateDnsAaaaRecord#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_aaaa_record#timeouts PrivateDnsAaaaRecord#timeouts}
 	Timeouts *PrivateDnsAaaaRecordTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

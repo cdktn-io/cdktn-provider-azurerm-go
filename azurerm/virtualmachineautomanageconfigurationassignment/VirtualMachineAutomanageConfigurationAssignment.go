@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment}.
 type VirtualMachineAutomanageConfigurationAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignment) VirtualMachi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment} Resource.
 func NewVirtualMachineAutomanageConfigurationAssignment(scope constructs.Construct, id *string, config *VirtualMachineAutomanageConfigurationAssignmentConfig) VirtualMachineAutomanageConfigurationAssignment {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewVirtualMachineAutomanageConfigurationAssignment(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment} Resource.
 func NewVirtualMachineAutomanageConfigurationAssignment_Override(v VirtualMachineAutomanageConfigurationAssignment, scope constructs.Construct, id *string, config *VirtualMachineAutomanageConfigurationAssignmentConfig) {
 	_init_.Initialize()
 

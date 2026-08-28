@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint_custom_domain azurerm_cdn_endpoint_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint_custom_domain azurerm_cdn_endpoint_custom_domain}.
 type CdnEndpointCustomDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_CdnEndpointCustomDomain) UserManagedHttpsInput() *CdnEndpoint
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint_custom_domain azurerm_cdn_endpoint_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint_custom_domain azurerm_cdn_endpoint_custom_domain} Resource.
 func NewCdnEndpointCustomDomain(scope constructs.Construct, id *string, config *CdnEndpointCustomDomainConfig) CdnEndpointCustomDomain {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewCdnEndpointCustomDomain(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint_custom_domain azurerm_cdn_endpoint_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint_custom_domain azurerm_cdn_endpoint_custom_domain} Resource.
 func NewCdnEndpointCustomDomain_Override(c CdnEndpointCustomDomain, scope constructs.Construct, id *string, config *CdnEndpointCustomDomainConfig) {
 	_init_.Initialize()
 

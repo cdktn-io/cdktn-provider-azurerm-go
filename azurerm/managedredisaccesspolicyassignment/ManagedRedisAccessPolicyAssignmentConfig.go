@@ -22,18 +22,18 @@ type ManagedRedisAccessPolicyAssignmentConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_redis_access_policy_assignment#managed_redis_id ManagedRedisAccessPolicyAssignment#managed_redis_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_redis_access_policy_assignment#managed_redis_id ManagedRedisAccessPolicyAssignment#managed_redis_id}.
 	ManagedRedisId *string `field:"required" json:"managedRedisId" yaml:"managedRedisId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_redis_access_policy_assignment#object_id ManagedRedisAccessPolicyAssignment#object_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_redis_access_policy_assignment#object_id ManagedRedisAccessPolicyAssignment#object_id}.
 	ObjectId *string `field:"required" json:"objectId" yaml:"objectId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_redis_access_policy_assignment#id ManagedRedisAccessPolicyAssignment#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_redis_access_policy_assignment#id ManagedRedisAccessPolicyAssignment#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_redis_access_policy_assignment#timeouts ManagedRedisAccessPolicyAssignment#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_redis_access_policy_assignment#timeouts ManagedRedisAccessPolicyAssignment#timeouts}
 	Timeouts *ManagedRedisAccessPolicyAssignmentTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

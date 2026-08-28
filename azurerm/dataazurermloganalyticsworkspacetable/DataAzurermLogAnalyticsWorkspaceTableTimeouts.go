@@ -5,7 +5,7 @@ package dataazurermloganalyticsworkspacetable
 
 
 type DataAzurermLogAnalyticsWorkspaceTableTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/log_analytics_workspace_table#read DataAzurermLogAnalyticsWorkspaceTable#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/log_analytics_workspace_table#read DataAzurermLogAnalyticsWorkspaceTable#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

@@ -79,6 +79,10 @@ func (m *jsiiProxy_ManagedApplication) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
+func (m *jsiiProxy_ManagedApplication) validatePutIdentityParameters(value *ManagedApplicationIdentity) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedApplication) validatePutPlanParameters(value *ManagedApplicationPlan) error {
 	return nil
 }

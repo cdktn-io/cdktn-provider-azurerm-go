@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account_connection_account_key azurerm_cognitive_account_connection_account_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account_connection_account_key azurerm_cognitive_account_connection_account_key}.
 type CognitiveAccountConnectionAccountKey interface {
 	cdktn.TerraformResource
 	AccountKey() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_CognitiveAccountConnectionAccountKey) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account_connection_account_key azurerm_cognitive_account_connection_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account_connection_account_key azurerm_cognitive_account_connection_account_key} Resource.
 func NewCognitiveAccountConnectionAccountKey(scope constructs.Construct, id *string, config *CognitiveAccountConnectionAccountKeyConfig) CognitiveAccountConnectionAccountKey {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewCognitiveAccountConnectionAccountKey(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account_connection_account_key azurerm_cognitive_account_connection_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account_connection_account_key azurerm_cognitive_account_connection_account_key} Resource.
 func NewCognitiveAccountConnectionAccountKey_Override(c CognitiveAccountConnectionAccountKey, scope constructs.Construct, id *string, config *CognitiveAccountConnectionAccountKeyConfig) {
 	_init_.Initialize()
 

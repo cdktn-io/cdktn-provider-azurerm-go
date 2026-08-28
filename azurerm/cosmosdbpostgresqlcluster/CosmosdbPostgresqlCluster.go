@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster}.
 type CosmosdbPostgresqlCluster interface {
 	cdktn.TerraformResource
 	AdministratorLoginPassword() *string
@@ -962,7 +962,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster} Resource.
 func NewCosmosdbPostgresqlCluster(scope constructs.Construct, id *string, config *CosmosdbPostgresqlClusterConfig) CosmosdbPostgresqlCluster {
 	_init_.Initialize()
 
@@ -980,7 +980,7 @@ func NewCosmosdbPostgresqlCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster} Resource.
 func NewCosmosdbPostgresqlCluster_Override(c CosmosdbPostgresqlCluster, scope constructs.Construct, id *string, config *CosmosdbPostgresqlClusterConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/snapshot azurerm_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/snapshot azurerm_snapshot}.
 type Snapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -735,7 +735,7 @@ func (j *jsiiProxy_Snapshot) TrustedLaunchEnabled() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/snapshot azurerm_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/snapshot azurerm_snapshot} Resource.
 func NewSnapshot(scope constructs.Construct, id *string, config *SnapshotConfig) Snapshot {
 	_init_.Initialize()
 
@@ -753,7 +753,7 @@ func NewSnapshot(scope constructs.Construct, id *string, config *SnapshotConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/snapshot azurerm_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/snapshot azurerm_snapshot} Resource.
 func NewSnapshot_Override(s Snapshot, scope constructs.Construct, id *string, config *SnapshotConfig) {
 	_init_.Initialize()
 

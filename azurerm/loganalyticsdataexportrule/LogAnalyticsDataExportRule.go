@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/log_analytics_data_export_rule azurerm_log_analytics_data_export_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/log_analytics_data_export_rule azurerm_log_analytics_data_export_rule}.
 type LogAnalyticsDataExportRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_LogAnalyticsDataExportRule) WorkspaceResourceIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/log_analytics_data_export_rule azurerm_log_analytics_data_export_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/log_analytics_data_export_rule azurerm_log_analytics_data_export_rule} Resource.
 func NewLogAnalyticsDataExportRule(scope constructs.Construct, id *string, config *LogAnalyticsDataExportRuleConfig) LogAnalyticsDataExportRule {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewLogAnalyticsDataExportRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/log_analytics_data_export_rule azurerm_log_analytics_data_export_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/log_analytics_data_export_rule azurerm_log_analytics_data_export_rule} Resource.
 func NewLogAnalyticsDataExportRule_Override(l LogAnalyticsDataExportRule, scope constructs.Construct, id *string, config *LogAnalyticsDataExportRuleConfig) {
 	_init_.Initialize()
 

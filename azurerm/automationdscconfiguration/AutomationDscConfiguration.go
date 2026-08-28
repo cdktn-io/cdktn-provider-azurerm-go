@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_dsc_configuration azurerm_automation_dsc_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_dsc_configuration azurerm_automation_dsc_configuration}.
 type AutomationDscConfiguration interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_AutomationDscConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_dsc_configuration azurerm_automation_dsc_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_dsc_configuration azurerm_automation_dsc_configuration} Resource.
 func NewAutomationDscConfiguration(scope constructs.Construct, id *string, config *AutomationDscConfigurationConfig) AutomationDscConfiguration {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewAutomationDscConfiguration(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_dsc_configuration azurerm_automation_dsc_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_dsc_configuration azurerm_automation_dsc_configuration} Resource.
 func NewAutomationDscConfiguration_Override(a AutomationDscConfiguration, scope constructs.Construct, id *string, config *AutomationDscConfigurationConfig) {
 	_init_.Initialize()
 

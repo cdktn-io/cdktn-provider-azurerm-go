@@ -71,6 +71,10 @@ func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference) validateSetMsiAuthF
 	return nil
 }
 
+func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference) validateSetRetinaFlowLogsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_KubernetesClusterOmsAgentOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

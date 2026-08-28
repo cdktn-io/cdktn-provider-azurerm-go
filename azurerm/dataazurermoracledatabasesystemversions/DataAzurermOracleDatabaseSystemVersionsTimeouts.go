@@ -5,7 +5,7 @@ package dataazurermoracledatabasesystemversions
 
 
 type DataAzurermOracleDatabaseSystemVersionsTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/oracle_database_system_versions#read DataAzurermOracleDatabaseSystemVersions#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/oracle_database_system_versions#read DataAzurermOracleDatabaseSystemVersions#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

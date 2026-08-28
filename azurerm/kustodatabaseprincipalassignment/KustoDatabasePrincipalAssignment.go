@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment}.
 type KustoDatabasePrincipalAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -598,7 +598,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
 func NewKustoDatabasePrincipalAssignment(scope constructs.Construct, id *string, config *KustoDatabasePrincipalAssignmentConfig) KustoDatabasePrincipalAssignment {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewKustoDatabasePrincipalAssignment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
 func NewKustoDatabasePrincipalAssignment_Override(k KustoDatabasePrincipalAssignment, scope constructs.Construct, id *string, config *KustoDatabasePrincipalAssignmentConfig) {
 	_init_.Initialize()
 

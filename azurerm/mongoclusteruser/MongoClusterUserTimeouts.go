@@ -5,11 +5,11 @@ package mongoclusteruser
 
 
 type MongoClusterUserTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mongo_cluster_user#create MongoClusterUser#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mongo_cluster_user#create MongoClusterUser#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mongo_cluster_user#delete MongoClusterUser#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mongo_cluster_user#delete MongoClusterUser#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mongo_cluster_user#read MongoClusterUser#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mongo_cluster_user#read MongoClusterUser#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

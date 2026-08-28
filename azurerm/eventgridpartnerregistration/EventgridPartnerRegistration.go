@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_partner_registration azurerm_eventgrid_partner_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_partner_registration azurerm_eventgrid_partner_registration}.
 type EventgridPartnerRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_EventgridPartnerRegistration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_partner_registration azurerm_eventgrid_partner_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_partner_registration azurerm_eventgrid_partner_registration} Resource.
 func NewEventgridPartnerRegistration(scope constructs.Construct, id *string, config *EventgridPartnerRegistrationConfig) EventgridPartnerRegistration {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewEventgridPartnerRegistration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_partner_registration azurerm_eventgrid_partner_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_partner_registration azurerm_eventgrid_partner_registration} Resource.
 func NewEventgridPartnerRegistration_Override(e EventgridPartnerRegistration, scope constructs.Construct, id *string, config *EventgridPartnerRegistrationConfig) {
 	_init_.Initialize()
 

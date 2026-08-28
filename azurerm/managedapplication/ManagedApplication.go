@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_application azurerm_managed_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_application azurerm_managed_application}.
 type ManagedApplication interface {
 	cdktn.TerraformResource
 	ApplicationDefinitionId() *string
@@ -44,6 +44,8 @@ type ManagedApplication interface {
 	FriendlyUniqueId() *string
 	Id() *string
 	SetId(val *string)
+	Identity() ManagedApplicationIdentityOutputReference
+	IdentityInput() *ManagedApplicationIdentity
 	IdInput() *string
 	Kind() *string
 	SetKind(val *string)
@@ -172,6 +174,7 @@ type ManagedApplication interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutIdentity(value *ManagedApplicationIdentity)
 	PutPlan(value *ManagedApplicationPlan)
 	PutTimeouts(value *ManagedApplicationTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -189,6 +192,7 @@ type ManagedApplication interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetApplicationDefinitionId()
 	ResetId()
+	ResetIdentity()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -328,6 +332,26 @@ func (j *jsiiProxy_ManagedApplication) Id() *string {
 	_jsii_.Get(
 		j,
 		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ManagedApplication) Identity() ManagedApplicationIdentityOutputReference {
+	var returns ManagedApplicationIdentityOutputReference
+	_jsii_.Get(
+		j,
+		"identity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ManagedApplication) IdentityInput() *ManagedApplicationIdentity {
+	var returns *ManagedApplicationIdentity
+	_jsii_.Get(
+		j,
+		"identityInput",
 		&returns,
 	)
 	return returns
@@ -614,7 +638,7 @@ func (j *jsiiProxy_ManagedApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_application azurerm_managed_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_application azurerm_managed_application} Resource.
 func NewManagedApplication(scope constructs.Construct, id *string, config *ManagedApplicationConfig) ManagedApplication {
 	_init_.Initialize()
 
@@ -632,7 +656,7 @@ func NewManagedApplication(scope constructs.Construct, id *string, config *Manag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_application azurerm_managed_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_application azurerm_managed_application} Resource.
 func NewManagedApplication_Override(m ManagedApplication, scope constructs.Construct, id *string, config *ManagedApplicationConfig) {
 	_init_.Initialize()
 
@@ -1179,6 +1203,17 @@ func (m *jsiiProxy_ManagedApplication) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (m *jsiiProxy_ManagedApplication) PutIdentity(value *ManagedApplicationIdentity) {
+	if err := m.validatePutIdentityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putIdentity",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_ManagedApplication) PutPlan(value *ManagedApplicationPlan) {
 	if err := m.validatePutPlanParameters(value); err != nil {
 		panic(err)
@@ -1224,6 +1259,14 @@ func (m *jsiiProxy_ManagedApplication) ResetId() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_ManagedApplication) ResetIdentity() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetIdentity",
 		nil, // no parameters
 	)
 }

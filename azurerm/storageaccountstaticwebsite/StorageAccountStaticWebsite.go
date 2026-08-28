@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website}.
 type StorageAccountStaticWebsite interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_StorageAccountStaticWebsite) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website} Resource.
 func NewStorageAccountStaticWebsite(scope constructs.Construct, id *string, config *StorageAccountStaticWebsiteConfig) StorageAccountStaticWebsite {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewStorageAccountStaticWebsite(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website} Resource.
 func NewStorageAccountStaticWebsite_Override(s StorageAccountStaticWebsite, scope constructs.Construct, id *string, config *StorageAccountStaticWebsiteConfig) {
 	_init_.Initialize()
 

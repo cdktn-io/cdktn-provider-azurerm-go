@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/ephemeral-resources/key_vault_secret azurerm_key_vault_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/ephemeral-resources/key_vault_secret azurerm_key_vault_secret}.
 type EphemeralAzurermKeyVaultSecret interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_EphemeralAzurermKeyVaultSecret) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/ephemeral-resources/key_vault_secret azurerm_key_vault_secret} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/ephemeral-resources/key_vault_secret azurerm_key_vault_secret} Ephemeral Resource.
 func NewEphemeralAzurermKeyVaultSecret(scope constructs.Construct, id *string, config *EphemeralAzurermKeyVaultSecretConfig) EphemeralAzurermKeyVaultSecret {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewEphemeralAzurermKeyVaultSecret(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/ephemeral-resources/key_vault_secret azurerm_key_vault_secret} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/ephemeral-resources/key_vault_secret azurerm_key_vault_secret} Ephemeral Resource.
 func NewEphemeralAzurermKeyVaultSecret_Override(e EphemeralAzurermKeyVaultSecret, scope constructs.Construct, id *string, config *EphemeralAzurermKeyVaultSecretConfig) {
 	_init_.Initialize()
 

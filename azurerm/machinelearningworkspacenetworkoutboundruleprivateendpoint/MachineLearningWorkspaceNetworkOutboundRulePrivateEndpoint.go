@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint}.
 type MachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint) W
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint} Resource.
 func NewMachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint(scope constructs.Construct, id *string, config *MachineLearningWorkspaceNetworkOutboundRulePrivateEndpointConfig) MachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewMachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_workspace_network_outbound_rule_private_endpoint azurerm_machine_learning_workspace_network_outbound_rule_private_endpoint} Resource.
 func NewMachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint_Override(m MachineLearningWorkspaceNetworkOutboundRulePrivateEndpoint, scope constructs.Construct, id *string, config *MachineLearningWorkspaceNetworkOutboundRulePrivateEndpointConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_sync azurerm_storage_sync}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_sync azurerm_storage_sync}.
 type DataAzurermStorageSync interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermStorageSync) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_sync azurerm_storage_sync} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_sync azurerm_storage_sync} Data Source.
 func NewDataAzurermStorageSync(scope constructs.Construct, id *string, config *DataAzurermStorageSyncConfig) DataAzurermStorageSync {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewDataAzurermStorageSync(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_sync azurerm_storage_sync} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_sync azurerm_storage_sync} Data Source.
 func NewDataAzurermStorageSync_Override(d DataAzurermStorageSync, scope constructs.Construct, id *string, config *DataAzurermStorageSyncConfig) {
 	_init_.Initialize()
 

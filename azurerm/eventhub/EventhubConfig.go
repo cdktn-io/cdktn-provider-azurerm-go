@@ -22,32 +22,32 @@ type EventhubConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#name Eventhub#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#name Eventhub#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#namespace_id Eventhub#namespace_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#namespace_id Eventhub#namespace_id}.
 	NamespaceId *string `field:"required" json:"namespaceId" yaml:"namespaceId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#partition_count Eventhub#partition_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#partition_count Eventhub#partition_count}.
 	PartitionCount *float64 `field:"required" json:"partitionCount" yaml:"partitionCount"`
 	// capture_description block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#capture_description Eventhub#capture_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#capture_description Eventhub#capture_description}
 	CaptureDescription *EventhubCaptureDescription `field:"optional" json:"captureDescription" yaml:"captureDescription"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#id Eventhub#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#id Eventhub#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#message_retention Eventhub#message_retention}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#message_retention Eventhub#message_retention}.
 	MessageRetention *float64 `field:"optional" json:"messageRetention" yaml:"messageRetention"`
 	// retention_description block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#retention_description Eventhub#retention_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#retention_description Eventhub#retention_description}
 	RetentionDescription *EventhubRetentionDescription `field:"optional" json:"retentionDescription" yaml:"retentionDescription"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#status Eventhub#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#status Eventhub#status}.
 	Status *string `field:"optional" json:"status" yaml:"status"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#timeouts Eventhub#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#timeouts Eventhub#timeouts}
 	Timeouts *EventhubTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

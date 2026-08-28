@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_api_key azurerm_nginx_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/nginx_api_key azurerm_nginx_api_key}.
 type NginxApiKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_NginxApiKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_api_key azurerm_nginx_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/nginx_api_key azurerm_nginx_api_key} Resource.
 func NewNginxApiKey(scope constructs.Construct, id *string, config *NginxApiKeyConfig) NginxApiKey {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewNginxApiKey(scope constructs.Construct, id *string, config *NginxApiKeyC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_api_key azurerm_nginx_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/nginx_api_key azurerm_nginx_api_key} Resource.
 func NewNginxApiKey_Override(n NginxApiKey, scope constructs.Construct, id *string, config *NginxApiKeyConfig) {
 	_init_.Initialize()
 

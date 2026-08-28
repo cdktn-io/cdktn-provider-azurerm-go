@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition}.
 type StorageMoverJobDefinition interface {
 	cdktn.TerraformResource
 	AgentName() *string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_StorageMoverJobDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
 func NewStorageMoverJobDefinition(scope constructs.Construct, id *string, config *StorageMoverJobDefinitionConfig) StorageMoverJobDefinition {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewStorageMoverJobDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
 func NewStorageMoverJobDefinition_Override(s StorageMoverJobDefinition, scope constructs.Construct, id *string, config *StorageMoverJobDefinitionConfig) {
 	_init_.Initialize()
 

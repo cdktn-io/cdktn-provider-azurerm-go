@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_api_portal azurerm_spring_cloud_api_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_api_portal azurerm_spring_cloud_api_portal}.
 type SpringCloudApiPortal interface {
 	cdktn.TerraformResource
 	ApiTryOutEnabled() interface{}
@@ -593,7 +593,7 @@ func (j *jsiiProxy_SpringCloudApiPortal) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_api_portal azurerm_spring_cloud_api_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_api_portal azurerm_spring_cloud_api_portal} Resource.
 func NewSpringCloudApiPortal(scope constructs.Construct, id *string, config *SpringCloudApiPortalConfig) SpringCloudApiPortal {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewSpringCloudApiPortal(scope constructs.Construct, id *string, config *Spr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_api_portal azurerm_spring_cloud_api_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_api_portal azurerm_spring_cloud_api_portal} Resource.
 func NewSpringCloudApiPortal_Override(s SpringCloudApiPortal, scope constructs.Construct, id *string, config *SpringCloudApiPortalConfig) {
 	_init_.Initialize()
 

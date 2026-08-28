@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi}.
 type DataFactoryDatasetCosmosdbSqlapi interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -629,7 +629,7 @@ func (j *jsiiProxy_DataFactoryDatasetCosmosdbSqlapi) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi} Resource.
 func NewDataFactoryDatasetCosmosdbSqlapi(scope constructs.Construct, id *string, config *DataFactoryDatasetCosmosdbSqlapiConfig) DataFactoryDatasetCosmosdbSqlapi {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewDataFactoryDatasetCosmosdbSqlapi(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi} Resource.
 func NewDataFactoryDatasetCosmosdbSqlapi_Override(d DataFactoryDatasetCosmosdbSqlapi, scope constructs.Construct, id *string, config *DataFactoryDatasetCosmosdbSqlapiConfig) {
 	_init_.Initialize()
 

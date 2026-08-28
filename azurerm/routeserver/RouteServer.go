@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server azurerm_route_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_server azurerm_route_server}.
 type RouteServer interface {
 	cdktn.TerraformResource
 	BranchToBranchTrafficEnabled() interface{}
@@ -635,7 +635,7 @@ func (j *jsiiProxy_RouteServer) VirtualRouterIps() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server azurerm_route_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_server azurerm_route_server} Resource.
 func NewRouteServer(scope constructs.Construct, id *string, config *RouteServerConfig) RouteServer {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewRouteServer(scope constructs.Construct, id *string, config *RouteServerC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server azurerm_route_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_server azurerm_route_server} Resource.
 func NewRouteServer_Override(r RouteServer, scope constructs.Construct, id *string, config *RouteServerConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_workflow azurerm_logic_app_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_workflow azurerm_logic_app_workflow}.
 type LogicAppWorkflow interface {
 	cdktn.TerraformResource
 	AccessControl() LogicAppWorkflowAccessControlOutputReference
@@ -756,7 +756,7 @@ func (j *jsiiProxy_LogicAppWorkflow) WorkflowVersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_workflow azurerm_logic_app_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_workflow azurerm_logic_app_workflow} Resource.
 func NewLogicAppWorkflow(scope constructs.Construct, id *string, config *LogicAppWorkflowConfig) LogicAppWorkflow {
 	_init_.Initialize()
 
@@ -774,7 +774,7 @@ func NewLogicAppWorkflow(scope constructs.Construct, id *string, config *LogicAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_workflow azurerm_logic_app_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_workflow azurerm_logic_app_workflow} Resource.
 func NewLogicAppWorkflow_Override(l LogicAppWorkflow, scope constructs.Construct, id *string, config *LogicAppWorkflowConfig) {
 	_init_.Initialize()
 

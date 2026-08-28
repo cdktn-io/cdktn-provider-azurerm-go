@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_customer_managed_key azurerm_data_factory_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_customer_managed_key azurerm_data_factory_customer_managed_key}.
 type DataFactoryCustomerManagedKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataFactoryCustomerManagedKey) UserAssignedIdentityIdInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_customer_managed_key azurerm_data_factory_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_customer_managed_key azurerm_data_factory_customer_managed_key} Resource.
 func NewDataFactoryCustomerManagedKey(scope constructs.Construct, id *string, config *DataFactoryCustomerManagedKeyConfig) DataFactoryCustomerManagedKey {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataFactoryCustomerManagedKey(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_customer_managed_key azurerm_data_factory_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_customer_managed_key azurerm_data_factory_customer_managed_key} Resource.
 func NewDataFactoryCustomerManagedKey_Override(d DataFactoryCustomerManagedKey, scope constructs.Construct, id *string, config *DataFactoryCustomerManagedKeyConfig) {
 	_init_.Initialize()
 

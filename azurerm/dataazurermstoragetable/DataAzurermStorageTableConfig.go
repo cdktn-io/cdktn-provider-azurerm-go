@@ -22,13 +22,13 @@ type DataAzurermStorageTableConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_table#name DataAzurermStorageTable#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_table#name DataAzurermStorageTable#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_table#storage_account_id DataAzurermStorageTable#storage_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_table#storage_account_id DataAzurermStorageTable#storage_account_id}.
 	StorageAccountId *string `field:"required" json:"storageAccountId" yaml:"storageAccountId"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_table#timeouts DataAzurermStorageTable#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_table#timeouts DataAzurermStorageTable#timeouts}
 	Timeouts *DataAzurermStorageTableTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

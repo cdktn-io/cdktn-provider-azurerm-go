@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster}.
 type ArcKubernetesCluster interface {
 	cdktn.TerraformResource
 	AgentPublicKeyCertificate() *string
@@ -608,7 +608,7 @@ func (j *jsiiProxy_ArcKubernetesCluster) TotalNodeCount() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster} Resource.
 func NewArcKubernetesCluster(scope constructs.Construct, id *string, config *ArcKubernetesClusterConfig) ArcKubernetesCluster {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewArcKubernetesCluster(scope constructs.Construct, id *string, config *Arc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster} Resource.
 func NewArcKubernetesCluster_Override(a ArcKubernetesCluster, scope constructs.Construct, id *string, config *ArcKubernetesClusterConfig) {
 	_init_.Initialize()
 

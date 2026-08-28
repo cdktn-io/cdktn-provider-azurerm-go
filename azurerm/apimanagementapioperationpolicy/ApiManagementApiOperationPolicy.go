@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy}.
 type ApiManagementApiOperationPolicy interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ApiManagementApiOperationPolicy) XmlLinkInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy} Resource.
 func NewApiManagementApiOperationPolicy(scope constructs.Construct, id *string, config *ApiManagementApiOperationPolicyConfig) ApiManagementApiOperationPolicy {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewApiManagementApiOperationPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy} Resource.
 func NewApiManagementApiOperationPolicy_Override(a ApiManagementApiOperationPolicy, scope constructs.Construct, id *string, config *ApiManagementApiOperationPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/tenant_template_deployment azurerm_tenant_template_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/tenant_template_deployment azurerm_tenant_template_deployment}.
 type TenantTemplateDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -569,7 +569,7 @@ func (j *jsiiProxy_TenantTemplateDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/tenant_template_deployment azurerm_tenant_template_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/tenant_template_deployment azurerm_tenant_template_deployment} Resource.
 func NewTenantTemplateDeployment(scope constructs.Construct, id *string, config *TenantTemplateDeploymentConfig) TenantTemplateDeployment {
 	_init_.Initialize()
 
@@ -587,7 +587,7 @@ func NewTenantTemplateDeployment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/tenant_template_deployment azurerm_tenant_template_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/tenant_template_deployment azurerm_tenant_template_deployment} Resource.
 func NewTenantTemplateDeployment_Override(t TenantTemplateDeployment, scope constructs.Construct, id *string, config *TenantTemplateDeploymentConfig) {
 	_init_.Initialize()
 

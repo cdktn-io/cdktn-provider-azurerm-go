@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard}.
 type DataAzurermPortalDashboard interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -428,7 +428,7 @@ func (j *jsiiProxy_DataAzurermPortalDashboard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard} Data Source.
 func NewDataAzurermPortalDashboard(scope constructs.Construct, id *string, config *DataAzurermPortalDashboardConfig) DataAzurermPortalDashboard {
 	_init_.Initialize()
 
@@ -446,7 +446,7 @@ func NewDataAzurermPortalDashboard(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard} Data Source.
 func NewDataAzurermPortalDashboard_Override(d DataAzurermPortalDashboard, scope constructs.Construct, id *string, config *DataAzurermPortalDashboardConfig) {
 	_init_.Initialize()
 

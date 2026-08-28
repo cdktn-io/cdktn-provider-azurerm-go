@@ -54,6 +54,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "roleDefinitionId", GoGetter: "RoleDefinitionId"},
 			_jsii_.MemberProperty{JsiiProperty: "roleDefinitionIdInput", GoGetter: "RoleDefinitionIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "roleDefinitionResourceId", GoGetter: "RoleDefinitionResourceId"},
 			_jsii_.MemberProperty{JsiiProperty: "scope", GoGetter: "Scope"},
 			_jsii_.MemberProperty{JsiiProperty: "scopeInput", GoGetter: "ScopeInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping}.
 type SiteRecoveryNetworkMapping interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -553,7 +553,7 @@ func (j *jsiiProxy_SiteRecoveryNetworkMapping) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping} Resource.
 func NewSiteRecoveryNetworkMapping(scope constructs.Construct, id *string, config *SiteRecoveryNetworkMappingConfig) SiteRecoveryNetworkMapping {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewSiteRecoveryNetworkMapping(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping} Resource.
 func NewSiteRecoveryNetworkMapping_Override(s SiteRecoveryNetworkMapping, scope constructs.Construct, id *string, config *SiteRecoveryNetworkMappingConfig) {
 	_init_.Initialize()
 
