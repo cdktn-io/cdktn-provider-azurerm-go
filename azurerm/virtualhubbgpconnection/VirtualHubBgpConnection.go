@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_hub_bgp_connection azurerm_virtual_hub_bgp_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_hub_bgp_connection azurerm_virtual_hub_bgp_connection}.
 type VirtualHubBgpConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_VirtualHubBgpConnection) VirtualNetworkConnectionIdInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_hub_bgp_connection azurerm_virtual_hub_bgp_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_hub_bgp_connection azurerm_virtual_hub_bgp_connection} Resource.
 func NewVirtualHubBgpConnection(scope constructs.Construct, id *string, config *VirtualHubBgpConnectionConfig) VirtualHubBgpConnection {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewVirtualHubBgpConnection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_hub_bgp_connection azurerm_virtual_hub_bgp_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_hub_bgp_connection azurerm_virtual_hub_bgp_connection} Resource.
 func NewVirtualHubBgpConnection_Override(v VirtualHubBgpConnection, scope constructs.Construct, id *string, config *VirtualHubBgpConnectionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/private_dns_mx_record azurerm_private_dns_mx_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/private_dns_mx_record azurerm_private_dns_mx_record}.
 type DataAzurermPrivateDnsMxRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsMxRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/private_dns_mx_record azurerm_private_dns_mx_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/private_dns_mx_record azurerm_private_dns_mx_record} Data Source.
 func NewDataAzurermPrivateDnsMxRecord(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsMxRecordConfig) DataAzurermPrivateDnsMxRecord {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewDataAzurermPrivateDnsMxRecord(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/private_dns_mx_record azurerm_private_dns_mx_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/private_dns_mx_record azurerm_private_dns_mx_record} Data Source.
 func NewDataAzurermPrivateDnsMxRecord_Override(d DataAzurermPrivateDnsMxRecord, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsMxRecordConfig) {
 	_init_.Initialize()
 

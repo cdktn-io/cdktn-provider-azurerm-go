@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_account azurerm_automation_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_account azurerm_automation_account}.
 type DataAzurermAutomationAccount interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -27,6 +27,10 @@ type DataAzurermAutomationAccount interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DscPrimaryAccessKey() *string
+	DscSecondaryAccessKey() *string
+	DscServerEndpoint() *string
+	Encryption() DataAzurermAutomationAccountEncryptionList
 	Endpoint() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -45,6 +49,8 @@ type DataAzurermAutomationAccount interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LocalAuthenticationEnabled() cdktn.IResolvable
+	Location() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -56,12 +62,15 @@ type DataAzurermAutomationAccount interface {
 	Provider() cdktn.TerraformProvider
 	// Experimental.
 	SetProvider(val cdktn.TerraformProvider)
+	PublicNetworkAccessEnabled() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	SecondaryKey() *string
+	SkuName() *string
+	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -182,6 +191,46 @@ func (j *jsiiProxy_DataAzurermAutomationAccount) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermAutomationAccount) DscPrimaryAccessKey() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dscPrimaryAccessKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAutomationAccount) DscSecondaryAccessKey() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dscSecondaryAccessKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAutomationAccount) DscServerEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dscServerEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAutomationAccount) Encryption() DataAzurermAutomationAccountEncryptionList {
+	var returns DataAzurermAutomationAccountEncryptionList
+	_jsii_.Get(
+		j,
+		"encryption",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermAutomationAccount) Endpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -272,6 +321,26 @@ func (j *jsiiProxy_DataAzurermAutomationAccount) Lifecycle() *cdktn.TerraformRes
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermAutomationAccount) LocalAuthenticationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"localAuthenticationEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAutomationAccount) Location() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"location",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermAutomationAccount) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -332,6 +401,16 @@ func (j *jsiiProxy_DataAzurermAutomationAccount) Provider() cdktn.TerraformProvi
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermAutomationAccount) PublicNetworkAccessEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"publicNetworkAccessEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermAutomationAccount) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -367,6 +446,26 @@ func (j *jsiiProxy_DataAzurermAutomationAccount) SecondaryKey() *string {
 	_jsii_.Get(
 		j,
 		"secondaryKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAutomationAccount) SkuName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"skuName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAutomationAccount) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"tags",
 		&returns,
 	)
 	return returns
@@ -423,7 +522,7 @@ func (j *jsiiProxy_DataAzurermAutomationAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.
 func NewDataAzurermAutomationAccount(scope constructs.Construct, id *string, config *DataAzurermAutomationAccountConfig) DataAzurermAutomationAccount {
 	_init_.Initialize()
 
@@ -441,7 +540,7 @@ func NewDataAzurermAutomationAccount(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.
 func NewDataAzurermAutomationAccount_Override(d DataAzurermAutomationAccount, scope constructs.Construct, id *string, config *DataAzurermAutomationAccountConfig) {
 	_init_.Initialize()
 

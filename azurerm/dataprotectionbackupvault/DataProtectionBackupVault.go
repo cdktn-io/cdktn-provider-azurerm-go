@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault}.
 type DataProtectionBackupVault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -651,7 +651,7 @@ func (j *jsiiProxy_DataProtectionBackupVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault} Resource.
 func NewDataProtectionBackupVault(scope constructs.Construct, id *string, config *DataProtectionBackupVaultConfig) DataProtectionBackupVault {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewDataProtectionBackupVault(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault} Resource.
 func NewDataProtectionBackupVault_Override(d DataProtectionBackupVault, scope constructs.Construct, id *string, config *DataProtectionBackupVaultConfig) {
 	_init_.Initialize()
 

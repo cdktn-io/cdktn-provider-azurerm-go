@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection}.
 type NetworkManagerSubscriptionConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_NetworkManagerSubscriptionConnection) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection} Resource.
 func NewNetworkManagerSubscriptionConnection(scope constructs.Construct, id *string, config *NetworkManagerSubscriptionConnectionConfig) NetworkManagerSubscriptionConnection {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewNetworkManagerSubscriptionConnection(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection} Resource.
 func NewNetworkManagerSubscriptionConnection_Override(n NetworkManagerSubscriptionConnection, scope constructs.Construct, id *string, config *NetworkManagerSubscriptionConnectionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/ip_group azurerm_ip_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/ip_group azurerm_ip_group}.
 type DataAzurermIpGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -28,6 +28,8 @@ type DataAzurermIpGroup interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	FirewallIds() *[]*string
+	FirewallPolicyIds() *[]*string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -184,6 +186,26 @@ func (j *jsiiProxy_DataAzurermIpGroup) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermIpGroup) FirewallIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"firewallIds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermIpGroup) FirewallPolicyIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"firewallPolicyIds",
 		&returns,
 	)
 	return returns
@@ -390,7 +412,7 @@ func (j *jsiiProxy_DataAzurermIpGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/ip_group azurerm_ip_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/ip_group azurerm_ip_group} Data Source.
 func NewDataAzurermIpGroup(scope constructs.Construct, id *string, config *DataAzurermIpGroupConfig) DataAzurermIpGroup {
 	_init_.Initialize()
 
@@ -408,7 +430,7 @@ func NewDataAzurermIpGroup(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/ip_group azurerm_ip_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/ip_group azurerm_ip_group} Data Source.
 func NewDataAzurermIpGroup_Override(d DataAzurermIpGroup, scope constructs.Construct, id *string, config *DataAzurermIpGroupConfig) {
 	_init_.Initialize()
 

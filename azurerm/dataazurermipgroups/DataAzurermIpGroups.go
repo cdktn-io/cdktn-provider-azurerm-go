@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/ip_groups azurerm_ip_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/ip_groups azurerm_ip_groups}.
 type DataAzurermIpGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAzurermIpGroups) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
 func NewDataAzurermIpGroups(scope constructs.Construct, id *string, config *DataAzurermIpGroupsConfig) DataAzurermIpGroups {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDataAzurermIpGroups(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
 func NewDataAzurermIpGroups_Override(d DataAzurermIpGroups, scope constructs.Construct, id *string, config *DataAzurermIpGroupsConfig) {
 	_init_.Initialize()
 

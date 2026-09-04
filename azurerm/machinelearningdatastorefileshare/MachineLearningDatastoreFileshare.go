@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare}.
 type MachineLearningDatastoreFileshare interface {
 	cdktn.TerraformResource
 	AccountKey() *string
@@ -592,7 +592,7 @@ func (j *jsiiProxy_MachineLearningDatastoreFileshare) WorkspaceIdInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare} Resource.
 func NewMachineLearningDatastoreFileshare(scope constructs.Construct, id *string, config *MachineLearningDatastoreFileshareConfig) MachineLearningDatastoreFileshare {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewMachineLearningDatastoreFileshare(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare} Resource.
 func NewMachineLearningDatastoreFileshare_Override(m MachineLearningDatastoreFileshare, scope constructs.Construct, id *string, config *MachineLearningDatastoreFileshareConfig) {
 	_init_.Initialize()
 

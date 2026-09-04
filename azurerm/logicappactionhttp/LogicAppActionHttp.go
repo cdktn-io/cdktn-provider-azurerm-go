@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http}.
 type LogicAppActionHttp interface {
 	cdktn.TerraformResource
 	Body() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_LogicAppActionHttp) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
 func NewLogicAppActionHttp(scope constructs.Construct, id *string, config *LogicAppActionHttpConfig) LogicAppActionHttp {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewLogicAppActionHttp(scope constructs.Construct, id *string, config *Logic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
 func NewLogicAppActionHttp_Override(l LogicAppActionHttp, scope constructs.Construct, id *string, config *LogicAppActionHttpConfig) {
 	_init_.Initialize()
 

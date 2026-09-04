@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account azurerm_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account azurerm_storage_account}.
 type StorageAccount interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -24,6 +24,8 @@ type StorageAccount interface {
 	AccountReplicationType() *string
 	SetAccountReplicationType(val *string)
 	AccountReplicationTypeInput() *string
+	AccountReplicationTypeMigratingTo() *string
+	AccountReplicationTypeMigrationInProgress() cdktn.IResolvable
 	AccountTier() *string
 	SetAccountTier(val *string)
 	AccountTierInput() *string
@@ -461,6 +463,26 @@ func (j *jsiiProxy_StorageAccount) AccountReplicationTypeInput() *string {
 	_jsii_.Get(
 		j,
 		"accountReplicationTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageAccount) AccountReplicationTypeMigratingTo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"accountReplicationTypeMigratingTo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageAccount) AccountReplicationTypeMigrationInProgress() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"accountReplicationTypeMigrationInProgress",
 		&returns,
 	)
 	return returns
@@ -2067,7 +2089,7 @@ func (j *jsiiProxy_StorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAccountConfig) StorageAccount {
 	_init_.Initialize()
 
@@ -2085,7 +2107,7 @@ func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount_Override(s StorageAccount, scope constructs.Construct, id *string, config *StorageAccountConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package dataazurermplaywrightworkspace
 
 
 type DataAzurermPlaywrightWorkspaceTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/playwright_workspace#read DataAzurermPlaywrightWorkspace#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/playwright_workspace#read DataAzurermPlaywrightWorkspace#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_outbound_firewall_rule azurerm_mssql_outbound_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_outbound_firewall_rule azurerm_mssql_outbound_firewall_rule}.
 type MssqlOutboundFirewallRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_MssqlOutboundFirewallRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_outbound_firewall_rule azurerm_mssql_outbound_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_outbound_firewall_rule azurerm_mssql_outbound_firewall_rule} Resource.
 func NewMssqlOutboundFirewallRule(scope constructs.Construct, id *string, config *MssqlOutboundFirewallRuleConfig) MssqlOutboundFirewallRule {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewMssqlOutboundFirewallRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_outbound_firewall_rule azurerm_mssql_outbound_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_outbound_firewall_rule azurerm_mssql_outbound_firewall_rule} Resource.
 func NewMssqlOutboundFirewallRule_Override(m MssqlOutboundFirewallRule, scope constructs.Construct, id *string, config *MssqlOutboundFirewallRuleConfig) {
 	_init_.Initialize()
 

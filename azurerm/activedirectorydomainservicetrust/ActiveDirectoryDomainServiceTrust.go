@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/active_directory_domain_service_trust azurerm_active_directory_domain_service_trust}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/active_directory_domain_service_trust azurerm_active_directory_domain_service_trust}.
 type ActiveDirectoryDomainServiceTrust interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceTrust) TrustedDomainFqdnInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/active_directory_domain_service_trust azurerm_active_directory_domain_service_trust} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/active_directory_domain_service_trust azurerm_active_directory_domain_service_trust} Resource.
 func NewActiveDirectoryDomainServiceTrust(scope constructs.Construct, id *string, config *ActiveDirectoryDomainServiceTrustConfig) ActiveDirectoryDomainServiceTrust {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewActiveDirectoryDomainServiceTrust(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/active_directory_domain_service_trust azurerm_active_directory_domain_service_trust} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/active_directory_domain_service_trust azurerm_active_directory_domain_service_trust} Resource.
 func NewActiveDirectoryDomainServiceTrust_Override(a ActiveDirectoryDomainServiceTrust, scope constructs.Construct, id *string, config *ActiveDirectoryDomainServiceTrustConfig) {
 	_init_.Initialize()
 

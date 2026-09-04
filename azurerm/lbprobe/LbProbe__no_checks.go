@@ -131,6 +131,10 @@ func (j *jsiiProxy_LbProbe) validateSetNameParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_LbProbe) validateSetNoHealthyBackendsBehaviorParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LbProbe) validateSetNumberOfProbesParameters(val *float64) error {
 	return nil
 }

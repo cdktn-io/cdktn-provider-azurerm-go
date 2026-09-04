@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/portal_dashboard azurerm_portal_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/portal_dashboard azurerm_portal_dashboard}.
 type PortalDashboard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_PortalDashboard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
 func NewPortalDashboard(scope constructs.Construct, id *string, config *PortalDashboardConfig) PortalDashboard {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewPortalDashboard(scope constructs.Construct, id *string, config *PortalDa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
 func NewPortalDashboard_Override(p PortalDashboard, scope constructs.Construct, id *string, config *PortalDashboardConfig) {
 	_init_.Initialize()
 

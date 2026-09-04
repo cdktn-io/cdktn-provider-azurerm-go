@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_sync azurerm_storage_sync}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_sync azurerm_storage_sync}.
 type StorageSync interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_StorageSync) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_sync azurerm_storage_sync} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_sync azurerm_storage_sync} Resource.
 func NewStorageSync(scope constructs.Construct, id *string, config *StorageSyncConfig) StorageSync {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewStorageSync(scope constructs.Construct, id *string, config *StorageSyncC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_sync azurerm_storage_sync} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_sync azurerm_storage_sync} Resource.
 func NewStorageSync_Override(s StorageSync, scope constructs.Construct, id *string, config *StorageSyncConfig) {
 	_init_.Initialize()
 

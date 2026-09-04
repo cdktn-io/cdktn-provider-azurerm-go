@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/playwright_workspace azurerm_playwright_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/playwright_workspace azurerm_playwright_workspace}.
 type PlaywrightWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_PlaywrightWorkspace) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/playwright_workspace azurerm_playwright_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/playwright_workspace azurerm_playwright_workspace} Resource.
 func NewPlaywrightWorkspace(scope constructs.Construct, id *string, config *PlaywrightWorkspaceConfig) PlaywrightWorkspace {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewPlaywrightWorkspace(scope constructs.Construct, id *string, config *Play
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/playwright_workspace azurerm_playwright_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/playwright_workspace azurerm_playwright_workspace} Resource.
 func NewPlaywrightWorkspace_Override(p PlaywrightWorkspace, scope constructs.Construct, id *string, config *PlaywrightWorkspaceConfig) {
 	_init_.Initialize()
 

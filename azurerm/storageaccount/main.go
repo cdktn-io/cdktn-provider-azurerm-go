@@ -20,6 +20,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "accountKindInput", GoGetter: "AccountKindInput"},
 			_jsii_.MemberProperty{JsiiProperty: "accountReplicationType", GoGetter: "AccountReplicationType"},
 			_jsii_.MemberProperty{JsiiProperty: "accountReplicationTypeInput", GoGetter: "AccountReplicationTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "accountReplicationTypeMigratingTo", GoGetter: "AccountReplicationTypeMigratingTo"},
+			_jsii_.MemberProperty{JsiiProperty: "accountReplicationTypeMigrationInProgress", GoGetter: "AccountReplicationTypeMigrationInProgress"},
 			_jsii_.MemberProperty{JsiiProperty: "accountTier", GoGetter: "AccountTier"},
 			_jsii_.MemberProperty{JsiiProperty: "accountTierInput", GoGetter: "AccountTierInput"},
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},

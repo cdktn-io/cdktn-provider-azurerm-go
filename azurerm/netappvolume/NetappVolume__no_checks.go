@@ -139,6 +139,10 @@ func (j *jsiiProxy_NetappVolume) validateSetAzureVmwareDataStoreEnabledParameter
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolume) validateSetBreakthroughModeEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolume) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

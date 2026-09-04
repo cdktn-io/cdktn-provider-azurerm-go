@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/netapp_volume azurerm_netapp_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/netapp_volume azurerm_netapp_volume}.
 type NetappVolume interface {
 	cdktn.TerraformResource
 	AcceptGrowCapacityPoolForShortTermCloneSplit() *string
@@ -24,6 +24,9 @@ type NetappVolume interface {
 	AzureVmwareDataStoreEnabled() interface{}
 	SetAzureVmwareDataStoreEnabled(val interface{})
 	AzureVmwareDataStoreEnabledInput() interface{}
+	BreakthroughModeEnabled() interface{}
+	SetBreakthroughModeEnabled(val interface{})
+	BreakthroughModeEnabledInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -261,6 +264,7 @@ type NetappVolume interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAcceptGrowCapacityPoolForShortTermCloneSplit()
 	ResetAzureVmwareDataStoreEnabled()
+	ResetBreakthroughModeEnabled()
 	ResetCoolAccess()
 	ResetCreateFromSnapshotResourceId()
 	ResetDataProtectionAdvancedRansomware()
@@ -370,6 +374,26 @@ func (j *jsiiProxy_NetappVolume) AzureVmwareDataStoreEnabledInput() interface{} 
 	_jsii_.Get(
 		j,
 		"azureVmwareDataStoreEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolume) BreakthroughModeEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"breakthroughModeEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolume) BreakthroughModeEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"breakthroughModeEnabledInput",
 		&returns,
 	)
 	return returns
@@ -1186,7 +1210,7 @@ func (j *jsiiProxy_NetappVolume) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
 func NewNetappVolume(scope constructs.Construct, id *string, config *NetappVolumeConfig) NetappVolume {
 	_init_.Initialize()
 
@@ -1204,7 +1228,7 @@ func NewNetappVolume(scope constructs.Construct, id *string, config *NetappVolum
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
 func NewNetappVolume_Override(n NetappVolume, scope constructs.Construct, id *string, config *NetappVolumeConfig) {
 	_init_.Initialize()
 
@@ -1244,6 +1268,17 @@ func (j *jsiiProxy_NetappVolume)SetAzureVmwareDataStoreEnabled(val interface{}) 
 	_jsii_.Set(
 		j,
 		"azureVmwareDataStoreEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolume)SetBreakthroughModeEnabled(val interface{}) {
+	if err := j.validateSetBreakthroughModeEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"breakthroughModeEnabled",
 		val,
 	)
 }
@@ -2060,6 +2095,14 @@ func (n *jsiiProxy_NetappVolume) ResetAzureVmwareDataStoreEnabled() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetAzureVmwareDataStoreEnabled",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolume) ResetBreakthroughModeEnabled() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetBreakthroughModeEnabled",
 		nil, // no parameters
 	)
 }

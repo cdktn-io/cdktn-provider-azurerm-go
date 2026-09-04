@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity}.
 type DataFactoryCredentialUserManagedIdentity interface {
 	cdktn.TerraformResource
 	Annotations() *[]*string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_DataFactoryCredentialUserManagedIdentity) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity} Resource.
 func NewDataFactoryCredentialUserManagedIdentity(scope constructs.Construct, id *string, config *DataFactoryCredentialUserManagedIdentityConfig) DataFactoryCredentialUserManagedIdentity {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewDataFactoryCredentialUserManagedIdentity(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity} Resource.
 func NewDataFactoryCredentialUserManagedIdentity_Override(d DataFactoryCredentialUserManagedIdentity, scope constructs.Construct, id *string, config *DataFactoryCredentialUserManagedIdentityConfig) {
 	_init_.Initialize()
 

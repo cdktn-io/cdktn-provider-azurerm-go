@@ -5,7 +5,7 @@ package dataazurermnetappvolumebucketwithserver
 
 
 type DataAzurermNetappVolumeBucketWithServerTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/netapp_volume_bucket_with_server#read DataAzurermNetappVolumeBucketWithServer#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/netapp_volume_bucket_with_server#read DataAzurermNetappVolumeBucketWithServer#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

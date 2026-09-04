@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/api_management_workspace azurerm_api_management_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/api_management_workspace azurerm_api_management_workspace}.
 type DataAzurermApiManagementWorkspace interface {
 	cdktn.TerraformDataSource
 	ApiManagementId() *string
@@ -30,6 +30,7 @@ type DataAzurermApiManagementWorkspace interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	Description() *string
 	DisplayName() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -192,6 +193,16 @@ func (j *jsiiProxy_DataAzurermApiManagementWorkspace) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermApiManagementWorkspace) Description() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"description",
 		&returns,
 	)
 	return returns
@@ -368,7 +379,7 @@ func (j *jsiiProxy_DataAzurermApiManagementWorkspace) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/api_management_workspace azurerm_api_management_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/api_management_workspace azurerm_api_management_workspace} Data Source.
 func NewDataAzurermApiManagementWorkspace(scope constructs.Construct, id *string, config *DataAzurermApiManagementWorkspaceConfig) DataAzurermApiManagementWorkspace {
 	_init_.Initialize()
 
@@ -386,7 +397,7 @@ func NewDataAzurermApiManagementWorkspace(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/api_management_workspace azurerm_api_management_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/api_management_workspace azurerm_api_management_workspace} Data Source.
 func NewDataAzurermApiManagementWorkspace_Override(d DataAzurermApiManagementWorkspace, scope constructs.Construct, id *string, config *DataAzurermApiManagementWorkspaceConfig) {
 	_init_.Initialize()
 

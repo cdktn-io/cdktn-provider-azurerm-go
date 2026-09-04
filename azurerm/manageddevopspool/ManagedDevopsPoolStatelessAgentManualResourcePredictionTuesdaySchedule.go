@@ -5,9 +5,9 @@ package manageddevopspool
 
 
 type ManagedDevopsPoolStatelessAgentManualResourcePredictionTuesdaySchedule struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#count ManagedDevopsPool#count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#count ManagedDevopsPool#count}.
 	Count *float64 `field:"required" json:"count" yaml:"count"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#time ManagedDevopsPool#time}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#time ManagedDevopsPool#time}.
 	Time *string `field:"required" json:"time" yaml:"time"`
 }
 

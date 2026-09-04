@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stack_hci_deployment_setting azurerm_stack_hci_deployment_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stack_hci_deployment_setting azurerm_stack_hci_deployment_setting}.
 type StackHciDeploymentSetting interface {
 	cdktn.TerraformResource
 	ArcResourceIds() *[]*string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_StackHciDeploymentSetting) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stack_hci_deployment_setting azurerm_stack_hci_deployment_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stack_hci_deployment_setting azurerm_stack_hci_deployment_setting} Resource.
 func NewStackHciDeploymentSetting(scope constructs.Construct, id *string, config *StackHciDeploymentSettingConfig) StackHciDeploymentSetting {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewStackHciDeploymentSetting(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stack_hci_deployment_setting azurerm_stack_hci_deployment_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stack_hci_deployment_setting azurerm_stack_hci_deployment_setting} Resource.
 func NewStackHciDeploymentSetting_Override(s StackHciDeploymentSetting, scope constructs.Construct, id *string, config *StackHciDeploymentSettingConfig) {
 	_init_.Initialize()
 

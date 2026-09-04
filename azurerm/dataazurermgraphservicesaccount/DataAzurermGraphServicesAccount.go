@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/graph_services_account azurerm_graph_services_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/graph_services_account azurerm_graph_services_account}.
 type DataAzurermGraphServicesAccount interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermGraphServicesAccount) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/graph_services_account azurerm_graph_services_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/graph_services_account azurerm_graph_services_account} Data Source.
 func NewDataAzurermGraphServicesAccount(scope constructs.Construct, id *string, config *DataAzurermGraphServicesAccountConfig) DataAzurermGraphServicesAccount {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewDataAzurermGraphServicesAccount(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/graph_services_account azurerm_graph_services_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/graph_services_account azurerm_graph_services_account} Data Source.
 func NewDataAzurermGraphServicesAccount_Override(d DataAzurermGraphServicesAccount, scope constructs.Construct, id *string, config *DataAzurermGraphServicesAccountConfig) {
 	_init_.Initialize()
 

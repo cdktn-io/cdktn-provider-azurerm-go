@@ -219,11 +219,23 @@ func (j *jsiiProxy_PostgresqlFlexibleServer) validateSetSourceServerIdParameters
 	return nil
 }
 
+func (j *jsiiProxy_PostgresqlFlexibleServer) validateSetStorageIopsParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_PostgresqlFlexibleServer) validateSetStorageMbParameters(val *float64) error {
 	return nil
 }
 
+func (j *jsiiProxy_PostgresqlFlexibleServer) validateSetStorageThroughputParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_PostgresqlFlexibleServer) validateSetStorageTierParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PostgresqlFlexibleServer) validateSetStorageTypeParameters(val *string) error {
 	return nil
 }
 

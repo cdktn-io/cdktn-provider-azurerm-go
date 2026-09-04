@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/attestation_provider azurerm_attestation_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/attestation_provider azurerm_attestation_provider}.
 type DataAzurermAttestationProvider interface {
 	cdktn.TerraformDataSource
 	AttestationUri() *string
@@ -49,6 +49,7 @@ type DataAzurermAttestationProvider interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	OpenEnclavePolicyBase64() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -58,6 +59,8 @@ type DataAzurermAttestationProvider interface {
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
+	SevSnpPolicyBase64() *string
+	SgxEnclavePolicyBase64() *string
 	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -67,6 +70,7 @@ type DataAzurermAttestationProvider interface {
 	TerraformResourceType() *string
 	Timeouts() DataAzurermAttestationProviderTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	TpmPolicyBase64() *string
 	TrustModel() *string
 	// Experimental.
 	AddOverride(path *string, value interface{})
@@ -290,6 +294,16 @@ func (j *jsiiProxy_DataAzurermAttestationProvider) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermAttestationProvider) OpenEnclavePolicyBase64() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"openEnclavePolicyBase64",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermAttestationProvider) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -325,6 +339,26 @@ func (j *jsiiProxy_DataAzurermAttestationProvider) ResourceGroupNameInput() *str
 	_jsii_.Get(
 		j,
 		"resourceGroupNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAttestationProvider) SevSnpPolicyBase64() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sevSnpPolicyBase64",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAttestationProvider) SgxEnclavePolicyBase64() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sgxEnclavePolicyBase64",
 		&returns,
 	)
 	return returns
@@ -390,6 +424,16 @@ func (j *jsiiProxy_DataAzurermAttestationProvider) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermAttestationProvider) TpmPolicyBase64() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tpmPolicyBase64",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermAttestationProvider) TrustModel() *string {
 	var returns *string
 	_jsii_.Get(
@@ -401,7 +445,7 @@ func (j *jsiiProxy_DataAzurermAttestationProvider) TrustModel() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/attestation_provider azurerm_attestation_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/attestation_provider azurerm_attestation_provider} Data Source.
 func NewDataAzurermAttestationProvider(scope constructs.Construct, id *string, config *DataAzurermAttestationProviderConfig) DataAzurermAttestationProvider {
 	_init_.Initialize()
 
@@ -419,7 +463,7 @@ func NewDataAzurermAttestationProvider(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/attestation_provider azurerm_attestation_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/attestation_provider azurerm_attestation_provider} Data Source.
 func NewDataAzurermAttestationProvider_Override(d DataAzurermAttestationProvider, scope constructs.Construct, id *string, config *DataAzurermAttestationProviderConfig) {
 	_init_.Initialize()
 

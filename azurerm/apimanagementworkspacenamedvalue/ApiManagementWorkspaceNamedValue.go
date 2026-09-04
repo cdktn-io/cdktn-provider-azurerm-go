@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_workspace_named_value azurerm_api_management_workspace_named_value}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_workspace_named_value azurerm_api_management_workspace_named_value}.
 type ApiManagementWorkspaceNamedValue interface {
 	cdktn.TerraformResource
 	ApiManagementWorkspaceId() *string
@@ -557,7 +557,7 @@ func (j *jsiiProxy_ApiManagementWorkspaceNamedValue) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_workspace_named_value azurerm_api_management_workspace_named_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_workspace_named_value azurerm_api_management_workspace_named_value} Resource.
 func NewApiManagementWorkspaceNamedValue(scope constructs.Construct, id *string, config *ApiManagementWorkspaceNamedValueConfig) ApiManagementWorkspaceNamedValue {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewApiManagementWorkspaceNamedValue(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_workspace_named_value azurerm_api_management_workspace_named_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_workspace_named_value azurerm_api_management_workspace_named_value} Resource.
 func NewApiManagementWorkspaceNamedValue_Override(a ApiManagementWorkspaceNamedValue, scope constructs.Construct, id *string, config *ApiManagementWorkspaceNamedValueConfig) {
 	_init_.Initialize()
 

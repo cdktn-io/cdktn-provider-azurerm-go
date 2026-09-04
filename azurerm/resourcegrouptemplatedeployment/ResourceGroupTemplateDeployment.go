@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment}.
 type ResourceGroupTemplateDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -592,7 +592,7 @@ func (j *jsiiProxy_ResourceGroupTemplateDeployment) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment} Resource.
 func NewResourceGroupTemplateDeployment(scope constructs.Construct, id *string, config *ResourceGroupTemplateDeploymentConfig) ResourceGroupTemplateDeployment {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewResourceGroupTemplateDeployment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment} Resource.
 func NewResourceGroupTemplateDeployment_Override(r ResourceGroupTemplateDeployment, scope constructs.Construct, id *string, config *ResourceGroupTemplateDeploymentConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/shared_image azurerm_shared_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/shared_image azurerm_shared_image}.
 type DataAzurermSharedImage interface {
 	cdktn.TerraformDataSource
 	AcceleratedNetworkSupportEnabled() cdktn.IResolvable
@@ -578,7 +578,7 @@ func (j *jsiiProxy_DataAzurermSharedImage) TrustedLaunchSupported() cdktn.IResol
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/shared_image azurerm_shared_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/shared_image azurerm_shared_image} Data Source.
 func NewDataAzurermSharedImage(scope constructs.Construct, id *string, config *DataAzurermSharedImageConfig) DataAzurermSharedImage {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewDataAzurermSharedImage(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/shared_image azurerm_shared_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/shared_image azurerm_shared_image} Data Source.
 func NewDataAzurermSharedImage_Override(d DataAzurermSharedImage, scope constructs.Construct, id *string, config *DataAzurermSharedImageConfig) {
 	_init_.Initialize()
 

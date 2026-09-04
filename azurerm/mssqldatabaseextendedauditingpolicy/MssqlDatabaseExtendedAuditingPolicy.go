@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy}.
 type MssqlDatabaseExtendedAuditingPolicy interface {
 	cdktn.TerraformResource
 	BlobStorageEndpoint() *string
@@ -559,7 +559,7 @@ func (j *jsiiProxy_MssqlDatabaseExtendedAuditingPolicy) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.
 func NewMssqlDatabaseExtendedAuditingPolicy(scope constructs.Construct, id *string, config *MssqlDatabaseExtendedAuditingPolicyConfig) MssqlDatabaseExtendedAuditingPolicy {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewMssqlDatabaseExtendedAuditingPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.
 func NewMssqlDatabaseExtendedAuditingPolicy_Override(m MssqlDatabaseExtendedAuditingPolicy, scope constructs.Construct, id *string, config *MssqlDatabaseExtendedAuditingPolicyConfig) {
 	_init_.Initialize()
 

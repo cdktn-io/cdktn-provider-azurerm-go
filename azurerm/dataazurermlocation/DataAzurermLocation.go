@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/location azurerm_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/location azurerm_location}.
 type DataAzurermLocation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataAzurermLocation) ZoneMappings() DataAzurermLocationZoneMa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/location azurerm_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/location azurerm_location} Data Source.
 func NewDataAzurermLocation(scope constructs.Construct, id *string, config *DataAzurermLocationConfig) DataAzurermLocation {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewDataAzurermLocation(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/location azurerm_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/location azurerm_location} Data Source.
 func NewDataAzurermLocation_Override(d DataAzurermLocation, scope constructs.Construct, id *string, config *DataAzurermLocationConfig) {
 	_init_.Initialize()
 

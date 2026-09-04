@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function}.
 type DataFactoryLinkedServiceAzureFunction interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -629,7 +629,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureFunction) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function} Resource.
 func NewDataFactoryLinkedServiceAzureFunction(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureFunctionConfig) DataFactoryLinkedServiceAzureFunction {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewDataFactoryLinkedServiceAzureFunction(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function} Resource.
 func NewDataFactoryLinkedServiceAzureFunction_Override(d DataFactoryLinkedServiceAzureFunction, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureFunctionConfig) {
 	_init_.Initialize()
 

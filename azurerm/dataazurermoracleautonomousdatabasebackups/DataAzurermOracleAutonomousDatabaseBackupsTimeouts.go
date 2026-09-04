@@ -5,7 +5,7 @@ package dataazurermoracleautonomousdatabasebackups
 
 
 type DataAzurermOracleAutonomousDatabaseBackupsTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/oracle_autonomous_database_backups#read DataAzurermOracleAutonomousDatabaseBackups#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/oracle_autonomous_database_backups#read DataAzurermOracleAutonomousDatabaseBackups#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

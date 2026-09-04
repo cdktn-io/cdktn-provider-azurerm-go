@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/web_pubsub_private_link_resource azurerm_web_pubsub_private_link_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/web_pubsub_private_link_resource azurerm_web_pubsub_private_link_resource}.
 type DataAzurermWebPubsubPrivateLinkResource interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResource) WebPubsubIdInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/web_pubsub_private_link_resource azurerm_web_pubsub_private_link_resource} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/web_pubsub_private_link_resource azurerm_web_pubsub_private_link_resource} Data Source.
 func NewDataAzurermWebPubsubPrivateLinkResource(scope constructs.Construct, id *string, config *DataAzurermWebPubsubPrivateLinkResourceConfig) DataAzurermWebPubsubPrivateLinkResource {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAzurermWebPubsubPrivateLinkResource(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/web_pubsub_private_link_resource azurerm_web_pubsub_private_link_resource} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/web_pubsub_private_link_resource azurerm_web_pubsub_private_link_resource} Data Source.
 func NewDataAzurermWebPubsubPrivateLinkResource_Override(d DataAzurermWebPubsubPrivateLinkResource, scope constructs.Construct, id *string, config *DataAzurermWebPubsubPrivateLinkResourceConfig) {
 	_init_.Initialize()
 

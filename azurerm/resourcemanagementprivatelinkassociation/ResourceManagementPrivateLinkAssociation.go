@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association}.
 type ResourceManagementPrivateLinkAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_ResourceManagementPrivateLinkAssociation) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association} Resource.
 func NewResourceManagementPrivateLinkAssociation(scope constructs.Construct, id *string, config *ResourceManagementPrivateLinkAssociationConfig) ResourceManagementPrivateLinkAssociation {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewResourceManagementPrivateLinkAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association} Resource.
 func NewResourceManagementPrivateLinkAssociation_Override(r ResourceManagementPrivateLinkAssociation, scope constructs.Construct, id *string, config *ResourceManagementPrivateLinkAssociationConfig) {
 	_init_.Initialize()
 

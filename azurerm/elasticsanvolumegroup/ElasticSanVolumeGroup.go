@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group}.
 type ElasticSanVolumeGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -558,7 +558,7 @@ func (j *jsiiProxy_ElasticSanVolumeGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group} Resource.
 func NewElasticSanVolumeGroup(scope constructs.Construct, id *string, config *ElasticSanVolumeGroupConfig) ElasticSanVolumeGroup {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewElasticSanVolumeGroup(scope constructs.Construct, id *string, config *El
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group} Resource.
 func NewElasticSanVolumeGroup_Override(e ElasticSanVolumeGroup, scope constructs.Construct, id *string, config *ElasticSanVolumeGroupConfig) {
 	_init_.Initialize()
 

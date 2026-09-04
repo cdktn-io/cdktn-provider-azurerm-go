@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool}.
 type DevCenterProjectPool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -626,7 +626,7 @@ func (j *jsiiProxy_DevCenterProjectPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool} Resource.
 func NewDevCenterProjectPool(scope constructs.Construct, id *string, config *DevCenterProjectPoolConfig) DevCenterProjectPool {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewDevCenterProjectPool(scope constructs.Construct, id *string, config *Dev
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool} Resource.
 func NewDevCenterProjectPool_Override(d DevCenterProjectPool, scope constructs.Construct, id *string, config *DevCenterProjectPoolConfig) {
 	_init_.Initialize()
 

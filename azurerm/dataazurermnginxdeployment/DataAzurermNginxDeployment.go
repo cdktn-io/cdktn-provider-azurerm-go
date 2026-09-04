@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment}.
 type DataAzurermNginxDeployment interface {
 	cdktn.TerraformDataSource
 	AutomaticUpgradeChannel() *string
@@ -522,7 +522,7 @@ func (j *jsiiProxy_DataAzurermNginxDeployment) WebApplicationFirewall() DataAzur
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
 func NewDataAzurermNginxDeployment(scope constructs.Construct, id *string, config *DataAzurermNginxDeploymentConfig) DataAzurermNginxDeployment {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewDataAzurermNginxDeployment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
 func NewDataAzurermNginxDeployment_Override(d DataAzurermNginxDeployment, scope constructs.Construct, id *string, config *DataAzurermNginxDeploymentConfig) {
 	_init_.Initialize()
 

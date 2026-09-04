@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_environment_managed_certificate azurerm_container_app_environment_managed_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_environment_managed_certificate azurerm_container_app_environment_managed_certificate}.
 type ContainerAppEnvironmentManagedCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentManagedCertificate) ValidationToken() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_environment_managed_certificate azurerm_container_app_environment_managed_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_environment_managed_certificate azurerm_container_app_environment_managed_certificate} Resource.
 func NewContainerAppEnvironmentManagedCertificate(scope constructs.Construct, id *string, config *ContainerAppEnvironmentManagedCertificateConfig) ContainerAppEnvironmentManagedCertificate {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewContainerAppEnvironmentManagedCertificate(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_environment_managed_certificate azurerm_container_app_environment_managed_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_environment_managed_certificate azurerm_container_app_environment_managed_certificate} Resource.
 func NewContainerAppEnvironmentManagedCertificate_Override(c ContainerAppEnvironmentManagedCertificate, scope constructs.Construct, id *string, config *ContainerAppEnvironmentManagedCertificateConfig) {
 	_init_.Initialize()
 

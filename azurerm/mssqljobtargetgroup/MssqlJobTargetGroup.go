@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group}.
 type MssqlJobTargetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_MssqlJobTargetGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
 func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *MssqlJobTargetGroupConfig) MssqlJobTargetGroup {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *Mssq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
 func NewMssqlJobTargetGroup_Override(m MssqlJobTargetGroup, scope constructs.Construct, id *string, config *MssqlJobTargetGroupConfig) {
 	_init_.Initialize()
 

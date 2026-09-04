@@ -5,11 +5,11 @@ package cdnfrontdoorrule
 
 
 type CdnFrontdoorRuleActionsModifyResponseHeader struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_rule#header_name CdnFrontdoorRule#header_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_frontdoor_rule#header_name CdnFrontdoorRule#header_name}.
 	HeaderName *string `field:"required" json:"headerName" yaml:"headerName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_rule#operator CdnFrontdoorRule#operator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_frontdoor_rule#operator CdnFrontdoorRule#operator}.
 	Operator *string `field:"required" json:"operator" yaml:"operator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_rule#header_value CdnFrontdoorRule#header_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_frontdoor_rule#header_value CdnFrontdoorRule#header_value}.
 	HeaderValue *string `field:"optional" json:"headerValue" yaml:"headerValue"`
 }
 

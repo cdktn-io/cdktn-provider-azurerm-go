@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm}.
 type BackupPolicyVm interface {
 	cdktn.TerraformResource
 	Backup() BackupPolicyVmBackupOutputReference
@@ -724,7 +724,7 @@ func (j *jsiiProxy_BackupPolicyVm) TimezoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm} Resource.
 func NewBackupPolicyVm(scope constructs.Construct, id *string, config *BackupPolicyVmConfig) BackupPolicyVm {
 	_init_.Initialize()
 
@@ -742,7 +742,7 @@ func NewBackupPolicyVm(scope constructs.Construct, id *string, config *BackupPol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm} Resource.
 func NewBackupPolicyVm_Override(b BackupPolicyVm, scope constructs.Construct, id *string, config *BackupPolicyVmConfig) {
 	_init_.Initialize()
 

@@ -7,9 +7,9 @@ package redhatopenshiftcluster
 type RedhatOpenshiftClusterPlatformWorkloadIdentityProfile struct {
 	// platform_workload_identity block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/redhat_openshift_cluster#platform_workload_identity RedhatOpenshiftCluster#platform_workload_identity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/redhat_openshift_cluster#platform_workload_identity RedhatOpenshiftCluster#platform_workload_identity}
 	PlatformWorkloadIdentity interface{} `field:"required" json:"platformWorkloadIdentity" yaml:"platformWorkloadIdentity"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/redhat_openshift_cluster#upgradeable_to RedhatOpenshiftCluster#upgradeable_to}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/redhat_openshift_cluster#upgradeable_to RedhatOpenshiftCluster#upgradeable_to}.
 	UpgradeableTo *string `field:"optional" json:"upgradeableTo" yaml:"upgradeableTo"`
 }
 

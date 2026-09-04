@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database}.
 type OracleAutonomousDatabaseCloneFromDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -973,7 +973,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseCloneFromDatabase) VirtualNetworkIdIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Resource.
 func NewOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCloneFromDatabaseConfig) OracleAutonomousDatabaseCloneFromDatabase {
 	_init_.Initialize()
 
@@ -991,7 +991,7 @@ func NewOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Resource.
 func NewOracleAutonomousDatabaseCloneFromDatabase_Override(o OracleAutonomousDatabaseCloneFromDatabase, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCloneFromDatabaseConfig) {
 	_init_.Initialize()
 

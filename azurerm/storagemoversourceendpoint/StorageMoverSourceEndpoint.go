@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint}.
 type StorageMoverSourceEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_StorageMoverSourceEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
 func NewStorageMoverSourceEndpoint(scope constructs.Construct, id *string, config *StorageMoverSourceEndpointConfig) StorageMoverSourceEndpoint {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewStorageMoverSourceEndpoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
 func NewStorageMoverSourceEndpoint_Override(s StorageMoverSourceEndpoint, scope constructs.Construct, id *string, config *StorageMoverSourceEndpointConfig) {
 	_init_.Initialize()
 

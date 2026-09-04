@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine}.
 type DevTestWindowsVirtualMachine interface {
 	cdktn.TerraformResource
 	AllowClaim() interface{}
@@ -787,7 +787,7 @@ func (j *jsiiProxy_DevTestWindowsVirtualMachine) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine} Resource.
 func NewDevTestWindowsVirtualMachine(scope constructs.Construct, id *string, config *DevTestWindowsVirtualMachineConfig) DevTestWindowsVirtualMachine {
 	_init_.Initialize()
 
@@ -805,7 +805,7 @@ func NewDevTestWindowsVirtualMachine(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine} Resource.
 func NewDevTestWindowsVirtualMachine_Override(d DevTestWindowsVirtualMachine, scope constructs.Construct, id *string, config *DevTestWindowsVirtualMachineConfig) {
 	_init_.Initialize()
 

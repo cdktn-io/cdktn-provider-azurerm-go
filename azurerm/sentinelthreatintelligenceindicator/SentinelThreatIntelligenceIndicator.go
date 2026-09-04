@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/sentinel_threat_intelligence_indicator azurerm_sentinel_threat_intelligence_indicator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/sentinel_threat_intelligence_indicator azurerm_sentinel_threat_intelligence_indicator}.
 type SentinelThreatIntelligenceIndicator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -954,7 +954,7 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicator) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/sentinel_threat_intelligence_indicator azurerm_sentinel_threat_intelligence_indicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/sentinel_threat_intelligence_indicator azurerm_sentinel_threat_intelligence_indicator} Resource.
 func NewSentinelThreatIntelligenceIndicator(scope constructs.Construct, id *string, config *SentinelThreatIntelligenceIndicatorConfig) SentinelThreatIntelligenceIndicator {
 	_init_.Initialize()
 
@@ -972,7 +972,7 @@ func NewSentinelThreatIntelligenceIndicator(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/sentinel_threat_intelligence_indicator azurerm_sentinel_threat_intelligence_indicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/sentinel_threat_intelligence_indicator azurerm_sentinel_threat_intelligence_indicator} Resource.
 func NewSentinelThreatIntelligenceIndicator_Override(s SentinelThreatIntelligenceIndicator, scope constructs.Construct, id *string, config *SentinelThreatIntelligenceIndicatorConfig) {
 	_init_.Initialize()
 
