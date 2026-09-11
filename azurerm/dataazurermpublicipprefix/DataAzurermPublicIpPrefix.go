@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix}.
 type DataAzurermPublicIpPrefix interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -23,6 +23,7 @@ type DataAzurermPublicIpPrefix interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CustomIpPrefixId() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -39,6 +40,7 @@ type DataAzurermPublicIpPrefix interface {
 	SetId(val *string)
 	IdInput() *string
 	IpPrefix() *string
+	IpVersion() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -173,6 +175,16 @@ func (j *jsiiProxy_DataAzurermPublicIpPrefix) Count() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermPublicIpPrefix) CustomIpPrefixId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"customIpPrefixId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermPublicIpPrefix) DependsOn() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -238,6 +250,16 @@ func (j *jsiiProxy_DataAzurermPublicIpPrefix) IpPrefix() *string {
 	_jsii_.Get(
 		j,
 		"ipPrefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermPublicIpPrefix) IpVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipVersion",
 		&returns,
 	)
 	return returns
@@ -434,7 +456,7 @@ func (j *jsiiProxy_DataAzurermPublicIpPrefix) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix} Data Source.
 func NewDataAzurermPublicIpPrefix(scope constructs.Construct, id *string, config *DataAzurermPublicIpPrefixConfig) DataAzurermPublicIpPrefix {
 	_init_.Initialize()
 
@@ -452,7 +474,7 @@ func NewDataAzurermPublicIpPrefix(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix} Data Source.
 func NewDataAzurermPublicIpPrefix_Override(d DataAzurermPublicIpPrefix, scope constructs.Construct, id *string, config *DataAzurermPublicIpPrefixConfig) {
 	_init_.Initialize()
 

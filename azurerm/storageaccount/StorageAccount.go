@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account azurerm_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/storage_account azurerm_storage_account}.
 type StorageAccount interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -168,9 +168,12 @@ type StorageAccount interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	PublicNetworkAccess() *string
+	SetPublicNetworkAccess(val *string)
 	PublicNetworkAccessEnabled() interface{}
 	SetPublicNetworkAccessEnabled(val interface{})
 	PublicNetworkAccessEnabledInput() interface{}
+	PublicNetworkAccessInput() *string
 	QueueEncryptionKeyType() *string
 	SetQueueEncryptionKeyType(val *string)
 	QueueEncryptionKeyTypeInput() *string
@@ -371,6 +374,7 @@ type StorageAccount interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProvisionedBillingModelVersion()
+	ResetPublicNetworkAccess()
 	ResetPublicNetworkAccessEnabled()
 	ResetQueueEncryptionKeyType()
 	ResetRouting()
@@ -1468,6 +1472,16 @@ func (j *jsiiProxy_StorageAccount) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_StorageAccount) PublicNetworkAccess() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"publicNetworkAccess",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageAccount) PublicNetworkAccessEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -1483,6 +1497,16 @@ func (j *jsiiProxy_StorageAccount) PublicNetworkAccessEnabledInput() interface{}
 	_jsii_.Get(
 		j,
 		"publicNetworkAccessEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageAccount) PublicNetworkAccessInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"publicNetworkAccessInput",
 		&returns,
 	)
 	return returns
@@ -2089,7 +2113,7 @@ func (j *jsiiProxy_StorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAccountConfig) StorageAccount {
 	_init_.Initialize()
 
@@ -2107,7 +2131,7 @@ func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount_Override(s StorageAccount, scope constructs.Construct, id *string, config *StorageAccountConfig) {
 	_init_.Initialize()
 
@@ -2413,6 +2437,17 @@ func (j *jsiiProxy_StorageAccount)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageAccount)SetPublicNetworkAccess(val *string) {
+	if err := j.validateSetPublicNetworkAccessParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"publicNetworkAccess",
 		val,
 	)
 }
@@ -3191,6 +3226,14 @@ func (s *jsiiProxy_StorageAccount) ResetProvisionedBillingModelVersion() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetProvisionedBillingModelVersion",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageAccount) ResetPublicNetworkAccess() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetPublicNetworkAccess",
 		nil, // no parameters
 	)
 }

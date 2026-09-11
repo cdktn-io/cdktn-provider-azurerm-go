@@ -92,6 +92,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "primaryWebMicrosoftEndpoint", GoGetter: "PrimaryWebMicrosoftEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "primaryWebMicrosoftHost", GoGetter: "PrimaryWebMicrosoftHost"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "publicNetworkAccess", GoGetter: "PublicNetworkAccess"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "queueEncryptionKeyType", GoGetter: "QueueEncryptionKeyType"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},

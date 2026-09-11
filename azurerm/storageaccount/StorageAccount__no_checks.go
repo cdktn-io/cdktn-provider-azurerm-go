@@ -243,6 +243,10 @@ func (j *jsiiProxy_StorageAccount) validateSetProvisionersParameters(val *[]inte
 	return nil
 }
 
+func (j *jsiiProxy_StorageAccount) validateSetPublicNetworkAccessParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageAccount) validateSetPublicNetworkAccessEnabledParameters(val interface{}) error {
 	return nil
 }
