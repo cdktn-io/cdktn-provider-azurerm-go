@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot}.
 type LinuxFunctionAppSlot interface {
 	cdktn.TerraformResource
 	AppSettings() *map[string]*string
@@ -65,6 +65,9 @@ type LinuxFunctionAppSlot interface {
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
+	EndToEndTlsEncryptionEnabled() interface{}
+	SetEndToEndTlsEncryptionEnabled(val interface{})
+	EndToEndTlsEncryptionEnabledInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -276,6 +279,7 @@ type LinuxFunctionAppSlot interface {
 	ResetContentShareForceDisabled()
 	ResetDailyMemoryTimeQuota()
 	ResetEnabled()
+	ResetEndToEndTlsEncryptionEnabled()
 	ResetFtpPublishBasicAuthenticationEnabled()
 	ResetFunctionsExtensionVersion()
 	ResetHttpsOnly()
@@ -630,6 +634,26 @@ func (j *jsiiProxy_LinuxFunctionAppSlot) EnabledInput() interface{} {
 	_jsii_.Get(
 		j,
 		"enabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxFunctionAppSlot) EndToEndTlsEncryptionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"endToEndTlsEncryptionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxFunctionAppSlot) EndToEndTlsEncryptionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"endToEndTlsEncryptionEnabledInput",
 		&returns,
 	)
 	return returns
@@ -1256,7 +1280,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlot) WebdeployPublishBasicAuthenticationEnab
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot} Resource.
 func NewLinuxFunctionAppSlot(scope constructs.Construct, id *string, config *LinuxFunctionAppSlotConfig) LinuxFunctionAppSlot {
 	_init_.Initialize()
 
@@ -1274,7 +1298,7 @@ func NewLinuxFunctionAppSlot(scope constructs.Construct, id *string, config *Lin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot} Resource.
 func NewLinuxFunctionAppSlot_Override(l LinuxFunctionAppSlot, scope constructs.Construct, id *string, config *LinuxFunctionAppSlotConfig) {
 	_init_.Initialize()
 
@@ -1399,6 +1423,17 @@ func (j *jsiiProxy_LinuxFunctionAppSlot)SetEnabled(val interface{}) {
 	_jsii_.Set(
 		j,
 		"enabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LinuxFunctionAppSlot)SetEndToEndTlsEncryptionEnabled(val interface{}) {
+	if err := j.validateSetEndToEndTlsEncryptionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endToEndTlsEncryptionEnabled",
 		val,
 	)
 }
@@ -2199,6 +2234,14 @@ func (l *jsiiProxy_LinuxFunctionAppSlot) ResetEnabled() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LinuxFunctionAppSlot) ResetEndToEndTlsEncryptionEnabled() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetEndToEndTlsEncryptionEnabled",
 		nil, // no parameters
 	)
 }

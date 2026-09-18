@@ -135,6 +135,10 @@ func (j *jsiiProxy_MongoCluster) validateSetConnectionParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_MongoCluster) validateSetCosmosDbNetworkBypassEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_MongoCluster) validateSetCountParameters(val interface{}) error {
 	return nil
 }

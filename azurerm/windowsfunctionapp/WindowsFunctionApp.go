@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app azurerm_windows_function_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app azurerm_windows_function_app}.
 type WindowsFunctionApp interface {
 	cdktn.TerraformResource
 	AppSettings() *map[string]*string
@@ -65,6 +65,9 @@ type WindowsFunctionApp interface {
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
+	EndToEndTlsEncryptionEnabled() interface{}
+	SetEndToEndTlsEncryptionEnabled(val interface{})
+	EndToEndTlsEncryptionEnabledInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -285,6 +288,7 @@ type WindowsFunctionApp interface {
 	ResetContentShareForceDisabled()
 	ResetDailyMemoryTimeQuota()
 	ResetEnabled()
+	ResetEndToEndTlsEncryptionEnabled()
 	ResetFtpPublishBasicAuthenticationEnabled()
 	ResetFunctionsExtensionVersion()
 	ResetHttpsOnly()
@@ -640,6 +644,26 @@ func (j *jsiiProxy_WindowsFunctionApp) EnabledInput() interface{} {
 	_jsii_.Get(
 		j,
 		"enabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsFunctionApp) EndToEndTlsEncryptionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"endToEndTlsEncryptionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsFunctionApp) EndToEndTlsEncryptionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"endToEndTlsEncryptionEnabledInput",
 		&returns,
 	)
 	return returns
@@ -1326,7 +1350,7 @@ func (j *jsiiProxy_WindowsFunctionApp) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
 func NewWindowsFunctionApp(scope constructs.Construct, id *string, config *WindowsFunctionAppConfig) WindowsFunctionApp {
 	_init_.Initialize()
 
@@ -1344,7 +1368,7 @@ func NewWindowsFunctionApp(scope constructs.Construct, id *string, config *Windo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
 func NewWindowsFunctionApp_Override(w WindowsFunctionApp, scope constructs.Construct, id *string, config *WindowsFunctionAppConfig) {
 	_init_.Initialize()
 
@@ -1469,6 +1493,17 @@ func (j *jsiiProxy_WindowsFunctionApp)SetEnabled(val interface{}) {
 	_jsii_.Set(
 		j,
 		"enabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsFunctionApp)SetEndToEndTlsEncryptionEnabled(val interface{}) {
+	if err := j.validateSetEndToEndTlsEncryptionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endToEndTlsEncryptionEnabled",
 		val,
 	)
 }
@@ -2302,6 +2337,14 @@ func (w *jsiiProxy_WindowsFunctionApp) ResetEnabled() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WindowsFunctionApp) ResetEndToEndTlsEncryptionEnabled() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetEndToEndTlsEncryptionEnabled",
 		nil, // no parameters
 	)
 }

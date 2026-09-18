@@ -63,6 +63,14 @@ func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) validateSetConnectionStringWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) validateSetConnectionStringWoVersionParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) validateSetIdParameters(val *string) error {
 	return nil
 }

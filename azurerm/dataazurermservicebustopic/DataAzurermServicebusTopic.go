@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic}.
 type DataAzurermServicebusTopic interface {
 	cdktn.TerraformDataSource
 	AutoDeleteOnIdle() *string
@@ -47,6 +47,7 @@ type DataAzurermServicebusTopic interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MaximumMessageSizeInKb() *float64
 	MaxSizeInMegabytes() *float64
 	Name() *string
 	SetName(val *string)
@@ -296,6 +297,16 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) Lifecycle() *cdktn.TerraformResou
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermServicebusTopic) MaximumMessageSizeInKb() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maximumMessageSizeInKb",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermServicebusTopic) MaxSizeInMegabytes() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -467,7 +478,7 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic} Data Source.
 func NewDataAzurermServicebusTopic(scope constructs.Construct, id *string, config *DataAzurermServicebusTopicConfig) DataAzurermServicebusTopic {
 	_init_.Initialize()
 
@@ -485,7 +496,7 @@ func NewDataAzurermServicebusTopic(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic} Data Source.
 func NewDataAzurermServicebusTopic_Override(d DataAzurermServicebusTopic, scope constructs.Construct, id *string, config *DataAzurermServicebusTopicConfig) {
 	_init_.Initialize()
 

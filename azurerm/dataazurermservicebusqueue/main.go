@@ -45,6 +45,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "lockDuration", GoGetter: "LockDuration"},
 			_jsii_.MemberProperty{JsiiProperty: "maxDeliveryCount", GoGetter: "MaxDeliveryCount"},
+			_jsii_.MemberProperty{JsiiProperty: "maximumMessageSizeInKb", GoGetter: "MaximumMessageSizeInKb"},
 			_jsii_.MemberProperty{JsiiProperty: "maxSizeInMegabytes", GoGetter: "MaxSizeInMegabytes"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},

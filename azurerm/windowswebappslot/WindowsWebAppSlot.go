@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app_slot azurerm_windows_web_app_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app_slot azurerm_windows_web_app_slot}.
 type WindowsWebAppSlot interface {
 	cdktn.TerraformResource
 	AppServiceId() *string
@@ -62,6 +62,9 @@ type WindowsWebAppSlot interface {
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
+	EndToEndTlsEncryptionEnabled() interface{}
+	SetEndToEndTlsEncryptionEnabled(val interface{})
+	EndToEndTlsEncryptionEnabledInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -259,6 +262,7 @@ type WindowsWebAppSlot interface {
 	ResetClientCertificateMode()
 	ResetConnectionString()
 	ResetEnabled()
+	ResetEndToEndTlsEncryptionEnabled()
 	ResetFtpPublishBasicAuthenticationEnabled()
 	ResetHttpsOnly()
 	ResetId()
@@ -590,6 +594,26 @@ func (j *jsiiProxy_WindowsWebAppSlot) EnabledInput() interface{} {
 	_jsii_.Get(
 		j,
 		"enabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsWebAppSlot) EndToEndTlsEncryptionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"endToEndTlsEncryptionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsWebAppSlot) EndToEndTlsEncryptionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"endToEndTlsEncryptionEnabledInput",
 		&returns,
 	)
 	return returns
@@ -1136,7 +1160,7 @@ func (j *jsiiProxy_WindowsWebAppSlot) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app_slot azurerm_windows_web_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app_slot azurerm_windows_web_app_slot} Resource.
 func NewWindowsWebAppSlot(scope constructs.Construct, id *string, config *WindowsWebAppSlotConfig) WindowsWebAppSlot {
 	_init_.Initialize()
 
@@ -1154,7 +1178,7 @@ func NewWindowsWebAppSlot(scope constructs.Construct, id *string, config *Window
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app_slot azurerm_windows_web_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app_slot azurerm_windows_web_app_slot} Resource.
 func NewWindowsWebAppSlot_Override(w WindowsWebAppSlot, scope constructs.Construct, id *string, config *WindowsWebAppSlotConfig) {
 	_init_.Initialize()
 
@@ -1268,6 +1292,17 @@ func (j *jsiiProxy_WindowsWebAppSlot)SetEnabled(val interface{}) {
 	_jsii_.Set(
 		j,
 		"enabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsWebAppSlot)SetEndToEndTlsEncryptionEnabled(val interface{}) {
+	if err := j.validateSetEndToEndTlsEncryptionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endToEndTlsEncryptionEnabled",
 		val,
 	)
 }
@@ -2008,6 +2043,14 @@ func (w *jsiiProxy_WindowsWebAppSlot) ResetEnabled() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WindowsWebAppSlot) ResetEndToEndTlsEncryptionEnabled() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetEndToEndTlsEncryptionEnabled",
 		nil, // no parameters
 	)
 }

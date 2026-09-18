@@ -5,7 +5,7 @@ package dataazurermbastionhost
 
 
 type DataAzurermBastionHostTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/bastion_host#read DataAzurermBastionHost#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/bastion_host#read DataAzurermBastionHost#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

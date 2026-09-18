@@ -171,6 +171,10 @@ func (j *jsiiProxy_LinuxWebApp) validateSetEnabledParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_LinuxWebApp) validateSetEndToEndTlsEncryptionEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxWebApp) validateSetFtpPublishBasicAuthenticationEnabledParameters(val interface{}) error {
 	return nil
 }

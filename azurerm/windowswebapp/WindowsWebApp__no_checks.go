@@ -171,6 +171,10 @@ func (j *jsiiProxy_WindowsWebApp) validateSetEnabledParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_WindowsWebApp) validateSetEndToEndTlsEncryptionEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_WindowsWebApp) validateSetFtpPublishBasicAuthenticationEnabledParameters(val interface{}) error {
 	return nil
 }

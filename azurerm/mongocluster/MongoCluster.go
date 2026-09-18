@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/mongo_cluster azurerm_mongo_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/mongo_cluster azurerm_mongo_cluster}.
 type MongoCluster interface {
 	cdktn.TerraformResource
 	AdministratorPassword() *string
@@ -36,6 +36,9 @@ type MongoCluster interface {
 	ConnectionStrings() MongoClusterConnectionStringsList
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
+	CosmosDbNetworkBypassEnabled() interface{}
+	SetCosmosDbNetworkBypassEnabled(val interface{})
+	CosmosDbNetworkBypassEnabledInput() interface{}
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -230,6 +233,7 @@ type MongoCluster interface {
 	ResetAdministratorUsername()
 	ResetAuthenticationMethods()
 	ResetComputeTier()
+	ResetCosmosDbNetworkBypassEnabled()
 	ResetCreateMode()
 	ResetCustomerManagedKey()
 	ResetDataApiModeEnabled()
@@ -392,6 +396,26 @@ func (j *jsiiProxy_MongoCluster) ConstructNodeMetadata() *map[string]interface{}
 	_jsii_.Get(
 		j,
 		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) CosmosDbNetworkBypassEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cosmosDbNetworkBypassEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) CosmosDbNetworkBypassEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cosmosDbNetworkBypassEnabledInput",
 		&returns,
 	)
 	return returns
@@ -928,7 +952,7 @@ func (j *jsiiProxy_MongoCluster) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
 func NewMongoCluster(scope constructs.Construct, id *string, config *MongoClusterConfig) MongoCluster {
 	_init_.Initialize()
 
@@ -946,7 +970,7 @@ func NewMongoCluster(scope constructs.Construct, id *string, config *MongoCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
 func NewMongoCluster_Override(m MongoCluster, scope constructs.Construct, id *string, config *MongoClusterConfig) {
 	_init_.Initialize()
 
@@ -1008,6 +1032,17 @@ func (j *jsiiProxy_MongoCluster)SetConnection(val interface{}) {
 	_jsii_.Set(
 		j,
 		"connection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MongoCluster)SetCosmosDbNetworkBypassEnabled(val interface{}) {
+	if err := j.validateSetCosmosDbNetworkBypassEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cosmosDbNetworkBypassEnabled",
 		val,
 	)
 }
@@ -1697,6 +1732,14 @@ func (m *jsiiProxy_MongoCluster) ResetComputeTier() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetComputeTier",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MongoCluster) ResetCosmosDbNetworkBypassEnabled() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetCosmosDbNetworkBypassEnabled",
 		nil, // no parameters
 	)
 }

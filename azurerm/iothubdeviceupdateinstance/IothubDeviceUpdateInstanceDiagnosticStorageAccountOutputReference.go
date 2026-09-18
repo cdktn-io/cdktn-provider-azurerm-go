@@ -26,6 +26,14 @@ type IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference interface
 	ConnectionString() *string
 	SetConnectionString(val *string)
 	ConnectionStringInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	ConnectionStringWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetConnectionStringWo(val *string)
+	ConnectionStringWoInput() *string
+	ConnectionStringWoVersion() *float64
+	SetConnectionStringWoVersion(val *float64)
+	ConnectionStringWoVersionInput() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -70,6 +78,9 @@ type IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference interface
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetConnectionString()
+	ResetConnectionStringWo()
+	ResetConnectionStringWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -120,6 +131,46 @@ func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputRefer
 	_jsii_.Get(
 		j,
 		"connectionStringInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) ConnectionStringWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"connectionStringWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) ConnectionStringWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"connectionStringWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) ConnectionStringWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"connectionStringWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) ConnectionStringWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"connectionStringWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -252,6 +303,28 @@ func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputRefer
 	_jsii_.Set(
 		j,
 		"connectionString",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference)SetConnectionStringWo(val *string) {
+	if err := j.validateSetConnectionStringWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"connectionStringWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference)SetConnectionStringWoVersion(val *float64) {
+	if err := j.validateSetConnectionStringWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"connectionStringWoVersion",
 		val,
 	)
 }
@@ -484,6 +557,30 @@ func (i *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputRefer
 	)
 
 	return returns
+}
+
+func (i *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) ResetConnectionString() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetConnectionString",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) ResetConnectionStringWo() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetConnectionStringWo",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) ResetConnectionStringWoVersion() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetConnectionStringWoVersion",
+		nil, // no parameters
+	)
 }
 
 func (i *jsiiProxy_IothubDeviceUpdateInstanceDiagnosticStorageAccountOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

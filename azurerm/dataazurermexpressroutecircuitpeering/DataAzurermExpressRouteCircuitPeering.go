@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering}.
 type DataAzurermExpressRouteCircuitPeering interface {
 	cdktn.TerraformDataSource
 	AzureAsn() *float64
@@ -44,10 +44,12 @@ type DataAzurermExpressRouteCircuitPeering interface {
 	SetId(val *string)
 	IdInput() *string
 	Ipv4Enabled() cdktn.IResolvable
+	Ipv6() DataAzurermExpressRouteCircuitPeeringIpv6List
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MicrosoftPeeringConfig() DataAzurermExpressRouteCircuitPeeringMicrosoftPeeringConfigList
 	// The tree node.
 	Node() constructs.Node
 	PeerAsn() *float64
@@ -290,11 +292,31 @@ func (j *jsiiProxy_DataAzurermExpressRouteCircuitPeering) Ipv4Enabled() cdktn.IR
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermExpressRouteCircuitPeering) Ipv6() DataAzurermExpressRouteCircuitPeeringIpv6List {
+	var returns DataAzurermExpressRouteCircuitPeeringIpv6List
+	_jsii_.Get(
+		j,
+		"ipv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermExpressRouteCircuitPeering) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermExpressRouteCircuitPeering) MicrosoftPeeringConfig() DataAzurermExpressRouteCircuitPeeringMicrosoftPeeringConfigList {
+	var returns DataAzurermExpressRouteCircuitPeeringMicrosoftPeeringConfigList
+	_jsii_.Get(
+		j,
+		"microsoftPeeringConfig",
 		&returns,
 	)
 	return returns
@@ -501,7 +523,7 @@ func (j *jsiiProxy_DataAzurermExpressRouteCircuitPeering) VlanId() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering} Data Source.
 func NewDataAzurermExpressRouteCircuitPeering(scope constructs.Construct, id *string, config *DataAzurermExpressRouteCircuitPeeringConfig) DataAzurermExpressRouteCircuitPeering {
 	_init_.Initialize()
 
@@ -519,7 +541,7 @@ func NewDataAzurermExpressRouteCircuitPeering(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering} Data Source.
 func NewDataAzurermExpressRouteCircuitPeering_Override(d DataAzurermExpressRouteCircuitPeering, scope constructs.Construct, id *string, config *DataAzurermExpressRouteCircuitPeeringConfig) {
 	_init_.Initialize()
 

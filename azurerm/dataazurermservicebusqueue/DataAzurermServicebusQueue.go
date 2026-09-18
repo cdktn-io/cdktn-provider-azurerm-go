@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue}.
 type DataAzurermServicebusQueue interface {
 	cdktn.TerraformDataSource
 	AutoDeleteOnIdle() *string
@@ -52,6 +52,7 @@ type DataAzurermServicebusQueue interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LockDuration() *string
 	MaxDeliveryCount() *float64
+	MaximumMessageSizeInKb() *float64
 	MaxSizeInMegabytes() *float64
 	Name() *string
 	SetName(val *string)
@@ -351,6 +352,16 @@ func (j *jsiiProxy_DataAzurermServicebusQueue) MaxDeliveryCount() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermServicebusQueue) MaximumMessageSizeInKb() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maximumMessageSizeInKb",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermServicebusQueue) MaxSizeInMegabytes() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -522,7 +533,7 @@ func (j *jsiiProxy_DataAzurermServicebusQueue) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue} Data Source.
 func NewDataAzurermServicebusQueue(scope constructs.Construct, id *string, config *DataAzurermServicebusQueueConfig) DataAzurermServicebusQueue {
 	_init_.Initialize()
 
@@ -540,7 +551,7 @@ func NewDataAzurermServicebusQueue(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/servicebus_queue azurerm_servicebus_queue} Data Source.
 func NewDataAzurermServicebusQueue_Override(d DataAzurermServicebusQueue, scope constructs.Construct, id *string, config *DataAzurermServicebusQueueConfig) {
 	_init_.Initialize()
 
