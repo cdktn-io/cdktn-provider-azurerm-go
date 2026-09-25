@@ -12,11 +12,13 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/network_interface azurerm_network_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/network_interface azurerm_network_interface}.
 type DataAzurermNetworkInterface interface {
 	cdktn.TerraformDataSource
 	AcceleratedNetworkingEnabled() cdktn.IResolvable
 	AppliedDnsServers() *[]*string
+	AuxiliaryMode() *string
+	AuxiliarySku() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -30,6 +32,7 @@ type DataAzurermNetworkInterface interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DnsServers() *[]*string
+	EdgeZone() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -42,6 +45,7 @@ type DataAzurermNetworkInterface interface {
 	SetId(val *string)
 	IdInput() *string
 	InternalDnsNameLabel() *string
+	InternalDomainNameSuffix() *string
 	IpConfiguration() DataAzurermNetworkInterfaceIpConfigurationList
 	IpForwardingEnabled() cdktn.IResolvable
 	// Experimental.
@@ -169,6 +173,26 @@ func (j *jsiiProxy_DataAzurermNetworkInterface) AppliedDnsServers() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermNetworkInterface) AuxiliaryMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"auxiliaryMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermNetworkInterface) AuxiliarySku() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"auxiliarySku",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermNetworkInterface) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
@@ -214,6 +238,16 @@ func (j *jsiiProxy_DataAzurermNetworkInterface) DnsServers() *[]*string {
 	_jsii_.Get(
 		j,
 		"dnsServers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermNetworkInterface) EdgeZone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"edgeZone",
 		&returns,
 	)
 	return returns
@@ -274,6 +308,16 @@ func (j *jsiiProxy_DataAzurermNetworkInterface) InternalDnsNameLabel() *string {
 	_jsii_.Get(
 		j,
 		"internalDnsNameLabel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermNetworkInterface) InternalDomainNameSuffix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"internalDomainNameSuffix",
 		&returns,
 	)
 	return returns
@@ -500,7 +544,7 @@ func (j *jsiiProxy_DataAzurermNetworkInterface) VirtualMachineId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/network_interface azurerm_network_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/network_interface azurerm_network_interface} Data Source.
 func NewDataAzurermNetworkInterface(scope constructs.Construct, id *string, config *DataAzurermNetworkInterfaceConfig) DataAzurermNetworkInterface {
 	_init_.Initialize()
 
@@ -518,7 +562,7 @@ func NewDataAzurermNetworkInterface(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/network_interface azurerm_network_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/network_interface azurerm_network_interface} Data Source.
 func NewDataAzurermNetworkInterface_Override(d DataAzurermNetworkInterface, scope constructs.Construct, id *string, config *DataAzurermNetworkInterfaceConfig) {
 	_init_.Initialize()
 

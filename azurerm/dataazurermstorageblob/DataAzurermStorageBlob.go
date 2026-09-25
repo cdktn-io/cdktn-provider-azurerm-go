@@ -12,10 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/storage_blob azurerm_storage_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/storage_blob azurerm_storage_blob}.
 type DataAzurermStorageBlob interface {
 	cdktn.TerraformDataSource
 	AccessTier() *string
+	CacheControl() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -60,6 +61,7 @@ type DataAzurermStorageBlob interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
+	SourceUri() *string
 	StorageContainerId() *string
 	SetStorageContainerId(val *string)
 	StorageContainerIdInput() *string
@@ -151,6 +153,16 @@ func (j *jsiiProxy_DataAzurermStorageBlob) AccessTier() *string {
 	_jsii_.Get(
 		j,
 		"accessTier",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageBlob) CacheControl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cacheControl",
 		&returns,
 	)
 	return returns
@@ -356,6 +368,16 @@ func (j *jsiiProxy_DataAzurermStorageBlob) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermStorageBlob) SourceUri() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceUri",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermStorageBlob) StorageContainerId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -447,7 +469,7 @@ func (j *jsiiProxy_DataAzurermStorageBlob) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.
 func NewDataAzurermStorageBlob(scope constructs.Construct, id *string, config *DataAzurermStorageBlobConfig) DataAzurermStorageBlob {
 	_init_.Initialize()
 
@@ -465,7 +487,7 @@ func NewDataAzurermStorageBlob(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.
 func NewDataAzurermStorageBlob_Override(d DataAzurermStorageBlob, scope constructs.Construct, id *string, config *DataAzurermStorageBlobConfig) {
 	_init_.Initialize()
 

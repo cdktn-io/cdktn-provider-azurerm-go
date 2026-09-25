@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/web_pubsub azurerm_web_pubsub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/web_pubsub azurerm_web_pubsub}.
 type DataAzurermWebPubsub interface {
 	cdktn.TerraformDataSource
 	AadAuthEnabled() cdktn.IResolvable
@@ -41,11 +41,13 @@ type DataAzurermWebPubsub interface {
 	Hostname() *string
 	Id() *string
 	SetId(val *string)
+	Identity() DataAzurermWebPubsubIdentityList
 	IdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LiveTrace() DataAzurermWebPubsubLiveTraceList
 	LocalAuthEnabled() cdktn.IResolvable
 	Location() *string
 	Name() *string
@@ -273,6 +275,16 @@ func (j *jsiiProxy_DataAzurermWebPubsub) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermWebPubsub) Identity() DataAzurermWebPubsubIdentityList {
+	var returns DataAzurermWebPubsubIdentityList
+	_jsii_.Get(
+		j,
+		"identity",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermWebPubsub) IdInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -288,6 +300,16 @@ func (j *jsiiProxy_DataAzurermWebPubsub) Lifecycle() *cdktn.TerraformResourceLif
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermWebPubsub) LiveTrace() DataAzurermWebPubsubLiveTraceList {
+	var returns DataAzurermWebPubsubLiveTraceList
+	_jsii_.Get(
+		j,
+		"liveTrace",
 		&returns,
 	)
 	return returns
@@ -544,7 +566,7 @@ func (j *jsiiProxy_DataAzurermWebPubsub) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/web_pubsub azurerm_web_pubsub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/web_pubsub azurerm_web_pubsub} Data Source.
 func NewDataAzurermWebPubsub(scope constructs.Construct, id *string, config *DataAzurermWebPubsubConfig) DataAzurermWebPubsub {
 	_init_.Initialize()
 
@@ -562,7 +584,7 @@ func NewDataAzurermWebPubsub(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/web_pubsub azurerm_web_pubsub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/web_pubsub azurerm_web_pubsub} Data Source.
 func NewDataAzurermWebPubsub_Override(d DataAzurermWebPubsub, scope constructs.Construct, id *string, config *DataAzurermWebPubsubConfig) {
 	_init_.Initialize()
 

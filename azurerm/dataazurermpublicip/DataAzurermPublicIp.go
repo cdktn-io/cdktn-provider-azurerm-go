@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/public_ip azurerm_public_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/public_ip azurerm_public_ip}.
 type DataAzurermPublicIp interface {
 	cdktn.TerraformDataSource
 	AllocationMethod() *string
@@ -31,6 +31,8 @@ type DataAzurermPublicIp interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DomainNameLabel() *string
+	DomainNameLabelScope() *string
+	EdgeZone() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -61,6 +63,7 @@ type DataAzurermPublicIp interface {
 	Provider() cdktn.TerraformProvider
 	// Experimental.
 	SetProvider(val cdktn.TerraformProvider)
+	PublicIpPrefixId() *string
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -68,6 +71,7 @@ type DataAzurermPublicIp interface {
 	ResourceGroupNameInput() *string
 	ReverseFqdn() *string
 	Sku() *string
+	SkuTier() *string
 	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -225,6 +229,26 @@ func (j *jsiiProxy_DataAzurermPublicIp) DomainNameLabel() *string {
 	_jsii_.Get(
 		j,
 		"domainNameLabel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermPublicIp) DomainNameLabelScope() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"domainNameLabelScope",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermPublicIp) EdgeZone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"edgeZone",
 		&returns,
 	)
 	return returns
@@ -390,6 +414,16 @@ func (j *jsiiProxy_DataAzurermPublicIp) Provider() cdktn.TerraformProvider {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermPublicIp) PublicIpPrefixId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"publicIpPrefixId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermPublicIp) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -435,6 +469,16 @@ func (j *jsiiProxy_DataAzurermPublicIp) Sku() *string {
 	_jsii_.Get(
 		j,
 		"sku",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermPublicIp) SkuTier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"skuTier",
 		&returns,
 	)
 	return returns
@@ -511,7 +555,7 @@ func (j *jsiiProxy_DataAzurermPublicIp) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/public_ip azurerm_public_ip} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/public_ip azurerm_public_ip} Data Source.
 func NewDataAzurermPublicIp(scope constructs.Construct, id *string, config *DataAzurermPublicIpConfig) DataAzurermPublicIp {
 	_init_.Initialize()
 
@@ -529,7 +573,7 @@ func NewDataAzurermPublicIp(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/public_ip azurerm_public_ip} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/public_ip azurerm_public_ip} Data Source.
 func NewDataAzurermPublicIp_Override(d DataAzurermPublicIp, scope constructs.Construct, id *string, config *DataAzurermPublicIpConfig) {
 	_init_.Initialize()
 

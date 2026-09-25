@@ -12,14 +12,16 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/signalr_service azurerm_signalr_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/signalr_service azurerm_signalr_service}.
 type DataAzurermSignalrService interface {
 	cdktn.TerraformDataSource
 	AadAuthEnabled() cdktn.IResolvable
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ConnectivityLogsEnabled() cdktn.IResolvable
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
+	Cors() DataAzurermSignalrServiceCorsList
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -37,16 +39,20 @@ type DataAzurermSignalrService interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Hostname() *string
+	HttpRequestLogsEnabled() cdktn.IResolvable
 	Id() *string
 	SetId(val *string)
+	Identity() DataAzurermSignalrServiceIdentityList
 	IdInput() *string
 	IpAddress() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LiveTrace() DataAzurermSignalrServiceLiveTraceList
 	LocalAuthEnabled() cdktn.IResolvable
 	Location() *string
+	MessagingLogsEnabled() cdktn.IResolvable
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -69,6 +75,8 @@ type DataAzurermSignalrService interface {
 	SecondaryConnectionString() *string
 	ServerlessConnectionTimeoutInSeconds() *float64
 	ServerPort() *float64
+	ServiceMode() *string
+	Sku() DataAzurermSignalrServiceSkuList
 	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -79,6 +87,7 @@ type DataAzurermSignalrService interface {
 	Timeouts() DataAzurermSignalrServiceTimeoutsOutputReference
 	TimeoutsInput() interface{}
 	TlsClientCertEnabled() cdktn.IResolvable
+	UpstreamEndpoint() DataAzurermSignalrServiceUpstreamEndpointList
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
@@ -171,11 +180,31 @@ func (j *jsiiProxy_DataAzurermSignalrService) CdktfStack() cdktn.TerraformStack 
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermSignalrService) ConnectivityLogsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"connectivityLogsEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermSignalrService) ConstructNodeMetadata() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
 		j,
 		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermSignalrService) Cors() DataAzurermSignalrServiceCorsList {
+	var returns DataAzurermSignalrServiceCorsList
+	_jsii_.Get(
+		j,
+		"cors",
 		&returns,
 	)
 	return returns
@@ -241,11 +270,31 @@ func (j *jsiiProxy_DataAzurermSignalrService) Hostname() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermSignalrService) HttpRequestLogsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"httpRequestLogsEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermSignalrService) Id() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermSignalrService) Identity() DataAzurermSignalrServiceIdentityList {
+	var returns DataAzurermSignalrServiceIdentityList
+	_jsii_.Get(
+		j,
+		"identity",
 		&returns,
 	)
 	return returns
@@ -281,6 +330,16 @@ func (j *jsiiProxy_DataAzurermSignalrService) Lifecycle() *cdktn.TerraformResour
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermSignalrService) LiveTrace() DataAzurermSignalrServiceLiveTraceList {
+	var returns DataAzurermSignalrServiceLiveTraceList
+	_jsii_.Get(
+		j,
+		"liveTrace",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermSignalrService) LocalAuthEnabled() cdktn.IResolvable {
 	var returns cdktn.IResolvable
 	_jsii_.Get(
@@ -296,6 +355,16 @@ func (j *jsiiProxy_DataAzurermSignalrService) Location() *string {
 	_jsii_.Get(
 		j,
 		"location",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermSignalrService) MessagingLogsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"messagingLogsEnabled",
 		&returns,
 	)
 	return returns
@@ -451,6 +520,26 @@ func (j *jsiiProxy_DataAzurermSignalrService) ServerPort() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermSignalrService) ServiceMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermSignalrService) Sku() DataAzurermSignalrServiceSkuList {
+	var returns DataAzurermSignalrServiceSkuList
+	_jsii_.Get(
+		j,
+		"sku",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermSignalrService) Tags() cdktn.StringMap {
 	var returns cdktn.StringMap
 	_jsii_.Get(
@@ -521,8 +610,18 @@ func (j *jsiiProxy_DataAzurermSignalrService) TlsClientCertEnabled() cdktn.IReso
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermSignalrService) UpstreamEndpoint() DataAzurermSignalrServiceUpstreamEndpointList {
+	var returns DataAzurermSignalrServiceUpstreamEndpointList
+	_jsii_.Get(
+		j,
+		"upstreamEndpoint",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/signalr_service azurerm_signalr_service} Data Source.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/signalr_service azurerm_signalr_service} Data Source.
 func NewDataAzurermSignalrService(scope constructs.Construct, id *string, config *DataAzurermSignalrServiceConfig) DataAzurermSignalrService {
 	_init_.Initialize()
 
@@ -540,7 +639,7 @@ func NewDataAzurermSignalrService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/signalr_service azurerm_signalr_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/signalr_service azurerm_signalr_service} Data Source.
 func NewDataAzurermSignalrService_Override(d DataAzurermSignalrService, scope constructs.Construct, id *string, config *DataAzurermSignalrServiceConfig) {
 	_init_.Initialize()
 

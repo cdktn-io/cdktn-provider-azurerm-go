@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace}.
 type StorageDiscoveryWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -579,7 +579,7 @@ func (j *jsiiProxy_StorageDiscoveryWorkspace) WorkspaceRootsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace} Resource.
 func NewStorageDiscoveryWorkspace(scope constructs.Construct, id *string, config *StorageDiscoveryWorkspaceConfig) StorageDiscoveryWorkspace {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewStorageDiscoveryWorkspace(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace} Resource.
 func NewStorageDiscoveryWorkspace_Override(s StorageDiscoveryWorkspace, scope constructs.Construct, id *string, config *StorageDiscoveryWorkspaceConfig) {
 	_init_.Initialize()
 
