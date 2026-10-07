@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
 type OracleAutonomousDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -104,6 +104,7 @@ type OracleAutonomousDatabase interface {
 	NationalCharacterSetInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Ocid() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -766,6 +767,16 @@ func (j *jsiiProxy_OracleAutonomousDatabase) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_OracleAutonomousDatabase) Ocid() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ocid",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OracleAutonomousDatabase) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -927,7 +938,7 @@ func (j *jsiiProxy_OracleAutonomousDatabase) VirtualNetworkIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
 func NewOracleAutonomousDatabase(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseConfig) OracleAutonomousDatabase {
 	_init_.Initialize()
 
@@ -945,7 +956,7 @@ func NewOracleAutonomousDatabase(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
 func NewOracleAutonomousDatabase_Override(o OracleAutonomousDatabase, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseConfig) {
 	_init_.Initialize()
 
