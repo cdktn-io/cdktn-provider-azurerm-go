@@ -13,6 +13,7 @@ import (
 
 type DataAzurermApplicationGatewaySslProfileOutputReference interface {
 	cdktn.ComplexObject
+	ClientAuthenticationMode() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -83,6 +84,16 @@ type DataAzurermApplicationGatewaySslProfileOutputReference interface {
 // The jsii proxy struct for DataAzurermApplicationGatewaySslProfileOutputReference
 type jsiiProxy_DataAzurermApplicationGatewaySslProfileOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAzurermApplicationGatewaySslProfileOutputReference) ClientAuthenticationMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientAuthenticationMode",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAzurermApplicationGatewaySslProfileOutputReference) ComplexObjectIndex() interface{} {

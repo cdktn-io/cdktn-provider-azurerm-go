@@ -2258,6 +2258,8 @@ func init() {
 		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileOutputReference",
 		reflect.TypeOf((*ApplicationGatewaySslProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "clientAuthenticationMode", GoGetter: "ClientAuthenticationMode"},
+			_jsii_.MemberProperty{JsiiProperty: "clientAuthenticationModeInput", GoGetter: "ClientAuthenticationModeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2279,6 +2281,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putSslPolicy", GoMethod: "PutSslPolicy"},
+			_jsii_.MemberMethod{JsiiMethod: "resetClientAuthenticationMode", GoMethod: "ResetClientAuthenticationMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSslPolicy", GoMethod: "ResetSslPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTrustedClientCertificateNames", GoMethod: "ResetTrustedClientCertificateNames"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVerifyClientCertificateIssuerDn", GoMethod: "ResetVerifyClientCertificateIssuerDn"},

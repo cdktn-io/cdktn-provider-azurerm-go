@@ -55,6 +55,10 @@ func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateResolveP
 	return nil
 }
 
+func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateSetClientAuthenticationModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

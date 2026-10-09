@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/oracle_autonomous_database_cross_region_disaster_recovery azurerm_oracle_autonomous_database_cross_region_disaster_recovery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/oracle_autonomous_database_cross_region_disaster_recovery azurerm_oracle_autonomous_database_cross_region_disaster_recovery}.
 type OracleAutonomousDatabaseCrossRegionDisasterRecovery interface {
 	cdktn.TerraformResource
 	AutoScalingEnabled() cdktn.IResolvable
@@ -732,7 +732,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseCrossRegionDisasterRecovery) Timeouts
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/oracle_autonomous_database_cross_region_disaster_recovery azurerm_oracle_autonomous_database_cross_region_disaster_recovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/oracle_autonomous_database_cross_region_disaster_recovery azurerm_oracle_autonomous_database_cross_region_disaster_recovery} Resource.
 func NewOracleAutonomousDatabaseCrossRegionDisasterRecovery(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCrossRegionDisasterRecoveryConfig) OracleAutonomousDatabaseCrossRegionDisasterRecovery {
 	_init_.Initialize()
 
@@ -750,7 +750,7 @@ func NewOracleAutonomousDatabaseCrossRegionDisasterRecovery(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/oracle_autonomous_database_cross_region_disaster_recovery azurerm_oracle_autonomous_database_cross_region_disaster_recovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/oracle_autonomous_database_cross_region_disaster_recovery azurerm_oracle_autonomous_database_cross_region_disaster_recovery} Resource.
 func NewOracleAutonomousDatabaseCrossRegionDisasterRecovery_Override(o OracleAutonomousDatabaseCrossRegionDisasterRecovery, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCrossRegionDisasterRecoveryConfig) {
 	_init_.Initialize()
 

@@ -63,6 +63,10 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) validateSetCreatedWithinDaysParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) validateSetExcludePrefixesParameters(val *[]*string) error {
 	return nil
 }

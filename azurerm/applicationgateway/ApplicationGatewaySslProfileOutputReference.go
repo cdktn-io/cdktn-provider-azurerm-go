@@ -13,6 +13,9 @@ import (
 
 type ApplicationGatewaySslProfileOutputReference interface {
 	cdktn.ComplexObject
+	ClientAuthenticationMode() *string
+	SetClientAuthenticationMode(val *string)
+	ClientAuthenticationModeInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -80,6 +83,7 @@ type ApplicationGatewaySslProfileOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSslPolicy(value *ApplicationGatewaySslProfileSslPolicy)
+	ResetClientAuthenticationMode()
 	ResetSslPolicy()
 	ResetTrustedClientCertificateNames()
 	ResetVerifyClientCertificateIssuerDn()
@@ -97,6 +101,26 @@ type ApplicationGatewaySslProfileOutputReference interface {
 // The jsii proxy struct for ApplicationGatewaySslProfileOutputReference
 type jsiiProxy_ApplicationGatewaySslProfileOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) ClientAuthenticationMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientAuthenticationMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) ClientAuthenticationModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientAuthenticationModeInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) ComplexObjectIndex() interface{} {
@@ -304,6 +328,17 @@ func NewApplicationGatewaySslProfileOutputReference_Override(a ApplicationGatewa
 		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
+	)
+}
+
+func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference)SetClientAuthenticationMode(val *string) {
+	if err := j.validateSetClientAuthenticationModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clientAuthenticationMode",
+		val,
 	)
 }
 
@@ -600,6 +635,14 @@ func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) PutSslPolicy(val
 		a,
 		"putSslPolicy",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) ResetClientAuthenticationMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetClientAuthenticationMode",
+		nil, // no parameters
 	)
 }
 

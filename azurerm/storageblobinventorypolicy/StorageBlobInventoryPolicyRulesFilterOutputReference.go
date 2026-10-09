@@ -26,6 +26,9 @@ type StorageBlobInventoryPolicyRulesFilterOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	CreatedWithinDays() *float64
+	SetCreatedWithinDays(val *float64)
+	CreatedWithinDaysInput() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -82,6 +85,7 @@ type StorageBlobInventoryPolicyRulesFilterOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetCreatedWithinDays()
 	ResetExcludePrefixes()
 	ResetIncludeBlobVersions()
 	ResetIncludeDeleted()
@@ -137,6 +141,26 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) Complex
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) CreatedWithinDays() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"createdWithinDays",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) CreatedWithinDaysInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"createdWithinDaysInput",
 		&returns,
 	)
 	return returns
@@ -349,6 +373,17 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference)SetCompl
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference)SetCreatedWithinDays(val *float64) {
+	if err := j.validateSetCreatedWithinDaysParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"createdWithinDays",
 		val,
 	)
 }
@@ -625,6 +660,14 @@ func (s *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) Interpo
 	)
 
 	return returns
+}
+
+func (s *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) ResetCreatedWithinDays() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetCreatedWithinDays",
+		nil, // no parameters
+	)
 }
 
 func (s *jsiiProxy_StorageBlobInventoryPolicyRulesFilterOutputReference) ResetExcludePrefixes() {
