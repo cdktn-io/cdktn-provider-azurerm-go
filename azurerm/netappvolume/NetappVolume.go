@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/netapp_volume azurerm_netapp_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/netapp_volume azurerm_netapp_volume}.
 type NetappVolume interface {
 	cdktn.TerraformResource
 	AcceptGrowCapacityPoolForShortTermCloneSplit() *string
@@ -157,6 +157,9 @@ type NetappVolume interface {
 	ThroughputInMibpsInput() *float64
 	Timeouts() NetappVolumeTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	UnixPermissions() *string
+	SetUnixPermissions(val *string)
+	UnixPermissionsInput() *string
 	VolumePath() *string
 	SetVolumePath(val *string)
 	VolumePathInput() *string
@@ -291,6 +294,7 @@ type NetappVolume interface {
 	ResetTags()
 	ResetThroughputInMibps()
 	ResetTimeouts()
+	ResetUnixPermissions()
 	ResetZone()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -1169,6 +1173,26 @@ func (j *jsiiProxy_NetappVolume) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_NetappVolume) UnixPermissions() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"unixPermissions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolume) UnixPermissionsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"unixPermissionsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappVolume) VolumePath() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1210,7 +1234,7 @@ func (j *jsiiProxy_NetappVolume) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
 func NewNetappVolume(scope constructs.Construct, id *string, config *NetappVolumeConfig) NetappVolume {
 	_init_.Initialize()
 
@@ -1228,7 +1252,7 @@ func NewNetappVolume(scope constructs.Construct, id *string, config *NetappVolum
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
 func NewNetappVolume_Override(n NetappVolume, scope constructs.Construct, id *string, config *NetappVolumeConfig) {
 	_init_.Initialize()
 
@@ -1600,6 +1624,17 @@ func (j *jsiiProxy_NetappVolume)SetThroughputInMibps(val *float64) {
 	_jsii_.Set(
 		j,
 		"throughputInMibps",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolume)SetUnixPermissions(val *string) {
+	if err := j.validateSetUnixPermissionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"unixPermissions",
 		val,
 	)
 }
@@ -2295,6 +2330,14 @@ func (n *jsiiProxy_NetappVolume) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolume) ResetUnixPermissions() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetUnixPermissions",
 		nil, // no parameters
 	)
 }

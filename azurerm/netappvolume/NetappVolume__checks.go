@@ -828,6 +828,14 @@ func (j *jsiiProxy_NetappVolume) validateSetThroughputInMibpsParameters(val *flo
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolume) validateSetUnixPermissionsParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolume) validateSetVolumePathParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

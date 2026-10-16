@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain}.
 type EventgridDomain interface {
 	cdktn.TerraformResource
 	AutoCreateTopicWithFirstSubscription() interface{}
@@ -33,6 +33,9 @@ type EventgridDomain interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DataResidencyBoundary() *string
+	SetDataResidencyBoundary(val *string)
+	DataResidencyBoundaryInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -70,6 +73,9 @@ type EventgridDomain interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MinimumTlsVersion() *string
+	SetMinimumTlsVersion(val *string)
+	MinimumTlsVersionInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -203,6 +209,7 @@ type EventgridDomain interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAutoCreateTopicWithFirstSubscription()
 	ResetAutoDeleteTopicWithLastSubscription()
+	ResetDataResidencyBoundary()
 	ResetId()
 	ResetIdentity()
 	ResetInboundIpRule()
@@ -210,6 +217,7 @@ type EventgridDomain interface {
 	ResetInputMappingFields()
 	ResetInputSchema()
 	ResetLocalAuthEnabled()
+	ResetMinimumTlsVersion()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -318,6 +326,26 @@ func (j *jsiiProxy_EventgridDomain) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventgridDomain) DataResidencyBoundary() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataResidencyBoundary",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventgridDomain) DataResidencyBoundaryInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataResidencyBoundaryInput",
 		&returns,
 	)
 	return returns
@@ -543,6 +571,26 @@ func (j *jsiiProxy_EventgridDomain) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_EventgridDomain) MinimumTlsVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventgridDomain) MinimumTlsVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EventgridDomain) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -734,7 +782,7 @@ func (j *jsiiProxy_EventgridDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.
 func NewEventgridDomain(scope constructs.Construct, id *string, config *EventgridDomainConfig) EventgridDomain {
 	_init_.Initialize()
 
@@ -752,7 +800,7 @@ func NewEventgridDomain(scope constructs.Construct, id *string, config *Eventgri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.
 func NewEventgridDomain_Override(e EventgridDomain, scope constructs.Construct, id *string, config *EventgridDomainConfig) {
 	_init_.Initialize()
 
@@ -803,6 +851,17 @@ func (j *jsiiProxy_EventgridDomain)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EventgridDomain)SetDataResidencyBoundary(val *string) {
+	if err := j.validateSetDataResidencyBoundaryParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataResidencyBoundary",
 		val,
 	)
 }
@@ -874,6 +933,17 @@ func (j *jsiiProxy_EventgridDomain)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EventgridDomain)SetMinimumTlsVersion(val *string) {
+	if err := j.validateSetMinimumTlsVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minimumTlsVersion",
 		val,
 	)
 }
@@ -1392,6 +1462,14 @@ func (e *jsiiProxy_EventgridDomain) ResetAutoDeleteTopicWithLastSubscription() {
 	)
 }
 
+func (e *jsiiProxy_EventgridDomain) ResetDataResidencyBoundary() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDataResidencyBoundary",
+		nil, // no parameters
+	)
+}
+
 func (e *jsiiProxy_EventgridDomain) ResetId() {
 	_jsii_.InvokeVoid(
 		e,
@@ -1444,6 +1522,14 @@ func (e *jsiiProxy_EventgridDomain) ResetLocalAuthEnabled() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetLocalAuthEnabled",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EventgridDomain) ResetMinimumTlsVersion() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetMinimumTlsVersion",
 		nil, // no parameters
 	)
 }

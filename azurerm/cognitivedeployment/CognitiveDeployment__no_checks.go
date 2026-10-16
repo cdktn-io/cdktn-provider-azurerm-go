@@ -147,6 +147,10 @@ func (j *jsiiProxy_CognitiveDeployment) validateSetRaiPolicyNameParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_CognitiveDeployment) validateSetSpilloverDeploymentNameParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CognitiveDeployment) validateSetVersionUpgradeOptionParameters(val *string) error {
 	return nil
 }

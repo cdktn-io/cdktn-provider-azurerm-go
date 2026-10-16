@@ -127,6 +127,10 @@ func (j *jsiiProxy_EventgridTopic) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_EventgridTopic) validateSetDataResidencyBoundaryParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EventgridTopic) validateSetIdParameters(val *string) error {
 	return nil
 }
@@ -144,6 +148,10 @@ func (j *jsiiProxy_EventgridTopic) validateSetLocalAuthEnabledParameters(val int
 }
 
 func (j *jsiiProxy_EventgridTopic) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EventgridTopic) validateSetMinimumTlsVersionParameters(val *string) error {
 	return nil
 }
 

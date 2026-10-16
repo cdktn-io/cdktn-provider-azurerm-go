@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/shared_image_version azurerm_shared_image_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version azurerm_shared_image_version}.
 type SharedImageVersion interface {
 	cdktn.TerraformResource
 	BlobUri() *string
@@ -110,6 +110,8 @@ type SharedImageVersion interface {
 	TerraformResourceType() *string
 	Timeouts() SharedImageVersionTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	Uefi() SharedImageVersionUefiOutputReference
+	UefiInput() *SharedImageVersionUefi
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -191,6 +193,7 @@ type SharedImageVersion interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTargetRegion(value interface{})
 	PutTimeouts(value *SharedImageVersionTimeouts)
+	PutUefi(value *SharedImageVersionUefi)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -218,6 +221,7 @@ type SharedImageVersion interface {
 	ResetStorageAccountId()
 	ResetTags()
 	ResetTimeouts()
+	ResetUefi()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -745,8 +749,28 @@ func (j *jsiiProxy_SharedImageVersion) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_SharedImageVersion) Uefi() SharedImageVersionUefiOutputReference {
+	var returns SharedImageVersionUefiOutputReference
+	_jsii_.Get(
+		j,
+		"uefi",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
+func (j *jsiiProxy_SharedImageVersion) UefiInput() *SharedImageVersionUefi {
+	var returns *SharedImageVersionUefi
+	_jsii_.Get(
+		j,
+		"uefiInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
 func NewSharedImageVersion(scope constructs.Construct, id *string, config *SharedImageVersionConfig) SharedImageVersion {
 	_init_.Initialize()
 
@@ -764,7 +788,7 @@ func NewSharedImageVersion(scope constructs.Construct, id *string, config *Share
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
 func NewSharedImageVersion_Override(s SharedImageVersion, scope constructs.Construct, id *string, config *SharedImageVersionConfig) {
 	_init_.Initialize()
 
@@ -1399,6 +1423,17 @@ func (s *jsiiProxy_SharedImageVersion) PutTimeouts(value *SharedImageVersionTime
 	)
 }
 
+func (s *jsiiProxy_SharedImageVersion) PutUefi(value *SharedImageVersionUefi) {
+	if err := s.validatePutUefiParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putUefi",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SharedImageVersion) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := s.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1502,6 +1537,14 @@ func (s *jsiiProxy_SharedImageVersion) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SharedImageVersion) ResetUefi() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetUefi",
 		nil, // no parameters
 	)
 }

@@ -251,6 +251,10 @@ func (j *jsiiProxy_NetappVolume) validateSetThroughputInMibpsParameters(val *flo
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolume) validateSetUnixPermissionsParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolume) validateSetVolumePathParameters(val *string) error {
 	return nil
 }

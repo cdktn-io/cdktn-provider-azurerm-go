@@ -468,6 +468,14 @@ func (j *jsiiProxy_EventgridDomain) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_EventgridDomain) validateSetDataResidencyBoundaryParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_EventgridDomain) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -513,6 +521,14 @@ func (j *jsiiProxy_EventgridDomain) validateSetLocalAuthEnabledParameters(val in
 }
 
 func (j *jsiiProxy_EventgridDomain) validateSetLocationParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_EventgridDomain) validateSetMinimumTlsVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

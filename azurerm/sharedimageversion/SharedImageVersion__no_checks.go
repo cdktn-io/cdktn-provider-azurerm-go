@@ -87,6 +87,10 @@ func (s *jsiiProxy_SharedImageVersion) validatePutTimeoutsParameters(value *Shar
 	return nil
 }
 
+func (s *jsiiProxy_SharedImageVersion) validatePutUefiParameters(value *SharedImageVersionUefi) error {
+	return nil
+}
+
 func (s *jsiiProxy_SharedImageVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

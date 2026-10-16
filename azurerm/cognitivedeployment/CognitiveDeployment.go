@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/cognitive_deployment azurerm_cognitive_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/cognitive_deployment azurerm_cognitive_deployment}.
 type CognitiveDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -74,6 +74,9 @@ type CognitiveDeployment interface {
 	RawOverrides() interface{}
 	Sku() CognitiveDeploymentSkuOutputReference
 	SkuInput() *CognitiveDeploymentSku
+	SpilloverDeploymentName() *string
+	SetSpilloverDeploymentName(val *string)
+	SpilloverDeploymentNameInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -186,6 +189,7 @@ type CognitiveDeployment interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRaiPolicyName()
+	ResetSpilloverDeploymentName()
 	ResetTimeouts()
 	ResetVersionUpgradeOption()
 	SynthesizeAttributes() *map[string]interface{}
@@ -485,6 +489,26 @@ func (j *jsiiProxy_CognitiveDeployment) SkuInput() *CognitiveDeploymentSku {
 	return returns
 }
 
+func (j *jsiiProxy_CognitiveDeployment) SpilloverDeploymentName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spilloverDeploymentName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CognitiveDeployment) SpilloverDeploymentNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spilloverDeploymentNameInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CognitiveDeployment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -556,7 +580,7 @@ func (j *jsiiProxy_CognitiveDeployment) VersionUpgradeOptionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/cognitive_deployment azurerm_cognitive_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/cognitive_deployment azurerm_cognitive_deployment} Resource.
 func NewCognitiveDeployment(scope constructs.Construct, id *string, config *CognitiveDeploymentConfig) CognitiveDeployment {
 	_init_.Initialize()
 
@@ -574,7 +598,7 @@ func NewCognitiveDeployment(scope constructs.Construct, id *string, config *Cogn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/cognitive_deployment azurerm_cognitive_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/cognitive_deployment azurerm_cognitive_deployment} Resource.
 func NewCognitiveDeployment_Override(c CognitiveDeployment, scope constructs.Construct, id *string, config *CognitiveDeploymentConfig) {
 	_init_.Initialize()
 
@@ -704,6 +728,17 @@ func (j *jsiiProxy_CognitiveDeployment)SetRaiPolicyName(val *string) {
 	_jsii_.Set(
 		j,
 		"raiPolicyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CognitiveDeployment)SetSpilloverDeploymentName(val *string) {
+	if err := j.validateSetSpilloverDeploymentNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"spilloverDeploymentName",
 		val,
 	)
 }
@@ -1160,6 +1195,14 @@ func (c *jsiiProxy_CognitiveDeployment) ResetRaiPolicyName() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetRaiPolicyName",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CognitiveDeployment) ResetSpilloverDeploymentName() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSpilloverDeploymentName",
 		nil, // no parameters
 	)
 }
