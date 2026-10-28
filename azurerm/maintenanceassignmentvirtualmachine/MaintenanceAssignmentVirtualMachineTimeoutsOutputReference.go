@@ -5,9 +5,9 @@ package maintenanceassignmentvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/maintenanceassignmentvirtualmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/maintenanceassignmentvirtualmachine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

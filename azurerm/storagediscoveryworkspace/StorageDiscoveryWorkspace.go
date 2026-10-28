@@ -5,14 +5,14 @@ package storagediscoveryworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storagediscoveryworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/storagediscoveryworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace}.
 type StorageDiscoveryWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -579,7 +579,7 @@ func (j *jsiiProxy_StorageDiscoveryWorkspace) WorkspaceRootsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace} Resource.
 func NewStorageDiscoveryWorkspace(scope constructs.Construct, id *string, config *StorageDiscoveryWorkspaceConfig) StorageDiscoveryWorkspace {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewStorageDiscoveryWorkspace(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_discovery_workspace azurerm_storage_discovery_workspace} Resource.
 func NewStorageDiscoveryWorkspace_Override(s StorageDiscoveryWorkspace, scope constructs.Construct, id *string, config *StorageDiscoveryWorkspaceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package hdinsightsparkcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/hdinsightsparkcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/hdinsightsparkcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster}.
 type HdinsightSparkCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -933,7 +933,7 @@ func (j *jsiiProxy_HdinsightSparkCluster) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
 func NewHdinsightSparkCluster(scope constructs.Construct, id *string, config *HdinsightSparkClusterConfig) HdinsightSparkCluster {
 	_init_.Initialize()
 
@@ -951,7 +951,7 @@ func NewHdinsightSparkCluster(scope constructs.Construct, id *string, config *Hd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
 func NewHdinsightSparkCluster_Override(h HdinsightSparkCluster, scope constructs.Construct, id *string, config *HdinsightSparkClusterConfig) {
 	_init_.Initialize()
 

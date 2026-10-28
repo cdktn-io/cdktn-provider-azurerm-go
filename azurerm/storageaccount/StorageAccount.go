@@ -5,14 +5,14 @@ package storageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/storageaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_account azurerm_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_account azurerm_storage_account}.
 type StorageAccount interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -2113,7 +2113,7 @@ func (j *jsiiProxy_StorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAccountConfig) StorageAccount {
 	_init_.Initialize()
 
@@ -2131,7 +2131,7 @@ func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount_Override(s StorageAccount, scope constructs.Construct, id *string, config *StorageAccountConfig) {
 	_init_.Initialize()
 

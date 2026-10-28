@@ -5,14 +5,14 @@ package appservicesourcecontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/appservicesourcecontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/appservicesourcecontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/app_service_source_control azurerm_app_service_source_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/app_service_source_control azurerm_app_service_source_control}.
 type AppServiceSourceControl interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_AppServiceSourceControl) UsesGithubAction() cdktn.IResolvable
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/app_service_source_control azurerm_app_service_source_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/app_service_source_control azurerm_app_service_source_control} Resource.
 func NewAppServiceSourceControl(scope constructs.Construct, id *string, config *AppServiceSourceControlConfig) AppServiceSourceControl {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewAppServiceSourceControl(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/app_service_source_control azurerm_app_service_source_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/app_service_source_control azurerm_app_service_source_control} Resource.
 func NewAppServiceSourceControl_Override(a AppServiceSourceControl, scope constructs.Construct, id *string, config *AppServiceSourceControlConfig) {
 	_init_.Initialize()
 

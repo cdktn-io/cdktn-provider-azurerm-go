@@ -5,14 +5,14 @@ package privatednssrvrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/privatednssrvrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/privatednssrvrecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record}.
 type PrivateDnsSrvRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_PrivateDnsSrvRecord) TtlInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record} Resource.
 func NewPrivateDnsSrvRecord(scope constructs.Construct, id *string, config *PrivateDnsSrvRecordConfig) PrivateDnsSrvRecord {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewPrivateDnsSrvRecord(scope constructs.Construct, id *string, config *Priv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record} Resource.
 func NewPrivateDnsSrvRecord_Override(p PrivateDnsSrvRecord, scope constructs.Construct, id *string, config *PrivateDnsSrvRecordConfig) {
 	_init_.Initialize()
 

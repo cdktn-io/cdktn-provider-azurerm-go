@@ -5,14 +5,14 @@ package subnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/subnet/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/subnet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/subnet azurerm_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/subnet azurerm_subnet}.
 type Subnet interface {
 	cdktn.TerraformResource
 	AddressPrefixes() *[]*string
@@ -799,7 +799,7 @@ func (j *jsiiProxy_Subnet) VirtualNetworkNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/subnet azurerm_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/subnet azurerm_subnet} Resource.
 func NewSubnet(scope constructs.Construct, id *string, config *SubnetConfig) Subnet {
 	_init_.Initialize()
 
@@ -817,7 +817,7 @@ func NewSubnet(scope constructs.Construct, id *string, config *SubnetConfig) Sub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/subnet azurerm_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/subnet azurerm_subnet} Resource.
 func NewSubnet_Override(s Subnet, scope constructs.Construct, id *string, config *SubnetConfig) {
 	_init_.Initialize()
 

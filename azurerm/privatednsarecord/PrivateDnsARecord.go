@@ -5,14 +5,14 @@ package privatednsarecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/privatednsarecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/privatednsarecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/private_dns_a_record azurerm_private_dns_a_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/private_dns_a_record azurerm_private_dns_a_record}.
 type PrivateDnsARecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_PrivateDnsARecord) TtlInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/private_dns_a_record azurerm_private_dns_a_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/private_dns_a_record azurerm_private_dns_a_record} Resource.
 func NewPrivateDnsARecord(scope constructs.Construct, id *string, config *PrivateDnsARecordConfig) PrivateDnsARecord {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewPrivateDnsARecord(scope constructs.Construct, id *string, config *Privat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/private_dns_a_record azurerm_private_dns_a_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/private_dns_a_record azurerm_private_dns_a_record} Resource.
 func NewPrivateDnsARecord_Override(p PrivateDnsARecord, scope constructs.Construct, id *string, config *PrivateDnsARecordConfig) {
 	_init_.Initialize()
 

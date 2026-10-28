@@ -5,14 +5,14 @@ package eventgridtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/eventgridtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/eventgridtopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_topic azurerm_eventgrid_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_topic azurerm_eventgrid_topic}.
 type EventgridTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -734,7 +734,7 @@ func (j *jsiiProxy_EventgridTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_topic azurerm_eventgrid_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_topic azurerm_eventgrid_topic} Resource.
 func NewEventgridTopic(scope constructs.Construct, id *string, config *EventgridTopicConfig) EventgridTopic {
 	_init_.Initialize()
 
@@ -752,7 +752,7 @@ func NewEventgridTopic(scope constructs.Construct, id *string, config *Eventgrid
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_topic azurerm_eventgrid_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_topic azurerm_eventgrid_topic} Resource.
 func NewEventgridTopic_Override(e EventgridTopic, scope constructs.Construct, id *string, config *EventgridTopicConfig) {
 	_init_.Initialize()
 

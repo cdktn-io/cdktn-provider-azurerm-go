@@ -5,14 +5,14 @@ package windowsvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/windowsvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/windowsvirtualmachinescaleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set}.
 type WindowsVirtualMachineScaleSet interface {
 	cdktn.TerraformResource
 	AdditionalCapabilities() WindowsVirtualMachineScaleSetAdditionalCapabilitiesOutputReference
@@ -1762,7 +1762,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
 func NewWindowsVirtualMachineScaleSet(scope constructs.Construct, id *string, config *WindowsVirtualMachineScaleSetConfig) WindowsVirtualMachineScaleSet {
 	_init_.Initialize()
 
@@ -1780,7 +1780,7 @@ func NewWindowsVirtualMachineScaleSet(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
 func NewWindowsVirtualMachineScaleSet_Override(w WindowsVirtualMachineScaleSet, scope constructs.Construct, id *string, config *WindowsVirtualMachineScaleSetConfig) {
 	_init_.Initialize()
 

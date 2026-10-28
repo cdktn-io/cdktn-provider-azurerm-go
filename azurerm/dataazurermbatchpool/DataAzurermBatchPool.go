@@ -5,14 +5,14 @@ package dataazurermbatchpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermbatchpool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/dataazurermbatchpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/batch_pool azurerm_batch_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/batch_pool azurerm_batch_pool}.
 type DataAzurermBatchPool interface {
 	cdktn.TerraformDataSource
 	AccountName() *string
@@ -622,7 +622,7 @@ func (j *jsiiProxy_DataAzurermBatchPool) Windows() DataAzurermBatchPoolWindowsLi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/batch_pool azurerm_batch_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/batch_pool azurerm_batch_pool} Data Source.
 func NewDataAzurermBatchPool(scope constructs.Construct, id *string, config *DataAzurermBatchPoolConfig) DataAzurermBatchPool {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewDataAzurermBatchPool(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/batch_pool azurerm_batch_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/batch_pool azurerm_batch_pool} Data Source.
 func NewDataAzurermBatchPool_Override(d DataAzurermBatchPool, scope constructs.Construct, id *string, config *DataAzurermBatchPoolConfig) {
 	_init_.Initialize()
 

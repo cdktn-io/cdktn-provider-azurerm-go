@@ -5,14 +5,14 @@ package virtualnetworkdnsservers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualnetworkdnsservers/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/virtualnetworkdnsservers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers}.
 type VirtualNetworkDnsServers interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_VirtualNetworkDnsServers) VirtualNetworkIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers} Resource.
 func NewVirtualNetworkDnsServers(scope constructs.Construct, id *string, config *VirtualNetworkDnsServersConfig) VirtualNetworkDnsServers {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewVirtualNetworkDnsServers(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers} Resource.
 func NewVirtualNetworkDnsServers_Override(v VirtualNetworkDnsServers, scope constructs.Construct, id *string, config *VirtualNetworkDnsServersConfig) {
 	_init_.Initialize()
 

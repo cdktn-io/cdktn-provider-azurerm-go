@@ -5,14 +5,14 @@ package eventgrideventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/eventgrideventsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/eventgrideventsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription}.
 type EventgridEventSubscription interface {
 	cdktn.TerraformResource
 	AdvancedFilter() EventgridEventSubscriptionAdvancedFilterOutputReference
@@ -894,7 +894,7 @@ func (j *jsiiProxy_EventgridEventSubscription) WebhookEndpointInput() *Eventgrid
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
 func NewEventgridEventSubscription(scope constructs.Construct, id *string, config *EventgridEventSubscriptionConfig) EventgridEventSubscription {
 	_init_.Initialize()
 
@@ -912,7 +912,7 @@ func NewEventgridEventSubscription(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
 func NewEventgridEventSubscription_Override(e EventgridEventSubscription, scope constructs.Construct, id *string, config *EventgridEventSubscriptionConfig) {
 	_init_.Initialize()
 

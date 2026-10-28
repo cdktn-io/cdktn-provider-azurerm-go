@@ -163,6 +163,10 @@ func (j *jsiiProxy_ApiManagementApiDiagnostic) validateSetLogClientIpParameters(
 	return nil
 }
 
+func (j *jsiiProxy_ApiManagementApiDiagnostic) validateSetMetricsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApiManagementApiDiagnostic) validateSetOperationNameFormatParameters(val *string) error {
 	return nil
 }

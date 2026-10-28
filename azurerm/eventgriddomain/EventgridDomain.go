@@ -5,14 +5,14 @@ package eventgriddomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/eventgriddomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/eventgriddomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain}.
 type EventgridDomain interface {
 	cdktn.TerraformResource
 	AutoCreateTopicWithFirstSubscription() interface{}
@@ -782,7 +782,7 @@ func (j *jsiiProxy_EventgridDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.
 func NewEventgridDomain(scope constructs.Construct, id *string, config *EventgridDomainConfig) EventgridDomain {
 	_init_.Initialize()
 
@@ -800,7 +800,7 @@ func NewEventgridDomain(scope constructs.Construct, id *string, config *Eventgri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.
 func NewEventgridDomain_Override(e EventgridDomain, scope constructs.Construct, id *string, config *EventgridDomainConfig) {
 	_init_.Initialize()
 

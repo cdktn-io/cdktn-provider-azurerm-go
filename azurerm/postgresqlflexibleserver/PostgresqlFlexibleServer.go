@@ -5,14 +5,14 @@ package postgresqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/postgresqlflexibleserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/postgresqlflexibleserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server}.
 type PostgresqlFlexibleServer interface {
 	cdktn.TerraformResource
 	AdministratorLogin() *string
@@ -1170,7 +1170,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServer) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server} Resource.
 func NewPostgresqlFlexibleServer(scope constructs.Construct, id *string, config *PostgresqlFlexibleServerConfig) PostgresqlFlexibleServer {
 	_init_.Initialize()
 
@@ -1188,7 +1188,7 @@ func NewPostgresqlFlexibleServer(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server} Resource.
 func NewPostgresqlFlexibleServer_Override(p PostgresqlFlexibleServer, scope constructs.Construct, id *string, config *PostgresqlFlexibleServerConfig) {
 	_init_.Initialize()
 

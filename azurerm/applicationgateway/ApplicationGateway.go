@@ -5,14 +5,14 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/applicationgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/applicationgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/application_gateway azurerm_application_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/application_gateway azurerm_application_gateway}.
 type ApplicationGateway interface {
 	cdktn.TerraformResource
 	AutoscaleConfiguration() ApplicationGatewayAutoscaleConfigurationOutputReference
@@ -1235,7 +1235,7 @@ func (j *jsiiProxy_ApplicationGateway) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
 func NewApplicationGateway(scope constructs.Construct, id *string, config *ApplicationGatewayConfig) ApplicationGateway {
 	_init_.Initialize()
 
@@ -1253,7 +1253,7 @@ func NewApplicationGateway(scope constructs.Construct, id *string, config *Appli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
 func NewApplicationGateway_Override(a ApplicationGateway, scope constructs.Construct, id *string, config *ApplicationGatewayConfig) {
 	_init_.Initialize()
 

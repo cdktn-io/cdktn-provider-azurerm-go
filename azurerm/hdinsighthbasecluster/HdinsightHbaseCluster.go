@@ -5,14 +5,14 @@ package hdinsighthbasecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/hdinsighthbasecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/hdinsighthbasecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/hdinsight_hbase_cluster azurerm_hdinsight_hbase_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/hdinsight_hbase_cluster azurerm_hdinsight_hbase_cluster}.
 type HdinsightHbaseCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -885,7 +885,7 @@ func (j *jsiiProxy_HdinsightHbaseCluster) TlsMinVersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/hdinsight_hbase_cluster azurerm_hdinsight_hbase_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/hdinsight_hbase_cluster azurerm_hdinsight_hbase_cluster} Resource.
 func NewHdinsightHbaseCluster(scope constructs.Construct, id *string, config *HdinsightHbaseClusterConfig) HdinsightHbaseCluster {
 	_init_.Initialize()
 
@@ -903,7 +903,7 @@ func NewHdinsightHbaseCluster(scope constructs.Construct, id *string, config *Hd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/hdinsight_hbase_cluster azurerm_hdinsight_hbase_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/hdinsight_hbase_cluster azurerm_hdinsight_hbase_cluster} Resource.
 func NewHdinsightHbaseCluster_Override(h HdinsightHbaseCluster, scope constructs.Construct, id *string, config *HdinsightHbaseClusterConfig) {
 	_init_.Initialize()
 

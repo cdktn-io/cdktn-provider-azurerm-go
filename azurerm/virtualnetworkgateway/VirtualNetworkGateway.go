@@ -5,14 +5,14 @@ package virtualnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/virtualnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/virtualnetworkgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway}.
 type VirtualNetworkGateway interface {
 	cdktn.TerraformResource
 	ActiveActive() interface{}
@@ -986,7 +986,7 @@ func (j *jsiiProxy_VirtualNetworkGateway) VpnTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
 func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *VirtualNetworkGatewayConfig) VirtualNetworkGateway {
 	_init_.Initialize()
 
@@ -1004,7 +1004,7 @@ func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *Vi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
 func NewVirtualNetworkGateway_Override(v VirtualNetworkGateway, scope constructs.Construct, id *string, config *VirtualNetworkGatewayConfig) {
 	_init_.Initialize()
 

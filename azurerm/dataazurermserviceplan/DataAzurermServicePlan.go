@@ -5,14 +5,14 @@ package dataazurermserviceplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermserviceplan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/dataazurermserviceplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/service_plan azurerm_service_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/service_plan azurerm_service_plan}.
 type DataAzurermServicePlan interface {
 	cdktn.TerraformDataSource
 	AppServiceEnvironmentId() *string
@@ -489,7 +489,7 @@ func (j *jsiiProxy_DataAzurermServicePlan) ZoneBalancingEnabled() cdktn.IResolva
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
 func NewDataAzurermServicePlan(scope constructs.Construct, id *string, config *DataAzurermServicePlanConfig) DataAzurermServicePlan {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewDataAzurermServicePlan(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
 func NewDataAzurermServicePlan_Override(d DataAzurermServicePlan, scope constructs.Construct, id *string, config *DataAzurermServicePlanConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataazurermnetappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermnetappvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/dataazurermnetappvolume/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/netapp_volume azurerm_netapp_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/netapp_volume azurerm_netapp_volume}.
 type DataAzurermNetappVolume interface {
 	cdktn.TerraformDataSource
 	AcceptGrowCapacityPoolForShortTermCloneSplit() *string
@@ -636,7 +636,7 @@ func (j *jsiiProxy_DataAzurermNetappVolume) Zone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
 func NewDataAzurermNetappVolume(scope constructs.Construct, id *string, config *DataAzurermNetappVolumeConfig) DataAzurermNetappVolume {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewDataAzurermNetappVolume(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
 func NewDataAzurermNetappVolume_Override(d DataAzurermNetappVolume, scope constructs.Construct, id *string, config *DataAzurermNetappVolumeConfig) {
 	_init_.Initialize()
 

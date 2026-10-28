@@ -5,14 +5,14 @@ package playwrightworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/playwrightworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/playwrightworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/playwright_workspace azurerm_playwright_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/playwright_workspace azurerm_playwright_workspace}.
 type PlaywrightWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_PlaywrightWorkspace) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/playwright_workspace azurerm_playwright_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/playwright_workspace azurerm_playwright_workspace} Resource.
 func NewPlaywrightWorkspace(scope constructs.Construct, id *string, config *PlaywrightWorkspaceConfig) PlaywrightWorkspace {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewPlaywrightWorkspace(scope constructs.Construct, id *string, config *Play
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/playwright_workspace azurerm_playwright_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/playwright_workspace azurerm_playwright_workspace} Resource.
 func NewPlaywrightWorkspace_Override(p PlaywrightWorkspace, scope constructs.Construct, id *string, config *PlaywrightWorkspaceConfig) {
 	_init_.Initialize()
 

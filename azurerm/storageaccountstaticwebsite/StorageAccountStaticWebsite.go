@@ -5,14 +5,14 @@ package storageaccountstaticwebsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storageaccountstaticwebsite/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/storageaccountstaticwebsite/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website}.
 type StorageAccountStaticWebsite interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_StorageAccountStaticWebsite) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website} Resource.
 func NewStorageAccountStaticWebsite(scope constructs.Construct, id *string, config *StorageAccountStaticWebsiteConfig) StorageAccountStaticWebsite {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewStorageAccountStaticWebsite(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_account_static_website azurerm_storage_account_static_website} Resource.
 func NewStorageAccountStaticWebsite_Override(s StorageAccountStaticWebsite, scope constructs.Construct, id *string, config *StorageAccountStaticWebsiteConfig) {
 	_init_.Initialize()
 

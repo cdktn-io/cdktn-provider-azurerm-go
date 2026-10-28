@@ -5,14 +5,14 @@ package monitordiagnosticsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/monitordiagnosticsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/monitordiagnosticsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting}.
 type MonitorDiagnosticSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -630,7 +630,7 @@ func (j *jsiiProxy_MonitorDiagnosticSetting) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
 func NewMonitorDiagnosticSetting(scope constructs.Construct, id *string, config *MonitorDiagnosticSettingConfig) MonitorDiagnosticSetting {
 	_init_.Initialize()
 
@@ -648,7 +648,7 @@ func NewMonitorDiagnosticSetting(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
 func NewMonitorDiagnosticSetting_Override(m MonitorDiagnosticSetting, scope constructs.Construct, id *string, config *MonitorDiagnosticSettingConfig) {
 	_init_.Initialize()
 

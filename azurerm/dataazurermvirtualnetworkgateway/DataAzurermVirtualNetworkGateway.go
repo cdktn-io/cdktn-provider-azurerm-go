@@ -5,14 +5,14 @@ package dataazurermvirtualnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/dataazurermvirtualnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/dataazurermvirtualnetworkgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway}.
 type DataAzurermVirtualNetworkGateway interface {
 	cdktn.TerraformDataSource
 	ActiveActive() cdktn.IResolvable
@@ -511,7 +511,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) VpnType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
 func NewDataAzurermVirtualNetworkGateway(scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkGatewayConfig) DataAzurermVirtualNetworkGateway {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewDataAzurermVirtualNetworkGateway(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
 func NewDataAzurermVirtualNetworkGateway_Override(d DataAzurermVirtualNetworkGateway, scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkGatewayConfig) {
 	_init_.Initialize()
 

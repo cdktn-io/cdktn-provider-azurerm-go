@@ -5,14 +5,14 @@ package apimanagementapidiagnostic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/apimanagementapidiagnostic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/apimanagementapidiagnostic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic}.
 type ApiManagementApiDiagnostic interface {
 	cdktn.TerraformResource
 	AlwaysLogErrors() interface{}
@@ -75,6 +75,9 @@ type ApiManagementApiDiagnostic interface {
 	LogClientIp() interface{}
 	SetLogClientIp(val interface{})
 	LogClientIpInput() interface{}
+	MetricsEnabled() interface{}
+	SetMetricsEnabled(val interface{})
+	MetricsEnabledInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	OperationNameFormat() *string
@@ -212,6 +215,7 @@ type ApiManagementApiDiagnostic interface {
 	ResetHttpCorrelationProtocol()
 	ResetId()
 	ResetLogClientIp()
+	ResetMetricsEnabled()
 	ResetOperationNameFormat()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -576,6 +580,26 @@ func (j *jsiiProxy_ApiManagementApiDiagnostic) LogClientIpInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ApiManagementApiDiagnostic) MetricsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"metricsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiManagementApiDiagnostic) MetricsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"metricsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApiManagementApiDiagnostic) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -747,7 +771,7 @@ func (j *jsiiProxy_ApiManagementApiDiagnostic) VerbosityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic} Resource.
 func NewApiManagementApiDiagnostic(scope constructs.Construct, id *string, config *ApiManagementApiDiagnosticConfig) ApiManagementApiDiagnostic {
 	_init_.Initialize()
 
@@ -765,7 +789,7 @@ func NewApiManagementApiDiagnostic(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic} Resource.
 func NewApiManagementApiDiagnostic_Override(a ApiManagementApiDiagnostic, scope constructs.Construct, id *string, config *ApiManagementApiDiagnosticConfig) {
 	_init_.Initialize()
 
@@ -909,6 +933,17 @@ func (j *jsiiProxy_ApiManagementApiDiagnostic)SetLogClientIp(val interface{}) {
 	_jsii_.Set(
 		j,
 		"logClientIp",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApiManagementApiDiagnostic)SetMetricsEnabled(val interface{}) {
+	if err := j.validateSetMetricsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"metricsEnabled",
 		val,
 	)
 }
@@ -1471,6 +1506,14 @@ func (a *jsiiProxy_ApiManagementApiDiagnostic) ResetLogClientIp() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetLogClientIp",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApiManagementApiDiagnostic) ResetMetricsEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetMetricsEnabled",
 		nil, // no parameters
 	)
 }

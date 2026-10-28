@@ -5,14 +5,14 @@ package oracleautonomousdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/oracleautonomousdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/oracleautonomousdatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
 type OracleAutonomousDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -938,7 +938,7 @@ func (j *jsiiProxy_OracleAutonomousDatabase) VirtualNetworkIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
 func NewOracleAutonomousDatabase(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseConfig) OracleAutonomousDatabase {
 	_init_.Initialize()
 
@@ -956,7 +956,7 @@ func NewOracleAutonomousDatabase(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
 func NewOracleAutonomousDatabase_Override(o OracleAutonomousDatabase, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseConfig) {
 	_init_.Initialize()
 

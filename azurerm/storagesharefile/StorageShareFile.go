@@ -5,14 +5,14 @@ package storagesharefile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v18/storagesharefile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v19/storagesharefile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_share_file azurerm_storage_share_file}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_share_file azurerm_storage_share_file}.
 type StorageShareFile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -641,7 +641,7 @@ func (j *jsiiProxy_StorageShareFile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
 func NewStorageShareFile(scope constructs.Construct, id *string, config *StorageShareFileConfig) StorageShareFile {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewStorageShareFile(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
 func NewStorageShareFile_Override(s StorageShareFile, scope constructs.Construct, id *string, config *StorageShareFileConfig) {
 	_init_.Initialize()
 
