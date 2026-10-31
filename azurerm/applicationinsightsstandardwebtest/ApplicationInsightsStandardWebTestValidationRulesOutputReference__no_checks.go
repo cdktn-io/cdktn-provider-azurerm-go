@@ -67,6 +67,10 @@ func (j *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputRefere
 	return nil
 }
 
+func (j *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputReference) validateSetIgnoreStatusCodeParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputReference) validateSetInternalValueParameters(val *ApplicationInsightsStandardWebTestValidationRules) error {
 	return nil
 }

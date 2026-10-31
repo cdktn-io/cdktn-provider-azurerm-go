@@ -35,6 +35,9 @@ type ApplicationInsightsStandardWebTestValidationRulesOutputReference interface 
 	ExpectedStatusCodeInput() *float64
 	// Experimental.
 	Fqn() *string
+	IgnoreStatusCode() interface{}
+	SetIgnoreStatusCode(val interface{})
+	IgnoreStatusCodeInput() interface{}
 	InternalValue() *ApplicationInsightsStandardWebTestValidationRules
 	SetInternalValue(val *ApplicationInsightsStandardWebTestValidationRules)
 	SslCertRemainingLifetime() *float64
@@ -78,6 +81,7 @@ type ApplicationInsightsStandardWebTestValidationRulesOutputReference interface 
 	PutContent(value *ApplicationInsightsStandardWebTestValidationRulesContent)
 	ResetContent()
 	ResetExpectedStatusCode()
+	ResetIgnoreStatusCode()
 	ResetSslCertRemainingLifetime()
 	ResetSslCheckEnabled()
 	// Produce the Token's value at resolution time.
@@ -170,6 +174,26 @@ func (j *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputRefere
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputReference) IgnoreStatusCode() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreStatusCode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputReference) IgnoreStatusCodeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreStatusCodeInput",
 		&returns,
 	)
 	return returns
@@ -302,6 +326,17 @@ func (j *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputRefere
 	_jsii_.Set(
 		j,
 		"expectedStatusCode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputReference)SetIgnoreStatusCode(val interface{}) {
+	if err := j.validateSetIgnoreStatusCodeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreStatusCode",
 		val,
 	)
 }
@@ -570,6 +605,14 @@ func (a *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputRefere
 	_jsii_.InvokeVoid(
 		a,
 		"resetExpectedStatusCode",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationInsightsStandardWebTestValidationRulesOutputReference) ResetIgnoreStatusCode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetIgnoreStatusCode",
 		nil, // no parameters
 	)
 }

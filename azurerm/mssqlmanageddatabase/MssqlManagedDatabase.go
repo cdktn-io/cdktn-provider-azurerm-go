@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/mssql_managed_database azurerm_mssql_managed_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/mssql_managed_database azurerm_mssql_managed_database}.
 type MssqlManagedDatabase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -68,6 +68,9 @@ type MssqlManagedDatabase interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RecoverDatabaseId() *string
+	SetRecoverDatabaseId(val *string)
+	RecoverDatabaseIdInput() *string
 	ShortTermRetentionDays() *float64
 	SetShortTermRetentionDays(val *float64)
 	ShortTermRetentionDaysInput() *float64
@@ -183,6 +186,7 @@ type MssqlManagedDatabase interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPointInTimeRestore()
+	ResetRecoverDatabaseId()
 	ResetShortTermRetentionDays()
 	ResetTags()
 	ResetTimeouts()
@@ -443,6 +447,26 @@ func (j *jsiiProxy_MssqlManagedDatabase) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_MssqlManagedDatabase) RecoverDatabaseId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"recoverDatabaseId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MssqlManagedDatabase) RecoverDatabaseIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"recoverDatabaseIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MssqlManagedDatabase) ShortTermRetentionDays() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -534,7 +558,7 @@ func (j *jsiiProxy_MssqlManagedDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/mssql_managed_database azurerm_mssql_managed_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/mssql_managed_database azurerm_mssql_managed_database} Resource.
 func NewMssqlManagedDatabase(scope constructs.Construct, id *string, config *MssqlManagedDatabaseConfig) MssqlManagedDatabase {
 	_init_.Initialize()
 
@@ -552,7 +576,7 @@ func NewMssqlManagedDatabase(scope constructs.Construct, id *string, config *Mss
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/mssql_managed_database azurerm_mssql_managed_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/mssql_managed_database azurerm_mssql_managed_database} Resource.
 func NewMssqlManagedDatabase_Override(m MssqlManagedDatabase, scope constructs.Construct, id *string, config *MssqlManagedDatabaseConfig) {
 	_init_.Initialize()
 
@@ -660,6 +684,17 @@ func (j *jsiiProxy_MssqlManagedDatabase)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MssqlManagedDatabase)SetRecoverDatabaseId(val *string) {
+	if err := j.validateSetRecoverDatabaseIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"recoverDatabaseId",
 		val,
 	)
 }
@@ -1127,6 +1162,14 @@ func (m *jsiiProxy_MssqlManagedDatabase) ResetPointInTimeRestore() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetPointInTimeRestore",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MssqlManagedDatabase) ResetRecoverDatabaseId() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetRecoverDatabaseId",
 		nil, // no parameters
 	)
 }

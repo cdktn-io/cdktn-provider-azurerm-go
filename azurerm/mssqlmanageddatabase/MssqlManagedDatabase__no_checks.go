@@ -139,6 +139,10 @@ func (j *jsiiProxy_MssqlManagedDatabase) validateSetProvisionersParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_MssqlManagedDatabase) validateSetRecoverDatabaseIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MssqlManagedDatabase) validateSetShortTermRetentionDaysParameters(val *float64) error {
 	return nil
 }
