@@ -163,6 +163,10 @@ func validateOrchestratedVirtualMachineScaleSet_IsTerraformResourceParameters(x 
 	return nil
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateSetAutomaticZoneRebalancingEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateSetCapacityReservationGroupIdParameters(val *string) error {
 	return nil
 }
@@ -236,6 +240,14 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateSetProvisionersPa
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateSetProximityPlacementGroupIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateSetResilientVirtualMachineCreationEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateSetResilientVirtualMachineDeletionEnabledParameters(val interface{}) error {
 	return nil
 }
 

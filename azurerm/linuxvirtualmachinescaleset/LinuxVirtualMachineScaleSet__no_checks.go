@@ -183,6 +183,10 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSet) validateSetAdminUsernameParamete
 	return nil
 }
 
+func (j *jsiiProxy_LinuxVirtualMachineScaleSet) validateSetAutomaticZoneRebalancingEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxVirtualMachineScaleSet) validateSetCapacityReservationGroupIdParameters(val *string) error {
 	return nil
 }

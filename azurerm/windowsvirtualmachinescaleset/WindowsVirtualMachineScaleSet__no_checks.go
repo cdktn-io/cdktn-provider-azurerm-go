@@ -191,6 +191,10 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetAutomaticUpdatesEna
 	return nil
 }
 
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetAutomaticZoneRebalancingEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetCapacityReservationGroupIdParameters(val *string) error {
 	return nil
 }

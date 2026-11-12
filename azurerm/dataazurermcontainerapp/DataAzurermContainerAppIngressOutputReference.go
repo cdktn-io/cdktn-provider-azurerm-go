@@ -40,6 +40,7 @@ type DataAzurermContainerAppIngressOutputReference interface {
 	InternalValue() *DataAzurermContainerAppIngress
 	SetInternalValue(val *DataAzurermContainerAppIngress)
 	IpSecurityRestriction() DataAzurermContainerAppIngressIpSecurityRestrictionList
+	SessionAffinityEnabled() cdktn.IResolvable
 	TargetPort() *float64
 	// Experimental.
 	TerraformAttribute() *string
@@ -215,6 +216,16 @@ func (j *jsiiProxy_DataAzurermContainerAppIngressOutputReference) IpSecurityRest
 	_jsii_.Get(
 		j,
 		"ipSecurityRestriction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermContainerAppIngressOutputReference) SessionAffinityEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"sessionAffinityEnabled",
 		&returns,
 	)
 	return returns

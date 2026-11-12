@@ -5,7 +5,7 @@ package dataazurermmanageddevopspool
 
 
 type DataAzurermManagedDevopsPoolTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/data-sources/managed_devops_pool#read DataAzurermManagedDevopsPool#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/data-sources/managed_devops_pool#read DataAzurermManagedDevopsPool#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

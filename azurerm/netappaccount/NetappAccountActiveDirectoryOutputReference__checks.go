@@ -93,9 +93,28 @@ func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateInterpol
 	return nil
 }
 
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validatePutLdapSearchScopeParameters(value *NetappAccountActiveDirectoryLdapSearchScope) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetAdministratorUsersParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil
@@ -116,6 +135,14 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetAesEn
 		if !_jsii_.IsAnonymousProxy(val) {
 			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetBackupUsersParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil
@@ -202,6 +229,26 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetDomai
 	return nil
 }
 
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetDomainControllerConnectionEncryptionEnabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetInternalValueParameters(val *NetappAccountActiveDirectory) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
@@ -219,6 +266,14 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetKerbe
 }
 
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetKerberosKdcIpParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetLdapClientPreferredServersParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -295,6 +350,14 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetOrgan
 }
 
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetPasswordParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetSecurityUsersParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

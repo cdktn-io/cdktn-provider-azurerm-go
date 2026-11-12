@@ -47,11 +47,23 @@ func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateInterpol
 	return nil
 }
 
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validatePutLdapSearchScopeParameters(value *NetappAccountActiveDirectoryLdapSearchScope) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetAdministratorUsersParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetAesEncryptionEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetBackupUsersParameters(val *[]*string) error {
 	return nil
 }
 
@@ -71,6 +83,10 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetDomai
 	return nil
 }
 
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetDomainControllerConnectionEncryptionEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetInternalValueParameters(val *NetappAccountActiveDirectory) error {
 	return nil
 }
@@ -80,6 +96,10 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetKerbe
 }
 
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetKerberosKdcIpParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetLdapClientPreferredServersParameters(val *[]*string) error {
 	return nil
 }
 
@@ -100,6 +120,10 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetOrgan
 }
 
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetPasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetSecurityUsersParameters(val *[]*string) error {
 	return nil
 }
 

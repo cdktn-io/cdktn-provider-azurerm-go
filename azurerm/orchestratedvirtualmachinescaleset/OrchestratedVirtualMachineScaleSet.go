@@ -12,13 +12,16 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/orchestrated_virtual_machine_scale_set azurerm_orchestrated_virtual_machine_scale_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/orchestrated_virtual_machine_scale_set azurerm_orchestrated_virtual_machine_scale_set}.
 type OrchestratedVirtualMachineScaleSet interface {
 	cdktn.TerraformResource
 	AdditionalCapabilities() OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference
 	AdditionalCapabilitiesInput() *OrchestratedVirtualMachineScaleSetAdditionalCapabilities
 	AutomaticInstanceRepair() OrchestratedVirtualMachineScaleSetAutomaticInstanceRepairOutputReference
 	AutomaticInstanceRepairInput() *OrchestratedVirtualMachineScaleSetAutomaticInstanceRepair
+	AutomaticZoneRebalancingEnabled() interface{}
+	SetAutomaticZoneRebalancingEnabled(val interface{})
+	AutomaticZoneRebalancingEnabledInput() interface{}
 	BootDiagnostics() OrchestratedVirtualMachineScaleSetBootDiagnosticsOutputReference
 	BootDiagnosticsInput() *OrchestratedVirtualMachineScaleSetBootDiagnostics
 	CapacityReservationGroupId() *string
@@ -122,6 +125,12 @@ type OrchestratedVirtualMachineScaleSet interface {
 	ProximityPlacementGroupIdInput() *string
 	// Experimental.
 	RawOverrides() interface{}
+	ResilientVirtualMachineCreationEnabled() interface{}
+	SetResilientVirtualMachineCreationEnabled(val interface{})
+	ResilientVirtualMachineCreationEnabledInput() interface{}
+	ResilientVirtualMachineDeletionEnabled() interface{}
+	SetResilientVirtualMachineDeletionEnabled(val interface{})
+	ResilientVirtualMachineDeletionEnabledInput() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
@@ -276,6 +285,7 @@ type OrchestratedVirtualMachineScaleSet interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAdditionalCapabilities()
 	ResetAutomaticInstanceRepair()
+	ResetAutomaticZoneRebalancingEnabled()
 	ResetBootDiagnostics()
 	ResetCapacityReservationGroupId()
 	ResetDataDisk()
@@ -300,6 +310,8 @@ type OrchestratedVirtualMachineScaleSet interface {
 	ResetPriority()
 	ResetPriorityMix()
 	ResetProximityPlacementGroupId()
+	ResetResilientVirtualMachineCreationEnabled()
+	ResetResilientVirtualMachineDeletionEnabled()
 	ResetRollingUpgradePolicy()
 	ResetSinglePlacementGroup()
 	ResetSkuName()
@@ -375,6 +387,26 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) AutomaticInstanceRepairIn
 	_jsii_.Get(
 		j,
 		"automaticInstanceRepairInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) AutomaticZoneRebalancingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticZoneRebalancingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) AutomaticZoneRebalancingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticZoneRebalancingEnabledInput",
 		&returns,
 	)
 	return returns
@@ -990,6 +1022,46 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) RawOverrides() interface{
 	return returns
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResilientVirtualMachineCreationEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"resilientVirtualMachineCreationEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResilientVirtualMachineCreationEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"resilientVirtualMachineCreationEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResilientVirtualMachineDeletionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"resilientVirtualMachineDeletionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResilientVirtualMachineDeletionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"resilientVirtualMachineDeletionEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResourceGroupName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1311,7 +1383,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/orchestrated_virtual_machine_scale_set azurerm_orchestrated_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/orchestrated_virtual_machine_scale_set azurerm_orchestrated_virtual_machine_scale_set} Resource.
 func NewOrchestratedVirtualMachineScaleSet(scope constructs.Construct, id *string, config *OrchestratedVirtualMachineScaleSetConfig) OrchestratedVirtualMachineScaleSet {
 	_init_.Initialize()
 
@@ -1329,7 +1401,7 @@ func NewOrchestratedVirtualMachineScaleSet(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/orchestrated_virtual_machine_scale_set azurerm_orchestrated_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/orchestrated_virtual_machine_scale_set azurerm_orchestrated_virtual_machine_scale_set} Resource.
 func NewOrchestratedVirtualMachineScaleSet_Override(o OrchestratedVirtualMachineScaleSet, scope constructs.Construct, id *string, config *OrchestratedVirtualMachineScaleSetConfig) {
 	_init_.Initialize()
 
@@ -1337,6 +1409,17 @@ func NewOrchestratedVirtualMachineScaleSet_Override(o OrchestratedVirtualMachine
 		"@cdktn/provider-azurerm.orchestratedVirtualMachineScaleSet.OrchestratedVirtualMachineScaleSet",
 		[]interface{}{scope, id, config},
 		o,
+	)
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet)SetAutomaticZoneRebalancingEnabled(val interface{}) {
+	if err := j.validateSetAutomaticZoneRebalancingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"automaticZoneRebalancingEnabled",
+		val,
 	)
 }
 
@@ -1569,6 +1652,28 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet)SetProximityPlacementGroup
 	_jsii_.Set(
 		j,
 		"proximityPlacementGroupId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet)SetResilientVirtualMachineCreationEnabled(val interface{}) {
+	if err := j.validateSetResilientVirtualMachineCreationEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resilientVirtualMachineCreationEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSet)SetResilientVirtualMachineDeletionEnabled(val interface{}) {
+	if err := j.validateSetResilientVirtualMachineDeletionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resilientVirtualMachineDeletionEnabled",
 		val,
 	)
 }
@@ -2244,6 +2349,14 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResetAutomaticInstanceRep
 	)
 }
 
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResetAutomaticZoneRebalancingEnabled() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetAutomaticZoneRebalancingEnabled",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResetBootDiagnostics() {
 	_jsii_.InvokeVoid(
 		o,
@@ -2416,6 +2529,22 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResetProximityPlacementGr
 	_jsii_.InvokeVoid(
 		o,
 		"resetProximityPlacementGroupId",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResetResilientVirtualMachineCreationEnabled() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetResilientVirtualMachineCreationEnabled",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) ResetResilientVirtualMachineDeletionEnabled() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetResilientVirtualMachineDeletionEnabled",
 		nil, // no parameters
 	)
 }

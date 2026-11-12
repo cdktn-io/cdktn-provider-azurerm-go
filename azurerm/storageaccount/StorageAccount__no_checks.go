@@ -267,6 +267,10 @@ func (j *jsiiProxy_StorageAccount) validateSetSharedAccessKeyEnabledParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_StorageAccount) validateSetSmbOauthEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageAccount) validateSetTableEncryptionKeyTypeParameters(val *string) error {
 	return nil
 }

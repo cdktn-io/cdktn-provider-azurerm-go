@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/shared_image_version azurerm_shared_image_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/shared_image_version azurerm_shared_image_version}.
 type SharedImageVersion interface {
 	cdktn.TerraformResource
 	BlobUri() *string
@@ -770,7 +770,7 @@ func (j *jsiiProxy_SharedImageVersion) UefiInput() *SharedImageVersionUefi {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
 func NewSharedImageVersion(scope constructs.Construct, id *string, config *SharedImageVersionConfig) SharedImageVersion {
 	_init_.Initialize()
 
@@ -788,7 +788,7 @@ func NewSharedImageVersion(scope constructs.Construct, id *string, config *Share
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
 func NewSharedImageVersion_Override(s SharedImageVersion, scope constructs.Construct, id *string, config *SharedImageVersionConfig) {
 	_init_.Initialize()
 

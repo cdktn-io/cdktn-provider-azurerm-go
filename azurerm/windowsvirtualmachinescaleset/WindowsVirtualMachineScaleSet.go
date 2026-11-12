@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set}.
 type WindowsVirtualMachineScaleSet interface {
 	cdktn.TerraformResource
 	AdditionalCapabilities() WindowsVirtualMachineScaleSetAdditionalCapabilitiesOutputReference
@@ -32,6 +32,9 @@ type WindowsVirtualMachineScaleSet interface {
 	AutomaticUpdatesEnabled() interface{}
 	SetAutomaticUpdatesEnabled(val interface{})
 	AutomaticUpdatesEnabledInput() interface{}
+	AutomaticZoneRebalancingEnabled() interface{}
+	SetAutomaticZoneRebalancingEnabled(val interface{})
+	AutomaticZoneRebalancingEnabledInput() interface{}
 	BootDiagnostics() WindowsVirtualMachineScaleSetBootDiagnosticsOutputReference
 	BootDiagnosticsInput() *WindowsVirtualMachineScaleSetBootDiagnostics
 	CapacityReservationGroupId() *string
@@ -336,6 +339,7 @@ type WindowsVirtualMachineScaleSet interface {
 	ResetAutomaticInstanceRepair()
 	ResetAutomaticOsUpgradePolicy()
 	ResetAutomaticUpdatesEnabled()
+	ResetAutomaticZoneRebalancingEnabled()
 	ResetBootDiagnostics()
 	ResetCapacityReservationGroupId()
 	ResetComputerNamePrefix()
@@ -546,6 +550,26 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) AutomaticUpdatesEnabledInput()
 	_jsii_.Get(
 		j,
 		"automaticUpdatesEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet) AutomaticZoneRebalancingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticZoneRebalancingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet) AutomaticZoneRebalancingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"automaticZoneRebalancingEnabledInput",
 		&returns,
 	)
 	return returns
@@ -1762,7 +1786,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
 func NewWindowsVirtualMachineScaleSet(scope constructs.Construct, id *string, config *WindowsVirtualMachineScaleSetConfig) WindowsVirtualMachineScaleSet {
 	_init_.Initialize()
 
@@ -1780,7 +1804,7 @@ func NewWindowsVirtualMachineScaleSet(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/windows_virtual_machine_scale_set azurerm_windows_virtual_machine_scale_set} Resource.
 func NewWindowsVirtualMachineScaleSet_Override(w WindowsVirtualMachineScaleSet, scope constructs.Construct, id *string, config *WindowsVirtualMachineScaleSetConfig) {
 	_init_.Initialize()
 
@@ -1820,6 +1844,17 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet)SetAutomaticUpdatesEnabled(val 
 	_jsii_.Set(
 		j,
 		"automaticUpdatesEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet)SetAutomaticZoneRebalancingEnabled(val interface{}) {
+	if err := j.validateSetAutomaticZoneRebalancingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"automaticZoneRebalancingEnabled",
 		val,
 	)
 }
@@ -2924,6 +2959,14 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSet) ResetAutomaticUpdatesEnabled()
 	_jsii_.InvokeVoid(
 		w,
 		"resetAutomaticUpdatesEnabled",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WindowsVirtualMachineScaleSet) ResetAutomaticZoneRebalancingEnabled() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetAutomaticZoneRebalancingEnabled",
 		nil, // no parameters
 	)
 }

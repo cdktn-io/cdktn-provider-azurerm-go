@@ -13,9 +13,15 @@ import (
 
 type NetappAccountActiveDirectoryOutputReference interface {
 	cdktn.ComplexObject
+	AdministratorUsers() *[]*string
+	SetAdministratorUsers(val *[]*string)
+	AdministratorUsersInput() *[]*string
 	AesEncryptionEnabled() interface{}
 	SetAesEncryptionEnabled(val interface{})
 	AesEncryptionEnabledInput() interface{}
+	BackupUsers() *[]*string
+	SetBackupUsers(val *[]*string)
+	BackupUsersInput() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -36,6 +42,9 @@ type NetappAccountActiveDirectoryOutputReference interface {
 	DnsServersInput() *[]*string
 	Domain() *string
 	SetDomain(val *string)
+	DomainControllerConnectionEncryptionEnabled() interface{}
+	SetDomainControllerConnectionEncryptionEnabled(val interface{})
+	DomainControllerConnectionEncryptionEnabledInput() interface{}
 	DomainInput() *string
 	// Experimental.
 	Fqn() *string
@@ -47,9 +56,14 @@ type NetappAccountActiveDirectoryOutputReference interface {
 	KerberosKdcIp() *string
 	SetKerberosKdcIp(val *string)
 	KerberosKdcIpInput() *string
+	LdapClientPreferredServers() *[]*string
+	SetLdapClientPreferredServers(val *[]*string)
+	LdapClientPreferredServersInput() *[]*string
 	LdapOverTlsEnabled() interface{}
 	SetLdapOverTlsEnabled(val interface{})
 	LdapOverTlsEnabledInput() interface{}
+	LdapSearchScope() NetappAccountActiveDirectoryLdapSearchScopeOutputReference
+	LdapSearchScopeInput() *NetappAccountActiveDirectoryLdapSearchScope
 	LdapSigningEnabled() interface{}
 	SetLdapSigningEnabled(val interface{})
 	LdapSigningEnabledInput() interface{}
@@ -62,6 +76,9 @@ type NetappAccountActiveDirectoryOutputReference interface {
 	Password() *string
 	SetPassword(val *string)
 	PasswordInput() *string
+	SecurityUsers() *[]*string
+	SetSecurityUsers(val *[]*string)
+	SecurityUsersInput() *[]*string
 	ServerRootCaCertificate() *string
 	SetServerRootCaCertificate(val *string)
 	ServerRootCaCertificateInput() *string
@@ -106,13 +123,20 @@ type NetappAccountActiveDirectoryOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutLdapSearchScope(value *NetappAccountActiveDirectoryLdapSearchScope)
+	ResetAdministratorUsers()
 	ResetAesEncryptionEnabled()
+	ResetBackupUsers()
+	ResetDomainControllerConnectionEncryptionEnabled()
 	ResetKerberosAdName()
 	ResetKerberosKdcIp()
+	ResetLdapClientPreferredServers()
 	ResetLdapOverTlsEnabled()
+	ResetLdapSearchScope()
 	ResetLdapSigningEnabled()
 	ResetLocalNfsUsersWithLdapAllowed()
 	ResetOrganizationalUnit()
+	ResetSecurityUsers()
 	ResetServerRootCaCertificate()
 	ResetSiteName()
 	// Produce the Token's value at resolution time.
@@ -130,6 +154,26 @@ type jsiiProxy_NetappAccountActiveDirectoryOutputReference struct {
 	internal.Type__cdktnComplexObject
 }
 
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) AdministratorUsers() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"administratorUsers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) AdministratorUsersInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"administratorUsersInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) AesEncryptionEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -145,6 +189,26 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) AesEncryptionEna
 	_jsii_.Get(
 		j,
 		"aesEncryptionEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) BackupUsers() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"backupUsers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) BackupUsersInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"backupUsersInput",
 		&returns,
 	)
 	return returns
@@ -205,6 +269,26 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) Domain() *string
 	_jsii_.Get(
 		j,
 		"domain",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) DomainControllerConnectionEncryptionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"domainControllerConnectionEncryptionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) DomainControllerConnectionEncryptionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"domainControllerConnectionEncryptionEnabledInput",
 		&returns,
 	)
 	return returns
@@ -280,6 +364,26 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) KerberosKdcIpInp
 	return returns
 }
 
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) LdapClientPreferredServers() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"ldapClientPreferredServers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) LdapClientPreferredServersInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"ldapClientPreferredServersInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) LdapOverTlsEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -295,6 +399,26 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) LdapOverTlsEnabl
 	_jsii_.Get(
 		j,
 		"ldapOverTlsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) LdapSearchScope() NetappAccountActiveDirectoryLdapSearchScopeOutputReference {
+	var returns NetappAccountActiveDirectoryLdapSearchScopeOutputReference
+	_jsii_.Get(
+		j,
+		"ldapSearchScope",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) LdapSearchScopeInput() *NetappAccountActiveDirectoryLdapSearchScope {
+	var returns *NetappAccountActiveDirectoryLdapSearchScope
+	_jsii_.Get(
+		j,
+		"ldapSearchScopeInput",
 		&returns,
 	)
 	return returns
@@ -375,6 +499,26 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) PasswordInput() 
 	_jsii_.Get(
 		j,
 		"passwordInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) SecurityUsers() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"securityUsers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) SecurityUsersInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"securityUsersInput",
 		&returns,
 	)
 	return returns
@@ -508,6 +652,17 @@ func NewNetappAccountActiveDirectoryOutputReference_Override(n NetappAccountActi
 	)
 }
 
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetAdministratorUsers(val *[]*string) {
+	if err := j.validateSetAdministratorUsersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"administratorUsers",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetAesEncryptionEnabled(val interface{}) {
 	if err := j.validateSetAesEncryptionEnabledParameters(val); err != nil {
 		panic(err)
@@ -515,6 +670,17 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetAesEncryptionE
 	_jsii_.Set(
 		j,
 		"aesEncryptionEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetBackupUsers(val *[]*string) {
+	if err := j.validateSetBackupUsersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"backupUsers",
 		val,
 	)
 }
@@ -563,6 +729,17 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetDomain(val *st
 	)
 }
 
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetDomainControllerConnectionEncryptionEnabled(val interface{}) {
+	if err := j.validateSetDomainControllerConnectionEncryptionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"domainControllerConnectionEncryptionEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetInternalValue(val *NetappAccountActiveDirectory) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -592,6 +769,17 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetKerberosKdcIp(
 	_jsii_.Set(
 		j,
 		"kerberosKdcIp",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetLdapClientPreferredServers(val *[]*string) {
+	if err := j.validateSetLdapClientPreferredServersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ldapClientPreferredServers",
 		val,
 	)
 }
@@ -647,6 +835,17 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetPassword(val *
 	_jsii_.Set(
 		j,
 		"password",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference)SetSecurityUsers(val *[]*string) {
+	if err := j.validateSetSecurityUsersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"securityUsers",
 		val,
 	)
 }
@@ -903,10 +1102,45 @@ func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) InterpolationFor
 	return returns
 }
 
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) PutLdapSearchScope(value *NetappAccountActiveDirectoryLdapSearchScope) {
+	if err := n.validatePutLdapSearchScopeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putLdapSearchScope",
+		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetAdministratorUsers() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetAdministratorUsers",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetAesEncryptionEnabled() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetAesEncryptionEnabled",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetBackupUsers() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetBackupUsers",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetDomainControllerConnectionEncryptionEnabled() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDomainControllerConnectionEncryptionEnabled",
 		nil, // no parameters
 	)
 }
@@ -927,10 +1161,26 @@ func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetKerberosKdc
 	)
 }
 
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetLdapClientPreferredServers() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetLdapClientPreferredServers",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetLdapOverTlsEnabled() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetLdapOverTlsEnabled",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetLdapSearchScope() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetLdapSearchScope",
 		nil, // no parameters
 	)
 }
@@ -955,6 +1205,14 @@ func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetOrganizatio
 	_jsii_.InvokeVoid(
 		n,
 		"resetOrganizationalUnit",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) ResetSecurityUsers() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetSecurityUsers",
 		nil, // no parameters
 	)
 }

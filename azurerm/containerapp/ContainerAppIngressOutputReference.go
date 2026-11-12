@@ -50,6 +50,9 @@ type ContainerAppIngressOutputReference interface {
 	SetInternalValue(val *ContainerAppIngress)
 	IpSecurityRestriction() ContainerAppIngressIpSecurityRestrictionList
 	IpSecurityRestrictionInput() interface{}
+	SessionAffinityEnabled() interface{}
+	SetSessionAffinityEnabled(val interface{})
+	SessionAffinityEnabledInput() interface{}
 	TargetPort() *float64
 	SetTargetPort(val *float64)
 	TargetPortInput() *float64
@@ -99,6 +102,7 @@ type ContainerAppIngressOutputReference interface {
 	ResetExposedPort()
 	ResetExternalEnabled()
 	ResetIpSecurityRestriction()
+	ResetSessionAffinityEnabled()
 	ResetTransport()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -305,6 +309,26 @@ func (j *jsiiProxy_ContainerAppIngressOutputReference) IpSecurityRestrictionInpu
 	return returns
 }
 
+func (j *jsiiProxy_ContainerAppIngressOutputReference) SessionAffinityEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sessionAffinityEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAppIngressOutputReference) SessionAffinityEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sessionAffinityEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerAppIngressOutputReference) TargetPort() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -486,6 +510,17 @@ func (j *jsiiProxy_ContainerAppIngressOutputReference)SetInternalValue(val *Cont
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerAppIngressOutputReference)SetSessionAffinityEnabled(val interface{}) {
+	if err := j.validateSetSessionAffinityEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sessionAffinityEnabled",
 		val,
 	)
 }
@@ -797,6 +832,14 @@ func (c *jsiiProxy_ContainerAppIngressOutputReference) ResetIpSecurityRestrictio
 	_jsii_.InvokeVoid(
 		c,
 		"resetIpSecurityRestriction",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerAppIngressOutputReference) ResetSessionAffinityEnabled() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSessionAffinityEnabled",
 		nil, // no parameters
 	)
 }

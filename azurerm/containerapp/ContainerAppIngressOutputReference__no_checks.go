@@ -91,6 +91,10 @@ func (j *jsiiProxy_ContainerAppIngressOutputReference) validateSetInternalValueP
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAppIngressOutputReference) validateSetSessionAffinityEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAppIngressOutputReference) validateSetTargetPortParameters(val *float64) error {
 	return nil
 }

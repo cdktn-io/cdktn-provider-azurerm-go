@@ -5,7 +5,7 @@ package nginxdeployment
 
 
 type NginxDeploymentWebApplicationFirewall struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/nginx_deployment#activation_state_enabled NginxDeployment#activation_state_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/nginx_deployment#activation_state_enabled NginxDeployment#activation_state_enabled}.
 	ActivationStateEnabled interface{} `field:"required" json:"activationStateEnabled" yaml:"activationStateEnabled"`
 }
 

@@ -63,6 +63,10 @@ func (j *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) validateSetKeyVaultIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) validateSetKeyVaultKeyIdParameters(val *string) error {
 	return nil
 }

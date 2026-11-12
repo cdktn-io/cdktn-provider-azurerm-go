@@ -32,6 +32,9 @@ type KubernetesClusterKeyManagementServiceOutputReference interface {
 	Fqn() *string
 	InternalValue() *KubernetesClusterKeyManagementService
 	SetInternalValue(val *KubernetesClusterKeyManagementService)
+	KeyVaultId() *string
+	SetKeyVaultId(val *string)
+	KeyVaultIdInput() *string
 	KeyVaultKeyId() *string
 	SetKeyVaultKeyId(val *string)
 	KeyVaultKeyIdInput() *string
@@ -70,6 +73,7 @@ type KubernetesClusterKeyManagementServiceOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetKeyVaultId()
 	ResetKeyVaultNetworkAccess()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -131,6 +135,26 @@ func (j *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) Interna
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) KeyVaultId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) KeyVaultIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultIdInput",
 		&returns,
 	)
 	return returns
@@ -253,6 +277,17 @@ func (j *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference)SetInter
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference)SetKeyVaultId(val *string) {
+	if err := j.validateSetKeyVaultIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"keyVaultId",
 		val,
 	)
 }
@@ -485,6 +520,14 @@ func (k *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) Interpo
 	)
 
 	return returns
+}
+
+func (k *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) ResetKeyVaultId() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetKeyVaultId",
+		nil, // no parameters
+	)
 }
 
 func (k *jsiiProxy_KubernetesClusterKeyManagementServiceOutputReference) ResetKeyVaultNetworkAccess() {

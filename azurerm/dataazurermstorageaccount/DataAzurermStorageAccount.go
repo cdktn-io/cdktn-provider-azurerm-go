@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/data-sources/storage_account azurerm_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/data-sources/storage_account azurerm_storage_account}.
 type DataAzurermStorageAccount interface {
 	cdktn.TerraformDataSource
 	AccessTier() *string
@@ -147,6 +147,7 @@ type DataAzurermStorageAccount interface {
 	SecondaryWebInternetHost() *string
 	SecondaryWebMicrosoftEndpoint() *string
 	SecondaryWebMicrosoftHost() *string
+	SmbOauthEnabled() cdktn.IResolvable
 	TableEncryptionKeyType() *string
 	Tags() cdktn.StringMap
 	// Experimental.
@@ -1300,6 +1301,16 @@ func (j *jsiiProxy_DataAzurermStorageAccount) SecondaryWebMicrosoftHost() *strin
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermStorageAccount) SmbOauthEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"smbOauthEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermStorageAccount) TableEncryptionKeyType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1371,7 +1382,7 @@ func (j *jsiiProxy_DataAzurermStorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/data-sources/storage_account azurerm_storage_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/data-sources/storage_account azurerm_storage_account} Data Source.
 func NewDataAzurermStorageAccount(scope constructs.Construct, id *string, config *DataAzurermStorageAccountConfig) DataAzurermStorageAccount {
 	_init_.Initialize()
 
@@ -1389,7 +1400,7 @@ func NewDataAzurermStorageAccount(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/data-sources/storage_account azurerm_storage_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/data-sources/storage_account azurerm_storage_account} Data Source.
 func NewDataAzurermStorageAccount_Override(d DataAzurermStorageAccount, scope constructs.Construct, id *string, config *DataAzurermStorageAccountConfig) {
 	_init_.Initialize()
 

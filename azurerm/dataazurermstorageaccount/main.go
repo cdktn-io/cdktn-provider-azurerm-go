@@ -139,6 +139,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "secondaryWebInternetHost", GoGetter: "SecondaryWebInternetHost"},
 			_jsii_.MemberProperty{JsiiProperty: "secondaryWebMicrosoftEndpoint", GoGetter: "SecondaryWebMicrosoftEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "secondaryWebMicrosoftHost", GoGetter: "SecondaryWebMicrosoftHost"},
+			_jsii_.MemberProperty{JsiiProperty: "smbOauthEnabled", GoGetter: "SmbOauthEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tableEncryptionKeyType", GoGetter: "TableEncryptionKeyType"},
