@@ -142,6 +142,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "partnerRegistrationId", GoGetter: "PartnerRegistrationId"},
 			_jsii_.MemberProperty{JsiiProperty: "partnerRegistrationIdInput", GoGetter: "PartnerRegistrationIdInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAuthorizationExpirationTimeInUtc", GoMethod: "ResetAuthorizationExpirationTimeInUtc"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPartnerName", GoMethod: "ResetPartnerName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPartnerRegistrationId", GoMethod: "ResetPartnerRegistrationId"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},

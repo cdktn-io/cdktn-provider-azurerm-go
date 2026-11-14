@@ -5,7 +5,7 @@ package dataazurermrelaynamespace
 
 
 type DataAzurermRelayNamespaceTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/data-sources/relay_namespace#read DataAzurermRelayNamespace#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/relay_namespace#read DataAzurermRelayNamespace#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

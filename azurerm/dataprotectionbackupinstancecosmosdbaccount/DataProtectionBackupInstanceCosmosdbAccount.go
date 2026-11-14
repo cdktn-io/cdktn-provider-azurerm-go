@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_instance_cosmosdb_account azurerm_data_protection_backup_instance_cosmosdb_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account azurerm_data_protection_backup_instance_cosmosdb_account}.
 type DataProtectionBackupInstanceCosmosdbAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceCosmosdbAccount) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_instance_cosmosdb_account azurerm_data_protection_backup_instance_cosmosdb_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account azurerm_data_protection_backup_instance_cosmosdb_account} Resource.
 func NewDataProtectionBackupInstanceCosmosdbAccount(scope constructs.Construct, id *string, config *DataProtectionBackupInstanceCosmosdbAccountConfig) DataProtectionBackupInstanceCosmosdbAccount {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewDataProtectionBackupInstanceCosmosdbAccount(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_instance_cosmosdb_account azurerm_data_protection_backup_instance_cosmosdb_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account azurerm_data_protection_backup_instance_cosmosdb_account} Resource.
 func NewDataProtectionBackupInstanceCosmosdbAccount_Override(d DataProtectionBackupInstanceCosmosdbAccount, scope constructs.Construct, id *string, config *DataProtectionBackupInstanceCosmosdbAccountConfig) {
 	_init_.Initialize()
 

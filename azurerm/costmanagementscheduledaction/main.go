@@ -74,6 +74,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDayOfMonth", GoMethod: "ResetDayOfMonth"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDaysOfWeek", GoMethod: "ResetDaysOfWeek"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEmailAddressSender", GoMethod: "ResetEmailAddressSender"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHourOfDay", GoMethod: "ResetHourOfDay"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMessage", GoMethod: "ResetMessage"},

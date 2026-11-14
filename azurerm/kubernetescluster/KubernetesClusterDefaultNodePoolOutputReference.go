@@ -110,6 +110,8 @@ type KubernetesClusterDefaultNodePoolOutputReference interface {
 	ScaleDownMode() *string
 	SetScaleDownMode(val *string)
 	ScaleDownModeInput() *string
+	Security() KubernetesClusterDefaultNodePoolSecurityOutputReference
+	SecurityInput() *KubernetesClusterDefaultNodePoolSecurity
 	SnapshotId() *string
 	SetSnapshotId(val *string)
 	SnapshotIdInput() *string
@@ -174,6 +176,7 @@ type KubernetesClusterDefaultNodePoolOutputReference interface {
 	PutKubeletConfig(value *KubernetesClusterDefaultNodePoolKubeletConfig)
 	PutLinuxOsConfig(value *KubernetesClusterDefaultNodePoolLinuxOsConfig)
 	PutNodeNetworkProfile(value *KubernetesClusterDefaultNodePoolNodeNetworkProfile)
+	PutSecurity(value *KubernetesClusterDefaultNodePoolSecurity)
 	PutUpgradeSettings(value *KubernetesClusterDefaultNodePoolUpgradeSettings)
 	ResetAutoScalingEnabled()
 	ResetCapacityReservationGroupId()
@@ -201,6 +204,7 @@ type KubernetesClusterDefaultNodePoolOutputReference interface {
 	ResetPodSubnetId()
 	ResetProximityPlacementGroupId()
 	ResetScaleDownMode()
+	ResetSecurity()
 	ResetSnapshotId()
 	ResetTags()
 	ResetTemporaryNameForRotation()
@@ -811,6 +815,26 @@ func (j *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) ScaleDownMod
 	_jsii_.Get(
 		j,
 		"scaleDownModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) Security() KubernetesClusterDefaultNodePoolSecurityOutputReference {
+	var returns KubernetesClusterDefaultNodePoolSecurityOutputReference
+	_jsii_.Get(
+		j,
+		"security",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) SecurityInput() *KubernetesClusterDefaultNodePoolSecurity {
+	var returns *KubernetesClusterDefaultNodePoolSecurity
+	_jsii_.Get(
+		j,
+		"securityInput",
 		&returns,
 	)
 	return returns
@@ -1701,6 +1725,17 @@ func (k *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) PutNodeNetwo
 	)
 }
 
+func (k *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) PutSecurity(value *KubernetesClusterDefaultNodePoolSecurity) {
+	if err := k.validatePutSecurityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		k,
+		"putSecurity",
+		[]interface{}{value},
+	)
+}
+
 func (k *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) PutUpgradeSettings(value *KubernetesClusterDefaultNodePoolUpgradeSettings) {
 	if err := k.validatePutUpgradeSettingsParameters(value); err != nil {
 		panic(err)
@@ -1916,6 +1951,14 @@ func (k *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) ResetScaleDo
 	_jsii_.InvokeVoid(
 		k,
 		"resetScaleDownMode",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) ResetSecurity() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetSecurity",
 		nil, // no parameters
 	)
 }

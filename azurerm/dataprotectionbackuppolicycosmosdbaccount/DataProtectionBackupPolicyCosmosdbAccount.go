@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_policy_cosmosdb_account azurerm_data_protection_backup_policy_cosmosdb_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_policy_cosmosdb_account azurerm_data_protection_backup_policy_cosmosdb_account}.
 type DataProtectionBackupPolicyCosmosdbAccount interface {
 	cdktn.TerraformResource
 	BackupFrequency() *string
@@ -591,7 +591,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyCosmosdbAccount) YearlyRetentionRul
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_policy_cosmosdb_account azurerm_data_protection_backup_policy_cosmosdb_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_policy_cosmosdb_account azurerm_data_protection_backup_policy_cosmosdb_account} Resource.
 func NewDataProtectionBackupPolicyCosmosdbAccount(scope constructs.Construct, id *string, config *DataProtectionBackupPolicyCosmosdbAccountConfig) DataProtectionBackupPolicyCosmosdbAccount {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewDataProtectionBackupPolicyCosmosdbAccount(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_policy_cosmosdb_account azurerm_data_protection_backup_policy_cosmosdb_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_policy_cosmosdb_account azurerm_data_protection_backup_policy_cosmosdb_account} Resource.
 func NewDataProtectionBackupPolicyCosmosdbAccount_Override(d DataProtectionBackupPolicyCosmosdbAccount, scope constructs.Construct, id *string, config *DataProtectionBackupPolicyCosmosdbAccountConfig) {
 	_init_.Initialize()
 

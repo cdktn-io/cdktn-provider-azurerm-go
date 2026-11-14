@@ -123,6 +123,10 @@ func (j *jsiiProxy_VirtualNetwork) validateSetAddressSpaceParameters(val *[]*str
 	return nil
 }
 
+func (j *jsiiProxy_VirtualNetwork) validateSetAdvertisedGatewayPrefixesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VirtualNetwork) validateSetBgpCommunityParameters(val *string) error {
 	return nil
 }

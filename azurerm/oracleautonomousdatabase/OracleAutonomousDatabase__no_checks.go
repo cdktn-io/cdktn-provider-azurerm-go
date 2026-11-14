@@ -183,6 +183,10 @@ func (j *jsiiProxy_OracleAutonomousDatabase) validateSetLocationParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_OracleAutonomousDatabase) validateSetMaintenancePatchLevelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OracleAutonomousDatabase) validateSetMtlsConnectionRequiredParameters(val interface{}) error {
 	return nil
 }

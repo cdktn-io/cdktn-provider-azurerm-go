@@ -74,6 +74,8 @@ type EventgridPartnerConfigurationPartnerAuthorizationOutputReference interface 
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuthorizationExpirationTimeInUtc()
+	ResetPartnerName()
+	ResetPartnerRegistrationId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -525,6 +527,22 @@ func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputRefere
 	_jsii_.InvokeVoid(
 		e,
 		"resetAuthorizationExpirationTimeInUtc",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) ResetPartnerName() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetPartnerName",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) ResetPartnerRegistrationId() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetPartnerRegistrationId",
 		nil, // no parameters
 	)
 }

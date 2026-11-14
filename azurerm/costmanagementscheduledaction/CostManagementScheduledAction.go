@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action}.
 type CostManagementScheduledAction interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -203,6 +203,7 @@ type CostManagementScheduledAction interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDayOfMonth()
 	ResetDaysOfWeek()
+	ResetEmailAddressSender()
 	ResetHourOfDay()
 	ResetId()
 	ResetMessage()
@@ -719,7 +720,7 @@ func (j *jsiiProxy_CostManagementScheduledAction) WeeksOfMonthInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action} Resource.
 func NewCostManagementScheduledAction(scope constructs.Construct, id *string, config *CostManagementScheduledActionConfig) CostManagementScheduledAction {
 	_init_.Initialize()
 
@@ -737,7 +738,7 @@ func NewCostManagementScheduledAction(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action} Resource.
 func NewCostManagementScheduledAction_Override(c CostManagementScheduledAction, scope constructs.Construct, id *string, config *CostManagementScheduledActionConfig) {
 	_init_.Initialize()
 
@@ -1384,6 +1385,14 @@ func (c *jsiiProxy_CostManagementScheduledAction) ResetDaysOfWeek() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDaysOfWeek",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CostManagementScheduledAction) ResetEmailAddressSender() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEmailAddressSender",
 		nil, // no parameters
 	)
 }

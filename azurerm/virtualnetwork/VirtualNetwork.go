@@ -12,12 +12,15 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/virtual_network azurerm_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/virtual_network azurerm_virtual_network}.
 type VirtualNetwork interface {
 	cdktn.TerraformResource
 	AddressSpace() *[]*string
 	SetAddressSpace(val *[]*string)
 	AddressSpaceInput() *[]*string
+	AdvertisedGatewayPrefixes() *[]*string
+	SetAdvertisedGatewayPrefixes(val *[]*string)
+	AdvertisedGatewayPrefixesInput() *[]*string
 	BgpCommunity() *string
 	SetBgpCommunity(val *string)
 	BgpCommunityInput() *string
@@ -203,6 +206,7 @@ type VirtualNetwork interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAddressSpace()
+	ResetAdvertisedGatewayPrefixes()
 	ResetBgpCommunity()
 	ResetDdosProtectionPlan()
 	ResetDnsServers()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_VirtualNetwork) AddressSpaceInput() *[]*string {
 	_jsii_.Get(
 		j,
 		"addressSpaceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VirtualNetwork) AdvertisedGatewayPrefixes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"advertisedGatewayPrefixes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VirtualNetwork) AdvertisedGatewayPrefixesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"advertisedGatewayPrefixesInput",
 		&returns,
 	)
 	return returns
@@ -736,7 +760,7 @@ func (j *jsiiProxy_VirtualNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/virtual_network azurerm_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/virtual_network azurerm_virtual_network} Resource.
 func NewVirtualNetwork(scope constructs.Construct, id *string, config *VirtualNetworkConfig) VirtualNetwork {
 	_init_.Initialize()
 
@@ -754,7 +778,7 @@ func NewVirtualNetwork(scope constructs.Construct, id *string, config *VirtualNe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/virtual_network azurerm_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/virtual_network azurerm_virtual_network} Resource.
 func NewVirtualNetwork_Override(v VirtualNetwork, scope constructs.Construct, id *string, config *VirtualNetworkConfig) {
 	_init_.Initialize()
 
@@ -772,6 +796,17 @@ func (j *jsiiProxy_VirtualNetwork)SetAddressSpace(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"addressSpace",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VirtualNetwork)SetAdvertisedGatewayPrefixes(val *[]*string) {
+	if err := j.validateSetAdvertisedGatewayPrefixesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"advertisedGatewayPrefixes",
 		val,
 	)
 }
@@ -1393,6 +1428,14 @@ func (v *jsiiProxy_VirtualNetwork) ResetAddressSpace() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetAddressSpace",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VirtualNetwork) ResetAdvertisedGatewayPrefixes() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetAdvertisedGatewayPrefixes",
 		nil, // no parameters
 	)
 }

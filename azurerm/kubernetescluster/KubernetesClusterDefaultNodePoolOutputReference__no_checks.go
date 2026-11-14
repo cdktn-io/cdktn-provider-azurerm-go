@@ -59,6 +59,10 @@ func (k *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) validatePutN
 	return nil
 }
 
+func (k *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) validatePutSecurityParameters(value *KubernetesClusterDefaultNodePoolSecurity) error {
+	return nil
+}
+
 func (k *jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference) validatePutUpgradeSettingsParameters(value *KubernetesClusterDefaultNodePoolUpgradeSettings) error {
 	return nil
 }

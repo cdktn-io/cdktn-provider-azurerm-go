@@ -107,6 +107,10 @@ func validateDataProtectionBackupVault_IsTerraformResourceParameters(x interface
 	return nil
 }
 
+func (j *jsiiProxy_DataProtectionBackupVault) validateSetAlertsForAllJobFailuresEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataProtectionBackupVault) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

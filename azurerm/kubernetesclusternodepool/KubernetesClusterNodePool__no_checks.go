@@ -91,6 +91,10 @@ func (k *jsiiProxy_KubernetesClusterNodePool) validatePutNodeNetworkProfileParam
 	return nil
 }
 
+func (k *jsiiProxy_KubernetesClusterNodePool) validatePutSecurityParameters(value *KubernetesClusterNodePoolSecurity) error {
+	return nil
+}
+
 func (k *jsiiProxy_KubernetesClusterNodePool) validatePutTimeoutsParameters(value *KubernetesClusterNodePoolTimeouts) error {
 	return nil
 }

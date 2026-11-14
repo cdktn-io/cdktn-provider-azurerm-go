@@ -16,6 +16,8 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "alertsForAllJobFailuresEnabled", GoGetter: "AlertsForAllJobFailuresEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "alertsForAllJobFailuresEnabledInput", GoGetter: "AlertsForAllJobFailuresEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -65,6 +67,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "redundancy", GoGetter: "Redundancy"},
 			_jsii_.MemberProperty{JsiiProperty: "redundancyInput", GoGetter: "RedundancyInput"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAlertsForAllJobFailuresEnabled", GoMethod: "ResetAlertsForAllJobFailuresEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCrossRegionRestoreEnabled", GoMethod: "ResetCrossRegionRestoreEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIdentity", GoMethod: "ResetIdentity"},

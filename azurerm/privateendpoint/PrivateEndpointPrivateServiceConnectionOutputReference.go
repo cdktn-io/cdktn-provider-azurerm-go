@@ -13,6 +13,7 @@ import (
 
 type PrivateEndpointPrivateServiceConnectionOutputReference interface {
 	cdktn.ComplexObject
+	ActionRequired() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,6 +29,7 @@ type PrivateEndpointPrivateServiceConnectionOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Description() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *PrivateEndpointPrivateServiceConnection
@@ -48,6 +50,7 @@ type PrivateEndpointPrivateServiceConnectionOutputReference interface {
 	RequestMessage() *string
 	SetRequestMessage(val *string)
 	RequestMessageInput() *string
+	Status() *string
 	SubresourceNames() *[]*string
 	SetSubresourceNames(val *[]*string)
 	SubresourceNamesInput() *[]*string
@@ -102,6 +105,16 @@ type jsiiProxy_PrivateEndpointPrivateServiceConnectionOutputReference struct {
 	internal.Type__cdktnComplexObject
 }
 
+func (j *jsiiProxy_PrivateEndpointPrivateServiceConnectionOutputReference) ActionRequired() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"actionRequired",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PrivateEndpointPrivateServiceConnectionOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -127,6 +140,16 @@ func (j *jsiiProxy_PrivateEndpointPrivateServiceConnectionOutputReference) Creat
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivateEndpointPrivateServiceConnectionOutputReference) Description() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"description",
 		&returns,
 	)
 	return returns
@@ -257,6 +280,16 @@ func (j *jsiiProxy_PrivateEndpointPrivateServiceConnectionOutputReference) Reque
 	_jsii_.Get(
 		j,
 		"requestMessageInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivateEndpointPrivateServiceConnectionOutputReference) Status() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"status",
 		&returns,
 	)
 	return returns

@@ -1084,6 +1084,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putKubeletConfig", GoMethod: "PutKubeletConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putLinuxOsConfig", GoMethod: "PutLinuxOsConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodeNetworkProfile", GoMethod: "PutNodeNetworkProfile"},
+			_jsii_.MemberMethod{JsiiMethod: "putSecurity", GoMethod: "PutSecurity"},
 			_jsii_.MemberMethod{JsiiMethod: "putUpgradeSettings", GoMethod: "PutUpgradeSettings"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoScalingEnabled", GoMethod: "ResetAutoScalingEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCapacityReservationGroupId", GoMethod: "ResetCapacityReservationGroupId"},
@@ -1111,6 +1112,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetPodSubnetId", GoMethod: "ResetPodSubnetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProximityPlacementGroupId", GoMethod: "ResetProximityPlacementGroupId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetScaleDownMode", GoMethod: "ResetScaleDownMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSecurity", GoMethod: "ResetSecurity"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSnapshotId", GoMethod: "ResetSnapshotId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTemporaryNameForRotation", GoMethod: "ResetTemporaryNameForRotation"},
@@ -1124,6 +1126,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "scaleDownMode", GoGetter: "ScaleDownMode"},
 			_jsii_.MemberProperty{JsiiProperty: "scaleDownModeInput", GoGetter: "ScaleDownModeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "security", GoGetter: "Security"},
+			_jsii_.MemberProperty{JsiiProperty: "securityInput", GoGetter: "SecurityInput"},
 			_jsii_.MemberProperty{JsiiProperty: "snapshotId", GoGetter: "SnapshotId"},
 			_jsii_.MemberProperty{JsiiProperty: "snapshotIdInput", GoGetter: "SnapshotIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
@@ -1150,6 +1154,48 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_KubernetesClusterDefaultNodePoolOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolSecurity",
+		reflect.TypeOf((*KubernetesClusterDefaultNodePoolSecurity)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolSecurityOutputReference",
+		reflect.TypeOf((*KubernetesClusterDefaultNodePoolSecurityOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSecureBootEnabled", GoMethod: "ResetSecureBootEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVtpmEnabled", GoMethod: "ResetVtpmEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "secureBootEnabled", GoGetter: "SecureBootEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "secureBootEnabledInput", GoGetter: "SecureBootEnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vtpmEnabled", GoGetter: "VtpmEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "vtpmEnabledInput", GoGetter: "VtpmEnabledInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_KubernetesClusterDefaultNodePoolSecurityOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

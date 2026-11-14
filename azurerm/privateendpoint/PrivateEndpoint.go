@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/private_endpoint azurerm_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/private_endpoint azurerm_private_endpoint}.
 type PrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -51,6 +51,9 @@ type PrivateEndpoint interface {
 	IdInput() *string
 	IpConfiguration() PrivateEndpointIpConfigurationList
 	IpConfigurationInput() interface{}
+	IpVersionType() *string
+	SetIpVersionType(val *string)
+	IpVersionTypeInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -196,6 +199,7 @@ type PrivateEndpoint interface {
 	ResetEdgeZone()
 	ResetId()
 	ResetIpConfiguration()
+	ResetIpVersionType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -394,6 +398,26 @@ func (j *jsiiProxy_PrivateEndpoint) IpConfigurationInput() interface{} {
 	_jsii_.Get(
 		j,
 		"ipConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivateEndpoint) IpVersionType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipVersionType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivateEndpoint) IpVersionTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipVersionTypeInput",
 		&returns,
 	)
 	return returns
@@ -660,7 +684,7 @@ func (j *jsiiProxy_PrivateEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
 func NewPrivateEndpoint(scope constructs.Construct, id *string, config *PrivateEndpointConfig) PrivateEndpoint {
 	_init_.Initialize()
 
@@ -678,7 +702,7 @@ func NewPrivateEndpoint(scope constructs.Construct, id *string, config *PrivateE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
 func NewPrivateEndpoint_Override(p PrivateEndpoint, scope constructs.Construct, id *string, config *PrivateEndpointConfig) {
 	_init_.Initialize()
 
@@ -756,6 +780,17 @@ func (j *jsiiProxy_PrivateEndpoint)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrivateEndpoint)SetIpVersionType(val *string) {
+	if err := j.validateSetIpVersionTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipVersionType",
 		val,
 	)
 }
@@ -1297,6 +1332,14 @@ func (p *jsiiProxy_PrivateEndpoint) ResetIpConfiguration() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetIpConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrivateEndpoint) ResetIpVersionType() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetIpVersionType",
 		nil, // no parameters
 	)
 }

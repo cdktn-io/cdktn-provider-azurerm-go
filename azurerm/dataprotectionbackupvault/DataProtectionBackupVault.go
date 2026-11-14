@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault}.
 type DataProtectionBackupVault interface {
 	cdktn.TerraformResource
+	AlertsForAllJobFailuresEnabled() interface{}
+	SetAlertsForAllJobFailuresEnabled(val interface{})
+	AlertsForAllJobFailuresEnabledInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -192,6 +195,7 @@ type DataProtectionBackupVault interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAlertsForAllJobFailuresEnabled()
 	ResetCrossRegionRestoreEnabled()
 	ResetId()
 	ResetIdentity()
@@ -228,6 +232,26 @@ type DataProtectionBackupVault interface {
 // The jsii proxy struct for DataProtectionBackupVault
 type jsiiProxy_DataProtectionBackupVault struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_DataProtectionBackupVault) AlertsForAllJobFailuresEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"alertsForAllJobFailuresEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataProtectionBackupVault) AlertsForAllJobFailuresEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"alertsForAllJobFailuresEnabledInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataProtectionBackupVault) CdktfStack() cdktn.TerraformStack {
@@ -651,7 +675,7 @@ func (j *jsiiProxy_DataProtectionBackupVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault} Resource.
 func NewDataProtectionBackupVault(scope constructs.Construct, id *string, config *DataProtectionBackupVaultConfig) DataProtectionBackupVault {
 	_init_.Initialize()
 
@@ -669,7 +693,7 @@ func NewDataProtectionBackupVault(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_vault azurerm_data_protection_backup_vault} Resource.
 func NewDataProtectionBackupVault_Override(d DataProtectionBackupVault, scope constructs.Construct, id *string, config *DataProtectionBackupVaultConfig) {
 	_init_.Initialize()
 
@@ -677,6 +701,17 @@ func NewDataProtectionBackupVault_Override(d DataProtectionBackupVault, scope co
 		"@cdktn/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVault",
 		[]interface{}{scope, id, config},
 		d,
+	)
+}
+
+func (j *jsiiProxy_DataProtectionBackupVault)SetAlertsForAllJobFailuresEnabled(val interface{}) {
+	if err := j.validateSetAlertsForAllJobFailuresEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"alertsForAllJobFailuresEnabled",
+		val,
 	)
 }
 
@@ -1268,6 +1303,14 @@ func (d *jsiiProxy_DataProtectionBackupVault) RegisterProviderFeatureUsage(featu
 		d,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (d *jsiiProxy_DataProtectionBackupVault) ResetAlertsForAllJobFailuresEnabled() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAlertsForAllJobFailuresEnabled",
+		nil, // no parameters
 	)
 }
 

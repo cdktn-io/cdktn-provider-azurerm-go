@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
 type OracleAutonomousDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -93,6 +93,9 @@ type OracleAutonomousDatabase interface {
 	LocationInput() *string
 	LongTermBackupSchedule() OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	LongTermBackupScheduleInput() *OracleAutonomousDatabaseLongTermBackupSchedule
+	MaintenancePatchLevel() *string
+	SetMaintenancePatchLevel(val *string)
+	MaintenancePatchLevelInput() *string
 	MtlsConnectionRequired() interface{}
 	SetMtlsConnectionRequired(val interface{})
 	MtlsConnectionRequiredInput() interface{}
@@ -233,6 +236,7 @@ type OracleAutonomousDatabase interface {
 	ResetCustomerContacts()
 	ResetId()
 	ResetLongTermBackupSchedule()
+	ResetMaintenancePatchLevel()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -697,6 +701,26 @@ func (j *jsiiProxy_OracleAutonomousDatabase) LongTermBackupScheduleInput() *Orac
 	return returns
 }
 
+func (j *jsiiProxy_OracleAutonomousDatabase) MaintenancePatchLevel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"maintenancePatchLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleAutonomousDatabase) MaintenancePatchLevelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"maintenancePatchLevelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OracleAutonomousDatabase) MtlsConnectionRequired() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -938,7 +962,7 @@ func (j *jsiiProxy_OracleAutonomousDatabase) VirtualNetworkIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
 func NewOracleAutonomousDatabase(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseConfig) OracleAutonomousDatabase {
 	_init_.Initialize()
 
@@ -956,7 +980,7 @@ func NewOracleAutonomousDatabase(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
 func NewOracleAutonomousDatabase_Override(o OracleAutonomousDatabase, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseConfig) {
 	_init_.Initialize()
 
@@ -1188,6 +1212,17 @@ func (j *jsiiProxy_OracleAutonomousDatabase)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleAutonomousDatabase)SetMaintenancePatchLevel(val *string) {
+	if err := j.validateSetMaintenancePatchLevelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"maintenancePatchLevel",
 		val,
 	)
 }
@@ -1718,6 +1753,14 @@ func (o *jsiiProxy_OracleAutonomousDatabase) ResetLongTermBackupSchedule() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetLongTermBackupSchedule",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleAutonomousDatabase) ResetMaintenancePatchLevel() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetMaintenancePatchLevel",
 		nil, // no parameters
 	)
 }

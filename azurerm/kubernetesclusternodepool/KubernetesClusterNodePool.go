@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool}.
 type KubernetesClusterNodePool interface {
 	cdktn.TerraformResource
 	AutoScalingEnabled() interface{}
@@ -152,6 +152,8 @@ type KubernetesClusterNodePool interface {
 	ScaleDownMode() *string
 	SetScaleDownMode(val *string)
 	ScaleDownModeInput() *string
+	Security() KubernetesClusterNodePoolSecurityOutputReference
+	SecurityInput() *KubernetesClusterNodePoolSecurity
 	SnapshotId() *string
 	SetSnapshotId(val *string)
 	SnapshotIdInput() *string
@@ -273,6 +275,7 @@ type KubernetesClusterNodePool interface {
 	PutKubeletConfig(value *KubernetesClusterNodePoolKubeletConfig)
 	PutLinuxOsConfig(value *KubernetesClusterNodePoolLinuxOsConfig)
 	PutNodeNetworkProfile(value *KubernetesClusterNodePoolNodeNetworkProfile)
+	PutSecurity(value *KubernetesClusterNodePoolSecurity)
 	PutTimeouts(value *KubernetesClusterNodePoolTimeouts)
 	PutUpgradeSettings(value *KubernetesClusterNodePoolUpgradeSettings)
 	PutWindowsProfile(value *KubernetesClusterNodePoolWindowsProfile)
@@ -323,6 +326,7 @@ type KubernetesClusterNodePool interface {
 	ResetPriority()
 	ResetProximityPlacementGroupId()
 	ResetScaleDownMode()
+	ResetSecurity()
 	ResetSnapshotId()
 	ResetSpotMaxPrice()
 	ResetTags()
@@ -1162,6 +1166,26 @@ func (j *jsiiProxy_KubernetesClusterNodePool) ScaleDownModeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_KubernetesClusterNodePool) Security() KubernetesClusterNodePoolSecurityOutputReference {
+	var returns KubernetesClusterNodePoolSecurityOutputReference
+	_jsii_.Get(
+		j,
+		"security",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KubernetesClusterNodePool) SecurityInput() *KubernetesClusterNodePoolSecurity {
+	var returns *KubernetesClusterNodePoolSecurity
+	_jsii_.Get(
+		j,
+		"securityInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_KubernetesClusterNodePool) SnapshotId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1433,7 +1457,7 @@ func (j *jsiiProxy_KubernetesClusterNodePool) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool} Resource.
 func NewKubernetesClusterNodePool(scope constructs.Construct, id *string, config *KubernetesClusterNodePoolConfig) KubernetesClusterNodePool {
 	_init_.Initialize()
 
@@ -1451,7 +1475,7 @@ func NewKubernetesClusterNodePool(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool} Resource.
 func NewKubernetesClusterNodePool_Override(k KubernetesClusterNodePool, scope constructs.Construct, id *string, config *KubernetesClusterNodePoolConfig) {
 	_init_.Initialize()
 
@@ -2361,6 +2385,17 @@ func (k *jsiiProxy_KubernetesClusterNodePool) PutNodeNetworkProfile(value *Kuber
 	)
 }
 
+func (k *jsiiProxy_KubernetesClusterNodePool) PutSecurity(value *KubernetesClusterNodePoolSecurity) {
+	if err := k.validatePutSecurityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		k,
+		"putSecurity",
+		[]interface{}{value},
+	)
+}
+
 func (k *jsiiProxy_KubernetesClusterNodePool) PutTimeouts(value *KubernetesClusterNodePoolTimeouts) {
 	if err := k.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -2657,6 +2692,14 @@ func (k *jsiiProxy_KubernetesClusterNodePool) ResetScaleDownMode() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetScaleDownMode",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KubernetesClusterNodePool) ResetSecurity() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetSecurity",
 		nil, // no parameters
 	)
 }
