@@ -47,6 +47,10 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) vali
 	return nil
 }
 
+func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) validatePutExceptionParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) validatePutExclusionParameters(value interface{}) error {
 	return nil
 }

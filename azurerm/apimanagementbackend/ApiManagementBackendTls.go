@@ -5,9 +5,13 @@ package apimanagementbackend
 
 
 type ApiManagementBackendTls struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_backend#validate_certificate_chain ApiManagementBackend#validate_certificate_chain}.
+	// Flag indicating whether SSL certificate chain validation should be done when using self-signed certificates for the backend host.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_backend#validate_certificate_chain ApiManagementBackend#validate_certificate_chain}
 	ValidateCertificateChain interface{} `field:"optional" json:"validateCertificateChain" yaml:"validateCertificateChain"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_backend#validate_certificate_name ApiManagementBackend#validate_certificate_name}.
+	// Flag indicating whether SSL certificate name validation should be done when using self-signed certificates for the backend host.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_backend#validate_certificate_name ApiManagementBackend#validate_certificate_name}
 	ValidateCertificateName interface{} `field:"optional" json:"validateCertificateName" yaml:"validateCertificateName"`
 }
 

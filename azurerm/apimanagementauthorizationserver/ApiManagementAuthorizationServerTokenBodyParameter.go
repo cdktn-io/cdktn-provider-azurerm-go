@@ -5,9 +5,13 @@ package apimanagementauthorizationserver
 
 
 type ApiManagementAuthorizationServerTokenBodyParameter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#name ApiManagementAuthorizationServer#name}.
+	// The Name of the Parameter.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#name ApiManagementAuthorizationServer#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#value ApiManagementAuthorizationServer#value}.
+	// The Value of the Parameter.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#value ApiManagementAuthorizationServer#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 }
 

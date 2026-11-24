@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/cognitive_account_project_connection_entra_id azurerm_cognitive_account_project_connection_entra_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/cognitive_account_project_connection_entra_id azurerm_cognitive_account_project_connection_entra_id}.
 type CognitiveAccountProjectConnectionEntraId interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_CognitiveAccountProjectConnectionEntraId) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/cognitive_account_project_connection_entra_id azurerm_cognitive_account_project_connection_entra_id} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/cognitive_account_project_connection_entra_id azurerm_cognitive_account_project_connection_entra_id} Resource.
 func NewCognitiveAccountProjectConnectionEntraId(scope constructs.Construct, id *string, config *CognitiveAccountProjectConnectionEntraIdConfig) CognitiveAccountProjectConnectionEntraId {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewCognitiveAccountProjectConnectionEntraId(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/cognitive_account_project_connection_entra_id azurerm_cognitive_account_project_connection_entra_id} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/cognitive_account_project_connection_entra_id azurerm_cognitive_account_project_connection_entra_id} Resource.
 func NewCognitiveAccountProjectConnectionEntraId_Override(c CognitiveAccountProjectConnectionEntraId, scope constructs.Construct, id *string, config *CognitiveAccountProjectConnectionEntraIdConfig) {
 	_init_.Initialize()
 

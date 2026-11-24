@@ -5,7 +5,9 @@ package apimanagement
 
 
 type ApiManagementVirtualNetworkConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#subnet_id ApiManagement#subnet_id}.
+	// The ID of the subnet that will be used for the API Management.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#subnet_id ApiManagement#subnet_id}
 	SubnetId *string `field:"required" json:"subnetId" yaml:"subnetId"`
 }
 

@@ -5,11 +5,17 @@ package apimanagement
 
 
 type ApiManagementCertificate struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}.
+	// The Base64 Encoded PFX or Base64 Encoded X.509 Certificate.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}
 	EncodedCertificate *string `field:"required" json:"encodedCertificate" yaml:"encodedCertificate"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#store_name ApiManagement#store_name}.
+	// The name of the Certificate Store where this certificate should be stored.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#store_name ApiManagement#store_name}
 	StoreName *string `field:"required" json:"storeName" yaml:"storeName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.
+	// The password for the certificate.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}
 	CertificatePassword *string `field:"optional" json:"certificatePassword" yaml:"certificatePassword"`
 }
 

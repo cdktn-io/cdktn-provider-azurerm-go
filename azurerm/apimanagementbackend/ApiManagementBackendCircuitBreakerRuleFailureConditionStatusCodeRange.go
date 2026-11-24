@@ -5,9 +5,13 @@ package apimanagementbackend
 
 
 type ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_backend#max ApiManagementBackend#max}.
+	// The maximum HTTP status code to consider as a failure.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_backend#max ApiManagementBackend#max}
 	Max *float64 `field:"required" json:"max" yaml:"max"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_backend#min ApiManagementBackend#min}.
+	// The minimum HTTP status code to consider as a failure.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_backend#min ApiManagementBackend#min}
 	Min *float64 `field:"required" json:"min" yaml:"min"`
 }
 

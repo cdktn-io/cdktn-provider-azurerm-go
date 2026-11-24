@@ -5,7 +5,7 @@ package dataazurermstorageaccountstaticwebsite
 
 
 type DataAzurermStorageAccountStaticWebsiteTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/storage_account_static_website#read DataAzurermStorageAccountStaticWebsite#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/storage_account_static_website#read DataAzurermStorageAccountStaticWebsite#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

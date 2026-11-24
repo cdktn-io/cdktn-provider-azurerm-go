@@ -5,17 +5,17 @@ package pimeligibleroleassignment
 
 
 type PimEligibleRoleAssignmentScheduleExpiration struct {
-	// The duration of the eligible role assignment in days.
+	// The duration of the eligible Role Assignment in days.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_eligible_role_assignment#duration_days PimEligibleRoleAssignment#duration_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_eligible_role_assignment#duration_days PimEligibleRoleAssignment#duration_days}
 	DurationDays *float64 `field:"optional" json:"durationDays" yaml:"durationDays"`
-	// The duration of the eligible role assignment in hours.
+	// The duration of the eligible Role Assignment in hours.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_eligible_role_assignment#duration_hours PimEligibleRoleAssignment#duration_hours}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_eligible_role_assignment#duration_hours PimEligibleRoleAssignment#duration_hours}
 	DurationHours *float64 `field:"optional" json:"durationHours" yaml:"durationHours"`
-	// The end date/time of the eligible role assignment.
+	// The end date/time of the eligible Role Assignment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_eligible_role_assignment#end_date_time PimEligibleRoleAssignment#end_date_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_eligible_role_assignment#end_date_time PimEligibleRoleAssignment#end_date_time}
 	EndDateTime *string `field:"optional" json:"endDateTime" yaml:"endDateTime"`
 }
 

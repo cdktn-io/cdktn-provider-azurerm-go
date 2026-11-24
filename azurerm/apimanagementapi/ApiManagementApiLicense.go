@@ -5,9 +5,13 @@ package apimanagementapi
 
 
 type ApiManagementApiLicense struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api#name ApiManagementApi#name}.
+	// The name of the license.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api#name ApiManagementApi#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api#url ApiManagementApi#url}.
+	// Absolute URL of the license.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api#url ApiManagementApi#url}
 	Url *string `field:"optional" json:"url" yaml:"url"`
 }
 

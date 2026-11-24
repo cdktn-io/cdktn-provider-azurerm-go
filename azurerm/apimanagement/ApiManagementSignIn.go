@@ -5,7 +5,9 @@ package apimanagement
 
 
 type ApiManagementSignIn struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#enabled ApiManagement#enabled}.
+	// Should anonymous users be redirected to the sign in page?
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#enabled ApiManagement#enabled}
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
 }
 

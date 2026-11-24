@@ -28,6 +28,8 @@ type WebApplicationFirewallPolicyManagedRulesOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Exception() WebApplicationFirewallPolicyManagedRulesExceptionList
+	ExceptionInput() interface{}
 	Exclusion() WebApplicationFirewallPolicyManagedRulesExclusionList
 	ExclusionInput() interface{}
 	// Experimental.
@@ -68,8 +70,10 @@ type WebApplicationFirewallPolicyManagedRulesOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutException(value interface{})
 	PutExclusion(value interface{})
 	PutManagedRuleSet(value interface{})
+	ResetException()
 	ResetExclusion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -111,6 +115,26 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) Crea
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) Exception() WebApplicationFirewallPolicyManagedRulesExceptionList {
+	var returns WebApplicationFirewallPolicyManagedRulesExceptionList
+	_jsii_.Get(
+		j,
+		"exception",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) ExceptionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"exceptionInput",
 		&returns,
 	)
 	return returns
@@ -465,6 +489,17 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) Inte
 	return returns
 }
 
+func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) PutException(value interface{}) {
+	if err := w.validatePutExceptionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putException",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) PutExclusion(value interface{}) {
 	if err := w.validatePutExclusionParameters(value); err != nil {
 		panic(err)
@@ -484,6 +519,14 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) PutM
 		w,
 		"putManagedRuleSet",
 		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesOutputReference) ResetException() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetException",
+		nil, // no parameters
 	)
 }
 

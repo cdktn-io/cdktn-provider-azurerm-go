@@ -22,24 +22,24 @@ type DataProtectionBackupInstanceCosmosdbAccountConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account#cosmosdb_account_id DataProtectionBackupInstanceCosmosdbAccount#cosmosdb_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/data_protection_backup_instance_cosmosdb_account#cosmosdb_account_id DataProtectionBackupInstanceCosmosdbAccount#cosmosdb_account_id}.
 	CosmosdbAccountId *string `field:"required" json:"cosmosdbAccountId" yaml:"cosmosdbAccountId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account#data_protection_backup_policy_cosmosdb_account_id DataProtectionBackupInstanceCosmosdbAccount#data_protection_backup_policy_cosmosdb_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/data_protection_backup_instance_cosmosdb_account#data_protection_backup_policy_cosmosdb_account_id DataProtectionBackupInstanceCosmosdbAccount#data_protection_backup_policy_cosmosdb_account_id}.
 	DataProtectionBackupPolicyCosmosdbAccountId *string `field:"required" json:"dataProtectionBackupPolicyCosmosdbAccountId" yaml:"dataProtectionBackupPolicyCosmosdbAccountId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account#data_protection_backup_vault_id DataProtectionBackupInstanceCosmosdbAccount#data_protection_backup_vault_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/data_protection_backup_instance_cosmosdb_account#data_protection_backup_vault_id DataProtectionBackupInstanceCosmosdbAccount#data_protection_backup_vault_id}.
 	DataProtectionBackupVaultId *string `field:"required" json:"dataProtectionBackupVaultId" yaml:"dataProtectionBackupVaultId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account#location DataProtectionBackupInstanceCosmosdbAccount#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/data_protection_backup_instance_cosmosdb_account#location DataProtectionBackupInstanceCosmosdbAccount#location}.
 	Location *string `field:"required" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account#name DataProtectionBackupInstanceCosmosdbAccount#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/data_protection_backup_instance_cosmosdb_account#name DataProtectionBackupInstanceCosmosdbAccount#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account#id DataProtectionBackupInstanceCosmosdbAccount#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/data_protection_backup_instance_cosmosdb_account#id DataProtectionBackupInstanceCosmosdbAccount#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account#timeouts DataProtectionBackupInstanceCosmosdbAccount#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/data_protection_backup_instance_cosmosdb_account#timeouts DataProtectionBackupInstanceCosmosdbAccount#timeouts}
 	Timeouts *DataProtectionBackupInstanceCosmosdbAccountTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

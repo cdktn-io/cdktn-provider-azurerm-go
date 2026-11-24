@@ -5,19 +5,21 @@ package apimanagementapioperation
 
 
 type ApiManagementApiOperationRequest struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#description ApiManagementApiOperation#description}.
+	// A description of the HTTP Request, which may include HTML tags.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#description ApiManagementApiOperation#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// header block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#header ApiManagementApiOperation#header}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#header ApiManagementApiOperation#header}
 	Header interface{} `field:"optional" json:"header" yaml:"header"`
 	// query_parameter block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#query_parameter ApiManagementApiOperation#query_parameter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#query_parameter ApiManagementApiOperation#query_parameter}
 	QueryParameter interface{} `field:"optional" json:"queryParameter" yaml:"queryParameter"`
 	// representation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#representation ApiManagementApiOperation#representation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#representation ApiManagementApiOperation#representation}
 	Representation interface{} `field:"optional" json:"representation" yaml:"representation"`
 }
 

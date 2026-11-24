@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/relay_namespace azurerm_relay_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/relay_namespace azurerm_relay_namespace}.
 type DataAzurermRelayNamespace interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -445,7 +445,7 @@ func (j *jsiiProxy_DataAzurermRelayNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/relay_namespace azurerm_relay_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/relay_namespace azurerm_relay_namespace} Data Source.
 func NewDataAzurermRelayNamespace(scope constructs.Construct, id *string, config *DataAzurermRelayNamespaceConfig) DataAzurermRelayNamespace {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewDataAzurermRelayNamespace(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/relay_namespace azurerm_relay_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/relay_namespace azurerm_relay_namespace} Data Source.
 func NewDataAzurermRelayNamespace_Override(d DataAzurermRelayNamespace, scope constructs.Construct, id *string, config *DataAzurermRelayNamespaceConfig) {
 	_init_.Initialize()
 
